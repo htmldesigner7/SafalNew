@@ -1,0 +1,145 @@
+.footer {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-secondary);
+  padding: 80px 0 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* Col 1 */
+.brandCol {
+  flex: 0 0 320px;
+}
+
+.logo {
+  margin-bottom: 32px;
+}
+
+.companyDesc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a3a3a3;
+  margin-bottom: 32px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+  color: #d4d4d4;
+  margin-bottom: 32px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  color: #ffffff;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcon:hover {
+  opacity: 0.7;
+}
+
+/* Link Columns */
+.linkCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkColBordered {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 40px;
+}
+
+.colBlock {
+  margin-bottom: 40px;
+}
+
+.colBlock:last-child {
+  margin-bottom: 0;
+}
+
+.colTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.linkItem a {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.linkItem a:hover {
+  color: #ffffff;
+}
+
+/* Bottom Section */
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: #666666;
+}
+
+.bottomLinks a {
+  color: #666666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bottomLinks a:hover {
+  color: #a3a3a3;
+}
+
+@media (max-width: 1024px) {
+  .topSection {
+    flex-wrap: wrap;
+  }
+  .brandCol {
+    flex: 0 0 100%;
+    margin-bottom: 40px;
+  }
+  .linkColBordered {
+    border-left: none;
+    padding-left: 0;
+  }
+}

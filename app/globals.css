@@ -1,54 +1,69 @@
-/* @import "tailwindcss";
+@import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base Colors */
+  --color-bg-main: #0d0d0e;
+  --color-bg-light: #fdfcf7; /* Cream background for sections */
+  --color-text-main: #ffffff;
+  --color-text-dark: #111111;
+  --color-text-secondary: #d4d4d4;
+  --color-text-gray: #666666;
+  --color-text-muted: #a3a3a3;
+  --color-primary: #e35825;
+  --color-primary-hover: #c9491a;
+  --color-primary-light: rgba(227, 88, 37, 0.1);
+  --color-primary-border: rgba(227, 88, 37, 0.4);
+  --color-btn-dark: #111111;
+  --color-border-light: rgba(0, 0, 0, 0.08);
+
+  /* Graphic Colors */
+  --color-circle-yellow: #eab308;
+  --color-circle-lime: #bef264;
+  --color-circle-green: #a3e635;
+
+  /* Typography / Font Sizes */
+  --fs-hero-title: 72px;
+  --fs-hero-title-mobile: 42px;
+  --fs-hero-desc: 18px;
+  --fs-nav: 14px;
+  --fs-logo-strong: 18px;
+  --fs-logo-span: 10px;
+  --fs-label: 11px;
+
+  /* Fonts */
+  --font-main: var(--font-geist-sans), Arial, sans-serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-bg-main);
+  --color-foreground: var(--color-text-main);
+  --font-sans: var(--font-main);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+body {
+  background: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Container Classes */
+.container-1800 {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-1600 {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container-1800,
+  .container-1600 {
+    padding: 0 24px;
   }
-}
-
-body {} */
-
-
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-html,
-body{
-  width:100%;
-  overflow-x:hidden;
-  font-family:sans-serif;
-  background:#f5f1e8;
-}
-
-a{
-  text-decoration:none;
-}
-
-img{
-  max-width:100%;
-  display:block;
-}
-
-.container{
-  width:100%;
-  max-width:1300px;
-  margin:auto;
-  padding:0 20px;
 }

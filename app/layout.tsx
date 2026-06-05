@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,13 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Safal",
-  description: "ERP Software Development Company in Gujarat, India | SAFAL ",
-  icons: {
-    icon: "/logo.png",
-  }
+  title: "Safal App",
+  description: "Simple new project setup",
 };
-
 
 export default function RootLayout({
   children,
@@ -29,15 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body>
-        <Navbar />
-        <main>
-          {children}
-        </main>
+    <html lang="" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
+        {children}
         <Footer />
       </body>
     </html>
