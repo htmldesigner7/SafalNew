@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -19,4 +19,36 @@
   }
 }
 
-body {}
+body {} */
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+  font-family:sans-serif;
+  background:#f5f1e8;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+.container{
+  width:100%;
+  max-width:1300px;
+  margin:auto;
+  padding:0 20px;
+}
