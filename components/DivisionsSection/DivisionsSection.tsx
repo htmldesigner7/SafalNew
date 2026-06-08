@@ -3,10 +3,10 @@ import styles from './DivisionsSection.module.css';
 
 export default function DivisionsSection() {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
         <header className={styles.header}>
-          <h2 className={styles.title}>A Diversified Technology Group.</h2>
+          <h2 className="title_60">A Diversified Technology Group.</h2>
           <p className={styles.subtitle}>
             We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don't just build software—we engineer the unified ecosystems that power the world's most complex organizations.
           </p>

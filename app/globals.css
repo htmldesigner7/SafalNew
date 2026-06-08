@@ -1,27 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  /* Base Colors */
-  --color-bg-main: #0d0d0e;
-  --color-bg-light: #fdfcf7; /* Cream background for sections */
-  --color-text-main: #ffffff;
-  --color-text-dark: #111111;
-  --color-text-secondary: #d4d4d4;
-  --color-text-gray: #666666;
-  --color-text-muted: #a3a3a3;
-  --color-primary: #e35825;
-  --color-primary-hover: #c9491a;
-  --color-primary-light: rgba(227, 88, 37, 0.1);
-  --color-primary-border: rgba(227, 88, 37, 0.4);
-  --color-btn-dark: #111111;
-  --color-border-light: rgba(0, 0, 0, 0.08);
-
-  /* Graphic Colors */
+  --color-bg-main: #FFFBEE;
+  --white: #ffffff;
+  --black-111: #111111;
+  --grey-666: #666666;
+  --red: #D54B26;
   --color-circle-yellow: #eab308;
   --color-circle-lime: #bef264;
   --color-circle-green: #a3e635;
-
-  /* Typography / Font Sizes */
   --fs-hero-title: 72px;
   --fs-hero-title-mobile: 42px;
   --fs-hero-desc: 18px;
@@ -31,21 +18,91 @@
   --fs-label: 11px;
 
   /* Fonts */
-  --font-main: var(--font-geist-sans), Arial, sans-serif;
+  --font-main: var(--font-body), sans-serif;
 }
 
 @theme inline {
   --color-background: var(--color-bg-main);
-  --color-foreground: var(--color-text-main);
+  --color-foreground: var(--white);
   --font-sans: var(--font-main);
 }
 
 body {
   background: var(--color-bg-main);
-  color: var(--color-text-main);
-  font-family: var(--font-main);
+  color: var(--grey-666);
+  font-family: var(--font-body), sans-serif;
+  font-size: 18px;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+}
+
+p
+{
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+
+.mt_80 {
+  margin-top: 80px;
+}
+
+.title_60 {
+  color: var(--black-111);
+  font-family: var(--font-heading), "Familjen Grotesk", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+  margin-bottom: 40px;
+}
+
+/* Global Buttons */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 14px 54px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+}
+
+.btn-primary:hover {
+  /* background-color: var(--red); */
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 14px 54px;
+  border: 1px solid rgba(227, 88, 37, 0.4);
+  color: var(--white);
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  /* background-color: var(--red); */
+  /* border-color: var(--red); */
 }
 
 /* Global Container Classes */
@@ -62,6 +119,7 @@ body {
 }
 
 @media (max-width: 1024px) {
+
   .container-1800,
   .container-1600 {
     padding: 0 24px;

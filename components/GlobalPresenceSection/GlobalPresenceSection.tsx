@@ -4,12 +4,12 @@ import styles from './GlobalPresenceSection.module.css';
 
 export default function GlobalPresenceSection() {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className={`container-1600 ${styles.container}`}>
         
         {/* Left Content */}
         <div className={styles.textContent}>
-          <h2 className={styles.title}>A Diversified Technology<br/>Group.</h2>
+          <h2 className="title_60">A Diversified Technology<br/>Group.</h2>
           
           <div className={styles.descriptionGroup}>
             <p className={styles.description}>
@@ -23,7 +23,7 @@ export default function GlobalPresenceSection() {
             </p>
           </div>
           
-          <Link href="#product" className={styles.btnOutline}>
+          <Link href="#product" className="btn-outline">
             Visit our Product
           </Link>
         </div>

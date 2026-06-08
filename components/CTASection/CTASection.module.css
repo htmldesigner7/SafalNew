@@ -1,6 +1,6 @@
 .section {
-  background-color: var(--color-bg-light);
-  padding: 120px 0;
+  background-color: var(--color-bg-main);
+  color: var(--white);
   overflow: hidden;
   position: relative;
 }
@@ -30,7 +30,7 @@
 .title {
   font-size: 42px;
   font-weight: 600;
-  color: var(--color-text-dark);
+  color: var(--black-111);
   margin-bottom: 32px;
   line-height: 1.15;
   letter-spacing: -0.5px;
@@ -38,7 +38,7 @@
 
 .description {
   font-size: 14px;
-  color: var(--color-text-gray);
+  color: var(--grey-666);
   line-height: 1.6;
   margin-bottom: 40px;
 }
@@ -75,7 +75,8 @@
   width: 100%;
   max-width: 800px;
   height: 500px;
-  margin-right: -100px; /* Pull it slightly to the right edge */
+  margin-right: -100px;
+  /* Pull it slightly to the right edge */
 }
 
 /* Optional: if the user image doesn't have the fade built-in, we can apply a CSS mask */
@@ -112,18 +113,18 @@
   .container {
     flex-direction: column;
   }
-  
+
   .textContent {
     max-width: 100%;
     margin-bottom: 40px;
     text-align: center;
   }
-  
+
   .graphicContent {
     width: 100%;
     justify-content: center;
   }
-  
+
   .imageWrapper {
     margin-right: 0;
     height: 400px;
@@ -134,7 +135,7 @@
   .title {
     font-size: 32px;
   }
-  
+
   .subtitle {
     font-size: 18px;
   }

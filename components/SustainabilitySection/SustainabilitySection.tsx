@@ -4,7 +4,7 @@ import styles from './SustainabilitySection.module.css';
 
 export default function SustainabilitySection() {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       {/* Background Leaves Graphic Placeholder */}
       <div className={styles.bgLeaves}></div>
 
@@ -12,7 +12,7 @@ export default function SustainabilitySection() {
         
         {/* Top Left Text */}
         <div className={styles.topLeft}>
-          <h2 className={styles.title}>Our imprint on the world</h2>
+          <h2 className="title_60">Our imprint on the world</h2>
           <div className={styles.textContent}>
             <p className={styles.description}>
               We believe a technology company's most lasting impact isn't measured in revenue — it's measured in people developed, industries transformed, and responsibility exercised at every level of operation.
@@ -37,8 +37,8 @@ export default function SustainabilitySection() {
 
         {/* Bottom Right Text */}
         <div className={styles.bottomRight}>
-          <h2 className={styles.titleBottom}>goes beyond software.</h2>
-          <Link href="#sustainability" className={styles.btnOutline}>
+          <h2 className="title_60">goes beyond software.</h2>
+          <Link href="#sustainability" className="btn-outline">
             Read our Sustainability Commitments
           </Link>
         </div>

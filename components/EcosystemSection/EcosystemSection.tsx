@@ -76,9 +76,9 @@ export default function EcosystemSection() {
   const activeProduct = products.find(p => p.id === activeTab) || products[0];
 
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
-        <h2 className={styles.sectionTitle}>Our Digital Product Ecosystem</h2>
+        <h2 className="title_60">Our Digital Product Ecosystem</h2>
         
         {/* Navigation Tabs */}
         <div className={styles.tabsContainer}>
@@ -113,7 +113,7 @@ export default function EcosystemSection() {
                   <span className={styles.logoSubtext}>{activeProduct.logoSubtext}</span>
                 </div>
               </div>
-              <Link href={activeProduct.link} className={styles.btnOutline}>
+              <Link href={activeProduct.link} className="btn-outline">
                 Visit our Product
               </Link>
             </div>

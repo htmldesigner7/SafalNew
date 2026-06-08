@@ -77,85 +77,97 @@ export default function SolutionsSection() {
   const activeSolution = solutions.find(s => s.id === activeTab) || solutions[0];
 
   return (
-    <section className={styles.section}>
-      <div className="container-1600">
-        
-        {/* Top Header */}
-        <header className={styles.header}>
-          <h2 className={styles.title}>A Diversified Technology Group.</h2>
-          <p className={styles.subtitle}>
-            We are a diversified technology holding company engineering the future of global enterprise. Operating at the intersection of agentic AI, industrial automation, and strategic advisory, we unify complex systems to accelerate growth. We don't just build software; we architect the frameworks that power industry leaders worldwide.
-          </p>
-        </header>
+    <>
+      <section className={`${styles.section} mt_80`}>
+        <div className="container-1600">
 
-        {/* Stats Row */}
-        <div className={styles.statsRow}>
-          <div className={styles.statCard}>
-            <div className={styles.statValue}>₹174 Crore</div>
-            <div className={styles.statDivider}></div>
-            <div className={styles.statLabel}>Strategic Exit Achieved.</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statValue}>25,000+</div>
-            <div className={styles.statDivider}></div>
-            <div className={styles.statLabel}>Active Global Users.</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statValue}>15+</div>
-            <div className={styles.statDivider}></div>
-            <div className={styles.statLabel}>Countries Deployed.</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statValue}>500,000+</div>
-            <div className={styles.statDivider}></div>
-            <div className={styles.statLabel}>Industrial Products Managed.</div>
-          </div>
-        </div>
+          {/* Top Header */}
+          <header className={styles.header}>
+            <h2 className="title_60">A Diversified Technology Group.</h2>
+            <p className={styles.subtitle}>
+              We are a diversified technology holding company engineering the future of global enterprise. Operating at the intersection of agentic AI, industrial automation, and strategic advisory, we unify complex systems to accelerate growth. We don't just build software; we architect the frameworks that power industry leaders worldwide.
+            </p>
+          </header>
 
-        {/* Solutions Section Title */}
-        <h3 className={styles.solutionsTitle}>Comprehensive technology and business solutions.</h3>
-
-        {/* Main Interactive Block */}
-        <div className={styles.interactiveBlock}>
-          
-          {/* Vertical Tabs */}
-          <div className={styles.tabsCol}>
-            {solutions.map((solution) => (
-              <button
-                key={solution.id}
-                className={`${styles.tabBtn} ${activeTab === solution.id ? styles.activeTab : ''}`}
-                onClick={() => setActiveTab(solution.id)}
-              >
-                {solution.shortTitle}
-              </button>
-            ))}
-          </div>
-
-          {/* Content Area */}
-          <div className={styles.contentCol}>
-            <div className={styles.imageWrapper}>
-              <Image 
-                src={activeSolution.image} 
-                alt={activeSolution.title} 
-                fill 
-                className={styles.solutionImage} 
-              />
+          {/* Stats Row */}
+          <div className={styles.statsRow}>
+            <div className={styles.statCard}>
+              <div className={styles.statValue}>₹174 Crore</div>
+              <div className={styles.statDivider}></div>
+              <p>Strategic Exit Achieved.</p>
             </div>
-            
-            <div className={styles.textContent}>
-              <h4 className={styles.contentTitle}>{activeSolution.title}</h4>
-              <p className={styles.description}>{activeSolution.description}</p>
-              <p className={styles.description}>{activeSolution.description2}</p>
-              
-              <Link href="#explore" className={styles.btnOutline}>
-                Explore More
-              </Link>
+            <div className={styles.statCard}>
+              <div className={styles.statValue}>25,000+</div>
+              <div className={styles.statDivider}></div>
+              <p>Active Global Users.</p>
+            </div>
+            <div className={styles.statCard}>
+              <div className={styles.statValue}>15+</div>
+              <div className={styles.statDivider}></div>
+              <p>Countries Deployed.</p>
+            </div>
+            <div className={styles.statCard}>
+              <div className={styles.statValue}>500,000+</div>
+              <div className={styles.statDivider}></div>
+              <p>Industrial Products Managed.</p>
             </div>
           </div>
 
         </div>
+      </section>
 
-      </div>
-    </section>
+      <section className={`${styles.section} mt_80`}>
+        <div className="container-1600">
+
+          {/* Top Header */}
+          <header className={styles.header}>
+            <h2 className="title_60">Comprehensive technology and business solutions.</h2>
+          </header>
+
+          <div className={styles.interactiveBlock}>
+
+            {/* Vertical Tabs */}
+            <div className={styles.tabsCol}>
+              {solutions.map((solution) => (
+                <button
+                  key={solution.id}
+                  className={`${styles.tabBtn} ${activeTab === solution.id ? styles.activeTab : ''}`}
+                  onClick={() => setActiveTab(solution.id)}
+                >
+                  {solution.shortTitle}
+                </button>
+              ))}
+            </div>
+
+            {/* Content Area */}
+            <div className={styles.contentCol}>
+              <div className={styles.imageWrapper}>
+                <Image
+                  src={activeSolution.image}
+                  alt={activeSolution.title}
+                  fill
+                  className={styles.solutionImage}
+                />
+              </div>
+
+              <div className={styles.textContent}>
+                <h4 className={styles.contentTitle}>{activeSolution.title}</h4>
+                <p className={styles.description}>{activeSolution.description}</p>
+                <p className={styles.description}>{activeSolution.description2}</p>
+
+                <Link href="#explore" className="btn-outline">
+                  Explore More
+                </Link>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </>
+
   );
 }
+

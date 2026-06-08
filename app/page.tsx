@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <DivisionsSection />
       <SolutionsSection />
+      <DivisionsSection />
+      <EcosystemSection />
+       <SustainabilitySection />
       <SectorsSection />
       <GlobalPresenceSection />
-      <EcosystemSection />
       <InvestorsSection />
-      <SustainabilitySection />
       <CTASection />
     </main>
   );

@@ -1,0 +1,133 @@
+.intelligenceSection {
+  background-color: var(--color-bg-light);
+  color: var(--black-111);
+  position: relative;
+  overflow: hidden;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='1' fill='rgba(0,0,0,0.05)'/%3E%3C/svg%3E");
+}
+
+.orbitContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring1,
+.ring2,
+.ring3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+
+.ring1 {
+  width: 500px;
+  height: 500px;
+}
+
+.ring2 {
+  width: 700px;
+  height: 700px;
+}
+
+.ring3 {
+  width: 900px;
+  height: 900px;
+}
+
+.iconWrapper {
+  position: absolute;
+  z-index: 2;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+.orbitIcon {
+  object-fit: contain;
+}
+
+.centerContent {
+  position: relative;
+  z-index: 3;
+  max-width: 450px;
+  text-align: center;
+  background: var(--color-bg-light);
+  padding: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 40px var(--color-bg-light);
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  margin-bottom: 32px;
+}
+
+.exploreBtn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.exploreBtn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+@media (max-width: 1024px) {
+  .orbitContainer {
+    height: 600px;
+  }
+
+  .ring3 {
+    display: none;
+  }
+
+  .iconWrapper {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 768px) {
+  .orbitContainer {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .ring1,
+  .ring2 {
+    display: none;
+  }
+
+  .iconWrapper {
+    display: none;
+  }
+
+  .centerContent {
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+}

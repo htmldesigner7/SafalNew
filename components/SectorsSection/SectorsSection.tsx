@@ -40,9 +40,9 @@ export default function SectorsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
-        <h2 className={styles.sectionTitle}>Transforming Sectors. Architecting the Future.</h2>
+        <h2 className="title_60">Transforming Sectors. Architecting the Future.</h2>
         
         <div className={styles.cardsContainer}>
           {sectors.map((sector, index) => {

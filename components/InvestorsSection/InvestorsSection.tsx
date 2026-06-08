@@ -3,10 +3,10 @@ import styles from './InvestorsSection.module.css';
 
 export default function InvestorsSection() {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
         <header className={styles.header}>
-          <h2 className={styles.title}>Where investor confidence meets partner potential</h2>
+          <h2 className="title_60">Where investor confidence meets partner potential</h2>
           <p className={styles.subtitle}>
             Safal Infosoft Group invites two kinds of partners — those who invest in our growth, and those who grow alongside us. Both relationships are built on transparency, shared ambition, and long-term value creation.
           </p>
@@ -27,7 +27,7 @@ export default function InvestorsSection() {
                 <li>Transparent business operations</li>
                 <li>Global market expansion opportunities</li>
               </ul>
-              <Link href="#investors" className={styles.btnOutline}>
+              <Link href="#investors" className="btn-outline">
                 Explore More
               </Link>
             </div>
@@ -42,7 +42,7 @@ export default function InvestorsSection() {
                 <li>Transparent business operations</li>
                 <li>Global market expansion opportunities</li>
               </ul>
-              <Link href="#partnerships" className={styles.btnOutline}>
+              <Link href="#partnerships" className="btn-outline">
                 Explore More
               </Link>
             </div>

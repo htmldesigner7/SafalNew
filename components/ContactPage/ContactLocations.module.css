@@ -1,0 +1,143 @@
+.locationSection {
+  background-color: var(--color-bg-light);
+  color: var(--black-111);
+  position: relative;
+  overflow: hidden;
+}
+
+.globeBg {
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  width: 900px;
+  height: 900px;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.globeImage {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.textContent {
+  max-width: 800px;
+  margin-bottom: 60px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 15px;
+  color: var(--grey-666);
+  line-height: 1.6;
+}
+
+.locationsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+
+.officeName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.indiaOfficeContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.addressItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.addressItem p {
+  font-size: 14px;
+  color: var(--grey-666);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contactItems {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contactItemsStacked {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contactItem p {
+  font-size: 14px;
+  color: var(--grey-666);
+  margin: 0;
+}
+
+.icon {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.06);
+  margin: 40px 0;
+}
+
+.bottomOfficesRow {
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.officeBlock {
+  flex: 1;
+  max-width: 350px;
+}
+
+@media (max-width: 768px) {
+  .indiaOfficeContent {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .bottomOfficesRow {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .globeBg {
+    right: -30%;
+  }
+}

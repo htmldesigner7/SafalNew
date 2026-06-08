@@ -1,41 +1,41 @@
 .heroSection {
-  background-color: var(--black-111);
-  background-image: url("../../public/images/hero-bg.png");
+  background-color: var(--color-bg-main);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 18v4M18 20h4' stroke='rgba(255,255,255,0.12)' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
   background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
 }
 
-/* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .logoIcon {
   width: 32px;
   height: 32px;
-  color: var(--black-111);
+  color: var(--white);
 }
 
 .logoText {
   display: flex;
   flex-direction: column;
   line-height: 1.1;
-  color: var(--black-111);
+  color: var(--white);
 }
 
 .logoText strong {
@@ -46,91 +46,71 @@
 
 .logoText span {
   font-size: var(--fs-logo-span);
-  color: var(--grey-666);
+  color: var(--color-text-muted);
   letter-spacing: 0.5px;
 }
 
 .navigation {
   display: flex;
-  gap: 60px;
+  gap: 36px;
   align-items: center;
 }
 
 .navLink {
-  color: var(--white);
-  font-size: 18px;
+  color: var(--color-text-secondary);
+  font-size: var(--fs-nav);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   transition: color 0.2s ease;
 }
 
 .navLink:hover {
-  /* color: var(--bla/ck-111); */
+  color: var(--white);
 }
 
 
 
-/* Main Content Layout */
 .contentContainer {
   display: flex;
   flex: 1;
   align-items: center;
   position: relative;
   z-index: 2;
-
+  margin-top: 40px;
 }
 
 .textContent {
   flex: 1;
-  max-width: 885px;
+  max-width: 700px;
   padding-right: 48px;
-  padding-bottom: 60px;
 }
 
 .title {
-color: var(--white);
-font-family: var(--font-heading);
-font-size: 80px;
-font-style: normal;
-font-weight: 600;
-line-height: 84px; 
-margin-bottom: 40px;
-}
-
-.title strong {
+  font-size: 56px;
+  line-height: 1.15;
+  margin-bottom: 24px;
   font-weight: 700;
-  display: block;
+  letter-spacing: -1px;
 }
 
 .description {
-color: var(--white);
-leading-trim: both;
-text-edge: cap;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 34px;
-margin-bottom: 40px;
+  max-width: 600px;
 }
 
-
-
-/* Right Side Graphic */
 .visualContent {
   flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  min-height: 600px;
 }
 
 .graphicWrapper {
   position: relative;
-  width: 650px;
-  height: 650px;
+  width: 600px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,9 +120,9 @@ margin-bottom: 40px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.6));
 }
 
-/* Media Queries */
 @media (max-width: 1024px) {
   .navigation {
     display: none;
@@ -151,12 +131,11 @@ margin-bottom: 40px;
   .contentContainer {
     flex-direction: column;
     text-align: center;
-    padding-top: 48px;
   }
 
   .textContent {
     padding-right: 0;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,22 +147,17 @@ margin-bottom: 40px;
 
   .visualContent {
     justify-content: center;
-    min-height: 400px;
     width: 100%;
   }
 
   .graphicWrapper {
-    margin-right: 0;
-    transform: scale(0.8);
+    width: 400px;
+    height: 400px;
   }
 }
 
 @media (max-width: 768px) {
   .title {
-    font-size: var(--fs-hero-title-mobile);
-  }
-
-  .graphicWrapper {
-    transform: scale(0.6);
+    font-size: 40px;
   }
 }

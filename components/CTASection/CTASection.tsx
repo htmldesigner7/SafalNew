@@ -4,19 +4,19 @@ import styles from './CTASection.module.css';
 
 export default function CTASection() {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} mt_80`}>
       <div className={`container-1600 ${styles.container}`}>
         
         {/* Left Content */}
         <div className={styles.textContent}>
           <span className={styles.subtitle}>You're the missing piece.</span>
-          <h2 className={styles.title}>Let's find the right key together.</h2>
+          <h2 className="title_60">Let's find the right key together.</h2>
           
           <p className={styles.description}>
             Whether you're evaluating enterprise software, exploring a technology partnership, looking to invest, or launching a startup — every great outcome starts with a single conversation. Tell us what you need. We'll connect you with exactly the right person from day one.
           </p>
           
-          <Link href="#contact" className={styles.btnOutline}>
+          <Link href="/contact" className="btn-outline">
             Start the Conversation
           </Link>
         </div>
