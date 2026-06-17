@@ -1,19 +1,8 @@
-.section {
-  background-color: var(--color-bg-main);
-  color: var(--white);
-  overflow: hidden;
-}
-
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
-}
-
-.textContent {
-  flex: 1;
-  max-width: 650px;
+  gap: 200px;
 }
 
 .title {
@@ -25,12 +14,6 @@
   letter-spacing: -0.5px;
 }
 
-.descriptionGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-bottom: 40px;
-}
 
 .description {
   font-size: 14px;
@@ -71,90 +54,4 @@
 
 .globeImage {
   object-fit: contain;
-}
-
-.badge {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 24px;
-  background: linear-gradient(135deg, rgba(227, 88, 37, 0.12) 0%, rgba(227, 88, 37, 0.05) 100%);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(227, 88, 37, 0.15);
-  border-radius: 30px;
-  color: var(--color-primary);
-  font-size: 14px;
-  font-weight: 500;
-  box-shadow: 0 4px 20px rgba(227, 88, 37, 0.05);
-  z-index: 2;
-  transition: transform 0.3s ease;
-  cursor: default;
-}
-
-.badge:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, rgba(227, 88, 37, 0.15) 0%, rgba(227, 88, 37, 0.08) 100%);
-}
-
-.dot {
-  width: 6px;
-  height: 6px;
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.badgeUsa {
-  top: 40%;
-  left: 0;
-}
-
-.badgeUae {
-  top: 32%;
-  right: 15%;
-}
-
-.badgeIndia {
-  bottom: 30%;
-  right: 25%;
-}
-
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .textContent {
-    max-width: 100%;
-  }
-
-  .graphicContent {
-    justify-content: center;
-    width: 100%;
-    margin-top: 40px;
-  }
-
-  .globeWrapper {
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-  }
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 32px;
-  }
-
-  .globeWrapper {
-    height: 400px;
-  }
-
-  .badge {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
 }

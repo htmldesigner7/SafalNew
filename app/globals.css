@@ -9,6 +9,7 @@
   --color-circle-yellow: #eab308;
   --color-circle-lime: #bef264;
   --color-circle-green: #a3e635;
+  --grey-ddd: #ddd;
   --fs-hero-title: 72px;
   --fs-hero-title-mobile: 42px;
   --fs-hero-desc: 18px;
@@ -55,6 +56,16 @@ p
   margin-top: 80px;
 }
 
+.mt_40 {
+  margin-top: 40px;
+}
+
+.my_40
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .title_60 {
   color: var(--black-111);
   font-family: var(--font-heading), "Familjen Grotesk", sans-serif;
@@ -63,6 +74,26 @@ p
   font-weight: 500;
   line-height: 64px;
   margin-bottom: 40px;
+}
+
+.title_40
+{
+color: var(--black-111);
+font-family: "Familjen Grotesk";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.title_24
+{
+color: var(--black-111);
+font-family: "Familjen Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 /* Global Buttons */
@@ -100,9 +131,20 @@ p
   cursor: pointer;
 }
 
+.btn-outline-red
+{
+  color: var(--red);
+}
+
 .btn-outline:hover {
   /* background-color: var(--red); */
   /* border-color: var(--red); */
+}
+
+img
+{
+  max-width: 100%;
+  height: auto;
 }
 
 /* Global Container Classes */
@@ -118,10 +160,14 @@ p
   width: 100%;
 }
 
-@media (max-width: 1024px) {
 
-  .container-1800,
-  .container-1600 {
-    padding: 0 24px;
-  }
+.header_sec
+{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header_sec .title_60
+{
+  margin-bottom: 0px;
 }

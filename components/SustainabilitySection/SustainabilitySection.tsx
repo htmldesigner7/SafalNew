@@ -5,43 +5,45 @@ import styles from './SustainabilitySection.module.css';
 export default function SustainabilitySection() {
   return (
     <section className={`${styles.section} mt_80`}>
-      {/* Background Leaves Graphic Placeholder */}
+      {/* Background Leaves Graphic */}
       <div className={styles.bgLeaves}></div>
 
       <div className={`container-1600 ${styles.container}`}>
-        
-        {/* Top Left Text */}
-        <div className={styles.topLeft}>
-          <h2 className="title_60">Our imprint on the world</h2>
+
+       <div className={styles.main}>
+         {/* Left Column (Top aligned) */}
+        <div className={styles.leftColumn}>
+          <h2 className='title_60' style={{ color: '#60853A' }}>Our imprint on the world</h2>
           <div className={styles.textContent}>
-            <p className={styles.description}>
+            <p>
               We believe a technology company's most lasting impact isn't measured in revenue — it's measured in people developed, industries transformed, and responsibility exercised at every level of operation.
             </p>
-            <p className={styles.description}>
+            <p>
               Across eight specialized divisions, Safal Infosoft Group operates with one constant: doing business in a way that creates value for our clients, our people, and the communities we work in — today and for the long term.
             </p>
           </div>
         </div>
 
-        {/* Center Graphic */}
-        <div className={styles.centerGraphic}>
+        {/* Center Column (Spans vertically) */}
+        <div className={styles.centerColumn}>
           <div className={styles.imageWrapper}>
-            <Image 
-              src="/sustainability-thumbprint.png" 
-              alt="Green Thumbprint" 
+            <Image
+              src="/images/green-fingerprint.jpg"
+              alt="Green Thumbprint"
               fill
-              className={styles.thumbprintImage} 
+              className={styles.fingerprintImage}
             />
           </div>
         </div>
 
-        {/* Bottom Right Text */}
-        <div className={styles.bottomRight}>
-          <h2 className="title_60">goes beyond software.</h2>
-          <Link href="#sustainability" className="btn-outline">
+        {/* Right Column (Bottom aligned) */}
+        <div className={styles.rightColumn}>
+          <h2 className='title_60' style={{ color: '#60853A' }}>goes beyond software.</h2>
+          <Link href="#sustainability" className='btn-outline btn-outline-red '>
             Read our Sustainability Commitments
           </Link>
         </div>
+       </div>
 
       </div>
     </section>

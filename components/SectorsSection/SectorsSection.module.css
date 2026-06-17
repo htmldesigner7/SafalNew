@@ -14,7 +14,7 @@
 
 .cardsContainer {
   display: flex;
-  height: 540px;
+  height: 700px;
   gap: 20px;
   width: 100%;
 }
@@ -28,7 +28,7 @@
 }
 
 .active {
-  flex: 4;
+  flex: 3;
   background-color: var(--color-bg-light);
   border: 1px solid var(--color-border-light);
   cursor: default;
@@ -38,7 +38,7 @@
 .inactive {
   flex: 1;
   min-width: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--grey-ddd);
 }
 
 /* Base styles for layered content */
@@ -72,44 +72,46 @@
   padding: 32px;
   display: flex;
   flex-direction: column;
-  min-width: 480px;
+  /* min-width: 480px; */
   /* Prevents text squashing when collapsing */
 }
 
-.activeNumber {
-  font-size: 42px;
-  font-weight: 500;
-  color: var(--color-primary);
-  line-height: 1;
-  display: block;
+.activeHeader {
   margin-bottom: 24px;
 }
 
+.activeNumber {
+  color: var(--red);
+  font-family: "Familjen Grotesk";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .activeTitle {
-  font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--black-111);
-  margin-bottom: 24px;
+  margin: 0;
 }
 
 .activeImageWrapper {
   position: relative;
   width: 100%;
-  height: 220px;
+  flex: 1;
+  min-height: 200px;
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .activeImage {
   object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
 }
 
-.activeDescription {
-  font-size: 13px;
-  color: var(--grey-666);
-  line-height: 1.6;
-}
 
 /* Inactive State Content */
 .inactiveContent {
@@ -119,6 +121,9 @@
 .inactiveBgImage {
   object-fit: cover;
   z-index: 1;
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .overlay {
@@ -127,7 +132,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.9) 100%);
+  background: linear-gradient(0deg, rgba(17, 17, 17, 0.70) 0%, rgba(17, 17, 17, 0.70) 100%);
   z-index: 2;
 }
 
@@ -137,22 +142,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   height: 100%;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
 }
 
 .inactiveNumber {
-  font-size: 32px;
+  color: var(--white);
+  font-family: "Familjen Grotesk";
+  font-size: 60px;
+  font-style: normal;
   font-weight: 400;
-  color: #ffffff;
-  line-height: 1;
+  line-height: normal;
 }
 
 .inactiveTitle {
-  font-size: 18px;
+  font-family: "Familjen Grotesk";
   font-weight: 500;
-  color: #ffffff;
-  letter-spacing: 0.5px;
+  color: var(--white);
+  font-size: 40px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  letter-spacing: 1px;
 }
 
 /* Media Queries */
@@ -192,5 +204,8 @@
 
   .inactiveTitle {
     font-size: 16px;
+    writing-mode: horizontal-tb;
+    transform: none;
+    letter-spacing: normal;
   }
 }

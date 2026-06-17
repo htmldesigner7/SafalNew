@@ -1,12 +1,10 @@
-.formSection {
-  background-color: var(--color-bg-light);
-  color: var(--black-111);
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
+.contact {
+ display: grid;
+ grid-template-columns: 4fr 8fr;
+ gap: 120px;
+ border-radius: 10px;
+ border: 1px solid var(--grey-ddd);
+ padding: 20px;
 }
 
 .leftColumn {
@@ -15,53 +13,41 @@
   flex-direction: column;
 }
 
-.heading {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 60px;
-  letter-spacing: -1px;
-}
-
 .imageWrapper {
   margin-top: auto;
 }
 
 .handshakeImage {
-  max-width: 100%;
-  height: auto;
-  opacity: 0.9;
+
   mix-blend-mode: multiply;
 }
 
 .rightColumn {
-  flex: 1.2;
-  background-color: #f7f6f0;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
-  padding: 60px;
+  background-color: #F4F0E3;
+  border-radius: 5px;
+  padding: 40px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .formRow {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .formGroup {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 18px;
   flex: 1;
 }
 
 .formGroup label {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--black-111);
 }
@@ -70,12 +56,12 @@
 .formGroup select,
 .formGroup textarea {
   width: 100%;
-  padding: 16px 20px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 18px 14px;
+  border: 1px solid #ADA891;
   background-color: transparent;
   border-radius: 4px;
-  font-size: 15px;
-  color: var(--black-111);
+  font-size: 16px;
+  color: var(--grey-666);
   font-family: inherit;
   transition: border-color 0.2s;
 }
@@ -114,24 +100,8 @@
   pointer-events: none;
 }
 
-.submitBtn {
-  align-self: flex-start;
-  padding: 14px 48px;
-  border: 1px solid var(--color-primary);
-  background: transparent;
-  color: var(--color-primary);
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s;
-  margin-top: 10px;
-}
 
-.submitBtn:hover {
-  background-color: var(--color-primary);
-  color: #fff;
-}
+
 
 @media (max-width: 1024px) {
   .container {
@@ -149,7 +119,5 @@
     gap: 30px;
   }
 
-  .heading {
-    font-size: 40px;
-  }
+ 
 }

@@ -1,142 +1,84 @@
 .section {
-  background-color: var(--color-bg-main);
-  color: var(--white);
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+  background-color: var(--color-bg-light); 
+  display: flex;
+  align-items: center;
 }
 
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  position: relative;
+  z-index: 2;
+  min-height: 450px;
 }
 
 .textContent {
-  flex: 1;
-  max-width: 550px;
+  flex: 0 0 850px;
+  max-width: 100%;
   position: relative;
-  z-index: 2;
 }
 
-.subtitle {
-  display: block;
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--color-primary);
-  margin-bottom: 16px;
-}
-
-.title {
-  font-size: 42px;
-  font-weight: 600;
-  color: var(--black-111);
-  margin-bottom: 32px;
-  line-height: 1.15;
-  letter-spacing: -0.5px;
-}
-
-.description {
-  font-size: 14px;
-  color: var(--grey-666);
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-.btnOutline {
-  display: inline-block;
-  padding: 12px 32px;
-  border: 1px solid rgba(227, 88, 37, 0.4);
-  color: var(--color-primary);
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  background-color: transparent;
-}
-
-.btnOutline:hover {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary);
-}
-
+/* This is absolutely positioned to the section, so it sticks to the right side of the screen! */
 .graphicContent {
-  flex: 1.2;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-}
-
-.imageWrapper {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  height: 500px;
-  margin-right: -100px;
-  /* Pull it slightly to the right edge */
-}
-
-/* Optional: if the user image doesn't have the fade built-in, we can apply a CSS mask */
-.imageWrapper::before {
-  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -2px;
-  width: 150px;
-  background: linear-gradient(to right, var(--color-bg-light) 0%, transparent 100%);
-  z-index: 2;
-  pointer-events: none;
+  right: 0;
+  width: 50vw; /* Takes up 55% of the viewport width */
+  z-index: 1;
+  pointer-events: none; /* So it doesn't block text selection */
 }
 
-.imageWrapper::after {
-  content: '';
+.imageWrapper {
   position: absolute;
-  bottom: -2px;
-  left: 0;
+  top: 0;
+  bottom: 0;
   right: 0;
-  height: 100px;
-  background: linear-gradient(to top, var(--color-bg-light) 0%, transparent 100%);
-  z-index: 2;
-  pointer-events: none;
+  left: 0;
+  /* Smoothly fade the image out on the left side to blend into the beige background */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%);
+  mask-image: linear-gradient(to right, transparent 0%, black 25%);
 }
 
 .graphicImage {
-  object-fit: contain;
-  object-position: right center;
+  object-fit: cover;
+  object-position: left center;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
+  .section {
+    padding-bottom: 0;
   }
 
+  .container {
+    min-height: auto;
+  }
+  
   .textContent {
-    max-width: 100%;
-    margin-bottom: 40px;
+    flex: auto;
+    width: 100%;
+    margin-bottom: 350px; /* Space for the absolute image */
     text-align: center;
   }
-
+  
   .graphicContent {
-    width: 100%;
-    justify-content: center;
+    top: auto;
+    bottom: 0;
+    width: 100vw;
+    height: 350px;
   }
-
+  
   .imageWrapper {
-    margin-right: 0;
-    height: 400px;
+    /* Change fade to top on mobile */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 25%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 25%);
   }
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 32px;
-  }
-
-  .subtitle {
-    font-size: 18px;
+  
+  .graphicImage {
+    object-position: center;
   }
 }

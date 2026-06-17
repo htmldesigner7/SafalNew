@@ -4,12 +4,13 @@ import styles from './ContactForm.module.css';
 export default function ContactForm() {
   return (
     <section className={`${styles.formSection} mt_80`}>
-      <div className={`${styles.container} container-1600`}>
-        <div className={styles.leftColumn}>
+      <div className="container-1600">
+        <div className={`${styles.contact}`}>
+          <div className={styles.leftColumn}>
           <h2 className="title_60">Connect with Our<br/>Global Team.</h2>
           <div className={styles.imageWrapper}>
              <Image 
-                src="/handshake.png" 
+                src="/images/Systemic-Ownership.webp" 
                 alt="Handshake" 
                 width={400} 
                 height={300}
@@ -54,10 +55,14 @@ export default function ContactForm() {
               <textarea placeholder="Briefly describe your project or requirements..." rows={4}></textarea>
             </div>
 
-            <button type="submit" className={styles.submitBtn}>
+            <div>
+              <button type="submit" className="btn-outline btn-outline-red">
               Submit
             </button>
+            </div>
+            
           </form>
+        </div>
         </div>
       </div>
     </section>

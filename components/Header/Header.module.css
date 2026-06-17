@@ -1,0 +1,48 @@
+.headerWrapper {
+  position: absolute; /* Ensures the header floats over the hero section */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--black-111);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navigation {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.navLink {
+  color: var(--white);
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  /* color: var(--red); */
+}
+
+@media (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+}

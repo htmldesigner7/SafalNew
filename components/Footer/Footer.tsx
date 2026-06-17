@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: About & Insights */}
-          <div className={styles.linkCol}>
+          <div className={styles.linkColBordered}>
             <div className={styles.colBlock}>
               <h4 className={styles.colTitle}>About</h4>
               <ul className={styles.linkList}>
