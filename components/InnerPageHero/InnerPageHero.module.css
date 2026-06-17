@@ -1,8 +1,8 @@
 .heroSection {
   background-color: var(--black-111);
-    background-image: url("../../public/images/hero-bg.png");
+    background-image: url("../../public/images/MasterLayoutBG.png");
   background-position: center center;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   display: flex;
   flex-direction: column;
   overflow: hidden;

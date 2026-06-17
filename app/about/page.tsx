@@ -1,19 +1,21 @@
 import {
   AboutHero,
-  AboutNetwork,
+  AboutSection,
   AboutCulture,
-  AboutArchitecture,
-  AboutIntelligence
+  ProcessSection,
+  AboutIntelligence,
+  EngineeringSection
 } from '@/components/AboutPage';
 
 export default function AboutPage() {
   return (
     <main>
       <AboutHero />
-      <AboutNetwork />
+      <AboutSection />
       <AboutCulture />
-      <AboutArchitecture />
+      <ProcessSection />
       <AboutIntelligence />
+      <EngineeringSection />
     </main>
   );
 }

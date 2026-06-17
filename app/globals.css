@@ -73,7 +73,7 @@ p
   font-style: normal;
   font-weight: 500;
   line-height: 64px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .title_40
@@ -170,4 +170,12 @@ img
 .header_sec .title_60
 {
   margin-bottom: 0px;
+}
+
+.title_24_para
+{
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; 
 }

@@ -1,0 +1,22 @@
+.aboutSection {
+  text-align: center;
+}
+
+.contentWrapper {
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+
+  @media (max-width: 768px) {
+  .aboutSection {
+    padding-top: 60px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .description {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}

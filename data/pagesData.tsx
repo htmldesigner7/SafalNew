@@ -17,7 +17,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Safal Infosoft is not just adapting to the future of global enterprise: we are building the infrastructure that powers it. From heavy industry automation to AI-driven ecosystems, we engineer the scale that moves markets.",
-      imageSrc: "/about/about_hero.png",
+      imageSrc: "/images/ourstory-banner.webp",
       imageAlt: "About Hero Graphic",
     }
   },

@@ -1,0 +1,77 @@
+.engineeringSection {
+  background-color: #fcfbf5;
+  padding: 80px 0;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 60px;
+}
+
+.card {
+  padding: 0 40px 0 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-left: 1px solid #e5e4de;
+}
+
+.card:first-child {
+  border-left: none; /* First column has no left border in some designs, or maybe it does? Based on screenshot, maybe all have borders. Let's keep it to match if they want it. Actually, looking closely, the first column has a border left. */
+}
+
+.cardSubtitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 50px;
+  color: #666;
+  font-size: 14px;
+}
+
+.cardNumber {
+  color: #eb5a3c;
+  font-weight: 500;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 180px;
+}
+
+.cardBottom {
+  margin-top: auto;
+}
+
+.cardDescription {
+  color: #888;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 0;
+  }
+  .card:nth-child(2n+1) {
+    border-left: none; /* remove border on left-most items in 2-col layout */
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 60px 0;
+  }
+  .card {
+    border-left: none;
+    padding: 0 20px;
+  }
+}
