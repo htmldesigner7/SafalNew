@@ -5,143 +5,185 @@ import styles from './Footer.module.css';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className="container-1600">
+      <div className="container-1800">
         <div className={styles.topSection}>
-          
+
           {/* Column 1: Brand & Contact */}
           <div className={styles.brandCol}>
             <div className={styles.logo}>
-              {/* Replace with actual logo if needed, or text */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', color: 'white', fontWeight: 'bold', fontSize: '20px' }}>
-                <div style={{ width: '40px', height: '40px', border: '2px solid white', borderRadius: '8px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <span style={{ fontSize: '12px' }}>Logo</span>
-                </div>
-                <div>
-                  SAFAL<br/>
-                  <span style={{ fontSize: '10px', fontWeight: 'normal', letterSpacing: '1px' }}>INFOSOFT LIMITED</span>
-                </div>
-              </div>
+              <Link href="/">
+                <Image
+                  src="/images/logo-white.png"
+                  alt="Safal Infosoft Limited"
+                  width={200}
+                  height={50}
+                  style={{ objectFit: 'contain', objectPosition: 'left' }}
+                />
+              </Link>
             </div>
-            
+
             <p className={styles.companyDesc}>
               Ideaz Ventures is a startup execution partner helping founders validate ideas, build scalable products, and launch technology ventures globally.
             </p>
-            
+
             <div className={styles.contactInfo}>
               <div className={styles.contactItem}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
                 +91 97370 45561
               </div>
               <div className={styles.contactItem}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" />
                 </svg>
                 hello@safalinfosoft.com
               </div>
             </div>
-            
+
             <div className={styles.socialLinks}>
               {/* Instagram */}
               <Link href="#" className={styles.socialIcon}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18.3952 7.02212C17.6005 7.02368 16.9543 6.3802 16.9528 5.58548C16.9512 4.79076 17.5947 4.14457 18.3898 4.14302C19.1848 4.14146 19.831 4.78531 19.8326 5.58004C19.8338 6.37476 19.1903 7.02057 18.3952 7.02212Z" fill="white" />
+                  <path fillRule="evenodd" clipRule="evenodd" d="M12.0115 18.161C8.60909 18.1676 5.8451 15.4149 5.8385 12.0117C5.83188 8.60923 8.58536 5.84481 11.9878 5.8382C15.3909 5.83159 18.1553 8.5859 18.1619 11.9879C18.1685 15.3912 15.4143 18.1544 12.0115 18.161ZM11.992 8.00035C9.78365 8.00424 7.99594 9.79858 7.99983 12.0074C8.0041 14.2166 9.79882 16.0039 12.0072 15.9996C14.2164 15.9954 16.0041 14.2014 15.9998 11.9922C15.9955 9.78302 14.2008 7.99608 11.992 8.00035Z" fill="white" />
+                  <path fillRule="evenodd" clipRule="evenodd" d="M4.1192 0.646479C4.88126 0.347876 5.75333 0.143362 7.03015 0.0830982C8.31011 0.0216726 8.71872 0.00767102 11.9769 0.00145262C15.2358 -0.00476578 15.6444 0.00766862 16.9244 0.0644334C18.2016 0.119643 19.0741 0.321049 19.8377 0.616544C20.6277 0.920974 21.298 1.33078 21.966 1.99603C22.6339 2.66205 23.0453 3.33002 23.3536 4.1189C23.6518 4.88174 23.8563 5.75306 23.917 7.03068C23.9776 8.31023 23.9924 8.71847 23.9986 11.9771C24.0048 15.2353 23.9916 15.6443 23.9356 16.925C23.88 18.2014 23.679 19.0743 23.3835 19.8375C23.0783 20.6276 22.6693 21.2979 22.004 21.9659C21.3388 22.6342 20.6701 23.0452 19.8812 23.3539C19.1184 23.6517 18.2471 23.8562 16.9702 23.9173C15.6903 23.9779 15.2817 23.9923 12.0224 23.9985C8.76459 24.0048 8.35598 23.9923 7.07605 23.9359C5.79882 23.88 4.92597 23.6789 4.16275 23.3838C3.37271 23.0782 2.70242 22.6696 2.03446 22.004C1.36611 21.3383 0.954386 20.67 0.646458 19.8811C0.347858 19.1186 0.144107 18.2469 0.0830727 16.9705C0.0220359 15.6901 0.00765506 15.2811 0.00143906 12.0229C-0.00480094 8.76435 0.00803667 8.35611 0.0640167 7.07616C0.1204 5.79855 0.320637 4.92606 0.61613 4.16206C0.921328 3.37239 1.33035 2.70248 1.99637 2.03413C2.6616 1.36616 3.33033 0.954017 4.1192 0.646479ZM4.94154 21.3679C5.36494 21.5308 6.00023 21.7252 7.17014 21.7761C8.43607 21.8309 8.81514 21.843 12.0185 21.8368C15.223 21.8309 15.6021 21.8173 16.8676 21.7579C18.0363 21.7022 18.6716 21.5055 19.0939 21.3407C19.6541 21.1218 20.0531 20.8601 20.4722 20.4406C20.8913 20.0195 21.1506 19.6194 21.3676 19.0591C21.5309 18.6354 21.7249 17.9996 21.7758 16.8297C21.8314 15.5646 21.8431 15.1851 21.8368 11.9809C21.831 8.77757 21.8174 8.3981 21.7572 7.13254C21.7019 5.96339 21.5056 5.32808 21.3404 4.90623C21.1215 4.34519 20.8606 3.94705 20.4399 3.52753C20.0192 3.10801 19.6191 2.84945 19.0581 2.6325C18.6355 2.46881 17.9994 2.27518 16.8303 2.22426C15.5643 2.16865 15.1849 2.15737 11.9808 2.1636C8.77743 2.16982 8.39836 2.18264 7.13281 2.24253C5.9633 2.29812 5.32877 2.49447 4.90575 2.65972C4.34587 2.87861 3.94696 3.13872 3.52746 3.5598C3.10871 3.98087 2.84938 4.38018 2.63244 4.94161C2.46993 5.36464 2.27434 6.00072 2.2242 7.16987C2.16898 8.43581 2.15733 8.81529 2.16355 12.0187C2.16939 15.2228 2.18298 15.6023 2.24248 16.8671C2.29729 18.037 2.49518 18.6715 2.65966 19.0949C2.87855 19.6544 3.13944 20.0533 3.55973 20.4729C3.98081 20.8908 4.38088 21.1509 4.94154 21.3679Z" fill="white" />
+                </svg>
               </Link>
               {/* Facebook */}
               <Link href="#" className={styles.socialIcon}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clipPath="url(#clip0_150_1289)">
+                    <path d="M12 0C18.6274 0 24 5.37259 24 12C24 18.1352 19.3955 23.1944 13.4538 23.9121V15.667L16.7001 15.667L17.3734 12H13.4538V10.7031C13.4538 9.73417 13.6439 9.06339 14.0799 8.63483C14.5159 8.20627 15.1979 8.01993 16.1817 8.01993C16.4307 8.01993 16.6599 8.02241 16.8633 8.02736C17.1591 8.03456 17.4002 8.047 17.568 8.06467V4.74048C17.501 4.72184 17.4218 4.70321 17.3331 4.68486C17.1321 4.6433 16.8822 4.60324 16.6136 4.56806C16.0523 4.49453 15.4093 4.4423 14.9594 4.4423C13.1424 4.4423 11.7692 4.83102 10.8107 5.63619C9.65388 6.60791 9.10108 8.18622 9.10108 10.4199V12H6.62659V15.667H9.10108V23.6466C3.87432 22.3498 0 17.6277 0 12C0 5.37259 5.37259 0 12 0Z" fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_150_1289">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
               </Link>
               {/* LinkedIn */}
               <Link href="#" className={styles.socialIcon}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clipPath="url(#clip0_150_1290)">
+                    <path d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z" fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_150_1290">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
               </Link>
               {/* WhatsApp */}
               <Link href="#" className={styles.socialIcon}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <mask id="mask0_150_1291" style={{ maskType: 'luminance' }} maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <path d="M23.9766 23.9766V0.0234375H0.0234375V23.9766H23.9766Z" fill="white" stroke="white" strokeWidth="0.046875" />
+                  </mask>
+                  <g mask="url(#mask0_150_1291)">
+                    <path d="M2.47024 17.3199C1.58621 15.7473 1.08203 13.9325 1.08203 12C1.08203 5.99516 5.99521 1.08203 12 1.08203C18.0048 1.08203 22.918 5.99516 22.918 12C22.918 18.0048 18.0048 22.918 12 22.918C10.0675 22.918 8.25274 22.4137 6.6801 21.5298L1.08203 22.918L2.47024 17.3199Z" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M10.8587 13.1408C10.4543 12.7351 8.83123 10.9339 9.42184 10.3433C9.58417 10.181 10.2332 9.7376 10.4865 9.48437C11.3489 8.62199 10.3594 7.55426 9.72495 6.91979C9.67312 6.86795 8.69642 5.81678 7.39974 7.1135C5.08148 9.43176 8.38591 13.5886 9.39346 14.606C10.4109 15.6136 14.5677 18.918 16.886 16.5998C18.1827 15.3031 17.1315 14.3264 17.0797 14.2746C16.4452 13.6401 15.3775 12.6507 14.5151 13.513C14.2619 13.7663 13.8185 14.4153 13.6562 14.5776C13.0656 15.1683 11.2644 13.5452 10.8587 13.1408Z" stroke="white" strokeWidth="1.3" strokeMiterlimit="10" />
+                  </g>
+                </svg>
               </Link>
               {/* Apple */}
               <Link href="#" className={styles.socialIcon}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.15 2.95.97 3.67 2.28-3.12 1.76-2.58 5.92.51 7.15-.65 1.48-1.57 2.97-2.83 3.58zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clipPath="url(#clip0_150_1299)">
+                    <path d="M11.7822 0C5.35269 0 0.141113 5.21158 0.141113 11.6411C0.141113 18.0699 5.35269 23.2822 11.7822 23.2822C18.2118 23.2822 23.4233 18.0699 23.4233 11.6411C23.4233 5.21158 18.2118 0 11.7822 0Z" fill="white" />
+                    <path d="M17.6818 14.0353V13.94C16.5313 13.3265 15.9073 12.4258 15.9073 11.1223C15.9073 10.0685 16.3753 9.14827 17.2333 8.55427L17.2723 8.53477C16.7068 7.84477 15.9463 7.15552 14.7755 7.15552C13.9565 7.15552 13.274 7.94152 12.143 7.94152C11.246 7.94152 10.8748 7.19377 9.8998 7.19377C7.8718 7.19377 5.86255 8.97577 5.86255 11.2948C5.86255 12.5218 6.27205 14.4193 7.18855 16.067C7.85155 17.2745 8.67055 18.0605 9.5878 18.0605C10.2508 18.0605 11.0308 17.4665 11.9675 17.4665C12.7865 17.4665 13.5478 18.0035 14.288 18.0035C16.0633 18.0035 17.7013 15.7423 17.7013 14.2288C17.7013 14.1508 17.6818 14.093 17.6818 14.0353Z" fill="#111111" />
+                    <path d="M12.1039 7.6932C13.4299 7.29045 14.6591 6.3132 14.6591 4.6077C14.6591 4.47345 14.6396 4.30095 14.6201 4.1097L14.6006 4.0332C13.2551 4.39695 12.0461 5.43195 12.0461 7.06095C12.0461 7.2147 12.0656 7.40595 12.1046 7.6167L12.1039 7.6932Z" fill="#111111" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_150_1299">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
               </Link>
             </div>
           </div>
 
-          {/* Column 2: Divisions */}
-          <div className={styles.linkCol} style={{ flex: 1.5 }}>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Divisions</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Enterprise Products & Platforms</Link></li>
-                <li className={styles.linkItem}><Link href="#">Brand, Digital & Creative Services</Link></li>
-                <li className={styles.linkItem}><Link href="#">Startup Product Development & Consulting</Link></li>
-                <li className={styles.linkItem}><Link href="#">Industrial Automation & IoT</Link></li>
-                <li className={styles.linkItem}><Link href="#">AI & Emerging Technology</Link></li>
-                <li className={styles.linkItem}><Link href="#">Business & Financial Advisory</Link></li>
-                <li className={styles.linkItem}><Link href="#">Financial Accounting</Link></li>
-                <li className={styles.linkItem}><Link href="#">Technology Staffing</Link></li>
-              </ul>
+          <div className={styles.rightLinksSection}>
+            {/* Column 2: Divisions */}
+            <div className={styles.linkCol} style={{ flex: 1.5 }}>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Divisions</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Enterprise Products & Platforms</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Brand, Digital & Creative Services</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Startup Product Development & Consulting</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Industrial Automation & IoT</Link></li>
+                  <li className={styles.linkItem}><Link href="#">AI & Emerging Technology</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Business & Financial Advisory</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Financial Accounting</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Technology Staffing</Link></li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          {/* Column 3: About & Insights */}
-          <div className={styles.linkColBordered}>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>About</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Our Story & Vision</Link></li>
-                <li className={styles.linkItem}><Link href="#">Leadership Team</Link></li>
-                <li className={styles.linkItem}><Link href="#">Group Structure</Link></li>
-                <li className={styles.linkItem}><Link href="#">Values & Culture</Link></li>
-                <li className={styles.linkItem}><Link href="#">Sustainability</Link></li>
-              </ul>
+            {/* Column 3: About & Insights */}
+            <div className={styles.linkColBordered}>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>About</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Our Story & Vision</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Leadership Team</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Group Structure</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Values & Culture</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Sustainability</Link></li>
+                </ul>
+              </div>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Insights</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Blogs</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Case Studies</Link></li>
+                  <li className={styles.linkItem}><Link href="#">News & Announcements</Link></li>
+                </ul>
+              </div>
             </div>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Insights</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Blogs</Link></li>
-                <li className={styles.linkItem}><Link href="#">Case Studies</Link></li>
-                <li className={styles.linkItem}><Link href="#">News & Announcements</Link></li>
-              </ul>
-            </div>
-          </div>
 
-          {/* Column 4: Quick Links & Careers */}
-          <div className={styles.linkColBordered}>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Quick Links</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Home</Link></li>
-                <li className={styles.linkItem}><Link href="#">Industries</Link></li>
-                <li className={styles.linkItem}><Link href="#">Contact Us</Link></li>
-              </ul>
+            {/* Column 4: Quick Links & Careers */}
+            <div className={styles.linkColBordered}>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Quick Links</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Home</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Industries</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Contact Us</Link></li>
+                </ul>
+              </div>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Careers</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Life at Safal</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Open Positions</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Internships & Mentorship</Link></li>
+                </ul>
+              </div>
             </div>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Careers</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Life at Safal</Link></li>
-                <li className={styles.linkItem}><Link href="#">Open Positions</Link></li>
-                <li className={styles.linkItem}><Link href="#">Internships & Mentorship</Link></li>
-              </ul>
-            </div>
-          </div>
 
-          {/* Column 5: Investors & Partnerships */}
-          <div className={styles.linkColBordered}>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Investors</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Investor Relations</Link></li>
-                <li className={styles.linkItem}><Link href="#">Financial Reports & Disclosures</Link></li>
-                <li className={styles.linkItem}><Link href="#">Corporate Governance</Link></li>
-              </ul>
-            </div>
-            <div className={styles.colBlock}>
-              <h4 className={styles.colTitle}>Partnerships</h4>
-              <ul className={styles.linkList}>
-                <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
-                <li className={styles.linkItem}><Link href="#">Become a Partner</Link></li>
-              </ul>
+            {/* Column 5: Investors & Partnerships */}
+            <div className={styles.linkColBordered}>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Investors</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Investor Relations</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Financial Reports & Disclosures</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Corporate Governance</Link></li>
+                </ul>
+              </div>
+              <div className={styles.colBlock}>
+                <h4 className={styles.colTitle}>Partnerships</h4>
+                <ul className={styles.linkList}>
+                  <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
+                  <li className={styles.linkItem}><Link href="#">Become a Partner</Link></li>
+                </ul>
+              </div>
             </div>
           </div>
 
