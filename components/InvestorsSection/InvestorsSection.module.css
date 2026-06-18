@@ -24,117 +24,145 @@
   line-height: 1.6;
 }
 
+/* ym css */
 .vennContainer {
   position: relative;
+  width: fit-content;
+  margin-inline: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0;
+  gap: 40px;
 }
 
-/* The Glowing Elliptical Ring */
-.glowRing {
+.vennContainer::before {
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 900px;
-  height: 600px;
-  border-radius: 50%;
-  /* Creates an elliptical orange ring that fades out */
-  background: radial-gradient(ellipse at center, transparent 60%, rgba(227, 88, 37, 0.4) 66%, transparent 75%);
-  z-index: 1;
-  pointer-events: none;
+  top: 0;
+  left: -100px;
+  height: 100%;
+  width: 34%;
+  background: url('../../public/images/left-orange.svg') no-repeat center;
+  z-index: 2;
 }
 
-.circlesWrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.vennContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -100px;
+  height: 100%;
+  width: 34%;
+  background: url('../../public/images/right-orange.svg') no-repeat center;
   z-index: 2;
 }
 
 .circle {
-  width: 440px;
-  height: 440px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background-color: rgba(253, 252, 247, 0.85);
-  /* Slightly lighter than bg-light, semi-transparent */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid #C9C5B8;
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 60px;
-  text-align: center;
-  position: relative;
-  /* Optional inner glow */
-  box-shadow: inset 0 0 60px rgba(255, 255, 255, 0.6);
+  z-index: 1;
 }
 
-.circleLeft {
-  margin-right: -70px;
-  /* Overlap */
+/* Outer glow ring */
+
+
+.circle.left {
+  margin-right: -40px;
+  background: linear-gradient(132deg, #EEE 22.84%, #F3EFE2 84.02%);
+}
+
+
+.circle.right {
+  position: relative;
+  margin-left: -40px;
+  background: linear-gradient(231deg, #EEE 19.63%, rgba(243, 239, 226, 0.00) 76.14%);
+}
+
+.content {
+  text-align: center;
+  padding: 60px 110px;
   z-index: 2;
 }
 
-.circleRight {
-  margin-left: -70px;
-  /* Overlap */
-  z-index: 3;
+.circle h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  line-height: 1.1;
 }
 
-.circleTitle {
-  font-size: 28px;
-  font-weight: 600;
-  color: var(--black-111);
-  margin-bottom: 32px;
-  line-height: 1.2;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 40px 0;
+.circle ul {
   text-align: left;
-  display: inline-block;
+  margin-bottom: 40px;
 }
 
-.list li {
-  font-size: 11px;
-  color: var(--grey-666);
-  margin-bottom: 12px;
+.circle ul li {
+  padding: 8px 0;
+  color: #444;
+  font-size: 1.05rem;
   position: relative;
-  padding-left: 14px;
 }
 
-.list li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: var(--grey-666);
-}
 
-.btnOutline {
+.btn {
   display: inline-block;
-  padding: 10px 32px;
-  border: 1px solid rgba(227, 88, 37, 0.4);
-  color: var(--color-primary);
-  border-radius: 4px;
-  font-size: 13px;
-  font-weight: 500;
+  padding: 14px 32px;
+  border: 2px solid #f45a2e;
+  color: #f45a2e;
   text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.05rem;
   transition: all 0.3s ease;
-  background-color: transparent;
+  background: transparent;
 }
 
-.btnOutline:hover {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary);
+.btn:hover {
+  background: #f45a2e;
+  color: white;
+  transform: translateY(-3px);
 }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .vennContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .circle.left,
+  .circle.right {
+    margin: 0 !important;
+  }
+
+  .circle {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle {
+    width: 340px;
+    height: 340px;
+  }
+
+  .content {
+    padding: 40px 30px;
+  }
+
+  .circle h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* ym css */
+
 
 /* Responsiveness */
 @media (max-width: 1024px) {

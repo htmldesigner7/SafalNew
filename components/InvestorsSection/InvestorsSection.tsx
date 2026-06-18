@@ -13,40 +13,37 @@ export default function InvestorsSection() {
         </header>
 
         <div className={styles.vennContainer}>
-          {/* Glowing Orange Ring Background */}
-          <div className={styles.glowRing}></div>
 
-          <div className={styles.circlesWrapper}>
-            {/* Left Circle */}
-            <div className={`${styles.circle} ${styles.circleLeft}`}>
-              <h3 className={styles.circleTitle}>Investor<br />Value</h3>
-              <ul className={styles.list}>
+          {/* Left Circle */}
+          <div className={`${styles.circle} ${styles.left}`}>
+            <div className={styles.content}>
+              <h2>Investor<br/>Value</h2>
+              <ul>
                 <li>Strong financial governance</li>
                 <li>Scalable enterprise technology platforms</li>
                 <li>Sustainable long-term growth strategy</li>
                 <li>Transparent business operations</li>
                 <li>Global market expansion opportunities</li>
               </ul>
-              <Link href="#investors" className="btn-outline">
-                Explore More
-              </Link>
-            </div>
-
-            {/* Right Circle */}
-            <div className={`${styles.circle} ${styles.circleRight}`}>
-              <h3 className={styles.circleTitle}>Strategic<br />Partnerships</h3>
-              <ul className={styles.list}>
-                <li>Strong financial governance</li>
-                <li>Scalable enterprise technology platforms</li>
-                <li>Sustainable long-term growth strategy</li>
-                <li>Transparent business operations</li>
-                <li>Global market expansion opportunities</li>
-              </ul>
-              <Link href="#partnerships" className="btn-outline">
-                Explore More
-              </Link>
+              <a href="#" className={styles.btn}>Explore More</a>
             </div>
           </div>
+
+          {/* Right Circle */}
+          <div className={`${styles.circle} ${styles.right}`}>
+            <div className={styles.content}>
+              <h2>Strategic<br/>Partnerships</h2>
+              <ul>
+                <li>Strong financial governance</li>
+                <li>Scalable enterprise technology platforms</li>
+                <li>Sustainable long-term growth strategy</li>
+                <li>Transparent business operations</li>
+                <li>Global market expansion opportunities</li>
+              </ul>
+              <a href="#" className={styles.btn}>Explore More</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
