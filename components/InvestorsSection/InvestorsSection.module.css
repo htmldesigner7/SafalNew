@@ -28,12 +28,13 @@
 .vennContainer {
   position: relative;
   width: fit-content;
-  margin-inline: auto;
+  margin: 40px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
+
 
 .vennContainer::before {
   content: '';
@@ -45,6 +46,8 @@
   background: url('../../public/images/left-orange.svg') no-repeat center;
   z-index: 2;
 }
+
+
 
 .vennContainer::after {
   content: '';
@@ -75,11 +78,11 @@
   background: linear-gradient(132deg, #EEE 22.84%, #F3EFE2 84.02%);
 }
 
-
 .circle.right {
   position: relative;
   margin-left: -40px;
   background: linear-gradient(231deg, #EEE 19.63%, rgba(243, 239, 226, 0.00) 76.14%);
+   z-index: 1;
 }
 
 .content {
@@ -99,6 +102,7 @@
 .circle ul {
   text-align: left;
   margin-bottom: 40px;
+  list-style: disc;
 }
 
 .circle ul li {
@@ -106,104 +110,10 @@
   color: #444;
   font-size: 1.05rem;
   position: relative;
+  list-style: disc;
 }
 
 
-.btn {
-  display: inline-block;
-  padding: 14px 32px;
-  border: 2px solid #f45a2e;
-  color: #f45a2e;
-  text-decoration: none;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 1.05rem;
-  transition: all 0.3s ease;
-  background: transparent;
-}
-
-.btn:hover {
-  background: #f45a2e;
-  color: white;
-  transform: translateY(-3px);
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .vennContainer {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .circle.left,
-  .circle.right {
-    margin: 0 !important;
-  }
-
-  .circle {
-    width: 420px;
-    height: 420px;
-  }
-}
-
-@media (max-width: 480px) {
-  .circle {
-    width: 340px;
-    height: 340px;
-  }
-
-  .content {
-    padding: 40px 30px;
-  }
-
-  .circle h2 {
-    font-size: 1.8rem;
-  }
-}
 
 /* ym css */
 
-
-/* Responsiveness */
-@media (max-width: 1024px) {
-  .glowRing {
-    width: 100%;
-    height: 800px;
-    background: radial-gradient(circle at center, transparent 35%, rgba(227, 88, 37, 0.3) 45%, transparent 60%);
-  }
-
-  .circlesWrapper {
-    flex-direction: column;
-  }
-
-  .circleLeft {
-    margin-right: 0;
-    margin-bottom: -40px;
-  }
-
-  .circleRight {
-    margin-left: 0;
-    margin-top: -40px;
-  }
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 32px;
-  }
-
-  .circle {
-    width: 320px;
-    height: 320px;
-    padding: 30px;
-  }
-
-  .circleTitle {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  .list {
-    margin-bottom: 24px;
-  }
-}

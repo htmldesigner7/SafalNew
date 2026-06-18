@@ -15,6 +15,8 @@ export default function InvestorsSection() {
         <div className={styles.vennContainer}>
 
           {/* Left Circle */}
+              
+          {/* Left Circle */}
           <div className={`${styles.circle} ${styles.left}`}>
             <div className={styles.content}>
               <h2>Investor<br/>Value</h2>
@@ -25,10 +27,12 @@ export default function InvestorsSection() {
                 <li>Transparent business operations</li>
                 <li>Global market expansion opportunities</li>
               </ul>
-              <a href="#" className={styles.btn}>Explore More</a>
+              <a href="#" className="btn-outline btn-outline-red">Explore More</a>
             </div>
           </div>
 
+          {/* Right Circle */}
+              
           {/* Right Circle */}
           <div className={`${styles.circle} ${styles.right}`}>
             <div className={styles.content}>
@@ -40,7 +44,7 @@ export default function InvestorsSection() {
                 <li>Transparent business operations</li>
                 <li>Global market expansion opportunities</li>
               </ul>
-              <a href="#" className={styles.btn}>Explore More</a>
+              <a href="#" className="btn-outline btn-outline-red">Explore More</a>
             </div>
           </div>
 
