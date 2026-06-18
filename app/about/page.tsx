@@ -4,7 +4,9 @@ import {
   AboutCulture,
   ProcessSection,
   AboutIntelligence,
-  EngineeringSection
+  EngineeringSection,
+  SustainableSection,
+  ArchitectureSection
 } from '@/components/AboutPage';
 
 export default function AboutPage() {
@@ -16,6 +18,8 @@ export default function AboutPage() {
       <ProcessSection />
       <AboutIntelligence />
       <EngineeringSection />
+      <SustainableSection />
+      <ArchitectureSection />
     </main>
   );
 }

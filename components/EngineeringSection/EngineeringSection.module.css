@@ -1,8 +1,3 @@
-.engineeringSection {
-  background-color: #fcfbf5;
-  padding: 80px 0;
-}
-
 .cardsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -15,11 +10,11 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  border-left: 1px solid #e5e4de;
+  border-left: 1px solid var(--grey-ddd);
 }
 
-.card:first-child {
-  border-left: none; /* First column has no left border in some designs, or maybe it does? Based on screenshot, maybe all have borders. Let's keep it to match if they want it. Actually, looking closely, the first column has a border left. */
+.card:last-child {
+  border-right: 1px solid var(--grey-ddd);
 }
 
 .cardSubtitle {
@@ -27,8 +22,6 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 50px;
-  color: #666;
-  font-size: 14px;
 }
 
 .cardNumber {
@@ -41,19 +34,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 40px;
-  height: 180px;
+  justify-content: center;
 }
 
 .cardBottom {
   margin-top: auto;
 }
 
-.cardDescription {
-  color: #888;
-  font-size: 14px;
-  line-height: 1.6;
-  margin-top: 12px;
-}
 
 @media (max-width: 1200px) {
   .cardsGrid {

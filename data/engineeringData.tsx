@@ -21,7 +21,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "Sector / Logistics",
       title: "Autonomous Logistics",
       description: "Eliminating bottlenecks through Industrial IoT and predictive machine learning.",
-      imageSrc: "/images/DI_Compaas.png" // Placeholder icon, replace with actual logistics icon
+      imageSrc: "/images/Relentless-Velocity.webp" 
     },
     {
       id: "finance",
@@ -29,7 +29,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "Sector / Finance",
       title: "Decentralized Security",
       description: "Balancing seamless API integrations with military-grade zero-trust frameworks.",
-      imageSrc: "/images/DI_StarCube.png" // Placeholder icon, replace with actual security icon
+      imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual security icon
     },
     {
       id: "corporate",
@@ -37,7 +37,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "Sector / Corporate",
       title: "Enterprise Ecosystems",
       description: "Building cohesive digital narratives that drive deep institutional investor confidence.",
-      imageSrc: "/images/DI_Orbit.png" // Placeholder icon, replace with actual ecosystem icon
+      imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual ecosystem icon
     },
     {
       id: "industrial",
@@ -45,7 +45,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "Sector / Industrial",
       title: "Low-Code Agility",
       description: "Transitioning legacy monoliths into agile micro-services without halting production.",
-      imageSrc: "/images/DI_Rocket.png" // Placeholder icon, replace with actual agility icon
+      imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual agility icon
     }
   ]
 };

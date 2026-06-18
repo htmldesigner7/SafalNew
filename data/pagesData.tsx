@@ -26,10 +26,23 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       title: (
         <>
           <strong>Initiate the Next Phase<br />
-          of Growth.</strong>
+            of Growth.</strong>
         </>
       ),
       description: "Whether you require robust enterprise infrastructure, visionary creative strategy, or elite financial advisory, our global team is ready to engineer your solution. Connect with Safal Infosoft to begin.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Contact Hero Email Graphic",
+    }
+  },
+
+  ourEntities: {
+    hero: {
+      title: (
+        <>
+          <strong>The Architecture of Synergy</strong>
+        </>
+      ),
+      description: "Six distinct entities. Three global hubs. One unshakeable foundation. We are not just a technology provider; we are a unified matrix of specialized divisions operating across India, the UAE, and the USA.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Contact Hero Email Graphic",
     }
