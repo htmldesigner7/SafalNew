@@ -46,5 +46,20 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Contact Hero Email Graphic",
     }
+  },
+
+  investorRelations: {
+    hero: {
+      title: (
+        <>
+          <strong>Culture is our Operating System</strong>
+        </>
+      ),
+      description: "At the Safal Group, our infrastructure is built on code, but our momentum is driven by people. We cultivate an elite environment of relentless innovation, systemic ownership, and unyielding integrity across three continents.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Investor Relations Graphic",
+    }
   }
+
+  
 };

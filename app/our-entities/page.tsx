@@ -7,7 +7,7 @@ export default function OurEntitiesPage() {
 
   return (
     <main>
-      <InnerPageHero 
+      <InnerPageHero
         title={heroData.title}
         description={heroData.description}
         imageSrc={heroData.imageSrc}

@@ -1,0 +1,38 @@
+
+.gridContainer {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse > * {
+  direction: ltr;
+}
+
+.contentCol {
+  flex: 2;
+}
+
+.contentCol h2 {
+  margin-bottom: 24px;
+  flex: 2;
+}
+
+.imageCol {
+  flex: 1;
+}
+
+@media (max-width: 992px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .reverse {
+    direction: ltr;
+  }
+}

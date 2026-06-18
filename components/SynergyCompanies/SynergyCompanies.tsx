@@ -20,42 +20,42 @@ const synergyCompaniesData = {
       id: "intelliworkz-business",
       name: "Intelliworkz Business Solutions Pvt. Ltd.",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp", // Replace with actual blue isometric logo
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Intelliworkz Logo"
     },
     {
       id: "safal-infosoft-ltd",
       name: "Safal Infosoft Ltd.",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp",
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Safal Infosoft Logo"
     },
     {
       id: "ideaz-ventures",
       name: "Ideaz Ventures",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp",
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Ideaz Ventures Logo"
     },
     {
       id: "intelliworkz-infosoft",
       name: "Intelliworkz Infosoft Technology LLC",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp",
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Intelliworkz Infosoft Logo"
     },
     {
       id: "safal-infosoft-inc",
       name: "Safal Infosoft Inc.",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp",
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Safal Infosoft Inc Logo"
     },
     {
       id: "safal-automation",
       name: "Safal Automation Inc.",
       descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/blogs-inner.webp",
+      logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Safal Automation Logo"
     }
   ] as SynergyCompany[]
@@ -68,6 +68,14 @@ export default function SynergyCompanies() {
         <div className={styles.header}>
           <h2 className="title_40 text-center">{synergyCompaniesData.title}</h2>
           <p className={styles.subtitle}>{synergyCompaniesData.subtitle}</p>
+          <div className="my_40 flex justify-center">
+            <Image
+              src="/images/independent-header.png"
+              alt="Global Network"
+              width={1440}
+              height={280}
+            />
+          </div>
         </div>
 
         <div className={styles.companiesList}>
@@ -82,11 +90,11 @@ export default function SynergyCompanies() {
                 </div>
               </div>
               <div className={styles.imageCol}>
-                <Image 
-                  src={company.logoSrc} 
-                  alt={company.logoAlt} 
-                  width={400} 
-                  height={250} 
+                <Image
+                  src={company.logoSrc}
+                  alt={company.logoAlt}
+                  width={250}
+                  height={250}
                   style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
                 />
               </div>
