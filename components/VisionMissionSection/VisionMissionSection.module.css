@@ -30,30 +30,12 @@
   position: relative;
 }
 
-.title {
-  font-family: var(--font-heading), "Familjen Grotesk", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  color: #111;
-  margin-bottom: 30px;
-}
 
-.contentWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.paragraph {
-  font-size: 14px;
-  line-height: 1.8;
-  color: #666;
-}
 
 .navArrows {
   display: flex;
   gap: 15px;
+  margin-top: 50px;
 }
 
 .arrowBtn {
