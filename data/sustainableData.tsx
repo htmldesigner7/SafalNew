@@ -8,7 +8,7 @@ export interface SustainableListItem {
 export interface SustainableContent {
   title: ReactNode;
   description: ReactNode;
-  listItems: SustainableListItem[];
+  listItems?: SustainableListItem[];
   imageSrc: string;
   imageAlt: string;
 }
@@ -31,5 +31,13 @@ export const sustainableData: SustainableContent = {
     }
   ],
   imageSrc: "/images/blogs-inner.webp", // Replace with actual 3-leaves image
+  imageAlt: "Sustainable Leaves"
+};
+
+
+export const SingularData: SustainableContent = {
+  title: <>Diverse Minds.<br />Singular Impact</>,
+  description: "We do not believe in isolated brilliance. The complexity of the modern enterprise requires a synthesis of distinct disciplines. As visualized in our structure, we weave together raw engineering, algorithmic data science, elite creative strategy, and deep-tech AI into a single, unbreakable workflow. By merging these localized insights and varied intellectual perspectives, we deliver solutions that are not just functional, but exponentially powerful.",
+  imageSrc: "/images/blogs-inner.webp", 
   imageAlt: "Sustainable Leaves"
 };
