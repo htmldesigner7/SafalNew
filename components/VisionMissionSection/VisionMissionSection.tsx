@@ -22,7 +22,7 @@ const visionMissionData: VisionMissionItem[] = [
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis. Tortor euismod sit consequat magna mauris dolor ut fusce mauris pellentesque. Hendrerit feugiat magna faucibus malesuada. Dapibus netus non lobortis euismod.',
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis. Tortor euismod sit orci cursus nullam scelerisque venenatis mollis aliquet. Nibh neque volutpat libero at turpis in neque etiam. Tellus.'
     ],
-    imageSrc: '/images/blogs-inner.webp' // Target/Arrow
+    imageSrc: '/images/Our-Imapcts.webp' // Target/Arrow
   },
   {
     id: 'impacts',
@@ -33,7 +33,7 @@ const visionMissionData: VisionMissionItem[] = [
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
     ],
-    imageSrc: '/images/blogs-inner.webp' // Hands holding globe
+    imageSrc: '/images/Our-Vision.webp' // Hands holding globe
   },
   {
     id: 'mission1',
@@ -44,7 +44,7 @@ const visionMissionData: VisionMissionItem[] = [
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
     ],
-    imageSrc: '/images/blogs-inner.webp' // Diamond
+    imageSrc: '/images/Our-Mission.webp' // Diamond
   },
   {
     id: 'mission2',
@@ -55,7 +55,7 @@ const visionMissionData: VisionMissionItem[] = [
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
       'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
     ],
-    imageSrc: '/images/blogs-inner.webp' // Compass
+    imageSrc: '/images/Our-Philosophy.webp' // Compass
   }
 ];
 
