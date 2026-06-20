@@ -1,15 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import { engineeringData } from '@/data/engineeringData';
+import { engineeringData, EngineeringContent } from '@/data/engineeringData';
 import styles from './EngineeringSection.module.css';
 
-export default function EngineeringSection() {
+interface EngineeringSectionProps {
+  data?: EngineeringContent;
+}
+
+export default function EngineeringSection({ data = engineeringData }: EngineeringSectionProps) {
   return (
     <section className={`${styles.engineeringSection} mt_80`}>
       <div className="container-1600">
-        <h2 className="title_60 text-center">{engineeringData.title}</h2>
+        <h2 className="title_60 text-center">{data.title}</h2>
         <div className={styles.cardsGrid}>
-          {engineeringData.cards.map((item) => (
+          {data.cards.map((item) => (
             <div key={item.id} className={styles.card}>
               <div className={styles.cardSubtitle}>
                 <span className={styles.cardNumber}>{item.number}</span> {item.subtitle}

@@ -49,3 +49,79 @@ export const engineeringData: EngineeringContent = {
     }
   ]
 };
+
+export const joinTeamData: EngineeringContent = {
+  title: "Why you Should Join Our Awesome Team",
+  cards: [
+    {
+      id: "dynamic-equilibrium",
+      number: "01.",
+      subtitle: "Sector / Logistics",
+      title: "Dynamic Equilibrium",
+      description: "Elite performance requires deep recovery. We champion flexible working models and mandatory disconnects to prevent burnout and sustain focus.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "psychological-safety",
+      number: "02.",
+      subtitle: "Sector / Finance",
+      title: "Psychological Safety",
+      description: "True innovation requires risk. We cultivate an environment where bold ideas are stress-tested, and failure is treated as a data point, not a career setback.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "mastery-fund",
+      number: "03.",
+      subtitle: "Sector / Corporate",
+      title: "The Mastery Fund",
+      description: "We don't just offer training; we provide a dedicated annual budget for every team member to pursue global certifications and master bleeding-edge technologies.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "global-mobility",
+      number: "04.",
+      subtitle: "Sector / Industrial",
+      title: "Global Mobility",
+      description: "Prove your impact, and the world opens up. We offer cross-continental project collaboration and rotations between our US, UAE, and Indian hubs.",
+      imageSrc: "/images/blogs-inner.webp"
+    }
+  ]
+};
+
+export const blueprintData: EngineeringContent = {
+  title: "The Blueprint for Growth.",
+  cards: [
+    {
+      id: "strategic-mentorship",
+      number: "01.",
+      subtitle: "Lorem",
+      title: "Strategic Mentorship",
+      description: "You are paired 1-on-1 with a Senior Architect or Director. No generic bootcamps—just targeted, high-level career acceleration and unfiltered feedback.",
+      imageSrc: "/images/Relentless-Velocity.webp"
+    },
+    {
+      id: "live-enterprise",
+      number: "02.",
+      subtitle: "Lorem",
+      title: "Live Enterprise Projects",
+      description: "Forget dummy data. You will contribute to live codebases, active client campaigns, and high-stakes venture incubations that impact the real world.",
+      imageSrc: "/images/Relentless-Velocity.webp"
+    },
+    {
+      id: "bleeding-edge",
+      number: "03.",
+      subtitle: "Lorem",
+      title: "Bleeding-Edge Tech",
+      description: "Gain hands-on exposure to the technologies defining the next decade: proprietary low-code frameworks, predictive AI modeling, and Industrial IoT.",
+      imageSrc: "/images/Relentless-Velocity.webp"
+    },
+    {
+      id: "fast-track",
+      number: "04.",
+      subtitle: "Lorem ipsum",
+      title: "The Fast Track",
+      description: "Our internship is our ultimate talent pipeline. Exceptional performers bypass standard recruiting and receive direct offers to join the matrix full-time upon graduation.",
+      imageSrc: "/images/Relentless-Velocity.webp"
+    }
+  ]
+};

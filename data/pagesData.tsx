@@ -59,7 +59,44 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Investor Relations Graphic",
     }
-  }
+  },
 
-  
+   lifeAtSafal: {
+    hero: {
+      title: (
+        <>
+          <strong>Operate at the Edge of Possible.</strong>
+        </>
+      ),
+      description: "Life at the Safal Group is a high-velocity journey. We provide the elite infrastructure; you provide the raw ambition. Join a borderless matrix where deep engineering meets boundless creativity.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Investor Relations Graphic",
+    }
+  },
+
+  jobDetails: {
+    hero: {
+      title: (
+        <>
+          <strong>Operate at the Edge of Possible.</strong>
+        </>
+      ),
+      description: "At the Safal Group, we don't hire for static roles; we hire for upward trajectories. Join a borderless matrix where deep engineering meets boundless creativity, and help us architect the digital backbone of tomorrow.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Job Opportunities",
+    }
+  },
+
+  internshipsMentorship: {
+    hero: {
+      title: (
+        <>
+          <strong>Skip the Sandbox. Build the Enterprise.</strong>
+        </>
+      ),
+      description: "At the Safal Group, internships aren't simulations. You will deploy live code, craft global brand ecosystems, and engineer automation systems alongside the industry's top minds. This is where raw potential transforms into elite execution.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Internships and Mentorship",
+    }
+  }
 };

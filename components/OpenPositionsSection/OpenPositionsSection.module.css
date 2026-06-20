@@ -1,0 +1,153 @@
+.openPositionsSection {
+  background-color: var(--color-bg-main);
+  padding: 80px 0;
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.filterWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.customDropdownContainer {
+  position: relative;
+  width: 320px;
+}
+
+.dropdownButton {
+  width: 100%;
+  padding: 14px 24px;
+  border: 1px solid #D54B26;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #D54B26;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.dropdownButton:hover {
+  background-color: rgba(213, 75, 38, 0.05);
+}
+
+.dropdownArrow {
+  position: absolute;
+  right: 24px;
+  transition: transform 0.3s ease;
+}
+
+.dropdownArrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin-top: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100;
+  overflow: hidden;
+}
+
+.dropdownMenu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdownItem {
+  padding: 14px 24px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: var(--grey-666);
+  font-size: 15px;
+}
+
+.dropdownItem:hover {
+  background-color: rgba(213, 75, 38, 0.05);
+  color: #D54B26;
+}
+
+.jobsList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.jobCard {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.jobCard:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.jobContent {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.jobDesc {
+ margin: 14px 0;
+}
+
+.jobMeta {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.jobAction {
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  .jobCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .jobContent {
+    padding-right: 0;
+  }
+  .jobAction {
+    width: 100%;
+  }
+  .applyBtn {
+    width: 100%;
+  }
+}

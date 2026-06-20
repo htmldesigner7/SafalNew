@@ -1,8 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import { IntelligenceData, aboutIntelligenceData } from '@/data/intelligenceData';
 import styles from './IntelligenceSection.module.css';
 
-export default function IntelligenceSection() {
+interface IntelligenceSectionProps {
+  data?: IntelligenceData;
+}
+
+export default function IntelligenceSection({ data = aboutIntelligenceData }: IntelligenceSectionProps) {
   return (
     <section className={`${styles.intelligenceSection} mt_80`}>
       <div className="container-1600">
@@ -12,11 +17,9 @@ export default function IntelligenceSection() {
 
           {/* Center Content */}
           <div className={styles.centerContent}>
-            <h2 className="title_60">Driven by<br/>Intelligence.</h2>
-            <p>
-              Safal Infosoft is more than a software provider; we are an interconnected holding matrix. Every line of code, every brand strategy, and every data model we build is designed to autonomously propel your enterprise forward.
-            </p>
-            <button className="btn-primary mt_40">Explore Our Divisions</button>
+            <h2 className="title_60">{data.title}</h2>
+            <p>{data.description}</p>
+            <button className="btn-primary mt_40">{data.buttonText}</button>
           </div>
 
           {/* Floating Icons */}
