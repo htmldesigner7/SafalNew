@@ -1,0 +1,144 @@
+
+.header {
+  text-align: center;
+}
+
+/* Tabs & Filter Controls */
+.controlsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tabsContainer {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tabBtn {
+  background: transparent;
+  border: 1px solid var(--grey-ddd);
+  padding: 12px 54px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tabBtn:hover {
+  border-color: var(--grey-333);
+  color: var(--grey-333);
+}
+
+.activeTab {
+  background-color: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+}
+
+.activeTab:hover {
+  border-color: var(--red);
+  color: var(--white);
+}
+
+.filterBtn {
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--red);
+  padding: 12px 54px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.filterBtn:hover {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.filterBtn svg {
+  transition: transform 0.3s ease;
+}
+
+.filterBtn:hover svg path {
+  stroke: var(--white);
+}
+
+.filterWrapper {
+  position: relative;
+}
+
+.dropdownList {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid var(--grey-ddd);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  list-style: none;
+  padding: 8px 0;
+  min-width: 180px;
+  z-index: 50;
+}
+
+.dropdownItem {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: var(--black-111);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}
+
+/* List Items */
+.reportsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.reportItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--grey-ddd);
+  text-decoration: none;
+  color: var(--black-111);
+  transition: opacity 0.3s ease;
+}
+
+.reportItem:hover {
+  opacity: 0.7;
+}
+
+
+.arrowIcon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--black-111);
+}
+
+@media (max-width: 768px) {
+  .controlsWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filterBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}

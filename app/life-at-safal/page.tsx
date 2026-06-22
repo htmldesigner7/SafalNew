@@ -1,9 +1,9 @@
-import InnerPageHero from '@/components/InnerPageHero/InnerPageHero';
-import EngineerFutureSection from '@/components/EngineerFutureSection/EngineerFutureSection';
-import BrainTrustSection from '@/components/BrainTrustSection/BrainTrustSection';
-import EngineeringSection from '@/components/EngineeringSection/EngineeringSection';
-import IntelligenceSection from '@/components/IntelligenceSection/IntelligenceSection';
-import CultureSection from '@/components/CultureSection/CultureSection';
+import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
+import EngineerFutureSection from '@/app/life-at-safal/components/EngineerFutureSection/EngineerFutureSection';
+import BrainTrustSection from '@/app/life-at-safal/components/BrainTrustSection/BrainTrustSection';
+import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
+import IntelligenceSection from '@/components/sections/IntelligenceSection/IntelligenceSection';
+import CultureSection from '@/components/sections/CultureSection/CultureSection';
 import { pagesData } from '@/data/pagesData';
 import { joinTeamData } from '@/data/engineeringData';
 import { sandboxData } from '@/data/intelligenceData';

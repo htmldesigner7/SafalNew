@@ -1,20 +1,19 @@
-import JobDetailsPage from '@/components/views/JobDetailsPage/JobDetailsPage';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
+import ReportsListSection from './components/ReportsListSection/ReportsListSection';
 import { pagesData } from '@/data/pagesData';
 
-export default async function Page({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const heroData = pagesData.jobDetails.hero;
+export default function FinancialReportsPage() {
+  const heroData = pagesData.financialReports.hero;
 
   return (
     <main>
-      <InnerPageHero 
+      <InnerPageHero
         title={heroData.title}
         description={heroData.description}
         imageSrc={heroData.imageSrc}
         imageAlt={heroData.imageAlt}
       />
-      <JobDetailsPage jobId={id} />
+      <ReportsListSection />
     </main>
   );
 }

@@ -1,0 +1,82 @@
+.container {
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-ddd);
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-weight: 500;
+  color: var(--black-111);
+}
+
+.input, .textarea {
+  padding: 14px 20px;
+  border: 1px solid var(--grey-ddd);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input:focus, .textarea:focus {
+  border-color: var(--red);
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.uploadBox {
+  border: 1px solid var(--grey-ddd);
+  padding: 40px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.uploadBox:hover {
+  border-color: var(--red);
+}
+
+
+.submitBtn {
+  margin-top: 32px;
+}
+
+
+@media (max-width: 768px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 30px;
+  }
+}

@@ -52,10 +52,10 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Culture is our Operating System</strong>
+          <strong>Architecting Exponential Value</strong>
         </>
       ),
-      description: "At the Safal Group, our infrastructure is built on code, but our momentum is driven by people. We cultivate an elite environment of relentless innovation, systemic ownership, and unyielding integrity across three continents.",
+      description: "Welcome to Safal Group Investor Relations. We engineer long-term shareholder value by driving digital transformation across global enterprise markets. We execute with a fortress balance sheet, disciplined capital allocation, and uncompromising operational velocity.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Investor Relations Graphic",
     }
@@ -97,6 +97,32 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       description: "At the Safal Group, internships aren't simulations. You will deploy live code, craft global brand ecosystems, and engineer automation systems alongside the industry's top minds. This is where raw potential transforms into elite execution.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Internships and Mentorship",
+    }
+  },
+
+  financialReports: {
+    hero: {
+      title: (
+        <>
+          <strong>Financial Reports & Disclosures</strong>
+        </>
+      ),
+      description: "Access our latest financial results, annual reports, and strategic disclosures. We operate with radical transparency to ensure our stakeholders have the insights they need to make informed decisions.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Financial Reports",
+    }
+  },
+
+  blogs: {
+    hero: {
+      title: (
+        <>
+          <strong>Insights & Innovations</strong>
+        </>
+      ),
+      description: "Dive into our latest thoughts on technology, enterprise scale, and the future of global engineering. Stay ahead with deep-dives written by our architects and visionaries.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Blogs Hero Image",
     }
   }
 };

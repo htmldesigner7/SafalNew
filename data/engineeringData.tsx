@@ -125,3 +125,41 @@ export const blueprintData: EngineeringContent = {
     }
   ]
 };
+
+export const financialReportData: EngineeringContent = {
+  title: "Financial Data & Reporting.",
+  cards: [
+    {
+      id: "quarterly-earnings",
+      number: "01.",
+      subtitle: "Lorem",
+      title: "Quarterly Earnings",
+      description: "Access our latest quarterly financial results, executive webcasts, and earnings call transcripts.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "corporate-governance",
+      number: "01.",
+      subtitle: "Lorem",
+      title: "Corporate Governance",
+      description: "Review our board of directors, executive committee charters, and strict corporate code of ethics.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "annual-reports",
+      number: "01.",
+      subtitle: "Lorem",
+      title: "Annual Reports",
+      description: "Deep dive into our yearly performance metrics, audited financials, and strategic shareholder letters.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "esg-disclosures",
+      number: "01.",
+      subtitle: "Lorem ipsum",
+      title: "ESG Disclosures",
+      description: "Track our measurable progress toward our 2040 Net-Zero mandates and global social impact initiatives.",
+      imageSrc: "/images/blogs-inner.webp"
+    }
+  ]
+};

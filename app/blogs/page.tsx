@@ -1,20 +1,19 @@
-import JobDetailsPage from '@/components/views/JobDetailsPage/JobDetailsPage';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import { pagesData } from '@/data/pagesData';
+import BlogsSection from './components/BlogsSection/BlogsSection';
 
-export default async function Page({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const heroData = pagesData.jobDetails.hero;
+export default function BlogsPage() {
+  const heroData = pagesData.blogs.hero;
 
   return (
     <main>
-      <InnerPageHero 
+      <InnerPageHero
         title={heroData.title}
         description={heroData.description}
         imageSrc={heroData.imageSrc}
         imageAlt={heroData.imageAlt}
       />
-      <JobDetailsPage jobId={id} />
+      <BlogsSection />
     </main>
   );
 }

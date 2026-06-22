@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Familjen_Grotesk, Figtree } from "next/font/google";
-import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/layout/Header/Header";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const familjenGrotesk = Familjen_Grotesk({

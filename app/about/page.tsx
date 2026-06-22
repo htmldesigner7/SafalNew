@@ -7,7 +7,7 @@ import {
   EngineeringSection,
   SustainableSection,
   ArchitectureSection
-} from '@/components/AboutPage';
+} from '@/components/views/AboutPage';
 
 export default function AboutPage() {
   return (

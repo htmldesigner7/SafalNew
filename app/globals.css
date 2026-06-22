@@ -125,6 +125,7 @@ p {
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
+  line-height: normal;
 }
 
 .btn-outline-red {

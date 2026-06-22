@@ -91,7 +91,6 @@ export const investorCultureData: CultureContent = {
   ]
 };
 
-
 export const TalentData: CultureContent = {
   title: "The DNA of Our Talent.",
   subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
@@ -131,3 +130,81 @@ export const TalentData: CultureContent = {
   ]
 };
 
+
+export const MaterialtData: CultureContent = {
+  title: "Are You Safal Material?",
+  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  cards: [
+    {
+      id: "velocity",
+      subtitle: "Core / Execution",
+      title: "Relentless Velocity",
+      description: "You thrive in high-momentum environments. You prefer shipping flawless, optimized code over sitting in endless administrative meetings.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#f5f0ce"
+    },
+    {
+      id: "integrity",
+      subtitle: "Core / Governance",
+      title: "Absolute Integrity",
+      description: "You build systems that handle billions in revenue. You understand that zero-trust ethics and clean data governance are non-negotiable baseline requirements.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#cceaf4"
+    },
+    {
+      id: "innovation",
+      subtitle: "Core / Aesthetic",
+      title: "Aesthetic Intelligence",
+      description: "You believe that enterprise software shouldn't just be mathematically and functionally complex—it should be an intuitive joy to use.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#fbe0c9"
+    },
+    {
+      id: "ownership",
+      subtitle: "Core / Accountability",
+      title: "Systemic Ownership.",
+      description: "You do not pass the buck. If you architect the solution, you own the outcome, the performance, and the ROI from the first line of code to final deployment.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#d8ead2"
+    }
+  ]
+};
+
+export const architectureValueData: CultureContent = {
+  title: "The Architecture of Our Value.",
+  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  cards: [
+    {
+      id: "aggressive-trajectory",
+      subtitle: "Core / Execution",
+      title: "Aggressive Trajectory",
+      description: "Sustained, compounding revenue growth driven by our continuous expansion into high-margin SaaS ecosystems and automated manufacturing sectors globally.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#f5f0ce"
+    },
+    {
+      id: "disciplined-allocation",
+      subtitle: "Core / Governance",
+      title: "Disciplined Allocation",
+      description: "A fortress balance sheet. We deploy capital with mathematical precision, balancing aggressive R&D incubation with steady, predictable cash-flow generation.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#cceaf4"
+    },
+    {
+      id: "strategic-diversification",
+      subtitle: "Core / Aesthetic",
+      title: "Strategic Diversification",
+      description: "Our interconnected verticals operate independently but scale collectively. This dynamic ecosystem insulates our portfolio from isolated market downturns.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#fbe0c9"
+    },
+    {
+      id: "transparent-governance",
+      subtitle: "Core / Accountability",
+      title: "Transparent Governance",
+      description: "Unyielding ethical standards and zero-trust data compliance. We operate with radical transparency to maintain the absolute trust of our global stakeholders.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#d8ead2"
+    }
+  ]
+};

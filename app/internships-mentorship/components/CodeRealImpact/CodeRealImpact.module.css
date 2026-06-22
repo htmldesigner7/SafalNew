@@ -1,0 +1,23 @@
+
+.main
+{
+  display: grid;
+  grid-template-columns: 3fr 7fr ;
+  align-items: center;
+  gap: 64px;
+}
+
+.button
+{
+  border-radius: 100px;
+border: 1px solid rgba(213, 75, 38, 0.10);
+background: rgba(213, 75, 38, 0.10);
+padding: 12px 54px;
+color: var(--red);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+display: inline-block;
+}

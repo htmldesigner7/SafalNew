@@ -1,6 +1,6 @@
-import ContactHero from '@/components/ContactPage/ContactHero';
-import ContactForm from '@/components/ContactPage/ContactForm';
-import ContactLocations from '@/components/ContactPage/ContactLocations';
+import ContactHero from '@/components/views/ContactPage/ContactHero';
+import ContactForm from '@/components/views/ContactPage/ContactForm';
+import ContactLocations from '@/components/views/ContactPage/ContactLocations';
 
 export default function ContactPage() {
   return (
