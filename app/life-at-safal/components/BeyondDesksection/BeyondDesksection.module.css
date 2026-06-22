@@ -4,7 +4,7 @@
 
 .galleryGrid {
   display: grid;
-  grid-template-columns: 1fr 1.2fr 2fr 1.2fr 1fr;
+  grid-template-columns: 1fr  2fr  1fr;
   gap: 24px;
   align-items: center;
   margin-top: 40px;

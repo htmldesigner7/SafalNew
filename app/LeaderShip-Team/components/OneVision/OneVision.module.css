@@ -1,0 +1,23 @@
+
+.visionRow {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.reverse
+{
+   grid-template-columns: 4fr 6fr;
+}
+
+
+.reverse .visionImage {
+    order: 2;
+}
+
+
+.reverse .visionContent {
+    order: 1;
+}

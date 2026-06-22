@@ -124,5 +124,19 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Blogs Hero Image",
     }
+  },
+
+    LeaderShipTeam: {
+    hero: {
+      title: (
+        <>
+          <strong>Architecting the Digital Backbone of Tomorrow</strong>
+        </>
+      ),
+      description: "Leadership at Safal Infosoft goes beyond managing the present; we engineer what comes next. Meet the strategic minds, technologists, and creatives driving our global vision.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Blogs Hero Image",
+    }
   }
+
 };

@@ -8,6 +8,7 @@ import { pagesData } from '@/data/pagesData';
 import { joinTeamData } from '@/data/engineeringData';
 import { sandboxData } from '@/data/intelligenceData';
 import { TalentData } from '@/data/cultureData';
+import BeyondDesksection from './components/BeyondDesksection/BeyondDesksection';
 
 export default function LifeAtSafalPage() {
   const heroData = pagesData.lifeAtSafal.hero;
@@ -20,11 +21,12 @@ export default function LifeAtSafalPage() {
         imageSrc={heroData.imageSrc}
         imageAlt={heroData.imageAlt}
       />
-      <EngineerFutureSection />
       
       <BrainTrustSection />
       <EngineeringSection data={joinTeamData} />
+      <EngineerFutureSection />
       <IntelligenceSection data={sandboxData} />
+      <BeyondDesksection/>
       <CultureSection data={TalentData} />
     </main>
   );

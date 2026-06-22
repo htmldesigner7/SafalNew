@@ -185,7 +185,7 @@ export default function BrochuresSection() {
                 <p className={styles.pdfInfo}>
                   PDF | {featuredBrochure.pdfPages} Pages | {featuredBrochure.pdfSize}
                 </p>
-                <a href="#" className={styles.downloadBtn}>
+                <a href="#" className="btn-outline btn-outline-red">
                   <DownloadIcon />
                   Download Brochure
                 </a>
@@ -213,7 +213,7 @@ export default function BrochuresSection() {
                       </span>
                     ))}
                   </div>
-                  <h3 style={{ fontSize: '20px', marginBottom: '12px', lineHeight: '1.4' }}>
+                  <h3 className='title_24'>
                     {brochure.title}
                   </h3>
                   <p className={styles.pdfInfo}>

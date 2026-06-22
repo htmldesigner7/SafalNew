@@ -180,23 +180,6 @@
   gap: 8px;
 }
 
-.downloadBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 24px;
-  border: 1px solid var(--red);
-  color: var(--red);
-  text-decoration: none;
-  font-weight: 500;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.downloadBtn:hover {
-  background-color: var(--red);
-  color: white;
-}
 
 .downloadBtnTextOnly {
   display: inline-flex;
@@ -222,7 +205,7 @@
 
 .postCard {
   border-radius: 10px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--grey-ddd);
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -239,6 +222,7 @@
   border-radius: 5px;
   margin-bottom: 24px;
   overflow: hidden;
+  height: 236px;
 }
 
 @media (max-width: 1024px) {
