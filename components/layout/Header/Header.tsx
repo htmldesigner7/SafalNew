@@ -11,8 +11,8 @@ export default function Header() {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
-  // Determine if we need dark text/links (e.g. for blog details page)
-  const isBlogDetail = pathname?.startsWith('/blogs/') && pathname !== '/blogs';
+  // Determine if we need dark text/links (e.g. for blog details page or webinars)
+  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars');
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -55,13 +55,15 @@ export default function Header() {
         { title: 'Internships & Mentorship', href: '/internships-mentorship' },
         { title: 'Financial Reports', href: '/financial-reports-disclosures' },
         { title: 'Blogs', href: '/blogs' },
-        { title: 'Brochures', href: '/brochures' }
+        { title: 'Brochures', href: '/brochures' },
+        { title: 'Webinars', href: '/webinars' },
+        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' }
       ]
     },
   ];
 
   return (
-    <header className={`${styles.headerWrapper} ${isBlogDetail ? styles.lightBg : ''}`}>
+    <header className={`${styles.headerWrapper} ${isLightHeader ? styles.lightBg : ''}`}>
       <div className={`${styles.header} container-1800`} ref={dropdownRef}>
         <div className={styles.logoContainer}>
           <Link href="/">
@@ -73,7 +75,7 @@ export default function Header() {
               height={80}
               width={200}
               priority
-              className={isBlogDetail ? styles.darkLogo : ''}
+              className={isLightHeader ? styles.darkLogo : ''}
             />
           </Link>
         </div>
@@ -82,14 +84,14 @@ export default function Header() {
           {navLinks.map((link, index) => (
             <div key={index} className={styles.navItem}>
               {link.hasDropdown && link.dropdownItems ? (
-                <button onClick={(e) => handleDropdownClick(link.title, e)} className={`${styles.navLink} ${isBlogDetail ? styles.darkText : ''}`}>
+                <button onClick={(e) => handleDropdownClick(link.title, e)} className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}>
                   {link.title}
                   <svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transform: openDropdown === link.title ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s ease' }}>
                     <path d="M15.75 0.75L8.25 8.25L0.75 0.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </button>
               ) : (
-                <Link href={link.href} className={`${styles.navLink} ${isBlogDetail ? styles.darkText : ''}`}>
+                <Link href={link.href} className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}>
                   {link.title}
                   {link.hasDropdown && (
                     <svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">

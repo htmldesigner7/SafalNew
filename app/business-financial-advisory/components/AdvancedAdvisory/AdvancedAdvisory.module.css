@@ -1,0 +1,82 @@
+.section {
+  padding: 80px 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 4fr 6fr;
+  }
+}
+
+.imageCol {
+  border: 1px solid var(--grey-ddd);
+  border-radius: 4px;
+  padding: 24px;
+  background: transparent;
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImage {
+  object-fit: contain;
+}
+
+.contentCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabsHeader {
+  display: flex;
+  padding-left: 35px;
+}
+
+.tabBtn {
+  flex: 1;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #BBBBBB;
+  background-color: #F4F0E3;
+  transition: all 0.3s ease;
+}
+
+
+.activeTab {
+  background-color: var(--red);
+  color: var(--white);
+  border-color: var(--red);
+}
+
+.tabContent {
+  border: 1px solid var(--grey-ddd);
+  border-left: none;
+  /* border-top: none; */
+  padding: 35px;
+  background-color: transparent;
+border-radius: 0 0 5px 0;
+}
+
+.iconWrapper {
+  margin-bottom: 24px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.icon {
+  object-fit: contain;
+}

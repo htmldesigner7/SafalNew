@@ -1,0 +1,51 @@
+.section {
+  padding: 60px 0;
+}
+
+.topLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .topLayout {
+    flex-direction: row;
+  }
+}
+
+.leftCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightCol {
+  flex: 1;
+  position: relative;
+  min-height: 400px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.block:first-child {
+  border-top: 1px solid var(--grey-ddd);
+}
+
+.block {
+  border-bottom: 1px solid var(--grey-ddd);
+  padding: 20px 0;
+}
+
+.fullWidthBlock {
+  border-top: 1px solid var(--grey-ddd);
+  padding: 20px 0;
+}
+
+
+.list {
+  margin-top: 24px;
+list-style: disc;
+padding-left: 2rem;
+}
