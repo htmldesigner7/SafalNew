@@ -1,0 +1,92 @@
+.section
+{
+  margin-top: 40px;
+}
+
+.breadcrumbLink {
+  color: #999;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breadcrumbLink:hover {
+  color: #666;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dateInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+}
+
+.tagCaseStudy {
+  background-color: #FFDAD0;
+  color: var(--red);
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.tagErp {
+  background-color: #F5F6E0;
+  color: #5C7339;
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.heroImageWrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.bannerWrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 56px;
+  }
+}

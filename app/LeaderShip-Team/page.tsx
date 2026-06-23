@@ -1,6 +1,8 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import { pagesData } from '@/data/pagesData';
 import OneVision from './components/OneVision';
+import ExecutiveCommittee from './components/ExecutiveCommittee/ExecutiveCommittee';
+import DivisionHeads from './components/DivisionHeads/DivisionHeads';
 
 export default function ContactPage() {
 
@@ -16,6 +18,8 @@ export default function ContactPage() {
       />
 
       <OneVision/>
+      <ExecutiveCommittee/>
+      <DivisionHeads/>
     </main>
   );
 }

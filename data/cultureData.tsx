@@ -208,3 +208,42 @@ export const architectureValueData: CultureContent = {
     }
   ]
 };
+
+export const advisoryCapabilitiesData: CultureContent = {
+  title: "Core Advisory Capabilities",
+  subtitle: "",
+  cards: [
+    {
+      id: "business-advisory",
+      title: "Business Advisory",
+      description: "Advisory support for structuring operations and decision-making within defined business and financial frameworks.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#F3EED4",
+      subtitle: ""
+    },
+    {
+      id: "financial-modelling",
+      title: "Financial Modelling",
+      description: "Delivery of structured financial modelling services to support forecasting, planning, and investment evaluation.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#CBE6F5",
+      subtitle: ""
+    },
+    {
+      id: "due-diligence",
+      title: "Due Diligence",
+      description: "Comprehensive financial and operational due diligence to assess risks, validate assumptions, and support investment decisions.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#FDE0C5",
+      subtitle: ""
+    },
+    {
+      id: "internal-audits",
+      title: "Internal Audits",
+      description: "Evaluation of internal controls, compliance systems, and risk frameworks to ensure operational integrity.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#D7EAD3",
+      subtitle: ""
+    }
+  ]
+};

@@ -1,0 +1,37 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey-ddd);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.info {
+  padding: 20px;
+  background-color: #F4F0E3;
+  flex-grow: 1;
+}
+
+.name {
+  margin: 0 0 8px 0;
+}
+
+.role {
+  font-size: 18px;
+  color:var(--red);
+  margin: 0;
+  font-weight: 600;
+}

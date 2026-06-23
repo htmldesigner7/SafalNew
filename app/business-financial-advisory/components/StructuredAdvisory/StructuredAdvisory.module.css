@@ -1,0 +1,78 @@
+
+.layout {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 60px;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    flex-direction: row;
+    align-items: center;
+  }
+  .leftCol {
+    flex: 1;
+    padding-right: 40px;
+  }
+  .rightCol {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.accordion {
+  margin-top: 40px;
+}
+
+.accordionItem {
+  border-bottom: 1px solid var(--grey-ddd);
+  padding: 24px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.activeDot {
+  color: #0ea5e9; /* Light blue */
+  font-size: 24px;
+  line-height: 0;
+}
+
+.inactiveDot {
+  color: transparent;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.titleActive {
+  color: var(--black-111);
+  margin: 0;
+  font-size: 40px;
+}
+
+.titleInactive {
+  color: var(--grey-666);
+  margin: 0;
+}
+
+.accordionContent {
+  margin-top: 16px;
+  padding-left: 18px; /* Offset for the bullet */
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 4/3;
+}
+
+.image {
+  object-fit: contain;
+}

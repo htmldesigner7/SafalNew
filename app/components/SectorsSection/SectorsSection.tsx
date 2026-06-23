@@ -1,51 +1,28 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+import { SectorsContent, defaultSectorsData } from '@/data/sectorsData';
 import styles from './SectorsSection.module.css';
 
-const sectors = [
-  {
-    id: '01',
-    title: 'Manufacturing',
-    image: '/images/container-port.png',
-    description: 'Lorem ipsum dolor sit amet consectetur. Neque id eu cras quam. Tincidunt iaculis pulvinar tellus neque vitae viverra augue nec. Massa odio dignissim sit in dis ac. Id adipiscing faucibus urna senectus e aliquam magna nulla faucibus. Arcu arcu auctor imperdiet nisl amet. In non platea morbi facilisis consectetur nunc maecenas. Sit porta nulla sed non in nibh tellus nisl. Quam eget odio vestibulum bibendum eget vel massa. In nibh imperdiet proin felis senectus viverra vulputate. Sem mattis malesuada blandit sapien sagittis mi.',
-  },
-  {
-    id: '02',
-    title: 'Logistics',
-    image: '/images/container-port.png',
-    description: 'Optimize your supply chain and distribution networks with intelligent logistics platforms designed for global scale and real-time visibility.',
-  },
-  {
-    id: '03',
-    title: 'Retail',
-    image: '/images/container-port.png',
-    description: 'Transform customer experiences and streamline operations with data-driven retail ecosystems and omni-channel commerce solutions.',
-  },
-  {
-    id: '04',
-    title: 'Healthcare',
-    image: '/images/container-port.png',
-    description: 'Empower medical professionals and improve patient outcomes through secure, interoperable healthcare technology frameworks.',
-  },
-  {
-    id: '05',
-    title: 'Finance',
-    image: '/images/container-port.png',
-    description: 'Navigate complex regulatory landscapes and accelerate innovation with robust, secure financial infrastructure and analytics.',
-  }
-];
+interface SectorsSectionProps {
+  data?: SectorsContent;
+}
 
-export default function SectorsSection() {
+export default function SectorsSection({ data = defaultSectorsData }: SectorsSectionProps) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
-        <h2 className="title_60 text-center">Transforming Sectors. Architecting the Future.</h2>
+        <h2 className="title_60 text-center">{data.title}</h2>
+        {data.subtitle && (
+          <p className="text-center mt_20 mb_40" style={{ maxWidth: '800px', margin: '20px auto 40px auto', color: '#666' }}>
+            {data.subtitle}
+          </p>
+        )}
 
         <div className={styles.cardsContainer}>
-          {sectors.map((sector, index) => {
+          {data.cards.map((sector, index) => {
             const isActive = activeIndex === index;
 
             return (
