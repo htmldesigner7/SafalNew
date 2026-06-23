@@ -52,3 +52,42 @@ export const internshipsMentorshipData: SustainableContent = {
   imageSrc: "/images/blogs-inner.webp",
   imageAlt: "Sustainable Leaves"
 };
+
+
+export const StructuredIndependent: SustainableContent = {
+  title: <>Structured, Independent, and Insight-Led</>,
+  description: "",
+  listItems: [
+    {
+      boldText: "",
+      text: "Strong expertise in business and financial advisory services"
+    },
+    {
+      boldText: "",
+      text: "Delivery of structured financial advisory services aligned with compliance"
+    },
+    {
+      boldText: "",
+      text: "Data-driven approach to decision support and evaluation"
+    }
+    ,
+    {
+      boldText: "",
+      text: "Experience across valuation, audit, and transaction scenarios"
+    }
+
+    ,
+    {
+      boldText: "",
+      text: "Independent advisory with objective financial insights"
+    }
+
+    ,
+    {
+      boldText: "",
+      text: "Focus on long-term value creation and risk management"
+    }
+  ],
+  imageSrc: "/images/blogs-inner.webp", // Replace with actual 3-leaves image
+  imageAlt: "Sustainable Leaves"
+};

@@ -6,8 +6,12 @@ import SectorsSection from '@/app/components/SectorsSection/SectorsSection';
 
 import { advisoryCapabilitiesData } from '@/data/cultureData';
 import { advisoryEcosystemsData } from '@/data/advisoryEcosystemsData';
+import { EngineeringSection, SustainableSection } from '@/components/views/AboutPage';
+import { AdvisoryAcrossDiverse } from '@/data/engineeringData';
+import { StructuredIndependent } from '@/data/sustainableData';
 
 export default function BusinessFinancialAdvisoryPage() {
+
   return (
     <main>
       <InnerPageHero 
@@ -24,6 +28,10 @@ export default function BusinessFinancialAdvisoryPage() {
       <AdvancedAdvisory />
 
       <SectorsSection data={advisoryEcosystemsData} />
+
+      <EngineeringSection data={AdvisoryAcrossDiverse}/>
+
+      <SustainableSection data={StructuredIndependent}/>
 
     </main>
   );

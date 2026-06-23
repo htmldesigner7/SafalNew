@@ -163,3 +163,42 @@ export const financialReportData: EngineeringContent = {
     }
   ]
 };
+
+
+export const AdvisoryAcrossDiverse: EngineeringContent = {
+  title: "Advisory Across Diverse Scenarios",
+  cards: [
+    {
+      id: "quarterly-earnings",
+      number: "01.",
+      subtitle: "",
+      title: "Business Structuring & Financial Planning",
+      description: "Structured advisory across business models, financial planning, and governance frameworks.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "corporate-governance",
+      number: "01.",
+      subtitle: "",
+      title: "Due Diligence for Investment Decisions",
+      description: "Evaluation of financial, operational, and compliance factors to support investment decisions.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "annual-reports",
+      number: "01.",
+      subtitle: "",
+      title: "Valuation & Transaction Support",
+      description: "Delivery of business valuation and financial advisory services across transaction scenarios and investment processes.",
+      imageSrc: "/images/blogs-inner.webp"
+    },
+    {
+      id: "esg-disclosures",
+      number: "01.",
+      subtitle: "",
+      title: "Internal Audit & Compliance Review",
+      description: "Assessment of internal systems and controls to strengthen governance and reduce risk exposure.",
+      imageSrc: "/images/blogs-inner.webp"
+    }
+  ]
+};

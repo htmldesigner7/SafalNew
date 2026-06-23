@@ -11,9 +11,9 @@ export default function SustainableSection({ data = sustainableData }: { data?: 
           {/* Left Content */}
           <div className={styles.leftCol}>
             <h2 className="title_60">{data.title}</h2>
-            <p className={styles.description}>
+            <div className={styles.description}>
               {data.description}
-            </p>
+            </div>
             {data.listItems && data.listItems.length > 0 && (
               <ul className={styles.featureList}>
                 {data.listItems.map((item, index) => (
