@@ -3,6 +3,8 @@ import StructuredAdvisory from './components/StructuredAdvisory/StructuredAdviso
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
 import AdvancedAdvisory from './components/AdvancedAdvisory/AdvancedAdvisory';
 import SectorsSection from '@/app/components/SectorsSection/SectorsSection';
+import DataDrivenSection from './components/DataDrivenSection/DataDrivenSection';
+import ConsultExpertsCTA from './components/ConsultExpertsCTA/ConsultExpertsCTA';
 
 import { advisoryCapabilitiesData } from '@/data/cultureData';
 import { advisoryEcosystemsData } from '@/data/advisoryEcosystemsData';
@@ -28,10 +30,14 @@ export default function BusinessFinancialAdvisoryPage() {
       <AdvancedAdvisory />
 
       <SectorsSection data={advisoryEcosystemsData} />
+      <DataDrivenSection />
 
       <EngineeringSection data={AdvisoryAcrossDiverse}/>
 
       <SustainableSection data={StructuredIndependent}/>
+
+
+      <ConsultExpertsCTA />
 
     </main>
   );

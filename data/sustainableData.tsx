@@ -91,3 +91,4 @@ export const StructuredIndependent: SustainableContent = {
   imageSrc: "/images/blogs-inner.webp", // Replace with actual 3-leaves image
   imageAlt: "Sustainable Leaves"
 };
+

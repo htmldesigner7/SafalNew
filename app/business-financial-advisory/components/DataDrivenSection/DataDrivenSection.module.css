@@ -1,0 +1,31 @@
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 4.5fr 5.5fr;
+  }
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.rightCol {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}

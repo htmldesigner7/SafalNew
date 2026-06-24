@@ -7,18 +7,14 @@
     margin-bottom: 80px;
 }
 
-.reverse
-{
-   grid-template-columns: 4fr 6fr;
+.reverse {
+    grid-template-columns: 4fr 6fr;
 }
-
-
-.reverse .visionImage {
-    order: 2;
-}
-
 
 .reverse .visionContent {
     order: 1;
 }
-==
+
+.reverse .visionImage {
+    order: 2;
+}
