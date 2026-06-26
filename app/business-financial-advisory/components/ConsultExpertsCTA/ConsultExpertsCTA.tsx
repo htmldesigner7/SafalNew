@@ -30,7 +30,7 @@ export default function ConsultExpertsCTA() {
         <p className={styles.description}>
           {consultData.description}
         </p>
-        <Link href={consultData.buttonLink} className="btn-outline btn-outline-white" style={{borderColor: '#fff', color: '#fff', background: '#fff', color: '#333'}}>
+        <Link href={consultData.buttonLink} className="btn-outline btn-outline-white" style={{borderColor: '#fff', background: '#fff', color: '#333'}}>
           {consultData.buttonText}
         </Link>
       </div>

@@ -247,3 +247,36 @@ export const advisoryCapabilitiesData: CultureContent = {
     }
   ]
 };
+
+
+
+export const ValueCreationArchitecture: CultureContent = {
+  title: "The Value-Creation Architecture.",
+  subtitle: "",
+  cards: [
+    {
+      id: "contract-hiring",
+      title: "Contract Hiring",
+      description: "On-demand talent through tech staffing solutions for short-term or project-based needs.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#FDE0C5",
+      subtitle: ""
+    },
+    {
+      id: "contract-to-hire",
+      title: "Contract-to-Hire",
+      description: "Evaluate talent in real-time before transitioning into long-term roles.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#CBE6F5",
+      subtitle: ""
+    },
+    {
+      id: "full-time-hiring",
+      title: "Full-Time Hiring",
+      description: "End-to-end hiring support to build stable, high-performance internal teams.",
+      imageSrc: "/images/hero_3d_book.png",
+      bgColor: "#E2F0D9",
+      subtitle: ""
+    }
+  ]
+};

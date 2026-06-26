@@ -7,7 +7,7 @@ export interface HeroContent {
   imageAlt: string;
 }
 
-export const pagesData: Record<string, { hero: HeroContent }> = {
+export const pagesData: Record<string, any> = {
   about: {
     hero: {
       title: (
@@ -137,6 +137,19 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Blogs Hero Image",
     }
+  },
+  technologyStaffing: {
+    hero: {
+      title: (
+        <>
+          <strong>Connecting You with <br />
+            <span>Top Tech Talent</span></strong>
+        </>
+      ),
+      description: "We provide comprehensive technology staffing solutions to help you build high-performing teams.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Technology Staffing Hero",
+    }
   }
-
 };
+

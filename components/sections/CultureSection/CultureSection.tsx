@@ -16,7 +16,7 @@ export default function CultureSection({ data }: CultureSectionProps) {
           <p>{data.subtitle}</p>
         </div>
 
-        <div className={styles.cardsGrid}>
+        <div className={`${styles.cardsGrid} ${data.cards.length === 3 ? styles.cardsGrid3 : ''}`}>
           {data.cards.map((card) => (
             <div
               key={card.id}

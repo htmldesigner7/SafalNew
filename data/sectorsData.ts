@@ -43,6 +43,6 @@ export const defaultSectorsData: SectorsContent = {
       title: 'Finance',
       image: '/images/container-port.png',
       description: 'Navigate complex regulatory landscapes and accelerate innovation with robust, secure financial infrastructure and analytics.',
-    }
-  ]
+}
+]
 };

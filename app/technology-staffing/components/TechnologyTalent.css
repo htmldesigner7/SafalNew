@@ -1,0 +1,42 @@
+.talent_container {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.talent_content {
+  flex: 1 1 500px;
+}
+
+.talent_image_wrapper {
+  flex: 1 1 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.talent_image {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  object-fit: contain;
+}
+
+/* Responsive Adjustments for a proper design */
+@media (max-width: 991px) {
+  .talent_container {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .talent_container {
+    gap: 30px;
+  }
+  
+  .talent_content,
+  .talent_image_wrapper {
+    flex: 1 1 100%;
+  }
+}

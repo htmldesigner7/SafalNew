@@ -48,6 +48,7 @@
 
 @media (max-width: 768px) {
   .ctaBox {
+    width: 90%;
     margin-top: -50px;
     padding: 40px 20px;
   }
