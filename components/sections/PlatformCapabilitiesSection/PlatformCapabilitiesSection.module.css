@@ -1,7 +1,7 @@
 
 .contentWrapper {
   display: grid;
-  grid-template-columns: 7fr 3fr;
+  grid-template-columns: 6fr 4fr;
   gap: 60px;
   align-items: center;
 }
@@ -101,15 +101,12 @@
   border-radius: 4px;
   padding: 0;
   width: 100%;
-  max-width: 500px;
 }
 
 .listItem {
   padding: 20px 24px;
   border-bottom: 1px solid #E5E5E5;
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.5;
+
 }
 
 .listText {
