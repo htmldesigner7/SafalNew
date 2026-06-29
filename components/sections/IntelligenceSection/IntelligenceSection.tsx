@@ -18,8 +18,10 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
           {/* Center Content */}
           <div className={styles.centerContent}>
             <h2 className="title_60">{data.title}</h2>
-            <p>{data.description}</p>
-            <button className="btn-primary mt_40">{data.buttonText}</button>
+            <div className="description">{data.description}</div>
+            {data.buttonText && (
+              <button className="btn-primary mt_40">{data.buttonText}</button>
+            )}
           </div>
 
           {/* Floating Icons */}

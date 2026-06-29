@@ -91,4 +91,16 @@ export const StructuredIndependent: SustainableContent = {
   imageSrc: "/images/blogs-inner.webp", // Replace with actual 3-leaves image
   imageAlt: "Sustainable Leaves"
 };
+
+export const productsBuiltForScaleData: SustainableContent = {
+  title: "Products Built for Scale and Adoption",
+  description: (
+    <>
+      <p style={{ marginTop: 0 }}>As a startup product development company, Ideaz Ventures has contributed to building digital products across industries, from early-stage MVPs to scalable platforms.</p>
+      <p>Each product reflects structured execution, scalable architecture, and alignment between product vision and technology systems.</p>
+    </>
+  ),
+  imageSrc: "/images/ourstory.webp", // Fallback sketch image, user can replace
+  imageAlt: "Products Built for Scale"
+};
 

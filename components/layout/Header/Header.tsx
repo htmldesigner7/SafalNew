@@ -57,7 +57,10 @@ export default function Header() {
         { title: 'Blogs', href: '/blogs' },
         { title: 'Brochures', href: '/brochures' },
         { title: 'Webinars', href: '/webinars' },
-        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' }
+        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
+        { title: 'Technology Staffing', href: '/technology-staffing' },
+        { title: 'Startup Product Development', href: '/startup-product-development' },
+        { title: 'Enterprise Products', href: '/enterprise-products' }
       ]
     },
   ];

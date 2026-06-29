@@ -1,0 +1,61 @@
+.section {
+  background-color: var(--color-bg-main);
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.platformBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.platformBlock:last-child {
+  margin-bottom: 0;
+}
+
+.imageCol {
+  flex: 1.2;
+  min-width: 400px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  /* The image aspect ratio is approx 16:9 or similar browser window */
+}
+
+.textCol {
+  flex: 0.8;
+  min-width: 300px;
+}
+
+.logoWrapper {
+  margin-bottom: 24px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+@media (max-width: 1024px) {
+  .platformBlock {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .imageCol,
+  .textCol {
+    flex: 1;
+    width: 100%;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,212 @@
+.section {
+  position: relative;
+  overflow: hidden;
+  background-color: #FDFBF0;
+}
+
+.diagramContainer {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Base style for circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sideCircle {
+  width: 380px;
+  height: 380px;
+  border: 1.5px dashed #C4C4C4;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+  padding-top: 64px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.leftCircle {
+  left: 3%;
+}
+
+.rightCircle {
+  right: 3%;
+}
+
+.centerCircle {
+  width: 480px;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.circleTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.centerTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.darkOverlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(30, 35, 48, 0.85);
+}
+
+.centerContent {
+  position: relative;
+  z-index: 20;
+  padding-top: 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  text-align: center;
+}
+
+.centerText {
+  color: #d1d5db;
+}
+
+/* Connecting Lines */
+.horizontalLine {
+  position: absolute;
+  height: 1px;
+  border-top: 1.5px dashed;
+  z-index: -10;
+}
+
+.horizontalLineGray {
+  border-color: #C4C4C4;
+}
+
+.horizontalLineWhite {
+  border-color: rgba(255, 255, 255, 0.4);
+  z-index: 10;
+}
+
+.verticalLineWhite {
+  position: absolute;
+  width: 1px;
+  border-left: 1.5px dashed rgba(255, 255, 255, 0.4);
+  z-index: 10;
+}
+
+.lineLeftCircle {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+
+.lineRightCircle {
+  top: 65%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+
+.lineMidVert1 {
+  left: 35%;
+  top: 35%;
+  height: 20%;
+}
+
+.lineMidVert2 {
+  right: 30%;
+  top: 45%;
+  height: 20%;
+}
+
+.lineMidHoriz1 {
+  left: 0;
+  top: 45%;
+  width: 35%;
+}
+
+.lineMidHoriz2 {
+  right: 0;
+  top: 55%;
+  width: 30%;
+}
+
+/* Nodes / Pills */
+.nodePill {
+  position: absolute;
+  z-index: 20;
+  background-color: #DE5C3A;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.node1 {
+  left: -2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.node2 {
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.node3 {
+  left: 33%;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.node4 {
+  left: 45%;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.node5 {
+  right: 28%;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.node6 {
+  right: 22%;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+.node7 {
+  right: 0%;
+  top: 65%;
+  transform: translateY(-50%);
+}

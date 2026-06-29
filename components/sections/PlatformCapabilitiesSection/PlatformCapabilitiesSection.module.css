@@ -1,0 +1,150 @@
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.graphicColumn {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.graphicCenter {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerImage {
+}
+
+.annotation {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 220px;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.annotationText {
+  margin: 0;
+}
+
+.annotationDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.annotationDot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.5;
+}
+
+.topLeft {
+  top: 15%;
+  left: -40%;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.topLeft .annotationDot::after {
+  left: 100%; /* line goes right from the dot */
+}
+
+.bottomLeft {
+  bottom: 15%;
+  left: -40%;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.bottomLeft .annotationDot::after {
+  left: 100%; /* line goes right from the dot */
+}
+
+.right {
+  top: 40%;
+  right: -40%;
+  text-align: left;
+}
+.right .annotationDot::after {
+  right: 100%; /* line goes left from the dot */
+}
+
+.listColumn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.listCard {
+  background: transparent;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.listItem {
+  padding: 20px 24px;
+  border-bottom: 1px solid #E5E5E5;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.listText {
+  margin: 0;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  .annotation {
+    max-width: 150px;
+  }
+  
+  .topLeft {
+    left: -20%;
+  }
+  
+  .bottomLeft {
+    left: -20%;
+  }
+  
+  .right {
+    right: -20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .graphicColumn {
+    display: none;
+  }
+}

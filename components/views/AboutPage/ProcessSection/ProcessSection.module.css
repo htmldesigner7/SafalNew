@@ -26,8 +26,8 @@
 
 
 .activeTab {
- background: linear-gradient(90deg, #FFDAD0 0%, #FFFBEE 100%);
-  color: var(--red);
+  background: var(--active-bg);
+  color: var(--active-color);
   border-bottom-color: transparent;
   font-weight: 500;
 }
@@ -59,7 +59,7 @@
 .lineToCenter {
   width: 140px;
   height: 1px;
-  background-color: #60853A;
+  background-color: var(--active-color);
   position: relative;
 }
 
@@ -71,7 +71,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #60853A;
+  background-color: var(--active-color);
 }
 
 

@@ -150,6 +150,32 @@ export const pagesData: Record<string, any> = {
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Technology Staffing Hero",
     }
+  },
+  startupProductDevelopment: {
+    hero: {
+      title: (
+        <>
+          <strong>From Idea to Scalable <br />
+            <span>Product</span></strong>
+        </>
+      ),
+      description: "Structured startup product development services and consulting designed to transform ideas into scalable, production-ready digital products.",
+      imageSrc: "/images/blogs-inner.webp", // Replace with correct image from the design
+      imageAlt: "Startup Product Development Hero",
+    }
+  },
+  enterpriseProducts: {
+    hero: {
+      title: (
+        <>
+          <strong>Enterprise-Grade<br />
+          Products Built for Scale</strong>
+        </>
+      ),
+      description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
+      imageSrc: "/images/blogs-inner.webp", // Replace with correct globe/dome image if different
+      imageAlt: "Enterprise Products Hero",
+    }
   }
 };
 

@@ -2,8 +2,8 @@ import { ReactNode } from 'react';
 
 export interface IntelligenceData {
   title: ReactNode;
-  description: string;
-  buttonText: string;
+  description: ReactNode;
+  buttonText?: string;
   buttonLink?: string;
 }
 
@@ -25,4 +25,18 @@ export const EconomicData: IntelligenceData = {
   title: <>The Safal Economic Moat.</>,
   description: "Our proprietary AI engines and low-code data frameworks don't just serve our clients—they optimize our own internal cost structures. This relentless pursuit of operational efficiency creates a widening economic moat, driving up profit margins and ensuring long-term financial resilience in a shifting global economy.",
   buttonText: "Download Q3 Earnings Presentation"
+};
+
+export const whoWeWorkWithData: IntelligenceData = {
+  title: <>Who We<br />Work With</>,
+  description: (
+    <>
+      <p>As part of our consulting services for startups, Ideaz Ventures works with:</p>
+      <ul>
+        <li>Founders building new digital products</li>
+        <li>Startups at early and growth stages</li>
+        <li>Product teams within enterprises</li>
+      </ul>
+    </>
+  )
 };

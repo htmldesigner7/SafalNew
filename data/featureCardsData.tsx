@@ -24,3 +24,30 @@ export const techTalentFeatures = {
     }
   ]
 };
+
+export const flexibleEngagementData = {
+  title: "Flexible Product Engagement Models",
+  cards: [
+    {
+      id: "build-with-you",
+      title: "Build With You",
+      description: "Collaborative model where product development teams work alongside founders and internal teams throughout execution.",
+      imageSrc: "/images/hero_3d_book.png",
+      imageAlt: "Build With You Icon"
+    },
+    {
+      id: "build-for-you",
+      title: "Build For You",
+      description: "End-to-end delivery of startup product development services, from concept validation to full product deployment.",
+      imageSrc: "/images/hero_3d_book.png",
+      imageAlt: "Build For You Icon"
+    },
+    {
+      id: "dedicated-teams",
+      title: "Dedicated Teams",
+      description: "Long-term dedicated teams supporting product development, scaling, and continuous improvement.",
+      imageSrc: "/images/hero_3d_book.png",
+      imageAlt: "Dedicated Teams Icon"
+    }
+  ]
+};

@@ -8,6 +8,7 @@ import {
   SustainableSection,
   ArchitectureSection
 } from '@/components/views/AboutPage';
+import { aboutProcessData } from '@/data/processData';
 
 export default function AboutPage() {
   return (
@@ -15,7 +16,7 @@ export default function AboutPage() {
       <AboutHero />
       <AboutSection />
       <AboutCulture />
-      <ProcessSection />
+      <ProcessSection title="The Value-Creation Architecture." data={aboutProcessData} />
       <AboutIntelligence />
       <EngineeringSection />
       <SustainableSection />
