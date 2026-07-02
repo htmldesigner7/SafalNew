@@ -113,6 +113,11 @@ p {
 
 }
 
+.btn-primary-white {
+  background-color: var(--white);
+  color: var(--red);
+}
+
 .btn-primary:hover {
   /* background-color: var(--red); */
 }
@@ -136,6 +141,8 @@ p {
 .btn-outline-red {
   color: var(--red);
 }
+
+
 
 .btn-outline:hover {
   /* background-color: var(--red); */

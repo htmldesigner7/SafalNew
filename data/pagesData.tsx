@@ -176,6 +176,18 @@ export const pagesData: Record<string, any> = {
       imageSrc: "/images/blogs-inner.webp", // Replace with correct globe/dome image if different
       imageAlt: "Enterprise Products Hero",
     }
+  },
+  industrialAutomation: {
+    hero: {
+      title: (
+        <>
+          Driving Industry 4.0 <strong>Transformation</strong>
+        </>
+      ),
+      description: "End-to-end industrial automation solutions and IIoT systems designed to connect machines, optimize operations, and enable data-driven industrial environments.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Industrial Automation & IoT",
+      
+    }
   }
 };
-

@@ -60,7 +60,8 @@ export default function Header() {
         { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
         { title: 'Technology Staffing', href: '/technology-staffing' },
         { title: 'Startup Product Development', href: '/startup-product-development' },
-        { title: 'Enterprise Products', href: '/enterprise-products' }
+        { title: 'Enterprise Products', href: '/enterprise-products' },
+        { title: 'Industrial Automation & IoT', href: '/industrial-automation' }
       ]
     },
   ];

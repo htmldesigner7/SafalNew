@@ -42,3 +42,16 @@ export const industryApplicationsData: SectorsContent = {
     }
   ]
 };
+
+export const industrialEnvironmentsData: SectorsContent = {
+  title: 'Across Industrial Environments',
+  subtitle: 'As an IoT solutions provider, Safal supports industries where system reliability, operational efficiency, and real-time control are critical.',
+  cards: [
+    { id: '01', title: 'Textile', image: '/images/manufacturing.jpg', description: ' liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj liu hlsjdhf ljhdaflkj haslkdjhflka jsdhfkj' },
+    { id: '02', title: 'Pharmaceutical', image: '/images/container-port.png', description: '' },
+    { id: '03', title: 'Automobile', image: '/images/industries-section.jpg', description: '' },
+    { id: '04', title: 'Energy', image: '/images/healthcare.jpg', description: '' },
+    { id: '05', title: 'Food & Dairy', image: '/images/services-image.jpg', description: '' },
+    { id: '06', title: 'Oil & Gas', image: '/images/hero-section.jpg', description: '' }
+  ]
+};

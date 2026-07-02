@@ -67,3 +67,10 @@ export const specializedSystemsData: ProcessItem[] = [
     description: "Integrated task allocation and tracking system designed to align daily execution with strategic enterprise goals."
   }
 ];
+
+export const engineeringCapabilitiesData: ProcessItem[] = [
+  { id: 0, title: "01. Design & Engineering", description: "System design aligned with plant operations and scalability." },
+  { id: 1, title: "02. PLC / SCADA Systems", description: "Programmable logic controllers and supervisory control for real-time monitoring and automation." },
+  { id: 2, title: "03. IIoT Integration", description: "Industrial IoT integration for data-driven insights, predictive maintenance, and control." },
+  { id: 3, title: "04. Smart Factory Solutions", description: "End-to-end digital transformation enabling intelligent, automated manufacturing facilities." }
+];

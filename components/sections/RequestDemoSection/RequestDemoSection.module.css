@@ -1,0 +1,60 @@
+
+.demoBox {
+  width: 100%;
+  background: #010101;
+  overflow: hidden;
+ display: grid;
+ grid-template-columns: 6fr 4fr;
+}
+
+.imageColumn {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+.textColumn {
+  padding: 60px 60px 60px 20px;
+}
+
+.title {
+  color: var(--white);
+  margin: 0 0 30px 0;
+}
+
+.paragraph {
+  
+  color: var(--white);
+  margin: 0 0 24px 0;
+}
+
+
+@media (max-width: 1024px) {
+  .demoBox {
+    grid-template-columns: 1fr 1fr;
+  }
+  .textColumn {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .demoBox {
+    grid-template-columns: 1fr;
+  }
+  
+  .imageColumn {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .textColumn {
+    padding: 40px 20px;
+  }
+}

@@ -1,0 +1,134 @@
+.sectionTitle {
+  text-align: center;
+}
+
+.swiperContainer {
+  overflow: hidden; /* Contains the sliding boxes */
+  width: 100%;
+}
+
+.swiperContainer :global(.swiper-wrapper) {
+  align-items: stretch;
+}
+
+.swiperContainer :global(.swiper-slide) {
+  height: auto;
+  display: flex;
+}
+
+.caseStudyBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--grey-ddd);
+  height: 100%;
+}
+
+.textContent {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caseTitle {
+  color: var(--black-111);
+  margin-bottom: 30px;
+}
+
+.caseParagraph {
+  text-align: justify;
+}
+
+
+.imageContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden; /* Added to contain scale */
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.caseStudyBox:hover .image {
+  transform: scale(1.05);
+}
+
+.sliderControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.arrowBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.arrowBtn:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+.disabledArrow {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.arrowBtn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.indicators {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.indicator {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(213, 75, 38, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.activeIndicator {
+  background-color: var(--red);
+}
+
+@media (max-width: 992px) {
+  .caseStudyBox {
+    grid-template-columns: 1fr;
+  }
+  
+  .imageContent {
+    height: 350px;
+    order: -1; /* Move image above text on mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .textContent {
+    padding: 30px 20px;
+  }
+  
+  .indicator {
+    width: 25px;
+  }
+}
