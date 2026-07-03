@@ -1,0 +1,92 @@
+.diagramContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 600px;
+  height: 550px; 
+  z-index: 1;
+}
+
+.diagramImage {
+  object-fit: contain;
+  width: auto;
+  height: 100%;
+}
+
+.textBlock {
+  position: absolute;
+  z-index: 2;
+  width: 500px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.iconWrapper {
+  flex-shrink: 0;
+}
+
+.iconImage {
+  object-fit: contain;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.topBlock {
+  position: static; 
+  order: -1; /* Ensures it sits above the image wrapper in the column flexbox */
+  width: 500px;
+  /* margin-bottom: -50px;  */
+  text-align: left;
+  justify-content: center;
+  z-index: 3;
+}
+
+.leftBlock {
+  top: 60%; /* Adjusted since container is taller now */
+  right: 50%;
+  margin-right: 280px; 
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.rightBlock {
+  top: 65%;
+  left: 50%;
+  margin-left: 280px; /* Bulletproof distance from center */
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .diagramContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    gap: 40px;
+  }
+
+  .imageWrapper {
+    position: relative;
+    height: 400px; /* Fallback height for mobile */
+  }
+
+  .textBlock {
+    position: relative;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    max-width: 100%;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+}

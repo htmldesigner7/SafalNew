@@ -1,0 +1,245 @@
+.section {
+  overflow: hidden;
+  position: relative;
+}
+
+.diagramContainer {
+  position: relative;
+  width: 100%;
+  max-width: 816px;
+  height: 520px; 
+  margin: 80px auto;
+}
+
+.waveWrapper {
+  position: absolute;
+  top: 121px; /* Center the 278px height SVG in the 520px container */
+  left: 0;
+  width: 100%;
+  height: 278px;
+}
+
+.svgWave {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible !important;
+}
+
+/* Positioning columns precisely over circle centers in the 816px wide diagram */
+.columns {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  width: 100%;
+  height: 278px;
+  z-index: 2;
+}
+
+.column {
+  position: absolute;
+  top: 0;
+  width: 280px;
+  height: 100%;
+  margin-left: -140px; /* Center the 280px column over the left coordinate */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column1 {
+  left: 16.71%; /* 136.427 / 816 */
+}
+
+.column2 {
+  left: 50%; /* 407.963 / 816 */
+}
+
+.column3 {
+  left: 83.27%; /* 679.499 / 816 */
+}
+
+/* Circle alignment - diameter 210px to balance gaps and fit the SVG dotted wave curve */
+.circleContainer {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  left: 50%;
+  margin-left: -105px;
+}
+
+.circle1 {
+  top: 34px; /* 139 - 105 */
+}
+
+.circle2 {
+  top: 34px; /* 139 - 105 */
+}
+
+.circle3 {
+  top: 34px; /* 139 - 105 */
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #222;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.circleBlue {
+  background-color: #BEE4ED;
+  border-color: #1e5b70;
+}
+
+.circleOrange {
+  background-color: #FFDEBD;
+  border-color: #b25916;
+}
+
+.circleGreen {
+  background-color: #DBE9CB;
+  border-color: #385723;
+}
+
+/* Content blocks (text description) */
+.contentBlock {
+  position: absolute;
+  width: 280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentTop {
+  bottom: 318px; /* Bottom edge aligned with columns top (y = 0) plus margin */
+  padding-bottom: 20px;
+}
+
+.contentBottom {
+  top: 318px; /* Top edge aligned with columns bottom (y = 278) plus margin */
+  padding-top: 20px;
+}
+
+.textTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black-111);
+  margin: 0 0 10px 0;
+}
+
+.textDesc {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  max-width: 340px;
+}
+
+/* Vertical lines connecting text and circle top/bottom */
+.verticalLine {
+  position: absolute;
+  width: 1.5px;
+  background-color: #484848;
+}
+
+.lineToCircle1 {
+  top: -40px; /* Starts at bottom of contentTop (y = -40), goes down to circle1 top (34px) */
+  height: 74px;
+  left: 50%;
+}
+
+.lineToCircle2 {
+  top: 244px; /* Starts at circle2 bottom (244px), goes down to top of contentBottom (318px) */
+  height: 74px;
+  left: 50%;
+}
+
+.lineToCircle3 {
+  top: -40px; /* Starts at bottom of contentTop (y = -40), goes down to circle3 top (34px) */
+  height: 74px;
+  left: 50%;
+}
+
+/* Dots on the connecting lines - diameter 30px */
+.lineDot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dotTop {
+  top: -15px; /* Centered exactly on y = -40px */
+}
+
+.dotBottom {
+  bottom: -15px; /* Centered exactly on y = 318px */
+}
+
+.dotBlue {
+  border-color: #1e5b70;
+  background-color: #BEE4ED;
+}
+
+.dotOrange {
+  border-color: #b25916;
+  background-color: #FFDEBD;
+}
+
+.dotGreen {
+  border-color: #385723;
+  background-color: #DBE9CB;
+}
+
+@media (max-width: 991px) {
+  .diagramContainer {
+    height: auto;
+  }
+  .waveWrapper {
+    display: none;
+  }
+  .columns {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: auto;
+  }
+  .column {
+    position: relative;
+    left: 0 !important;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .circleContainer {
+    position: relative;
+    top: 0 !important;
+    margin-left: 0;
+    left: 0;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+  }
+  .contentBlock {
+    position: relative;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+  .verticalLine {
+    display: none;
+  }
+}

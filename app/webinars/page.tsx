@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './WebinarDetail.module.css';
-import WhyAttend from './components/WhyAttend/WhyAttend';
-import MeetSpeakers from './components/MeetSpeakers/MeetSpeakers';
-import FiresideChatForm from './components/FiresideChatForm/FiresideChatForm';
+import WhyAttend from './components/WhyAttend';
+import MeetSpeakers from './components/MeetSpeakers';
+import FiresideChatForm from './components/FiresideChatForm';
 
 export default function WebinarsPage() {
   return (

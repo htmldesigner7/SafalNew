@@ -189,5 +189,41 @@ export const pagesData: Record<string, any> = {
       imageAlt: "Industrial Automation & IoT",
       
     }
+  },
+  aiEmergingTechnology: {
+    hero: {
+      title: (
+        <>
+          <strong>AI That Drives Real<br />Business Outcomes</strong>
+        </>
+      ),
+      description: "Enterprise AI systems and machine learning services designed to automate processes, structure decision-making, and deliver measurable business outcomes.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "AI Emerging Technology Hero",
+    }
+  },
+  financialAccountingSolutions: {
+    hero: {
+      title: (
+        <>
+          <strong>Smarter, Faster & Scalable<br />Accounting Solutions</strong>
+        </>
+      ),
+      description: "Structured financial accounting solutions and accounting solutions designed to manage financial processes with accuracy, compliance, and operational efficiency.",
+      imageSrc: "/images/financial-accounting-hero.png",
+      imageAlt: "Financial Accounting Solutions Hero",
+    }
+  },
+  brandDigitalCreativeServices: {
+    hero: {
+      title: (
+        <>
+          <strong>Building Brands That<br />Perform</strong>
+        </>
+      ),
+      description: "Strategic digital branding services, creative design services, and integrated digital marketing services designed to build, scale, and position brands with clarity and consistency.",
+      imageSrc: "/images/blogs-inner.webp",
+      imageAlt: "Brand Digital Creative Services Hero",
+    }
   }
 };

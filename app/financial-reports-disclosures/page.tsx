@@ -1,5 +1,5 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import ReportsListSection from './components/ReportsListSection/ReportsListSection';
+import ReportsListSection from '@/components/sections/ReportsListSection/ReportsListSection';
 import { pagesData } from '@/data/pagesData';
 
 export default function FinancialReportsPage() {

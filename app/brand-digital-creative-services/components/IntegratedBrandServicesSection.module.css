@@ -1,0 +1,94 @@
+
+.title {
+  margin-bottom: 60px;
+}
+
+.sliderContainer {
+  position: relative;
+}
+
+.card {
+  border: 1px solid var(--grey-ddd);
+  border-radius: 5px;
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconWrapper {
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.iconWrapper svg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitle {
+  margin-bottom: 12px;
+}
+
+/* Navigation Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.navButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navButton:hover {
+  background-color: var(--red);
+}
+
+.navButton:active {
+  transform: scale(0.95);
+}
+
+.navButton:disabled {
+  background-color: #f0a896;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 30px;
+  height: 3px;
+  background-color: rgba(217, 83, 51, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dotActive {
+  background-color: var(--red);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+}

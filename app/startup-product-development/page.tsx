@@ -1,18 +1,23 @@
+import React from 'react';
+import Image from 'next/image';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import ProductDevelopmentSection from './components/ProductDevelopmentSection/ProductDevelopmentSection';
-import DesignToDeploymentSection from './components/DesignToDeploymentSection/DesignToDeploymentSection';
 import ImageCardsSection from '@/components/sections/ImageCardsSection/ImageCardsSection';
 import FeatureCards from '@/components/sections/FeatureCards/FeatureCards';
 import IntelligenceSection from '@/components/sections/IntelligenceSection/IntelligenceSection';
 import BannerCTASection from '@/components/sections/BannerCTASection/BannerCTASection';
 import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
-import ProcessSection from '@/components/views/AboutPage/ProcessSection/ProcessSection';
+import ProcessSection from '@/components/sections/ProcessSection/ProcessSection';
 import { pagesData } from '@/data/pagesData';
 import { endToEndProductData } from '@/data/endToEndProductData';
 import { startupSupportData } from '@/data/processData';
 import { flexibleEngagementData } from '@/data/featureCardsData';
 import { whoWeWorkWithData } from '@/data/intelligenceData';
 import { productsBuiltForScaleData } from '@/data/sustainableData';
+
+import { startupProductDevBannerData } from '@/data/BannerCTASection';
+
+import ProductDevelopmentSection from './components/ProductDevelopmentSection';
+import DesignToDeploymentSection from './components/DesignToDeploymentSection';
 
 export default function StartupProductDevelopmentPage() {
   const { hero } = pagesData.startupProductDevelopment;
@@ -28,8 +33,6 @@ export default function StartupProductDevelopmentPage() {
 
       <ProductDevelopmentSection />
 
-     
-
       <ImageCardsSection data={endToEndProductData} />
 
       <ProcessSection
@@ -41,13 +44,13 @@ export default function StartupProductDevelopmentPage() {
         activeColor="#60853A"
       />
 
-        <DesignToDeploymentSection />
+      <DesignToDeploymentSection />
 
       <FeatureCards data={flexibleEngagementData} />
 
       <IntelligenceSection data={whoWeWorkWithData} />
 
-      <BannerCTASection />
+      <BannerCTASection data={startupProductDevBannerData} />
        <SustainableSection data={productsBuiltForScaleData} />
     </main>
   );

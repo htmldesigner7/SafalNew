@@ -1,5 +1,5 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import MultiplierSection from './components/MultiplierSection/MultiplierSection';
+import MultiplierSection from './components/MultiplierSection';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
 import { pagesData } from '@/data/pagesData';
 import { architectureValueData } from '@/data/cultureData';

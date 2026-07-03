@@ -74,3 +74,69 @@ export const engineeringCapabilitiesData: ProcessItem[] = [
   { id: 2, title: "03. IIoT Integration", description: "Industrial IoT integration for data-driven insights, predictive maintenance, and control." },
   { id: 3, title: "04. Smart Factory Solutions", description: "End-to-end digital transformation enabling intelligent, automated manufacturing facilities." }
 ];
+
+export const enterpriseAiCapabilitiesData: ProcessItem[] = [
+  {
+    id: 0,
+    title: "01. AI Advisory",
+    description: "Structured AI advisory services focused on defining strategy, identifying use cases, and aligning AI initiatives with business systems."
+  },
+  {
+    id: 1,
+    title: "02. AI Product Development",
+    description: "End-to-end development of custom AI products tailored to your specific business requirements and challenges."
+  },
+  {
+    id: 2,
+    title: "03. AI Implementation",
+    description: "Seamless integration and deployment of AI models into your existing enterprise architecture and workflows."
+  },
+  {
+    id: 3,
+    title: "04. Agentic Systems",
+    description: "Advanced autonomous agent systems capable of complex reasoning, planning, and executing multi-step business processes."
+  }
+];
+
+
+export const startupSupportServices: ProcessItem[] = [
+  {
+    id: 0,
+    title: "01. AI Advisory",
+    description: "Structured AI advisory services focused on defining strategy, identifying use cases, and aligning AI initiatives with business systems."
+  },
+  {
+    id: 1,
+    title: "02. AI Product Development",
+    description: "End-to-end development of custom AI products tailored to your specific business requirements and challenges."
+  },
+  {
+    id: 2,
+    title: "03. AI Implementation",
+    description: "Seamless integration and deployment of AI models into your existing enterprise architecture and workflows."
+  }
+ 
+];
+
+export const structuredExecutionData: ProcessItem[] = [
+  {
+    id: 0,
+    title: "01. Strategy",
+    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance."
+  },
+  {
+    id: 1,
+    title: "02. Design",
+    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance."
+  },
+  {
+    id: 2,
+    title: "03. Execution",
+    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance."
+  },
+  {
+    id: 3,
+    title: "04. Optimization",
+    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance."
+  }
+];

@@ -2,7 +2,7 @@ import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import UnifiedFrameworkSection from '@/components/sections/UnifiedFrameworkSection/UnifiedFrameworkSection';
 import ImplementationCaseStudiesSection from '@/components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection';
 import EnterprisePlatformsSection from '@/components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection';
-import ProcessSection from '@/components/views/AboutPage/ProcessSection/ProcessSection';
+import ProcessSection from '@/components/sections/ProcessSection/ProcessSection';
 import PlatformCapabilitiesSection from '@/components/sections/PlatformCapabilitiesSection/PlatformCapabilitiesSection';
 import IndustryApplicationsSection from '@/components/sections/IndustryApplicationsSection/IndustryApplicationsSection';
 import PlatformAdvantagesSection from '@/components/sections/PlatformAdvantagesSection/PlatformAdvantagesSection';

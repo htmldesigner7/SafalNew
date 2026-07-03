@@ -280,3 +280,83 @@ export const ValueCreationArchitecture: CultureContent = {
     }
   ]
 };
+
+
+export const measuredOperationalOutcomesData: CultureContent = {
+  title: "Measured Operational Outcomes",
+  subtitle: "",
+  cards: [
+    {
+      id: "accelerated-execution",
+      subtitle: "",
+      title: "Accelerated Execution",
+      description: "Faster workflows and decision cycles across operations",
+      imageSrc: "/images/outcome-accelerated.png",
+      bgColor: "#FFDEBD"
+    },
+    {
+      id: "risk-optimization",
+      subtitle: "",
+      title: "Risk Optimization",
+      description: "Reduced operational and decision-making risk",
+      imageSrc: "/images/outcome-risk.png",
+      bgColor: "#F3EED4"
+    },
+    {
+      id: "efficiency-cost-optimization",
+      subtitle: "",
+      title: "Efficiency & Cost Optimization",
+      description: "Improved efficiency with optimized cost structures",
+      imageSrc: "/images/outcome-efficiency.png",
+      bgColor: "#BEE4ED"
+    },
+    {
+      id: "value-impact",
+      subtitle: "",
+      title: "Value Impact",
+      description: "Enhanced visibility across systems with measurable contribution to EBITDA",
+      imageSrc: "/images/outcome-value.png",
+      bgColor: "#DBE9CB"
+    }
+  ]
+};
+
+
+export const FlexibleServiceStructures: CultureContent = {
+  title: "Flexible Service Structures",
+  subtitle: "",
+  cards: [
+    {
+      id: "accelerated-execution",
+      subtitle: "",
+      title: "Accelerated Execution",
+      description: "Faster workflows and decision cycles across operations",
+      imageSrc: "/images/outcome-accelerated.png",
+      bgColor: "#FFDEBD"
+    },
+    {
+      id: "risk-optimization",
+      subtitle: "",
+      title: "Risk Optimization",
+      description: "Reduced operational and decision-making risk",
+      imageSrc: "/images/outcome-risk.png",
+      bgColor: "#F3EED4"
+    },
+    {
+      id: "efficiency-cost-optimization",
+      subtitle: "",
+      title: "Efficiency & Cost Optimization",
+      description: "Improved efficiency with optimized cost structures",
+      imageSrc: "/images/outcome-efficiency.png",
+      bgColor: "#BEE4ED"
+    },
+    {
+      id: "value-impact",
+      subtitle: "",
+      title: "Value Impact",
+      description: "Enhanced visibility across systems with measurable contribution to EBITDA",
+      imageSrc: "/images/outcome-value.png",
+      bgColor: "#DBE9CB"
+    }
+  ]
+};

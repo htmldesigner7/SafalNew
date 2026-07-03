@@ -1,14 +1,14 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import { pagesData } from '@/data/pagesData';
 import { blueprintData } from '@/data/engineeringData';
-import GlobalClassroomSection from '@/app/internships-mentorship/components/GlobalClassroomSection/GlobalClassroomSection';
+import GlobalClassroomSection from './components/GlobalClassroomSection';
 import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
-import { SustainableSection } from '@/components/views/AboutPage';
+import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
 import { internshipsMentorshipData } from '@/data/sustainableData';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
 import { MaterialtData } from '@/data/cultureData';
-import CodeRealImpact from './components/CodeRealImpact/CodeRealImpact';
-import ApplyNowSection from './components/ApplyNowSection/ApplyNowSection';
+import CodeRealImpact from './components/CodeRealImpact';
+import ApplyNowSection from './components/ApplyNowSection';
 
 export default function InternshipsMentorshipPage() {
   const heroData = pagesData.internshipsMentorship.hero;

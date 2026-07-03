@@ -1,11 +1,12 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import { pagesData } from '@/data/pagesData';
+import React from 'react';
+
 import OneVision from './components/OneVision';
-import ExecutiveCommittee from './components/ExecutiveCommittee/ExecutiveCommittee';
-import DivisionHeads from './components/DivisionHeads/DivisionHeads';
+import ExecutiveCommittee from './components/ExecutiveCommittee';
+import DivisionHeads from './components/DivisionHeads';
 
 export default function ContactPage() {
-
   const heroData = pagesData.LeaderShipTeam.hero
 
   return (

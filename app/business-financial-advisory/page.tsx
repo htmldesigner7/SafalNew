@@ -1,19 +1,20 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import StructuredAdvisory from './components/StructuredAdvisory/StructuredAdvisory';
+import StructuredAdvisory from '@/components/sections/StructuredAdvisory/StructuredAdvisory';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
-import AdvancedAdvisory from './components/AdvancedAdvisory/AdvancedAdvisory';
+import AdvancedAdvisory from '@/components/sections/AdvancedAdvisory/AdvancedAdvisory';
 import SectorsSection from '@/app/components/SectorsSection/SectorsSection';
-import DataDrivenSection from './components/DataDrivenSection/DataDrivenSection';
-import ConsultExpertsCTA from './components/ConsultExpertsCTA/ConsultExpertsCTA';
+import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
+import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
 
 import { advisoryCapabilitiesData } from '@/data/cultureData';
 import { advisoryEcosystemsData } from '@/data/advisoryEcosystemsData';
-import { EngineeringSection, SustainableSection } from '@/components/views/AboutPage';
 import { AdvisoryAcrossDiverse } from '@/data/engineeringData';
 import { StructuredIndependent } from '@/data/sustainableData';
 
-export default function BusinessFinancialAdvisoryPage() {
+import DataDrivenSection from './components/DataDrivenSection';
+import ConsultExpertsCTA from './components/ConsultExpertsCTA';
 
+export default function BusinessFinancialAdvisoryPage() {
   return (
     <main>
       <InnerPageHero 
@@ -30,12 +31,12 @@ export default function BusinessFinancialAdvisoryPage() {
       <AdvancedAdvisory />
 
       <SectorsSection data={advisoryEcosystemsData} />
+      
       <DataDrivenSection />
 
       <EngineeringSection data={AdvisoryAcrossDiverse}/>
 
       <SustainableSection data={StructuredIndependent}/>
-
 
       <ConsultExpertsCTA />
 

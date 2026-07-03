@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import './TechnologyTalent.css';
 
-
 const pageData = {
   hero: {
     title: (

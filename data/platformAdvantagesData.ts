@@ -126,3 +126,119 @@ export const structuredIndustrialExecutionData: PlatformAdvantagesData = {
   ],
   description: ""
 };
+
+
+export const StructuredAIImplementation: PlatformAdvantagesData = {
+  title: 'Structured Industrial Execution',
+  centerText: 'Advantages',
+  advantages: [
+    {
+      id: '1',
+      text: 'Expertise as an industrial automation company',
+      position: 'top-left'
+    },
+    {
+      id: '2',
+      text: 'Scalable architecture for industrial environments',
+      position: 'top-right'
+    },
+    {
+      id: '3',
+      text: 'Engineering-driven system design approach',
+      position: 'middle-right'
+    },
+    {
+      id: '4',
+      text: 'Focus on reliability and operational control',
+      position: 'bottom-right'
+    },
+    {
+      id: '5',
+      text: 'Strong IT-OT system integration capability',
+      position: 'bottom-left'
+    },
+    {
+      id: '6',
+      text: 'Proven delivery of industrial automation solutions',
+      position: 'middle-left'
+    }
+  ],
+  description: ""
+};
+
+export const WhysafalAccounting: PlatformAdvantagesData = {
+  title: 'Why SAFAL Accounting',
+  centerText: 'Advantages',
+  advantages: [
+    {
+      id: '1',
+      text: 'Expertise as an industrial automation company',
+      position: 'top-left'
+    },
+    {
+      id: '2',
+      text: 'Scalable architecture for industrial environments',
+      position: 'top-right'
+    },
+    {
+      id: '3',
+      text: 'Engineering-driven system design approach',
+      position: 'middle-right'
+    },
+    {
+      id: '4',
+      text: 'Focus on reliability and operational control',
+      position: 'bottom-right'
+    },
+    {
+      id: '5',
+      text: 'Strong IT-OT system integration capability',
+      position: 'bottom-left'
+    },
+    {
+      id: '6',
+      text: 'Proven delivery of industrial automation solutions',
+      position: 'middle-left'
+    }
+  ],
+  description: ""
+};
+
+
+export const StructuredCreativityScalableExecution: PlatformAdvantagesData = {
+  title: 'Why SAFAL Accounting',
+  centerText: 'Advantages',
+  advantages: [
+    {
+      id: '1',
+      text: 'Expertise as an industrial automation company',
+      position: 'top-left'
+    },
+    {
+      id: '2',
+      text: 'Scalable architecture for industrial environments',
+      position: 'top-right'
+    },
+    {
+      id: '3',
+      text: 'Engineering-driven system design approach',
+      position: 'middle-right'
+    },
+    {
+      id: '4',
+      text: 'Focus on reliability and operational control',
+      position: 'bottom-right'
+    },
+    {
+      id: '5',
+      text: 'Strong IT-OT system integration capability',
+      position: 'bottom-left'
+    },
+    {
+      id: '6',
+      text: 'Proven delivery of industrial automation solutions',
+      position: 'middle-left'
+    }
+  ],
+  description: ""
+};

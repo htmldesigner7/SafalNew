@@ -1,4 +1,4 @@
-import OpenPositionsSection from '@/app/open-positions/components/OpenPositionsSection/OpenPositionsSection';
+import OpenPositionsSection from './components/OpenPositionsSection';
 
 export default function OpenPositionsPage() {
   return (

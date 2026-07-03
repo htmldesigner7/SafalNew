@@ -1,5 +1,5 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import SynergyCompanies from '@/app/our-entities/components/SynergyCompanies/SynergyCompanies';
+import SynergyCompanies from './components/SynergyCompanies';
 import { pagesData } from '@/data/pagesData';
 
 export default function OurEntitiesPage() {

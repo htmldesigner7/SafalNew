@@ -1,10 +1,9 @@
+import React from 'react';
+import Image from 'next/image';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import { pagesData } from '@/data/pagesData';
-import IndustrialSystemsSection from '@/components/sections/IndustrialSystemsSection/IndustrialSystemsSection';
-import ProcessSection from '@/components/views/AboutPage/ProcessSection/ProcessSection';
-import StructuredDeliverySection from '@/components/sections/StructuredDeliverySection/StructuredDeliverySection';
+import ProcessSection from '@/components/sections/ProcessSection/ProcessSection';
 import IndustryApplicationsSection from '@/components/sections/IndustryApplicationsSection/IndustryApplicationsSection';
-import TechnologyAlignedSection from '@/components/sections/TechnologyAlignedSection/TechnologyAlignedSection';
 import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
 import PlatformAdvantagesSection from '@/components/sections/PlatformAdvantagesSection/PlatformAdvantagesSection';
 import { engineeringCapabilitiesData } from '@/data/processData';
@@ -12,17 +11,17 @@ import { industrialEnvironmentsData } from '@/data/industryApplicationsData';
 import { appliedImplementationsData } from '@/data/engineeringData';
 import { structuredIndustrialExecutionData } from '@/data/platformAdvantagesData';
 
+import StructuredDeliverySection from '@/components/sections/StructuredDeliverySection/StructuredDeliverySection';
+import IndustrialSystemsSection from './components/IndustrialSystemsSection';
+import TechnologyAlignedSection from './components/TechnologyAlignedSection';
+
 export default function IndustrialAutomationPage() {
   const heroData = pagesData.industrialAutomation.hero;
 
   return (
     <main>
-      <InnerPageHero
-        title={heroData.title}
-        description={heroData.description}
-        imageSrc={heroData.imageSrc}
-        imageAlt={heroData.imageAlt}
-      />
+      <InnerPageHero title={heroData.title} description={heroData.description} imageSrc={heroData.imageSrc} imageAlt={heroData.imageAlt} />
+
       <IndustrialSystemsSection />
 
       <ProcessSection
@@ -51,8 +50,8 @@ export default function IndustrialAutomationPage() {
           />
         </div>
       </section>
-      <PlatformAdvantagesSection {...structuredIndustrialExecutionData} />
 
+      <PlatformAdvantagesSection {...structuredIndustrialExecutionData} />
     </main>
   );
 }

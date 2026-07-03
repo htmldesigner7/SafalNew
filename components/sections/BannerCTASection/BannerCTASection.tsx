@@ -3,22 +3,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './BannerCTASection.module.css';
 
-const data = {
-  iconSrc: '/images/logo.svg', // Fallback, user can change if there is a specific icon
-  title: (
-    <>
-      Start Your Product <br />
-      Journey with <br />
-      Structured Execution
-    </>
-  ),
-  description: 'Work with a team delivering startup consulting services and product development through disciplined execution, scalable architecture, and long-term product thinking.',
-  buttonText: 'Book a Consultation',
-  buttonLink: '/contact',
-  bgImageSrc: '/images/Structured-Advisory-Banner.png', 
-};
+export interface BannerCTAData {
+  iconSrc?: string;
+  title: string | React.ReactNode;
+  description: string;
+  buttonText: string;
+  buttonLink: string;
+  bgImageSrc: string;
+}
 
-export default function BannerCTASection() {
+interface BannerCTASectionProps {
+  data: BannerCTAData;
+}
+
+export default function BannerCTASection({ data }: BannerCTASectionProps) {
   return (
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">

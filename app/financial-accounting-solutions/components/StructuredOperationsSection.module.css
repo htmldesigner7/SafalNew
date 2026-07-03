@@ -1,0 +1,153 @@
+.main {
+  position: relative;
+  border-radius: 5px;
+  background: radial-gradient(50% 50% at 50% 50%, #414141 0%, #111 100%);
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 35px;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.title {
+  color: var(--white);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.description {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Floating Icons Container */
+.iconsContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Icon with circle background */
+.iconCircle {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconCircle svg {
+  width: 30px;
+  height: 30px;
+  opacity: 0.55;
+}
+
+/* Decorative circles (no icon) */
+.decorCircle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* === LEFT SIDE ICONS === */
+/* Top-left: Dollar hand */
+.icon1 { top: 5%; left: 2%; }
+/* Upper-left: Document/ID */
+.icon2 { top: 3%; left: 12%; }
+/* Mid-left: Calculator */
+.icon3 { top: 32%; left: 3%; }
+/* Lower-left: Package/arrows */
+.icon4 { top: 58%; left: 2%; }
+/* Bottom-left: CoinStack */
+.icon5 { bottom: 5%; left: 8%; }
+
+/* === RIGHT SIDE ICONS === */
+/* Top-right: Globe gear */
+.icon6 { top: 5%; right: 2%; }
+/* Upper-right: Shield dollar */
+.icon7 { top: 25%; right: 2%; }
+/* Mid-right: Tax doc */
+.icon8 { top: 48%; right: 2%; }
+/* Lower-right: Gear check */
+.icon9 { top: 72%; right: 2%; }
+/* Bottom-right: Chart */
+.icon10 { bottom: 5%; right: 8%; }
+
+/* === DECORATIVE CIRCLES === */
+.decor1 { top: 12%; left: 8%; width: 120px; height: 120px; }
+.decor2 { top: 48%; left: 10%; width: 100px; height: 100px; }
+.decor3 { bottom: 8%; left: 16%; width: 110px; height: 110px; }
+.decor4 { top: 14%; right: 10%; width: 105px; height: 105px; }
+.decor5 { top: 42%; right: 11%; width: 115px; height: 115px; }
+.decor6 { bottom: 6%; right: 14%; width: 100px; height: 100px; }
+.decor7 { top: -2%; left: 22%; width: 80px; height: 80px; }
+.decor8 { bottom: -2%; left: 26%; width: 85px; height: 85px; }
+.decor9 { top: -2%; right: 18%; width: 75px; height: 75px; }
+.decor10 { bottom: -3%; right: 22%; width: 90px; height: 90px; }
+.decor11 { top: 35%; left: 18%; width: 70px; height: 70px; }
+.decor12 { top: 62%; right: 16%; width: 75px; height: 75px; }
+.decor13 { top: 28%; left: 24%; width: 60px; height: 60px; }
+.decor14 { bottom: 25%; right: 20%; width: 65px; height: 65px; }
+.decor15 { top: 0%; left: 38%; width: 50px; height: 50px; }
+.decor16 { bottom: 0%; right: 35%; width: 55px; height: 55px; }
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .iconCircle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .iconCircle svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .iconCircle {
+    display: none;
+  }
+
+  .decorCircle {
+    display: none;
+  }
+}

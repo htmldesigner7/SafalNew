@@ -1,6 +1,6 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import EngineerFutureSection from '@/app/life-at-safal/components/EngineerFutureSection/EngineerFutureSection';
-import BrainTrustSection from '@/app/life-at-safal/components/BrainTrustSection/BrainTrustSection';
+import EngineerFutureSection from './components/EngineerFutureSection';
+import BrainTrustSection from './components/BrainTrustSection';
 import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
 import IntelligenceSection from '@/components/sections/IntelligenceSection/IntelligenceSection';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
@@ -8,7 +8,7 @@ import { pagesData } from '@/data/pagesData';
 import { joinTeamData } from '@/data/engineeringData';
 import { sandboxData } from '@/data/intelligenceData';
 import { TalentData } from '@/data/cultureData';
-import BeyondDesksection from './components/BeyondDesksection/BeyondDesksection';
+import BeyondDesksection from './components/BeyondDesksection';
 
 export default function LifeAtSafalPage() {
   const heroData = pagesData.lifeAtSafal.hero;

@@ -3,15 +3,15 @@ import styles from './PlatformAdvantagesSection.module.css';
 
 interface Advantage {
   id: string;
-  text: string;
+  text: React.ReactNode;
   position: 'top-left' | 'top-right' | 'middle-right' | 'bottom-right' | 'bottom-left' | 'middle-left';
 }
 
-interface PlatformAdvantagesSectionProps {
-  title?: string;
-  centerText?: string;
+export interface PlatformAdvantagesSectionProps {
+  title?: React.ReactNode;
+  centerText?: React.ReactNode;
   advantages: Advantage[];
-  description?: string;
+  description?: React.ReactNode;
 }
 
 export default function PlatformAdvantagesSection({

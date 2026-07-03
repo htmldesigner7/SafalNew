@@ -1,6 +1,6 @@
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import BrochuresSection from './components/BrochuresSection/BrochuresSection';
+import BrochuresSection from '@/components/sections/BrochuresSection/BrochuresSection';
 
 export default function BrochuresPage() {
   return (
