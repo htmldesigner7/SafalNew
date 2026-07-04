@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import styles from './DivisionsSection.module.css';
 
@@ -8,7 +9,7 @@ export default function DivisionsSection() {
         <header className="header_sec">
           <h2 className="title_60">A Diversified Technology Group.</h2>
           <p className={styles.subtitle}>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don't just build software—we engineer the unified ecosystems that power the world's most complex organizations.
+            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
           </p>
         </header>
 

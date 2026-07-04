@@ -181,12 +181,12 @@ export default function Footer() {
                 <h4 className={styles.colTitle}>Partnerships</h4>
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Become a Partner</Link></li>
+                  <li className={styles.linkItem}><Link href="/become-a-partner">Become a Partner</Link></li>
                 </ul>
-              </div>
             </div>
           </div>
 
+          </div>
         </div>
 
         {/* Bottom Section */}

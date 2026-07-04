@@ -1,0 +1,66 @@
+.section {
+  padding: 80px 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 24px;
+  color: var(--black-111);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  color: var(--grey-text);
+  line-height: 1.6;
+}
+
+.pill {
+  margin-top: 40px;
+  background-color: rgba(234, 107, 72, 0.1);
+  color: #E25822; /* Flame orange */
+  padding: 16px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.rightCol {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .rightCol {
+    order: -1; /* image on top */
+    aspect-ratio: 4 / 3;
+  }
+}

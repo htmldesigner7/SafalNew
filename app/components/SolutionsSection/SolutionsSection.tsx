@@ -85,7 +85,7 @@ export default function SolutionsSection() {
           <header className={styles.header}>
             <h2 className="title_60">A Diversified Technology Group.</h2>
             <p className={styles.subtitle}>
-              We are a diversified technology holding company engineering the future of global enterprise. Operating at the intersection of agentic AI, industrial automation, and strategic advisory, we unify complex systems to accelerate growth. We don't just build software; we architect the frameworks that power industry leaders worldwide.
+              We are a diversified technology holding company engineering the future of global enterprise. Operating at the intersection of agentic AI, industrial automation, and strategic advisory, we unify complex systems to accelerate growth. We don&apos;t just build software; we architect the frameworks that power industry leaders worldwide.
             </p>
           </header>
 

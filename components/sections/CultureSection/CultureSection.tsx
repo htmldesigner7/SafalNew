@@ -5,9 +5,10 @@ import { CultureContent } from '@/data/cultureData';
 
 interface CultureSectionProps {
   data: CultureContent;
+  hideImages?: boolean;
 }
 
-export default function CultureSection({ data }: CultureSectionProps) {
+export default function CultureSection({ data, hideImages }: CultureSectionProps) {
   return (
     <section className={`${styles.cultureSection} mt_80`}>
       <div className="container-1600">
@@ -36,15 +37,17 @@ export default function CultureSection({ data }: CultureSectionProps) {
                   <span>{card.subtitle}</span>
                 </div>
 
-                <div className={styles.imageContainer}>
-                  <Image
-                    src={card.imageSrc}
-                    alt={card.title}
-                    width={200}
-                    height={200}
-                    style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
-                  />
-                </div>
+                {!hideImages && (
+                  <div className={styles.imageContainer}>
+                    <Image
+                      src={card.imageSrc}
+                      alt={card.title}
+                      width={200}
+                      height={200}
+                      style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                    />
+                  </div>
+                )}
               </div>
 
               <div className={styles.cardBottom}>

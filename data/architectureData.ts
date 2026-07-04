@@ -92,3 +92,42 @@ export const talentAcquisitionData: ArchitectureContent = {
     }
   ]
 };
+
+export const alignmentBlueprintData: ArchitectureContent = {
+  title: "The Alignment Blueprint.",
+  subtitle: "High-yield alliances are engineered, not accidental. Our rigorous onboarding framework ensures immediate, compounding ROI for both parties.",
+  cards: [
+    {
+      id: "initiation",
+      number: "01",
+      phase: "Phase",
+      title: "Initiation",
+      description: "Submit your corporate profile. Our strategic alliance directors review your technological capabilities and market position for immediate, actionable synergies.",
+      isActive: true
+    },
+    {
+      id: "architecture",
+      number: "02",
+      phase: "Phase",
+      title: "Architecture",
+      description: "We enter a mutual discovery phase, meticulously mapping out integration points, revenue-sharing models, and joint go-to-market strategies.",
+      isActive: false
+    },
+    {
+      id: "integration",
+      number: "03",
+      phase: "Phase",
+      title: "Integration",
+      description: "The alliance is activated. You gain secure access to our global engineering pods, venture capital resources, and established enterprise client networks.",
+      isActive: false
+    },
+    {
+      id: "global-scaling",
+      number: "04",
+      phase: "Phase",
+      title: "Global Scaling",
+      description: "Together, we execute aggressive go-to-market campaigns, driving mutual revenue and capturing new international market share at unprecedented velocity.",
+      isActive: false
+    }
+  ]
+};

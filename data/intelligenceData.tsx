@@ -23,7 +23,7 @@ export const sandboxData: IntelligenceData = {
 
 export const EconomicData: IntelligenceData = {
   title: <>The Safal Economic Moat.</>,
-  description: "Our proprietary AI engines and low-code data frameworks don't just serve our clients—they optimize our own internal cost structures. This relentless pursuit of operational efficiency creates a widening economic moat, driving up profit margins and ensuring long-term financial resilience in a shifting global economy.",
+  description: "Our proprietary AI engines and low-code data frameworks don&apos;t just serve our clients—they optimize our own internal cost structures. This relentless pursuit of operational efficiency creates a widening economic moat, driving up profit margins and ensuring long-term financial resilience in a shifting global economy.",
   buttonText: "Download Q3 Earnings Presentation"
 };
 
@@ -39,4 +39,10 @@ export const whoWeWorkWithData: IntelligenceData = {
       </ul>
     </>
   )
+};
+
+export const partnershipMatrixData: IntelligenceData = {
+  title: <>The Safal<br />Partnership Matrix.</>,
+  description: "A partnership with the Safal Group is an integration into a comprehensive digital powerhouse. You aren&apos;t just connecting with a single agency; you are plugging directly into an autonomous ecosystem of industrial IoT, creative strategy, financial advisory, and elite software engineering. Together, we engineer an unfair market advantage.",
+  buttonText: "Apply for Partnership"
 };

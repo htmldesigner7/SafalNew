@@ -12,7 +12,7 @@ export default function Header() {
   const pathname = usePathname();
 
   // Determine if we need dark text/links (e.g. for blog details page or webinars)
-  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars');
+  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars') || pathname?.startsWith('/case-studies');
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -61,7 +61,8 @@ export default function Header() {
         { title: 'Technology Staffing', href: '/technology-staffing' },
         { title: 'Startup Product Development', href: '/startup-product-development' },
         { title: 'Enterprise Products', href: '/enterprise-products' },
-        { title: 'Industrial Automation & IoT', href: '/industrial-automation' }
+        { title: 'Industrial Automation & IoT', href: '/industrial-automation' },
+        { title: 'Become a Partner', href: '/become-a-partner' }
       ]
     },
   ];
@@ -71,8 +72,8 @@ export default function Header() {
       <div className={`${styles.header} container-1800`} ref={dropdownRef}>
         <div className={styles.logoContainer}>
           <Link href="/">
-            {/* Show black logo if it's blog detail page, else white logo. We can use CSS filter if black logo is not available, but let's check what image we have. 
-                We have logo.svg, and header-logo.png. But Safal usually has a black logo version. Let's use filter invert on the white logo if needed, or if there is a black logo we'll use it. For now let's apply a CSS class to invert logo */}
+            {/* Show black logo if it&apos;s blog detail page, else white logo. We can use CSS filter if black logo is not available, but let&apos;s check what image we have. 
+                We have logo.svg, and header-logo.png. But Safal usually has a black logo version. Let&apos;s use filter invert on the white logo if needed, or if there is a black logo we&apos;ll use it. For now let&apos;s apply a CSS class to invert logo */}
             <Image
               src="/images/logo.svg"
               alt="Safal Logo"

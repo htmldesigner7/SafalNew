@@ -15,7 +15,7 @@ interface CreativeDigitalEngineSectionProps {
 export default function CreativeDigitalEngineSection({
   title = "The Creative & Digital Engine of Safal",
   paragraphs = [
-    "Intelliworkz is Safal's dedicated division for brand, digital, and creative execution. Positioned at the intersection of strategy, design, and technology, it delivers structured digital marketing and branding services aligned with business objectives.",
+    "Intelliworkz is Safal&apos;s dedicated division for brand, digital, and creative execution. Positioned at the intersection of strategy, design, and technology, it delivers structured digital marketing and branding services aligned with business objectives.",
     "Operating as a technology-backed creative unit, Intelliworkz combines design thinking with system-led execution, ensuring brands are not only built but consistently managed, scaled, and evolved.",
     "We approach creative execution through a structured blend of design systems, brand strategy, and digital integration. Each solution is developed with a clear understanding of business objectives, ensuring that creative output is not only visually compelling but also aligned with performance and long-term brand consistency.",
     "Our focus extends beyond aesthetics to building scalable digital experiences that adapt across platforms and touchpoints. By combining creative precision with execution discipline, we enable brands to maintain clarity, strengthen engagement, and deliver measurable impact within dynamic and competitive environments."

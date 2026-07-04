@@ -1,0 +1,75 @@
+.section {
+  margin-top: 40px;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dateInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--red);
+  font-weight: 600;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+}
+
+.tagCaseStudy {
+  background-color: #FFDAD0;
+  color: var(--red);
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.tagErp {
+  background-color: #F5F6E0;
+  color: #5C7339;
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.description {
+  margin-bottom: 40px;
+  color: var(--grey-text);
+}
+
+.heroImageWrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1024px) {
+  .heroImageWrapper {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroImageWrapper {
+    height: 300px;
+  }
+}

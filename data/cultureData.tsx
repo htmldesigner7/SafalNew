@@ -115,7 +115,7 @@ export const TalentData: CultureContent = {
       id: "innovation",
       subtitle: "Core / Aesthetic",
       title: "Aesthetic Intelligence",
-      description: "You believe that enterprise software shouldn't just be mathematically and functionally complex—it should be an intuitive joy to use.",
+      description: "You believe that enterprise software shouldn&apos;t just be mathematically and functionally complex—it should be an intuitive joy to use.",
       imageSrc: "/images/blogs-inner.webp",
       bgColor: "#fbe0c9"
     },
@@ -155,7 +155,7 @@ export const MaterialtData: CultureContent = {
       id: "innovation",
       subtitle: "Core / Aesthetic",
       title: "Aesthetic Intelligence",
-      description: "You believe that enterprise software shouldn't just be mathematically and functionally complex—it should be an intuitive joy to use.",
+      description: "You believe that enterprise software shouldn&apos;t just be mathematically and functionally complex—it should be an intuitive joy to use.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#fbe0c9"
     },
@@ -322,16 +322,16 @@ export const measuredOperationalOutcomesData: CultureContent = {
 };
 
 
-export const FlexibleServiceStructures: CultureContent = {
-  title: "Flexible Service Structures",
-  subtitle: "",
+export const oursolution: CultureContent = {
+  title: "Our Solution",
+  subtitle: "lorem",
   cards: [
     {
       id: "accelerated-execution",
       subtitle: "",
       title: "Accelerated Execution",
       description: "Faster workflows and decision cycles across operations",
-      imageSrc: "/images/outcome-accelerated.png",
+      imageSrc: "/images/accelerated.png",
       bgColor: "#FFDEBD"
     },
     {
@@ -360,3 +360,42 @@ export const FlexibleServiceStructures: CultureContent = {
     }
   ]
 };
+
+export const architectureOversightData: CultureContent = {
+  title: "The Architecture of Our Oversight.",
+  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  cards: [
+    {
+      id: "independent-oversight",
+      subtitle: "Core / Execution",
+      title: "Independent Oversight",
+      description: "Our Board is composed of a majority of independent directors, bringing diverse, global expertise to stress-test our strategic initiatives and ensure unbiased leadership at the highest level.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#F5F0CE"
+    },
+    {
+      id: "zero-trust-compliance",
+      subtitle: "Core / Governance",
+      title: "Zero-Trust Compliance",
+      description: "We architect secure enterprise systems for clients, and we hold ourselves to the exact same standard. We mandate strict adherence to international data security, privacy laws, and ethical AI deployment.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#CCEAF4"
+    },
+    {
+      id: "risk-mitigation",
+      subtitle: "Core / Aesthetic",
+      title: "Risk Mitigation",
+      description: "We deploy rigorous internal audit frameworks for the proactive identification and management of geopolitical, financial, and technological risks, insulating our portfolio from market volatility.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#FBE0C9"
+    },
+    {
+      id: "shareholder-transparency",
+      subtitle: "Core / Accountability",
+      title: "Shareholder Transparency",
+      description: "Unfiltered, timely, and accurate financial reporting. We maintain an open, rigorous dialogue with our best investors and stakeholders to build compounding, long-term trust.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#D8EAD2"
+    }
+  ]
+};

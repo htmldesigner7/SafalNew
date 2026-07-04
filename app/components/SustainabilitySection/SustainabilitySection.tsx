@@ -16,7 +16,7 @@ export default function SustainabilitySection() {
           <h2 className='title_60' style={{ color: '#60853A' }}>Our imprint on the world</h2>
           <div className={styles.textContent}>
             <p>
-              We believe a technology company's most lasting impact isn't measured in revenue — it's measured in people developed, industries transformed, and responsibility exercised at every level of operation.
+              We believe a technology company&apos;s most lasting impact isn&apos;t measured in revenue — it&apos;s measured in people developed, industries transformed, and responsibility exercised at every level of operation.
             </p>
             <p>
               Across eight specialized divisions, Safal Infosoft Group operates with one constant: doing business in a way that creates value for our clients, our people, and the communities we work in — today and for the long term.

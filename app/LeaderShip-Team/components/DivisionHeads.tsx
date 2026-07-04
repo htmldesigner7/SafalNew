@@ -19,7 +19,7 @@ const DivisionHeads = () => {
         <div className="header_sec mb_40">
           <h2 className="title_60">The Division Heads</h2>
           <p>
-            The directors, strategists, and division heads executing Safal Infosoft's global mandate across technology, design, and operations.
+            The directors, strategists, and division heads executing Safal Infosoft&apos;s global mandate across technology, design, and operations.
           </p>
         </div>
         <div className={styles.grid}>

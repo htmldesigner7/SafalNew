@@ -9,11 +9,11 @@ export default function CTASection() {
         
         {/* Left Content */}
         <div className={styles.textContent}>
-          <p className="title_40" style={{marginBottom: '0px', color:'var(--red)'}}>You're the missing piece.</p>
-          <h2 className="title_60">Let's find the right key together.</h2>
+          <p className="title_40" style={{marginBottom: '0px', color:'var(--red)'}}>You&apos;re the missing piece.</p>
+          <h2 className="title_60">Let&apos;s find the right key together.</h2>
           
           <p>
-            Whether you're evaluating enterprise software, exploring a technology partnership, looking to invest, or launching a startup — every great outcome starts with a single conversation. Tell us what you need. We'll connect you with exactly the right person from day one.
+            Whether you&apos;re evaluating enterprise software, exploring a technology partnership, looking to invest, or launching a startup — every great outcome starts with a single conversation. Tell us what you need. We&apos;ll connect you with exactly the right person from day one.
           </p>
           
           <Link href="/contact" className="btn-outline btn-outline-red mt_40">

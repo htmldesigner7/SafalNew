@@ -28,9 +28,9 @@ export default function WhyAttend() {
           </div>
 
           <div className={styles.block}>
-            <h3 className="title_24">See what's next in payments and commerce</h3>
+            <h3 className="title_24">See what&apos;s next in payments and commerce</h3>
             <p>
-              Head to the main stage to see our biggest product announcements live, hear from renowned business leaders, and explore what's next for global commerce as AI-native models, agentic commerce, and crypto reshape how business gets done. Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam.
+              Head to the main stage to see our biggest product announcements live, hear from renowned business leaders, and explore what&apos;s next for global commerce as AI-native models, agentic commerce, and crypto reshape how business gets done. Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam.
             </p>
           </div>
 
@@ -47,14 +47,14 @@ export default function WhyAttend() {
       </div>
 
       <div className={styles.fullWidthBlock}>
-        <h3 className="title_24">See what's next in payments and commerce</h3>
+        <h3 className="title_24">See what&apos;s next in payments and commerce</h3>
         <p>
-          Head to the main stage to see our biggest product announcements live, hear from renowned business leaders, and explore what's next for global commerce as AI-native models, agentic commerce, and crypto reshape how business gets done. Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam.
+          Head to the main stage to see our biggest product announcements live, hear from renowned business leaders, and explore what&apos;s next for global commerce as AI-native models, agentic commerce, and crypto reshape how business gets done. Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam.
         </p>
       </div>
 
       <div className={styles.fullWidthBlock}>
-        <h3 className="title_24">See what's next in payments and commerce</h3>
+        <h3 className="title_24">See what&apos;s next in payments and commerce</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec
         </p>

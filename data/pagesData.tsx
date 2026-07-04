@@ -7,7 +7,7 @@ export interface HeroContent {
   imageAlt: string;
 }
 
-export const pagesData: Record<string, any> = {
+export const pagesData: Record<string, unknown> = {
   about: {
     hero: {
       title: (
@@ -81,7 +81,7 @@ export const pagesData: Record<string, any> = {
           <strong>Operate at the Edge of Possible.</strong>
         </>
       ),
-      description: "At the Safal Group, we don't hire for static roles; we hire for upward trajectories. Join a borderless matrix where deep engineering meets boundless creativity, and help us architect the digital backbone of tomorrow.",
+      description: "At the Safal Group, we don&apos;t hire for static roles; we hire for upward trajectories. Join a borderless matrix where deep engineering meets boundless creativity, and help us architect the digital backbone of tomorrow.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Job Opportunities",
     }
@@ -94,7 +94,7 @@ export const pagesData: Record<string, any> = {
           <strong>Skip the Sandbox. Build the Enterprise.</strong>
         </>
       ),
-      description: "At the Safal Group, internships aren't simulations. You will deploy live code, craft global brand ecosystems, and engineer automation systems alongside the industry's top minds. This is where raw potential transforms into elite execution.",
+      description: "At the Safal Group, internships aren&apos;t simulations. You will deploy live code, craft global brand ecosystems, and engineer automation systems alongside the industry&apos;s top minds. This is where raw potential transforms into elite execution.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Internships and Mentorship",
     }
@@ -224,6 +224,31 @@ export const pagesData: Record<string, any> = {
       description: "Strategic digital branding services, creative design services, and integrated digital marketing services designed to build, scale, and position brands with clarity and consistency.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Brand Digital Creative Services Hero",
+    }
+  },
+  corporateGovernance: {
+    hero: {
+      title: (
+        <>
+          <strong>Zero-Trust Ethics.<br />
+          Unyielding Discipline.</strong>
+        </>
+      ),
+      description: "Innovation without structural discipline is a corporate liability. Our Board of Directors ensures that every technological advancement, venture incubation, and market expansion adheres strictly to the highest global standards of ethical compliance, risk management, and corporate responsibility.",
+      imageSrc: "/images/glass_temple.png",
+      imageAlt: "Corporate Governance Pillar",
+    }
+  },
+  sustainability: {
+    hero: {
+      title: (
+        <>
+          <strong>Architecting a <br />Sustainable Future.</strong>
+        </>
+      ),
+      description: "True innovation cannot come at the expense of our environment. Through our Green-Code initiative and AI-driven resource allocation, we actively optimize software architectures to drastically reduce global energy consumption.",
+      imageSrc: "/images/sustainability-section.jpg",
+      imageAlt: "Sustainability Hero",
     }
   }
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import ImageCardsSection from '@/components/sections/ImageCardsSection/ImageCardsSection';
 import FeatureCards from '@/components/sections/FeatureCards/FeatureCards';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './BlogDetail.module.css';
-import { mockPosts } from '../../data/mockPosts';
+import { mockPosts } from '@/data/mockPosts';
 
 const CalendarIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

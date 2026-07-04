@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import styles from './InvestorsSection.module.css';
 
 export default function InvestorsSection() {

@@ -10,10 +10,10 @@ export default function ProprietaryPlatform() {
           <div className={styles.contentCol}>
             <h2 className="title_60">Proprietary AI Execution Platform</h2>
             <p>
-              ADAPT is Safal's proprietary platform designed to operationalize AI across enterprise systems. It enables deployment of models, automation of workflows, and integration across business processes.
+              ADAPT is Safal&apos;s proprietary platform designed to operationalize AI across enterprise systems. It enables deployment of models, automation of workflows, and integration across business processes.
             </p>
             <p>
-              As part of Safal's AI business solutions, the platform ensures scalable, controlled, and consistent AI execution aligned with enterprise requirements.
+              As part of Safal&apos;s AI business solutions, the platform ensures scalable, controlled, and consistent AI execution aligned with enterprise requirements.
             </p>
           </div>
           <div className={styles.imageCol}>

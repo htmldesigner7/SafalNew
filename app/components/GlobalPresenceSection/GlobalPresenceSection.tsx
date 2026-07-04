@@ -12,13 +12,13 @@ export default function GlobalPresenceSection() {
           <h2 className="title_60">A Diversified Technology<br />Group.</h2>
 
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don't just build software—we engineer the unified ecosystems that power the world's most complex organizations.
+            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
           </p>
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don't just build software—we engineer the unified ecosystems that power the world's most complex organizations.
+            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
           </p>
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don't just build software—we engineer the unified ecosystems that power the world's most complex organizations.
+            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
           </p>
 
           <Link href="#product" className="btn-outline btn-outline-red mt_40">

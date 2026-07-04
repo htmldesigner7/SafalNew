@@ -14,7 +14,7 @@ export default function OneVision() {
     },
     {
       title: "Designing for Autonomous Scale.",
-      text: `We don't believe in fragmented solutions. Our approach focuses on creating scalable systems that operate seamlessly, enabling businesses to grow faster.`,
+      text: `We don&apos;t believe in fragmented solutions. Our approach focuses on creating scalable systems that operate seamlessly, enabling businesses to grow faster.`,
       description: `True innovation comes from the balance of technology and environment. We create solutions designed for long-term success.`,
       author: "Name",
       role: "Chief Technology Officer",

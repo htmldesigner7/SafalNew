@@ -66,7 +66,7 @@ export default function StructuredAdvisory() {
 
           <div className={styles.rightCol}>
             <div className={styles.imageWrapper}>
-              {/* Note: I'm using a placeholder right now for the hover layers image */}
+              {/* Note: I&apos;m using a placeholder right now for the hover layers image */}
               <Image 
                 src="/images/hero_3d_book.png" 
                 alt="Hover Layers"

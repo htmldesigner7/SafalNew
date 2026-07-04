@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './BlogsSection.module.css';
 
-import { mockPosts, type BlogPost } from '@/data/mockPosts';
+import { mockPosts} from '@/data/mockPosts';
 
 interface FilterItem {
   id: string;

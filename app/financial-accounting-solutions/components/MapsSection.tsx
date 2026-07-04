@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 import styles from './MapsSection.module.css';
 
 const data = {

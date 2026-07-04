@@ -1,5 +1,6 @@
+
+
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from './WebinarDetail.module.css';
 import WhyAttend from './components/WhyAttend';
 import MeetSpeakers from './components/MeetSpeakers';
@@ -28,7 +29,7 @@ export default function WebinarsPage() {
         </h1>
 
         <p className={styles.description}>
-          Join business leaders, founders, and developers from the world's most ambitious companies to learn about the latest advancements in payments and financial technology. Plus, hear how other experts in your industry are solving real-world growth challenges.
+          Join business leaders, founders, and developers from the world&apos;s most ambitious companies to learn about the latest advancements in payments and financial technology. Plus, hear how other experts in your industry are solving real-world growth challenges.
         </p>
 
         <div className={styles.heroImageWrapper}>

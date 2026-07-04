@@ -35,7 +35,7 @@ export default function EnterprisePlatformsSection() {
             </div>
             <h3 className={`title_24 ${styles.title}`}>DataNote ERP</h3>
             <p>
-              DataNote ERP is a comprehensive enterprise system for managing finance, inventory, and operational workflows. As part of Safal's approach as an enterprise solutions provider, it delivers centralized control, system visibility, and a scalable foundation for enterprise operations.
+              DataNote ERP is a comprehensive enterprise system for managing finance, inventory, and operational workflows. As part of Safal&apos;s approach as an enterprise solutions provider, it delivers centralized control, system visibility, and a scalable foundation for enterprise operations.
             </p>
             <p>
               Our ERP platform enables integrated management of financial, operational, and inventory workflows through a unified system architecture. By ensuring data consistency, process alignment, and real-time visibility, it supports efficient execution, improves control, and enables informed decision-making across enterprise operations.
@@ -56,7 +56,7 @@ export default function EnterprisePlatformsSection() {
           </div>
           <div className={styles.textCol}>
             <div className={styles.logoWrapper}>
-              {/* If Formezy logo isn't available, fallback to Safal logo for now */}
+              {/* If Formezy logo isn&apos;t available, fallback to Safal logo for now */}
               <Image
                 src="/images/logo.svg"
                 alt="Formezy Logo"
