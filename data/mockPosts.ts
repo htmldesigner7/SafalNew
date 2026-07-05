@@ -1,3 +1,10 @@
+export interface BlogSection {
+  heading?: string;
+  paragraphs?: string[];
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -6,6 +13,7 @@ export interface BlogPost {
   date: string;
   tags: string[];
   isFeatured?: boolean;
+  content?: BlogSection[];
 }
 
 export const mockPosts: BlogPost[] = [

@@ -398,4 +398,43 @@ export const architectureOversightData: CultureContent = {
       bgColor: "#D8EAD2"
     }
   ]
+};
+
+export const FlexibleServiceStructures: CultureContent = {
+  title: "Flexible Service Structures",
+  subtitle: "Tailored to meet the specific demands of dynamic enterprise environments.",
+  cards: [
+    {
+      id: "structure-1",
+      subtitle: "Advisory",
+      title: "Strategic Consulting",
+      description: "Expert guidance to navigate complex financial landscapes.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#F5F0CE"
+    },
+    {
+      id: "structure-2",
+      subtitle: "Implementation",
+      title: "Execution Framework",
+      description: "Robust frameworks for executing standardized financial operations.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#CCEAF4"
+    },
+    {
+      id: "structure-3",
+      subtitle: "Support",
+      title: "Ongoing Management",
+      description: "Continuous oversight and optimization for maximum efficiency.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#FBE0C9"
+    },
+    {
+      id: "structure-4",
+      subtitle: "Audit",
+      title: "Compliance & Review",
+      description: "Rigorous compliance checks to ensure systemic integrity.",
+      imageSrc: "/images/Relentless-Velocity.webp",
+      bgColor: "#D8EAD2"
+    }
+  ]
 };

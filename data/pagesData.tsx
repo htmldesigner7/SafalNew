@@ -7,7 +7,7 @@ export interface HeroContent {
   imageAlt: string;
 }
 
-export const pagesData: Record<string, unknown> = {
+export const pagesData: Record<string, any> = {
   about: {
     hero: {
       title: (
