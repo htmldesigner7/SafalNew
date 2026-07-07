@@ -1,5 +1,5 @@
 import { ImageCardsData } from './endToEndProductData';
-import { CultureContent } from './cultureData';
+
 
 export const appliedAiData: ImageCardsData = {
   title: "Applied AI Systems",

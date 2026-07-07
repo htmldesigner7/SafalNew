@@ -5,7 +5,8 @@
   overflow-x: auto;
   scrollbar-width: none;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 40px 0;
+
 }
 
 .tabsContainer::-webkit-scrollbar {
@@ -42,8 +43,8 @@
 
 /* Content Area */
 .contentArea {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .bannerWrapper {

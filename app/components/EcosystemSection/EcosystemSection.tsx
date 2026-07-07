@@ -71,7 +71,7 @@ export default function EcosystemSection() {
   return (
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
-        <h2 className="title_60">Our Digital Product Ecosystem</h2>
+        <h2 className="title_60 text-center">Our Digital Product Ecosystem</h2>
 
         {/* Navigation Tabs */}
         <div className={styles.tabsContainer}>

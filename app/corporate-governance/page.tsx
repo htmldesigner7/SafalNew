@@ -5,9 +5,11 @@ import ResponsibleScaleSection from './components/ResponsibleScaleSection';
 import { pagesData, HeroContent } from '@/data/pagesData';
 import { architectureOversightData } from '@/data/cultureData';
 import { legacyScaleData } from '@/data/responsibleScaleData';
+import { GoverningDigitalFrontierData } from '@/data/sustainableData';
+import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
 
 export default function CorporateGovernancePage() {
-  const heroData = (pagesData.corporateGovernance as any).hero as HeroContent;
+  const heroData = pagesData.corporateGovernance?.hero;
   
   return (
     <main>
@@ -19,6 +21,7 @@ export default function CorporateGovernancePage() {
       />
       <LegacyAccountability />
       <CultureSection data={architectureOversightData} />
+      <SustainableSection data={GoverningDigitalFrontierData} />
       <ResponsibleScaleSection data={legacyScaleData} />
     </main>
   );

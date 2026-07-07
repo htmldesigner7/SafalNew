@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './BlogsSection.module.css';
 
-import { mockPosts} from '@/data/mockPosts';
+import { mockPosts } from '@/data/mockPosts';
 
 interface FilterItem {
   id: string;
@@ -32,8 +32,8 @@ const CalendarIcon = () => (
 );
 
 export default function BlogsSection() {
-  const [activeType, setActiveType] = useState<string>('blog-posts');
-  const [activeTopic, setActiveTopic] = useState<string>('erp-solutions');
+  const [activeType, setActiveType] = useState<string>('');
+  const [activeTopic, setActiveTopic] = useState<string>('');
 
   const [typeOpen, setTypeOpen] = useState(true);
   const [topicOpen, setTopicOpen] = useState(true);
@@ -43,8 +43,8 @@ export default function BlogsSection() {
   if (activeType) {
     const typeLabel = contentTypes.find(t => t.id === activeType)?.label || '';
     filteredPosts = filteredPosts.filter(post =>
-      post.tags.some(tag => 
-        typeLabel.toLowerCase().includes(tag.toLowerCase()) || 
+      post.tags.some(tag =>
+        typeLabel.toLowerCase().includes(tag.toLowerCase()) ||
         tag.toLowerCase().includes(typeLabel.toLowerCase())
       )
     );
@@ -53,8 +53,8 @@ export default function BlogsSection() {
   if (activeTopic) {
     const topicLabel = topics.find(t => t.id === activeTopic)?.label || '';
     filteredPosts = filteredPosts.filter(post =>
-      post.tags.some(tag => 
-        topicLabel.toLowerCase().includes(tag.toLowerCase()) || 
+      post.tags.some(tag =>
+        topicLabel.toLowerCase().includes(tag.toLowerCase()) ||
         tag.toLowerCase().includes(topicLabel.toLowerCase())
       )
     );

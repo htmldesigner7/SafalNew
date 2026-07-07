@@ -132,7 +132,7 @@ export default function Footer() {
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="#">Our Story & Vision</Link></li>
                   <li className={styles.linkItem}><Link href="#">Leadership Team</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Group Structure</Link></li>
+                  <li className={styles.linkItem}><Link href="/group-structure">Group Structure</Link></li>
                   <li className={styles.linkItem}><Link href="#">Values & Culture</Link></li>
                   <li className={styles.linkItem}><Link href="#">Sustainability</Link></li>
                 </ul>
@@ -183,8 +183,8 @@ export default function Footer() {
                   <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
                   <li className={styles.linkItem}><Link href="/become-a-partner">Become a Partner</Link></li>
                 </ul>
+              </div>
             </div>
-          </div>
 
           </div>
         </div>

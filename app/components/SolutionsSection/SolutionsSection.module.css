@@ -11,11 +11,11 @@
 }
 
 .subtitle {
- color: var(--grey-666);
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 34px; 
+  color: var(--grey-666);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
 }
 
 /* Stats Row */
@@ -32,19 +32,19 @@ line-height: 34px;
 }
 
 .statValue {
-color: var(--black-111);
-font-family: var(--font-heading), sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 16px;
+  color: var(--black-111);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
 }
 
 .statDivider {
   height: 1px;
   width: 100%;
-  background-color:var(--red);
+  background-color: var(--red);
 }
 
 
@@ -75,14 +75,14 @@ margin-bottom: 16px;
 }
 
 .tabBtn {
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 34px; 
-padding: 22px 21px;
-border-bottom: 1px solid var(--grey-ddd);
-text-align: left;
-cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding: 22px 21px;
+  border-bottom: 1px solid var(--grey-ddd);
+  text-align: left;
+  cursor: pointer;
 }
 
 .tabBtn:last-child {
@@ -115,7 +115,8 @@ cursor: pointer;
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  flex: 1; /* allow it to take up half the flex row */
+  flex: 1;
+  /* allow it to take up half the flex row */
   min-height: 400px;
 }
 
@@ -124,8 +125,7 @@ cursor: pointer;
 }
 
 .textContent {
-  /* flex-direction: column; */
-  /* align-items: flex-start; */
+  flex: 1;
 }
 
 .contentTitle {

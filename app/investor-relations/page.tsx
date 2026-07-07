@@ -21,7 +21,7 @@ export default function InvestorRelationsPage() {
       />
       <MultiplierSection />
       <CultureSection data={architectureValueData} />
-      <MultiplierSection 
+      <MultiplierSection
         title="Expanding Global Market Share."
         description1="Our operational matrix is strategically positioned to capture market share across three of the highest-growth sectors in the global economy. This interconnected ecosystem drives cross-sell opportunities, exceptional client retention, and robust recurring revenue models."
         description2="Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec"
@@ -29,7 +29,7 @@ export default function InvestorRelationsPage() {
         imageAlt="Expanding Global Market Share Graphic"
       />
 
-      <IntelligenceSection data={EconomicData}/>
+      <IntelligenceSection data={EconomicData} />
       <EngineeringSection data={financialReportData} />
     </main>
   );

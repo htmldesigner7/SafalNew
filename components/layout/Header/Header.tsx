@@ -34,19 +34,69 @@ export default function Header() {
   };
 
   const navLinks = [
-    { title: 'The Company', href: '#', hasDropdown: true },
-    { title: 'Our Division', href: '#', hasDropdown: true },
+    {
+      title: 'The Company',
+      href: '#',
+      hasDropdown: true,
+      dropdownItems: [
+        { title: 'Our Story & Vision', href: '/our-story-vision' },
+        { title: 'Our Entities', href: '/our-entities' },
+        { title: 'Life at Safal', href: '/life-at-safal' },
+        { title: 'Leadership Team', href: '/LeaderShip-Team' },
+        { title: 'Sustainability', href: '/sustainability' }
+      ]
+    },
+    {
+      title: 'Our Division',
+      href: '#',
+      hasDropdown: true,
+      dropdownItems: [
+        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
+        { title: 'Financial Accounting Solutions', href: '/financial-accounting-solutions' },
+        { title: 'Technology Staffing', href: '/technology-staffing' },
+        { title: 'Brand, Digital & Creative Services', href: '/brand-digital-creative-services' },
+        { title: 'AI & Emerging Technology', href: '/ai-emerging-technology' },
+        { title: 'Startup Product Development', href: '/startup-product-development' },
+        { title: 'Enterprise Products', href: '/enterprise-products' },
+        { title: 'Industrial Automation & IoT', href: '/industrial-automation' }
+      ]
+    },
     { title: 'Industries We Serve', href: '#', hasDropdown: false },
-    { title: 'Partnerships', href: '#', hasDropdown: true },
-    { title: 'Insights', href: '#', hasDropdown: true },
-    { title: 'Investors', href: '#', hasDropdown: true },
+    {
+      title: 'Partnerships',
+      href: '#',
+      hasDropdown: true,
+      dropdownItems: [
+        { title: 'Become a Partner', href: '/become-a-partner' }
+      ]
+    },
+    {
+      title: 'Insights',
+      href: '#',
+      hasDropdown: true,
+      dropdownItems: [
+        { title: 'Blogs', href: '/blogs' },
+        { title: 'Brochures', href: '/brochures' },
+        { title: 'Webinars', href: '/webinars' }
+      ]
+    },
+    {
+      title: 'Investors',
+      href: '#',
+      hasDropdown: true,
+      dropdownItems: [
+        { title: 'Investor Relations', href: '/investor-relations' },
+        { title: 'Financial Reports & Disclosures', href: '/financial-reports-disclosures' },
+        { title: 'Corporate Governance', href: '/corporate-governance' }
+      ]
+    },
     { 
       title: 'Pages', 
       href: '#', 
       hasDropdown: true,
       dropdownItems: [
         { title: 'Home', href: '/' },
-        { title: 'About Us', href: '/about' },
+        { title: 'Our Story & Vision', href: '/our-story-vision' },
         { title: 'Our Entities', href: '/our-entities' },
         { title: 'Investor Relations', href: '/investor-relations' },
         { title: 'Life at Safal', href: '/life-at-safal' },

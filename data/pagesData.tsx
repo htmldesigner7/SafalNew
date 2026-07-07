@@ -7,7 +7,7 @@ export interface HeroContent {
   imageAlt: string;
 }
 
-export const pagesData: Record<string, any> = {
+export const pagesData: Record<string, { hero: HeroContent }> = {
   about: {
     hero: {
       title: (
@@ -61,7 +61,7 @@ export const pagesData: Record<string, any> = {
     }
   },
 
-   lifeAtSafal: {
+  lifeAtSafal: {
     hero: {
       title: (
         <>
@@ -126,7 +126,7 @@ export const pagesData: Record<string, any> = {
     }
   },
 
-    LeaderShipTeam: {
+  LeaderShipTeam: {
     hero: {
       title: (
         <>
@@ -169,7 +169,7 @@ export const pagesData: Record<string, any> = {
       title: (
         <>
           <strong>Enterprise-Grade<br />
-          Products Built for Scale</strong>
+            Products Built for Scale</strong>
         </>
       ),
       description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
@@ -187,7 +187,7 @@ export const pagesData: Record<string, any> = {
       description: "End-to-end industrial automation solutions and IIoT systems designed to connect machines, optimize operations, and enable data-driven industrial environments.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Industrial Automation & IoT",
-      
+
     }
   },
   aiEmergingTechnology: {
@@ -231,7 +231,7 @@ export const pagesData: Record<string, any> = {
       title: (
         <>
           <strong>Zero-Trust Ethics.<br />
-          Unyielding Discipline.</strong>
+            Unyielding Discipline.</strong>
         </>
       ),
       description: "Innovation without structural discipline is a corporate liability. Our Board of Directors ensures that every technological advancement, venture incubation, and market expansion adheres strictly to the highest global standards of ethical compliance, risk management, and corporate responsibility.",

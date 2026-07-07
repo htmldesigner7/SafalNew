@@ -45,7 +45,7 @@
 .arcContainer {
   position: relative;
   width: 100%;
-  aspect-ratio: 2 / 1; 
+  aspect-ratio: 2 / 1;
   margin-top: auto;
 }
 
@@ -91,6 +91,7 @@
   .cardsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .card:nth-child(2n) {
     border-right: 1px solid var(--grey-ddd);
   }
@@ -100,6 +101,7 @@
   .cardsGrid {
     grid-template-columns: 1fr;
   }
+
   .card {
     border-right: 1px solid var(--grey-ddd);
   }

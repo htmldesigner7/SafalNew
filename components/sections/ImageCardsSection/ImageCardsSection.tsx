@@ -21,8 +21,8 @@ interface ImageCardsSectionProps {
 }
 
 export default function ImageCardsSection({ data }: ImageCardsSectionProps) {
-  const gridClass = data.cards.length % 4 === 0 && data.cards.length !== 0 
-    ? styles.cardsGrid4 
+  const gridClass = data.cards.length % 4 === 0 && data.cards.length !== 0
+    ? styles.cardsGrid4
     : styles.cardsGrid3;
 
   return (

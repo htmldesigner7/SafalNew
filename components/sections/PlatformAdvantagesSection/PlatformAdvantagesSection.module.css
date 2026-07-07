@@ -35,7 +35,7 @@
   width: 135px;
   height: 135px;
   border-radius: 50%;
-  background: var(--white);
+  /* background: var(--white); */
   display: flex;
   align-items: center;
   justify-content: center;

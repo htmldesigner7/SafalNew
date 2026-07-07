@@ -20,11 +20,35 @@
   content: '';
   position: absolute;
   top: 50%;
-  left: 250px;
-  right: 250px;
+  left: 200px;
+  right: 200px;
   height: 1px;
   background-color: var(--grey-ddd);
   z-index: 1;
+}
+
+.animatedLineLeft {
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  width: calc(50% - 200px);
+  height: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: left;
+  transform: translateY(-0.5px); /* Align perfectly over the 1px grey line */
+}
+
+.animatedLineRight {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  width: calc(50% - 200px);
+  height: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: right;
+  transform: translateY(-0.5px); /* Align perfectly over the 1px grey line */
 }
 
 .column {
@@ -124,6 +148,78 @@
   z-index: 1;
 }
 
+.animatedVerticalLeftTop {
+  position: absolute;
+  top: 103px;
+  bottom: 50%;
+  right: -60px;
+  width: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: top;
+  transform: translateX(0.5px);
+}
+
+.animatedVerticalLeftBottom {
+  position: absolute;
+  top: 50%;
+  bottom: 100px;
+  right: -60px;
+  width: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: bottom;
+  transform: translateX(0.5px);
+}
+
+.animatedVerticalRightTop {
+  position: absolute;
+  top: 100px;
+  bottom: 50%;
+  left: -60px;
+  width: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: top;
+  transform: translateX(-0.5px);
+}
+
+.animatedVerticalRightBottom {
+  position: absolute;
+  top: 50%;
+  bottom: 100px;
+  left: -60px;
+  width: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: bottom;
+  transform: translateX(-0.5px);
+}
+
+.animatedCardLineLeft {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  width: 60px;
+  height: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: left;
+  transform: translateY(-0.5px);
+}
+
+.animatedCardLineRight {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  width: 60px;
+  height: 2px;
+  background-color: var(--red);
+  z-index: 2;
+  transform-origin: right;
+  transform: translateY(-0.5px);
+}
+
 .cardCenter {
   background-color: #FFFBEE;
   border: 1px solid var(--grey-ddd);
@@ -139,6 +235,14 @@
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.centerImageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centerImage {
@@ -176,7 +280,15 @@
   .columnSplitLeft::after,
   .columnSplitRight::after,
   .cardLeftTree::after,
-  .cardRightTree::before {
+  .cardRightTree::before,
+  .animatedLineLeft,
+  .animatedLineRight,
+  .animatedVerticalLeftTop,
+  .animatedVerticalLeftBottom,
+  .animatedVerticalRightTop,
+  .animatedVerticalRightBottom,
+  .animatedCardLineLeft,
+  .animatedCardLineRight {
     display: none;
   }
 
