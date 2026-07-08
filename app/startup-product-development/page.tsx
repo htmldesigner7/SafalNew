@@ -51,7 +51,7 @@ export default function StartupProductDevelopmentPage() {
       <IntelligenceSection data={whoWeWorkWithData} />
 
       <BannerCTASection data={startupProductDevBannerData} />
-       <SustainableSection data={productsBuiltForScaleData} />
+      <SustainableSection data={productsBuiltForScaleData} />
     </main>
   );
 }

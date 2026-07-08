@@ -27,7 +27,7 @@ export default function BrandDigitalCreativeServicesPage() {
       <CreativeDigitalEngineSection />
       <IntegratedBrandServicesSection />
 
-      <ProcessSection 
+      <ProcessSection
         title="Structured Execution Framework"
         data={structuredExecutionData}
         mainColor="#789B55"
@@ -36,7 +36,7 @@ export default function BrandDigitalCreativeServicesPage() {
         activeColor="#FFFFFF"
       />
       <IndustryApplicationsSection data={brandIndustryApplicationsData} />
-      <CreativeDigitalEngineSection 
+      <CreativeDigitalEngineSection
         title="Selected Work & Brand Transformations"
         paragraphs={[
           "A portfolio of brand identities, digital platforms, and marketing campaigns developed across industries, reflecting structured execution, creative consistency, and measurable impact.",
@@ -46,7 +46,7 @@ export default function BrandDigitalCreativeServicesPage() {
         imageAlt="Selected Work Illustration"
       />
 
-      <PlatformAdvantagesSection {...StructuredCreativityScalableExecution}/>
+      <PlatformAdvantagesSection {...StructuredCreativityScalableExecution} />
 
       <BuildScaleSection />
 

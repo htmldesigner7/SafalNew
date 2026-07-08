@@ -136,3 +136,126 @@ button.navLink {
     display: none;
   }
 }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .navigation {
+    gap: 45px;
+  }
+  .logoContainer img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1661px) {
+  .navigation {
+    gap: 35px;
+  }
+  .navLink {
+    font-size: 17px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .navigation {
+    gap: 25px;
+  }
+  .navLink {
+    font-size: 16px;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .navigation {
+    gap: 16px;
+  }
+  .navLink {
+    font-size: 15px;
+    gap: 6px;
+  }
+  .logoContainer img {
+    width: 160px;
+    height: auto;
+  }
+  .dropdownItem {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .navigation {
+    gap: 10px;
+  }
+  .navLink {
+    font-size: 14px;
+    gap: 4px;
+  }
+  .logoContainer img {
+    width: 150px;
+    height: auto;
+  }
+  .dropdownItem {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .navigation {
+    display: none;
+  }
+  .logoContainer img {
+    width: 150px;
+    height: auto;
+  }
+  .header :global(.btn-primary) {
+    padding: 12px 28px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 769px) {
+  .logoContainer img {
+    width: 140px;
+    height: auto;
+  }
+  .header :global(.btn-primary) {
+    width: auto;
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 431px) {
+  .logoContainer img {
+    width: 125px;
+    height: auto;
+  }
+  .header :global(.btn-primary) {
+    width: auto;
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  .logoContainer {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 361px) {
+  .logoContainer img {
+    width: 110px;
+    height: auto;
+  }
+  .header :global(.btn-primary) {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}

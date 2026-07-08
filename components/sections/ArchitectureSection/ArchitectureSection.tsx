@@ -15,7 +15,7 @@ const cardVariants = {
     y: 0,
     transition: { duration: 0.6, ease: "easeOut" }
   }
-};
+} as const;
 
 export default function ArchitectureSection({ data = architectureData }: ArchitectureSectionProps) {
   const containerRef = useRef(null);

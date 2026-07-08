@@ -92,6 +92,8 @@ export default function ContactForm() {
         body: JSON.stringify(formData)
       });
 
+      console.log(res)
+
       const data = await res.json();
 
       if (res.ok) {
