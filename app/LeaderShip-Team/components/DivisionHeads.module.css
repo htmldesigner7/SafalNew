@@ -35,3 +35,43 @@
   margin: 0;
   font-weight: 600;
 }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .grid { gap: 24px; }
+}
+
+@media (max-width: 1661px) {
+  .grid { gap: 20px; }
+}
+
+@media (max-width: 1537px) {
+  .grid { gap: 20px; }
+}
+
+@media (max-width: 1441px) {
+  .grid { gap: 16px; }
+}
+
+@media (max-width: 1281px) {
+  .grid { gap: 16px; }
+}
+
+@media (max-width: 1025px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+}
+
+@media (max-width: 769px) {
+  .grid { gap: 20px; }
+}
+
+@media (max-width: 431px) {
+  .grid { grid-template-columns: 1fr; gap: 20px; }
+}
+
+@media (max-width: 361px) {
+  .grid { gap: 16px; }
+}

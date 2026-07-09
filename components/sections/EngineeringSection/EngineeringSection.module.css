@@ -42,23 +42,63 @@
 } */
 
 
-@media (max-width: 1200px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .card { padding: 0 30px 0 20px; }
+  .cardSubtitle { margin-bottom: 40px; }
+}
+
+@media (max-width: 1661px) {
+  .cardsGrid { margin-top: 50px; }
+  .card { padding: 0 24px 0 16px; }
+  .imageContainer { margin-bottom: 30px; }
+}
+
+@media (max-width: 1537px) {
+  .cardSubtitle { margin-bottom: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .card { padding: 0 20px 0 16px; }
+}
+
+@media (max-width: 1281px) {
+  .cardsGrid { margin-top: 40px; }
+  .card { padding: 0 16px 0 12px; }
+}
+
+@media (max-width: 1025px) {
   .cardsGrid {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px 0;
   }
+  .card { padding: 0 24px 0 24px; }
   .card:nth-child(2n+1) {
     border-left: none; /* remove border on left-most items in 2-col layout */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .cardsGrid {
     grid-template-columns: 1fr;
-    gap: 60px 0;
+    gap: 40px 0;
   }
   .card {
     border-left: none;
+    border-right: none;
     padding: 0 20px;
   }
+}
+
+@media (max-width: 431px) {
+  .cardsGrid { gap: 30px 0; }
+  .cardSubtitle { margin-bottom: 24px; }
+}
+
+@media (max-width: 361px) {
+  .card { padding: 0 12px; }
+  .imageContainer { margin-bottom: 20px; }
 }

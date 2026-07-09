@@ -41,18 +41,56 @@
   flex-grow: 1;
 }
 
-@media (max-width: 1024px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
 
-  .cardsGrid3,
-  .cardsGrid4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
+@media (max-width: 1776px) {
+  .cardsGrid { gap: 24px; }
+  .imageContainer { height: 280px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1661px) {
+  .cardContent { padding: 24px; }
+  .imageContainer { height: 260px; }
+}
 
-  .cardsGrid3,
-  .cardsGrid4 {
+@media (max-width: 1537px) {
+  .cardsGrid { gap: 20px; }
+  .imageContainer { height: 240px; }
+}
+
+@media (max-width: 1441px) {
+  .header { margin-bottom: 30px; }
+  .cardContent { padding: 20px; }
+}
+
+@media (max-width: 1281px) {
+  .cardsGrid { gap: 16px; }
+  .imageContainer { height: 220px; }
+}
+
+@media (max-width: 1025px) {
+  .cardsGrid3, .cardsGrid4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cardsGrid { gap: 24px; }
+  .imageContainer { height: 280px; }
+}
+
+@media (max-width: 769px) {
+  .cardsGrid3, .cardsGrid4 {
     grid-template-columns: 1fr;
   }
+  .cardsGrid { gap: 20px; }
+}
+
+@media (max-width: 431px) {
+  .imageContainer { height: 240px; }
+  .cardContent { padding: 16px; }
+}
+
+@media (max-width: 361px) {
+  .imageContainer { height: 200px; }
+  .cardsGrid { gap: 16px; }
 }

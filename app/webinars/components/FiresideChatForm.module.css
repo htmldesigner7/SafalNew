@@ -1,20 +1,14 @@
 
 .layout {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 60px;
 }
-
-@media (min-width: 1024px) {
-  .layout {
-    flex-direction: row;
-  }
-  .leftCol {
-    flex: 1;
-  }
-  .rightCol {
-    flex: 1;
-  }
+.leftCol {
+  flex: 1;
+}
+.rightCol {
+  flex: 1;
 }
 
 .formRow {
@@ -108,4 +102,48 @@
 
 .checkboxLabel {
   color: var(--black-111);
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .layout { gap: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .layout { gap: 40px; }
+}
+
+@media (max-width: 1537px) {
+  .layout { gap: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .layout { gap: 24px; }
+}
+
+@media (max-width: 1281px) {
+  .layout { gap: 20px; }
+}
+
+@media (max-width: 1025px) {
+  .layout {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .layout { gap: 30px; }
+  .formRow { flex-direction: column; gap: 12px; }
+}
+
+@media (max-width: 431px) {
+  .layout { gap: 24px; }
+}
+
+@media (max-width: 361px) {
+  .layout { gap: 20px; }
 }

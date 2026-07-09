@@ -93,17 +93,61 @@
   font-weight: 500;
 }
 
-@media (max-width: 768px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .formContainer { padding: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .formRow { gap: 24px; }
+  .formContainer { padding: 45px; }
+}
+
+@media (max-width: 1537px) {
+  .formGroup input, .formGroup select, .formGroup textarea { padding: 14px 16px; font-size: 17px; }
+  .formContainer { padding: 40px; }
+}
+
+@media (max-width: 1441px) {
+  .formHeader { margin-bottom: 30px; }
+}
+
+@media (max-width: 1281px) {
+  .formContainer { padding: 35px; }
+  .formRow { gap: 20px; }
+}
+
+@media (max-width: 1025px) {
   .formContainer {
-    padding: 30px 20px;
+    padding: 30px;
   }
-  
   .formRow {
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
+  .formHeader h3 {
+    font-size: 26px;
+  }
+}
 
+@media (max-width: 769px) {
+  .formContainer {
+    padding: 24px 20px;
+  }
   .formHeader h3 {
     font-size: 24px;
   }
+}
+
+@media (max-width: 431px) {
+  .formContainer { padding: 20px 16px; }
+  .formGroup input, .formGroup select, .formGroup textarea { font-size: 16px; }
+}
+
+@media (max-width: 361px) {
+  .formContainer { padding: 16px 12px; }
+  .formHeader h3 { font-size: 22px; }
 }

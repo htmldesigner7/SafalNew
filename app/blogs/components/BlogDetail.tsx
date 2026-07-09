@@ -32,11 +32,11 @@ export default function BlogDetail({ id }: { id?: string }) {
           </div>
         </div>
         
-        <h1 className={styles.title}>
+        <h1 className="title_60" style={{ maxWidth: '1000px', marginBottom: '24px' }}>
           {post.title}
         </h1>
         
-        <p className={styles.subtitle}>
+        <p className={`title_24_para ${styles.subtitle}`} style={{ maxWidth: '1000px', opacity: 0.8 }}>
           {post.description}
         </p>
 
@@ -54,7 +54,7 @@ export default function BlogDetail({ id }: { id?: string }) {
           {post.content ? (
             post.content.map((section, idx) => (
               <React.Fragment key={idx}>
-                {section.heading && <h2>{section.heading}</h2>}
+                {section.heading && <h2 className="title_40 mt_40 mb_40">{section.heading}</h2>}
                 {section.paragraphs && section.paragraphs.map((p, pIdx) => (
                   <p key={pIdx}>{p}</p>
                 ))}

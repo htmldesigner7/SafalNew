@@ -4,13 +4,7 @@
 
 .topLayout {
   display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 1024px) {
-  .topLayout {
-    flex-direction: row;
-  }
+  flex-direction: row;
 }
 
 .leftCol {
@@ -48,4 +42,45 @@
   margin-top: 24px;
 list-style: disc;
 padding-left: 2rem;
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .section { padding: 50px 0; }
+}
+
+@media (max-width: 1661px) {
+  .section { padding: 40px 0; }
+}
+
+@media (max-width: 1537px) {
+  .section { padding: 40px 0; }
+}
+
+@media (max-width: 1441px) {
+  .section { padding: 30px 0; }
+}
+
+@media (max-width: 1281px) {
+  .section { padding: 24px 0; }
+}
+
+@media (max-width: 1025px) {
+  .topLayout { flex-direction: column; gap: 40px; }
+  .rightCol { min-height: 350px; }
+}
+
+@media (max-width: 769px) {
+  .rightCol { min-height: 300px; }
+}
+
+@media (max-width: 431px) {
+  .rightCol { min-height: 250px; }
+}
+
+@media (max-width: 361px) {
+  .rightCol { min-height: 200px; }
 }

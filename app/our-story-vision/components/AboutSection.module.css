@@ -8,15 +8,47 @@
 }
 
 
-  @media (max-width: 768px) {
-  .aboutSection {
-    padding-top: 60px;
-  }
-  .title {
-    font-size: 32px;
-  }
-  .description {
-    font-size: 14px;
-    padding: 0 20px;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .contentWrapper { padding-bottom: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .contentWrapper { padding-bottom: 40px; }
+}
+
+@media (max-width: 1537px) {
+  .contentWrapper { padding-bottom: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .aboutSection { padding-top: 20px; }
+}
+
+@media (max-width: 1281px) {
+  .contentWrapper { padding-bottom: 20px; }
+}
+
+@media (max-width: 1025px) {
+  .aboutSection { padding-top: 30px; }
+}
+
+@media (max-width: 769px) {
+  .aboutSection { padding-top: 40px; }
+  .title { font-size: 32px; }
+  .description { font-size: 14px; padding: 0 20px; }
+}
+
+@media (max-width: 431px) {
+  .aboutSection { padding-top: 30px; }
+  .title { font-size: 28px; }
+  .description { padding: 0 16px; }
+}
+
+@media (max-width: 361px) {
+  .title { font-size: 24px; }
+  .description { padding: 0 12px; }
 }

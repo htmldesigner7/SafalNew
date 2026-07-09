@@ -18,3 +18,51 @@
 .reverse .visionImage {
     order: 2;
 }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .visionRow { gap: 60px; margin-bottom: 70px; }
+}
+
+@media (max-width: 1661px) {
+  .visionRow { gap: 50px; margin-bottom: 60px; }
+}
+
+@media (max-width: 1537px) {
+  .visionRow { gap: 40px; margin-bottom: 50px; }
+}
+
+@media (max-width: 1441px) {
+  .visionRow { gap: 30px; margin-bottom: 40px; }
+}
+
+@media (max-width: 1281px) {
+  .visionRow { gap: 24px; margin-bottom: 30px; }
+}
+
+@media (max-width: 1025px) {
+  .visionRow {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .reverse {
+    grid-template-columns: 1fr;
+  }
+  .reverse .visionContent { order: unset; }
+  .reverse .visionImage { order: unset; }
+}
+
+@media (max-width: 769px) {
+  .visionRow { gap: 30px; }
+}
+
+@media (max-width: 431px) {
+  .visionRow { gap: 24px; }
+}
+
+@media (max-width: 361px) {
+  .visionRow { gap: 20px; }
+}

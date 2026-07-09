@@ -38,7 +38,33 @@
 }
 
 
-@media (max-width: 1024px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .container { gap: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .container { gap: 40px; }
+  .grid { gap: 30px 24px; }
+}
+
+@media (max-width: 1537px) {
+  .title { margin-bottom: 40px; }
+}
+
+@media (max-width: 1441px) {
+  .container { gap: 30px; }
+  .grid { gap: 24px 20px; }
+}
+
+@media (max-width: 1281px) {
+  .container { gap: 24px; }
+}
+
+@media (max-width: 1025px) {
   .container {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -49,8 +75,17 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 431px) {
+  .title { margin-bottom: 30px; }
+  .grid { gap: 20px; }
+}
+
+@media (max-width: 361px) {
+  .title { margin-bottom: 24px; }
 }

@@ -131,14 +131,52 @@
   stroke: var(--black-111);
 }
 
-@media (max-width: 768px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .controlsWrapper { margin-bottom: 35px; }
+}
+
+@media (max-width: 1661px) {
+  .controlsWrapper { margin-bottom: 30px; }
+}
+
+@media (max-width: 1537px) {
+  .controlsWrapper { gap: 16px; }
+  .tabBtn, .filterBtn { padding: 12px 40px; }
+}
+
+@media (max-width: 1441px) {
+  .controlsWrapper { margin-bottom: 24px; }
+}
+
+@media (max-width: 1281px) {
+  .tabBtn, .filterBtn { padding: 10px 30px; }
+}
+
+@media (max-width: 1025px) {
+  .controlsWrapper { margin-bottom: 20px; }
+}
+
+@media (max-width: 769px) {
   .controlsWrapper {
     flex-direction: column;
     align-items: flex-start;
   }
-  
   .filterBtn {
     width: 100%;
     justify-content: center;
   }
+}
+
+@media (max-width: 431px) {
+  .tabsContainer { gap: 8px; }
+  .tabBtn { padding: 10px 20px; flex: 1; text-align: center; }
+}
+
+@media (max-width: 361px) {
+  .tabsContainer { gap: 6px; }
+  .tabBtn { padding: 8px 16px; font-size: 14px; }
 }

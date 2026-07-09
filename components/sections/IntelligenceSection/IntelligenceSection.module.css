@@ -80,18 +80,109 @@
   width: 110px;
 }
 
-@media (max-width: 992px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .intelligenceSection { padding: 50px 40px; }
+  .circularWrapper { width: 650px; height: 650px; }
+  .iconCube { width: 130px; }
+  .iconCompass { width: 150px; }
+  .iconNetwork { width: 130px; }
+  .iconRocket { width: 100px; }
+}
+
+@media (max-width: 1661px) {
+  .intelligenceSection { padding: 40px 30px; }
+  .circularWrapper { width: 600px; height: 600px; }
+  .iconCube { width: 120px; }
+  .iconCompass { width: 140px; }
+  .iconNetwork { width: 120px; }
+  .iconRocket { width: 90px; }
+}
+
+@media (max-width: 1537px) {
+  .circularWrapper { width: 550px; height: 550px; }
+  .iconCube { width: 110px; }
+  .iconCompass { width: 130px; }
+  .iconNetwork { width: 110px; }
+  .iconRocket { width: 80px; }
+}
+
+@media (max-width: 1441px) {
+  .circularWrapper { width: 500px; height: 500px; }
+  .iconCube { width: 100px; }
+  .iconCompass { width: 120px; }
+  .iconNetwork { width: 100px; }
+  .iconRocket { width: 75px; }
+}
+
+@media (max-width: 1281px) {
+  .circularWrapper { width: 450px; height: 450px; }
+  .iconCube { width: 90px; }
+  .iconCompass { width: 110px; }
+  .iconNetwork { width: 90px; }
+  .iconRocket { width: 70px; }
+}
+
+@media (max-width: 1025px) {
   .circularWrapper {
     width: 100%;
     height: auto;
     padding: 60px 20px;
+    transform: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
   }
-  .outerRing, .innerRing {
-    display: none;
+  .outerRing, .innerRing { display: none; }
+  .centerContent {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
   }
   .icon {
     position: static;
-    margin: 10px;
+  }
+  .iconCube, .iconCompass, .iconNetwork, .iconRocket {
+    width: 140px;
+    top: auto; left: auto; right: auto; bottom: auto;
+  }
+}
+
+@media (max-width: 769px) {
+  .circularWrapper { padding: 0px 0px; gap: 30px; }
+  .iconCube, .iconCompass, .iconNetwork, .iconRocket {
+    width: 120px;
+  }
+  .centerContent button {
+    width: auto;
     display: inline-block;
+  }
+
+  .intelligenceSection {
+  padding: 0px 0px;
+}
+}
+
+@media (max-width: 431px) {
+  .circularWrapper {  gap: 20px; }
+  .iconCube, .iconCompass, .iconNetwork, .iconRocket {
+    width: 100px;
+  }
+  .centerContent button {
+    width: auto;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 361px) {
+  .circularWrapper {  gap: 16px; }
+  .iconCube, .iconCompass, .iconNetwork, .iconRocket {
+    width: 80px;
   }
 }

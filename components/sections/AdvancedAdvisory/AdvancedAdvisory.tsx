@@ -32,7 +32,7 @@ export default function AdvancedAdvisory() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className={styles.section}>
+    <section className="mt_80">
       <div className="container-1600">
         <h2 className="title_60 text-center">Advanced Financial & Regulatory Advisory</h2>
         

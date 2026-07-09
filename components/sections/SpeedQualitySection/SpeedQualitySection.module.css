@@ -60,9 +60,51 @@
   object-fit: contain;
 }
 
-@media (max-width: 992px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .innerBox { padding: 50px; gap: 70px; }
+}
+
+@media (max-width: 1661px) {
+  .innerBox { padding: 40px; gap: 60px; }
+}
+
+@media (max-width: 1537px) {
+  .innerBox { gap: 50px; }
+}
+
+@media (max-width: 1441px) {
+  .innerBox { gap: 40px; }
+  .accordionItem.active .itemTitle { font-size: 36px; }
+}
+
+@media (max-width: 1281px) {
+  .innerBox { padding: 30px; gap: 30px; }
+  .accordionItem.active .itemTitle { font-size: 32px; }
+}
+
+@media (max-width: 1025px) {
   .innerBox {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding: 40px 30px;
   }
+  .accordionItem.active .itemTitle { font-size: 30px; }
+}
+
+@media (max-width: 769px) {
+  .innerBox { padding: 30px 20px; }
+  .accordionItem.active .itemTitle { font-size: 28px; }
+}
+
+@media (max-width: 431px) {
+  .innerBox { padding: 24px 16px; }
+  .accordionItem.active .itemTitle { font-size: 24px; }
+}
+
+@media (max-width: 361px) {
+  .innerBox { padding: 20px 12px; }
+  .accordionItem.active .itemTitle { font-size: 22px; }
 }

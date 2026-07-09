@@ -13,10 +13,9 @@
   display: flex;
   align-items: center;
   padding: 60px 40px;
-  border-radius: 8px; /* Optional styling, can be removed if not needed */
+  border-radius: 8px;
 }
 
-/* Optional dark overlay if background image needs dimming */
 .overlay {
   position: absolute;
   inset: 0;
@@ -51,7 +50,7 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  color: #DE5C3A; /* Safal red/orange */
+  color: #DE5C3A;
   padding: 14px 44px;
   border-radius: 5px;
   font-size: 18px;
@@ -66,4 +65,61 @@
 .btnWhite:hover {
   background-color: #f8f8f8;
   color: #c74b2a;
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .bannerContainer { min-height: 400px; }
+}
+
+@media (max-width: 1661px) {
+  .contentWrapper { padding-left: 30px; max-width: 600px; }
+}
+
+@media (max-width: 1537px) {
+  .bannerContainer { padding: 50px 30px; }
+}
+
+@media (max-width: 1441px) {
+  .contentWrapper { padding-left: 20px; max-width: 550px; }
+  .btnWhite { padding: 12px 36px; font-size: 17px; }
+}
+
+@media (max-width: 1281px) {
+  .bannerContainer { min-height: 350px; }
+}
+
+@media (max-width: 1025px) {
+  .bannerContainer {
+    min-height: 300px;
+    padding: 40px 24px;
+  }
+  .contentWrapper {
+    padding-left: 0;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .description {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 769px) {
+  .bannerContainer { padding: 40px 20px; }
+}
+
+@media (max-width: 431px) {
+  .bannerContainer { padding: 30px 16px; min-height: 250px; }
+  .btnWhite { padding: 12px 24px; font-size: 16px; width: 100%; }
+}
+
+@media (max-width: 361px) {
+  .bannerContainer { padding: 24px 12px; }
+  .description { font-size: 14px; margin-bottom: 20px; }
 }

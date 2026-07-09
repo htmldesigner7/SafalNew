@@ -41,3 +41,62 @@
   font-weight: 500;
   line-height: 30px;
 }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .imageWrapper { height: 750px; }
+  .overlayWrapper { width: 1100px; }
+  .glassBox { padding: 30px 90px; }
+}
+
+@media (max-width: 1661px) {
+  .imageWrapper { height: 700px; }
+  .overlayWrapper { width: 1000px; }
+  .glassBox { padding: 30px 80px; }
+}
+
+@media (max-width: 1537px) {
+  .imageWrapper { height: 600px; }
+  .overlayWrapper { width: 900px; bottom: 24px; }
+  .glassBox { padding: 24px 60px; }
+}
+
+@media (max-width: 1441px) {
+  .imageWrapper { height: 500px; }
+  .overlayWrapper { width: 850px; }
+  .text { font-size: 20px; line-height: 28px; }
+}
+
+@media (max-width: 1281px) {
+  .imageWrapper { height: 450px; }
+  .overlayWrapper { width: 90%; }
+}
+
+@media (max-width: 1025px) {
+  .imageWrapper { height: 400px; }
+  .glassBox { padding: 20px 40px; }
+  .text { font-size: 18px; line-height: 26px; }
+}
+
+@media (max-width: 769px) {
+  .imageWrapper { height: 350px; }
+  .overlayWrapper { bottom: 20px; width: 92%; }
+  .glassBox { padding: 20px 30px; }
+}
+
+@media (max-width: 431px) {
+  .imageWrapper { height: 300px; }
+  .overlayWrapper { bottom: 16px; width: 95%; }
+  .glassBox { padding: 16px 20px; }
+  .text { font-size: 16px; line-height: 24px; }
+}
+
+@media (max-width: 361px) {
+  .imageWrapper { height: 260px; }
+  .overlayWrapper { bottom: 12px; }
+  .glassBox { padding: 12px 16px; }
+  .text { font-size: 14px; line-height: 20px; }
+}
