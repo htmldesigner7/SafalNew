@@ -1,22 +1,8 @@
-
 .layout {
   display: grid;
   grid-template-columns: 6fr 4fr;
   align-items: center;
   gap: 80px;
-}
-
-.contentCol {
-  display: flex;
-  flex-direction: column;
-}
-
-.contentCol p {
-  margin-bottom: 20px;
-}
-
-.contentCol p:last-child {
-  margin-bottom: 0;
 }
 
 .title {
@@ -36,19 +22,63 @@
   max-width: 500px;
 }
 
-@media (max-width: 1024px) {
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .layout { gap: 70px; }
+}
+
+@media (max-width: 1661px) {
+  .layout { grid-template-columns: 5.5fr 4.5fr; gap: 60px; }
+  .image { max-width: 450px; }
+}
+
+@media (max-width: 1537px) {
+  .layout { grid-template-columns: 5fr 5fr; gap: 50px; }
+  .image { max-width: 400px; }
+}
+
+@media (max-width: 1441px) {
+  .layout { gap: 40px; }
+}
+
+@media (max-width: 1281px) {
+  .layout { gap: 30px; }
+  .image { max-width: 350px; }
+}
+
+@media (max-width: 1025px) {
   .layout {
     grid-template-columns: 1fr;
     gap: 50px;
   }
-  
+
   .image {
     max-width: 400px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .section {
     padding: 60px 0;
   }
+  .image {
+    max-width: 350px;
+  }
+  .layout {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 431px) {
+  .image { max-width: 300px; }
+  .layout { gap: 30px; }
+}
+
+@media (max-width: 361px) {
+  .image { max-width: 250px; }
+  .layout { gap: 20px; }
 }

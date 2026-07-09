@@ -6,7 +6,6 @@
   margin: 0 auto 60px auto;
 }
 
-
 /* ym css */
 .vennContainer {
   position: relative;
@@ -18,7 +17,6 @@
   gap: 40px;
 }
 
-
 .vennContainer::before {
   content: '';
   position: absolute;
@@ -28,8 +26,6 @@
   width: 34%;
   background: url('/images/left-orange.svg') no-repeat center;
 }
-
-
 
 .vennContainer::after {
   content: '';
@@ -53,7 +49,6 @@
 
 /* Outer glow ring */
 
-
 .circle.left {
   margin-right: -40px;
   background: linear-gradient(132deg, #EEE 22.84%, #F3EFE2 84.02%);
@@ -63,7 +58,7 @@
   position: relative;
   margin-left: -40px;
   background: linear-gradient(231deg, #EEE 19.63%, rgba(243, 239, 226, 0.00) 76.14%);
-   z-index: 1;
+  z-index: 1;
 }
 
 .content {
@@ -76,7 +71,7 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 600;
-  color:var(--black-111);
+  color: var(--black-111);
   margin-bottom: 30px;
 }
 
@@ -93,7 +88,197 @@
   list-style: disc;
 }
 
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
 
+@media (max-width: 1776px) {
+  .content {
+    padding: 50px 90px;
+  }
+}
 
-/* ym css */
+@media (max-width: 1661px) {
+  .content {
+    padding: 40px 70px;
+  }
+}
 
+@media (max-width: 1537px) {
+  .content {
+    padding: 40px 60px;
+  }
+
+  .circle h2 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .content {
+    padding: 40px 50px;
+  }
+
+  .circle h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .circle ul li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .content {
+    padding: 30px 40px;
+  }
+
+  .circle h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .circle ul {
+    margin-bottom: 30px;
+  }
+
+  .circle ul li {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+
+  .vennContainer {
+    gap: 20px;
+  }
+
+  .circle.left {
+    margin-right: -20px;
+  }
+
+  .circle.right {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 1025px) {
+
+  /* Stack vertically on tablets */
+  .vennContainer {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .circle.left {
+    margin-right: 0;
+    margin-bottom: -30px;
+  }
+
+  .circle.right {
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .content {
+    padding: 50px 80px;
+  }
+
+  .circle h2 {
+    font-size: 32px;
+  }
+
+  /* Hide the horizontal specific SVGs on vertical layout */
+  .vennContainer::before,
+  .vennContainer::after {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+
+  /* Change from perfect circle to rounded cards for better fit on narrow screens */
+  .circle {
+    border-radius: 40px;
+  }
+
+  .content {
+    padding: 40px 40px;
+  }
+
+  .circle h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 431px) {
+  .circle {
+    border-radius: 24px;
+  }
+
+  .circle.left {
+    margin-bottom: -15px;
+  }
+
+  .circle.right {
+    margin-top: -15px;
+  }
+
+  .content {
+    padding: 30px 24px;
+  }
+
+  .circle h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    line-height: 28px;
+  }
+
+  .circle ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .circle ul li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 361px) {
+  .circle {
+    border-radius: 20px;
+  }
+
+  .circle.left {
+    margin-bottom: -10px;
+  }
+
+  .circle.right {
+    margin-top: -10px;
+  }
+
+  .content {
+    padding: 24px 20px;
+  }
+
+  .circle h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .circle ul {
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  .circle ul li {
+    font-size: 12px;
+    padding: 3px 0;
+  }
+}

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .card {
@@ -69,17 +69,71 @@
   opacity: 0;
 }
 
-@media (max-width: 1024px) {
-  .cardsGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .cardsGrid { gap: 28px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1661px) {
+  .cardsGrid { gap: 26px; }
+  .card { height: 380px; }
+  .cardContent { padding: 22px 26px; }
+}
+
+@media (max-width: 1537px) {
+  .cardsGrid { gap: 24px; }
+  .card { height: 360px; }
+  .watermarkNumber { font-size: 56px; bottom: -18px; }
+}
+
+@media (max-width: 1441px) {
+  .cardsGrid { gap: 20px; }
+  .card { height: 340px; }
+  .cardContent { padding: 20px 24px; }
+  .watermarkNumber { font-size: 50px; bottom: -16px; right: -5px; }
+}
+
+@media (max-width: 1281px) {
+  .cardsGrid { gap: 16px; }
+  .card { height: 300px; }
+  .cardContent { padding: 16px 20px; }
+  .watermarkNumber { font-size: 46px; bottom: -14px; }
+}
+
+@media (max-width: 1025px) {
+  /* Switch to 2 columns on tablet, scale cards back up to look beautiful */
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .card { height: 380px; }
+  .cardContent { padding: 24px 30px; }
+  .watermarkNumber { font-size: 60px; bottom: -20px; right: -7px; }
+}
+
+@media (max-width: 769px) {
+  /* Switch to 1 column on mobile */
   .cardsGrid {
     grid-template-columns: 1fr;
+    gap: 26px;
   }
-  .imageWrapper {
-    height: 200px;
-  }
+  .card { height: 360px; }
+  .imageWrapper { height: 200px; }
+}
+
+@media (max-width: 431px) {
+  .cardsGrid { gap: 24px; }
+  .card { height: 340px; }
+  .cardContent { padding: 20px 24px; }
+  .watermarkNumber { font-size: 54px; bottom: -16px; }
+}
+
+@media (max-width: 361px) {
+  .cardsGrid { gap: 20px; }
+  .card { height: 320px; }
+  .cardContent { padding: 16px 20px; }
+  .watermarkNumber { font-size: 46px; bottom: -14px; }
 }

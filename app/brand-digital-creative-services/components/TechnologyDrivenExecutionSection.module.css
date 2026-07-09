@@ -1,7 +1,7 @@
 .diagramContainer {
   position: relative;
   display: flex;
-  flex-direction: column; /* Stack children vertically */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -11,11 +11,12 @@
   width: 600px;
   height: 550px; 
   z-index: 1;
+  margin-top: 20px;
 }
 
 .diagramImage {
   object-fit: contain;
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 
@@ -30,10 +31,13 @@
 
 .iconWrapper {
   flex-shrink: 0;
+  width: 120px;
 }
 
 .iconImage {
   object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 .textContent {
@@ -42,16 +46,15 @@
 
 .topBlock {
   position: static; 
-  order: -1; /* Ensures it sits above the image wrapper in the column flexbox */
+  order: -1; 
   width: 500px;
-  /* margin-bottom: -50px;  */
   text-align: left;
   justify-content: center;
   z-index: 3;
 }
 
 .leftBlock {
-  top: 60%; /* Adjusted since container is taller now */
+  top: 60%; 
   right: 50%;
   margin-right: 280px; 
   flex-direction: row-reverse;
@@ -61,32 +64,87 @@
 .rightBlock {
   top: 65%;
   left: 50%;
-  margin-left: 280px; /* Bulletproof distance from center */
+  margin-left: 280px; 
   text-align: left;
 }
 
-@media (max-width: 991px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  /* Fits 1600px container perfectly */
+}
+
+@media (max-width: 1661px) {
+  .imageWrapper { width: 500px; height: 450px; }
+  .textBlock, .topBlock { width: 450px; }
+  .leftBlock { margin-right: 230px; }
+  .rightBlock { margin-left: 230px; }
+  .iconWrapper { width: 100px; }
+}
+
+@media (max-width: 1537px) {
+  .imageWrapper { width: 400px; height: 350px; }
+  .textBlock, .topBlock { width: 400px; }
+  .leftBlock { margin-right: 180px; }
+  .rightBlock { margin-left: 180px; }
+  .iconWrapper { width: 90px; }
+}
+
+@media (max-width: 1441px) {
+  .imageWrapper { width: 350px; height: 300px; }
+  .textBlock, .topBlock { width: 400px; }
+  .leftBlock { margin-right: 155px; }
+  .rightBlock { margin-left: 155px; }
+  .iconWrapper { width: 80px; }
+}
+
+@media (max-width: 1281px) {
+  .imageWrapper { width: 300px; height: 250px; }
+  .leftBlock { margin-right: 130px; }
+  .rightBlock { margin-left: 130px; }
+}
+
+@media (max-width: 1025px) {
   .diagramContainer {
     display: flex;
     flex-direction: column;
     min-height: auto;
-    gap: 40px;
+    gap: 50px;
   }
-
   .imageWrapper {
-    position: relative;
-    height: 400px; /* Fallback height for mobile */
+    display: none;
   }
-
+  .topBlock {
+    margin-bottom: 0;
+  }
   .textBlock {
     position: relative;
     top: auto !important;
     left: auto !important;
     right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     transform: none !important;
+    width: 100%;
     max-width: 100%;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
   }
+}
+
+@media (max-width: 769px) {
+  .diagramContainer {
+    gap: 40px;
+  }
+  .iconWrapper { width: 80px; }
+}
+
+@media (max-width: 431px) {
+  .diagramContainer {
+    gap: 30px;
+  }
+  .iconWrapper { width: 60px; }
 }

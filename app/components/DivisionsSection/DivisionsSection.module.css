@@ -1,3 +1,7 @@
+.section {
+  overflow-x: hidden;
+}
+
 .title {
   font-size: 40px;
   font-weight: 600;
@@ -48,7 +52,7 @@
   background-color: var(--red);
   z-index: 2;
   transform-origin: left;
-  transform: translateY(-0.5px); /* Align perfectly over the 1px grey line */
+  transform: translateY(-0.5px);
 }
 
 .animatedLineRight {
@@ -60,7 +64,7 @@
   background-color: var(--red);
   z-index: 2;
   transform-origin: right;
-  transform: translateY(-0.5px); /* Align perfectly over the 1px grey line */
+  transform: translateY(-0.5px);
 }
 
 .column {
@@ -71,7 +75,8 @@
   position: relative;
 }
 
-.columnSplitLeft, .columnSplitRight {
+.columnSplitLeft,
+.columnSplitRight {
   flex: 0 0 200px;
   display: flex;
   flex-direction: column;
@@ -82,14 +87,14 @@
 
 /* Vertical line to the right of Col 2 */
 .columnSplitLeft::after {
-    content: "";
-    background-color: var(--grey-ddd);
-    z-index: 1;
-    width: 1px;
-    position: absolute;
-    top: 103px;
-    bottom: 100px;
-    right: -60px;
+  content: "";
+  background-color: var(--grey-ddd);
+  z-index: 1;
+  width: 1px;
+  position: absolute;
+  top: 103px;
+  bottom: 100px;
+  right: -60px;
 }
 
 /* Vertical line to the left of Col 4 */
@@ -280,44 +285,18 @@
   margin-top: 8px;
 }
 
-/* =========================================================
-   Responsive Breakpoints
-   ========================================================= */
+/* =========================================
+   RESPONSIVE MEDIA QUERIES (VERTICAL TREE)
+========================================= */
 
 @media (max-width: 1776px) {
-  .chartContainer {
-    gap: 80px;
-  }
-  .columnSplitLeft::after {
-    right: -40px;
-  }
-  .columnSplitRight::after {
-    left: -40px;
-  }
-  .cardLeftTree::after,
-  .animatedCardLineLeft {
-    right: -40px;
-    width: 40px;
-  }
-  .cardRightTree::before,
-  .animatedCardLineRight {
-    left: -40px;
-    width: 40px;
-  }
-  .animatedVerticalLeftTop,
-  .animatedVerticalLeftBottom {
-    right: -40px;
-  }
-  .animatedVerticalRightTop,
-  .animatedVerticalRightBottom {
-    left: -40px;
-  }
   .title {
     font-size: 38px;
   }
+
   .subtitle {
     font-size: 22px;
-    line-height: 32px;
+    margin-bottom: 36px;
   }
 }
 
@@ -325,157 +304,406 @@
   .title {
     font-size: 36px;
   }
+
+  .subtitle {
+    font-size: 21px;
+    margin-bottom: 32px;
+  }
 }
 
 @media (max-width: 1537px) {
   .title {
     font-size: 34px;
+    margin-bottom: 20px;
   }
+
   .subtitle {
     font-size: 20px;
-    line-height: 28px;
+    margin-bottom: 28px;
   }
 }
 
 @media (max-width: 1441px) {
-  .column,
-  .columnSplitLeft,
-  .columnSplitRight,
-  .columnCenter {
-    flex: 0 0 180px;
-  }
-  .card {
-    width: 180px;
-    min-height: 180px;
-  }
-  .cardCenter {
-    width: 180px;
-    height: 180px;
-  }
-  .chartContainer::before {
-    left: 180px;
-    right: 180px;
-  }
-  .animatedLineLeft {
-    left: 180px;
-    width: calc(50% - 180px);
-  }
-  .animatedLineRight {
-    right: 180px;
-    width: calc(50% - 180px);
-  }
-  .cardTitle {
-    font-size: 20px;
-  }
   .title {
     font-size: 32px;
   }
+
   .subtitle {
     font-size: 19px;
-    line-height: 26px;
+    margin-bottom: 24px;
   }
 }
 
 @media (max-width: 1281px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 
+  At 1025px, a 5-column horizontal layout overflows. 
+  We rotate the entire tree 90 degrees to make it a VERTICAL TREE.
+  This allows it to fit on mobile perfectly while keeping all Framer Motion logic intact!
+*/
+@media (max-width: 1025px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
   .chartContainer {
     flex-direction: column;
-    align-items: center;
     gap: 40px;
-  }
-
-  .chartContainer::before,
-  .columnSplitLeft::after,
-  .columnSplitRight::after,
-  .cardLeftTree::after,
-  .cardRightTree::before,
-  .animatedLineLeft,
-  .animatedLineRight,
-  .animatedVerticalLeftTop,
-  .animatedVerticalLeftBottom,
-  .animatedVerticalRightTop,
-  .animatedVerticalRightBottom,
-  .animatedCardLineLeft,
-  .animatedCardLineRight {
-    display: none;
-  }
-
-  .columnSplitLeft,
-  .columnSplitRight {
-    gap: 40px;
-    width: 100%;
-    height: auto;
+    margin-top: 40px;
   }
 
   .column,
   .columnCenter {
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-  .subtitle {
-    font-size: 18px;
-    line-height: 26px;
-  }
-}
-
-@media (max-width: 1025px) {
-  .title {
-    font-size: 26px;
-  }
-  .subtitle {
-    font-size: 17px;
-    line-height: 24px;
-  }
-  .card, .cardCenter {
-    width: 100%;
-    max-width: 280px;
-    min-height: auto;
-    padding: 20px;
-  }
-  .cardCenter {
+    flex: 0 0 auto;
+    width: 160px;
     height: 160px;
-    display: flex;
-    align-items: center;
+  }
+
+  /* C2 and C4 become horizontal rows, passing the main trunk through their center */
+  .columnSplitLeft,
+  .columnSplitRight {
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
     justify-content: center;
   }
+
+  .card {
+    min-height: 160px;
+    width: 160px;
+    padding: 12px;
+    margin: 0;
+  }
+
+  .cardCenter {
+    height: 160px;
+    width: 160px;
+    margin: 0;
+  }
+
+  /* The main trunk becomes a vertical line */
+  .chartContainer::before {
+    top: 80px;
+    bottom: 80px;
+    left: 50%;
+    right: auto;
+    width: 1px;
+    height: auto;
+  }
+
+  /* Animate Trunk (C1 down to C3) */
+  .animatedLineLeft {
+    top: 80px;
+    left: 50%;
+    margin-left: 1px;
+    width: 400px;
+    height: 2px;
+    transform-origin: left top;
+    rotate: 90deg;
+  }
+
+  /* Animate Trunk (C5 up to C3) */
+  .animatedLineRight {
+    bottom: 80px;
+    left: 50%;
+    right: auto;
+    margin-left: 1px;
+    width: 400px;
+    height: 2px;
+    transform-origin: left bottom;
+    rotate: -90deg;
+  }
+
+  /* Hide the old desktop vertical branches because the new main trunk replaces them */
+  .columnSplitLeft::after,
+  .columnSplitRight::after,
+  .animatedVerticalLeftTop,
+  .animatedVerticalLeftBottom,
+  .animatedVerticalRightTop,
+  .animatedVerticalRightBottom {
+    display: none !important;
+  }
+
+  /* C2 Horizontal Connecting Lines */
+  .columnSplitLeft>.card:first-child::after {
+    right: -20px;
+    width: 20px;
+    left: auto;
+  }
+
+  .columnSplitLeft>.card:last-child::after {
+    left: -20px;
+    width: 20px;
+    right: auto;
+  }
+
+  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+    right: -20px;
+    width: 20px;
+    left: auto;
+    transform-origin: left center;
+  }
+
+  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+    left: -20px;
+    width: 20px;
+    right: auto;
+    transform-origin: right center;
+  }
+
+  /* C4 Horizontal Connecting Lines */
+  .columnSplitRight>.card:first-child::before {
+    right: -20px;
+    width: 20px;
+    left: auto;
+  }
+
+  .columnSplitRight>.card:last-child::before {
+    left: -20px;
+    width: 20px;
+    right: auto;
+  }
+
+  .columnSplitRight>.card:first-child .animatedCardLineRight {
+    right: -20px;
+    width: 20px;
+    left: auto;
+    transform-origin: right center;
+  }
+
+  .columnSplitRight>.card:last-child .animatedCardLineRight {
+    left: -20px;
+    width: 20px;
+    right: auto;
+    transform-origin: left center;
+  }
+
   .cardTitle {
     font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .flag {
+    width: 28px;
+    height: 14px;
+    margin-top: 6px;
   }
 }
 
 @media (max-width: 769px) {
   .title {
     font-size: 24px;
+    margin-bottom: 12px;
   }
+
   .subtitle {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 24px;
   }
-  .section {
-    padding: 60px 0;
+
+  .chartContainer {
+    gap: 30px;
+  }
+
+  .column,
+  .columnCenter {
+    width: 140px;
+    height: 140px;
+  }
+
+  .columnSplitLeft,
+  .columnSplitRight {
+    gap: 30px;
+  }
+
+  .card,
+  .cardCenter {
+    min-height: 140px;
+    width: 140px;
+    padding: 8px;
+  }
+
+  .chartContainer::before {
+    top: 70px;
+    bottom: 70px;
+  }
+
+  .animatedLineLeft {
+    top: 70px;
+    width: 340px;
+  }
+
+  .animatedLineRight {
+    bottom: 70px;
+    width: 340px;
+  }
+
+  .columnSplitLeft>.card:first-child::after {
+    right: -15px;
+    width: 15px;
+  }
+
+  .columnSplitLeft>.card:last-child::after {
+    left: -15px;
+    width: 15px;
+  }
+
+  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+    right: -15px;
+    width: 15px;
+  }
+
+  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+    left: -15px;
+    width: 15px;
+  }
+
+  .columnSplitRight>.card:first-child::before {
+    right: -15px;
+    width: 15px;
+  }
+
+  .columnSplitRight>.card:last-child::before {
+    left: -15px;
+    width: 15px;
+  }
+
+  .columnSplitRight>.card:first-child .animatedCardLineRight {
+    right: -15px;
+    width: 15px;
+  }
+
+  .columnSplitRight>.card:last-child .animatedCardLineRight {
+    left: -15px;
+    width: 15px;
+  }
+
+  .cardTitle {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .flag {
+    width: 24px;
+    height: 12px;
+    margin-top: 4px;
   }
 }
 
 @media (max-width: 431px) {
   .title {
     font-size: 22px;
+    margin-bottom: 8px;
   }
+
   .subtitle {
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 12px;
     line-height: 20px;
   }
-  .card, .cardCenter {
-    max-width: 250px;
-    padding: 16px;
+
+  .chartContainer {
+    gap: 20px;
   }
+
+  .column,
+  .columnCenter {
+    width: 110px;
+    height: 110px;
+  }
+
+  .columnSplitLeft,
+  .columnSplitRight {
+    gap: 20px;
+  }
+
+  .card,
   .cardCenter {
-    height: 140px;
+    min-height: 110px;
+    width: 110px;
+    padding: 6px;
   }
+
+  .chartContainer::before {
+    top: 55px;
+    bottom: 55px;
+  }
+
+  .animatedLineLeft {
+    top: 55px;
+    width: 260px;
+  }
+
+  .animatedLineRight {
+    bottom: 55px;
+    width: 260px;
+  }
+
+  .columnSplitLeft>.card:first-child::after {
+    right: -10px;
+    width: 10px;
+  }
+
+  .columnSplitLeft>.card:last-child::after {
+    left: -10px;
+    width: 10px;
+  }
+
+  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+    right: -10px;
+    width: 10px;
+  }
+
+  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+    left: -10px;
+    width: 10px;
+  }
+
+  .columnSplitRight>.card:first-child::before {
+    right: -10px;
+    width: 10px;
+  }
+
+  .columnSplitRight>.card:last-child::before {
+    left: -10px;
+    width: 10px;
+  }
+
+  .columnSplitRight>.card:first-child .animatedCardLineRight {
+    right: -10px;
+    width: 10px;
+  }
+
+  .columnSplitRight>.card:last-child .animatedCardLineRight {
+    left: -10px;
+    width: 10px;
+  }
+
   .cardTitle {
-    font-size: 16px;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .flag {
+    width: 20px;
+    height: 10px;
+    margin-top: 4px;
   }
 }
 
@@ -483,13 +711,97 @@
   .title {
     font-size: 20px;
   }
-  .card, .cardCenter {
-    max-width: 220px;
+
+  .subtitle {
+    font-size: 12px;
+    line-height: 18px;
   }
+
+  .chartContainer {
+    gap: 16px;
+  }
+
+  .column,
+  .columnCenter {
+    width: 100px;
+    height: 100px;
+  }
+
+  .columnSplitLeft,
+  .columnSplitRight {
+    gap: 16px;
+  }
+
+  .card,
   .cardCenter {
-    height: 120px;
+    min-height: 100px;
+    width: 100px;
+    padding: 4px;
   }
+
+  .chartContainer::before {
+    top: 50px;
+    bottom: 50px;
+  }
+
+  .animatedLineLeft {
+    top: 50px;
+    width: 232px;
+  }
+
+  .animatedLineRight {
+    bottom: 50px;
+    width: 232px;
+  }
+
+  .columnSplitLeft>.card:first-child::after {
+    right: -8px;
+    width: 8px;
+  }
+
+  .columnSplitLeft>.card:last-child::after {
+    left: -8px;
+    width: 8px;
+  }
+
+  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+    right: -8px;
+    width: 8px;
+  }
+
+  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+    left: -8px;
+    width: 8px;
+  }
+
+  .columnSplitRight>.card:first-child::before {
+    right: -8px;
+    width: 8px;
+  }
+
+  .columnSplitRight>.card:last-child::before {
+    left: -8px;
+    width: 8px;
+  }
+
+  .columnSplitRight>.card:first-child .animatedCardLineRight {
+    right: -8px;
+    width: 8px;
+  }
+
+  .columnSplitRight>.card:last-child .animatedCardLineRight {
+    left: -8px;
+    width: 8px;
+  }
+
   .cardTitle {
-    font-size: 15px;
+    font-size: 11px;
+    margin-bottom: 2px;
+  }
+
+  .flag {
+    width: 18px;
+    height: 9px;
+    margin-top: 2px;
   }
 }

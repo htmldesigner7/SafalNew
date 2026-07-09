@@ -18,8 +18,9 @@
 }
 
 .handshakeImage {
-
   mix-blend-mode: multiply;
+  max-width: 100%;
+  height: auto;
 }
 
 .rightColumn {
@@ -100,24 +101,121 @@
   pointer-events: none;
 }
 
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
 
-
-
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .rightColumn {
-    padding: 40px 20px;
+@media (max-width: 1776px) {
+  .contact {
+    gap: 100px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1661px) {
+  .contact {
+    gap: 80px;
+  }
+  .rightColumn {
+    padding: 36px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .contact {
+    gap: 60px;
+  }
   .formRow {
-    flex-direction: column;
     gap: 30px;
   }
+  .form {
+    gap: 30px;
+  }
+}
 
- 
+@media (max-width: 1441px) {
+  .contact {
+    gap: 40px;
+  }
+  .rightColumn {
+    padding: 30px;
+  }
+  .formGroup label {
+    font-size: 17px;
+  }
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    padding: 16px 14px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .contact {
+    grid-template-columns: 5fr 7fr;
+    gap: 30px;
+  }
+  .formRow {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .leftColumn {
+    align-items: center;
+    text-align: center;
+  }
+  .imageWrapper {
+    margin-top: 30px;
+  }
+  .rightColumn {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .formRow {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form {
+    gap: 24px;
+  }
+  .rightColumn {
+    padding: 30px 24px;
+  }
+  .formGroup label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 431px) {
+  .contact {
+    padding: 12px;
+  }
+  .rightColumn {
+    padding: 24px 16px;
+  }
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    padding: 14px 12px;
+    font-size: 14px;
+  }
+  .formGroup {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 361px) {
+  .contact {
+    padding: 10px;
+  }
+  .rightColumn {
+    padding: 20px 12px;
+  }
 }

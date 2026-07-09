@@ -1,9 +1,8 @@
-.processSection {
-}
+.processSection {}
 
 .gridContainer {
   display: grid;
-  grid-template-columns:30% 30% 40% ;
+  grid-template-columns: 30% 30% 40%;
   /* gap: 40px; */
   align-items: center;
   justify-content: space-between;
@@ -23,7 +22,6 @@
   transition: all 0.3s ease;
   letter-spacing: 0.2px;
 }
-
 
 .activeTab {
   background: var(--active-bg);
@@ -51,8 +49,7 @@
   margin-top: 10px;
 }
 
-.descCol p
-{
+.descCol p {
   margin-top: 0px;
 }
 
@@ -75,6 +72,51 @@
 }
 
 
+/* =========================================================
+   Desktop Breakpoints (Empty for you to fill)
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  /* Add your styles here */
+  .tabsCol {
+    gap: 40px;
+}
+}
+
+@media (max-width: 1661px) {
+  /* Add your styles here */
+}
+
+@media (max-width: 1537px) {
+  /* Add your styles here */
+
+  .svgPlaceholder svg
+  {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1441px) {
+  /* Add your styles here */
+
+  .svgPlaceholder svg
+  {
+    width: 280px;
+  }
+
+    .tabsCol {
+    gap: 30px;
+}
+
+.tabItem {
+    padding: 18px;
+}
+
+}
+
+@media (max-width: 1281px) {
+  /* Add your styles here */
+}
 
 @media (max-width: 1200px) {
   .gridContainer {
@@ -86,12 +128,89 @@
   }
 }
 
-@media (max-width: 992px) {
+/* =========================================================
+   Mobile Breakpoints (Fixed Massive Gaps)
+   ========================================================= */
+
+@media (max-width: 1024px) {
   .gridContainer {
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 40px; /* Reduced from 60px */
   }
+
   .descLineWrapper {
     display: none;
+  }
+
+  .centerCol {
+    justify-content: center;
+  }
+
+  .svgPlaceholder svg {
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .descCol {
+    margin-top: 0;
+    transform: none !important; /* Disable translateY so text doesn't slide into empty space */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tabsCol {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 8px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  
+  .tabsCol::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .tabItem {
+    padding: 12px 24px;
+    border-bottom: 2px solid var(--grey-ddd);
+    white-space: nowrap;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .activeTab {
+    border-bottom-color: var(--active-color);
+  }
+}
+
+@media (max-width: 769px) {
+  .gridContainer {
+    gap: 30px;
+  }
+  .svgPlaceholder svg {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 431px) {
+  .gridContainer {
+    gap: 24px;
+  }
+  .svgPlaceholder svg {
+    max-height: 300px;
+  }
+  .tabItem {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 361px) {
+  .gridContainer {
+    gap: 20px;
+  }
+  .svgPlaceholder svg {
+    max-height: 250px;
   }
 }

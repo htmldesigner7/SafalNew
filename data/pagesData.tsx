@@ -25,8 +25,8 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Initiate the Next Phase<br />
-            of Growth.</strong>
+          <strong>Initiate the Next <br />
+           Phase of Growth.</strong>
         </>
       ),
       description: "Whether you require robust enterprise infrastructure, visionary creative strategy, or elite financial advisory, our global team is ready to engineer your solution. Connect with Safal Infosoft to begin.",

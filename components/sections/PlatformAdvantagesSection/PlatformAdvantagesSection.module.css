@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .circularDiagram {
   position: relative;
   width: 100%;
@@ -96,6 +95,7 @@
 }
 
 .advantageText {
+  margin: 0;
 }
 
 .descriptionContainer {
@@ -104,8 +104,44 @@
 }
 
 
-/* Mobile Fallback - stack them instead of circular diagram */
-@media (max-width: 768px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  /* No changes needed, 1600px container fits 1100px SVG beautifully */
+}
+
+@media (max-width: 1661px) {
+  .advantageItem { width: 250px; }
+}
+
+@media (max-width: 1537px) {
+  .centerCircle { width: 125px; height: 125px; }
+  .advantageItem { width: 230px; font-size: 0.95rem; }
+}
+
+@media (max-width: 1441px) {
+  .centerCircle { width: 115px; height: 115px; }
+  .centerText { font-size: 16px; }
+  .advantageItem { width: 210px; font-size: 0.9rem; }
+}
+
+@media (max-width: 1281px) {
+  .centerCircle { width: 105px; height: 105px; }
+  .centerText { font-size: 15px; }
+  .advantageItem { width: 190px; font-size: 0.85rem; }
+}
+
+@media (max-width: 1025px) {
+  /* Tablet scale - prevent texts from overflowing container edge */
+  .centerCircle { display: none;}
+  .centerText { font-size: 14px; }
+  .advantageItem { width: 160px; font-size: 0.8rem; gap: 8px; }
+}
+
+@media (max-width: 769px) {
+  /* Mobile Fallback - stack them instead of circular diagram */
   .circularDiagram {
     aspect-ratio: auto;
     height: auto;
@@ -120,13 +156,8 @@
     display: none;
   }
   
-  .centerCircle {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    margin-bottom: 20px;
-  }
+  
+  .centerText { font-size: 16px; }
   
   .anchor {
     position: relative;
@@ -140,14 +171,20 @@
     transform: none !important;
     justify-content: center !important;
     text-align: center !important;
+    font-size: 0.95rem;
   }
   
   .dotConnector {
     display: none;
   }
-  
-  .title {
-    font-size: 32px;
-  }
 }
 
+@media (max-width: 431px) {
+  .circularDiagram { gap: 24px; padding: 0 10px; }
+  .advantageItem { font-size: 0.9rem; }
+}
+
+@media (max-width: 361px) {
+  .circularDiagram { gap: 20px; }
+  .advantageItem { font-size: 0.85rem; }
+}

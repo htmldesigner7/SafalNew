@@ -30,11 +30,11 @@ export default function CreativeDigitalEngineSection({
       <div className="container-1600">
         <div className={styles.layout}>
           <div className={styles.contentCol}>
-            <h2 className={`title_60 mb_20`}>
+            <h2 className={`title_60 `}>
               {title}
             </h2>
             {paragraphs.map((p, index) => (
-              <p key={index} className="mb_20">{p}</p>
+              <p key={index} className="">{p}</p>
             ))}
             
             {buttonText && buttonLink && (

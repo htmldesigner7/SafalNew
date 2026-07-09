@@ -27,10 +27,6 @@
   height: 100%;
 }
 
-.cardTitle {
-  margin-bottom: 12px;
-}
-
 /* Navigation Controls */
 .controls {
   display: flex;
@@ -87,8 +83,53 @@
   background-color: var(--red);
 }
 
-@media (max-width: 768px) {
-  .card {
-    padding: 20px;
-  }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .title { margin-bottom: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .iconWrapper { width: 70px; height: 70px; }
+  .card { padding: 22px; }
+}
+
+@media (max-width: 1537px) {
+  .title { margin-bottom: 45px; }
+  .controls { margin-top: 40px; }
+}
+
+@media (max-width: 1441px) {
+  .iconWrapper { margin-bottom: 16px; }
+}
+
+@media (max-width: 1281px) {
+  .card { padding: 20px; }
+  .title { margin-bottom: 40px; }
+}
+
+@media (max-width: 1025px) {
+  .iconWrapper { width: 60px; height: 60px; }
+  .controls { margin-top: 30px; }
+}
+
+@media (max-width: 769px) {
+  .title { margin-bottom: 30px; }
+  .card { padding: 20px; }
+}
+
+@media (max-width: 431px) {
+  .navButton { width: 36px; height: 36px; }
+  .dot { width: 24px; }
+  .controls { gap: 16px; }
+}
+
+@media (max-width: 361px) {
+  .card { padding: 16px; }
+  .iconWrapper { width: 50px; height: 50px; margin-bottom: 12px; }
+  .navButton { width: 32px; height: 32px; }
+  .dot { width: 20px; }
 }
