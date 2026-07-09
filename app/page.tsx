@@ -16,7 +16,7 @@ export default function Home() {
       <DivisionsSection />
       <EcosystemSection />
       <SustainabilitySection />
-      <SectorsSection />
+      <SectorsSection />  
       <GlobalPresenceSection />
       <InvestorsSection />
       <CTASection />

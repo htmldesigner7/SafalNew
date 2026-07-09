@@ -23,7 +23,7 @@ export const sustainableData: SustainableContent = {
     },
     {
       boldText: "Green Leaf:",
-      text: "Resource Optimization (IoT for waste reduction)"
+      text: "Resource Optimization (IoT for waste reduction)"  
     },
     {
       boldText: "Orange Leaf:",
@@ -120,4 +120,4 @@ export const governingDigitalFrontierData: SustainableContent = {
   imageAlt: "Governing the Digital Frontier"
 };
 
-
+
