@@ -46,14 +46,56 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .ctaBox { width: 70%; padding: 40px 80px; }
+}
+
+@media (max-width: 1661px) {
+}
+
+@media (max-width: 1537px) {
+  .ctaBox { padding: 40px 60px; margin-bottom: 20px; }
+  .title { font-size: 36px; }
+  .description {
+  margin-bottom: 20px;
+}
+  
+}
+
+@media (max-width: 1441px) {
+  .ctaBox {  }
+  .title { font-size: 32px; }
+}
+
+@media (max-width: 1281px) {
+  .ctaBox {  padding: 30px; }
+}
+
+@media (max-width: 1025px) {
+  .ctaBox { position: relative; bottom: auto; transform: none; left: auto; width: 100%; margin-top: -50px; padding: 40px; border-radius: 0; }
+  .imageContainer {  } /* Hide the hero image if the CTA is no longer overlaying it */
+}
+
+@media (max-width: 769px) {
   .ctaBox {
-    width: 90%;
-    margin-top: -50px;
+    width: 100%;
+    margin-top: 0;
     padding: 40px 20px;
   }
+  .title { font-size: 28px; }
+}
 
-  .title {
-    font-size: 24px;
-  }
+@media (max-width: 431px) {
+  .ctaBox { padding: 30px 16px; }
+  .title { font-size: 24px; }
+  .description { margin-bottom: 30px; font-size: 14px; }
+}
+
+@media (max-width: 361px) {
+  .ctaBox { padding: 24px 12px; }
+  .title { font-size: 22px; }
 }

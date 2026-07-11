@@ -22,14 +22,55 @@
   object-fit: cover;
 }
 
-@media (max-width: 1024px) {
-  .galleryGrid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .galleryGrid { gap: 20px; }
+  .col { gap: 20px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1661px) {
+  .galleryGrid { margin-top: 30px; }
+}
+
+@media (max-width: 1537px) {
+  .galleryGrid { gap: 16px; }
+  .col { gap: 16px; }
+}
+
+@media (max-width: 1441px) {
+  .galleryGrid { margin-top: 24px; }
+}
+
+@media (max-width: 1281px) {
+  .galleryGrid { gap: 12px; }
+  .col { gap: 12px; }
+}
+
+@media (max-width: 1025px) {
+  .galleryGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .col { gap: 16px; }
+}
+
+@media (max-width: 769px) {
   .galleryGrid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
+  .col { gap: 20px; }
+}
+
+@media (max-width: 431px) {
+  .galleryGrid { gap: 16px; }
+  .col { gap: 16px; }
+}
+
+@media (max-width: 361px) {
+  .galleryGrid { gap: 12px; }
+  .col { gap: 12px; }
 }

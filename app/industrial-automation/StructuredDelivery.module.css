@@ -89,10 +89,34 @@
   object-position: left center;
 }
 
-@media (max-width: 992px) {
-  .contentWrapper {
-    flex-direction: column;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .header { margin-bottom: 70px; }
+}
+
+@media (max-width: 1661px) {
+  .header { margin-bottom: 60px; }
+}
+
+@media (max-width: 1537px) {
+  .header { margin-bottom: 50px; }
+  .stageItem { padding: 20px 24px; }
+  .stageNumber { font-size: 48px; min-width: 60px; }
+}
+
+@media (max-width: 1441px) {
+  .header { margin-bottom: 40px; }
+}
+
+@media (max-width: 1281px) {
+  .header { margin-bottom: 30px; }
+}
+
+@media (max-width: 1025px) {
+  .contentWrapper { flex-direction: column; }
   .stagesList {
     width: 100%;
     height: auto;
@@ -100,15 +124,21 @@
     flex-direction: column;
     gap: 20px;
   }
-  .stageItem {
-    position: static;
-    transform: none;
-  }
-  .svgContainer {
-    display: none;
-  }
-  .imageContent {
-    width: 100%;
-    margin-top: 50px;
-  }
+  .stageItem { position: static; transform: none; }
+  .svgContainer { display: none; }
+  .imageContent { width: 100%; margin-top: 50px; }
+}
+
+@media (max-width: 769px) {
+  .imageContent { margin-top: 40px; height: auto; }
+}
+
+@media (max-width: 431px) {
+  .stageItem { padding: 16px 20px; gap: 20px; }
+  .stageNumber { font-size: 40px; min-width: 50px; }
+}
+
+@media (max-width: 361px) {
+  .stageItem { padding: 12px 16px; gap: 16px; }
+  .stageNumber { font-size: 32px; min-width: 40px; }
 }

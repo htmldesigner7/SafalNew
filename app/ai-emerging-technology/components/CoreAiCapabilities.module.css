@@ -7,13 +7,13 @@
   position: relative;
   width: 100%;
   max-width: 816px;
-  height: 520px; 
+  height: 600px; 
   margin: 80px auto;
 }
 
 .waveWrapper {
   position: absolute;
-  top: 121px; /* Center the 278px height SVG in the 520px container */
+  top: 161px; /* Center the 278px height SVG in the 600px container */
   left: 0;
   width: 100%;
   height: 278px;
@@ -29,7 +29,7 @@
 /* Positioning columns precisely over circle centers in the 816px wide diagram */
 .columns {
   position: absolute;
-  top: 121px;
+  top: 161px;
   left: 0;
   width: 100%;
   height: 278px;
@@ -199,18 +199,38 @@
   background-color: #DBE9CB;
 }
 
-@media (max-width: 991px) {
-  .diagramContainer {
-    height: auto;
-  }
-  .waveWrapper {
-    display: none;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .diagramContainer { margin: 70px auto; transform: scale(0.95); }
+}
+
+@media (max-width: 1661px) {
+  .diagramContainer { margin: 60px auto; transform: scale(0.9); }
+}
+
+@media (max-width: 1537px) {
+  .diagramContainer { margin: 50px auto; }
+}
+
+@media (max-width: 1441px) {
+  .diagramContainer { margin: 30px auto; }
+}
+
+@media (max-width: 1281px) {
+  .diagramContainer { margin: 10px auto; }
+}
+
+@media (max-width: 1025px) {
+  .diagramContainer { transform: none; height: auto; margin: 40px auto; }
+  .waveWrapper { display: none; }
   .columns {
     position: static;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 60px;
     height: auto;
   }
   .column {
@@ -229,8 +249,9 @@
     margin-left: 0;
     left: 0;
     margin-bottom: 20px;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
+    order: 1;
   }
   .contentBlock {
     position: relative;
@@ -238,8 +259,25 @@
     bottom: 0 !important;
     width: 100%;
     padding: 0 !important;
+    order: 2;
   }
-  .verticalLine {
-    display: none;
-  }
+  .verticalLine { display: none; }
+}
+
+@media (max-width: 769px) {
+  .columns { gap: 60px; }
+  .circleContainer { width: 160px; height: 160px; }
+}
+
+@media (max-width: 431px) {
+  .columns { gap: 40px; }
+  .circleContainer { width: 140px; height: 140px; }
+  .textTitle { font-size: 22px; }
+  .textDesc { font-size: 14px; padding: 0 16px; }
+}
+
+@media (max-width: 361px) {
+  .columns { gap: 30px; }
+  .circleContainer { width: 120px; height: 120px; margin-bottom: 16px; }
+  .textTitle { font-size: 20px; }
 }

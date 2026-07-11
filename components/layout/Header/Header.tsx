@@ -8,6 +8,7 @@ import styles from './Header.module.css';
 
 export default function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
@@ -23,6 +24,18 @@ export default function Header() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileMenuOpen]);
 
   const handleDropdownClick = (title: string, e: React.MouseEvent) => {
     e.preventDefault();
@@ -90,36 +103,21 @@ export default function Header() {
         { title: 'Corporate Governance', href: '/corporate-governance' }
       ]
     },
-    { 
-      title: 'Pages', 
-      href: '#', 
-      hasDropdown: true,
-      dropdownItems: [
-        { title: 'Home', href: '/' },
-        { title: 'Our Story & Vision', href: '/our-story-vision' },
-        { title: 'Our Entities', href: '/our-entities' },
-        { title: 'Investor Relations', href: '/investor-relations' },
-        { title: 'Life at Safal', href: '/life-at-safal' },
-        { title: 'Contact', href: '/contact' },
-        { title: 'Open positions', href: '/open-positions' },
-        { title: 'Internships & Mentorship', href: '/internships-mentorship' },
-        { title: 'Financial Reports', href: '/financial-reports-disclosures' },
-        { title: 'Blogs', href: '/blogs' },
-        { title: 'Brochures', href: '/brochures' },
-        { title: 'Webinars', href: '/webinars' },
-        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
-        { title: 'Technology Staffing', href: '/technology-staffing' },
-        { title: 'Startup Product Development', href: '/startup-product-development' },
-        { title: 'Enterprise Products', href: '/enterprise-products' },
-        { title: 'Industrial Automation & IoT', href: '/industrial-automation' },
-        { title: 'Become a Partner', href: '/become-a-partner' }
-      ]
-    },
   ];
 
   return (
     <header className={`${styles.headerWrapper} ${isLightHeader ? styles.lightBg : ''}`}>
       <div className={`${styles.header} container-1800`} ref={dropdownRef}>
+        {/* Mobile Menu Backdrop */}
+        {isMobileMenuOpen && (
+          <div 
+            className={styles.mobileBackdrop} 
+            onClick={() => {
+              setIsMobileMenuOpen(false);
+              setOpenDropdown(null);
+            }}
+          />
+        )}
         <div className={styles.logoContainer}>
           <Link href="/">
             {/* Show black logo if it&apos;s blog detail page, else white logo. We can use CSS filter if black logo is not available, but let&apos;s check what image we have. 
@@ -135,7 +133,19 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className={styles.navigation}>
+        <nav className={`${styles.navigation} ${isMobileMenuOpen ? styles.mobileOpen : ''}`}>
+          <div className={styles.mobileNavLogo}>
+            <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+              <Image
+                src="/images/logo.svg"
+                alt="Safal Logo"
+                height={60}
+                width={150}
+                priority
+                className={isLightHeader ? styles.darkLogo : ''}
+              />
+            </Link>
+          </div>
           {navLinks.map((link, index) => (
             <div key={index} className={styles.navItem}>
               {link.hasDropdown && link.dropdownItems ? (
@@ -146,7 +156,11 @@ export default function Header() {
                   </svg>
                 </button>
               ) : (
-                <Link href={link.href} className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}>
+                <Link 
+                  href={link.href} 
+                  className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   {link.title}
                   {link.hasDropdown && (
                     <svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -158,7 +172,15 @@ export default function Header() {
               {link.hasDropdown && link.dropdownItems && openDropdown === link.title && (
                 <div className={styles.dropdownMenu}>
                   {link.dropdownItems.map((item, i) => (
-                    <Link key={i} href={item.href} className={styles.dropdownItem} onClick={() => setOpenDropdown(null)}>
+                    <Link 
+                      key={i} 
+                      href={item.href} 
+                      className={styles.dropdownItem} 
+                      onClick={() => {
+                        setOpenDropdown(null);
+                        setIsMobileMenuOpen(false);
+                      }}
+                    >
                       {item.title}
                     </Link>
                   ))}
@@ -168,9 +190,23 @@ export default function Header() {
           ))}
         </nav>
 
-        <Link href="/contact" className="btn-primary">
-          Get In Touch
-        </Link>
+        <div className={styles.headerRight}>
+          <Link href="/contact" className="btn-primary">
+            Get In Touch
+          </Link>
+          <button 
+            className={styles.mobileMenuBtn}
+            onClick={() => {
+              setIsMobileMenuOpen(!isMobileMenuOpen);
+              if (isMobileMenuOpen) setOpenDropdown(null);
+            }}
+            aria-label="Toggle menu"
+          >
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d={isMobileMenuOpen ? "M6 18L18 6M6 6L18 18" : "M4 12H20M4 6H20M4 18H20"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
   );

@@ -51,27 +51,56 @@ background: linear-gradient(117deg, #EEE 34.54%, #F3EFE2 100%), #D54B26;
   align-items: flex-start;
 }
 
-@media (max-width: 1024px) {
-  .layoutWrapper {
-    flex-direction: column;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
 
-  .sideText {
-    width: 100%;
-    flex-direction: row;
-    gap: 10px;
-  }
+@media (max-width: 1776px) {
+  .layoutWrapper { gap: 60px; }
+}
 
-  .centerCard {
-    flex-direction: column;
-    max-width: 100%;
-  }
+@media (max-width: 1661px) {
+  .layoutWrapper { gap: 50px; }
+  .cardContent { padding: 50px 40px; }
+}
 
-  .cardImageWrapper {
-    min-height: 300px;
-  }
+@media (max-width: 1537px) {
+  .layoutWrapper { gap: 40px; }
+  .cardContent { padding: 40px 30px; }
+  .greyTextBlock { font-size: 30px; }
+}
 
-  .cardContent {
-    padding: 40px;
-  }
+@media (max-width: 1441px) {
+  .layoutWrapper { gap: 30px; }
+  .cardContent { padding: 40px 24px; }
+}
+
+@media (max-width: 1281px) {
+  .layoutWrapper { gap: 24px; }
+  .greyTextBlock { font-size: 26px; }
+}
+
+@media (max-width: 1025px) {
+  .layoutWrapper { flex-direction: column; }
+  .sideText { width: 100%; flex-direction: row; gap: 10px; }
+  .centerCard { flex-direction: column; max-width: 100%; }
+  .cardImageWrapper { min-height: 300px; }
+  .cardContent { padding: 40px; }
+}
+
+@media (max-width: 769px) {
+  .greyTextBlock { font-size: 22px; }
+}
+
+@media (max-width: 431px) {
+  .sideText { flex-direction: column; gap: 8px; }
+  .cardImageWrapper { min-height: 250px; }
+  .cardContent { padding: 30px 20px; }
+  .greyTextBlock { font-size: 20px; }
+}
+
+@media (max-width: 361px) {
+  .cardImageWrapper { min-height: 200px; }
+  .cardContent { padding: 20px 16px; }
+  .greyTextBlock { font-size: 18px; }
 }

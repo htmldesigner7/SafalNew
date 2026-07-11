@@ -16,6 +16,10 @@
   height: fit-content;
 }
 
+.mobileFilterToggle {
+  display: none;
+}
+
 .filterHeader {
   display: flex;
   justify-content: space-between;
@@ -61,6 +65,7 @@
   transition: transform 0.3s ease;
 }
 
+.open {} /* ensure css modules exports this */
 .accordionIcon.open {
   transform: rotate(180deg);
 }
@@ -260,11 +265,72 @@
   transform: translateX(4px);
 }
 
-@media (max-width: 1024px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .layoutWrapper { gap: 30px; }
+  .postsGrid { gap: 24px; }
+  .featuredPost { gap: 24px; }
+}
+
+@media (max-width: 1661px) {
+  .sidebar { width: 250px; padding: 20px; }
+  .cardContent { padding: 20px 0 8px 0; }
+  .postCard { padding: 20px; }
+}
+
+@media (max-width: 1537px) {
+  .postsGrid { gap: 20px; }
+  .featuredImageWrapper { min-height: 350px; }
+}
+
+@media (max-width: 1441px) {
+  .sidebar { width: 230px; }
+  .postCard { padding: 16px; }
+  .cardContent { padding: 16px 0 8px 0; }
+}
+
+@media (max-width: 1281px) {
+  .sidebar { width: 220px; padding: 16px; }
+  .featuredImageWrapper { min-height: 300px; }
+}
+
+@media (max-width: 1025px) {
   .layoutWrapper {
+    display: flex;
     flex-direction: column;
   }
+  .mobileFilterToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg-main, #FAFAF8);
+    border: 1px solid #E5E7EB;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black-111);
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 24px;
+    order: 1;
+  }
   .sidebar {
+    display: none;
+    order: 2;
+    width: 100%;
+    position: static;
+    margin-bottom: 24px;
+  }
+  .mobileOpen {} /* ensure css modules exports this */
+  .sidebar.mobileOpen {
+    display: block;
+  }
+  .mainContent {
+    order: 3;
     width: 100%;
   }
   .postsGrid {
@@ -274,12 +340,25 @@
     flex-direction: column;
   }
   .featuredContent {
-    padding: 32px;
+    padding: 24px 0 0 0;
+  }
+  .featuredImageWrapper {
+    min-height: 250px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .postsGrid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 431px) {
+  .featuredImageWrapper { min-height: 200px; }
+  .postsGrid { gap: 16px; }
+}
+
+@media (max-width: 361px) {
+  .activeTags { gap: 12px; }
+  .tag { font-size: 14px; padding: 4px 8px; }
 }

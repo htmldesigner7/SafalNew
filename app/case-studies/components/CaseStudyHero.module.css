@@ -62,14 +62,45 @@
   object-position: center;
 }
 
-@media (max-width: 1024px) {
-  .heroImageWrapper {
-    height: 400px;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .heroImageWrapper { height: 550px; margin-bottom: 70px; }
 }
 
-@media (max-width: 768px) {
-  .heroImageWrapper {
-    height: 300px;
-  }
+@media (max-width: 1661px) {
+  .heroImageWrapper { height: 500px; margin-bottom: 60px; }
+}
+
+@media (max-width: 1537px) {
+  .heroImageWrapper { height: 450px; margin-bottom: 50px; }
+}
+
+@media (max-width: 1441px) {
+  .heroImageWrapper { height: 400px; margin-bottom: 40px; }
+  .title { margin-bottom: 20px; }
+}
+
+@media (max-width: 1281px) {
+  .heroImageWrapper { height: 350px; }
+}
+
+@media (max-width: 1025px) {
+  .heroImageWrapper { height: 300px; margin-bottom: 30px; }
+  .description { margin-bottom: 30px; }
+}
+
+@media (max-width: 769px) {
+  .heroImageWrapper { height: 250px; }
+}
+
+@media (max-width: 431px) {
+  .heroImageWrapper { height: 200px; }
+  .metaRow { gap: 12px; }
+}
+
+@media (max-width: 361px) {
+  .heroImageWrapper { height: 180px; margin-bottom: 24px; }
 }

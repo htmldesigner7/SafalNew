@@ -66,17 +66,71 @@
   border-color: var(--red);
 }
 
+.uploadText {
+  color: var(--black-111);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.uploadSubText {
+  color: var(--grey-666);
+  font-size: 14px;
+}
 
 .submitBtn {
   margin-top: 32px;
 }
 
 
-@media (max-width: 768px) {
-  .formGrid {
-    grid-template-columns: 1fr;
-  }
-  .container {
-    padding: 30px;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .formGrid { gap: 30px; }
+}
+
+@media (max-width: 1661px) {
+  .formGrid { gap: 24px; }
+  .container { padding: 35px; }
+}
+
+@media (max-width: 1537px) {
+  .formGrid { gap: 20px; }
+  .container { padding: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .container { padding: 24px; }
+  .title { margin-bottom: 30px; }
+}
+
+@media (max-width: 1281px) {
+  .formGrid { gap: 16px; }
+  .container { padding: 24px; }
+}
+
+@media (max-width: 1025px) {
+  .formGrid { grid-template-columns: 1fr; gap: 20px; }
+  .container { padding: 24px; }
+}
+
+@media (max-width: 769px) {
+  .formGrid { gap: 16px; }
+  .container { padding: 20px; }
+}
+
+@media (max-width: 431px) {
+  .title { margin-bottom: 20px; }
+  .uploadBox { padding: 24px; }
+  .container { padding: 16px; }
+  .uploadText { font-size: 16px; }
+}
+
+@media (max-width: 361px) {
+  .title { margin-bottom: 16px; }
+  .uploadBox { padding: 20px; }
+  .container { padding: 12px; }
+  .uploadText { font-size: 15px; }
+  .uploadSubText { font-size: 13px; }
 }

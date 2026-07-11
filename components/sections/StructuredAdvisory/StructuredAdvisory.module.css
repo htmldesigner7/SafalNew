@@ -1,28 +1,12 @@
-
 .layout {
   display: grid;
   grid-template-columns: 7fr 3fr;
   gap: 60px;
-}
-
-@media (min-width: 1024px) {
-  .layout {
-    flex-direction: row;
-    align-items: center;
-  }
-  .leftCol {
-    flex: 1;
-    padding-right: 40px;
-  }
-  .rightCol {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
+  align-items: center;
 }
 
 .accordion {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .accordionItem {
@@ -75,4 +59,62 @@
 
 .image {
   object-fit: contain;
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .layout { gap: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .layout { gap: 40px; }
+  .titleActive { font-size: 36px; }
+}
+
+@media (max-width: 1537px) {
+  .layout { gap: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .layout { gap: 24px; }
+  .titleActive { font-size: 32px; }
+}
+
+@media (max-width: 1281px) {
+  .layout { gap: 20px; }
+}
+
+@media (max-width: 1025px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .leftCol {
+    order: 2;
+  }
+  .rightCol {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .titleActive { font-size: 28px; }
+}
+
+@media (max-width: 769px) {
+  .layout { gap: 30px; }
+}
+
+@media (max-width: 431px) {
+  .layout { gap: 24px; }
+  .titleActive { font-size: 24px; }
+}
+
+@media (max-width: 361px) {
+  .layout { gap: 20px; }
+  .titleActive { font-size: 20px; }
 }

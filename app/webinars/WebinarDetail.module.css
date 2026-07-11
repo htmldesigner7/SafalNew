@@ -85,8 +85,54 @@
   object-position: center;
 }
 
-@media (min-width: 1024px) {
-  .title {
-    font-size: 56px;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .heroImageWrapper { height: 450px; }
+  .bannerWrapper { height: 350px; margin-top: 70px; }
+}
+
+@media (max-width: 1661px) {
+  .heroImageWrapper { height: 400px; }
+  .bannerWrapper { height: 320px; margin-top: 60px; }
+}
+
+@media (max-width: 1537px) {
+  .heroImageWrapper { height: 350px; }
+  .bannerWrapper { height: 280px; margin-top: 50px; }
+}
+
+@media (max-width: 1441px) {
+  .title { font-size: 48px; }
+}
+
+@media (max-width: 1281px) {
+  .heroImageWrapper { height: 300px; }
+  .bannerWrapper { height: 250px; margin-top: 40px; }
+}
+
+@media (max-width: 1025px) {
+  .title { font-size: 40px; }
+  .heroImageWrapper { height: 280px; }
+}
+
+@media (max-width: 769px) {
+  .heroImageWrapper { height: 240px; }
+  .bannerWrapper { height: 200px; margin-top: 30px; }
+  .title { font-size: 32px; }
+}
+
+@media (max-width: 431px) {
+  .heroImageWrapper { height: 200px; }
+  .bannerWrapper { height: 160px; margin-top: 24px; }
+  .title { font-size: 28px; }
+  .metaRow { gap: 12px; }
+}
+
+@media (max-width: 361px) {
+  .heroImageWrapper { height: 180px; }
+  .bannerWrapper { height: 140px; }
+  .title { font-size: 24px; }
 }

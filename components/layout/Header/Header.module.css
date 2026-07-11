@@ -16,10 +16,37 @@
   padding-bottom: 10px;
 }
 
+.headerRight {
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.mobileBackdrop {
+  display: none;
+}
+
+.mobileMenuBtn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.lightBg .mobileMenuBtn {
+  color: var(--black-111);
+}
+
 .logoContainer {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.mobileNavLogo {
+  display: none;
 }
 
 .logoContainer a {
@@ -131,9 +158,125 @@ button.navLink {
   border-left-color: var(--red);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
+  .mobileBackdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 99;
+    animation: fadeIn 0.3s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .mobileMenuBtn {
+    display: block;
+    position: relative;
+    z-index: 101;
+  }
+  
+  .mobileNavLogo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
   .navigation {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: var(--black-111);
+    flex-direction: column;
+    padding: 100px 30px 40px 30px;
+    align-items: flex-start;
+    gap: 0px;
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+    z-index: 100;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .navigation.mobileOpen {
+    transform: translateX(0);
+  }
+
+  .navItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navLink {
+    font-family: var(--font-heading), "Familjen Grotesk", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  
+  .navLink::after {
     display: none;
+  }
+
+  .dropdownMenu {
+    position: static;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 10px 0 10px 15px;
+    margin-top: 0;
+    min-width: 100%;
+    animation: dropdownFade 0.3s ease forwards;
+  }
+
+  @keyframes dropdownFade {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .dropdownItem {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    padding: 12px 0;
+    border-left: none;
+  }
+
+  .dropdownItem:hover {
+    background-color: transparent;
+    color: var(--red);
+    padding-left: 5px;
+  }
+
+  .lightBg .navigation {
+    background-color: var(--white);
+  }
+
+  .lightBg .navLink {
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .lightBg .dropdownItem {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lightBg .dropdownItem:hover {
+    color: var(--red);
   }
 }
 
@@ -157,27 +300,33 @@ button.navLink {
   }
   .navLink {
     font-size: 17px;
-    gap: 8px;
+    /* gap: 8px; */
   }
 }
 
 @media (max-width: 1537px) {
   .navigation {
-    gap: 25px;
+    /* gap: 25px; */
   }
   .navLink {
     font-size: 16px;
-    gap: 6px;
+    /* gap: 6px; */
+  }
+
+  .navLink svg
+  {
+    width: 14px;
+    height: 14px;
   }
 }
 
 @media (max-width: 1441px) {
   .navigation {
-    gap: 16px;
+    gap: 24px;
   }
   .navLink {
-    font-size: 15px;
-    gap: 6px;
+    /* font-size: 15px; */
+    /* gap: 6px; */
   }
   .logoContainer img {
     width: 160px;
@@ -191,11 +340,11 @@ button.navLink {
 
 @media (max-width: 1281px) {
   .navigation {
-    gap: 10px;
+    gap: 14px;
   }
   .navLink {
-    font-size: 14px;
-    gap: 4px;
+    /* font-size: 14px; */
+    /* gap: 4px; */
   }
   .logoContainer img {
     width: 150px;
@@ -208,9 +357,6 @@ button.navLink {
 }
 
 @media (max-width: 1025px) {
-  .navigation {
-    display: none;
-  }
   .logoContainer img {
     width: 150px;
     height: auto;
@@ -230,6 +376,18 @@ button.navLink {
     width: auto;
     padding: 10px 22px;
     font-size: 14px;
+  }
+  .navigation {
+    padding: 0px 5% 40px 5%;
+  }
+  .navLink {
+    font-size: 22px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+  .dropdownItem {
+    font-size: 16px;
+    padding: 10px 0;
   }
 }
 

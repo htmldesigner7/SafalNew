@@ -199,8 +199,8 @@ export default function SolutionsSection() {
 
               <div className={styles.textContent}>
                 <h4 className="title_40">{activeSolution.title}</h4>
-                <p className={styles.description}>{activeSolution.description}</p>
-                <p className={styles.description}>{activeSolution.description2}</p>
+                <p>{activeSolution.description}</p>
+                <p className="mt-4">{activeSolution.description2}</p>
 
                 <Link href="#explore" className="btn-outline btn-outline-red mt_40">
                   Explore More

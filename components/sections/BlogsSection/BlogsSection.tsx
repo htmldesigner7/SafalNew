@@ -37,6 +37,7 @@ export default function BlogsSection() {
 
   const [typeOpen, setTypeOpen] = useState(true);
   const [topicOpen, setTopicOpen] = useState(true);
+  const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
 
   let filteredPosts = mockPosts;
 
@@ -83,7 +84,7 @@ export default function BlogsSection() {
         <div className={styles.layoutWrapper}>
 
           {/* Sidebar */}
-          <aside className={styles.sidebar}>
+          <aside className={`${styles.sidebar} ${mobileFilterOpen ? styles.mobileOpen : ''}`}>
             <div className={styles.filterHeader}>
               <h3 className="title_24">Filters</h3>
               <button className={styles.clearAllBtn} onClick={handleClearAll}>Clear All</button>
@@ -103,7 +104,7 @@ export default function BlogsSection() {
                     <div
                       key={item.id}
                       className={`${styles.filterItem} ${activeType === item.id ? styles.active : ''}`}
-                      onClick={() => setActiveType(item.id)}
+                      onClick={() => setActiveType(activeType === item.id ? '' : item.id)}
                     >
                       <span>{item.label}</span>
                       <span className={styles.filterCount}>{item.count}</span>
@@ -127,7 +128,7 @@ export default function BlogsSection() {
                     <div
                       key={item.id}
                       className={`${styles.filterItem} ${activeTopic === item.id ? styles.active : ''}`}
-                      onClick={() => setActiveTopic(item.id)}
+                      onClick={() => setActiveTopic(activeTopic === item.id ? '' : item.id)}
                     >
                       <span>{item.label}</span>
                       <span className={styles.filterCount}>{item.count}</span>
@@ -138,25 +139,38 @@ export default function BlogsSection() {
             </div>
           </aside>
 
+          {/* Mobile Filter Toggle */}
+          <button 
+            className={styles.mobileFilterToggle} 
+            onClick={() => setMobileFilterOpen(!mobileFilterOpen)}
+          >
+            Filters
+            <svg className={`${styles.accordionIcon} ${mobileFilterOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M1 1.5L6 6.5L11 1.5" />
+            </svg>
+          </button>
+
           {/* Main Content */}
           <div className={styles.mainContent}>
 
             {/* Active Filters Bar */}
-            <div className={styles.activeFiltersBar}>
-              <span className="title_24">Active Filters:</span>
-              <div className={styles.activeTags}>
-                {activeFilters.map((filter, idx) => (
-                  <div key={idx} className={styles.tag}>
-                    {filter}
-                    <button onClick={() => removeFilter(filter)}>
-                      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M1 1L9 9M9 1L1 9" />
-                      </svg>
-                    </button>
-                  </div>
-                ))}
+            {activeFilters.length > 0 && (
+              <div className={styles.activeFiltersBar}>
+                <span className="title_24">Active Filters:</span>
+                <div className={styles.activeTags}>
+                  {activeFilters.map((filter, idx) => (
+                    <div key={idx} className={styles.tag}>
+                      {filter}
+                      <button onClick={() => removeFilter(filter)}>
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M1 1L9 9M9 1L1 9" />
+                        </svg>
+                      </button>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Featured Post */}
             {featuredPost && (
@@ -188,41 +202,49 @@ export default function BlogsSection() {
             )}
 
             {/* Grid Posts */}
-            <div className={styles.postsGrid}>
-              {gridPosts.map((post) => (
-                <div key={post.id} className={styles.postCard}>
-                  <div className={styles.cardImageWrapper}>
-                    <Image
-                      src={post.imageSrc}
-                      alt={post.title}
-                      fill
-                      className={styles.featuredImage}
-                    />
-                  </div>
-                  <div className={styles.cardContent}>
-                    <div className={styles.metaData}>
-                      <div className={styles.date}>
-                        <CalendarIcon />
-                        {post.date}
-                      </div>
-                      <div className={styles.categoryTags}>
-                        <span className={`${styles.categoryTag} ${styles.green}`}>{post.tags[0]}</span>
-                        {post.tags[1] && <span className={`${styles.categoryTag} ${styles.red}`}>{post.tags[1]}</span>}
-                      </div>
+            {gridPosts.length > 0 ? (
+              <div className={styles.postsGrid}>
+                {gridPosts.map((post) => (
+                  <div key={post.id} className={styles.postCard}>
+                    <div className={styles.cardImageWrapper}>
+                      <Image
+                        src={post.imageSrc}
+                        alt={post.title}
+                        fill
+                        className={styles.featuredImage}
+                      />
                     </div>
-                    <h3 className="title_24">{post.title}</h3>
-                    <p className={styles.cardDesc}>{post.description}</p>
-                    <Link href={`/blogs/${post.id}`} className={styles.cardReadMore}>
-                      Read More
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                      </svg>
-                    </Link>
+                    <div className={styles.cardContent}>
+                      <div className={styles.metaData}>
+                        <div className={styles.date}>
+                          <CalendarIcon />
+                          {post.date}
+                        </div>
+                        <div className={styles.categoryTags}>
+                          <span className={`${styles.categoryTag} ${styles.green}`}>{post.tags[0]}</span>
+                          {post.tags[1] && <span className={`${styles.categoryTag} ${styles.red}`}>{post.tags[1]}</span>}
+                        </div>
+                      </div>
+                      <h3 className="title_24">{post.title}</h3>
+                      <p className={styles.cardDesc}>{post.description}</p>
+                      <Link href={`/blogs/${post.id}`} className={styles.cardReadMore}>
+                        Read More
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <line x1="5" y1="12" x2="19" y2="12"></line>
+                          <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                      </Link>
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            ) : !featuredPost ? (
+              <div style={{ textAlign: 'center', padding: '60px 20px' }}>
+                <h3 className="title_24 mb_20">No matching posts found</h3>
+                <p style={{ color: 'var(--grey-666)', marginBottom: '24px' }}>Try adjusting your filters or search criteria to find what you're looking for.</p>
+                <button className="btn-outline btn-outline-red" onClick={handleClearAll} style={{ display: 'inline-block' }}>Clear All Filters</button>
+              </div>
+            ) : null}
 
           </div>
         </div>

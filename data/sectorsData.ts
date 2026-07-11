@@ -3,6 +3,7 @@ export interface SectorItem {
   title: string;
   image: string;
   description: string;
+  description2?: string;
 }
 
 export interface SectorsContent {

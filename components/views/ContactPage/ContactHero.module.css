@@ -149,43 +149,59 @@
   filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.5));
 }
 
-/* Media Queries */
-@media (max-width: 1024px) {
-  .navigation {
-    display: none;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
 
-  .contentContainer {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .textContent {
-    padding-right: 0;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .description {
-    text-align: center;
-  }
-
-  .visualContent {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .graphicWrapper {
-    margin-right: 0;
-    width: 300px;
-    height: 300px;
-  }
+@media (max-width: 1776px) {
+  .title { font-size: 56px; }
+  .graphicWrapper { width: 450px; height: 450px; }
 }
 
-@media (max-width: 768px) {
-  .title {
-    font-size: var(--fs-hero-title-mobile);
-  }
+@media (max-width: 1661px) {
+  .title { font-size: 52px; }
+  .graphicWrapper { width: 420px; height: 420px; }
+}
+
+@media (max-width: 1537px) {
+  .title { font-size: 48px; }
+  .graphicWrapper { width: 400px; height: 400px; }
+  .navigation { gap: 24px; }
+}
+
+@media (max-width: 1441px) {
+  .title { font-size: 42px; }
+  .graphicWrapper { width: 380px; height: 380px; }
+  .textContent { padding-right: 24px; }
+}
+
+@media (max-width: 1281px) {
+  .title { font-size: 38px; }
+  .graphicWrapper { width: 350px; height: 350px; }
+  .navigation { gap: 16px; }
+}
+
+@media (max-width: 1025px) {
+  .navigation { display: none; }
+  .contentContainer { flex-direction: column; text-align: center; }
+  .textContent { padding-right: 0; margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; }
+  .description { text-align: center; }
+  .visualContent { justify-content: center; width: 100%; }
+  .graphicWrapper { margin-right: 0; width: 300px; height: 300px; }
+  .title { font-size: 40px; }
+}
+
+@media (max-width: 769px) {
+  .title { font-size: var(--fs-hero-title-mobile, 36px); }
+  .graphicWrapper { width: 280px; height: 280px; }
+}
+
+@media (max-width: 431px) {
+  .title { font-size: 32px; }
+  .graphicWrapper { width: 240px; height: 240px; }
+}
+
+@media (max-width: 361px) {
+  .title { font-size: 28px; }
+  .graphicWrapper { width: 200px; height: 200px; }
 }

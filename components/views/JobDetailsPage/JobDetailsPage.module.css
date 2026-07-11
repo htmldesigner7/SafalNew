@@ -138,25 +138,65 @@
 }
 
 
-@media (max-width: 1024px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .main { gap: 60px; }
+  .rightColumn { padding: 35px; }
+}
+
+@media (max-width: 1661px) {
+  .main { gap: 50px; }
+  .formGrid { gap: 30px; }
+}
+
+@media (max-width: 1537px) {
+  .main { gap: 40px; }
+  .rightColumn { padding: 30px; }
+  .formTitle { font-size: 28px; margin-bottom: 24px; }
+}
+
+@media (max-width: 1441px) {
+  .formGrid { gap: 24px; margin-bottom: 20px; }
+  .contentBlock { margin: 30px 0; }
+}
+
+@media (max-width: 1281px) {
+  .main { gap: 30px; }
+  .rightColumn { padding: 24px; }
+  .formGroup input, .formGroup textarea { padding: 12px 14px; }
+}
+
+@media (max-width: 1025px) {
   .main {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .leftColumn {
-    padding-right: 0;
-  }
+  .leftColumn { padding-right: 0; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .jobMetaGrid {
     grid-template-columns: 1fr;
     gap: 12px;
   }
   .formGrid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-  .rightColumn {
-    padding: 24px;
-  }
+  .rightColumn { padding: 24px; }
+}
+
+@media (max-width: 431px) {
+  .rightColumn { padding: 20px; }
+  .formTitle { font-size: 24px; }
+  .contentBlock { margin: 24px 0; }
+  .uploadArea { padding: 20px; }
+}
+
+@media (max-width: 361px) {
+  .rightColumn { padding: 16px; }
+  .formGroup label { font-size: 16px; }
 }

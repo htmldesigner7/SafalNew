@@ -31,9 +31,53 @@
   align-items: center;
 }
 
-@media (max-width: 992px) {
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .companiesList { gap: 70px; }
+  .companyRow { gap: 50px; }
+}
+
+@media (max-width: 1661px) {
+  .companiesList { gap: 60px; }
+  .companyRow { gap: 40px; }
+}
+
+@media (max-width: 1537px) {
+  .companiesList { gap: 50px; }
+  .companyRow { gap: 30px; }
+}
+
+@media (max-width: 1441px) {
+  .companiesList { gap: 40px; }
+  .companyRow { gap: 24px; }
+}
+
+@media (max-width: 1281px) {
+  .companiesList { gap: 40px; }
+  .companyRow { gap: 20px; }
+}
+
+@media (max-width: 1025px) {
   .companyRow {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+}
+
+@media (max-width: 769px) {
+  .companiesList { gap: 30px; }
+  .companyRow { gap: 30px; }
+}
+
+@media (max-width: 431px) {
+  .companiesList { gap: 24px; }
+  .companyRow { gap: 24px; }
+}
+
+@media (max-width: 361px) {
+  .companiesList { gap: 20px; }
+  .companyRow { gap: 20px; }
 }

@@ -210,3 +210,51 @@
   top: 65%;
   transform: translateY(-50%);
 }
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .diagramContainer { transform: scale(0.95); }
+}
+
+@media (max-width: 1661px) {
+  .diagramContainer { transform: scale(0.9); }
+}
+
+@media (max-width: 1537px) {
+  .diagramContainer { transform: scale(0.85); }
+}
+
+@media (max-width: 1441px) {
+  .diagramContainer { transform: scale(0.75); }
+}
+
+@media (max-width: 1281px) {
+  .diagramContainer { transform: scale(0.65); }
+}
+
+@media (max-width: 1025px) {
+  .diagramContainer { height: auto; transform: scale(1); display: flex; flex-direction: column; gap: 40px; margin-top: 40px; margin-bottom: 40px; }
+  .horizontalLine, .verticalLineWhite, .nodePill { display: none; }
+  .sideCircle { position: relative; top: auto; left: auto; right: auto; transform: none; width: 100%; max-width: 340px; height: 340px; }
+  .centerCircle { position: relative; top: auto; left: auto; transform: none; width: 100%; max-width: 420px; height: 420px; }
+}
+
+@media (max-width: 769px) {
+  .sideCircle { max-width: 280px; height: 280px; padding: 30px; }
+  .centerCircle { max-width: 320px; height: 320px; }
+  .centerContent { padding: 40px; }
+}
+
+@media (max-width: 431px) {
+  .sideCircle { max-width: 240px; height: 240px; padding: 20px; }
+  .centerCircle { max-width: 280px; height: 280px; }
+  .centerContent { padding: 30px; }
+}
+
+@media (max-width: 361px) {
+  .sideCircle { max-width: 200px; height: 200px; }
+  .centerCircle { max-width: 240px; height: 240px; }
+}

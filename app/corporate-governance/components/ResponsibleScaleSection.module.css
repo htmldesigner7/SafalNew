@@ -37,15 +37,44 @@
   margin-top: 24px;
 }
 
-@media (max-width: 1024px) {
-  .imageWrapper {
-    aspect-ratio: 16 / 9;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .textContainer { margin-top: -70px; }
 }
 
-@media (max-width: 768px) {
-  .textContainer {
-    margin-top: -40px;
-    padding: 0 20px;
-  }
+@media (max-width: 1661px) {
+  .textContainer { margin-top: -60px; }
+}
+
+@media (max-width: 1537px) {
+  .textContainer { margin-top: -50px; }
+}
+
+@media (max-width: 1441px) {
+  .textContainer { margin-top: -40px; }
+}
+
+@media (max-width: 1281px) {
+  .textContainer { margin-top: -30px; }
+}
+
+@media (max-width: 1025px) {
+  .imageWrapper { aspect-ratio: 16 / 9; }
+  .textContainer { margin-top: -20px; }
+}
+
+@media (max-width: 769px) {
+  .textContainer { margin-top: -20px; padding: 0 20px; }
+}
+
+@media (max-width: 431px) {
+  .imageWrapper { aspect-ratio: 4 / 3; }
+  .description { margin-top: 16px; }
+}
+
+@media (max-width: 361px) {
+  .textContainer { padding: 0 16px; }
 }

@@ -82,31 +82,76 @@
   z-index: 0;
 }
 
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.iconWrapper svg {
+  width: 100%;
+  height: 100%;
+}
+
 .image {
   object-fit: contain;
   object-position: left center;
 }
 
-@media (max-width: 992px) {
-  .contentWrapper {
-    flex-direction: column;
-  }
-  .stagesList {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .stageItem {
-    position: static;
-    transform: none;
-  }
-  .svgContainer {
-    display: none;
-  }
-  .imageContent {
-    width: 100%;
-    margin-top: 50px;
-  }
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1776px) {
+  .header { margin-bottom: 80px; }
+}
+
+@media (max-width: 1661px) {
+  .header { margin-bottom: 70px; }
+}
+
+@media (max-width: 1537px) {
+  .header { margin-bottom: 60px; }
+  .stageItem { padding: 20px 24px; gap: 24px; }
+  .iconWrapper { width: 42px; height: 42px; }
+}
+
+@media (max-width: 1441px) {
+  .header { margin-bottom: 50px; }
+  .stageNumber { font-size: 48px; min-width: 60px; }
+}
+
+@media (max-width: 1281px) {
+  .header { margin-bottom: 40px; }
+  .stageNumber { font-size: 42px; min-width: 50px; }
+  .stageItem { padding: 16px 20px; gap: 20px; }
+  .iconWrapper { width: 36px; height: 36px; }
+}
+
+@media (max-width: 1025px) {
+  .contentWrapper { flex-direction: column; }
+  .stagesList { width: 100%; height: auto; display: flex; flex-direction: column; gap: 20px; }
+  .stageItem { position: static; transform: none; }
+  .svgContainer { display: none; }
+  /* Show a smaller image on tablets, or hide it if it's too big */
+  .imageContent { width: 100%; margin-top: 50px; height: 350px; }
+}
+
+@media (max-width: 769px) {
+  .imageContent { display: none; }
+}
+
+@media (max-width: 431px) {
+  .stageItem { padding: 16px; gap: 16px; flex-direction: column; text-align: center; }
+  .stageNumber { font-size: 36px; min-width: auto; }
+  .iconWrapper { width: 48px; height: 48px; }
+}
+
+@media (max-width: 361px) {
+  .stageItem { padding: 12px; gap: 12px; }
+  .stageNumber { font-size: 30px; }
+  .iconWrapper { width: 40px; height: 40px; }
 }
