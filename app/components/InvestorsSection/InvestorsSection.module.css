@@ -10,61 +10,72 @@
 .vennContainer {
   position: relative;
   width: fit-content;
-  margin: 40px auto;
+  margin: 60px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 0;
 }
 
 .vennContainer::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: -100px;
-  height: 100%;
-  width: 34%;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 650px;
+  left: -109px;
+  /* Scaled proportionally: -50px gap - 59px curve offset */
+  width: 444px;
   background: url('/images/left-orange.svg') no-repeat center;
+  background-size: 100% 100%;
 }
 
 .vennContainer::after {
   content: '';
   position: absolute;
-  top: 0;
-  right: -100px;
-  height: 100%;
-  width: 34%;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 650px;
+  right: -111px;
+  /* Scaled proportionally: -50px gap - 61px curve offset */
+  width: 444px;
   background: url('/images/right-orange.svg') no-repeat center;
+  background-size: 100% 100%;
 }
 
 .circle {
+  width: 560px;
+  height: 560px;
+  flex: 0 0 560px;
   border-radius: 50%;
-  border: 2px solid #C9C5B8;
+  border: 1px solid #C9C5B8;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  /* Perfect Venn overlap */
 }
 
 /* Outer glow ring */
 
 .circle.left {
-  margin-right: -40px;
-  background: linear-gradient(132deg, #EEE 22.84%, #F3EFE2 84.02%);
+  margin-right: -30px;
+border: 2px solid #C9C5B8;
+background: linear-gradient(132deg, #EEE 22.84%, #F3EFE2 84.02%);
 }
 
 .circle.right {
-  position: relative;
-  margin-left: -40px;
+  margin-left: -30px;
+  border: 2px solid #C9C5B8;
   background: linear-gradient(231deg, #EEE 19.63%, rgba(243, 239, 226, 0.00) 76.14%);
-  z-index: 1;
 }
 
 .content {
   text-align: center;
-  padding: 60px 110px;
-  z-index: 2;
+  padding: 0 90px;
+  width: 100%;
 }
 
 .circle h2 {
@@ -76,6 +87,7 @@
 }
 
 .circle ul {
+  display: inline-block;
   text-align: left;
   margin-bottom: 40px;
   list-style: disc;
@@ -117,8 +129,14 @@
 }
 
 @media (max-width: 1441px) {
+  .circle {
+    width: 480px;
+    height: 480px;
+    flex: 0 0 480px;
+  }
+
   .content {
-    padding: 40px 50px;
+    padding: 0 60px;
   }
 
   .circle h2 {
@@ -129,11 +147,29 @@
   .circle ul li {
     font-size: 15px;
   }
+
+  .vennContainer::before {
+    height: 557px;
+    width: 380px;
+    left: -93px;
+  }
+
+  .vennContainer::after {
+    height: 557px;
+    width: 380px;
+    right: -95px;
+  }
 }
 
 @media (max-width: 1281px) {
+  .circle {
+    width: 420px;
+    height: 420px;
+    flex: 0 0 420px;
+  }
+
   .content {
-    padding: 30px 40px;
+    padding: 0 50px;
   }
 
   .circle h2 {
@@ -152,7 +188,7 @@
   }
 
   .vennContainer {
-    gap: 20px;
+    gap: 0;
   }
 
   .circle.left {
@@ -161,6 +197,18 @@
 
   .circle.right {
     margin-left: -20px;
+  }
+
+  .vennContainer::before {
+    height: 487px;
+    width: 333px;
+    left: -81px;
+  }
+
+  .vennContainer::after {
+    height: 487px;
+    width: 333px;
+    right: -83px;
   }
 }
 
@@ -174,18 +222,24 @@
     margin: 20px auto;
   }
 
+  .circle {
+    width: 460px;
+    height: 460px;
+    flex: 0 0 460px;
+  }
+
   .circle.left {
     margin-right: 0;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
   }
 
   .circle.right {
     margin-left: 0;
-    margin-top: -30px;
+    margin-top: -40px;
   }
 
   .content {
-    padding: 50px 80px;
+    padding: 0 60px;
   }
 
   .circle h2 {
@@ -204,6 +258,11 @@
   /* Change from perfect circle to rounded cards for better fit on narrow screens */
   .circle {
     border-radius: 40px;
+    width: 100%;
+    height: auto;
+    flex: auto;
+    aspect-ratio: auto;
+    /* Remove the perfect circle ratio for vertical stacking */
   }
 
   .content {
@@ -215,6 +274,18 @@
     margin-bottom: 16px;
     line-height: 32px;
   }
+
+  .vennContainer {
+    gap: 20px; /* Add gap between the vertical cards */
+  }
+
+  .circle.left {
+    margin-bottom: 0; /* Reset vertical overlap */
+  }
+
+  .circle.right {
+    margin-top: 0; /* Reset vertical overlap */
+  }
 }
 
 @media (max-width: 431px) {
@@ -223,11 +294,11 @@
   }
 
   .circle.left {
-    margin-bottom: -15px;
+    margin-bottom: 0;
   }
 
   .circle.right {
-    margin-top: -15px;
+    margin-top: 0;
   }
 
   .content {
@@ -256,11 +327,11 @@
   }
 
   .circle.left {
-    margin-bottom: -10px;
+    margin-bottom: 0;
   }
 
   .circle.right {
-    margin-top: -10px;
+    margin-top: 0;
   }
 
   .content {

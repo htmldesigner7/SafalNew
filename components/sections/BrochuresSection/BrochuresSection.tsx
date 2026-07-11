@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { mockBrochures } from '@/data/mockBrochures';
 import styles from './BrochuresSection.module.css';
@@ -42,6 +42,13 @@ export default function BrochuresSection() {
   const [typeOpen, setTypeOpen] = useState(true);
   const [topicOpen, setTopicOpen] = useState(true);
 
+  useEffect(() => {
+    if (window.innerWidth <= 1025) {
+      setTypeOpen(false);
+      setTopicOpen(false);
+    }
+  }, []);
+
   // Filter Logic
   let filteredBrochures = mockBrochures;
 
@@ -79,156 +86,159 @@ export default function BrochuresSection() {
   if (activeTopic) activeFilters.push(topics.find(t => t.id === activeTopic)?.label || activeTopic);
 
   return (
-    <section className="container-1600" style={{ padding: '80px 0' }}>
-      <div className={styles.layoutWrapper}>
-        
-        {/* Sidebar */}
-        <aside className={styles.sidebar}>
-          <div className={styles.filterHeader}>
-            <span className='title_24'>Filters</span>
-            <button onClick={handleClearAll} className={styles.clearAllBtn}>Clear All</button>
-          </div>
 
-          <div className={styles.accordionSection}>
-            <button className={styles.accordionHeader} onClick={() => setTopicOpen(!topicOpen)}>
-              Topic
-              <svg className={`${styles.accordionIcon} ${topicOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
-                <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </button>
-            {topicOpen && (
-              <div className={styles.filterList}>
-                {topics.map((t) => (
-                  <div 
-                    key={t.id} 
-                    className={`${styles.filterItem} ${activeTopic === t.id ? styles.active : ''}`}
-                    onClick={() => setActiveTopic(t.id)}
-                  >
-                    <span>{t.label}</span>
-                    <span>{t.count}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className={styles.accordionSection}>
-            <button className={styles.accordionHeader} onClick={() => setTypeOpen(!typeOpen)}>
-              Content Type
-              <svg className={`${styles.accordionIcon} ${typeOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
-                <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </button>
-            {typeOpen && (
-              <div className={styles.filterList}>
-                {contentTypes.map((t) => (
-                  <div 
-                    key={t.id} 
-                    className={`${styles.filterItem} ${activeType === t.id ? styles.active : ''}`}
-                    onClick={() => setActiveType(t.id)}
-                  >
-                    <span>{t.label}</span>
-                    <span>{t.count}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </aside>
-
-        {/* Main Content */}
-        <div className={styles.mainContent}>
+    <section className='mt_80'>
+      <div className="container-1600">
+        <div className={styles.layoutWrapper}>
           
-          {/* Active Filters Bar */}
-          <div className={styles.activeFiltersBar}>
-            <span className='title_24'>Active Filters:</span>
-            <div className={styles.activeTags}>
-              {activeFilters.map((filter, index) => (
-                <div key={index} className={styles.tag}>
-                  {filter}
-                  <button onClick={() => {
-                    if (contentTypes.some(t => t.label === filter)) setActiveType('');
-                    if (topics.some(t => t.label === filter)) setActiveTopic('');
-                  }}>
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M9 3L3 9M3 3L9 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                    </svg>
-                  </button>
-                </div>
-              ))}
+          {/* Sidebar */}
+          <aside className={styles.sidebar}>
+            <div className={styles.filterHeader}>
+              <span className='title_24'>Filters</span>
+              <button onClick={handleClearAll} className={styles.clearAllBtn}>Clear All</button>
             </div>
-          </div>
 
-          {/* Featured Post */}
-          {featuredBrochure && (
-            <div className={styles.featuredPost}>
-              <div className={styles.featuredImageWrapper}>
-                <Image 
-                  src={featuredBrochure.imageSrc} 
-                  alt={featuredBrochure.title} 
-                  fill 
-                  className={styles.featuredImage}
-                />
-              </div>
-              <div className={styles.featuredContent}>
-                <div className={styles.categoryTags}>
-                  {featuredBrochure.tags.map((tag, idx) => (
-                    <span key={idx} className={`${styles.categoryTag} ${idx === 0 ? styles.red : styles.green}`}>
-                      {tag}
-                    </span>
+            <div className={styles.accordionSection}>
+              <button className={styles.accordionHeader} onClick={() => setTopicOpen(!topicOpen)}>
+                Topic
+                <svg className={`${styles.accordionIcon} ${topicOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
+                  <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </button>
+              {topicOpen && (
+                <div className={styles.filterList}>
+                  {topics.map((t) => (
+                    <div 
+                      key={t.id} 
+                      className={`${styles.filterItem} ${activeTopic === t.id ? styles.active : ''}`}
+                      onClick={() => setActiveTopic(t.id)}
+                    >
+                      <span>{t.label}</span>
+                      <span>{t.count}</span>
+                    </div>
                   ))}
                 </div>
-                <h2 className='title_40'>
-                  {featuredBrochure.title}
-                </h2>
-                <p className={styles.pdfInfo}>
-                  PDF | {featuredBrochure.pdfPages} Pages | {featuredBrochure.pdfSize}
-                </p>
-                <a href="#" className="btn-outline btn-outline-red">
-                  <DownloadIcon />
-                  Download Brochure
-                </a>
+              )}
+            </div>
+
+            <div className={styles.accordionSection}>
+              <button className={styles.accordionHeader} onClick={() => setTypeOpen(!typeOpen)}>
+                Content Type
+                <svg className={`${styles.accordionIcon} ${typeOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
+                  <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </button>
+              {typeOpen && (
+                <div className={styles.filterList}>
+                  {contentTypes.map((t) => (
+                    <div 
+                      key={t.id} 
+                      className={`${styles.filterItem} ${activeType === t.id ? styles.active : ''}`}
+                      onClick={() => setActiveType(t.id)}
+                    >
+                      <span>{t.label}</span>
+                      <span>{t.count}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </aside>
+
+          {/* Main Content */}
+          <div className={styles.mainContent}>
+            
+            {/* Active Filters Bar */}
+            <div className={styles.activeFiltersBar}>
+              <span className='title_24'>Active Filters:</span>
+              <div className={styles.activeTags}>
+                {activeFilters.map((filter, index) => (
+                  <div key={index} className={styles.tag}>
+                    {filter}
+                    <button onClick={() => {
+                      if (contentTypes.some(t => t.label === filter)) setActiveType('');
+                      if (topics.some(t => t.label === filter)) setActiveTopic('');
+                    }}>
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 3L3 9M3 3L9 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                      </svg>
+                    </button>
+                  </div>
+                ))}
               </div>
             </div>
-          )}
 
-          {/* Grid Posts */}
-          <div className={styles.postsGrid}>
-            {gridBrochures.map(brochure => (
-              <div key={brochure.id} className={styles.postCard}>
-                <div className={styles.cardImageWrapper}>
+            {/* Featured Post */}
+            {featuredBrochure && (
+              <div className={styles.featuredPost}>
+                <div className={styles.featuredImageWrapper}>
                   <Image 
-                    src={brochure.imageSrc} 
-                    alt={brochure.title} 
+                    src={featuredBrochure.imageSrc} 
+                    alt={featuredBrochure.title} 
                     fill 
-                    className={styles.cardImage}
+                    className={styles.featuredImage}
                   />
                 </div>
-                <div className={styles.cardContent}>
-                  <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
-                    {brochure.tags.map((tag, idx) => (
+                <div className={styles.featuredContent}>
+                  <div className={styles.categoryTags}>
+                    {featuredBrochure.tags.map((tag, idx) => (
                       <span key={idx} className={`${styles.categoryTag} ${idx === 0 ? styles.red : styles.green}`}>
                         {tag}
                       </span>
                     ))}
                   </div>
-                  <h3 className='title_24'>
-                    {brochure.title}
-                  </h3>
+                  <h2 className='title_40'>
+                    {featuredBrochure.title}
+                  </h2>
                   <p className={styles.pdfInfo}>
-                    PDF | {brochure.pdfPages} Pages | {brochure.pdfSize}
+                    PDF | {featuredBrochure.pdfPages} Pages | {featuredBrochure.pdfSize}
                   </p>
-                  <div style={{ marginTop: 'auto', paddingTop: '16px' }}>
-                    <a href="#" className={styles.downloadBtnTextOnly}>
-                      <DownloadIcon />
-                      Download Brochure
-                    </a>
-                  </div>
+                  <a href="#" className="btn-outline btn-outline-red">
+                    <DownloadIcon />
+                    Download Brochure
+                  </a>
                 </div>
               </div>
-            ))}
-          </div>
+            )}
 
+            {/* Grid Posts */}
+            <div className={styles.postsGrid}>
+              {gridBrochures.map(brochure => (
+                <div key={brochure.id} className={styles.postCard}>
+                  <div className={styles.cardImageWrapper}>
+                    <Image 
+                      src={brochure.imageSrc} 
+                      alt={brochure.title} 
+                      fill 
+                      className={styles.cardImage}
+                    />
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+                      {brochure.tags.map((tag, idx) => (
+                        <span key={idx} className={`${styles.categoryTag} ${idx === 0 ? styles.red : styles.green}`}>
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <h3 className='title_24'>
+                      {brochure.title}
+                    </h3>
+                    <p className={styles.pdfInfo}>
+                      PDF | {brochure.pdfPages} Pages | {brochure.pdfSize}
+                    </p>
+                    <div>
+                      <a href="#" className={styles.downloadBtnTextOnly}>
+                        <DownloadIcon />
+                        Download Brochure
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
         </div>
       </div>
     </section>

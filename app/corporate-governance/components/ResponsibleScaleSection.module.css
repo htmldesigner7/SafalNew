@@ -67,7 +67,7 @@
 }
 
 @media (max-width: 769px) {
-  .textContainer { margin-top: -20px; padding: 0 20px; }
+  .textContainer { margin-top: -20px; padding: 0 00px; }
 }
 
 @media (max-width: 431px) {

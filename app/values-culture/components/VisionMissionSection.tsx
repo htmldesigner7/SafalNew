@@ -220,11 +220,18 @@ export default function VisionMissionSection({ data = visionMissionData }: { dat
 
           {/* Right Column - Content */}
           <div className={styles.rightCol}>
-            <h2 className="title_60">{currentItem.title}</h2>
             
             <div className={styles.contentWrapper}>
-              {currentItem.paragraphs.map((text, idx) => (
-                <p key={idx} className={styles.paragraph}>{text}</p>
+              {data.map((item, index) => (
+                <div 
+                  key={item.id} 
+                  className={`${styles.contentItem} ${index === currentIndex ? styles.activeItem : ''}`}
+                >
+                  <h2 className="title_60">{item.title}</h2>
+                  {item.paragraphs.map((text, idx) => (
+                    <p key={idx} className={styles.paragraph}>{text}</p>
+                  ))}
+                </div>
               ))}
             </div>
 

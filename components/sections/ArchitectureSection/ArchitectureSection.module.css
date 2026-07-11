@@ -92,54 +92,98 @@
    ========================================================= */
 
 @media (max-width: 1776px) {
-  .header { margin-bottom: 70px; }
-  .cardContent { padding: 0 30px 50px 30px; }
+  .header {
+    margin-bottom: 70px;
+  }
+
+  .cardContent {
+    padding: 0 30px 50px 30px;
+  }
 }
 
 @media (max-width: 1661px) {
-  .header { margin-bottom: 60px; }
-  .cardContent { padding: 0 24px 40px 24px; }
+  .header {
+    margin-bottom: 60px;
+  }
+
+  .cardContent {
+    padding: 0 24px 40px 24px;
+  }
 }
 
 @media (max-width: 1537px) {
-  .cardContent { padding: 0 20px 30px 20px; }
+  .cardContent {
+    padding: 0 20px 30px 20px;
+  }
 }
 
 @media (max-width: 1441px) {
-  .phaseLabel { margin-bottom: 16px; }
+  .phaseLabel {
+    margin-bottom: 16px;
+  }
 }
 
 @media (max-width: 1281px) {
-  .header { margin-bottom: 50px; }
-  .cardContent { padding: 0 16px 24px 16px; }
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .cardContent {
+    padding: 0 16px 24px 16px;
+  }
 }
 
 @media (max-width: 1025px) {
   .cardsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .card:nth-child(2n) {
     border-right: 1px solid var(--grey-ddd);
   }
-  .cardContent { padding: 0 24px 30px 24px; margin-top: 30px; }
-  .header { margin-bottom: 40px; }
+
+  .cardContent {
+    padding: 0 24px 30px 24px;
+    margin-top: 30px;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 769px) {
   .cardsGrid {
     grid-template-columns: 1fr;
   }
+
   .card {
-    border-right: 1px solid var(--grey-ddd);
+    border-right: none;
+    border-left: none;
   }
-  .cardContent { padding: 0 20px 24px 20px; margin-top: 24px; }
+
+  .cardContent {
+    padding: 0 20px 24px 20px;
+    margin-top: 24px;
+  }
+
+  .arcContainer {
+    display: none;
+  }
 }
 
 @media (max-width: 431px) {
-  .header { margin-bottom: 30px; }
-  .cardContent { padding: 0 16px 20px 16px; }
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .cardContent {
+    padding: 0 16px 20px 16px;
+  }
 }
 
 @media (max-width: 361px) {
-  .cardContent { padding: 0 12px 16px 12px; }
+  .cardContent {
+    padding: 0 12px 16px 12px;
+  }
 }

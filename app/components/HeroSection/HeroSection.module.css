@@ -154,7 +154,7 @@
   }
 
   .description {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 28px;
   }
 
@@ -166,9 +166,13 @@
   .visualContent {
     min-height: 400px;
   }
+
+
 }
 
 @media (max-width: 1281px) {
+
+
   .title {
     font-size: 48px;
     line-height: 52px;
@@ -219,7 +223,7 @@
   }
 
   .description {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
     max-width: 680px;

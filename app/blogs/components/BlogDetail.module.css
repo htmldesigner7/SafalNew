@@ -66,12 +66,11 @@
 }
 
 @media (max-width: 769px) {
-  .pageWrapper { padding-top: 120px; padding-bottom: 60px; }
+  .pageWrapper { padding-top: 40px; padding-bottom: 40px; }
   .imageWrapper { height: 300px; }
 }
 
 @media (max-width: 431px) {
-  .pageWrapper { padding-top: 100px; padding-bottom: 40px; }
   .imageWrapper { height: 250px; }
 }
 
