@@ -19,7 +19,6 @@
   align-items: center;
   position: relative;
   z-index: 2;
-
 }
 
 .textContent {
@@ -92,15 +91,18 @@
     line-height: 76px;
     margin-bottom: 30px;
   }
+
   .description {
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 30px;
   }
+
   .graphicWrapper {
     width: 580px;
     height: 580px;
   }
+
   .visualContent {
     min-height: 530px;
   }
@@ -111,10 +113,12 @@
     font-size: 66px;
     line-height: 70px;
   }
+
   .graphicWrapper {
     width: 530px;
     height: 530px;
   }
+
   .visualContent {
     min-height: 480px;
   }
@@ -126,15 +130,18 @@
     line-height: 64px;
     margin-bottom: 24px;
   }
+
   .description {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 24px;
   }
+
   .graphicWrapper {
     width: 480px;
     height: 480px;
   }
+
   .visualContent {
     min-height: 440px;
   }
@@ -145,14 +152,17 @@
     font-size: 54px;
     line-height: 58px;
   }
+
   .description {
     font-size: 19px;
     line-height: 28px;
   }
+
   .graphicWrapper {
     width: 440px;
     height: 440px;
   }
+
   .visualContent {
     min-height: 400px;
   }
@@ -163,13 +173,16 @@
     font-size: 48px;
     line-height: 52px;
   }
+
   .textContent {
     padding-right: 24px;
   }
+
   .graphicWrapper {
     width: 380px;
     height: 380px;
   }
+
   .visualContent {
     min-height: 350px;
   }
@@ -182,11 +195,13 @@
     padding-bottom: 60px;
     background-size: cover;
   }
+
   .contentContainer {
     flex-direction: column;
     text-align: center;
     gap: 40px;
   }
+
   .textContent {
     max-width: 100%;
     padding-right: 0;
@@ -195,12 +210,14 @@
     flex-direction: column;
     align-items: center;
   }
+
   .title {
     font-size: 42px;
     line-height: 46px;
     text-align: center;
     margin-bottom: 20px;
   }
+
   .description {
     font-size: 18px;
     line-height: 26px;
@@ -208,11 +225,13 @@
     max-width: 680px;
     margin-bottom: 24px;
   }
+
   .visualContent {
     justify-content: center;
     min-height: auto;
     width: 100%;
   }
+
   .graphicWrapper {
     width: 340px;
     height: 340px;
@@ -224,14 +243,17 @@
     padding-top: 100px;
     padding-bottom: 48px;
   }
+
   .title {
     font-size: 36px;
     line-height: 42px;
   }
+
   .description {
     font-size: 17px;
     line-height: 24px;
   }
+
   .graphicWrapper {
     width: 300px;
     height: 300px;
@@ -243,16 +265,19 @@
     padding-top: 90px;
     padding-bottom: 40px;
   }
+
   .title {
     font-size: 30px;
     line-height: 36px;
     margin-bottom: 16px;
   }
+
   .description {
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 20px;
   }
+
   .graphicWrapper {
     width: 250px;
     height: 250px;
@@ -264,10 +289,12 @@
     font-size: 26px;
     line-height: 32px;
   }
+
   .description {
     font-size: 14px;
     line-height: 20px;
   }
+
   .graphicWrapper {
     width: 210px;
     height: 210px;

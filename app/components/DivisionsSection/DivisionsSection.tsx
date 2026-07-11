@@ -16,24 +16,29 @@ export default function DivisionsSection() {
           </p>
         </header>
 
-        <div className={styles.chartContainer}>
-          {/* Animated Main Horizontal Red Lines (From Col 1 and Col 5 to Center) */}
-          <motion.div
-            className={styles.animatedLineLeft}
-            initial={{ scaleX: 0, opacity: 1 }}
-            whileInView={{ scaleX: [0, 1, 1, 1, 0], opacity: [1, 1, 1, 0, 0] }}
-            viewport={{ once: false, margin: "-100px" }}
-            transition={{ duration: 6, times: [0, 0.500, 0.583, 0.667, 1], repeat: Infinity, ease: "linear" }}
-          />
-          <motion.div
-            className={styles.animatedLineRight}
-            initial={{ scaleX: 0, opacity: 1 }}
-            whileInView={{ scaleX: [0, 1, 1, 1, 0], opacity: [1, 1, 1, 0, 0] }}
-            viewport={{ once: false, margin: "-100px" }}
-            transition={{ duration: 6, times: [0, 0.500, 0.583, 0.667, 1], repeat: Infinity, ease: "linear" }}
-          />
+        <div className={styles.chartWrapper}>
+          <div className={styles.chartContainer}>
+            {/* Animated Main Horizontal Red Lines (From Col 1 and Col 5 to Center) */}
+            <div className={styles.mobileTrunkWrapperLeft}>
+              <motion.div
+                className={styles.animatedLineLeft}
+                initial={{ scaleX: 0, opacity: 1 }}
+                whileInView={{ scaleX: [0, 1, 1, 1, 0], opacity: [1, 1, 1, 0, 0] }}
+                viewport={{ once: false, margin: "-100px" }}
+                transition={{ duration: 6, times: [0, 0.500, 0.583, 0.667, 1], repeat: Infinity, ease: "linear" }}
+              />
+            </div>
+            <div className={styles.mobileTrunkWrapperRight}>
+              <motion.div
+                className={styles.animatedLineRight}
+                initial={{ scaleX: 0, opacity: 1 }}
+                whileInView={{ scaleX: [0, 1, 1, 1, 0], opacity: [1, 1, 1, 0, 0] }}
+                viewport={{ once: false, margin: "-100px" }}
+                transition={{ duration: 6, times: [0, 0.500, 0.583, 0.667, 1], repeat: Infinity, ease: "linear" }}
+              />
+            </div>
 
-          {/* Column 1 */}
+            {/* Column 1 */}
           <div className={styles.column}>
             <div className={styles.card}>
               <h3 className={styles.cardTitle}>Safal Infosoft Ltd.</h3>
@@ -88,7 +93,7 @@ export default function DivisionsSection() {
               {/* Center Image (Static) */}
               <div className={styles.centerImageWrapper}>
                 <Image
-                  src="/images/globe-img.png"
+                  src="/images/HomePage/Diversified-Technology.png"
                   alt="Team assembling puzzle"
                   width={120}
                   height={120}
@@ -148,8 +153,8 @@ export default function DivisionsSection() {
             </div>
           </div>
 
+          </div>
         </div>
-
       </div>
     </section>
   );

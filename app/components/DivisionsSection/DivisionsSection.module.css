@@ -2,33 +2,25 @@
   overflow-x: hidden;
 }
 
-.title {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 24px;
-  color: var(--black-111);
-  letter-spacing: -0.5px;
-}
-
 .subtitle {
-  color: var(--grey-666);
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: 34px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 40px;
+}
+
+.chartWrapper {
+  width: 100%;
+  padding: 20px 0;
 }
 
 .chartContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 30px;
+  margin: 0 auto 0 auto;
   gap: 120px;
+  width: max-content;
 }
 
 /* Main horizontal line */
@@ -71,6 +63,7 @@
   flex: 0 0 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
   z-index: 2;
   position: relative;
 }
@@ -92,8 +85,8 @@
   z-index: 1;
   width: 1px;
   position: absolute;
-  top: 103px;
-  bottom: 100px;
+  top: 110px;
+  bottom: 110px;
   right: -60px;
 }
 
@@ -101,8 +94,8 @@
 .columnSplitRight::after {
   content: '';
   position: absolute;
-  top: 100px;
-  bottom: 100px;
+  top: 110px;
+  bottom: 110px;
   left: -60px;
   width: 1px;
   background-color: var(--grey-ddd);
@@ -113,6 +106,7 @@
   flex: 0 0 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
   z-index: 2;
   position: relative;
 }
@@ -127,7 +121,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
+  height: 220px;
   width: 200px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
   z-index: 2;
@@ -167,7 +161,7 @@
 
 .animatedVerticalLeftTop {
   position: absolute;
-  top: 103px;
+  top: 110px;
   bottom: 50%;
   right: -60px;
   width: 2px;
@@ -180,7 +174,7 @@
 .animatedVerticalLeftBottom {
   position: absolute;
   top: 50%;
-  bottom: 100px;
+  bottom: 110px;
   right: -60px;
   width: 2px;
   background-color: var(--red);
@@ -191,7 +185,7 @@
 
 .animatedVerticalRightTop {
   position: absolute;
-  top: 100px;
+  top: 110px;
   bottom: 50%;
   left: -60px;
   width: 2px;
@@ -204,7 +198,7 @@
 .animatedVerticalRightBottom {
   position: absolute;
   top: 50%;
-  bottom: 100px;
+  bottom: 110px;
   left: -60px;
   width: 2px;
   background-color: var(--red);
@@ -238,15 +232,14 @@
 }
 
 .cardCenter {
-  background-color: #FFFBEE;
+  background: var(--color-bg-main);
+  border-radius: 8px;
   border: 1px solid var(--grey-ddd);
-  border-radius: 6px;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
   z-index: 2;
   position: relative;
@@ -285,6 +278,12 @@
   margin-top: 8px;
 }
 
+/* Wrappers for mobile trunk rotation compatibility */
+.mobileTrunkWrapperLeft,
+.mobileTrunkWrapperRight {
+  display: contents;
+}
+
 /* =========================================
    RESPONSIVE MEDIA QUERIES (VERTICAL TREE)
 ========================================= */
@@ -309,6 +308,17 @@
     font-size: 21px;
     margin-bottom: 32px;
   }
+
+  
+.chartContainer {
+  gap: 100px;
+}
+
+.centerImage{
+    width: 70%;
+    height: 70%;
+}
+
 }
 
 @media (max-width: 1537px) {
@@ -332,6 +342,41 @@
     font-size: 19px;
     margin-bottom: 24px;
   }
+
+  /* Make all boxes exactly identical in size as requested */
+  .chartContainer {
+    gap: 60px;
+  }
+  .column, .columnSplitLeft, .columnSplitRight, .columnCenter {
+    flex: 0 0 160px;
+  }
+  .card, .cardCenter {
+    height: 160px;
+    width: 160px;
+    padding: 12px;
+  }
+  .columnSplitLeft, .columnSplitRight {
+    gap: 60px;
+  }
+  
+  .columnSplitLeft::after { right: -30px; top: 80px; bottom: 80px; }
+  .columnSplitRight::after { left: -30px; top: 80px; bottom: 80px; }
+  .animatedVerticalLeftTop { right: -30px; top: 80px; }
+  .animatedVerticalLeftBottom { right: -30px; bottom: 80px; }
+  .animatedVerticalRightTop { left: -30px; top: 80px; }
+  .animatedVerticalRightBottom { left: -30px; bottom: 80px; }
+  
+  .animatedCardLineLeft { right: -30px; width: 30px; }
+  .animatedCardLineRight { left: -30px; width: 30px; }
+  .cardLeftTree::after { right: -30px; width: 30px; }
+  .cardRightTree::before { left: -30px; width: 30px; }
+  
+  .chartContainer::before { left: 160px; right: 160px; }
+  .animatedLineLeft { left: 160px; width: calc(50% - 160px); }
+  .animatedLineRight { right: 160px; width: calc(50% - 160px); }
+  
+  .cardTitle { font-size: 15px; }
+  .flag { width: 30px; height: 15px; }
 }
 
 @media (max-width: 1281px) {
@@ -344,6 +389,41 @@
     font-size: 18px;
     margin-bottom: 20px;
   }
+
+  /* Identical square sizes for ~1024px to 1280px */
+  .chartContainer {
+    gap: 40px;
+  }
+  .column, .columnSplitLeft, .columnSplitRight, .columnCenter {
+    flex: 0 0 140px;
+  }
+  .card, .cardCenter {
+    height: 140px;
+    width: 140px;
+    padding: 8px;
+  }
+  .columnSplitLeft, .columnSplitRight {
+    gap: 40px;
+  }
+  
+  .columnSplitLeft::after { right: -20px; top: 70px; bottom: 70px; }
+  .columnSplitRight::after { left: -20px; top: 70px; bottom: 70px; }
+  .animatedVerticalLeftTop { right: -20px; top: 70px; }
+  .animatedVerticalLeftBottom { right: -20px; bottom: 70px; }
+  .animatedVerticalRightTop { left: -20px; top: 70px; }
+  .animatedVerticalRightBottom { left: -20px; bottom: 70px; }
+  
+  .animatedCardLineLeft { right: -20px; width: 20px; }
+  .animatedCardLineRight { left: -20px; width: 20px; }
+  .cardLeftTree::after { right: -20px; width: 20px; }
+  .cardRightTree::before { left: -20px; width: 20px; }
+  
+  .chartContainer::before { left: 140px; right: 140px; }
+  .animatedLineLeft { left: 140px; width: calc(50% - 140px); }
+  .animatedLineRight { right: 140px; width: calc(50% - 140px); }
+  
+  .cardTitle { font-size: 13px; line-height: 18px; }
+  .flag { width: 24px; height: 12px; margin-top: 4px; }
 }
 
 /* 
@@ -363,8 +443,12 @@
   .chartContainer {
     flex-direction: column;
     gap: 40px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
+
+  .chartWrapper {
+    padding: 10px 0;
+}
 
   .column,
   .columnCenter {
@@ -384,7 +468,7 @@
   }
 
   .card {
-    min-height: 160px;
+    height: 160px;
     width: 160px;
     padding: 12px;
     margin: 0;
@@ -402,37 +486,53 @@
     bottom: 80px;
     left: 50%;
     right: auto;
-    width: 1px;
+    width: 2px;
+    margin-left: -1px;
     height: auto;
+  }
+
+  /* Animate Trunk Wrappers */
+  .mobileTrunkWrapperLeft {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: 1px;
+    transform-origin: left top;
+    transform: rotate(90deg);
+    z-index: 2;
+  }
+  .mobileTrunkWrapperRight {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: 1px;
+    transform-origin: left bottom;
+    transform: rotate(-90deg);
+    z-index: 2;
   }
 
   /* Animate Trunk (C1 down to C3) */
   .animatedLineLeft {
-    top: 80px;
-    left: 50%;
-    margin-left: 1px;
-    width: 400px;
+    position: static;
+    width: 320px;
     height: 2px;
-    transform-origin: left top;
-    rotate: 90deg;
   }
 
   /* Animate Trunk (C5 up to C3) */
   .animatedLineRight {
-    bottom: 80px;
-    left: 50%;
-    right: auto;
-    margin-left: 1px;
-    width: 400px;
+    position: static;
+    width: 320px;
     height: 2px;
-    transform-origin: left bottom;
-    rotate: -90deg;
+    transform-origin: left; /* Must scale from bottom after -90deg rotation */
   }
 
   /* Hide the old desktop vertical branches because the new main trunk replaces them */
   .columnSplitLeft::after,
   .columnSplitRight::after,
-  .animatedVerticalLeftTop,
+    .columnSplitRight::after,
+
   .animatedVerticalLeftBottom,
   .animatedVerticalRightTop,
   .animatedVerticalRightBottom {
@@ -440,53 +540,57 @@
   }
 
   /* C2 Horizontal Connecting Lines */
-  .columnSplitLeft>.card:first-child::after {
+  .columnSplitLeft>.card:nth-child(3)::after {
     right: -20px;
     width: 20px;
     left: auto;
+    height: 2px;
   }
 
-  .columnSplitLeft>.card:last-child::after {
+  .columnSplitLeft>.card:nth-child(4)::after {
     left: -20px;
     width: 20px;
     right: auto;
+    height: 2px;
   }
 
-  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+  .columnSplitLeft>.card:nth-child(3) .animatedCardLineLeft {
     right: -20px;
     width: 20px;
     left: auto;
+    transform-origin: right center;
+  }
+
+  .columnSplitLeft>.card:nth-child(4) .animatedCardLineLeft {
+    left: -20px;
+    width: 20px;
+    right: auto;
     transform-origin: left center;
   }
 
-  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
-    left: -20px;
-    width: 20px;
-    right: auto;
-    transform-origin: right center;
-  }
-
   /* C4 Horizontal Connecting Lines */
-  .columnSplitRight>.card:first-child::before {
+  .columnSplitRight>.card:nth-child(3)::before {
     right: -20px;
     width: 20px;
     left: auto;
+    height: 2px;
   }
 
-  .columnSplitRight>.card:last-child::before {
+  .columnSplitRight>.card:nth-child(4)::before {
     left: -20px;
     width: 20px;
     right: auto;
+    height: 2px;
   }
 
-  .columnSplitRight>.card:first-child .animatedCardLineRight {
+  .columnSplitRight>.card:nth-child(3) .animatedCardLineRight {
     right: -20px;
     width: 20px;
     left: auto;
     transform-origin: right center;
   }
 
-  .columnSplitRight>.card:last-child .animatedCardLineRight {
+  .columnSplitRight>.card:nth-child(4) .animatedCardLineRight {
     left: -20px;
     width: 20px;
     right: auto;
@@ -534,7 +638,7 @@
 
   .card,
   .cardCenter {
-    min-height: 140px;
+    height: 140px;
     width: 140px;
     padding: 8px;
   }
@@ -544,52 +648,58 @@
     bottom: 70px;
   }
 
-  .animatedLineLeft {
+  .mobileTrunkWrapperLeft {
     top: 70px;
-    width: 340px;
+  }
+  .animatedLineLeft {
+    width: 270px;
   }
 
-  .animatedLineRight {
+  .mobileTrunkWrapperRight {
     bottom: 70px;
-    width: 340px;
+  }
+  .animatedLineRight {
+    width: 270px;
   }
 
-  .columnSplitLeft>.card:first-child::after {
+  .columnSplitLeft>.card:nth-child(3)::after {
     right: -15px;
     width: 15px;
   }
 
-  .columnSplitLeft>.card:last-child::after {
+  .columnSplitLeft>.card:nth-child(4)::after {
     left: -15px;
     width: 15px;
   }
 
-  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+  .columnSplitLeft>.card:nth-child(3) .animatedCardLineLeft {
+    right: -15px;
+    width: 15px;
+    transform-origin: right center;
+  }
+
+  .columnSplitLeft>.card:nth-child(4) .animatedCardLineLeft {
+    left: -15px;
+    width: 15px;
+    transform-origin: left center;
+  }
+
+  .columnSplitRight>.card:nth-child(3)::before {
     right: -15px;
     width: 15px;
   }
 
-  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+  .columnSplitRight>.card:nth-child(4)::before {
     left: -15px;
     width: 15px;
   }
 
-  .columnSplitRight>.card:first-child::before {
+  .columnSplitRight>.card:nth-child(3) .animatedCardLineRight {
     right: -15px;
     width: 15px;
   }
 
-  .columnSplitRight>.card:last-child::before {
-    left: -15px;
-    width: 15px;
-  }
-
-  .columnSplitRight>.card:first-child .animatedCardLineRight {
-    right: -15px;
-    width: 15px;
-  }
-
-  .columnSplitRight>.card:last-child .animatedCardLineRight {
+  .columnSplitRight>.card:nth-child(4) .animatedCardLineRight {
     left: -15px;
     width: 15px;
   }
@@ -635,7 +745,7 @@
 
   .card,
   .cardCenter {
-    min-height: 110px;
+    height: 110px;
     width: 110px;
     padding: 6px;
   }
@@ -645,52 +755,58 @@
     bottom: 55px;
   }
 
-  .animatedLineLeft {
+  .mobileTrunkWrapperLeft {
     top: 55px;
-    width: 260px;
+  }
+  .animatedLineLeft {
+    width: 205px;
   }
 
-  .animatedLineRight {
+  .mobileTrunkWrapperRight {
     bottom: 55px;
-    width: 260px;
+  }
+  .animatedLineRight {
+    width: 205px;
   }
 
-  .columnSplitLeft>.card:first-child::after {
+  .columnSplitLeft>.card:nth-child(3)::after {
     right: -10px;
     width: 10px;
   }
 
-  .columnSplitLeft>.card:last-child::after {
+  .columnSplitLeft>.card:nth-child(4)::after {
     left: -10px;
     width: 10px;
   }
 
-  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+  .columnSplitLeft>.card:nth-child(3) .animatedCardLineLeft {
+    right: -10px;
+    width: 10px;
+    transform-origin: right center;
+  }
+
+  .columnSplitLeft>.card:nth-child(4) .animatedCardLineLeft {
+    left: -10px;
+    width: 10px;
+    transform-origin: left center;
+  }
+
+  .columnSplitRight>.card:nth-child(3)::before {
     right: -10px;
     width: 10px;
   }
 
-  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+  .columnSplitRight>.card:nth-child(4)::before {
     left: -10px;
     width: 10px;
   }
 
-  .columnSplitRight>.card:first-child::before {
+  .columnSplitRight>.card:nth-child(3) .animatedCardLineRight {
     right: -10px;
     width: 10px;
   }
 
-  .columnSplitRight>.card:last-child::before {
-    left: -10px;
-    width: 10px;
-  }
-
-  .columnSplitRight>.card:first-child .animatedCardLineRight {
-    right: -10px;
-    width: 10px;
-  }
-
-  .columnSplitRight>.card:last-child .animatedCardLineRight {
+  .columnSplitRight>.card:nth-child(4) .animatedCardLineRight {
     left: -10px;
     width: 10px;
   }
@@ -734,7 +850,7 @@
 
   .card,
   .cardCenter {
-    min-height: 100px;
+    height: 100px;
     width: 100px;
     padding: 4px;
   }
@@ -744,52 +860,58 @@
     bottom: 50px;
   }
 
-  .animatedLineLeft {
+  .mobileTrunkWrapperLeft {
     top: 50px;
-    width: 232px;
+  }
+  .animatedLineLeft {
+    width: 182px;
   }
 
-  .animatedLineRight {
+  .mobileTrunkWrapperRight {
     bottom: 50px;
-    width: 232px;
+  }
+  .animatedLineRight {
+    width: 182px;
   }
 
-  .columnSplitLeft>.card:first-child::after {
+  .columnSplitLeft>.card:nth-child(3)::after {
     right: -8px;
     width: 8px;
   }
 
-  .columnSplitLeft>.card:last-child::after {
+  .columnSplitLeft>.card:nth-child(4)::after {
     left: -8px;
     width: 8px;
   }
 
-  .columnSplitLeft>.card:first-child .animatedCardLineLeft {
+  .columnSplitLeft>.card:nth-child(3) .animatedCardLineLeft {
+    right: -8px;
+    width: 8px;
+    transform-origin: right center;
+  }
+
+  .columnSplitLeft>.card:nth-child(4) .animatedCardLineLeft {
+    left: -8px;
+    width: 8px;
+    transform-origin: left center;
+  }
+
+  .columnSplitRight>.card:nth-child(3)::before {
     right: -8px;
     width: 8px;
   }
 
-  .columnSplitLeft>.card:last-child .animatedCardLineLeft {
+  .columnSplitRight>.card:nth-child(4)::before {
     left: -8px;
     width: 8px;
   }
 
-  .columnSplitRight>.card:first-child::before {
+  .columnSplitRight>.card:nth-child(3) .animatedCardLineRight {
     right: -8px;
     width: 8px;
   }
 
-  .columnSplitRight>.card:last-child::before {
-    left: -8px;
-    width: 8px;
-  }
-
-  .columnSplitRight>.card:first-child .animatedCardLineRight {
-    right: -8px;
-    width: 8px;
-  }
-
-  .columnSplitRight>.card:last-child .animatedCardLineRight {
+  .columnSplitRight>.card:nth-child(4) .animatedCardLineRight {
     left: -8px;
     width: 8px;
   }

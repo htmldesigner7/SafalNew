@@ -8,7 +8,7 @@ const products = [
   {
     id: 'datanote',
     name: 'Datanote',
-    image: '/images/digital-product.png',
+    image: '/images/Homepage/Datanote.webp',
     logoimage: '/images/datanote-logo.png',
     description: 'Lorem ipsum dolor sit amet consectetur. Neque id eu cras quam. Tincidunt iaculis pulvinar tellus neque vitae viverra augue nec. Massa odio dignissim sit in dis ac. Id adipiscing faucibus urna senectus e aliquam magna nulla faucibus. Arcu arcu auctor imperdiet nisl amet. In non platea morbi facilisis consectetur nunc maecenas. Sit porta nulla sed non in nibh tellus nisl. Quam eget odio vestibulum bibendum eget vel massa. In nibh imperdiet proin felis senectus viverra vulputate. Sem mattis malesuada blandit sapien sagittis mi. Hac potenti pellentesque sit est urna faucibus tempus tincidunt. Gravida velit aliquet integer lorem libero imperdiet porttitor',
     link: '#product'
@@ -24,7 +24,7 @@ const products = [
   {
     id: 'formezy',
     name: 'Formezy',
-    image: '/images/digital-product.png',
+    image: '/images/Homepage/Formezy.webp',
     logoimage: '/images/datanote-logo.png',
     description: 'Digitize your paperwork and streamline data collection with Formezy. Build custom forms, automate workflows, and securely store submissions in the cloud.',
     link: '#product'
@@ -40,7 +40,7 @@ const products = [
   {
     id: 'docezy',
     name: 'Docezy',
-    image: '/images/digital-product.png',
+    image: '/images/Homepage/Docezy.webp',
     logoimage: '/images/datanote-logo.png',
     description: 'Securely store, organize, and share your critical business documents. Docezy offers robust version control, access management, and seamless collaboration features.',
     link: '#product'
@@ -56,7 +56,7 @@ const products = [
   {
     id: 'tasknote',
     name: 'Tasknote',
-    image: '/images/digital-product.png',
+    image: '/images/Homepage/Tasknote.webp',
     logoimage: '/images/datanote-logo.png',
     description: 'Keep your teams aligned and projects on track. Tasknote provides intuitive task management, time tracking, and progress visualization for modern agile teams.',
     link: '#product'
@@ -113,7 +113,7 @@ export default function EcosystemSection() {
               </Link>
             </div>
 
-            <p className={styles.description}>
+            <p>
               {activeProduct.description}
             </p>
           </div>

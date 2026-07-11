@@ -46,7 +46,7 @@ export default function SectorsSection({ data = defaultSectorsData }: SectorsSec
                       className={styles.activeImage}
                     />
                   </div>
-                  <p className={styles.activeDescription}>{sector.description}</p>
+                  <p>{sector.description}</p>
                 </div>
 
                 {/* Inactive Content */}

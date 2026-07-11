@@ -1,8 +1,3 @@
-.section {
-  background-color: var(--color-bg-light);
-  color: var(--black-111);
-}
-
 .sectionTitle {
   text-align: center;
   font-size: 36px;
