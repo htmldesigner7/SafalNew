@@ -7,7 +7,7 @@ export interface HeroContent {
   imageAlt: string;
 }
 
-export const pagesData: Record<string, any> = {
+export const pagesData: Record<string, { hero: HeroContent }> = {
   about: {
     hero: {
       title: (
@@ -25,8 +25,8 @@ export const pagesData: Record<string, any> = {
     hero: {
       title: (
         <>
-          <strong>Initiate the Next Phase<br />
-            of Growth.</strong>
+          <strong>Initiate the Next <br />
+           Phase of Growth.</strong>
         </>
       ),
       description: "Whether you require robust enterprise infrastructure, visionary creative strategy, or elite financial advisory, our global team is ready to engineer your solution. Connect with Safal Infosoft to begin.",
@@ -61,7 +61,7 @@ export const pagesData: Record<string, any> = {
     }
   },
 
-   lifeAtSafal: {
+  lifeAtSafal: {
     hero: {
       title: (
         <>
@@ -126,7 +126,7 @@ export const pagesData: Record<string, any> = {
     }
   },
 
-    LeaderShipTeam: {
+  LeaderShipTeam: {
     hero: {
       title: (
         <>
@@ -155,8 +155,7 @@ export const pagesData: Record<string, any> = {
     hero: {
       title: (
         <>
-          <strong>From Idea to Scalable <br />
-            <span>Product</span></strong>
+          <strong>From Idea to Scalable Product</strong>
         </>
       ),
       description: "Structured startup product development services and consulting designed to transform ideas into scalable, production-ready digital products.",
@@ -168,8 +167,7 @@ export const pagesData: Record<string, any> = {
     hero: {
       title: (
         <>
-          <strong>Enterprise-Grade<br />
-          Products Built for Scale</strong>
+          <strong>Enterprise-Grade Products Built for Scale</strong>
         </>
       ),
       description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
@@ -181,13 +179,13 @@ export const pagesData: Record<string, any> = {
     hero: {
       title: (
         <>
-          Driving Industry 4.0 <strong>Transformation</strong>
+          Driving Industry 4.0 Transformation
         </>
       ),
       description: "End-to-end industrial automation solutions and IIoT systems designed to connect machines, optimize operations, and enable data-driven industrial environments.",
       imageSrc: "/images/blogs-inner.webp",
       imageAlt: "Industrial Automation & IoT",
-      
+
     }
   },
   aiEmergingTechnology: {
@@ -218,7 +216,7 @@ export const pagesData: Record<string, any> = {
     hero: {
       title: (
         <>
-          <strong>Building Brands That<br />Perform</strong>
+          <strong>Building Brands That Perform</strong>
         </>
       ),
       description: "Strategic digital branding services, creative design services, and integrated digital marketing services designed to build, scale, and position brands with clarity and consistency.",
@@ -231,7 +229,7 @@ export const pagesData: Record<string, any> = {
       title: (
         <>
           <strong>Zero-Trust Ethics.<br />
-          Unyielding Discipline.</strong>
+            Unyielding Discipline.</strong>
         </>
       ),
       description: "Innovation without structural discipline is a corporate liability. Our Board of Directors ensures that every technological advancement, venture incubation, and market expansion adheres strictly to the highest global standards of ethical compliance, risk management, and corporate responsibility.",

@@ -1,6 +1,5 @@
 .footer {
   background-color: var(--black-111);
- 
   padding: 80px 0 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   margin-top: 120px;
@@ -22,6 +21,11 @@
   margin-bottom: 32px;
 }
 
+.logo img {
+  width: 250px;
+  height: 100px;
+}
+
 .companyDesc {
   color: var(--white);
   margin-bottom: 32px;
@@ -38,6 +42,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  color: var(--white);
 }
 
 .socialLinks {
@@ -59,8 +64,10 @@
 
 .rightLinksSection {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 60%;
+  /* Make the first column slightly wider to accommodate longer 'Divisions' links */
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  width: 70%;
+  /* Removed gap so border can be centered perfectly using padding */
 }
 
 /* Link Columns */
@@ -71,7 +78,8 @@
 
 .linkColBordered {
   border-left: 1px solid var(--grey-666);
-  padding: 0 36px;
+  /* Use padding to push the content away from the border equally */
+  padding-left: 40px;
 }
 
 .colBlock {
@@ -83,13 +91,13 @@
 }
 
 .colTitle {
- color: var(--white);
-font-family: "Familjen Grotesk";
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 24px;
+  color: var(--white);
+  font-family: "Familjen Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
 }
 
 .linkList {
@@ -102,10 +110,10 @@ margin-bottom: 24px;
 }
 
 .linkItem a {
- color: var(--grey-ddd);
-font-size: 16px;
-font-weight: 400;
-line-height: normal;
+  color: var(--grey-ddd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .linkItem a:hover {
@@ -118,31 +126,176 @@ line-height: normal;
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
+  color: var(--grey-ddd);
 }
 
 .bottomLinks a {
   text-decoration: none;
   transition: color 0.2s;
+  color: var(--grey-ddd);
 }
 
 .bottomLinks a:hover {
-  color: #a3a3a3;
+  color: #ffffff;
 }
 
-@media (max-width: 1024px) {
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
+
+@media (max-width: 1776px) {
+  .rightLinksSection {
+    width: 72%;
+  }
+}
+
+@media (max-width: 1661px) {
+  .brandCol {
+    width: 28%;
+  }
+  .rightLinksSection {
+    width: 70%;
+  }
+  .linkColBordered {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .brandCol {
+    width: 30%;
+  }
+  .rightLinksSection {
+    width: 68%;
+  }
+  .colTitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .linkItem a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .brandCol {
+    width: 30%;
+  }
+  .rightLinksSection {
+    width: 68%;
+  }
+  .linkColBordered {
+    padding-left: 20px;
+  }
+  .colTitle {
+    font-size: 20px;
+  }
+  .linkItem a {
+    font-size: 14px;
+  }
+  .logo img {
+    width: 220px;
+    height: 88px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .brandCol {
+    width: 32%;
+  }
+  .rightLinksSection {
+    width: 66%;
+  }
+  .linkColBordered {
+    padding-left: 16px;
+  }
+  .colTitle {
+    font-size: 18px;
+  }
+  .linkItem a {
+    font-size: 13px;
+  }
+  .contactInfo {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .footer {
+    padding: 60px 0 30px;
+    margin-top: 80px;
+  }
   .topSection {
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 60px;
   }
   .brandCol {
-    flex: 0 0 100%;
-    margin-bottom: 40px;
+    width: 100%;
+  }
+  .contactInfo {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .rightLinksSection {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
   .linkColBordered {
     border-left: none;
-    padding-left: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer {
+    padding: 50px 0 30px;
+    margin-top: 60px;
+  }
+  .topSection {
+    gap: 40px;
   }
   .rightLinksSection {
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
+  }
+  .bottomSection {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 431px) {
+  .contactInfo {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .rightLinksSection {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .colTitle {
+    font-size: 20px;
+  }
+  .linkItem a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 361px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+  .logo img {
+    width: 200px;
+    height: 80px;
+  }
+  .rightLinksSection {
+    gap: 20px;
+  }
+  .linkItem a {
+    font-size: 13px; /* Slightly smaller for very small phones so columns fit better */
   }
 }

@@ -12,80 +12,85 @@ export interface SectorsContent {
 }
 
 export const defaultSectorsData: SectorsContent = {
-  title: 'Transforming Sectors. Architecting the Future.',
+  title: 'Transforming Industries Through Scalable Systems.',
   cards: [
     {
       id: '01',
       title: 'Manufacturing',
       image: '/images/container-port.png',
-      description: 'Lorem ipsum dolor sit amet consectetur. Neque id eu cras quam. Tincidunt iaculis pulvinar tellus neque vitae viverra augue nec. Massa odio dignissim sit in dis ac. Id adipiscing faucibus urna senectus e aliquam magna nulla faucibus. Arcu arcu auctor imperdiet nisl amet. In non platea morbi facilisis consectetur nunc maecenas. Sit porta nulla sed non in nibh tellus nisl. Quam eget odio vestibulum bibendum eget vel massa. In nibh imperdiet proin felis senectus viverra vulputate. Sem mattis malesuada blandit sapien sagittis mi.',
+      description: 'Safal supports manufacturing enterprises in building connected, efficient, and data-driven production environments. By integrating automation, enterprise systems, and operational intelligence, we enable improved process control, reduced downtime, and enhanced production visibility.',
+      description2: 'Our solutions align shop-floor operations with enterprise systems, ensuring consistency, scalability, and long-term efficiency across complex manufacturing ecosystems.',
     },
     {
       id: '02',
       title: 'Logistics',
       image: '/images/container-port.png',
-      description: 'Optimize your supply chain and distribution networks with intelligent logistics platforms designed for global scale and real-time visibility.',
+      description: 'Safal enables logistics organizations to streamline operations through integrated systems, real-time tracking, and data-driven decision-making. By connecting supply chain processes, we improve visibility, coordination, and operational efficiency across logistics networks.',
+      description2: 'Our solutions help businesses manage complexity, optimize movement, and maintain control across distribution, warehousing, and transportation systems.',
     },
     {
       id: '03',
       title: 'Retail',
       image: '/images/container-port.png',
-      description: 'Transform customer experiences and streamline operations with data-driven retail ecosystems and omni-channel commerce solutions.',
+      description: 'Safal supports retail businesses in building connected and responsive operational systems. By integrating digital platforms, data insights, and enterprise processes, we enable improved customer experience and operational efficiency across retail environments.',
+      description2: 'Our solutions ensure consistency across channels, optimize inventory management, and support scalable growth in dynamic retail ecosystems.',
     },
     {
       id: '04',
       title: 'Healthcare',
       image: '/images/container-port.png',
-      description: 'Empower medical professionals and improve patient outcomes through secure, interoperable healthcare technology frameworks.',
+      description: 'Safal enables healthcare organizations to improve operational efficiency and system integration through structured digital solutions. By connecting data, processes, and platforms, we support better coordination, visibility, and decision-making across healthcare environments.',
+      description2: 'Our solutions are designed to enhance system reliability, ensure compliance, and support the delivery of efficient and consistent healthcare services.',
     },
     {
       id: '05',
       title: 'Finance',
       image: '/images/container-port.png',
-      description: 'Navigate complex regulatory landscapes and accelerate innovation with robust, secure financial infrastructure and analytics.',
+      description: 'Safal supports financial institutions in building structured, secure, and scalable systems for managing operations and data. By integrating platforms and processes, we enable improved transparency, compliance, and operational control.',
+      description2: 'Our solutions help organizations manage complexity, strengthen reporting systems, and support informed decision-making across financial operations.',
     }
   ]
 };
 
 export const brandIndustryApplicationsData: SectorsContent = {
-  title: 'Industry Applications',
-  subtitle: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+  title: 'Across Diverse Business Environments',
+  subtitle: 'Intelliworkz delivers creative design and marketing services across industries where brand positioning, digital presence, and customer engagement are critical.',
   cards: [
     {
       id: '01',
       title: 'Manufacturing',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     },
     {
       id: '02',
-      title: 'Logistics & Supply Chain',
+      title: 'Retail & E-commerce',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     },
     {
       id: '03',
-      title: 'Retail & Distribution',
+      title: 'Healthcare',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     },
     {
       id: '04',
-      title: 'Healthcare',
+      title: 'Financial Services',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     },
     {
       id: '05',
-      title: 'Financial Services',
+      title: 'Real Estate',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     },
     {
       id: '06',
-      title: 'Real Estate & Property Management',
+      title: 'Technology & Startups',
       image: '/images/container-port.png',
-      description: 'As a digital transformation partner and IT consulting services company, Safal\'s enterprise platforms are deployed across industries where operational control, system integration, and data visibility are essential to performance.',
+      description: ''
     }
   ]
 };

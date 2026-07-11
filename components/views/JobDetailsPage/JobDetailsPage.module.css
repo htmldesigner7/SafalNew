@@ -37,12 +37,6 @@
   margin-bottom: 14px;
 }
 
-.contentBlock p {
-  font-size: 16px;
-  color: var(--grey-666);
-  line-height: 1.6;
-}
-
 .contentBlock ul {
   list-style: none;
   padding: 0;

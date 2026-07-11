@@ -13,13 +13,13 @@ export default function SustainabilitySection() {
        <div className={styles.main}>
          {/* Left Column (Top aligned) */}
         <div className={styles.leftColumn}>
-          <h2 className='title_60' style={{ color: '#60853A' }}>Our imprint on the world</h2>
+          <h2 className='title_60' style={{ color: '#60853A' }}>Our Impact Beyond Technology</h2>
           <div className={styles.textContent}>
             <p>
-              We believe a technology company&apos;s most lasting impact isn&apos;t measured in revenue — it&apos;s measured in people developed, industries transformed, and responsibility exercised at every level of operation.
+              We believe the impact of a technology company extends beyond systems and solutions—into the value it creates for people, industries, and the environments it operates within.
             </p>
             <p>
-              Across eight specialized divisions, Safal Infosoft Group operates with one constant: doing business in a way that creates value for our clients, our people, and the communities we work in — today and for the long term.
+              Across its divisions, Safal operates with a consistent approach: building responsibly, enabling sustainable progress, and delivering long-term value for clients, teams, and the broader ecosystem.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function SustainabilitySection() {
 
         {/* Right Column (Bottom aligned) */}
         <div className={styles.rightColumn}>
-          <h2 className='title_60' style={{ color: '#60853A' }}>goes beyond software.</h2>
+          <h2 className='title_60' style={{ color: '#60853A' }}>Enabling responsible growth.</h2>
           <Link href="#sustainability" className='btn-outline btn-outline-red '>
             Read our Sustainability Commitments
           </Link>

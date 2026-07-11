@@ -1,14 +1,13 @@
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
-import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
 import ResponsibleScaleSection from '@/app/corporate-governance/components/ResponsibleScaleSection';
 import TimeResourceSection from './components/TimeResourceSection';
 import LeafClockSection from './components/LeafClockSection';
-import { pagesData, HeroContent } from '@/data/pagesData';
-import { sustainableData, governingDigitalFrontierData } from '@/data/sustainableData';
+import { pagesData } from '@/data/pagesData';
 import { coExistScale } from '@/data/responsibleScaleData';
+import EverylineSection from './components/EverylineSection';
 
 export default function SustainabilityPage() {
-  const heroData = (pagesData.sustainability as any)?.hero as HeroContent;
+  const heroData = pagesData.sustainability?.hero;
   
   return (
     <main>
@@ -20,8 +19,11 @@ export default function SustainabilityPage() {
           imageAlt={heroData.imageAlt}
         />
       )}
+
+      <EverylineSection/>
+       <TimeResourceSection />
       <LeafClockSection />
-      <TimeResourceSection />
+     
       <ResponsibleScaleSection data={coExistScale} />
     </main>
   );

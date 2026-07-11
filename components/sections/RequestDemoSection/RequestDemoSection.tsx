@@ -26,11 +26,11 @@ export default function RequestDemoSection() {
             <h2 className={`${styles.title} title_60`}>Request A Demo</h2>
             
             <p className={styles.paragraph}>
-              As an enterprise solutions company and enterprise solutions provider, Safal enables organizations to evaluate and implement systems aligned with their operational requirements.
+              As an <b>enterprise solutions company</b> and <b>enterprise solutions provider,</b> Safal enables organizations to evaluate and implement systems aligned with their operational requirements.
             </p>
             
             <p className={styles.paragraph}>
-              Assess how Safal&apos;s platforms support system integration, scalability, and long-term operational structure as a trusted digital transformation partner.
+              Assess how Safal’s platforms support system integration, scalability, and long-term operational structure as a trusted <b>digital transformation partner.</b>
             </p>
 
             <Link href="/contact-us" className="btn-primary btn-primary-white">

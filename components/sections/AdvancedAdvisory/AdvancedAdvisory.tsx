@@ -15,15 +15,15 @@ const tabsData = [
   {
     id: "valuation",
     tabLabel: "Valuation",
-    title: "Business Valuation Services",
-    description: "Objective, robust, and regulatory-compliant valuation services for businesses and intangible assets.\n\nOur valuation models are built on rigorous financial analysis and market insights, delivering reliable assessments for mergers and acquisitions, financial reporting, and strategic planning. We ensure every valuation meets the highest standards of accuracy and transparency.",
+    title: "Valuation (Business & IP)",
+    description: "Independent business valuation services for enterprises and intellectual property using established financial methodologies.\n\n We deliver objective and methodical valuation assessments based on financial performance, market positioning, and future growth potential. Our structured approach incorporates financial modelling, industry benchmarks, and regulatory considerations to ensure accuracy and credibility. This supports informed decision-making across investments, restructuring, and strategic planning initiatives.",
     iconSrc: "/images/hero_3d_book.png" 
   },
   {
     id: "transaction-advisory",
     tabLabel: "Transaction Advisory",
-    title: "Strategic Transaction Advisory",
-    description: "End-to-end support for mergers, acquisitions, and strategic partnerships.\n\nWe assist clients through every phase of a transaction, from initial feasibility and structuring to negotiation and post-deal integration. Our transaction advisory services are designed to maximize deal value and mitigate associated risks.",
+    title: "Transaction Advisory",
+    description: "End-to-end transaction advisory services supporting mergers, acquisitions, and strategic transactions.\n\nWe support the complete transaction lifecycle, from financial evaluation and due diligence to structuring and execution. Our advisory ensures alignment with strategic objectives while addressing financial, operational, and regulatory complexities. This enables organizations to navigate transactions with confidence, mitigate risks, and maximize long-term value outcomes.",
     iconSrc: "/images/hero_3d_book.png"
   }
 ];

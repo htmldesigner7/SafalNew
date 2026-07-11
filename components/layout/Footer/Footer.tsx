@@ -113,14 +113,14 @@ export default function Footer() {
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>Divisions</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Enterprise Products & Platforms</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Brand, Digital & Creative Services</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Startup Product Development & Consulting</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Industrial Automation & IoT</Link></li>
-                  <li className={styles.linkItem}><Link href="#">AI & Emerging Technology</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Business & Financial Advisory</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Financial Accounting</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Technology Staffing</Link></li>
+                  <li className={styles.linkItem}><Link href="/enterprise-products">Enterprise Products & Platforms</Link></li>
+                  <li className={styles.linkItem}><Link href="/brand-digital-creative-services">Brand, Digital & Creative Services</Link></li>
+                  <li className={styles.linkItem}><Link href="/startup-product-development">Startup Product Development & Consulting</Link></li>
+                  <li className={styles.linkItem}><Link href="/industrial-automation">Industrial Automation & IoT</Link></li>
+                  <li className={styles.linkItem}><Link href="/ai-emerging-technology">AI & Emerging Technology</Link></li>
+                  <li className={styles.linkItem}><Link href="/business-financial-advisory">Business & Financial Advisory</Link></li>
+                  <li className={styles.linkItem}><Link href="/financial-accounting-solutions">Financial Accounting</Link></li>
+                  <li className={styles.linkItem}><Link href="/technology-staffing">Technology Staffing</Link></li>
                 </ul>
               </div>
             </div>
@@ -130,18 +130,18 @@ export default function Footer() {
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>About</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Our Story & Vision</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Leadership Team</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Group Structure</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Values & Culture</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Sustainability</Link></li>
+                  <li className={styles.linkItem}><Link href="/our-story-vision">Our Story & Vision</Link></li>
+                  <li className={styles.linkItem}><Link href="/LeaderShip-Team">Leadership Team</Link></li>
+                  <li className={styles.linkItem}><Link href="/group-structure">Group Structure</Link></li>
+                  <li className={styles.linkItem}><Link href="/values-culture">Values & Culture</Link></li>
+                  <li className={styles.linkItem}><Link href="/sustainability">Sustainability</Link></li>
                 </ul>
               </div>
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>Insights</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Blogs</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Case Studies</Link></li>
+                  <li className={styles.linkItem}><Link href="/blogs">Blogs</Link></li>
+                  <li className={styles.linkItem}><Link href="/case-studies">Case Studies</Link></li>
                   <li className={styles.linkItem}><Link href="#">News & Announcements</Link></li>
                 </ul>
               </div>
@@ -152,9 +152,9 @@ export default function Footer() {
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>Quick Links</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Home</Link></li>
+                  <li className={styles.linkItem}><Link href="/">Home</Link></li>
                   <li className={styles.linkItem}><Link href="#">Industries</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Contact Us</Link></li>
+                  <li className={styles.linkItem}><Link href="/contact">Contact Us</Link></li>
                 </ul>
               </div>
               <div className={styles.colBlock}>
@@ -172,9 +172,9 @@ export default function Footer() {
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>Investors</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Investor Relations</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Financial Reports & Disclosures</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Corporate Governance</Link></li>
+                  <li className={styles.linkItem}><Link href="/investor-relations">Investor Relations</Link></li>
+                  <li className={styles.linkItem}><Link href="/financial-reports-disclosures">Financial Reports & Disclosures</Link></li>
+                  <li className={styles.linkItem}><Link href="/corporate-governance">Corporate Governance</Link></li>
                 </ul>
               </div>
               <div className={styles.colBlock}>
@@ -183,8 +183,8 @@ export default function Footer() {
                   <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
                   <li className={styles.linkItem}><Link href="/become-a-partner">Become a Partner</Link></li>
                 </ul>
+              </div>
             </div>
-          </div>
 
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className={styles.bottomSection}>
           <div className={styles.bottomLinks}>
-            <Link href="#">Privacy Policy</Link> | <Link href="#">Terms & Conditions</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link> | <Link href="/terms-conditions">Terms & Conditions</Link>
           </div>
           <div className={styles.copyright}>
             © Copyright 2026. All rights reserved Safal Infosoft Limited.

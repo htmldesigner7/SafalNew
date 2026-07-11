@@ -6,43 +6,45 @@ export default function InvestorsSection() {
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
         <header className="header_sec">
-          <h2 className="title_60">Where investor confidence meets partner potential</h2>
+          <h2 className="title_60">A Structured Approach to Growth & Collaboration</h2>
           <p className={styles.subtitle}>
-            Safal Infosoft Group invites two kinds of partners — those who invest in our growth, and those who grow alongside us. Both relationships are built on transparency, shared ambition, and long-term value creation.
+            Safal Infosoft Group engages with investors and partners through a structured approach focused on transparency, scalability, and long-term value creation across its global technology ecosystem.
           </p>
         </header>
 
         <div className={styles.vennContainer}>
 
           {/* Left Circle */}
-              
+
           {/* Left Circle */}
           <div className={`${styles.circle} ${styles.left}`}>
             <div className={styles.content}>
-              <h2>Investor<br/>Value</h2>
+              <h2>Investor<br />Value</h2>
               <ul>
                 <li>Strong financial governance</li>
                 <li>Scalable enterprise technology platforms</li>
                 <li>Sustainable long-term growth strategy</li>
-                <li>Transparent business operations</li>
-                <li>Global market expansion opportunities</li>
+                <li>Transparent and accountable operations</li>
+                <li>Global expansion opportunities</li>
+                <li>Structured risk management</li>
               </ul>
               <a href="#" className="btn-outline btn-outline-red">Explore More</a>
             </div>
           </div>
 
           {/* Right Circle */}
-              
+
           {/* Right Circle */}
           <div className={`${styles.circle} ${styles.right}`}>
             <div className={styles.content}>
-              <h2>Strategic<br/>Partnerships</h2>
+              <h2>Strategic<br />Partnerships</h2>
               <ul>
-                <li>Strong financial governance</li>
-                <li>Scalable enterprise technology platforms</li>
-                <li>Sustainable long-term growth strategy</li>
-                <li>Transparent business operations</li>
-                <li>Global market expansion opportunities</li>
+                <li>Integrated technology collaboration</li>
+                <li>Scalable solution development</li>
+                <li>Joint go-to-market opportunities</li>
+                <li>Long-term partnership alignment</li>
+                <li>Access to multi-industry expertise</li>
+                <li>Ecosystem-driven innovation</li>
               </ul>
               <a href="#" className="btn-outline btn-outline-red">Explore More</a>
             </div>

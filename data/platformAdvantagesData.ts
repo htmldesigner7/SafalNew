@@ -24,12 +24,12 @@ export const enterprisePlatformAdvantagesData: PlatformAdvantagesData = {
     },
     {
       id: '2',
-      text: 'Integration-ready across enterprise environments',
+      text: 'Flexible architecture aligned to operational structures',
       position: 'top-right'
     },
     {
       id: '3',
-      text: 'Continuous platform support and system evolution',
+      text: 'Implementation aligned with measurable business outcomes',
       position: 'middle-right'
     },
     {
@@ -39,16 +39,16 @@ export const enterprisePlatformAdvantagesData: PlatformAdvantagesData = {
     },
     {
       id: '5',
-      text: 'Implementation aligned with measurable business outcomes',
+      text: 'Continuous platform support and system evolution',
       position: 'bottom-left'
     },
     {
       id: '6',
-      text: 'Flexible architecture aligned to operational structures',
+      text: 'Integration-ready across enterprise environments',
       position: 'middle-left'
     }
   ],
-  description: ""
+  description: "This approach reflects Safal’s positioning as a technology consulting company focused on structured system delivery.",
 };
 
 export const productAdvantagesData: PlatformAdvantagesData = {
@@ -100,27 +100,27 @@ export const structuredIndustrialExecutionData: PlatformAdvantagesData = {
     },
     {
       id: '2',
-      text: 'Scalable architecture for industrial environments',
+      text: 'Proven delivery of industrial automation solutions',
       position: 'top-right'
     },
     {
       id: '3',
-      text: 'Engineering-driven system design approach',
+      text: 'Strong IT-OT system integration capability',
       position: 'middle-right'
     },
     {
       id: '4',
-      text: 'Focus on reliability and operational control',
+      text: 'Scalable architecture for industrial environments',
       position: 'bottom-right'
     },
     {
       id: '5',
-      text: 'Strong IT-OT system integration capability',
+      text: 'Engineering-driven system design approach',
       position: 'bottom-left'
     },
     {
       id: '6',
-      text: 'Proven delivery of industrial automation solutions',
+      text: 'Focus on reliability and operational control',
       position: 'middle-left'
     }
   ],
@@ -129,37 +129,37 @@ export const structuredIndustrialExecutionData: PlatformAdvantagesData = {
 
 
 export const StructuredAIImplementation: PlatformAdvantagesData = {
-  title: 'Structured Industrial Execution',
+  title: 'Structured AI Implementation',
   centerText: 'Advantages',
   advantages: [
     {
       id: '1',
-      text: 'Expertise as an industrial automation company',
+      text: 'Proven expertise as an AI development company and AI implementation consultant',
       position: 'top-left'
     },
     {
       id: '2',
-      text: 'Scalable architecture for industrial environments',
+      text: 'Strong delivery of scalable AI implementation services',
       position: 'top-right'
     },
     {
       id: '3',
-      text: 'Engineering-driven system design approach',
+      text: 'Integration of AI with existing enterprise systems',
       position: 'middle-right'
     },
     {
       id: '4',
-      text: 'Focus on reliability and operational control',
+      text: 'Focus on execution, not experimentation',
       position: 'bottom-right'
     },
     {
       id: '5',
-      text: 'Strong IT-OT system integration capability',
+      text: 'Alignment between data, systems, and decision-making',
       position: 'bottom-left'
     },
     {
       id: '6',
-      text: 'Proven delivery of industrial automation solutions',
+      text: 'Long-term value through structured AI adoption',
       position: 'middle-left'
     }
   ],
@@ -206,37 +206,37 @@ export const WhysafalAccounting: PlatformAdvantagesData = {
 
 
 export const StructuredCreativityScalableExecution: PlatformAdvantagesData = {
-  title: 'Why SAFAL Accounting',
+  title: 'Structured Creativity. Scalable Execution.',
   centerText: 'Advantages',
   advantages: [
     {
       id: '1',
-      text: 'Expertise as an industrial automation company',
+      text: 'Integrated approach combining branding, design, and digital marketing',
       position: 'top-left'
     },
     {
       id: '2',
-      text: 'Scalable architecture for industrial environments',
+      text: 'System-driven execution aligned with business objectives',
       position: 'top-right'
     },
     {
       id: '3',
-      text: 'Engineering-driven system design approach',
+      text: 'Consistent design frameworks across all brand touchpoints',
       position: 'middle-right'
     },
     {
       id: '4',
-      text: 'Focus on reliability and operational control',
+      text: 'Technology-backed delivery ensuring scalability',
       position: 'bottom-right'
     },
     {
       id: '5',
-      text: 'Strong IT-OT system integration capability',
+      text: 'Performance-focused marketing and optimization',
       position: 'bottom-left'
     },
     {
       id: '6',
-      text: 'Proven delivery of industrial automation solutions',
+      text: 'Long-term brand and digital support',
       position: 'middle-left'
     }
   ],

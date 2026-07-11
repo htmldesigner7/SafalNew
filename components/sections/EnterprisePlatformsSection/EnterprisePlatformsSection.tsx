@@ -33,12 +33,12 @@ export default function EnterprisePlatformsSection() {
                 style={{ objectFit: 'contain', objectPosition: 'left' }}
               />
             </div>
-            <h3 className={`title_24 ${styles.title}`}>DataNote ERP</h3>
+            <h3 className={`title_24 ${styles.title}`}>Formezy (EAP)</h3>
             <p>
-              DataNote ERP is a comprehensive enterprise system for managing finance, inventory, and operational workflows. As part of Safal&apos;s approach as an enterprise solutions provider, it delivers centralized control, system visibility, and a scalable foundation for enterprise operations.
+              Formezy is an enterprise application platform for structured data capture, workflow standardization, and process control. It establishes consistency across distributed operations while maintaining clarity in execution.
             </p>
             <p>
-              Our ERP platform enables integrated management of financial, operational, and inventory workflows through a unified system architecture. By ensuring data consistency, process alignment, and real-time visibility, it supports efficient execution, improves control, and enables informed decision-making across enterprise operations.
+              Formezy provides a structured platform for data capture, workflow standardization, and process automation across enterprise functions. Aligning inputs, processes, and outputs within a unified framework, it ensures operational consistency, improves data accuracy, and supports scalable execution across business environments.
             </p>
           </div>
         </div>
@@ -65,12 +65,12 @@ export default function EnterprisePlatformsSection() {
                 style={{ objectFit: 'contain', objectPosition: 'left' }}
               />
             </div>
-            <h3 className={`title_24 ${styles.title}`}>Formezy (EAP)</h3>
+            <h3 className={`title_24 ${styles.title}`}>DataNote ERP</h3>
             <p>
-              Formezy is an enterprise application platform for structured data capture, workflow standardization, and process control. It establishes consistency across distributed operations while maintaining clarity in execution.
+              DataNote ERP is a comprehensive enterprise system for managing finance, inventory, and operational workflows. As part of Safal’s approach as an <b>enterprise solutions provider,</b> it delivers centralized control, system visibility, and a scalable foundation for enterprise operations.
             </p>
             <p>
-              Formezy provides a structured platform for data capture, workflow standardization, and process automation across enterprise functions. Aligning inputs, processes, and outputs within a unified framework, it ensures operational consistency, improves data accuracy, and supports scalable execution across business environments.
+              Our ERP platform enables integrated management of financial, operational, and inventory workflows through a unified system architecture. By ensuring data consistency, process alignment, and real-time visibility, it supports efficient execution, improves control, and enables informed decision-making across enterprise operations.
             </p>
           </div>
         </div>

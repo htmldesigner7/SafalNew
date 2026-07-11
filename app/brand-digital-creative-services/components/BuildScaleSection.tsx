@@ -11,7 +11,7 @@ export default function BuildScaleSection() {
           
           <div className={styles.contentCol}>
             <h2 className="title_40 mb_20">
-              Build, Scale, and Position<br />Your Brand with Clarity
+              Build, Scale, and Position Your Brand with Clarity
             </h2>
             <p className={styles.description}>
               Engage with a team delivering digital marketing and branding services through structured execution, creative consistency, and technology-driven systems.

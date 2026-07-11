@@ -14,54 +14,54 @@ const caseStudies = [
     id: 1,
     title: "Elite Electronics — ERP Implementation for Distribution & Financial Operations",
     paragraphs: [
-      "Patients struggled with fragmented care journeys due to Centralized order processing, inventory control, and financial workflows within a unified ERP system.",
+      "Centralized order processing, inventory control, and financial workflows within a unified ERP system.",
       "Established visibility and structured coordination across distribution operations.",
       "The implementation enabled seamless synchronization between operational and financial functions, improving data accuracy and reducing process dependencies. By standardizing workflows and integrating reporting structures, the system strengthened decision-making capabilities across distribution channels.",
-      "This structured approach improved coordination between inventory, order processing, and financial tracking, ensuring consistency across operations. As a result, the organization achieved better control over workflows while maintaining scalability for future growth."
+      "This structured approach improved coordination between inventory, order processing, and financial tracking, ensuring consistency across operations. As a result, the organization achieved better control over workflows while maintaining scalability for future growth.",
     ],
     image: "/images/manufacturing.jpg"
   },
   {
     id: 2,
-    title: "HealthCare Plus — Unified Patient Management System",
+    title: "Topsun — Manufacturing Workflow & Inventory System Integration",
     paragraphs: [
-      "Hospitals faced challenges with decentralized patient data, leading to delays in care and administrative inefficiencies.",
-      "We deployed a unified patient management system integrating electronic health records (EHR) and billing.",
-      "The new platform streamlined patient onboarding, reduced wait times by 30%, and improved cross-department communication.",
-      "As a result, healthcare providers can now focus more on patient care rather than administrative overhead, ensuring a seamless experience."
+      "Structured production workflows, inventory tracking, and reporting within an integrated system environment.",
+      "Improved operational control and alignment across manufacturing processes.",
+      "The integrated system streamlined production planning and inventory coordination, reducing inefficiencies across workflows. With improved data visibility and process standardization, the organization gained better control over manufacturing cycles and operational execution.",
+      "By aligning production, inventory, and reporting within a unified framework, the system enabled consistent tracking and improved responsiveness to changing demands. This resulted in enhanced efficiency and more reliable process outcomes across manufacturing operations."
     ],
     image: "/images/healthcare.jpg"
   },
   {
     id: 3,
-    title: "FinServe Global — Secure Banking & Transaction Automation",
+    title: "Kabhi B — Multi-Location Retail Operations Management System",
     paragraphs: [
-      "The client needed to modernize their legacy banking systems to support high-frequency transactions securely.",
-      "We implemented an automated transaction processing engine with real-time fraud detection capabilities.",
-      "This upgrade significantly reduced transaction processing time and minimized manual reconciliation efforts.",
-      "The modernized architecture ensures compliance with global financial regulations while providing a scalable foundation for future digital banking services."
+      "Unified inventory, billing, and reporting across multiple retail locations within a centralized platform.",
+      "Established consistency in operations and simplified centralized management.",
+      "The centralized system enabled real-time coordination across locations, improving inventory accuracy and operational consistency. Standardized workflows ensured uniform execution across all outlets, reducing manual intervention and process gaps.",
+      "With integrated reporting and centralized control, management gained better visibility into performance across locations. This allowed for faster decision-making, improved operational alignment, and the ability to scale retail operations efficiently."
     ],
     image: "/images/finance.jpg"
   },
   {
     id: 4,
-    title: "Capital Investments — Portfolio Analytics Dashboard",
+    title: "POA Tanks — Inventory, Order & Process Management System Implementation",
     paragraphs: [
-      "Investors required real-time visibility into portfolio performance across multiple asset classes.",
-      "We built a comprehensive analytics dashboard integrating data from various market feeds and internal systems.",
-      "The solution provides interactive data visualization, risk assessment models, and customizable reporting tools.",
-      "By centralizing portfolio data, investment managers can make faster, data-driven decisions to maximize returns."
+      "Structured inventory, order workflows, and operational processes within a controlled system environment.",
+      "Improved process tracking and coordination across business functions.",
+      "The system enhanced visibility across inventory and order lifecycles, enabling better coordination between operational teams. Structured workflows reduced inconsistencies and improved execution across critical processes.",
+      "By integrating operational functions within a unified framework, the organization achieved improved tracking, reduced delays, and better process reliability. This ensured smoother coordination and more efficient handling of business operations."
     ],
     image: "/images/investor-section.jpg"
   },
   {
     id: 5,
-    title: "EcoEnergy Tech — Sustainable Resource Tracking",
+    title: "Air Control & Chemical Engineering Ltd. — Enterprise Workflow & System Integration",
     paragraphs: [
-      "The organization needed a reliable way to track and report their carbon footprint and resource utilization.",
-      "We developed a sustainability tracking platform that integrates with their existing supply chain and energy grid.",
-      "The system automates data collection and generates compliance-ready sustainability reports.",
-      "This initiative not only helped them meet regulatory requirements but also optimized energy consumption across their facilities."
+      "Integrated operational workflows and reporting into a unified enterprise system.",
+      "Established visibility, control, and structured execution across operations.",
+      "The unified system brought together multiple operational functions into a single framework, improving coordination and data flow. Enhanced reporting capabilities enabled better tracking and more informed decision-making across departments.",
+      "With structured execution and integrated workflows, the organization achieved greater control over operations while reducing inefficiencies. This strengthened overall process reliability and supported long-term operational scalability."
     ],
     image: "/images/sustainability-section.jpg"
   }

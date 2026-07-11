@@ -32,11 +32,11 @@ export async function POST(request: Request) {
         message: 'Thank you! Your message has been sent successfully.'
       });
 
-    } catch (err: any) {
+    } catch (err) {
       console.error('MySQL Error:', err);
       return NextResponse.json({ 
         error: 'Failed to save to database. Check server console logs.',
-        dbError: err.message
+        dbError: err instanceof Error ? err.message : String(err)
       }, { status: 500 });
     }
 

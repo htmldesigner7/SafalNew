@@ -313,7 +313,7 @@ export const measuredOperationalOutcomesData: CultureContent = {
     {
       id: "value-impact",
       subtitle: "",
-      title: "Value Impact",
+      title: "Enterprise Visibility & Value Impact",
       description: "Enhanced visibility across systems with measurable contribution to EBITDA",
       imageSrc: "/images/outcome-value.png",
       bgColor: "#DBE9CB"
@@ -437,4 +437,4 @@ export const FlexibleServiceStructures: CultureContent = {
       bgColor: "#D8EAD2"
     }
   ]
-};
+};

@@ -9,20 +9,20 @@ export default function GlobalPresenceSection() {
 
         {/* Left Content */}
         <div>
-          <h2 className="title_60">A Diversified Technology<br />Group.</h2>
+          <h2 className="title_60">A Global Presence, Built on Integrated Systems.</h2>
 
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
+           Safal operates as a global technology holding group with entities across India, the USA, and the UAE. Each entity delivers specialized capabilities while remaining aligned within a unified and structured operating framework.
           </p>
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
+            Our presence across regions enables us to support diverse industries with consistent execution, localized expertise, and scalable systems designed to meet complex enterprise requirements.
           </p>
           <p>
-            We are a global holding company operating at the intersection of agentic AI, industrial automation, and strategic advisory. Across eight specialized divisions, we don&apos;t just build software—we engineer the unified ecosystems that power the world&apos;s most complex organizations.
+            By integrating operations across geographies, Safal ensures seamless collaboration, operational continuity, and long-term value creation for organizations operating in global and multi-market environments.
           </p>
 
           <Link href="#product" className="btn-outline btn-outline-red mt_40">
-            Visit our Product
+            Explore our Products
           </Link>
         </div>
 

@@ -11,8 +11,8 @@ export default function UnifiedFrameworkSection() {
           {/* Left Text Content */}
           <div className={styles.textContent}>
             <h2 className="title_60">A Unified Enterprise<br />Product Framework</h2>
-            <p>Safal is an enterprise solutions company structured to deliver integrated platforms and specialized systems for end-to-end enterprise operations. As a technology consulting company, Safal aligns system architecture with business requirements across industries.</p>
-            <p>This framework establishes consistency across processes, data, and workflows, ensuring control, scalability, and structured execution across enterprise functions expected from a modern enterprise solutions provider.</p>
+            <p>Safal is an <b>enterprise solutions company</b> structured to deliver integrated platforms and specialized systems for end-to-end enterprise operations. As a <b>technology consulting company,</b> Safal aligns system architecture with business requirements across industries.</p>
+            <p>This framework establishes consistency across processes, data, and workflows, ensuring control, scalability, and structured execution across enterprise functions expected from a modern <b>enterprise solutions provider.</b></p>
             <p>Our framework integrates enterprise systems, data flows, and operational processes into a unified architecture that ensures consistency and scalability. By aligning technology with business functions, we enable seamless coordination across platforms, improve data visibility, and support structured execution across complex enterprise environments.</p>
           </div>
 

@@ -1,6 +1,5 @@
 .section {
   background-color: var(--color-bg-main);
-  padding-bottom: 80px;
   position: relative;
 }
 
@@ -11,10 +10,9 @@
 
 .platformBlock {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 6fr 4fr; /* Represents the 1.2 to 0.8 ratio */
   align-items: center;
   gap: 60px;
-  margin-bottom: 80px;
 }
 
 .platformBlock:last-child {
@@ -22,17 +20,12 @@
 }
 
 .imageCol {
-  flex: 1.2;
-  min-width: 400px;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
-  /* The image aspect ratio is approx 16:9 or similar browser window */
 }
 
 .textCol {
-  flex: 0.8;
-  min-width: 300px;
 }
 
 .logoWrapper {
@@ -44,18 +37,80 @@
   justify-content: flex-start;
 }
 
+.textCol p {
+  color: var(--grey-666);
+  line-height: 1.6;
+  margin-top: 24px;
+}
 
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
 
-@media (max-width: 1024px) {
+@media (max-width: 1776px) {
   .platformBlock {
-    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1661px) {
+  .platformBlock {
     gap: 40px;
   }
+}
 
-  .imageCol,
-  .textCol {
-    flex: 1;
-    width: 100%;
-    min-width: 100%;
+@media (max-width: 1537px) {
+  .platformBlock {
+    grid-template-columns: 5.5fr 4.5fr;
+  }
+}
+
+@media (max-width: 1441px) {
+  .platformBlock {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .platformBlock {
+    grid-template-columns: 5fr 5fr; /* 50/50 gives text more room */
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .platformBlock {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  .imageCol {
+    order: -1;
+  }
+}
+
+@media (max-width: 769px) {
+  .platformBlock {
+    margin-bottom: 50px;
+  }
+  .logoWrapper {
+    margin-bottom: 16px;
+  }
+  .textCol p {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 431px) {
+  .platformBlock {
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 361px) {
+  .platformBlock {
+    gap: 20px;
+    margin-bottom: 40px;
   }
 }

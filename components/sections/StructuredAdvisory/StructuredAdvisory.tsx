@@ -11,14 +11,14 @@ const accordionData = [
     content: 'Structured financial governance frameworks designed to enhance control, accountability, and compliance across business operations. We align financial processes with regulatory requirements while strengthening internal systems to support transparent and consistent decision-making.'
   },
   {
-    id: 'clarity',
-    title: 'Clarity',
-    content: 'Delivering financial clarity through comprehensive data analysis and reporting. We help you understand your financial position to make informed, strategic decisions.'
+    id: 'financial-clarity',
+    title: 'Financial Clarity',
+    content: 'Clear, data-backed financial visibility through structured analysis, modelling, and reporting frameworks. This enables organizations to evaluate performance, forecast outcomes, and make informed decisions with confidence and precision.'
   },
   {
     id: 'risk-management',
     title: 'Risk Management',
-    content: 'Identifying and mitigating financial risks to protect your business assets and ensure long-term stability in a dynamic market environment.'
+    content: 'Comprehensive risk assessment and mitigation strategies across financial, operational, and regulatory dimensions. We identify potential exposures early and establish structured controls to ensure stability, compliance, and long-term business resilience.'
   }
 ];
 
@@ -35,7 +35,10 @@ export default function StructuredAdvisory() {
               Structured Advisory Across<br />Business and Finance
             </h2>
             <p>
-              Safal delivers business and financial advisory services focused on financial clarity, governance, and risk management. These services combine analytical frameworks with regulatory alignment to support critical business decisions. As part of its business advisory services and financial advisory services, Safal enables organizations to operate with structured financial oversight and strategic direction.
+              Safal delivers <b>business and financial advisory services</b> focused on financial clarity, governance, and risk management. These services combine analytical frameworks with regulatory alignment to support critical business decisions.
+            </p>
+            <p>
+              As part of its <b>business advisory services</b> and <b>financial advisory services,</b> Safal enables organizations to operate with structured financial oversight and strategic direction.
             </p>
 
             <div className={styles.accordion}>

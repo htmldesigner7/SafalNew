@@ -248,7 +248,7 @@ export const collaborativeEcosystemsData: EngineeringContent = {
     {
       id: "production-line",
       number: "01.",
-      subtitle: "lorem",
+      subtitle: "",
       title: "Production Line Automation",
       description: "Improved production efficiency and process consistency.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"

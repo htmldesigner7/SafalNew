@@ -14,21 +14,19 @@
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
-  z-index: 1;
+  /* z-index: 1; */
   pointer-events: none;
   opacity: 0.5;
   mix-blend-mode: plus-darker;
 }
 
-.main
-{
+.main {
   display: grid;
   gap: 30px;
   grid-template-columns: 5fr 2fr 5fr;
 }
 
-.rightColumn
-{
+.rightColumn {
   place-content: end;
 }
 
@@ -36,10 +34,106 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  height: 500px; /* Base height for the image */
+  height: 500px;
+  /* Base height for the image */
   min-height: 100%;
 }
 
 .fingerprintImage {
-  object-fit: contain; /* or cover depending on design */
+  object-fit: contain;
+  /* or cover depending on design */
+}
+
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
+
+@media (max-width: 1776px) {
+  .imageWrapper {
+    height: 480px;
+  }
+}
+
+@media (max-width: 1661px) {
+  .imageWrapper {
+    height: 460px;
+  }
+
+  .main {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .imageWrapper {
+    height: 440px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .imageWrapper {
+    height: 420px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .imageWrapper {
+    height: 400px;
+  }
+
+  .main {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .main {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .rightColumn {
+    place-content: start;
+  }
+
+  .imageWrapper {
+    height: 400px;
+  }
+
+  .bgLeaves {
+    width: 100%;
+    opacity: 0.2;
+  }
+
+  /* Full width faint background for mobile */
+}
+
+@media (max-width: 769px) {
+  .main {
+    gap: 30px;
+  }
+
+  .imageWrapper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 431px) {
+  .main {
+    gap: 24px;
+  }
+
+  .imageWrapper {
+    height: 300px;
+  }
+}
+
+@media (max-width: 361px) {
+  .main {
+    gap: 20px;
+  }
+
+  .imageWrapper {
+    height: 250px;
+  }
 }

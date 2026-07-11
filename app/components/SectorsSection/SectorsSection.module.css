@@ -101,7 +101,7 @@
   min-height: 200px;
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .activeImage {
@@ -166,26 +166,173 @@
   letter-spacing: 1px;
 }
 
-/* Media Queries */
-@media (max-width: 1024px) {
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
+
+@media (max-width: 1776px) {
+  .sectionTitle {
+    font-size: 34px;
+    margin-bottom: 50px;
+  }
+
   .cardsContainer {
-    height: 480px;
+    height: 650px;
+  }
+
+  .activeNumber {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 1661px) {
+  .sectionTitle {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .cardsContainer {
+    height: 600px;
+    gap: 18px;
+  }
+
+  .activeNumber {
+    font-size: 70px;
+  }
+
+  .inactiveNumber {
+    font-size: 55px;
+  }
+
+  .inactiveTitle {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .cardsContainer {
+    height: 550px;
+  }
+
+  .activeNumber {
+    font-size: 65px;
+  }
+
+  .inactiveNumber {
+    font-size: 50px;
+  }
+
+  .inactiveTitle {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .sectionTitle {
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+
+  .cardsContainer {
+    height: 500px;
+    gap: 16px;
+  }
+
+  .activeNumber {
+    font-size: 60px;
+  }
+
+  .inactiveNumber {
+    font-size: 45px;
+  }
+
+  .inactiveTitle {
+    font-size: 28px;
+  }
+
+  .activeContent {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .sectionTitle {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .cardsContainer {
+    height: 460px;
+    gap: 14px;
+  }
+
+  .activeNumber {
+    font-size: 55px;
+  }
+
+  .inactiveNumber {
+    font-size: 40px;
+  }
+
+  .inactiveTitle {
+    font-size: 24px;
+  }
+
+  .activeContent {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .sectionTitle {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+
+  .cardsContainer {
+    height: 400px;
     gap: 12px;
   }
 
   .active {
     flex: 6;
   }
-}
 
-@media (max-width: 768px) {
-  .cardsContainer {
-    flex-direction: column;
-    height: 800px;
+  .activeNumber {
+    font-size: 50px;
+  }
+
+  .inactiveNumber {
+    font-size: 36px;
+  }
+
+  .inactiveTitle {
+    font-size: 20px;
   }
 
   .activeContent {
-    min-width: 100%;
+    padding: 20px;
+  }
+
+  .inactiveContent {
+    padding: 20px 16px;
+  }
+
+  .activeHeader {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 769px) {
+  .sectionTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+    height: 700px;
+    gap: 12px;
   }
 
   .inactiveContent {
@@ -195,16 +342,113 @@
   .inactiveTextWrapper {
     flex-direction: row;
     align-items: center;
+    padding-bottom: 0;
   }
 
   .inactiveNumber {
     font-size: 24px;
+    margin-right: 16px;
+  }
+
+  .inactiveTitle {
+    font-size: 18px;
+    writing-mode: horizontal-tb;
+    transform: none;
+    letter-spacing: normal;
+  }
+
+  .activeContent {
+    min-width: 100%;
+    padding: 16px;
+  }
+
+  .activeNumber {
+    font-size: 40px;
+  }
+
+  .activeHeader {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 431px) {
+  .sectionTitle {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .cardsContainer {
+    height: 600px;
+    gap: 8px;
+  }
+
+  .inactiveContent {
+    padding: 12px;
+  }
+
+  .inactiveNumber {
+    font-size: 20px;
+    margin-right: 12px;
   }
 
   .inactiveTitle {
     font-size: 16px;
-    writing-mode: horizontal-tb;
-    transform: none;
-    letter-spacing: normal;
+  }
+
+  .activeContent {
+    padding: 12px;
+  }
+
+  .activeNumber {
+    font-size: 32px;
+  }
+
+  .activeHeader {
+    margin-bottom: 8px;
+  }
+
+  .activeTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 361px) {
+  .sectionTitle {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .cardsContainer {
+    height: 500px;
+    gap: 6px;
+  }
+
+  .inactiveContent {
+    padding: 10px;
+  }
+
+  .inactiveNumber {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .inactiveTitle {
+    font-size: 14px;
+  }
+
+  .activeContent {
+    padding: 10px;
+  }
+
+  .activeNumber {
+    font-size: 28px;
+  }
+
+  .activeHeader {
+    margin-bottom: 6px;
+  }
+
+  .activeTitle {
+    font-size: 18px;
   }
 }

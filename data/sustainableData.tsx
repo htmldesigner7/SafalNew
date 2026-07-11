@@ -23,7 +23,7 @@ export const sustainableData: SustainableContent = {
     },
     {
       boldText: "Green Leaf:",
-      text: "Resource Optimization (IoT for waste reduction)"  
+      text: "Resource Optimization (IoT for waste reduction)"
     },
     {
       boldText: "Orange Leaf:",
@@ -96,7 +96,7 @@ export const productsBuiltForScaleData: SustainableContent = {
   title: "Products Built for Scale and Adoption",
   description: (
     <>
-      <p style={{ marginTop: 0 }}>As a startup product development company, Ideaz Ventures has contributed to building digital products across industries, from early-stage MVPs to scalable platforms.</p>
+      <p style={{ marginTop: 0 }}>As a <b>startup product development company,</b> Ideaz Ventures has contributed to building digital products across industries, from early-stage MVPs to scalable platforms.</p>
       <p>Each product reflects structured execution, scalable architecture, and alignment between product vision and technology systems.</p>
     </>
   ),
@@ -120,4 +120,22 @@ export const governingDigitalFrontierData: SustainableContent = {
   imageAlt: "Governing the Digital Frontier"
 };
 
+
+
+
+export const GoverningDigitalFrontierData: SustainableContent = {
+  title: <>Governing the222<br />Digital Frontier.</>,
+  description: (
+    <>
+      <p style={{ marginTop: 0 }}>
+        As we engineer the future of autonomous logistics, proprietary ERP frameworks, and predictive AI, we carry the profound responsibility of shaping ethical technology. The Safal Ethics & Compliance Committee actively audits our R&D incubations and enterprise deployments. We ensure our algorithms are free of bias, our data architectures respect global human privacy rights, and our digital ecosystems serve to elevate, rather than exploit, the markets we touch.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Ut velit leo amet suscipit elementum dolor. Leo egestas sit sit pellentesque scelerisque ultricies. Sit viverra sapien tincidunt egestas nunc dictumst urna. Aliquam elit sagittis id eu consectetur diam amet. Fringilla arcu nullam nunc aliquam sed. Euismod vulputate nullam cum potenti ac. Cursus nullam feugiat morbi lorem a. Sit nisi arcu commodo eget eget eros. Eu.
+      </p>
+    </>
+  ),
+  imageSrc: "/images/climbing_stones.png",
+  imageAlt: "Governing the Digital Frontier"
+};
 

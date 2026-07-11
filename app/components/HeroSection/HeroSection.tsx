@@ -10,14 +10,13 @@ export default function HeroSection() {
         {/* Left Column */}
         <div className={styles.textContent}>
           <h1 className={styles.title}>
-            <strong> The Architecture of
-              Global Enterprise.</strong>
+            <strong> Architecting Global Enterprise Systems.</strong>
           </h1>
           <p className={styles.description}>
-            Three strategic pillars. One unified holding company. From intelligent industrial automation to elite financial advisory, we architect the frameworks that power industry leaders.
+          Three strategic pillars. One unified holding company. As a <b>technology consulting company</b> and <b>digital transformation partner,</b> Safal delivers integrated solutions as an <b>enterprise solutions provider,</b> powering modern businesses.
           </p>
           <Link href="#discover" className="btn-outline">
-            Discover Safal Divisions
+            Discover Our Divisions
           </Link>
         </div>
 

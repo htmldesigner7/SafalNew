@@ -47,7 +47,7 @@ export default function CaseStudyResults() {
           {!isPlaying ? (
             <div className={styles.videoThumbnail} onClick={() => setIsPlaying(true)}>
               <div className={styles.playButton}>
-                <svg width="24" height="24" viewBox="0 0 24 24" className={styles.playIcon} xmlns="http://www.w3.org/2000/svg">
+               <svg width="24" height="24" viewBox="0 0 24 24" className={styles.playIcon} xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 5V19L19 12L8 5Z" />
                 </svg>
               </div>

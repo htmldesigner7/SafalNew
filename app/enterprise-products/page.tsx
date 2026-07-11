@@ -28,22 +28,22 @@ export default function EnterpriseProductsPage() {
 
       <EnterprisePlatformsSection />
 
-     
 
-      
+
+
 
       <ProcessSection
         title="Specialized Business Systems"
         data={specializedSystemsData}
       />
 
-      
 
-      
+
+
 
       <PlatformCapabilitiesSection />
 
-       <IndustryApplicationsSection data={industryApplicationsData} />
+      <IndustryApplicationsSection data={industryApplicationsData} />
 
       <PlatformAdvantagesSection
         title={enterprisePlatformAdvantagesData.title}
@@ -51,8 +51,8 @@ export default function EnterpriseProductsPage() {
         advantages={enterprisePlatformAdvantagesData.advantages}
         description={enterprisePlatformAdvantagesData.description}
       />
-      
-      <RequestDemoSection/>
+
+      <RequestDemoSection />
       <ImplementationCaseStudiesSection />
     </main>
   );

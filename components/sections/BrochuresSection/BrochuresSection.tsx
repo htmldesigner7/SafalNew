@@ -2,9 +2,8 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { mockBrochures } from '@/data/mockBrochures';
 import styles from './BrochuresSection.module.css';
-import { mockBrochures, type Brochure } from '@/data/mockBrochures';
 
 interface FilterItem {
   id: string;
@@ -37,8 +36,8 @@ const DownloadIcon = () => (
 );
 
 export default function BrochuresSection() {
-  const [activeType, setActiveType] = useState<string>('brochures');
-  const [activeTopic, setActiveTopic] = useState<string>('erp-solutions');
+  const [activeType, setActiveType] = useState<string>('');
+  const [activeTopic, setActiveTopic] = useState<string>('');
 
   const [typeOpen, setTypeOpen] = useState(true);
   const [topicOpen, setTopicOpen] = useState(true);

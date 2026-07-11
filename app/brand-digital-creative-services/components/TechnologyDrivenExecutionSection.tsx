@@ -36,8 +36,8 @@ export default function TechnologyDrivenExecutionSection() {
               <Image src="/images/Technology-Driven-Execution-singale3.png" alt="Web Development" width={120} height={120} className={styles.iconImage} />
             </div>
             <div className={styles.textContent}>
-              <h3 className="title_24 mb_10">Web Development</h3>
-              <p className="font_16">Structured website development focused on performance, scalability, and seamless user experience.</p>
+              <h3 className="title_24 mb_10">Mobile Applications</h3>
+              <p className="font_16">Custom mobile applications designed to support business processes, customer engagement, and platform accessibility.</p>
             </div>
           </div>
 
@@ -47,8 +47,8 @@ export default function TechnologyDrivenExecutionSection() {
               <Image src="/images/Technology-Driven-Execution-singale2.png" alt="Web Development" width={120} height={120} className={styles.iconImage} />
             </div>
             <div className={styles.textContent}>
-              <h3 className="title_24 mb_10">Web Development</h3>
-              <p className="font_16">Structured website development focused on performance, scalability, and seamless user experience.</p>
+              <h3 className="title_24 mb_10">E-commerce Solutions</h3>
+              <p className="font_16">End-to-end e-commerce platforms integrating product management, transactions, and user experience within a scalable architecture.</p>
             </div>
           </div>
 

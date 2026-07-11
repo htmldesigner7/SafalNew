@@ -28,10 +28,10 @@ export const EconomicData: IntelligenceData = {
 };
 
 export const whoWeWorkWithData: IntelligenceData = {
-  title: <>Who We<br />Work With</>,
+  title: <>Who We <br />Work With</>,
   description: (
     <>
-      <p>As part of our consulting services for startups, Ideaz Ventures works with:</p>
+      <p>As part of our <b>consulting services for startups,</b> Ideaz Ventures works with:</p>
       <ul>
         <li>Founders building new digital products</li>
         <li>Startups at early and growth stages</li>

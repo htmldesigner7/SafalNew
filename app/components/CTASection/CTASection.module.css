@@ -1,7 +1,6 @@
 .section {
   position: relative;
   overflow: hidden;
-  padding: 80px 0;
   background-color: var(--color-bg-light); 
   display: flex;
   align-items: center;
@@ -19,6 +18,7 @@
   flex: 0 0 850px;
   max-width: 100%;
   position: relative;
+  z-index: 2; /* Ensure text is above image fade if they overlap slightly */
 }
 
 /* This is absolutely positioned to the section, so it sticks to the right side of the screen! */
@@ -27,7 +27,7 @@
   top: 0;
   bottom: 0;
   right: 0;
-  width: 50vw; /* Takes up 55% of the viewport width */
+  width: 50vw; /* Takes up 50% of the viewport width */
   z-index: 1;
   pointer-events: none; /* So it doesn't block text selection */
 }
@@ -48,16 +48,63 @@
   object-position: left center;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 1024px) {
-  .section {
-    padding-bottom: 0;
-  }
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
 
+@media (max-width: 1776px) {
+
+  .textContent {
+    flex: 0 0 800px;
+  }
+}
+
+@media (max-width: 1661px) {
+  .textContent {
+    flex: 0 0 750px;
+  }
+}
+
+@media (max-width: 1537px) {
+
+  .container {
+    min-height: 400px;
+  }
+  .textContent {
+    flex: 0 0 700px;
+  }
+  .graphicContent {
+    width: 48vw;
+  }
+}
+
+@media (max-width: 1441px) {
+  .textContent {
+    flex: 0 0 650px;
+  }
+  .graphicContent {
+    width: 46vw;
+  }
+}
+
+@media (max-width: 1281px) {
+
+  .container {
+    min-height: 380px;
+  }
+  .textContent {
+    flex: 0 0 580px;
+  }
+  .graphicContent {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  
   .container {
     min-height: auto;
   }
-  
   .textContent {
     flex: auto;
     width: 100%;
@@ -73,12 +120,40 @@
   }
   
   .imageWrapper {
-    /* Change fade to top on mobile */
+    /* Change fade to top on tablet/mobile */
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 25%);
     mask-image: linear-gradient(to bottom, transparent 0%, black 25%);
   }
   
   .graphicImage {
     object-position: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .textContent {
+    margin-bottom: 300px;
+  }
+  .graphicContent {
+    height: 300px;
+  }
+}
+
+@media (max-width: 431px) {
+
+  .textContent {
+    margin-bottom: 250px;
+  }
+  .graphicContent {
+    height: 250px;
+  }
+}
+
+@media (max-width: 361px) {
+  .textContent {
+    margin-bottom: 200px;
+  }
+  .graphicContent {
+    height: 200px;
   }
 }

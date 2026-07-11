@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './TimeResourceSection.module.css';
 
@@ -10,7 +10,9 @@ export default function TimeResourceSection() {
   const lastChangeTime = useRef<number>(0);
 
   // Sync ref with state
-  currentValueRef.current = sliderValue;
+  useEffect(() => {
+    currentValueRef.current = sliderValue;
+  }, [sliderValue]);
 
   const animateTo = (target: number) => {
     if (animationRef.current) cancelAnimationFrame(animationRef.current);
@@ -85,7 +87,12 @@ export default function TimeResourceSection() {
               
               {/* The Hint Arrows */}
               <div className={styles.trackHint}>
-                &gt;&gt;&gt;
+               <svg width="248" height="56" viewBox="0 0 248 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.25 10.5L29.75 28L12.25 45.5M26.25 10.5L43.75 28L26.25 45.5" stroke="#C9C5B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.25 10.5L125.75 28L108.25 45.5M122.25 10.5L139.75 28L122.25 45.5" stroke="#C9C5B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M204.25 10.5L221.75 28L204.25 45.5M218.25 10.5L235.75 28L218.25 45.5" stroke="#C9C5B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
               </div>
 
               {/* Invisible Range Input for drag handling */}

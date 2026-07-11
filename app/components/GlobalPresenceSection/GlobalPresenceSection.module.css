@@ -14,7 +14,6 @@
   letter-spacing: -0.5px;
 }
 
-
 .description {
   font-size: 14px;
   color: var(--grey-666);
@@ -54,4 +53,120 @@
 
 .globeImage {
   object-fit: contain;
+}
+
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+========================================= */
+
+@media (max-width: 1776px) {
+  .container {
+    gap: 150px;
+  }
+
+  .globeWrapper {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 1661px) {
+  .container {
+    gap: 100px;
+  }
+
+  .globeWrapper {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1537px) {
+  .container {
+    gap: 80px;
+  }
+
+  .globeWrapper {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1441px) {
+  .container {
+    gap: 60px;
+  }
+
+  .globeWrapper {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .container {
+    gap: 40px;
+  }
+
+  .globeWrapper {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+  }
+
+  .container>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .graphicContent {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .globeWrapper {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    gap: 50px;
+  }
+
+  .globeWrapper {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 431px) {
+  .container {
+    gap: 40px;
+  }
+
+  .globeWrapper {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 361px) {
+  .container {
+    gap: 30px;
+  }
+
+  .globeWrapper {
+    width: 240px;
+    height: 240px;
+  }
 }

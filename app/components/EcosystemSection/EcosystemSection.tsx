@@ -6,61 +6,66 @@ import styles from './EcosystemSection.module.css';
 
 const products = [
   {
-    id: 'datanote',
-    name: 'Datanote',
+    id: 'DataNote',
+    name: 'DataNote',
     image: '/images/digital-product.png',
     logoimage: '/images/datanote-logo.png',
-    description: 'Lorem ipsum dolor sit amet consectetur. Neque id eu cras quam. Tincidunt iaculis pulvinar tellus neque vitae viverra augue nec. Massa odio dignissim sit in dis ac. Id adipiscing faucibus urna senectus e aliquam magna nulla faucibus. Arcu arcu auctor imperdiet nisl amet. In non platea morbi facilisis consectetur nunc maecenas. Sit porta nulla sed non in nibh tellus nisl. Quam eget odio vestibulum bibendum eget vel massa. In nibh imperdiet proin felis senectus viverra vulputate. Sem mattis malesuada blandit sapien sagittis mi. Hac potenti pellentesque sit est urna faucibus tempus tincidunt. Gravida velit aliquet integer lorem libero imperdiet porttitor',
+    description: 'DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.',
+    description2: 'Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.',
     link: '#product'
   },
   {
-    id: 'pos',
-    name: 'POS',
-    image: '/images/digital-product.png',
-    logoimage: '/images/datanote-logo.png',
-    description: 'Optimize your retail operations with our advanced Point of Sale system. Seamlessly manage inventory, process transactions, and gather valuable customer insights in real-time.',
-    link: '#product'
-  },
-  {
-    id: 'formezy',
+    id: 'Formezy',
     name: 'Formezy',
     image: '/images/digital-product.png',
     logoimage: '/images/datanote-logo.png',
-    description: 'Digitize your paperwork and streamline data collection with Formezy. Build custom forms, automate workflows, and securely store submissions in the cloud.',
+    description: 'Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.',
+    description2: 'Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.',
     link: '#product'
   },
   {
-    id: 'crm',
-    name: 'CRM',
-    image: '/images/digital-product.png',
-    logoimage: '/images/datanote-logo.png',
-    description: 'Build stronger relationships with your customers. Our CRM provides a unified view of your interactions, helping you drive sales, improve support, and foster loyalty.',
-    link: '#product'
-  },
-  {
-    id: 'docezy',
+    id: 'Docezy',
     name: 'Docezy',
     image: '/images/digital-product.png',
     logoimage: '/images/datanote-logo.png',
-    description: 'Securely store, organize, and share your critical business documents. Docezy offers robust version control, access management, and seamless collaboration features.',
+    description: 'Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.',
+    description2: 'The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.',
     link: '#product'
   },
   {
-    id: 'erp',
-    name: 'ERP',
-    image: '/images/digital-product.png',
-    logoimage: '/images/datanote-logo.png',
-    description: 'Unify your core business processes with our comprehensive Enterprise Resource Planning suite. Manage finance, HR, supply chain, and manufacturing from a single platform.',
-    link: '#product'
-  },
-  {
-    id: 'tasknote',
+    id: 'Tasknote',
     name: 'Tasknote',
     image: '/images/digital-product.png',
     logoimage: '/images/datanote-logo.png',
-    description: 'Keep your teams aligned and projects on track. Tasknote provides intuitive task management, time tracking, and progress visualization for modern agile teams.',
+    description: 'Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.',
+    description2: 'With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.',
     link: '#product'
-  }
+  },
+  {
+    id: 'ProPulse',
+    name: 'ProPulse',
+    image: '/images/digital-product.png',
+    logoimage: '/images/datanote-logo.png',
+    description: 'ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.',
+    description2: 'The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.',
+    link: '#product'
+  },
+  // {
+  //   id: 'erp',
+  //   name: 'ERP',
+  //   image: '/images/digital-product.png',
+  //   logoimage: '/images/datanote-logo.png',
+  //   description: 'Unify your core business processes with our comprehensive Enterprise Resource Planning suite. Manage finance, HR, supply chain, and manufacturing from a single platform.',
+  //   link: '#product'
+  // },
+  // {
+  //   id: 'tasknote',
+  //   name: 'Tasknote',
+  //   image: '/images/digital-product.png',
+  //   logoimage: '/images/datanote-logo.png',
+  //   description: 'Keep your teams aligned and projects on track. Tasknote provides intuitive task management, time tracking, and progress visualization for modern agile teams.',
+  //   link: '#product'
+  // }
 ];
 
 export default function EcosystemSection() {
@@ -71,7 +76,7 @@ export default function EcosystemSection() {
   return (
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
-        <h2 className="title_60">Our Digital Product Ecosystem</h2>
+        <h2 className="title_60 text-center">Our Digital Product Ecosystem</h2>
 
         {/* Navigation Tabs */}
         <div className={styles.tabsContainer}>
