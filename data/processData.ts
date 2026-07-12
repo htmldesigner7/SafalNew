@@ -2,6 +2,7 @@ export interface ProcessItem {
   id: number;
   title: string;
   description: string;
+  description2?: string;
 }
 
 export const aboutProcessData: ProcessItem[] = [
