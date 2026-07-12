@@ -89,7 +89,8 @@
   .card {
     /* border-left: none; */
     border-right: none;
-    padding: 0 20px;
+    padding: 20px 20px;
+    border-bottom: 1px solid var(--grey-ddd);
   }
 
   .card:last-child
@@ -104,6 +105,5 @@
 }
 
 @media (max-width: 361px) {
-  .card { padding: 0 12px; }
   .imageContainer { margin-bottom: 20px; }
 }

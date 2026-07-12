@@ -164,10 +164,12 @@
   .iconCircle { width: 40px; height: 40px; }
   .iconCircle svg { width: 18px; height: 18px; opacity: 0.3; }
   .decorCircle { transform: scale(0.4); opacity: 0.4; }
+  .logo { margin: 0 auto 0px;}
+
 }
 
 @media (max-width: 431px) {
-  .main { padding: 50px 16px; }
+  .main { padding: 30px 16px; }
   .title { font-size: 26px; }
   .iconCircle { width: 32px; height: 32px; }
   .iconCircle svg { width: 15px; height: 15px; opacity: 0.2; }

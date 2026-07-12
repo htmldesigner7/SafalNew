@@ -41,6 +41,7 @@ export default function BrochuresSection() {
 
   const [typeOpen, setTypeOpen] = useState(true);
   const [topicOpen, setTopicOpen] = useState(true);
+  const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth <= 1025) {
@@ -92,7 +93,7 @@ export default function BrochuresSection() {
         <div className={styles.layoutWrapper}>
           
           {/* Sidebar */}
-          <aside className={styles.sidebar}>
+          <aside className={`${styles.sidebar} ${mobileFilterOpen ? styles.mobileOpen : ''}`}>
             <div className={styles.filterHeader}>
               <span className='title_24'>Filters</span>
               <button onClick={handleClearAll} className={styles.clearAllBtn}>Clear All</button>
@@ -144,6 +145,17 @@ export default function BrochuresSection() {
               )}
             </div>
           </aside>
+
+          {/* Mobile Filter Toggle */}
+          <button 
+            className={styles.mobileFilterToggle} 
+            onClick={() => setMobileFilterOpen(!mobileFilterOpen)}
+          >
+            Filters
+            <svg className={`${styles.accordionIcon} ${mobileFilterOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M1 1.5L6 6.5L11 1.5" />
+            </svg>
+          </button>
 
           {/* Main Content */}
           <div className={styles.mainContent}>

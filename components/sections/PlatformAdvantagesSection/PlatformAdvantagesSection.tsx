@@ -1,4 +1,7 @@
+"use client";
+
 import React from 'react';
+import { motion } from 'framer-motion';
 import styles from './PlatformAdvantagesSection.module.css';
 
 interface Advantage {
@@ -20,27 +23,27 @@ export default function PlatformAdvantagesSection({
   advantages,
   description
 }: PlatformAdvantagesSectionProps) {
-  
+
   const getPath = (position: string) => {
-    switch(position) {
-      case 'top-left': 
+    switch (position) {
+      case 'top-left':
         return 'M 280 140 L 350 140 Q 390 140, 418.3 168.3 L 500 250';
-      case 'middle-left': 
+      case 'middle-left':
         return 'M 250 300 L 480 300.1';
-      case 'bottom-left': 
+      case 'bottom-left':
         return 'M 280 460 L 350 460 Q 390 460, 418.3 431.7 L 500 350';
-      case 'top-right': 
+      case 'top-right':
         return 'M 820 140 L 750 140 Q 710 140, 681.7 168.3 L 600 250';
-      case 'middle-right': 
+      case 'middle-right':
         return 'M 850 300 L 620 300.1';
-      case 'bottom-right': 
+      case 'bottom-right':
         return 'M 820 460 L 750 460 Q 710 460, 681.7 431.7 L 600 350';
       default: return '';
     }
   };
 
   const getPositionClass = (position: string) => {
-    switch(position) {
+    switch (position) {
       case 'top-left': return styles.topLeft;
       case 'middle-left': return styles.middleLeft;
       case 'bottom-left': return styles.bottomLeft;
@@ -62,7 +65,7 @@ export default function PlatformAdvantagesSection({
 
           {/* Circular Advantages Diagram */}
           <div className={styles.circularDiagram}>
-            
+
             {/* SVG Connection Lines */}
             <svg className={styles.connectionLines} viewBox="0 100 1100 400" preserveAspectRatio="xMidYMid meet">
               <defs>
@@ -74,13 +77,28 @@ export default function PlatformAdvantagesSection({
                   <stop offset="0%" stopColor="#bfa99b" />
                   <stop offset="100%" stopColor="#e05f41" />
                 </linearGradient>
+                {advantages.map((adv, index) => (
+                  <mask key={`mask-${adv.id}`} id={`mask-${adv.id}`} maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="600">
+                    <motion.path
+                      d={getPath(adv.position)}
+                      stroke="white"
+                      strokeWidth="4"
+                      fill="none"
+                      initial={{ pathLength: 0 }}
+                      whileInView={{ pathLength: 1 }}
+                      viewport={{ once: true, amount: 0.3 }}
+                      transition={{ duration: 1.5, delay: index * 0.2, ease: "easeInOut" }}
+                    />
+                  </mask>
+                ))}
               </defs>
-              {advantages.map(adv => (
-                <path 
-                  key={`path-${adv.id}`} 
-                  d={getPath(adv.position)} 
-                  className={styles.dashedLine} 
+              {advantages.map((adv) => (
+                <path
+                  key={`path-${adv.id}`}
+                  d={getPath(adv.position)}
+                  className={styles.dashedLine}
                   stroke={`url(#grad${adv.position.includes('left') ? 'Left' : 'Right'})`}
+                  mask={`url(#mask-${adv.id})`}
                 />
               ))}
             </svg>
@@ -94,7 +112,7 @@ export default function PlatformAdvantagesSection({
             {advantages.map((advantage) => {
               const isLeft = advantage.position.includes('left');
               const positionClass = getPositionClass(advantage.position);
-              
+
               return (
                 <div key={advantage.id} className={`${styles.anchor} ${positionClass}`}>
                   <div className={`${styles.advantageItem} ${isLeft ? styles.itemLeft : styles.itemRight}`}>

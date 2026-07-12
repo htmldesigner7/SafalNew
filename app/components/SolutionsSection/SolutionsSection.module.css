@@ -129,48 +129,6 @@
 }
 
 
-/* Responsiveness */
-@media (max-width: 1024px) {
-  .interactiveBlock {
-    flex-direction: column;
-  }
-
-  .tabsCol {
-    flex: none;
-    flex-direction: row;
-    overflow-x: auto;
-    border-right: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .tabBtn {
-    border-bottom: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
-    white-space: nowrap;
-  }
-}
-
-@media (max-width: 768px) {
-  .statsRow {
-    flex-wrap: wrap;
-  }
-
-  .statCard {
-    flex: 0 0 calc(50% - 15px);
-    margin-bottom: 20px;
-  }
-
-  .contentCol {
-    flex-direction: column;
-    padding: 24px;
-  }
-
-  .imageWrapper {
-    width: 100%;
-    flex: none;
-  }
-}
-
 /* =========================================================
    Responsive Breakpoints
    ========================================================= */
@@ -287,12 +245,9 @@
 
 @media (max-width: 769px) {
   .statsRow {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
-  }
-
-  .statCard {
-    flex: 0 0 calc(50% - 12px);
   }
 
   .statValue {
@@ -325,12 +280,8 @@
 
 @media (max-width: 431px) {
   .statsRow {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .statCard {
-    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
   }
 
   .statValue {

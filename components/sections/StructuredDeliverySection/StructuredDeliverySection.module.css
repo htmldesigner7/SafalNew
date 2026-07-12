@@ -133,7 +133,7 @@
 
 @media (max-width: 1025px) {
   .contentWrapper { flex-direction: column; }
-  .stagesList { width: 100%; height: auto; display: flex; flex-direction: column; gap: 20px; }
+  .stagesList { width: 100%; height: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .stageItem { position: static; transform: none; }
   .svgContainer { display: none; }
   /* Show a smaller image on tablets, or hide it if it's too big */
@@ -142,6 +142,8 @@
 
 @media (max-width: 769px) {
   .imageContent { display: none; }
+  .stageItem { background-color: #F4F0E3; border: 1px solid var(--rey-ddd); }
+  .stageNumber { color: #C9C5B8; }
 }
 
 @media (max-width: 431px) {

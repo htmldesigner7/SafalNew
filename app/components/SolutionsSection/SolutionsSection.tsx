@@ -7,7 +7,7 @@ import styles from './SolutionsSection.module.css';
 
 function AnimatedCounter({ value, prefix = "", suffix = "" }: { value: number, prefix?: string, suffix?: string }) {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const isInView = useInView(ref, { once: true, margin: "-10px" });
   const [count, setCount] = useState(0);
 
   useEffect(() => {
