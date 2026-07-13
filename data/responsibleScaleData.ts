@@ -1,0 +1,21 @@
+export const legacyScaleData = {
+  title: "A Legacy of Responsible Scale.",
+  description: "Corporate governance is not just a defensive measure; it is our strategic license to operate and scale across three continents. By enforcing rigorous ethical standards and transparent leadership at every level of the Safal Group, we don't just protect our stakeholders' investments—we build a global enterprise matrix designed to endure for generations.",
+  imageSrc: "/images/responsible_scale.png",
+  imageAlt: "Aerial view of corporate IT park"
+};
+
+export const coExistScale = {
+  title: "We can do more than co-exist.",
+  description: "The Safal Group is not just reducing digital harm; we are engineering a regenerative future. We architect autonomous ecosystems that allow human ambition, enterprise technology, and the natural world to thrive simultaneously.",
+  imageSrc: "/images/responsible_scale.png",
+  imageAlt: "Co-exist ecosystem"
+};
+
+
+export const ArchitectFutureTogether = {
+  title: "Let's Architect the Future, Together",
+  description: "The most complex enterprise challenges cannot be solved in isolation. Whether you are an industry giant looking to modernize legacy systems, or an emerging tech leader looking to scale globally, the Safal Group is ready to align our infrastructure with your vision.",
+  imageSrc: "/images/responsible_scale.png",
+  imageAlt: "Co-exist ecosystem"  
+};

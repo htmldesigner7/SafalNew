@@ -2,7 +2,7 @@ import React from 'react';
 import { BannerCTAData } from '@/components/sections/BannerCTASection/BannerCTASection';
 
 export const startupProductDevBannerData: BannerCTAData = {
-  iconSrc: '/images/logo.svg', 
+  iconSrc: '/images/logo.svg',
   title: (
     <>
       Start Your Product <br />
@@ -13,11 +13,11 @@ export const startupProductDevBannerData: BannerCTAData = {
   description: 'Work with a team delivering startup consulting services and product development through disciplined execution, scalable architecture, and long-term product thinking.',
   buttonText: 'Book a Consultation',
   buttonLink: '/contact',
-  bgImageSrc: '/images/Structured-Advisory-Banner.png', 
+  bgImageSrc: '/images/Structured-Advisory-Banner.png',
 };
 
 export const aiEmergingTechBannerData: BannerCTAData = {
-  iconSrc: '/images/logo.svg', 
+  iconSrc: '/images/logo.svg',
   title: 'Build AI Systems That Drive Business Outcomes',
   description: 'Work with a trusted partner delivering AI consulting services, AI advisory services, and AI business solutions aligned with enterprise requirements. Evaluate how Safal enables structured AI adoption through scalable systems, controlled implementation, and measurable outcomes.',
   buttonText: 'Book a Consultation',

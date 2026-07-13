@@ -1,0 +1,35 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  margin: 0 auto 60px;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1537px) {
+  .description {
+  margin: 0 auto 30px;
+}
+}
+

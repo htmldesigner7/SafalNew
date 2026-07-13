@@ -57,3 +57,10 @@ export const partnershipMatrixData: IntelligenceData = {
   </>,
   buttonText: "Apply for Partnership"
 };
+
+
+export const TheSafalPartnershipMatrixData: IntelligenceData = {
+  title: <>The Safal <br/> Partnership Matrix.</>,
+  description: "A partnership with the Safal Group is an integration into a comprehensive digital powerhouse. You aren't just connecting with a single agency; you are plugging directly into an autonomous ecosystem of industrial IoT, creative strategy, financial advisory, and elite software engineering. Together, we engineer an unfair market advantage.",
+  buttonText: "Apply for Partnership"
+};
