@@ -76,7 +76,7 @@ export default function TimeResourceSection() {
         <div className={styles.header}>
           <h2 className={`title_60 ${styles.title}`}>Time to Make the Switch</h2>
           <p className={styles.subtitle}>
-            Transitioning from rigid legacy monoliths to Safal&apos;s autonomous microservices doesn&apos;t just accelerate your operations—it instantly decarbonizes your digital infrastructure.
+            Transitioning from rigid legacy systems to intelligent, modular architectures doesn’t just improve performance; it directly reduces your carbon footprint.
           </p>
         </div>
         
@@ -147,7 +147,7 @@ export default function TimeResourceSection() {
                style={{ color: `rgba(76, 175, 80, ${progress + 0.3})` }}
                onClick={() => animateTo(100)}
              >
-               Frictionless, Decarbonized Scaling.
+               Efficient, Sustainable Scaling
              </button>
           </div>
         </div>
@@ -157,20 +157,20 @@ export default function TimeResourceSection() {
            <div className={styles.contentBox} style={{ opacity: 1 - progress, pointerEvents: sliderValue < 50 ? 'auto' : 'none', zIndex: sliderValue < 50 ? 2 : 1 }}>
               <h3 className={styles.contentTitle}>The Cost of Bloated Code</h3>
               <p className={styles.contentText}>
-                Traditional enterprise systems are heavy, fragmented, and computationally exhaustive. Every inefficient data query, legacy monolith, and redundant API call forces global server farms to burn excess energy. This creates a massive, invisible carbon footprint that quietly drains both your profit margins and the planet&apos;s resources.
+                Traditional enterprise systems are fragmented, resource-intensive, and inefficient. Redundant processes, heavy architectures, and excessive data loads increase computational demand, leading to higher energy consumption and operational inefficiencies.
               </p>
               <p className={styles.contentText}>
-                Lorem ipsum dolor sit amet consectetur. Ultrices est in sollicitudin non tristique vel. Non cursus ac molestie lacus eget. Habitant pretium orci mattis et a gravida. Faucibus vitae lectus nibh scelerisque sed viverra vitae aliquam et. A lobortis diam luctus scelerisque. Malesuada nunc ac mattis quis dui condimentum turpis. In gravida adipiscing mauris donec eu ultrices sit pellentesque massa. Lorem ipsum
+                This not only slows down performance but also creates hidden environmental and financial costs. Over time, these inefficiencies compound, impacting scalability, profitability, and long-term sustainability across digital infrastructure.
               </p>
            </div>
 
            <div className={styles.contentBox} style={{ opacity: progress, pointerEvents: sliderValue >= 50 ? 'auto' : 'none', zIndex: sliderValue >= 50 ? 2 : 1 }}>
-              <h3 className={styles.contentTitle}>Frictionless, Decarbonized Scaling.</h3>
+              <h3 className={styles.contentTitle}>Efficient, Sustainable Scaling</h3>
               <p className={styles.contentText}>
-                We are engineering a shift toward a true circular digital economy. By extending hardware lifecycles through predictive AI, optimizing cloud computing loads, and designing autonomous systems that mimic nature&apos;s zero-waste loops, Safal is coding the countdown to a regenerative enterprise.
+                Modern enterprise systems built on streamlined architectures are optimized for performance, efficiency, and scalability. By reducing redundancy, enabling intelligent workflows, and optimizing data processing, organizations can significantly lower computational load and energy consumption.
               </p>
               <p className={styles.contentText}>
-                Lorem ipsum dolor sit amet consectetur. Ultrices est in sollicitudin non tristique vel. Non cursus ac molestie lacus eget. Habitant pretium orci mattis et a gravida. Faucibus vitae lectus nibh scelerisque sed viverra vitae aliquam et. A lobortis diam luctus scelerisque. Malesuada nunc ac mattis quis dui condimentum turpis. In gravida adipiscing mauris donec eu ultrices sit pellentesque massa. Lorem ipsum
+                This results in faster execution, improved system reliability, and a reduced environmental footprint. With efficient scaling, businesses not only enhance performance but also build sustainable digital ecosystems that support long-term growth and operational resilience.
               </p>
            </div>
         </div>

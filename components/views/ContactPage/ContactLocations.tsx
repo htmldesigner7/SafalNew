@@ -18,8 +18,9 @@ export default function ContactLocations() {
             <div className={`${styles.textContent}`}>
               <h2 className="title_60">A Global Footprint. A Local Partnership.</h2>
               <p className={styles.description}>
-                With strategic hubs across India, the UAE, and the USA, Safal infuses world-class execution with localized insight. Reach out to the office nearest you to discuss how our integrated divisions can scale your enterprise globally.
+                With strategic hubs across India, the UAE, and the USA, Safal delivers global execution with localized understanding.
               </p>
+              <p>Engage with the team closest to you, and scale with a partner that operates without boundaries.</p>
             </div>
 
             <div className={styles.locationsContainer}>

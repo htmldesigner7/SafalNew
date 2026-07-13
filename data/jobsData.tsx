@@ -14,60 +14,73 @@ export interface JobCard {
 
 export const jobsData: JobCard[] = [
   {
-    id: "senior-full-stack",
-    title: "Senior Full-Stack Engineer",
-    description: "Architect and develop scalable, high-performance web applications for our global enterprise clients using modern JavaScript frameworks.",
+    id: "sql-developer",
+    title: "SQL Developer",
+    description: "Design and optimize high-performance database systems that power enterprise applications, ensuring stability, speed, and scalability across critical operations.",
     department: "Engineering & Tech",
     location: "Ahmedabad, India",
     type: "Full-Time",
-    experience: "5+ Years",
-    overview: "We are seeking a highly skilled Senior Full-Stack Engineer to join our core development team. In this role, you will be responsible for building and maintaining robust, scalable enterprise software solutions. You will work closely with cross-functional teams, including product managers and UX designers across our global hubs, to deliver high-quality digital products that solve complex business challenges. This role requires a deep understanding of modern web architecture and a passion for writing clean, efficient code.",
+    experience: "0–1 Year",
+    overview: <>
+    <p>We are looking for an SQL Developer who can design, optimize, and maintain high-performance database systems that support enterprise-grade applications. In this role, you will work closely with developers and internal teams to ensure database stability, reliability, and efficiency across all operations.</p>
+    <p>You will play a key role in improving query performance, maintaining data integrity, and ensuring that database systems scale seamlessly with business needs.</p>
+    </>,
     keyResponsibilities: [
-      "Architect, develop, and deploy scalable web applications using React.js and Node.js.",
-      "Collaborate seamlessly with our global UI/UX and product teams to translate design prototypes into functional, responsive software.",
-      "Optimize enterprise applications for maximum speed, scalability, and zero-downtime reliability.",
-      "Identify and resolve complex technical bottlenecks within large-scale data systems.",
-      "Mentor junior developers and enforce elite coding standards across the engineering department."
+      "Write, optimize, and maintain complex SQL queries for application performance.",
+      "Ensure database performance, security, and availability across systems.",
+      "Manage database operations including backup, recovery, and migration.",
+      "Design and maintain database structures aligned with application requirements.",
+      "Collaborate with development teams to improve in-application database usage."
     ],
     tasksAndResponsibilities: [
-      "Write clean, modular, and extensively tested code in accordance with agile development methodologies.",
-      "Design and implement secure RESTful APIs and handle complex third-party system integrations.",
-      "Conduct rigorous peer code reviews to maintain high-quality software architecture.",
-      "Manage cloud deployments and monitor system performance using modern CI/CD pipelines.",
-      "Participate in weekly global engineering sprints and technical strategy sessions."
+      "Monitor and optimize database performance and resource utilization.",
+      "Handle database upgrades, troubleshooting, and issue resolution.",
+      "Maintain documentation, schemas, and data flow structures (DFDs).",
+      "Work with MS SQL Server and reporting tools like Crystal Reports.",
+      "Ensure adherence to best practices in database management and optimization."
     ],
     skillsAndExperience: [
-      "5+ years of professional experience in full-stack web development.",
-      "Deep proficiency in modern JavaScript (ES6+), React.js, Node.js, and TypeScript.",
-      "Strong experience designing and managing relational and NoSQL databases (PostgreSQL, MongoDB).",
-      "Hands-on experience with cloud platforms (AWS or Azure) and containerization (Docker/Kubernetes).",
-      "Excellent problem-solving skills and the ability to communicate technical concepts to non-technical stakeholders."
+      "Strong proficiency in SQL and relational database systems.",
+      "Familiarity with MS SQL Server and database optimization techniques.",
+      "Ability to handle complex queries and large datasets efficiently.",
+      "Understanding of database design, indexing, and performance tuning.",
+      "Basic knowledge of ERP systems and data structures.",
+      "Familiarity with Git or version control systems is a plus"
     ]
   },
   {
-    id: "lead-product-designer",
-    title: "Lead Product Designer (UI/UX)",
-    description: "Drive the visual and interaction design for complex digital ecosystems. Transform dense operational data into intuitive, award-winning user experiences.",
-    department: "Creative Strategy",
-    location: "Dubai, UAE",
+    id: "pre-sales-executive",
+    title: "Pre-Sales Executive (IT)",
+    description: "Drive strategic growth by connecting enterprise needs with tailored technology solutions, owning the journey from first conversation to successful deal closure.",
+    department: "Sales & Strategy",
+    location: " Ahmedabad, India",
     type: "Full-Time",
-    experience: "7+ Years",
-    overview: "We are looking for a visionary Lead Product Designer to shape the future of our enterprise software. You will lead the design process from concept to execution...",
-    keyResponsibilities: ["Lead UI/UX design for flagship products.", "Conduct user research and usability testing."],
-    tasksAndResponsibilities: ["Create wireframes, prototypes, and high-fidelity mockups.", "Collaborate with engineering teams for implementation."],
-    skillsAndExperience: ["7+ years in Product Design.", "Expertise in Figma, Sketch, and Adobe Creative Suite."]
+    experience: "1–2 Years",
+    overview: <>
+    <p>We are looking for a Pre-Sales Executive who can bridge business needs with technology solutions. In this role, you will drive lead generation, engage with potential clients, and support the end-to-end sales cycle by positioning the right solutions for the right problems.</p>
+    <p>You will work closely with sales, product, and technical teams to create meaningful conversations, build pipelines, and convert opportunities into long-term partnerships.</p>
+    </>,
+    keyResponsibilities: [
+      "Identify, qualify, and engage potential clients through data-driven prospecting.", 
+      "Build and manage a strong pipeline through outreach and lead generation.",
+      "Schedule and conduct discovery calls, demos, and client interactions.",
+      "Collaborate with internal teams to align solutions with client requirements.",
+      "Drive conversations with decision-makers including CXOs and IT leaders.",
+    ],
+    tasksAndResponsibilities: [
+      "Use platforms like LinkedIn and Apollo for data profiling and lead generation.",
+      "Execute targeted marketing and outreach campaigns.",
+      "Develop content and messaging tailored to different customer personas.",
+      "Manage CRM tools to track pipeline performance and optimize conversions.",
+      "Represent the company in webinars, meetings, and industry interactions.",
+    ],
+    skillsAndExperience: [
+      "1–2 years of experience in IT sales, pre-sales, or consulting.",
+      "Strong understanding of technology concepts (cloud, APIs, digital transformation).",
+      "Excellent communication and storytelling skills.",
+      "Experience with CRM tools like HubSpot or Salesforce.",
+      "Ability to manage end-to-end sales cycles from prospecting to closure.",
+      "MBA or relevant degree preferred.",
+    ]
   },
-  {
-    id: "cloud-solutions-architect",
-    title: "Cloud Solutions Architect",
-    description: "Design, deploy, and manage secure, resilient cloud infrastructure. Ensure seamless data migration and zero-trust security for our multi-continent hubs.",
-    department: "Cloud Infrastructure",
-    location: "New York, USA",
-    type: "Full-Time",
-    experience: "8+ Years",
-    overview: "We are hiring a Cloud Solutions Architect to design and oversee our global cloud infrastructure...",
-    keyResponsibilities: ["Design scalable cloud architectures.", "Ensure security and compliance of cloud environments."],
-    tasksAndResponsibilities: ["Deploy and manage infrastructure using Terraform.", "Optimize cloud costs and performance."],
-    skillsAndExperience: ["8+ years in Cloud Architecture.", "AWS or Azure Certifications.", "Experience with Kubernetes and CI/CD."]
-  }
 ];

@@ -37,6 +37,16 @@ export default function SpeedQualitySection({ data }: SpeedQualitySectionProps) 
                         ))}
                       </div>
                     )}
+
+                       {isActive && item.paralist && (
+                      <div className={styles.itemContent}>
+                        <ul>
+                          {item.paralist.map((li, i) => (
+                            <li key={i} className={styles.listItem}>{li}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 );
               })}

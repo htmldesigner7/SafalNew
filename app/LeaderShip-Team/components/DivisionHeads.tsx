@@ -3,13 +3,13 @@ import styles from './DivisionHeads.module.css';
 
 const headsData = [
   { name: "Ahmed Vidha", role: "COO", image: "" },
-  { name: "Mayur Makwana", role: "CEO", image: "/images/2.webp" },
+  { name: "Aabid Vidha", role: "Head of Digital Marketing", image: "/images/2.webp" },
   { name: "Kashyap Parikh", role: "R&D Head", image: "" },
   { name: "Kushal Gohel", role: "AI Developer", image: "" },
-  { name: "Mital Gandhi", role: "Head of UI/UX", image: "" },
-  { name: "Payal Dave", role: "HR", image: "" },
-  { name: "Rohit Sharma", role: "Implementation Head", image: "" },
-  { name: "Ravi Jadav", role: "Development Head", image: "" }
+  // { name: "Mital Gandhi", role: "Head of UI/UX", image: "" },
+  // { name: "Payal Dave", role: "HR", image: "" },
+  // { name: "Rohit Sharma", role: "Implementation Head", image: "" },
+  // { name: "Ravi Jadav", role: "Development Head", image: "" }
 ];
 
 const DivisionHeads = () => {
@@ -19,7 +19,7 @@ const DivisionHeads = () => {
         <div className="header_sec mb_40">
           <h2 className="title_60">The Division Heads</h2>
           <p>
-            The directors, strategists, and division heads executing Safal Infosoft&apos;s global mandate across technology, design, and operations.
+            The leaders driving execution across Safal Infosoft’s global ecosystem—combining domain expertise with strategic ownership.
           </p>
         </div>
         <div className={styles.grid}>

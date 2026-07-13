@@ -28,7 +28,7 @@ export default function FinancialAccountingSolutionsPage() {
       <ImageCardsSection data={StructuredFinancialWorkflows} />
 
       <ProcessSection
-        title="Startup Support Services" 
+        title="Operational Accounting Support" 
         data={startupSupportServices} 
         mainColor="#8BB174" 
         accentColor="#5A8A44"

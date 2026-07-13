@@ -33,53 +33,53 @@ export const StructuredFinancialWorkflows: ImageCardsData = {
   title: "Structured Financial Workflows",
   cards: [
     {
-      id: "enterprise-ai",
-      title: "Enterprise AI",
-      description: "Deployment of enterprise AI solutions across systems, workflows, and operational environments",
+      id: "order-to-cash",
+      title: "Order to Cash (O2C)",
+      description: "Delivery of structured O2C services including invoicing, receivables management, collections, and cash application with defined process control.",
       imageSrc: "/images/applied-enterprise-ai.png",
-      imageAlt: "Enterprise AI"
+      imageAlt: "Order to Cash"
     },
     {
-      id: "process-automation",
-      title: "Process Automation",
-      description: "Automation of repetitive processes using AI and machine learning services to improve efficiency and consistency.",
+      id: "procure-to-pay",
+      title: "Procure to Pay (P2P)",
+      description: "Management of procurement, vendor payments, and expense workflows within controlled accounting systems.",
       imageSrc: "/images/applied-process-automation.png",
-      imageAlt: "Process Automation"
+      imageAlt: "Procure to Pay"
     },
     {
-      id: "data-intelligence",
-      title: "Data Intelligence",
-      description: "Extraction of actionable insights from enterprise data to support decision making and performance optimization.",
+      id: "record-to-report",
+      title: "Record to Report (R2R)",
+      description: " Financial reporting, reconciliation, and closing processes aligned with accounting standards and compliance frameworks.",
       imageSrc: "/images/applied-data-intelligence.png",
-      imageAlt: "Data Intelligence"
+      imageAlt: "Record to Report"
     }
   ]
 };
 
 
 export const StandardizedControlledExecution: ImageCardsData = {
-  title: "Structured Financial Workflows",
+  title: "Standardized and Controlled Execution",
   cards: [
     {
-      id: "enterprise-ai",
-      title: "Enterprise AI",
-      description: "Deployment of enterprise AI solutions across systems, workflows, and operational environments",
+      id: "automation",
+      title: "Automation",
+      description: "Reduced manual intervention through structured systems.",
       imageSrc: "/images/applied-enterprise-ai.png",
-      imageAlt: "Enterprise AI"
+      imageAlt: "Automation"
     },
     {
-      id: "process-automation",
-      title: "Process Automation",
-      description: "Automation of repetitive processes using AI and machine learning services to improve efficiency and consistency.",
+      id: "accuracy",
+      title: "Accuracy",
+      description: "Controlled processes ensuring financial data integrity.",
       imageSrc: "/images/applied-process-automation.png",
-      imageAlt: "Process Automation"
+      imageAlt: "Accuracy"
     },
     {
-      id: "data-intelligence",
-      title: "Data Intelligence",
-      description: "Extraction of actionable insights from enterprise data to support decision making and performance optimization.",
+      id: "compliance",
+      title: "Compliance",
+      description: "Alignment with regulatory and reporting requirements.",
       imageSrc: "/images/applied-data-intelligence.png",
-      imageAlt: "Data Intelligence"
+      imageAlt: "Compliance"
     }
   ]
 };

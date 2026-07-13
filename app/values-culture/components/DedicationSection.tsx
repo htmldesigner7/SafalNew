@@ -13,11 +13,15 @@ export interface DedicationSectionProps {
 }
 
 export default function DedicationSection({
-  title1 = "Behind Every Global Innovation Stands the Unmatched Dedication of",
+  title1 = "Behind Every Global Innovation Stands the Dedication of",
   title2 = "Our People.",
   thankYouText = "Thank You.",
-  subText = "Lorem ipsum dolor sit amet consectetur.",
-  description = "We architect world-class software and engineer enterprise ecosystems, but our true intellectual property is human. To the developers, strategists, designers, and visionaries across India, the UAE, and the USA—thank you. Your relentless drive, cross-border collaboration, and commitment to excellence are the bedrock of the Safal Group. You don't just work here; you are the very fabric of our success. Meet the brilliant minds building the future of digital business.",
+  subText = "for being the force behind our progress.",
+  description = <>
+  <p>We architect world-class systems, but our true strength lies in the people behind them. Across regions and disciplines, our teams bring together deep expertise, relentless curiosity, and a shared commitment to excellence.</p>
+  <p>From engineers and strategists to designers and operators, every individual contributes to a culture built on trust, collaboration, and continuous improvement.</p>
+  <p>At Safal, you are not part of a system; you are what powers it.</p>
+  </>,
   imageSrc = "/images/Installation_Shape__The_202603281531 (1) 1.webp", // Placeholder
   imageAlt = "Dedication Graphic Collage"
 }: DedicationSectionProps) {

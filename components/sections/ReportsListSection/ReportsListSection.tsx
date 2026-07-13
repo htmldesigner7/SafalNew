@@ -17,8 +17,11 @@ interface ReportsData {
 }
 
 export const reportsDataMock: ReportsData = {
-  title: "A Borderless Brain-Trust.",
-  description: "Talent is not restricted by geography. Our operational infrastructure allows a systems architect in New York to collaborate flawlessly in real-time with a UI/UX director in Dubai and a low-code engineering lead in Ahmedabad. We operate as a singular, synchronized global team, ensuring you are always learning from the best minds in the industry.",
+  title: "A Borderless Brain-Trust",
+  description: <>
+  <p>Capital and capability operate without boundaries.</p>
+  <p>Our global structure connects financial oversight, operational leadership, and strategic execution across key markets, ensuring that reporting is not fragmented, but unified. From New York to Dubai to Ahmedabad, our teams function as one synchronized system, delivering clarity, consistency, and accountability at scale.</p>
+  </>,
   tabs: ["Annual Reports", "Quarterly Results", "Financial Presentations", "CSR Reports"],
   items: {
     "Annual Reports": [

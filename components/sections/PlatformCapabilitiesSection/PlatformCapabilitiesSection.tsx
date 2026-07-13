@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './PlatformCapabilitiesSection.module.css';
+import { div } from 'framer-motion/client';
 
 export default function PlatformCapabilitiesSection() {
   const graphicData = [
@@ -29,6 +30,7 @@ export default function PlatformCapabilitiesSection() {
     "Secure, governed system environments",
     "Multi-user, multi-location operational capability",
   ];
+
 
   return (
     <section className={"mt_80"}>

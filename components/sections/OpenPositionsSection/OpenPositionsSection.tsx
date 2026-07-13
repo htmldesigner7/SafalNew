@@ -21,8 +21,10 @@ export default function OpenPositionsSection() {
         <div className={`${styles.header} text-center`}>
           <h2 className="title_60">A Borderless Brain-Trust.</h2>
           <p>
-            Talent is not restricted by geography. Our operational infrastructure allows a systems architect in New York to collaborate flawlessly in real-time with a UI/UX director in Dubai and a low-code engineering lead in Ahmedabad. We operate as a singular, synchronized global team, ensuring you are always learning from the best minds in the industry.
+            Talent is not bound by geography, and neither are we.
           </p>
+          <p>Our global infrastructure enables seamless collaboration across continents. Work alongside architects in New York, strategists in Dubai, and engineering leads in Ahmedabad, all within a unified, real-time ecosystem.</p>
+          <p>You are not joining a team in one location, you are joining a synchronized global network of high-performance operators.</p>
 
           <div className={styles.filterWrapper}>
             <div className={styles.customDropdownContainer}>

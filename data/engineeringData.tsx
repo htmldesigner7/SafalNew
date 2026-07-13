@@ -18,71 +18,71 @@ export const engineeringData: EngineeringContent = {
     {
       id: "logistics",
       number: "01.",
-      subtitle: "Sector / Logistics",
+      subtitle: "",
       title: "Autonomous Logistics",
-      description: "Eliminating bottlenecks through Industrial IoT and predictive machine learning.",
-      imageSrc: "/images/Relentless-Velocity.webp"
+      description: "Optimizing movement through intelligent systems and predictive operations.",
+      imageSrc: "/images/Relentless-Velocity.webp" 
     },
     {
       id: "finance",
       number: "02.",
-      subtitle: "Sector / Finance",
+      subtitle: "",
       title: "Decentralized Security",
-      description: "Balancing seamless API integrations with military-grade zero-trust frameworks.",
+      description: "Building trust through zero-trust frameworks and resilient architectures.",
       imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual security icon
     },
     {
       id: "corporate",
       number: "03.",
-      subtitle: "Sector / Corporate",
+      subtitle: "",
       title: "Enterprise Ecosystems",
-      description: "Building cohesive digital narratives that drive deep institutional investor confidence.",
+      description: "Creating connected systems that drive institutional scale and efficiency.",
       imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual ecosystem icon
     },
     {
       id: "industrial",
       number: "04.",
-      subtitle: "Sector / Industrial",
+      subtitle: "",
       title: "Low-Code Agility",
-      description: "Transitioning legacy monoliths into agile micro-services without halting production.",
+      description: "Transforming legacy systems into adaptable, high-performance environments.",
       imageSrc: "/images/Relentless-Velocity.webp" // Placeholder icon, replace with actual agility icon
     }
   ]
 };
 
 export const joinTeamData: EngineeringContent = {
-  title: "Why you Should Join Our Awesome Team",
+  title: "Why You Should Join Our Team",
   cards: [
     {
       id: "dynamic-equilibrium",
       number: "01.",
-      subtitle: "Sector / Logistics",
+      subtitle: "",
       title: "Dynamic Equilibrium",
-      description: "Elite performance requires deep recovery. We champion flexible working models and mandatory disconnects to prevent burnout and sustain focus.",
+      description: "Elite performance requires balance. We champion flexible work structures and intentional downtime, ensuring sustained focus without burnout.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "psychological-safety",
       number: "02.",
-      subtitle: "Sector / Finance",
+      subtitle: "",
       title: "Psychological Safety",
-      description: "True innovation requires risk. We cultivate an environment where bold ideas are stress-tested, and failure is treated as a data point, not a career setback.",
+      description: "Innovation requires courage. We foster an environment where ideas are tested openly, and failure is treated as insight—not limitation.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "mastery-fund",
       number: "03.",
-      subtitle: "Sector / Corporate",
+      subtitle: "",
       title: "The Mastery Fund",
-      description: "We don&apos;t just offer training; we provide a dedicated annual budget for every team member to pursue global certifications and master bleeding-edge technologies.",
+      description: "Growth is engineered. Every team member gets access to dedicated learning resources, certifications, and opportunities to master emerging technologies.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "global-mobility",
       number: "04.",
-      subtitle: "Sector / Industrial",
+      subtitle: "",
       title: "Global Mobility",
-      description: "Prove your impact, and the world opens up. We offer cross-continental project collaboration and rotations between our US, UAE, and Indian hubs.",
+      description: "Your work travels. Collaborate across geographies, contribute to global projects, and explore opportunities across our international hubs.",
       imageSrc: "/images/blogs-inner.webp"
     }
   ]
@@ -94,71 +94,71 @@ export const blueprintData: EngineeringContent = {
     {
       id: "strategic-mentorship",
       number: "01.",
-      subtitle: "Lorem",
+      subtitle: "",
       title: "Strategic Mentorship",
-      description: "You are paired 1-on-1 with a Senior Architect or Director. No generic bootcamps—just targeted, high-level career acceleration and unfiltered feedback.",
+      description: "Work directly with senior architects and leaders in focused 1-on-1 environments. No generic training, only high-impact guidance and real feedback.",
       imageSrc: "/images/Relentless-Velocity.webp"
     },
     {
       id: "live-enterprise",
       number: "02.",
-      subtitle: "Lorem",
+      subtitle: "",
       title: "Live Enterprise Projects",
-      description: "Forget dummy data. You will contribute to live codebases, active client campaigns, and high-stakes venture incubations that impact the real world.",
+      description: "Contribute to active client systems, production codebases, and venture initiatives that operate in real-world conditions.",
       imageSrc: "/images/Relentless-Velocity.webp"
     },
     {
       id: "bleeding-edge",
       number: "03.",
-      subtitle: "Lorem",
+      subtitle: "",
       title: "Bleeding-Edge Tech",
-      description: "Gain hands-on exposure to the technologies defining the next decade: proprietary low-code frameworks, predictive AI modeling, and Industrial IoT.",
+      description: "Gain exposure to advanced technologies including low-code frameworks, AI systems, automation pipelines, and industrial IoT.",
       imageSrc: "/images/Relentless-Velocity.webp"
     },
     {
       id: "fast-track",
       number: "04.",
-      subtitle: "Lorem ipsum",
+      subtitle: "",
       title: "The Fast Track",
-      description: "Our internship is our ultimate talent pipeline. Exceptional performers bypass standard recruiting and receive direct offers to join the matrix full-time upon graduation.",
+      description: "Top performers transition directly into full-time roles, bypassing traditional hiring cycles and integrating into core teams.",
       imageSrc: "/images/Relentless-Velocity.webp"
     }
   ]
 };
 
 export const financialReportData: EngineeringContent = {
-  title: "Financial Data & Reporting.",
+  title: "Financial Data & Reporting",
   cards: [
     {
       id: "quarterly-earnings",
       number: "01.",
-      subtitle: "Lorem",
+      subtitle: "",
       title: "Quarterly Earnings",
-      description: "Access our latest quarterly financial results, executive webcasts, and earnings call transcripts.",
+      description: "Access detailed quarterly performance, including financial statements, earnings calls, and executive insights.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "corporate-governance",
-      number: "01.",
-      subtitle: "Lorem",
+      number: "02.",
+      subtitle: "",
       title: "Corporate Governance",
-      description: "Review our board of directors, executive committee charters, and strict corporate code of ethics.",
+      description: "Review board structures, governance policies, compliance frameworks, and ethical standards guiding our operations.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "annual-reports",
-      number: "01.",
-      subtitle: "Lorem",
+      number: "03.",
+      subtitle: "",
       title: "Annual Reports",
-      description: "Deep dive into our yearly performance metrics, audited financials, and strategic shareholder letters.",
+      description: "Explore comprehensive yearly performance, audited financials, and strategic outlooks.",
       imageSrc: "/images/blogs-inner.webp"
     },
     {
       id: "esg-disclosures",
-      number: "01.",
-      subtitle: "Lorem ipsum",
+      number: "04.",
+      subtitle: "",
       title: "ESG Disclosures",
-      description: "Track our measurable progress toward our 2040 Net-Zero mandates and global social impact initiatives.",
+      description: "Track measurable progress across environmental, social, and governance initiatives aligned with long-term sustainability goals.",
       imageSrc: "/images/blogs-inner.webp"
     }
   ]
@@ -178,7 +178,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
     },
     {
       id: "corporate-governance",
-      number: "01.",
+      number: "02.",
       subtitle: "",
       title: "Due Diligence for Investment Decisions",
       description: "Evaluation of financial, operational, and compliance factors to support investment decisions.",
@@ -186,7 +186,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
     },
     {
       id: "annual-reports",
-      number: "01.",
+      number: "03.",
       subtitle: "",
       title: "Valuation & Transaction Support",
       description: "Delivery of business valuation and financial advisory services across transaction scenarios and investment processes.",
@@ -194,7 +194,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
     },
     {
       id: "esg-disclosures",
-      number: "01.",
+      number: "04.",
       subtitle: "",
       title: "Internal Audit & Compliance Review",
       description: "Assessment of internal systems and controls to strengthen governance and reduce risk exposure.",
@@ -243,38 +243,38 @@ export const appliedImplementationsData: EngineeringContent = {
 
 
 export const collaborativeEcosystemsData: EngineeringContent = {
-  title: 'Applied Industrial Implementations',
+  title: 'Collaborative Ecosystems',
   cards: [
     {
-      id: "production-line",
+      id: "integrations",
       number: "01.",
       subtitle: "",
-      title: "Production Line Automation",
-      description: "Improved production efficiency and process consistency.",
+      title: "Technology Integrations",
+      description: "Integrate your platforms, products, or specialized systems into Safal’s ecosystem to deliver high-performance, enterprise-ready solutions at scale.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "real-time-monitoring",
+      id: "channel",
       number: "02.",
       subtitle: "",
-      title: "Real-Time Monitoring Systems",
-      description: "Visibility into machine performance and operations.",
+      title: "Channel & Go-To-Market",
+      description: "Expand your global footprint through Safal’s presence across the US, UAE, and India, enabling faster market entry and accelerated growth.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "predictive-maintenance",
+      id: "co-innovation",
       number: "03.",
       subtitle: "",
-      title: "Predictive Maintenance Systems",
-      description: "Reduced downtime through early fault detection.",
+      title: "Venture & Co-Innovation",
+      description: "Partner with our innovation ecosystem to co-build new products, scale ventures, and bring emerging solutions to market with execution backing.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "energy-monitoring",
+      id: "implementation-experts",
       number: "04.",
       subtitle: "",
-      title: "Energy Monitoring & Optimization",
-      description: "Improved efficiency and reduced operational costs.",
+      title: "Implementation Experts",
+      description: "Join as a certified implementation partner to deploy enterprise systems, automation frameworks, and digital transformation initiatives across industries.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     }
   ]

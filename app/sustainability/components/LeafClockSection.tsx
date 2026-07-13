@@ -12,14 +12,14 @@ export default function LeafClockSection() {
             <h2 className={`title_60 ${styles.title}`}>Time is our Ultimate Non-Renewable Resource.</h2>
             <div className={styles.description}>
               <p>
-                Traditional enterprise systems are heavy, fragmented, and computationally exhaustive. Every inefficient data query, legacy monolith, and redundant API call forces global server farms to burn excess energy. This creates a massive, invisible carbon footprint that quietly drains both your profit margins and the planet&apos;s resources.
+                Inefficient systems don’t just waste energy; they waste time, the most critical resource in modern enterprise. Legacy architectures slow innovation cycles, increase operational overhead, and create long-term sustainability challenges.
               </p>
               <p>
-                We are engineering a shift toward a true circular digital economy. By extending hardware lifecycles through predictive AI, optimizing cloud computing loads, and designing autonomous systems that mimic nature&apos;s zero-waste loops, Safal is coding the countdown to a regenerative enterprise.
+                Safal is engineering a transition toward circular digital systems. By extending infrastructure lifecycles through intelligent automation, optimizing compute loads, and designing self-improving architectures, we enable enterprises to operate more efficiently and with reduced environmental impact.
               </p>
             </div>
             <div className={styles.pill}>
-              Our target for a 100% Net-Zero operational matrix across all global hubs.
+              Our target: a 100% net-zero operational matrix across global hubs.
             </div>
           </div>
 
