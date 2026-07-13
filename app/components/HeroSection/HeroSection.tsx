@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import HeroGraphic from './HeroGraphic';
 import styles from './HeroSection.module.css';
 
 export default function HeroSection() {
@@ -22,16 +23,7 @@ export default function HeroSection() {
 
         {/* Right Column - Visual Graphic */}
         <div className={styles.visualContent}>
-          <div className={styles.graphicWrapper}>
-            <Image
-              src="/images/hero-right.png"
-              alt="Hero Graphic Full"
-              width={650}
-              height={650}
-              className={styles.fullImage}
-              priority
-            />
-          </div>
+          <HeroGraphic />
         </div>
       </div>
     </section>
