@@ -18,13 +18,12 @@ export default function IndustriesWeServePage() {
         imageSrc="/images/INDUSTRIES/INDUSTIRES.webp"
         imageAlt="Industry-Aligned Digital Systems"
       />
-      <div style={{ backgroundColor: '#FCFAF2', paddingBottom: '80px' }}>
+      
         <IndustryMarqueeSection />
 
         {allIndustriesData.map((data, index) => (
           <IndustryDetailSection key={index} data={data} />
         ))}
-      </div>
     </main>
   );
 }

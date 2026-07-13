@@ -13,18 +13,19 @@ export interface IndustryDetailData {
 }
 
 export default function IndustryDetailSection({ data }: { data: IndustryDetailData }) {
+  const sectionId = data.title.toLowerCase().replace(/\s+/g, '-');
   return (
-    <section className="mt_40">
+    <section id={sectionId} className="mt_80" style={{ scrollMarginTop: '120px' }}>
       <div className="container-1600">
         <div className={`${styles.grid} ${data.reverse ? styles.reverse : ''}`}>
           
           {/* Content Column */}
           <div className={styles.contentCol}>
-            <h2 className={styles.title}>{data.title}</h2>
+            <h2 className="title_40">{data.title}</h2>
             
-            <div className={styles.paragraphs}>
+            <div >
               {data.paragraphs.map((p, index) => (
-                <p key={index} className={styles.paragraph}>{p}</p>
+                <p key={index} className="desc_18">{p}</p>
               ))}
             </div>
 
