@@ -15,37 +15,37 @@ export interface CultureContent {
 
 export const cultureData: CultureContent = {
   title: "The DNA of Our Culture.",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  subtitle: "Elite systems require disciplined thinking. What we build externally is defined by how we operate internally.",
   cards: [
     {
       id: "velocity",
-      subtitle: "Core / Execution",
+      subtitle: "",
       title: "Relentless Velocity",
-      description: "We operate with calculated urgency. Speed to market, executed without compromising precision is the competitive advantage.",
+      description: "We operate with urgency and precision. Speed to execution, without compromise, defines our competitive edge.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#f5f0ce"
     },
     {
       id: "integrity",
-      subtitle: "Core / Conscience",
+      subtitle: "",
       title: "Absolute Integrity",
-      description: "We build systems handling billions in revenue. Zero-trust security and ethical data governance are non-negotiable foundations.",
+      description: "We build systems designed to scale securely. Governance, transparency, and trust are foundational, not optional.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#cceaf4"
     },
     {
       id: "innovation",
-      subtitle: "Core / Aesthetic",
-      title: "Design-Driven Innovation.",
-      description: "Code is functional, design is emotional. Enterprise software must be as beautifully intuitive as it is mathematically complex.",
+      subtitle: "",
+      title: "Design-Driven Innovation",
+      description: "Technology must function seamlessly and feel intuitive. We balance engineering depth with thoughtful design.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#fbe0c9"
     },
     {
       id: "ownership",
-      subtitle: "Core / Accountability",
-      title: "Systemic Ownership.",
-      description: "We do not pass the buck. If we architect the solution, we own the outcome, the performance, and the ROI for our partners.",
+      subtitle: "",
+      title: "Systemic Ownership",
+      description: "We take end-to-end responsibility. From architecture to outcome, accountability is built into everything we deliver.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#d8ead2"
     }
@@ -54,37 +54,37 @@ export const cultureData: CultureContent = {
 
 export const investorCultureData: CultureContent = {
   title: "The DNA of Our Culture.",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  subtitle: "Elite systems require disciplined thinking. The behaviors we embed internally define the outcomes we deliver externally.",
   cards: [
     {
       id: "velocity-new",
-      subtitle: "Velocity",
+      subtitle: "",
       title: "Calculated Urgency",
-      description: "We do not wait for the future; we engineer it. Speed to market, executed with absolute precision, is our competitive advantage.",
+      description: "We do not wait for change—we engineer it. Speed, when executed with precision, becomes a decisive advantage.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#f5f0ce"
     },
     {
       id: "ownership-new",
-      subtitle: "Ownership",
+      subtitle: "",
       title: "Systemic Accountability",
-      description: "There is no \"passing the buck\" in our matrix. If we architect the solution, we own the outcome, the performance, and the ROI.",
+      description: "Ownership is absolute. If we build it, we are accountable for its performance, its impact, and its success.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#cceaf4"
     },
     {
       id: "design-new",
-      subtitle: "Design",
+      subtitle: "",
       title: "Aesthetic Intelligence",
-      description: "Code must be flawless, but the experience must be beautiful. Enterprise software should be as intuitive as consumer technology.",
+      description: "Functionality is expected. Experience is engineered. We design systems that are both powerful and intuitive.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#fbe0c9"
     },
     {
       id: "integrity-new",
-      subtitle: "Integrity",
+      subtitle: "",
       title: "Trust Ethics",
-      description: "We build systems that handle billions in global revenue. Absolute transparency, ethical data, and uncompromising security are our baseline.",
+      description: "Integrity is foundational. Transparency, security, and ethical data practices guide every decision we make.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#d8ead2"
     }
@@ -92,38 +92,38 @@ export const investorCultureData: CultureContent = {
 };
 
 export const TalentData: CultureContent = {
-  title: "The DNA of Our Talent.",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  title: "The DNA of Our Talent",
+  subtitle: "Elite outcomes are driven by consistent behaviors. These are the principles that define how we think, build, and deliver.",
   cards: [
     {
       id: "velocity",
-      subtitle: "Core / Execution",
+      subtitle: "",
       title: "Relentless Velocity",
-      description: "You thrive in high-momentum environments. You prefer shipping flawless, optimized code over sitting in endless administrative meetings.",
+      description: "You thrive in high-momentum environments, prioritizing execution and clarity over unnecessary complexity.",
       imageSrc: "/images/blogs-inner.webp",
       bgColor: "#f5f0ce"
     },
     {
       id: "integrity",
-      subtitle: "Core / Governance",
+      subtitle: "",
       title: "Absolute Integrity",
-      description: "You build systems that handle billions in revenue. You understand that zero-trust ethics and clean data governance are non-negotiable baseline requirements.",
+      description: "You build with responsibility, ensuring transparency, security, and ethical decision-making in everything you create.",
       imageSrc: "/images/blogs-inner.webp",
       bgColor: "#cceaf4"
     },
     {
       id: "innovation",
-      subtitle: "Core / Aesthetic",
+      subtitle: "",
       title: "Aesthetic Intelligence",
-      description: "You believe that enterprise software shouldn&apos;t just be mathematically and functionally complex—it should be an intuitive joy to use.",
+      description: "You understand that great technology is not just functionalit is intuitive, elegant, and human-centric.",
       imageSrc: "/images/blogs-inner.webp",
       bgColor: "#fbe0c9"
     },
     {
       id: "ownership",
-      subtitle: "Core / Accountability",
-      title: "Systemic Ownership.",
-      description: "You do not pass the buck. If you architect the solution, you own the outcome, the performance, and the ROI from the first line of code to final deployment.",
+      subtitle: "",
+      title: "Systemic Ownership",
+      description: "You take end-to-end responsibility. From ideation to deployment, you own the outcome, not just the task.",
       imageSrc: "/images/blogs-inner.webp",
       bgColor: "#d8ead2"
     }
@@ -133,37 +133,37 @@ export const TalentData: CultureContent = {
 
 export const MaterialtData: CultureContent = {
   title: "Are You Safal Material?",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  subtitle: "",
   cards: [
     {
-      id: "velocity",
-      subtitle: "Core / Execution",
-      title: "Relentless Velocity",
-      description: "You thrive in high-momentum environments. You prefer shipping flawless, optimized code over sitting in endless administrative meetings.",
+      id: "curiosity",
+      subtitle: "",
+      title: "Fierce Curiosity",
+      description: "You don’t accept surface-level understanding. You question, break down systems, and seek to understand how things truly work.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#f5f0ce"
     },
     {
-      id: "integrity",
-      subtitle: "Core / Governance",
-      title: "Absolute Integrity",
-      description: "You build systems that handle billions in revenue. You understand that zero-trust ethics and clean data governance are non-negotiable baseline requirements.",
+      id: "accountability",
+      subtitle: "",
+      title: "Radical Accountability",
+      description: "You take ownership of your work. You deliver, iterate, and never shift responsibility.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#cceaf4"
     },
     {
-      id: "innovation",
-      subtitle: "Core / Aesthetic",
-      title: "Aesthetic Intelligence",
-      description: "You believe that enterprise software shouldn&apos;t just be mathematically and functionally complex—it should be an intuitive joy to use.",
+      id: "adaptability",
+      subtitle: "",
+      title: "Agile Adaptability",
+      description: "You thrive in ambiguity. You learn fast, adjust faster, and perform under evolving challenges.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#fbe0c9"
     },
     {
-      id: "ownership",
-      subtitle: "Core / Accountability",
-      title: "Systemic Ownership.",
-      description: "You do not pass the buck. If you architect the solution, you own the outcome, the performance, and the ROI from the first line of code to final deployment.",
+      id: "ego",
+      subtitle: "",
+      title: "Collaborative Ego",
+      description: "You value outcomes over credit. You contribute to the team, challenge constructively, and grow collectively.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#d8ead2"
     }
@@ -171,38 +171,38 @@ export const MaterialtData: CultureContent = {
 };
 
 export const architectureValueData: CultureContent = {
-  title: "The Architecture of Our Value.",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  title: "The Architecture of Our Value",
+  subtitle: "Elite outcomes are driven by disciplined systems. Our value creation model is built on four core pillars:",
   cards: [
     {
       id: "aggressive-trajectory",
-      subtitle: "Core / Execution",
+      subtitle: "",
       title: "Aggressive Trajectory",
-      description: "Sustained, compounding revenue growth driven by our continuous expansion into high-margin SaaS ecosystems and automated manufacturing sectors globally.",
+      description: "We drive sustained, compounding revenue growth through expansion into high-margin digital ecosystems, SaaS platforms, and automation-led industries.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#f5f0ce"
     },
     {
       id: "disciplined-allocation",
-      subtitle: "Core / Governance",
+      subtitle: "",
       title: "Disciplined Allocation",
-      description: "A fortress balance sheet. We deploy capital with mathematical precision, balancing aggressive R&D incubation with steady, predictable cash-flow generation.",
+      description: "Capital is deployed with precision, balancing forward-looking R&D investments with stable, predictable cash flow generation.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#cceaf4"
     },
     {
       id: "strategic-diversification",
-      subtitle: "Core / Aesthetic",
+      subtitle: "",
       title: "Strategic Diversification",
-      description: "Our interconnected verticals operate independently but scale collectively. This dynamic ecosystem insulates our portfolio from isolated market downturns.",
+      description: "Our interconnected verticals operate independently yet scale collectively, creating a resilient ecosystem that withstands market volatility.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#fbe0c9"
     },
     {
       id: "transparent-governance",
-      subtitle: "Core / Accountability",
+      subtitle: "",
       title: "Transparent Governance",
-      description: "Unyielding ethical standards and zero-trust data compliance. We operate with radical transparency to maintain the absolute trust of our global stakeholders.",
+      description: "We operate with uncompromising transparency, strict compliance standards, and zero-trust frameworks—ensuring long-term investor confidence.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#d8ead2"
     }
@@ -251,7 +251,7 @@ export const advisoryCapabilitiesData: CultureContent = {
 
 
 export const ValueCreationArchitecture: CultureContent = {
-  title: "The Value-Creation Architecture.",
+  title: "Flexible Hiring Structures",
   subtitle: "",
   cards: [
     {
@@ -362,38 +362,38 @@ export const oursolution: CultureContent = {
 };
 
 export const architectureOversightData: CultureContent = {
-  title: "The Architecture of Our Oversight.",
-  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  title: "The Architecture of Our Oversight",
+  subtitle: "Elite systems require disciplined governance. The principles we enforce internally define the outcomes we deliver externally.",
   cards: [
     {
       id: "independent-oversight",
-      subtitle: "Core / Execution",
+      subtitle: "",
       title: "Independent Oversight",
-      description: "Our Board is composed of a majority of independent directors, bringing diverse, global expertise to stress-test our strategic initiatives and ensure unbiased leadership at the highest level.",
+      description: "Our board structure emphasizes independence, bringing diverse global expertise to evaluate strategy, mitigate bias, and ensure accountability at the highest level.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#F5F0CE"
     },
     {
       id: "zero-trust-compliance",
-      subtitle: "Core / Governance",
+      subtitle: "",
       title: "Zero-Trust Compliance",
-      description: "We architect secure enterprise systems for clients, and we hold ourselves to the exact same standard. We mandate strict adherence to international data security, privacy laws, and ethical AI deployment.",
+      description: "We design and operate systems with strict adherence to global data security, privacy regulations, and ethical AI practices, holding ourselves to the same standards as our clients.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#CCEAF4"
     },
     {
       id: "risk-mitigation",
-      subtitle: "Core / Aesthetic",
+      subtitle: "",
       title: "Risk Mitigation",
-      description: "We deploy rigorous internal audit frameworks for the proactive identification and management of geopolitical, financial, and technological risks, insulating our portfolio from market volatility.",
+      description: "Structured audit frameworks proactively identify and manage financial, operational, and technological risks, ensuring resilience across all business units.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#FBE0C9"
     },
     {
       id: "shareholder-transparency",
-      subtitle: "Core / Accountability",
+      subtitle: "",
       title: "Shareholder Transparency",
-      description: "Unfiltered, timely, and accurate financial reporting. We maintain an open, rigorous dialogue with our best investors and stakeholders to build compounding, long-term trust.",
+      description: "Clear, consistent, and accurate reporting underpins stakeholder trust, supported by open communication and disciplined financial governance.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#D8EAD2"
     }
@@ -402,39 +402,32 @@ export const architectureOversightData: CultureContent = {
 
 export const FlexibleServiceStructures: CultureContent = {
   title: "Flexible Service Structures",
-  subtitle: "Tailored to meet the specific demands of dynamic enterprise environments.",
+  subtitle: "",
   cards: [
     {
       id: "structure-1",
-      subtitle: "Advisory",
-      title: "Strategic Consulting",
-      description: "Expert guidance to navigate complex financial landscapes.",
+      subtitle: "",
+      title: "Dedicated Accounting Teams",
+      description: "Aligned teams delivering end-to-end accounting outsourcing services.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#F5F0CE"
     },
     {
       id: "structure-2",
-      subtitle: "Implementation",
-      title: "Execution Framework",
-      description: "Robust frameworks for executing standardized financial operations.",
+      subtitle: "",
+      title: "Process-Based Engagement",
+      description: "Defined execution of specific accounting functions within structured workflows.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#CCEAF4"
     },
     {
       id: "structure-3",
-      subtitle: "Support",
-      title: "Ongoing Management",
-      description: "Continuous oversight and optimization for maximum efficiency.",
+      subtitle: "",
+      title: "Full Outsourcing Model",
+      description: "Complete management of accounting operations through scalable service models.",
       imageSrc: "/images/Relentless-Velocity.webp",
       bgColor: "#FBE0C9"
     },
-    {
-      id: "structure-4",
-      subtitle: "Audit",
-      title: "Compliance & Review",
-      description: "Rigorous compliance checks to ensure systemic integrity.",
-      imageSrc: "/images/Relentless-Velocity.webp",
-      bgColor: "#D8EAD2"
-    }
+   
   ]
 };

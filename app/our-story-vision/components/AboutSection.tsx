@@ -9,7 +9,14 @@ export default function AboutSection() {
         <div className={styles.contentWrapper}>
           <h2 className="title_60">Forged in India. Scaled for the World.</h2>
           <p className="title_24_para">
-            India is the undisputed digital engine of the 21st century. Safal Infosoft was forged in this exact crucible—built on a foundation of rapid innovation, unmatched engineering talent, and the necessity for massive scale. What is engineered to succeed here is built to conquer the globe. From the heavy manufacturing hubs of Gujarat to the financial epicenters of Dubai and New York, our mandate is singular: we architect intelligent, frictionless digital ecosystems that empower visionary leaders to operate with unprecedented velocity and absolute market dominance.
+            India is the engine of modern digital growth, and Safal was built within this momentum.
+           Rooted in engineering depth and shaped by scale, we operate across industries and geographies with a single mandate:
+          </p>
+          <p className="title_24_para">
+            To architect systems that perform globally, not locally.
+          </p>
+          <p className="title_24_para">
+            From manufacturing hubs to financial ecosystems, we design digital infrastructures that enable speed, precision, and sustained advantage.
           </p>
           <div className={styles.imageWrapper}>
             <Image

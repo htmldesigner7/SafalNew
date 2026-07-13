@@ -13,10 +13,10 @@ export interface MultiplierSectionProps {
 }
 
 export default function MultiplierSection({
-  title = "Capitalizing on the Future.",
-  description1 = "At the Safal Group, our diversified matrix of divisions is designed to create an exponential multiplier effect. By integrating deep-tech software infrastructure, industrial automation, and high-yield venture innovation, we build resilient revenue streams that outmaneuver market volatility. We do not just participate in the digital economy; we architect its next evolution, delivering consistent, compounding value to our institutional and retail shareholders.",
-  description2 = "Lorem ipsum dolor sit amet consectetur. Ut velit leo amet suscipit elementum dolor. Non cursus ac molestie lacus eget. Habitant pretium orci mattis id a gravida. Faucibus vitae lectus nibh scelerisque sed viverra vitae aliquam et. A lobortis diam luctus scelerisque. Malesuada nunc ac mattis quis dui condimentum turpis. Id gravida adipiscing mauris donec eu ultrices elit pellentesque massa.",
-  description3,
+  title = "Capitalizing on the Future",
+  description1 = "At Safal, growth is not incidental, it is architected.",
+  description2 = "Our diversified operating model integrates enterprise software, industrial automation, and venture incubation to create multiple, reinforcing revenue streams. This structure reduces exposure to isolated market cycles while amplifying long-term value creation.",
+  description3 = "We don’t follow market trends, we build the infrastructure that shapes them, ensuring resilience, scalability, and sustained shareholder returns.",
   imageSrc = "/images/blogs-inner.webp", // Placeholder
   imageAlt = "Capitalizing on the future hourglass",
   reverse = false

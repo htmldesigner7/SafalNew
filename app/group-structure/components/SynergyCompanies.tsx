@@ -5,59 +5,54 @@ import styles from './SynergyCompanies.module.css';
 export interface SynergyCompany {
   id: string;
   name: string;
-  descriptions: string[];
+  descriptions: React.ReactNode;
   logoSrc: string;
   logoAlt: string;
 }
 
-const placeholderDesc = "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
 
 const synergyCompaniesData = {
   title: "Independent Focus. Infinite Synergy.",
-  subtitle: "While each entity within our group operates with laser-focused specialization — from hardware automation in the U.S to venture incubation in India — they are entirely interconnected. This matrix allows us to cross-pollinate world-class engineering, design, and strategy, giving our partners access to an unmatched global brain trust.",
+  subtitle: <>
+  <p>Each vertical operates with clarity of purpose and operational independence.</p>
+  <p>Safal Infosoft engineers the technology.<br/>Ideaz Ventures drives innovation.<br/>Intelliworkz enables execution.</p>
+  <p>Individually, they deliver depth.<br/>Collectively, they deliver scale.</p>
+  <p>This interconnected structure allows us to solve holistically, move with speed, and build systems aligned for long-term growth.</p></>,
   companies: [
-    {
-      id: "intelliworkz-business",
-      name: "Intelliworkz Business Solutions Pvt. Ltd.",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/our-entities-Intelliworkz.png",
-      logoAlt: "Intelliworkz Logo"
-    },
     {
       id: "safal-infosoft-ltd",
       name: "Safal Infosoft Ltd.",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
+      descriptions: <>
+      <p>The technology backbone of the Safal ecosystem.</p> 
+      <p>Safal Infosoft architects scalable digital infrastructure from enterprise platforms to low-code ecosystems, designed for performance, adaptability, and long-term evolution.</p>
+      <p>Every system is engineered to deliver clarity, control, and sustained operational efficiency.</p>
+      </>,
       logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Safal Infosoft Logo"
     },
     {
       id: "ideaz-ventures",
       name: "Ideaz Ventures",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
+      descriptions: <>
+      <p>The innovation and incubation engine.</p>
+      <p>Ideaz Ventures transforms ideas into scalable, market-ready ventures. Operating at the intersection of strategy, design, and technology, it builds products that are structured for growth from day one.</p>
+      <p>Innovation here is not conceptual, it is executable.</p>
+      </>,
       logoSrc: "/images/our-entities-Intelliworkz.png",
       logoAlt: "Ideaz Ventures Logo"
     },
     {
-      id: "intelliworkz-infosoft",
-      name: "Intelliworkz Infosoft Technology LLC",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
+      id: "intelliworkz",
+      name: "Intelliworkz",
+      descriptions: <>
+      <p>The execution and business solutions layer.</p>
+      <p>Intelliworkz enables operational efficiency, talent scalability, and process optimization, bridging strategy with execution.</p>
+      <p>It ensures that systems are not only built, but effectively deployed, managed, and scaled across environments.</p>
+      </>,
       logoSrc: "/images/our-entities-Intelliworkz.png",
-      logoAlt: "Intelliworkz Infosoft Logo"
+      logoAlt: "Intelliworkz Logo"
     },
-    {
-      id: "safal-infosoft-inc",
-      name: "Safal Infosoft Inc.",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/our-entities-Intelliworkz.png",
-      logoAlt: "Safal Infosoft Inc Logo"
-    },
-    {
-      id: "safal-automation",
-      name: "Safal Automation Inc.",
-      descriptions: [placeholderDesc, placeholderDesc, placeholderDesc],
-      logoSrc: "/images/our-entities-Intelliworkz.png",
-      logoAlt: "Safal Automation Logo"
-    }
+    
   ] as SynergyCompany[]
 };
 
@@ -84,9 +79,7 @@ export default function SynergyCompanies() {
               <div className={styles.contentCol}>
                 <h3 className="title_24">{company.name}</h3>
                 <div className={styles.descriptions}>
-                  {company.descriptions.map((desc, idx) => (
-                    <p key={idx}>{desc}</p>
-                  ))}
+                    <div>{company.descriptions}</div>
                 </div>
               </div>
               <div className={styles.imageCol}>

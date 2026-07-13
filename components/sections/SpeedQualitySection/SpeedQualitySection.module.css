@@ -13,6 +13,21 @@
   flex: 1;
 }
 
+.itemContent 
+{
+ margin-top: 15px;
+}
+
+.itemContent ul
+{
+  padding-left: 20px;
+}
+
+.itemContent li
+{
+  list-style-type: disc;
+}
+
 .accordionList {
   display: flex;
   flex-direction: column;

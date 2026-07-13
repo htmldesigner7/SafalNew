@@ -9,13 +9,13 @@ export default function EverylineSection() {
         <div className={styles.gridContainer}>
           {/* Left Content */}
           <div className={styles.leftCol}>
-            <h2 className={`title_60 ${styles.title}`}>Time is our Ultimate Non-Renewable Resource.</h2>
+            <h2 className={`title_60 ${styles.title}`}>Every Line of Code Leaves a Footprint.</h2>
             <div className={styles.description}>
               <p>
-                Traditional enterprise systems are heavy, fragmented, and computationally exhaustive. Every inefficient data query, legacy monolith, and redundant API call forces global server farms to burn excess energy. This creates a massive, invisible carbon footprint that quietly drains both your profit margins and the planet&apos;s resources.
+                In today’s digital landscape, inefficient systems don’t just slow operations; they consume energy at scale. Legacy-heavy architectures, redundant processing, and fragmented systems contribute to rising global energy demand.
               </p>
               <p>
-                We are engineering a shift toward a true circular digital economy. By extending hardware lifecycles through predictive AI, optimizing cloud computing loads, and designing autonomous systems that mimic nature&apos;s zero-waste loops, Safal is coding the countdown to a regenerative enterprise.
+                At Safal, we believe the most effective path to sustainability is engineering efficiency at the source. By building lean architectures, enabling low-code ecosystems, and embedding predictive intelligence, we significantly reduce the energy load of modern enterprise systems, transforming performance optimization into environmental responsibility.
               </p>
             </div>
           </div>

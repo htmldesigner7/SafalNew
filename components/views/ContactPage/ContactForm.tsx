@@ -116,7 +116,7 @@ export default function ContactForm() {
       <div className="container-1600">
         <div className={`${styles.contact}`}>
           <div className={styles.leftColumn}>
-            <h2 className="title_60">Connect with Our<br />Global Team.</h2>
+            <h2 className="title_60">Reach Out To Our Global Team.</h2>
             <div className={styles.imageWrapper}>
               <Image
                 src="/images/Systemic-Ownership.webp"

@@ -9,7 +9,7 @@ export default function CTASection() {
         
         {/* Left Content */}
         <div className={styles.textContent}>
-          <p className="title_40" style={{marginBottom: '0px', color:'var(--red)'}}>You&apos;re the missing piece.</p>
+          <p className="title_40" style={{marginBottom: '0px', color:'var(--red)'}}>Safal aligns the right solutions, capabilities, and expertise to unlock structured growth and long-term value.</p>
           <h2 className="title_60">Unlocking the Right Fit for Your Enterprise</h2>
           
           <p>

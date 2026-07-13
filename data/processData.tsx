@@ -1,33 +1,33 @@
-export interface ProcessItem {
-  id: number;
-  title: string;
-  description: string;
-}
+// export interface ProcessItem {
+//   id: number;
+//   title: string;
+//   description: string;
+// }
 
-export const aboutProcessData: ProcessItem[] = [
+export const aboutProcessData = [
   {
     id: 0,
     title: "01. Strategic Discovery",
-    description: "Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna."
+    description: "Define direction through clarity and system-level understanding."
   },
   {
     id: 1,
     title: "02. Low-Code Engineering",
-    description: "Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna."
+    description: "Accelerate development with scalable, modular architecture."
   },
   {
     id: 2,
     title: "03. Frictionless Integration",
-    description: "Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna."
+    description: "Connect systems seamlessly across platforms and environments."
   },
   {
     id: 3,
-    title: "04. Autonomous Scaling.",
-    description: "Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna."
+    title: "04. Autonomous Scaling",
+    description: "Enable systems to evolve, adapt, and scale independently."
   }
 ];
 
-export const startupSupportData: ProcessItem[] = [
+export const startupSupportData = [
   {
     id: 0,
     title: "01. Tech Consulting",
@@ -45,7 +45,7 @@ export const startupSupportData: ProcessItem[] = [
   }
 ];
 
-export const specializedSystemsData: ProcessItem[] = [
+export const specializedSystemsData = [
   {
     id: 0,
     title: "01. Distributor Management System (DMS)",
@@ -68,14 +68,14 @@ export const specializedSystemsData: ProcessItem[] = [
   }
 ];
 
-export const engineeringCapabilitiesData: ProcessItem[] = [
+export const engineeringCapabilitiesData = [
   { id: 0, title: "01. Design & Engineering", description: "System design aligned with plant operations and scalability." },
   { id: 1, title: "02. PLC / SCADA Systems", description: "Control systems for monitoring and centralized visibility." },
   { id: 2, title: "03. IIoT Integration", description: "Seamless iiot integration for real-time data connectivity." },
   { id: 3, title: "04. Smart Factory Solutions", description: "Deployment of smart factory solutions and smart manufacturing solutions for connected production environments." }
 ];
 
-export const enterpriseAiCapabilitiesData: ProcessItem[] = [
+export const enterpriseAiCapabilitiesData = [
   {
     id: 0,
     title: "01. AI Advisory",
@@ -99,48 +99,48 @@ export const enterpriseAiCapabilitiesData: ProcessItem[] = [
 ];
 
 
-export const startupSupportServices: ProcessItem[] = [
+export const startupSupportServices = [
   {
     id: 0,
-    title: "01. AI Advisory",
-    description: "Structured AI advisory services focused on defining strategy, identifying use cases, and aligning AI initiatives with business systems."
+    title: "01. Bookkeeping",
+    description: "Structured bookkeeping services ensuring accurate recording and maintenance of financial transactions."
   },
   {
     id: 1,
-    title: "02. AI Product Development",
-    description: "End-to-end development of custom AI products tailored to your specific business requirements and challenges."
+    title: "02. Tax Preparation",
+    description: "Delivery of tax preparation services aligned with applicable tax regulations and reporting requirements."
   },
   {
     id: 2,
-    title: "03. AI Implementation",
-    description: "Seamless integration and deployment of AI models into your existing enterprise architecture and workflows."
+    title: "03. CPA Support",
+    description: "Dedicated CPA support services providing structured accounting support, documentation, and reporting assistance."
   }
  
 ];
 
-export const structuredExecutionData: ProcessItem[] = [
+export const structuredExecutionData = [
   {
     id: 0,
     title: "01. Strategy",
-    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance.",
-    description2: 'This structured approach ensures alignment between brand, communication, and business outcomes.'
+    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
+    </>,
   },
   {
     id: 1,
     title: "02. Design",
-    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance.",
-    description2: 'This structured approach ensures alignment between brand, communication, and business outcomes.'
+    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
+    </>,
   },
   {
     id: 2,
     title: "03. Execution",
-    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance.",
-    description2: 'This structured approach ensures alignment between brand, communication, and business outcomes.'
+    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
+    </>,
   },
   {
     id: 3,
     title: "04. Optimization",
-    description: "Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance.",
-    description2: 'This structured approach ensures alignment between brand, communication, and business outcomes.'
+   description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
+    </>,
   }
 ];

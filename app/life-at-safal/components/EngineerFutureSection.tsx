@@ -8,15 +8,16 @@ export default function EngineerFutureSection() {
       <div className={`container-1600 ${styles.gridContainer}`}>
         <div className={styles.textContent}>
           <h2 className="title_60">
-            Don&apos;t Just Write Code.<br />
-            Engineer the Future.
+            Don’t Just Write Code.
           </h2>
           <p>
-            We don&apos;t hire for basic execution; we hire for global impact. Whether you are architecting a disruptive new startup with an external founder, or optimizing core systems across our ERP platforms for Safal Infosoft, your work here directly impacts the global digital economy. You are not a cog in a machine; you are the machine.
+            Engineer the Future.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Habitant est in vulputate rhoncus auctor mattis. Enim eu vel in est orci pellentesque egestas lacus vel. Cras mattis cras imperdiet tincidunt in euismod ac magna. Et tellus nisl orci elit etiam in enim risus. Tortor in cursus id urna donec.
+           We don’t hire for static roles, we invest in trajectories.
           </p>
+          <p>Whether you're building scalable enterprise systems, contributing to emerging ventures, or optimizing global platforms, your work directly shapes digital ecosystems at scale.</p>
+          <p>You are not here to execute tasks.<br/>You are here to architect impact.</p>
         </div>
         <div className={styles.imageContent}>
           <Image

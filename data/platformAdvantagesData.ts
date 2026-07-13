@@ -167,37 +167,37 @@ export const StructuredAIImplementation: PlatformAdvantagesData = {
 };
 
 export const WhysafalAccounting: PlatformAdvantagesData = {
-  title: 'Why SAFAL Accounting',
+  title: 'Reliable, Structured, and Scalable',
   centerText: 'Advantages',
   advantages: [
     {
       id: '1',
-      text: 'Expertise as an industrial automation company',
+      text: 'Expertise in financial accounting solutions and outsourcing models',
       position: 'top-left'
     },
     {
       id: '2',
-      text: 'Scalable architecture for industrial environments',
+      text: 'Consistent delivery of accurate and compliant financial processes',
       position: 'top-right'
     },
     {
       id: '3',
-      text: 'Engineering-driven system design approach',
+      text: 'Strong process control across accounting functions',
       position: 'middle-right'
     },
     {
       id: '4',
-      text: 'Focus on reliability and operational control',
+      text: 'Experience in multi-region accounting environments',
       position: 'bottom-right'
     },
     {
       id: '5',
-      text: 'Strong IT-OT system integration capability',
+      text: 'Scalable accounting solutions aligned with business needs',
       position: 'bottom-left'
     },
     {
       id: '6',
-      text: 'Proven delivery of industrial automation solutions',
+      text: 'Focus on efficiency, compliance, and financial clarity',
       position: 'middle-left'
     }
   ],
