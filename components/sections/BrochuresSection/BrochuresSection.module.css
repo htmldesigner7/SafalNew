@@ -16,6 +16,15 @@
   height: fit-content;
 }
 
+.mobileFilterToggle {
+  display: none;
+}
+
+.mainContent {
+  flex: 1;
+  min-width: 0;
+}
+
 .filterHeader {
   display: flex;
   justify-content: space-between;
@@ -61,6 +70,7 @@
   transition: transform 0.3s ease;
 }
 
+.open {}
 .accordionIcon.open {
   transform: rotate(180deg);
 }
@@ -97,6 +107,7 @@
   align-items: center;
   gap: 24px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .activeTags {
@@ -213,7 +224,7 @@
 }
 
 .postCard:hover {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .cardImageWrapper {
@@ -230,55 +241,193 @@
    ========================================================= */
 
 @media (max-width: 1776px) {
-  .layoutWrapper { gap: 30px; }
-  .featuredPost { gap: 50px; }
+  .layoutWrapper {
+    gap: 30px;
+  }
+
+  .featuredPost {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 1661px) {
-  .layoutWrapper { gap: 24px; }
-  .featuredPost { gap: 40px; }
-  .postsGrid { gap: 24px; }
+  .layoutWrapper {
+    gap: 24px;
+  }
+
+  .featuredPost {
+    gap: 40px;
+  }
+
+  .postsGrid {
+    gap: 24px;
+  }
 }
 
 @media (max-width: 1537px) {
-  .layoutWrapper { gap: 20px; }
-  .featuredPost { gap: 30px; }
-  .postsGrid { gap: 20px; }
-  .sidebar { width: 250px; }
+  .layoutWrapper {
+    gap: 20px;
+  }
+
+  .featuredPost {
+    gap: 30px;
+  }
+
+  .postsGrid {
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 250px;
+  }
 }
 
 @media (max-width: 1441px) {
-  .featuredPost { gap: 24px; }
-  .postsGrid { gap: 16px; }
-  .cardImageWrapper { height: 200px; }
+  .featuredPost {
+    gap: 24px;
+  }
+
+  .postsGrid {
+    gap: 16px;
+  }
+
+  .cardImageWrapper {
+    height: 200px;
+  }
 }
 
 @media (max-width: 1281px) {
-  .featuredPost { gap: 20px; }
-  .sidebar { width: 230px; }
+  .featuredPost {
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 230px;
+  }
 }
 
 @media (max-width: 1025px) {
-  .layoutWrapper { flex-direction: column; }
-  .sidebar { width: 100%; position: static; }
-  .postsGrid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
-  .featuredPost { flex-direction: column; }
-  .featuredContent { padding: 32px; }
-  .featuredImageWrapper { min-height: 350px; }
+  .layoutWrapper {
+    flex-direction: column;
+  }
+
+  .mobileFilterToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black-111);
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 24px;
+    order: 1;
+    transition: all 0.3s ease;
+  }
+
+  .mobileFilterToggle:active {
+    background-color: #f9f9f9;
+  }
+
+  .sidebar {
+    display: none;
+    order: 2;
+    width: 100%;
+    position: static;
+    margin-bottom: 24px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  .mobileOpen {} /* ensure css modules exports this */
+  .sidebar.mobileOpen {
+    display: block;
+  }
+
+  .mainContent {
+    order: 3;
+    width: 100%;
+  }
+
+  .postsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .featuredPost {
+    display: block;
+    flex-direction: column;
+  }
+
+  .featuredContent {
+    padding: 32px;
+  }
+
+  .featuredImageWrapper {
+    min-height: 350px;
+  }
 }
 
 @media (max-width: 769px) {
-  .postsGrid { grid-template-columns: 1fr; }
-  .featuredContent { padding: 24px; }
+  .postsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .featuredContent {
+    padding: 24px;
+  }
+  .mobileFilterToggle {
+    padding: 12px 16px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .sidebar {
+    padding: 16px;
+  }
+  .accordionHeader {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .filterItem {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .filterHeader {
+    margin-bottom: 16px;
+  }
+  .filterHeader span {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 431px) {
-  .postsGrid { gap: 20px; }
-  .featuredContent { padding: 16px; }
-  .featuredImageWrapper { min-height: 250px; }
+  .postsGrid {
+    gap: 20px;
+  }
+
+  .featuredContent {
+    padding: 16px;
+  }
+
+  .featuredImageWrapper {
+    min-height: 250px;
+  }
 }
 
 @media (max-width: 361px) {
-  .postsGrid { gap: 16px; }
-  .featuredImageWrapper { min-height: 200px; }
+  .postsGrid {
+    gap: 16px;
+  }
+
+  .featuredImageWrapper {
+    min-height: 200px;
+  }
 }

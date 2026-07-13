@@ -19,12 +19,12 @@
 }
 
 .visualContent {
-  flex: 1 1 500px;
+  /* flex: 1 1 500px; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  min-height: 400px;
+  /* min-height: 400px; */
 }
 
 .vennContainer {

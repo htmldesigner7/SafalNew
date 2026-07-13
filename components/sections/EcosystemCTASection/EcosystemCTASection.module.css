@@ -93,7 +93,7 @@ background: linear-gradient(117deg, #EEE 34.54%, #F3EFE2 100%), #D54B26;
 }
 
 @media (max-width: 431px) {
-  .sideText { flex-direction: column; gap: 8px; }
+  .sideText {gap: 8px; }
   .cardImageWrapper { min-height: 250px; }
   .cardContent { padding: 30px 20px; }
   .greyTextBlock { font-size: 20px; }

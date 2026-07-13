@@ -223,6 +223,7 @@
 }
 
 @media (max-width: 1441px) {
+
   .sectionTitle {
     font-size: 30px;
     margin-bottom: 36px;
@@ -234,7 +235,7 @@
   }
 
   .activeNumber {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .inactiveNumber {
@@ -248,17 +249,16 @@
   .activeContent {
     padding: 28px;
   }
+
+  .activeImageWrapper {
+  min-height: 180px;
+}
 }
 
 @media (max-width: 1281px) {
   .sectionTitle {
     font-size: 28px;
     margin-bottom: 30px;
-  }
-
-  .cardsContainer {
-    height: 460px;
-    gap: 14px;
   }
 
   .activeNumber {
@@ -276,6 +276,12 @@
   .activeContent {
     padding: 24px;
   }
+
+   .cardsContainer p
+{
+  font-size: 14px;
+}
+
 }
 
 @media (max-width: 1025px) {
@@ -319,6 +325,10 @@
 }
 
 @media (max-width: 769px) {
+
+    .activeImageWrapper {
+  min-height: 100px;
+}
   .sectionTitle {
     font-size: 24px;
     margin-bottom: 20px;
@@ -373,7 +383,7 @@
   }
 
   .cardsContainer {
-    height: 600px;
+    /* height: 600px; */
     gap: 8px;
   }
 
@@ -414,7 +424,7 @@
   }
 
   .cardsContainer {
-    height: 500px;
+    /* height: 500px; */
     gap: 6px;
   }
 

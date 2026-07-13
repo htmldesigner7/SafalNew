@@ -264,6 +264,11 @@ img {
   body {
     font-size: 16px;
   }
+
+  p {
+    margin-top: 14px;
+}
+
   .title_60 {
     font-size: 44px;
     line-height: 50px;
@@ -379,7 +384,7 @@ img {
   }
   .btn-primary,
   .btn-outline {
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
     padding: 12px 20px;
     font-size: 15px;

@@ -19,7 +19,7 @@
 .headerRight {
   display: flex;
   align-items: center;
-  /* gap: 20px; */
+  gap: 10px;
 }
 
 .mobileBackdrop {
@@ -220,15 +220,16 @@ button.navLink {
     align-items: flex-start;
   }
 
-  .navLink {
+  .navLink, button.navLink {
     font-family: var(--font-heading), "Familjen Grotesk", sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     width: 100%;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
   }
   
   .navLink::after {
@@ -239,7 +240,7 @@ button.navLink {
     position: static;
     box-shadow: none;
     background-color: transparent;
-    padding: 10px 0 10px 15px;
+    padding: 0 0 10px 15px;
     margin-top: 0;
     min-width: 100%;
     animation: dropdownFade 0.3s ease forwards;
@@ -253,7 +254,7 @@ button.navLink {
   .dropdownItem {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
-    padding: 12px 0;
+    padding: 8px 0;
     border-left: none;
   }
 
@@ -380,14 +381,14 @@ button.navLink {
   .navigation {
     padding: 0px 5% 40px 5%;
   }
-  .navLink {
-    font-size: 22px;
-    padding-bottom: 14px;
-    padding-top: 14px;
+  .navLink, button.navLink {
+    font-size: 18px;
+    padding-bottom: 8px;
+    padding-top: 8px;
   }
   .dropdownItem {
     font-size: 16px;
-    padding: 10px 0;
+    padding: 6px 0;
   }
 }
 

@@ -118,6 +118,10 @@
   .rightColumn {
     padding: 36px;
   }
+
+    .formGroup {
+  gap: 10px;
+}
 }
 
 @media (max-width: 1537px) {
@@ -130,6 +134,8 @@
   .form {
     gap: 30px;
   }
+
+
 }
 
 @media (max-width: 1441px) {
@@ -139,6 +145,7 @@
   .rightColumn {
     padding: 30px;
   }
+
   .formGroup label {
     font-size: 17px;
   }

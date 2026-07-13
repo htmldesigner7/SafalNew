@@ -33,13 +33,10 @@
 }
 
 .activeTab {
-  color: var(--black-111);
+  color: var(--red);
   font-weight: 500;
 }
 
-.activeTab:hover {
-  color: var(--black-111);
-}
 
 /* Content Area */
 .contentArea {
