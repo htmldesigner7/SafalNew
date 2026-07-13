@@ -21,7 +21,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "Sector / Logistics",
       title: "Autonomous Logistics",
       description: "Eliminating bottlenecks through Industrial IoT and predictive machine learning.",
-      imageSrc: "/images/Relentless-Velocity.webp" 
+      imageSrc: "/images/Relentless-Velocity.webp"
     },
     {
       id: "finance",
@@ -243,6 +243,46 @@ export const appliedImplementationsData: EngineeringContent = {
 
 
 export const collaborativeEcosystemsData: EngineeringContent = {
+  title: 'Applied Industrial Implementations',
+  cards: [
+    {
+      id: "production-line",
+      number: "01.",
+      subtitle: "",
+      title: "Production Line Automation",
+      description: "Improved production efficiency and process consistency.",
+      imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
+    },
+    {
+      id: "real-time-monitoring",
+      number: "02.",
+      subtitle: "",
+      title: "Real-Time Monitoring Systems",
+      description: "Visibility into machine performance and operations.",
+      imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
+    },
+    {
+      id: "predictive-maintenance",
+      number: "03.",
+      subtitle: "",
+      title: "Predictive Maintenance Systems",
+      description: "Reduced downtime through early fault detection.",
+      imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
+    },
+    {
+      id: "energy-monitoring",
+      number: "04.",
+      subtitle: "",
+      title: "Energy Monitoring & Optimization",
+      description: "Improved efficiency and reduced operational costs.",
+      imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
+    }
+  ]
+};
+
+
+
+export const CollaborativeEcosystemsData2: EngineeringContent = {
   title: 'Applied Industrial Implementations',
   cards: [
     {

@@ -438,3 +438,42 @@ export const FlexibleServiceStructures: CultureContent = {
     }
   ]
 };
+
+export const strategicAllyData: CultureContent = {
+  title: "The DNA of a Strategic Ally.",
+  subtitle: "Elite technology requires elite discipline. The behaviors we reward internally dictate the results we deliver globally.",
+  cards: [
+    {
+      id: "velocity",
+      subtitle: "Core / Execution",
+      title: "Uncompromising Velocity",
+      description: "We partner with organizations that move fast. You prioritize rapid deployment, agile iteration, and aggressive market expansion over bureaucratic delays.",
+      imageSrc: "/images/challenges_sketch.png",
+      bgColor: "#f5f0ce"
+    },
+    {
+      id: "governance",
+      subtitle: "Core / Governance",
+      title: "Enterprise-Grade Integrity",
+      description: "You operate at the highest levels of corporate compliance, ensuring absolute data security, zero-trust ethics, and flawless operational transparency in every joint venture.",
+      imageSrc: "/images/challenges_sketch.png",
+      bgColor: "#cceaf4"
+    },
+    {
+      id: "ambition",
+      subtitle: "Core / Aesthetic",
+      title: "Disruptive Ambition",
+      description: "You aren't satisfied with incremental upgrades. You want to alter how industries operate, utilizing AI, automation, and aesthetic design lead the market.",
+      imageSrc: "/images/challenges_sketch.png",
+      bgColor: "#fbe0c9"
+    },
+    {
+      id: "accountability",
+      subtitle: "Core / Accountability",
+      title: "Shared Accountability",
+      description: "We believe in mutual risk and mutual reward. When we co-create a solution, we both own the outcome, the client success, and the ultimate ROI.",
+      imageSrc: "/images/challenges_sketch.png",
+      bgColor: "#d8ead2"
+    }
+  ]
+};

@@ -11,3 +11,11 @@ export const coExistScale = {
   imageSrc: "/images/responsible_scale.png",
   imageAlt: "Co-exist ecosystem"
 };
+
+
+export const ArchitectFutureTogether = {
+  title: "Let's Architect the Future, Together",
+  description: "The most complex enterprise challenges cannot be solved in isolation. Whether you are an industry giant looking to modernize legacy systems, or an emerging tech leader looking to scale globally, the Safal Group is ready to align our infrastructure with your vision.",
+  imageSrc: "/images/responsible_scale.png",
+  imageAlt: "Co-exist ecosystem"  
+};
