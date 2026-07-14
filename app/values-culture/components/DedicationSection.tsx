@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Image from 'next/image';
 import styles from './DedicationSection.module.css';
 
@@ -7,7 +7,7 @@ export interface DedicationSectionProps {
   title2?: string;
   thankYouText?: string;
   subText?: string;
-  description?: string;
+  description?: ReactNode;
   imageSrc?: string;
   imageAlt?: string;
 }
@@ -64,7 +64,7 @@ export default function DedicationSection({
 
           {/* Right Column */}
           <div className={styles.rightCol}>
-            <p className={styles.descriptionText}>{description}</p>
+            <div className={styles.descriptionText}>{description}</div>
           </div>
 
         </div>

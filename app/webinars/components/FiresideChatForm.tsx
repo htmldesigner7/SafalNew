@@ -4,6 +4,7 @@ import styles from './FiresideChatForm.module.css';
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { webinarSchema } from "@/validation/webinarSchema";
+import { z } from "zod";
 
 export default function FiresideChatForm() {
   const {
@@ -18,7 +19,7 @@ export default function FiresideChatForm() {
     resolver: zodResolver(webinarSchema),
   });
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data: z.infer<typeof webinarSchema>) => {
     const response = await fetch("/api/webinar", {
       method: "POST",
       headers: {

@@ -1,19 +1,19 @@
-// import { ReactNode } from 'react';
+import { ReactNode } from 'react';
 
-// export interface ArchitectureCard {
-//   id: string;
-//   number: string;
-//   phase: string;
-//   title: string;
-//   description: string;
-//   isActive?: boolean;
-// }
+export interface ArchitectureCard {
+  id: string;
+  number: string;
+  phase: string;
+  title: string;
+  description: ReactNode;
+  isActive?: boolean;
+}
 
-// export interface ArchitectureContent {
-//   title: ReactNode;
-//   subtitle: string;
-//   cards: ArchitectureCard[];
-// }
+export interface ArchitectureContent {
+  title: ReactNode;
+  subtitle: string;
+  cards: ArchitectureCard[];
+}
 
 export const architectureData = {
   title: "The Architecture of Growth.",
