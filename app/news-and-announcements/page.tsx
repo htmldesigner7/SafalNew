@@ -17,7 +17,7 @@ export default function NewsAndAnnouncementsPage() {
             Dispatches.
           </>
         }
-        description="The latest official updates on Safal Infosoft's global expansion, strategic partnerships, and technological breakthroughs across our integrated divisions."
+        description="Stay updated with official announcements, strategic developments, and key milestones across Safal’s global operations and integrated divisions."
         imageSrc="/images/hero-section-right.png" // Placeholder image as discussed
         imageAlt="Media and Global Dispatches Megaphone"
       />

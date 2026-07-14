@@ -53,7 +53,7 @@ export default function TechnologyStacksSection() {
         <div className={styles.imageContainer}>
           {/* Main network graph image as per the screenshot. Placeholder used. */}
           <Image 
-            src="/images/hero_3d_book.png" 
+            src="/images/blogs/blogs.webp" 
             alt="Technology Network Node" 
             width={1200} 
             height={600} 

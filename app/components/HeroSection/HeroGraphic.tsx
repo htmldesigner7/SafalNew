@@ -19,27 +19,27 @@ export default function HeroGraphic() {
 
       <div className={styles.svgWrapper}>
         <svg width="772" height="738" viewBox="0 0 772 738" fill="none"
-             xmlns="http://www.w3.org/2000/svg"
-             xmlnsXlink="http://www.w3.org/1999/xlink"
-             role="img" aria-label="Architecture diagram">
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          role="img" aria-label="Architecture diagram">
           <g className={styles.bgRings} aria-hidden="true">
-            <circle className={styles.ring1} cx="205" cy="205" r="204.5" stroke="#D2DF70" strokeWidth="1.2"/>
-            <circle className={styles.ring2} cx="566.863" cy="226.017" r="204.5" stroke="#D2DF70" strokeWidth="1.2"/>
-            <circle className={styles.ring3} cx="345.839" cy="532.457" r="204.5" stroke="#D2DF70" strokeWidth="1.2"/>
+            <circle className={styles.ring1} cx="205" cy="205" r="204.5" stroke="#D2DF70" strokeWidth="1.2" />
+            <circle className={styles.ring2} cx="566.863" cy="226.017" r="204.5" stroke="#D2DF70" strokeWidth="1.2" />
+            <circle className={styles.ring3} cx="345.839" cy="532.457" r="204.5" stroke="#D2DF70" strokeWidth="1.2" />
           </g>
 
           <g className={`${styles.shape} ${styles.shapeOrange} ${hasFocus && !isFocused('orange') ? styles.dimmed : ''} ${isFocused('orange') ? styles.activeShapeO : ''}`}>
-            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern0_82_132)"/>
+            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern0_82_132)" />
           </g>
           <g className={`${styles.shape} ${styles.shapeGreen} ${hasFocus && !isFocused('green') ? styles.dimmed : ''} ${isFocused('green') ? styles.activeShapeG : ''}`}>
-            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern1_82_132)"/>
+            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern1_82_132)" />
           </g>
           <g className={`${styles.shape} ${styles.shapeBlue} ${hasFocus && !isFocused('blue') ? styles.dimmed : ''} ${isFocused('blue') ? styles.activeShapeB : ''}`}>
-            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern2_82_132)"/>
+            <rect x="108.425" y="35.9253" width="577.493" height="539.01" fill="url(#pattern2_82_132)" />
           </g>
 
           {/* Text Group Orange */}
-          <g 
+          <g
             className={`${styles.textGroup} ${styles.textGroupOrange} ${hasFocus && !isFocused('orange') ? styles.dimmedText : ''} ${isFocused('orange') ? styles.activeText : ''}`}
             onMouseEnter={() => setFocused('orange')}
             onMouseLeave={() => setFocused(null)}
@@ -54,7 +54,7 @@ export default function HeroGraphic() {
           </g>
 
           {/* Text Group Green */}
-          <g 
+          <g
             className={`${styles.textGroup} ${styles.textGroupGreen} ${hasFocus && !isFocused('green') ? styles.dimmedText : ''} ${isFocused('green') ? styles.activeText : ''}`}
             onMouseEnter={() => setFocused('green')}
             onMouseLeave={() => setFocused(null)}
@@ -67,7 +67,7 @@ export default function HeroGraphic() {
           </g>
 
           {/* Text Group Blue */}
-          <g 
+          <g
             className={`${styles.textGroup} ${styles.textGroupBlue} ${hasFocus && !isFocused('blue') ? styles.dimmedText : ''} ${isFocused('blue') ? styles.activeText : ''}`}
             textAnchor="middle"
             onMouseEnter={() => setFocused('blue')}
@@ -80,20 +80,20 @@ export default function HeroGraphic() {
             <line x1="271" y1="627" x2="421" y2="627" />
             <text x="346" y="655">Technology Staffing</text>
           </g>
-          
+
           <defs>
             <pattern id="pattern0_82_132" patternContentUnits="objectBoundingBox" width="1" height="1">
-              <use href="#image0_82_132" transform="scale(0.000432713 0.000463607)"/>
+              <use href="#image0_82_132" transform="scale(0.000432713 0.000463607)" />
             </pattern>
             <pattern id="pattern1_82_132" patternContentUnits="objectBoundingBox" width="1" height="1">
-              <use href="#image1_82_132" transform="scale(0.000432713 0.000463607)"/>
+              <use href="#image1_82_132" transform="scale(0.000432713 0.000463607)" />
             </pattern>
             <pattern id="pattern2_82_132" patternContentUnits="objectBoundingBox" width="1" height="1">
-              <use href="#image2_82_132" transform="scale(0.000432713 0.000463607)"/>
+              <use href="#image2_82_132" transform="scale(0.000432713 0.000463607)" />
             </pattern>
-            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/orange.png"/>
-            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/green.png"/>
-            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/blue.png"/>
+            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/orange.png" />
+            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/green.png" />
+            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/blue.png" />
           </defs>
         </svg>
       </div>

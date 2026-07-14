@@ -1,0 +1,4476 @@
+{
+  "ai-emerging-technology": {
+    "routePath": "ai-emerging-technology",
+    "uniqueImageCount": 70,
+    "images": {
+      "/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp": [
+        "app/ai-emerging-technology/components/AiLedTransformation.tsx:21"
+      ],
+      "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp": [
+        "app/ai-emerging-technology/components/ProprietaryPlatform.tsx:21"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Process-Automationpng": [
+        "data/appliedAiData.ts:11"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng": [
+        "data/appliedAiData.ts:18"
+      ],
+      "/images/AI-&-Emerging-Technology/Data-Intelligence.webp": [
+        "data/appliedAiData.ts:25"
+      ],
+      "/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png": [
+        "data/appliedAiData.ts:39"
+      ],
+      "/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png": [
+        "data/appliedAiData.ts:46"
+      ],
+      "/images/applied-data-intelligence.png": [
+        "data/appliedAiData.ts:53"
+      ],
+      "/images/public/images/financial-accounting-solutions/Accuracypng": [
+        "data/appliedAiData.ts:67"
+      ],
+      "/images/public/images/financial-accounting-solutions/Compliancepng": [
+        "data/appliedAiData.ts:74",
+        "data/appliedAiData.ts:81"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp": [
+        "data/endToEndProductData.ts:24",
+        "data/endToEndProductData.ts:38"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/MVP-Development.webp": [
+        "data/endToEndProductData.ts:31"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "become-a-partner": {
+    "routePath": "become-a-partner",
+    "uniqueImageCount": 32,
+    "images": {
+      "/images/global-presence.png": [
+        "components/sections/BorderlessNetworkSection/BorderlessNetworkSection.tsx:17"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ]
+    }
+  },
+  "blogs/[id]": {
+    "routePath": "blogs/[id]",
+    "uniqueImageCount": 4,
+    "images": {
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/mockPosts.ts:24"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/mockPosts.ts:49"
+      ],
+      "/images/hero-3d.jpg": [
+        "data/mockPosts.ts:66"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng": [
+        "data/mockPosts.ts:83"
+      ]
+    }
+  },
+  "blogs": {
+    "routePath": "blogs",
+    "uniqueImageCount": 29,
+    "images": {
+      "/images/blogs.png": [
+        "app/blogs/data/mockPosts.ts:25",
+        "app/blogs/data/mockPosts.ts:106"
+      ],
+      "/images/ContactHandShake.png": [
+        "app/blogs/data/mockPosts.ts:50"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp": [
+        "app/blogs/data/mockPosts.ts:66"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "app/blogs/data/mockPosts.ts:74"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "app/blogs/data/mockPosts.ts:82"
+      ],
+      "/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng": [
+        "app/blogs/data/mockPosts.ts:90"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "app/blogs/data/mockPosts.ts:98"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/mockPosts.ts:24",
+        "data/pagesData.tsx:202"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/mockPosts.ts:49",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/hero-3d.jpg": [
+        "data/mockPosts.ts:66"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng": [
+        "data/mockPosts.ts:83"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "brand-digital-creative-services": {
+    "routePath": "brand-digital-creative-services",
+    "uniqueImageCount": 34,
+    "images": {
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp": [
+        "app/brand-digital-creative-services/components/BuildScaleSection.tsx:28"
+      ],
+      "/images/Technology-Driven-Execution.png": [
+        "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx:15"
+      ],
+      "/images/Technology-Driven-Execution-singale1.png": [
+        "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx:25"
+      ],
+      "/images/Technology-Driven-Execution-singale3.png": [
+        "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx:36"
+      ],
+      "/images/Technology-Driven-Execution-singale2.png": [
+        "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx:47"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/sectorsData.tsx:73"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ]
+    }
+  },
+  "brochures": {
+    "routePath": "brochures",
+    "uniqueImageCount": 6,
+    "images": {
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "app/brochures/data/mockBrochures.ts:17",
+        "app/brochures/data/mockBrochures.ts:34",
+        "app/brochures/data/mockBrochures.ts:42",
+        "app/brochures/data/mockBrochures.ts:50"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp": [
+        "app/brochures/data/mockBrochures.ts:26",
+        "app/brochures/data/mockBrochures.ts:58",
+        "app/brochures/data/mockBrochures.ts:66"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/mockBrochures.ts:15"
+      ],
+      "/images/public/images/banner-images/Open-Positionspng": [
+        "data/mockBrochures.ts:24"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/mockBrochures.ts:32"
+      ]
+    }
+  },
+  "business-financial-advisory": {
+    "routePath": "business-financial-advisory",
+    "uniqueImageCount": 78,
+    "images": {
+      "/images/Structured-Advisory-Banner.png": [
+        "app/business-financial-advisory/components/ConsultExpertsCTA.tsx:11"
+      ],
+      "/images/blogs/blogs.webp": [
+        "app/business-financial-advisory/components/DataDrivenSection.tsx:8",
+        "components/sections/StructuredAdvisory/StructuredAdvisory.tsx:74",
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261"
+      ],
+      "/images/public/images/Homepage/Manufacturing-1jpg": [
+        "components/sections/AdvancedAdvisory/AdvancedAdvisory.tsx:43"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp": [
+        "data/advisoryEcosystemsData.tsx:10"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Startupspng": [
+        "data/advisoryEcosystemsData.tsx:17"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Investorspng": [
+        "data/advisoryEcosystemsData.tsx:24"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177",
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124",
+        "data/sectorsData.tsx:73"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "case-studies": {
+    "routePath": "case-studies",
+    "uniqueImageCount": 42,
+    "images": {
+      "/images/challenges_sketch.png": [
+        "app/case-studies/components/CaseStudyChallenges.tsx:11",
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng": [
+        "app/case-studies/components/CaseStudyHero.tsx:31"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp": [
+        "app/case-studies/components/CaseStudyImpact.tsx:11"
+      ],
+      "/images/services-image.jpg": [
+        "app/case-studies/components/CaseStudyResults.module.css:42"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ]
+    }
+  },
+  "contact": {
+    "routePath": "contact",
+    "uniqueImageCount": 22,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/Systemic-Ownership.webp": [
+        "components/views/ContactPage/ContactForm.tsx:122"
+      ],
+      "/images/contact-locatin.webp": [
+        "components/views/ContactPage/ContactLocations.tsx:11"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "corporate-governance": {
+    "routePath": "corporate-governance",
+    "uniqueImageCount": 63,
+    "images": {
+      "/images/hourglass.png": [
+        "app/corporate-governance/components/LegacyAccountability.tsx:22"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127",
+        "data/responsibleScaleData.tsx:5"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/responsible_scale.png": [
+        "data/responsibleScaleData.tsx:13"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "enterprise-products": {
+    "routePath": "enterprise-products",
+    "uniqueImageCount": 46,
+    "images": {
+      "/images/blogs-inner.webp": [
+        "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx:19",
+        "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx:50"
+      ],
+      "/images/datanote-logo.png": [
+        "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx:29"
+      ],
+      "/images/logo.svg": [
+        "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx:61",
+        "components/sections/UnifiedFrameworkSection/UnifiedFrameworkSection.tsx:36"
+      ],
+      "/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png": [
+        "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx:22",
+        "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx:55"
+      ],
+      "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg": [
+        "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx:33",
+        "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx:44"
+      ],
+      "/images/sustainability-section.jpg": [
+        "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx:66"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/enterprise-products-platform.png": [
+        "components/sections/PlatformCapabilitiesSection/PlatformCapabilitiesSection.tsx:46"
+      ],
+      "/images/enterprise-products-demo.png": [
+        "components/sections/RequestDemoSection/RequestDemoSection.tsx:15"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng": [
+        "data/industryApplicationsData.ts:10"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng": [
+        "data/industryApplicationsData.ts:16"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/industryApplicationsData.ts:22",
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/industryApplicationsData.ts:28",
+        "data/sectorsData.tsx:73"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng": [
+        "data/industryApplicationsData.ts:34",
+        "data/industryApplicationsData.ts:40"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng": [
+        "data/industryApplicationsData.ts:50"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Automobilepng": [
+        "data/industryApplicationsData.ts:51"
+      ],
+      "/images/public/images/Become-a-Partner/sapng": [
+        "data/industryApplicationsData.ts:52"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng": [
+        "data/industryApplicationsData.ts:53"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng": [
+        "data/industryApplicationsData.ts:54"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng": [
+        "data/industryApplicationsData.ts:55",
+        "data/industryApplicationsData.ts:56"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ]
+    }
+  },
+  "financial-accounting-solutions": {
+    "routePath": "financial-accounting-solutions",
+    "uniqueImageCount": 70,
+    "images": {
+      "/images/financial-accounting-solutions/End-to-End-Financial-Process-Management.webp": [
+        "app/financial-accounting-solutions/components/FinancialProcessSection.tsx:12"
+      ],
+      "/images/outcome-logo.svg": [
+        "app/financial-accounting-solutions/components/StructuredOperationsSection.tsx:221"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Process-Automationpng": [
+        "data/appliedAiData.ts:11"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng": [
+        "data/appliedAiData.ts:18"
+      ],
+      "/images/AI-&-Emerging-Technology/Data-Intelligence.webp": [
+        "data/appliedAiData.ts:25"
+      ],
+      "/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png": [
+        "data/appliedAiData.ts:39"
+      ],
+      "/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png": [
+        "data/appliedAiData.ts:46"
+      ],
+      "/images/applied-data-intelligence.png": [
+        "data/appliedAiData.ts:53"
+      ],
+      "/images/public/images/financial-accounting-solutions/Accuracypng": [
+        "data/appliedAiData.ts:67"
+      ],
+      "/images/public/images/financial-accounting-solutions/Compliancepng": [
+        "data/appliedAiData.ts:74",
+        "data/appliedAiData.ts:81"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp": [
+        "data/endToEndProductData.ts:24",
+        "data/endToEndProductData.ts:38"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/MVP-Development.webp": [
+        "data/endToEndProductData.ts:31"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "financial-reports-disclosures": {
+    "routePath": "financial-reports-disclosures",
+    "uniqueImageCount": 20,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "group-structure": {
+    "routePath": "group-structure",
+    "uniqueImageCount": 22,
+    "images": {
+      "/images/our-entities-Intelliworkz.png": [
+        "app/group-structure/components/SynergyCompanies.tsx:30",
+        "app/group-structure/components/SynergyCompanies.tsx:41",
+        "app/group-structure/components/SynergyCompanies.tsx:52"
+      ],
+      "/images/independent-header.png": [
+        "app/group-structure/components/SynergyCompanies.tsx:68"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "industrial-automation": {
+    "routePath": "industrial-automation",
+    "uniqueImageCount": 65,
+    "images": {
+      "/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp": [
+        "app/industrial-automation/components/IndustrialSystemsSection.tsx:12"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "app/industrial-automation/components/TechnologyAlignedSection.tsx:16",
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/INDUSTRIES/INDUSTIRESpng": [
+        "app/industrial-automation/page.tsx:48"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/Structured-End-to-End-Project-Delivery.png": [
+        "components/sections/StructuredDeliverySection/StructuredDeliverySection.tsx:129"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124",
+        "data/industryApplicationsData.ts:28",
+        "data/sectorsData.tsx:73"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng": [
+        "data/industryApplicationsData.ts:10"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng": [
+        "data/industryApplicationsData.ts:16"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/industryApplicationsData.ts:22",
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng": [
+        "data/industryApplicationsData.ts:34",
+        "data/industryApplicationsData.ts:40"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng": [
+        "data/industryApplicationsData.ts:50"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Automobilepng": [
+        "data/industryApplicationsData.ts:51"
+      ],
+      "/images/public/images/Become-a-Partner/sapng": [
+        "data/industryApplicationsData.ts:52"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng": [
+        "data/industryApplicationsData.ts:53"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng": [
+        "data/industryApplicationsData.ts:54"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng": [
+        "data/industryApplicationsData.ts:55",
+        "data/industryApplicationsData.ts:56"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ]
+    }
+  },
+  "industries-we-serve": {
+    "routePath": "industries-we-serve",
+    "uniqueImageCount": 9,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp": [
+        "data/industriesData.tsx:20"
+      ],
+      "/images/Homepage/Retail.webp": [
+        "data/industriesData.tsx:40"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Healthcare.webp": [
+        "data/industriesData.tsx:60"
+      ],
+      "/images/INDUSTRIES/Hospitality.webp": [
+        "data/industriesData.tsx:80"
+      ],
+      "/images/INDUSTRIES/Real-Estate.webp": [
+        "data/industriesData.tsx:99"
+      ],
+      "/images/Homepage/Finance.webp": [
+        "data/industriesData.tsx:118"
+      ],
+      "/images/Homepage/Logistics.webp": [
+        "data/industriesData.tsx:137"
+      ],
+      "/images/Business-&-Financial-Advisory/Startups.webp": [
+        "data/industriesData.tsx:156"
+      ]
+    }
+  },
+  "internships-mentorship": {
+    "routePath": "internships-mentorship",
+    "uniqueImageCount": 84,
+    "images": {
+      "/images/blogs-inner.webp": [
+        "app/internships-mentorship/components/CodeRealImpact.tsx:11",
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177",
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/independent-header.png": [
+        "app/internships-mentorship/components/GlobalClassroomSection.tsx:26"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "investor-relations": {
+    "routePath": "investor-relations",
+    "uniqueImageCount": 86,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "LeaderShip-Team": {
+    "routePath": "LeaderShip-Team",
+    "uniqueImageCount": 22,
+    "images": {
+      "/images/2.webp": [
+        "app/LeaderShip-Team/components/DivisionHeads.tsx:6"
+      ],
+      "/images/leadership-team-bg.png": [
+        "app/LeaderShip-Team/components/ExecutiveCommittee.tsx:11",
+        "data/pagesData.tsx:154"
+      ],
+      "/images/blogs.png": [
+        "app/LeaderShip-Team/components/OneVision.tsx:35",
+        "app/LeaderShip-Team/components/OneVision.tsx:50"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "life-at-safal": {
+    "routePath": "life-at-safal",
+    "uniqueImageCount": 86,
+    "images": {
+      "/images/blogs-inner.webp": [
+        "app/life-at-safal/components/BeyondDesksection.tsx:21",
+        "app/life-at-safal/components/BeyondDesksection.tsx:22",
+        "app/life-at-safal/components/BeyondDesksection.tsx:26",
+        "app/life-at-safal/components/BeyondDesksection.tsx:30",
+        "app/life-at-safal/components/BeyondDesksection.tsx:31",
+        "app/life-at-safal/components/BrainTrustSection.tsx:25",
+        "app/life-at-safal/components/BrainTrustSection.tsx:30",
+        "app/life-at-safal/components/BrainTrustSection.tsx:31",
+        "app/life-at-safal/components/BrainTrustSection.tsx:36",
+        "app/life-at-safal/components/BrainTrustSection.tsx:41",
+        "app/life-at-safal/components/BrainTrustSection.tsx:42",
+        "app/life-at-safal/components/BrainTrustSection.tsx:47",
+        "app/life-at-safal/components/EngineerFutureSection.tsx:24",
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "news-and-announcements": {
+    "routePath": "news-and-announcements",
+    "uniqueImageCount": 3,
+    "images": {
+      "/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp": [
+        "app/news-and-announcements/components/NewsGrid.tsx:12",
+        "app/news-and-announcements/components/NewsGrid.tsx:20",
+        "app/news-and-announcements/components/NewsGrid.tsx:28",
+        "app/news-and-announcements/components/NewsGrid.tsx:36",
+        "app/news-and-announcements/components/NewsGrid.tsx:44"
+      ],
+      "/images/blogs/blogs.webp": [
+        "app/news-and-announcements/components/NewsGrid.tsx:52"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ]
+    }
+  },
+  "open-positions/[id]": {
+    "routePath": "open-positions/[id]",
+    "uniqueImageCount": 20,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "open-positions": {
+    "routePath": "open-positions",
+    "uniqueImageCount": 20,
+    "images": {
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ]
+    }
+  },
+  "our-story-vision": {
+    "routePath": "our-story-vision",
+    "uniqueImageCount": 89,
+    "images": {
+      "/images/ourstory.webp": [
+        "app/our-story-vision/components/AboutSection.tsx:23"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177",
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "startup-product-development": {
+    "routePath": "startup-product-development",
+    "uniqueImageCount": 36,
+    "images": {
+      "/images/blogs/blogs.webp": [
+        "app/startup-product-development/components/DesignToDeploymentSection.tsx:10",
+        "app/startup-product-development/components/DesignToDeploymentSection.tsx:18",
+        "app/startup-product-development/components/ProductDevelopmentSection.tsx:11",
+        "data/featureCardsData.tsx:49",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/devops.webp": [
+        "app/startup-product-development/components/DesignToDeploymentSection.tsx:26"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp": [
+        "data/endToEndProductData.ts:24",
+        "data/endToEndProductData.ts:38"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/MVP-Development.webp": [
+        "data/endToEndProductData.ts:31"
+      ],
+      "/images/public/images/Become-a-Partner/sapng": [
+        "data/featureCardsData.tsx:8"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/bannerwebp": [
+        "data/featureCardsData.tsx:15"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp": [
+        "data/featureCardsData.tsx:22"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/featureCardsData.tsx:35"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/featureCardsData.tsx:42"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "strategic-partnerships": {
+    "routePath": "strategic-partnerships",
+    "uniqueImageCount": 70,
+    "images": {
+      "/images/global-presence.png": [
+        "app/strategic-partnerships/components/BorderlessInnovationSection.tsx:16"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/dot-banner-white.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.module.css:4"
+      ],
+      "/images/DI_StarCube.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:56"
+      ],
+      "/images/DI_Compaas.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:64"
+      ],
+      "/images/DI_Orbit.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:72"
+      ],
+      "/images/DI_Rocket.png": [
+        "components/sections/IntelligenceSection/IntelligenceSection.tsx:80"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103",
+        "data/engineeringData.tsx:86"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88",
+        "data/engineeringData.tsx:116"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127",
+        "data/responsibleScaleData.tsx:5"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/our-story/Our-Story/Decentralized-Securitypng": [
+        "data/engineeringData.tsx:24"
+      ],
+      "/images/our-story/Our-Story/Decentralized-Security.webp": [
+        "data/engineeringData.tsx:32"
+      ],
+      "/images/our-story/Our-Story/Enterprise-Ecosystems.webp": [
+        "data/engineeringData.tsx:40"
+      ],
+      "/images/our-story/Our-Story/Low-Code-Agility.webp": [
+        "data/engineeringData.tsx:48"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/engineeringData.tsx:62",
+        "data/engineeringData.tsx:138",
+        "data/engineeringData.tsx:177"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng": [
+        "data/engineeringData.tsx:70"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng": [
+        "data/engineeringData.tsx:78"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng": [
+        "data/engineeringData.tsx:100"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng": [
+        "data/engineeringData.tsx:108"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/engineeringData.tsx:124"
+      ],
+      "/images/public/images/Investor-Relations/Investor/Annual-Reportspng": [
+        "data/engineeringData.tsx:146"
+      ],
+      "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng": [
+        "data/engineeringData.tsx:154"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png": [
+        "data/engineeringData.tsx:162"
+      ],
+      "/images/public/images/banner-images/Investor-Relationspng": [
+        "data/engineeringData.tsx:185"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng": [
+        "data/engineeringData.tsx:193"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "data/engineeringData.tsx:201",
+        "data/engineeringData.tsx:278"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng": [
+        "data/engineeringData.tsx:215",
+        "data/engineeringData.tsx:294"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng": [
+        "data/engineeringData.tsx:223",
+        "data/engineeringData.tsx:302"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng": [
+        "data/engineeringData.tsx:231",
+        "data/engineeringData.tsx:310",
+        "data/engineeringData.tsx:318"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp": [
+        "data/engineeringData.tsx:239"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng": [
+        "data/engineeringData.tsx:254"
+      ],
+      "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng": [
+        "data/engineeringData.tsx:262"
+      ],
+      "/images/Installation_Shape__The_202603281531-(1) 1.webp": [
+        "data/engineeringData.tsx:270"
+      ],
+      "/images/responsible_scale.png": [
+        "data/responsibleScaleData.tsx:13"
+      ]
+    }
+  },
+  "sustainability": {
+    "routePath": "sustainability",
+    "uniqueImageCount": 26,
+    "images": {
+      "/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng": [
+        "app/sustainability/components/EverylineSection.tsx:26"
+      ],
+      "/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp": [
+        "app/sustainability/components/LeafClockSection.tsx:29"
+      ],
+      "/images/dark_globe.png": [
+        "app/sustainability/components/TimeResourceSection.tsx:116"
+      ],
+      "/images/clean_globe.png": [
+        "app/sustainability/components/TimeResourceSection.tsx:125"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/pagesData.tsx:141"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/responsibleScaleData.tsx:5"
+      ],
+      "/images/responsible_scale.png": [
+        "data/responsibleScaleData.tsx:13"
+      ]
+    }
+  },
+  "technology-staffing": {
+    "routePath": "technology-staffing",
+    "uniqueImageCount": 80,
+    "images": {
+      "/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng": [
+        "app/technology-staffing/components/TechnologyTalent.tsx:13"
+      ],
+      "/images/blogs-inner.webp": [
+        "app/technology-staffing/components/TechnologyTalent.tsx:20"
+      ],
+      "/images/blogs/blogs.webp": [
+        "components/sections/EcosystemCTASection/EcosystemCTASection.tsx:15",
+        "components/sections/TechnologyStacksSection/TechnologyStacksSection.tsx:56",
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/featureCardsData.tsx:49",
+        "data/pagesData.tsx:141",
+        "data/speedQualityData.ts:48"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228",
+        "data/featureCardsData.tsx:42"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/public/images/banner-images/our-storypng": [
+        "data/cultureData.tsx:318",
+        "data/featureCardsData.tsx:35"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "data/cultureData.tsx:350"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/Become-a-Partner/sapng": [
+        "data/featureCardsData.tsx:8",
+        "data/industryApplicationsData.ts:52"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/bannerwebp": [
+        "data/featureCardsData.tsx:15"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp": [
+        "data/featureCardsData.tsx:22"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng": [
+        "data/industryApplicationsData.ts:10"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng": [
+        "data/industryApplicationsData.ts:16"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/industryApplicationsData.ts:22",
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/industryApplicationsData.ts:28",
+        "data/sectorsData.tsx:73"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng": [
+        "data/industryApplicationsData.ts:34",
+        "data/industryApplicationsData.ts:40"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng": [
+        "data/industryApplicationsData.ts:50"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Automobilepng": [
+        "data/industryApplicationsData.ts:51"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng": [
+        "data/industryApplicationsData.ts:53"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng": [
+        "data/industryApplicationsData.ts:54"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng": [
+        "data/industryApplicationsData.ts:55",
+        "data/industryApplicationsData.ts:56"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ]
+    }
+  },
+  "values-culture": {
+    "routePath": "values-culture",
+    "uniqueImageCount": 62,
+    "images": {
+      "/images/public/images/banner-images/our-storypng": [
+        "app/values-culture/components/VisionMissionSection.tsx:23",
+        "app/values-culture/components/VisionMissionSection.tsx:41",
+        "data/cultureData.tsx:318"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng": [
+        "app/values-culture/components/VisionMissionSection.tsx:32",
+        "data/cultureData.tsx:350"
+      ],
+      "/images/Our-Philosophy.webp": [
+        "app/values-culture/components/VisionMissionSection.tsx:50"
+      ],
+      "/images/MasterLayoutBG.png": [
+        "components/sections/InnerPageHero/InnerPageHero.module.css:3"
+      ],
+      "/images/public/images/Corporate-Governance/Absolute-Integritypng": [
+        "data/cultureData.tsx:25",
+        "data/cultureData.tsx:103"
+      ],
+      "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png": [
+        "data/cultureData.tsx:33"
+      ],
+      "/images/public/images/Corporate-Governance/Systemic-Ownership.png": [
+        "data/cultureData.tsx:41",
+        "data/cultureData.tsx:119"
+      ],
+      "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp": [
+        "data/cultureData.tsx:49"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng": [
+        "data/cultureData.tsx:64"
+      ],
+      "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng": [
+        "data/cultureData.tsx:72",
+        "data/cultureData.tsx:111"
+      ],
+      "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng": [
+        "data/cultureData.tsx:80"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng": [
+        "data/cultureData.tsx:88"
+      ],
+      "/images/public/images/banner-images/Become-a-Partnerpng": [
+        "data/cultureData.tsx:127"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng": [
+        "data/cultureData.tsx:143"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng": [
+        "data/cultureData.tsx:151"
+      ],
+      "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng": [
+        "data/cultureData.tsx:159"
+      ],
+      "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp": [
+        "data/cultureData.tsx:167"
+      ],
+      "/images/Relentless-Velocity.webp": [
+        "data/cultureData.tsx:182",
+        "data/cultureData.tsx:373"
+      ],
+      "/images/Investor-Relations/Investor/Disciplined-Allocation.webp": [
+        "data/cultureData.tsx:190"
+      ],
+      "/images/Investor-Relations/Investor/Strategic-Diversification.webp": [
+        "data/cultureData.tsx:198"
+      ],
+      "/images/Investor-Relations/Investor/Transparent-Governance.webp": [
+        "data/cultureData.tsx:206"
+      ],
+      "/images/blogs/blogs.webp": [
+        "data/cultureData.tsx:220",
+        "data/cultureData.tsx:261",
+        "data/pagesData.tsx:141"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng": [
+        "data/cultureData.tsx:228"
+      ],
+      "/images/Business-&-Financial-Advisory/Due-Diligence.webp": [
+        "data/cultureData.tsx:236"
+      ],
+      "/images/Business-&-Financial-Advisory/Internal-Audits.webp": [
+        "data/cultureData.tsx:244"
+      ],
+      "/images/Technology-Staffing/Contract-to-Hire.webp": [
+        "data/cultureData.tsx:269"
+      ],
+      "/images/Technology-Staffing/Full-Time-Hiring.webp": [
+        "data/cultureData.tsx:277"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng": [
+        "data/cultureData.tsx:294",
+        "data/cultureData.tsx:334"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng": [
+        "data/cultureData.tsx:302",
+        "data/cultureData.tsx:342"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng": [
+        "data/cultureData.tsx:310"
+      ],
+      "/images/AI-&-Emerging-Technology/Value-Impact.webp": [
+        "data/cultureData.tsx:358"
+      ],
+      "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp": [
+        "data/cultureData.tsx:381"
+      ],
+      "/images/Corporate-Governance/governance/Risk-Mitigation.webp": [
+        "data/cultureData.tsx:389"
+      ],
+      "/images/Corporate-Governance/governance/Shareholder-Transparency.webp": [
+        "data/cultureData.tsx:397"
+      ],
+      "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng": [
+        "data/cultureData.tsx:412"
+      ],
+      "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng": [
+        "data/cultureData.tsx:420"
+      ],
+      "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp": [
+        "data/cultureData.tsx:428"
+      ],
+      "/images/public/images/banner-images/Corporate-Governancepng": [
+        "data/cultureData.tsx:444"
+      ],
+      "/images/public/images/banner-images/contactwebp": [
+        "data/cultureData.tsx:452"
+      ],
+      "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng": [
+        "data/cultureData.tsx:460"
+      ],
+      "/images/challenges_sketch.png": [
+        "data/cultureData.tsx:468"
+      ],
+      "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp": [
+        "data/pagesData.tsx:20"
+      ],
+      "/images/MasterContact.png": [
+        "data/pagesData.tsx:35"
+      ],
+      "/images/Group-Structure/Group-Structure.webp": [
+        "data/pagesData.tsx:48"
+      ],
+      "/images/Investor-Relations/Investor-Relations.webp": [
+        "data/pagesData.tsx:64"
+      ],
+      "/images/life-at-safal/life-at-safal.webp": [
+        "data/pagesData.tsx:81"
+      ],
+      "/images/Open-Positions/Open-Positions.webp": [
+        "data/pagesData.tsx:97"
+      ],
+      "/images/Internships-&-Mentorship/Internships-&-Mentorship.png": [
+        "data/pagesData.tsx:113"
+      ],
+      "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp": [
+        "data/pagesData.tsx:128"
+      ],
+      "/images/leadership-team-bg.png": [
+        "data/pagesData.tsx:154"
+      ],
+      "/images/Technology-Staffing/Technology-Staffing.webp": [
+        "data/pagesData.tsx:166"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp": [
+        "data/pagesData.tsx:178"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "data/pagesData.tsx:190"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "data/pagesData.tsx:202"
+      ],
+      "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp": [
+        "data/pagesData.tsx:215"
+      ],
+      "/images/financial-accounting-solutions/financial-accounting-solutions.webp": [
+        "data/pagesData.tsx:227"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "data/pagesData.tsx:239"
+      ],
+      "/images/Corporate-Governance/Corporate-Governance.webp": [
+        "data/pagesData.tsx:253"
+      ],
+      "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp": [
+        "data/pagesData.tsx:265"
+      ],
+      "/images/blogs-inner.webp": [
+        "data/sustainableData.tsx:33",
+        "data/sustainableData.tsx:44",
+        "data/sustainableData.tsx:56",
+        "data/sustainableData.tsx:95"
+      ],
+      "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp": [
+        "data/sustainableData.tsx:107"
+      ],
+      "/images/climbing_stones.png": [
+        "data/sustainableData.tsx:123",
+        "data/sustainableData.tsx:143"
+      ]
+    }
+  },
+  "webinars": {
+    "routePath": "webinars",
+    "uniqueImageCount": 4,
+    "images": {
+      "/images/1.webp": [
+        "app/webinars/components/MeetSpeakers.tsx:5",
+        "app/webinars/components/MeetSpeakers.tsx:7"
+      ],
+      "/images/2.webp": [
+        "app/webinars/components/MeetSpeakers.tsx:6",
+        "app/webinars/components/MeetSpeakers.tsx:8"
+      ],
+      "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp": [
+        "app/webinars/components/WhyAttend.tsx:41"
+      ],
+      "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp": [
+        "app/webinars/page.tsx:37",
+        "app/webinars/page.tsx:51"
+      ]
+    }
+  },
+  "homepage": {
+    "routePath": "/",
+    "uniqueImageCount": 33,
+    "images": {
+      "/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp": [
+        "app/components/CTASection/CTASection.tsx:30"
+      ],
+      "https://flagcdn.com/w40/in.png": [
+        "app/components/DivisionsSection/DivisionsSection.tsx:79",
+        "app/components/DivisionsSection/DivisionsSection.tsx:90"
+      ],
+      "/images/HomePage/Diversified-Technology.png": [
+        "app/components/DivisionsSection/DivisionsSection.tsx:100"
+      ],
+      "https://flagcdn.com/w40/ae.png": [
+        "app/components/DivisionsSection/DivisionsSection.tsx:137"
+      ],
+      "https://flagcdn.com/w40/us.png": [
+        "app/components/DivisionsSection/DivisionsSection.tsx:148",
+        "app/components/DivisionsSection/DivisionsSection.tsx:156"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:11"
+      ],
+      "/images/datanote-logo.png": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:12",
+        "app/components/EcosystemSection/EcosystemSection.tsx:23",
+        "app/components/EcosystemSection/EcosystemSection.tsx:34",
+        "app/components/EcosystemSection/EcosystemSection.tsx:45",
+        "app/components/EcosystemSection/EcosystemSection.tsx:56"
+      ],
+      "/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:22"
+      ],
+      "/images/Homepage/Docezy.webp": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:33"
+      ],
+      "/images/Homepage/Tasknote.webp": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:44"
+      ],
+      "/images/digital-product.png": [
+        "app/components/EcosystemSection/EcosystemSection.tsx:55"
+      ],
+      "/images/globe-img.png": [
+        "app/components/GlobalPresenceSection/GlobalPresenceSection.tsx:34"
+      ],
+      "/images/hero-bg.png": [
+        "app/components/HeroSection/HeroSection.module.css:3"
+      ],
+      "/images/left-orange.svg": [
+        "app/components/InvestorsSection/InvestorsSection.module.css:30"
+      ],
+      "/images/right-orange.svg": [
+        "app/components/InvestorsSection/InvestorsSection.module.css:44"
+      ],
+      "/images/public/images/Homepage/Enterprise-Products-Platformsjpg": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:44"
+      ],
+      "/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:52"
+      ],
+      "/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:60"
+      ],
+      "/images/public/images/banner-images/Industrial-Automation-&-IoTpng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:68"
+      ],
+      "/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:76"
+      ],
+      "/images/public/images/banner-images/Business-&-Financial-Advisorypng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:84"
+      ],
+      "/images/public/images/Homepage/Financial-Accountingjpg": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:92"
+      ],
+      "/images/public/images/banner-images/Technology-Staffingpng": [
+        "app/components/SolutionsSection/SolutionsSection.tsx:100",
+        "data/sectorsData.tsx:85",
+        "data/sectorsData.tsx:91"
+      ],
+      "/images/leaf-veins.png": [
+        "app/components/SustainabilitySection/SustainabilitySection.module.css:13"
+      ],
+      "/images/green-fingerprint.jpg": [
+        "app/components/SustainabilitySection/SustainabilitySection.tsx:31"
+      ],
+      "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng": [
+        "data/sectorsData.tsx:9"
+      ],
+      "/images/public/images/Homepage/Logisticsjpg": [
+        "data/sectorsData.tsx:17"
+      ],
+      "/images/public/images/Homepage/Retailjpg": [
+        "data/sectorsData.tsx:26"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng": [
+        "data/sectorsData.tsx:33",
+        "data/sectorsData.tsx:67"
+      ],
+      "/images/public/images/Homepage/Financejpg": [
+        "data/sectorsData.tsx:40"
+      ],
+      "/images/public/images/INDUSTRIES/Real-Estatepng": [
+        "data/sectorsData.tsx:47",
+        "data/sectorsData.tsx:79"
+      ],
+      "/images/public/images/Homepage/Retail-1webp": [
+        "data/sectorsData.tsx:61"
+      ],
+      "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng": [
+        "data/sectorsData.tsx:73"
+      ]
+    }
+  }
+}

@@ -6,8 +6,8 @@ export default function BrochuresPage() {
   return (
     <main>
       <InnerPageHero 
-        title={<>Insights & Strategic Foresight</>}
-        description="Business perspectives, industry trends, and technical insights from the minds orchestrating the future of enterprise technology at Safal Infosoft."
+        title={<>Capabilities, Designed for Action</>}
+        description="Access curated brochures that bring together our capabilities, solutions, and strategic thinking, crafted to help you understand, evaluate, and move forward with clarity."
         imageSrc="/images/hero_3d_book.png"
         imageAlt="3D Glass Book"
       />

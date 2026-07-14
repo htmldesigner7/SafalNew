@@ -53,7 +53,7 @@ export const internshipsMentorshipData: SustainableContent = {
   <p>Our mentorship model places you alongside experienced operators, where you learn how decisions are made, how systems are built, and how global-scale execution happens daily.</p>
   <p>You don’t just understand theory—you internalize the frameworks that drive enterprise outcomes.</p>
   </>,
-  imageSrc: "/images/blogs-inner.webp",
+  imageSrc: "",
   imageAlt: "Sustainable Leaves"
 };
 
@@ -104,7 +104,7 @@ export const productsBuiltForScaleData: SustainableContent = {
       <p>Each product reflects structured execution, scalable architecture, and alignment between product vision and technology systems.</p>
     </>
   ),
-  imageSrc: "/images/ourstory.webp", // Fallback sketch image, user can replace
+  imageSrc: "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp", // Fallback sketch image, user can replace
   imageAlt: "Products Built for Scale"
 };
 
@@ -140,7 +140,7 @@ export const GoverningDigitalFrontierData: SustainableContent = {
       <p>We don’t treat governance as a checkpoint, it is embedded into how we design, build, and scale.</p>
     </>
   ),
-  imageSrc: "/images/climbing_stones.png",
+  imageSrc: "/images/Corporate-Governance/governance/Governing-the-Digital-Frontier.webp",
   imageAlt: "Governing the Digital Frontier"
 };
 

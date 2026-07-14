@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
@@ -15,6 +14,7 @@ import { structuredIndustrialExecutionData } from '@/data/platformAdvantagesData
 import StructuredDeliverySection from '@/components/sections/StructuredDeliverySection/StructuredDeliverySection';
 import IndustrialSystemsSection from './components/IndustrialSystemsSection';
 import TechnologyAlignedSection from './components/TechnologyAlignedSection';
+import IndustrialCtaSection from './components/IndustrialCtaSection';
 
 export default function IndustrialAutomationPage() {
   const heroData = pagesData.industrialAutomation.hero;
@@ -42,15 +42,7 @@ export default function IndustrialAutomationPage() {
 
       <EngineeringSection data={appliedImplementationsData} />
 
-      <section className="mt_80 mb_80">
-        <div className="container-1600">
-          <img
-            src="/images/manufacturing.jpg"
-            alt="Process Placeholder"
-            style={{ width: '100%', height: 'auto', borderRadius: '16px', objectFit: 'cover', maxHeight: '600px' }}
-          />
-        </div>
-      </section>
+      <IndustrialCtaSection />
 
       <PlatformAdvantagesSection {...structuredIndustrialExecutionData} />
     </main>

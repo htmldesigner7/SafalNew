@@ -1,0 +1,43 @@
+.section {
+  width: 100%;
+}
+
+.ctaContainer {
+  background-color: #00080e;
+  padding: 60px 0px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: var(--white);
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.description {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .ctaContainer {
+    padding: 60px 20px;
+  }
+}

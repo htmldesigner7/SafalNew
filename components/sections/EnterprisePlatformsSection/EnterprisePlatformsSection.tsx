@@ -16,7 +16,7 @@ export default function EnterprisePlatformsSection() {
         <div className={styles.platformBlock}>
           <div className={styles.imageCol}>
             <Image
-              src="/images/blogs-inner.webp" // Placeholder for DataNote Dashboard screenshot
+              src="/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp" // Placeholder for DataNote Dashboard screenshot
               alt="DataNote ERP Dashboard"
               width={800}
               height={500}
@@ -47,7 +47,7 @@ export default function EnterprisePlatformsSection() {
         <div className={styles.platformBlock}>
           <div className={styles.imageCol}>
             <Image
-              src="/images/blogs-inner.webp" // Placeholder for Formezy Dashboard screenshot
+              src="/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp" // Placeholder for Formezy Dashboard screenshot
               alt="Formezy EAP Dashboard"
               width={800}
               height={500}

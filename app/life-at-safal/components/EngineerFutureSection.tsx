@@ -21,7 +21,7 @@ export default function EngineerFutureSection() {
         </div>
         <div className={styles.imageContent}>
           <Image
-            src="/images/blogs-inner.webp"
+            src="/images/life-at-safal/Don’t-Just-Write- Code.webp"
             alt="Engineer the Future"
             width={600}
             height={500}

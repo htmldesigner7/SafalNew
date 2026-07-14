@@ -26,7 +26,7 @@ export default function LeafClockSection() {
           {/* Right Image */}
           <div className={styles.rightCol}>
             <Image
-              src="/images/leaf_clock.png"
+              src="/images/Technology-Staffing/Product-led-ventures-(2).webp"
               alt="Leaf Clock showing transition from dry to green"
               fill
               className={styles.image}

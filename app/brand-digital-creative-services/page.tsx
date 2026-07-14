@@ -27,6 +27,8 @@ export default function BrandDigitalCreativeServicesPage() {
       <CreativeDigitalEngineSection />
       <IntegratedBrandServicesSection />
 
+       <TechnologyDrivenExecutionSection />
+
       <ProcessSection
         title="Structured Execution Framework"
         data={structuredExecutionData}
@@ -42,7 +44,7 @@ export default function BrandDigitalCreativeServicesPage() {
           "A portfolio of brand identities, digital platforms, and marketing campaigns developed across industries, reflecting structured execution, creative consistency, and measurable impact.",
           "Each engagement demonstrates the integration of creative design services with performance-driven digital strategies."
         ]}
-        imageSrc="/images/container-port.png"
+        imageSrc="/images/Brand,-Digital-&-Creative-Services/brand-transformation-1.webp"
         imageAlt="Selected Work Illustration"
       />
 
@@ -50,7 +52,7 @@ export default function BrandDigitalCreativeServicesPage() {
 
       <BuildScaleSection />
 
-      <TechnologyDrivenExecutionSection />
+     
     </main>
   );
 }

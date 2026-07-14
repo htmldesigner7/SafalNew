@@ -21,7 +21,7 @@ export const mockPosts: BlogPost[] = [
     id: 'post-1',
     title: 'Transforming Manufacturing with AI',
     description: 'Discover how artificial intelligence is revolutionizing the manufacturing sector with predictive maintenance and automated quality control.',
-    imageSrc: '/images/manufacturing.jpg',
+    imageSrc: "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
     date: '10-March-2024',
     tags: ['AI & Automation', 'Manufacturing'],
     isFeatured: true,
@@ -46,7 +46,7 @@ export const mockPosts: BlogPost[] = [
     id: 'post-2',
     title: 'The Future of Cloud ERP',
     description: 'Learn why modern enterprises are migrating to cloud-based ERP solutions for better scalability and real-time insights.',
-    imageSrc: '/images/hero-section.jpg',
+    imageSrc: "/images/blogs/blogs.webp",
     date: '05-April-2024',
     tags: ['ERP Solutions', 'Cloud Migration'],
     content: [
@@ -80,7 +80,7 @@ export const mockPosts: BlogPost[] = [
     id: 'post-4',
     title: 'Streamlining Finance Operations',
     description: 'How digital transformation is helping financial institutions automate compliance and improve customer experience.',
-    imageSrc: '/images/finance.jpg',
+    imageSrc: "/images/Become-a-Partner/Becomepartner/Technology-Integrations.webp",
     date: '20-June-2024',
     tags: ['Finance', 'AI & Automation'],
     content: [

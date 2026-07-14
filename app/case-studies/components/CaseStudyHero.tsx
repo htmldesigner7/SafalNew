@@ -28,7 +28,7 @@ export default function CaseStudyHero() {
 
         <div className={styles.heroImageWrapper}>
           <Image 
-            src="/images/manufacturing.jpg" 
+            src="/images/.webp" 
             alt="Manufacturing Case Study Hero"
             fill
             className={styles.image}
