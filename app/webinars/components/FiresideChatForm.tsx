@@ -22,25 +22,6 @@ export default function FiresideChatForm() {
     resolver: zodResolver(webinarSchema),
   });
 
-<<<<<<< HEAD
-  const onSubmit = async (data: z.infer<typeof webinarSchema>) => {
-    const response = await fetch("/api/webinar", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    const result = await response.json();
-
-    if (result.success) {
-      alert("Form Submitted");
-      reset();
-    } else {
-      alert(result.message);
-    }
-=======
   const onSubmit = async (data: WebinarFormData) => {
       const loadingToast = toast.loading('Submitting your message...');
         try {
@@ -71,7 +52,6 @@ export default function FiresideChatForm() {
         } finally {
             //setStatus('idle');
         }
->>>>>>> 71f0a1b77546539d948527f54a93f6d1c1677982
   };
 
   return (
