@@ -8,7 +8,7 @@ export default function CaseStudyImpact() {
         <div className={styles.impactCard}>
           <div className={styles.bgWrapper}>
             <Image 
-              src="/images/manufacturing.jpg" 
+              src="/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp" 
               alt="Impact Background" 
               fill 
               className={styles.bgImage} 

@@ -17,7 +17,7 @@ export const manufacturingIndustryData: IndustryDetailData = {
     'Automotive & Components',
     'Industrial Equipment'
   ],
-  imageSrc: '/images/INDUSTRIES/Manufacturing.webp',
+  imageSrc: '/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp',
   imageAlt: 'Manufacturing facility',
   reverse: false,
 };
@@ -37,7 +37,7 @@ export const retailIndustryData: IndustryDetailData = {
     'Home & Furniture',
     'Specialty Retail'
   ],
-  imageSrc: '/images/INDUSTRIES/Retail.webp',
+  imageSrc: '/images/Homepage/Retail.webp',
   imageAlt: 'Retail and E-commerce',
   reverse: true,
 };
@@ -57,7 +57,7 @@ export const healthcareIndustryData: IndustryDetailData = {
     'Health Insurance (Payers)',
     'Digital Therapeutics'
   ],
-  imageSrc: '/images/INDUSTRIES/Healthcare.webp',
+  imageSrc: '/images/Brand,-Digital-&-Creative-Services/Healthcare.webp',
   imageAlt: 'Healthcare Technology',
   reverse: false,
 };
@@ -96,7 +96,7 @@ export const realEstateIndustryData: IndustryDetailData = {
     'Property Management',
     'Real Estate Investment'
   ],
-  imageSrc: '/images/INDUSTRIES/Real Estate.webp',
+  imageSrc: '/images/INDUSTRIES/Real-Estate.webp',
   imageAlt: 'Real Estate Infrastructure',
   reverse: false,
 };
@@ -115,7 +115,7 @@ export const financeIndustryData: IndustryDetailData = {
     'Insurance (InsurTech)',
     'Capital Markets'
   ],
-  imageSrc: '/images/INDUSTRIES/Finance.webp',
+  imageSrc: '/images/Homepage/Finance.webp',
   imageAlt: 'Financial Services',
   reverse: true,
 };
@@ -134,7 +134,7 @@ export const logisticsIndustryData: IndustryDetailData = {
     'Last-Mile Delivery',
     'Aviation & Maritime'
   ],
-  imageSrc: '/images/INDUSTRIES/Logistics.webp',
+  imageSrc: '/images/Homepage/Logistics.webp',
   imageAlt: 'Logistics and Supply Chain',
   reverse: false,
 };
@@ -153,7 +153,7 @@ export const startupsIndustryData: IndustryDetailData = {
     'Marketplace Platforms',
     'B2B Enterprise Solutions'
   ],
-  imageSrc: '/images/INDUSTRIES/Startups.webp',
+  imageSrc: '/images/Business-&-Financial-Advisory/Startups.webp',
   imageAlt: 'Startup Ecosystems',
   reverse: true,
 };

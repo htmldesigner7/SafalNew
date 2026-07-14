@@ -104,7 +104,7 @@ export const productsBuiltForScaleData: SustainableContent = {
       <p>Each product reflects structured execution, scalable architecture, and alignment between product vision and technology systems.</p>
     </>
   ),
-  imageSrc: "/images/ourstory.webp", // Fallback sketch image, user can replace
+  imageSrc: "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp", // Fallback sketch image, user can replace
   imageAlt: "Products Built for Scale"
 };
 

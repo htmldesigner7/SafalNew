@@ -19,7 +19,7 @@ const caseStudies = [
       "The implementation enabled seamless synchronization between operational and financial functions, improving data accuracy and reducing process dependencies. By standardizing workflows and integrating reporting structures, the system strengthened decision-making capabilities across distribution channels.",
       "This structured approach improved coordination between inventory, order processing, and financial tracking, ensuring consistency across operations. As a result, the organization achieved better control over workflows while maintaining scalability for future growth.",
     ],
-    image: "/images/manufacturing.jpg"
+    image: "/images/Technology-Staffing/Digitally-Transforming-Enterprises-.webp"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const caseStudies = [
       "The integrated system streamlined production planning and inventory coordination, reducing inefficiencies across workflows. With improved data visibility and process standardization, the organization gained better control over manufacturing cycles and operational execution.",
       "By aligning production, inventory, and reporting within a unified framework, the system enabled consistent tracking and improved responsiveness to changing demands. This resulted in enhanced efficiency and more reliable process outcomes across manufacturing operations."
     ],
-    image: "/images/healthcare.jpg"
+    image: "/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-System.webp"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const caseStudies = [
       "The centralized system enabled real-time coordination across locations, improving inventory accuracy and operational consistency. Standardized workflows ensured uniform execution across all outlets, reducing manual intervention and process gaps.",
       "With integrated reporting and centralized control, management gained better visibility into performance across locations. This allowed for faster decision-making, improved operational alignment, and the ability to scale retail operations efficiently."
     ],
-    image: "/images/finance.jpg"
+    image: "/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-System.webp"
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const caseStudies = [
       "The system enhanced visibility across inventory and order lifecycles, enabling better coordination between operational teams. Structured workflows reduced inconsistencies and improved execution across critical processes.",
       "By integrating operational functions within a unified framework, the organization achieved improved tracking, reduced delays, and better process reliability. This ensured smoother coordination and more efficient handling of business operations."
     ],
-    image: "/images/investor-section.jpg"
+    image: "/images/Technology-Staffing/Digitally-Transforming-Enterprises-.webp"
   },
   {
     id: 5,

@@ -26,7 +26,7 @@ export default function StrategicPartnershipsPage() {
           </>
         }
         description="At the Safal Group, we don't just sign vendor agreements: we forge strategic alliances. Partner with a tier-one matrix of engineers, designers, and venture architects to co-create enterprise solutions, unlock new international markets, and drive compounding mutual growth."
-        imageSrc="/images/Strategic Partnerships/Strategic Partnerships.webp"
+        imageSrc="/images/Strategic-Partnerships/Strategic-Partnerships.webp"
         imageAlt="Strategic Partnerships Interlocking Rings"
       />
 

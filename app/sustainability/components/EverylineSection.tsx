@@ -23,7 +23,7 @@ export default function EverylineSection() {
           {/* Right Image */}
           <div className={styles.rightCol}>
             <Image
-              src="/images/leaf_clock.png"
+              src="/images/Internships-&-Mentorship/Internship/Fierce-Curiosity.webp"
               alt="Leaf Clock showing transition from dry to green"
               fill
               className={styles.image}

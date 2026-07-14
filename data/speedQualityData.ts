@@ -45,6 +45,6 @@ export const speedQualityData: SpeedQualityData = {
       ],
     }
   ],
-  imageSrc: "/images/hero_3d_book.png",
+  imageSrc: "/images/blogs/blogs.webp",
   imageAlt: "Speed, Quality, Scalability"
 };

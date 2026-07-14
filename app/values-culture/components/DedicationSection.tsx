@@ -22,7 +22,7 @@ export default function DedicationSection({
   <p>From engineers and strategists to designers and operators, every individual contributes to a culture built on trust, collaboration, and continuous improvement.</p>
   <p>At Safal, you are not part of a system; you are what powers it.</p>
   </>,
-  imageSrc = "/images/Installation_Shape__The_202603281531 (1) 1.webp", // Placeholder
+  imageSrc = "/images/Installation_Shape__The_202603281531-(1) 1.webp", // Placeholder
   imageAlt = "Dedication Graphic Collage"
 }: DedicationSectionProps) {
   return (
