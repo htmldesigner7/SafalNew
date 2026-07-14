@@ -10,8 +10,11 @@
 
 .imageWrapper {
   width: 100%;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
+  height: 500px;
 }
+
+
 
 .image {
   object-fit: cover;
@@ -62,16 +65,22 @@
 }
 
 @media (max-width: 1025px) {
-  .imageWrapper { aspect-ratio: 16 / 9; }
+  /* .imageWrapper { aspect-ratio: 16 / 9; } */
   .textContainer { margin-top: -20px; }
 }
 
 @media (max-width: 769px) {
   .textContainer { margin-top: -20px; padding: 0 00px; }
+
+  .imageWrapper {
+  height: 300px;
+}
+
+
 }
 
 @media (max-width: 431px) {
-  .imageWrapper { aspect-ratio: 4 / 3; }
+  /* .imageWrapper { aspect-ratio: 4 / 3; } */
   .description { margin-top: 16px; }
 }
 

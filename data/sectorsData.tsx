@@ -44,7 +44,7 @@ export const defaultSectorsData = {
     {
       id: '06',
       title: 'Real Estate',
-      image: '/images/INDUSTRIES/Real-Estate.webp',
+      image: '',
       description: <>Safal enables real estate organizations to streamline operations, manage assets, and improve visibility through structured digital solutions. By connecting data, processes, and platforms, we support better coordination across property management, sales, and financial workflows. <br /><br />Our solutions are designed to enhance operational control, improve reporting accuracy, and support scalable growth. This ensures efficient management of real estate portfolios while maintaining consistency across projects and business functions.
       </>,
     }
@@ -58,37 +58,37 @@ export const brandIndustryApplicationsData = {
     {
       id: '01',
       title: 'Manufacturing',
-      image: '/images/Homepage/Manufacturing-1.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp',
       description: ''
     },
     {
       id: '02',
       title: 'Retail & E-commerce',
-      image: '/images/Homepage/Retail-1.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Retail-&-Distribution.webp',
       description: ''
     },
     {
       id: '03',
       title: 'Healthcare',
-      image: '/images/Homepage/Healthcare-1.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Healthcare.webp',
       description: ''
     },
     {
       id: '04',
       title: 'Financial Services',
-      image: '/images/Homepage/Finance-1.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Financial-Services.webp',
       description: ''
     },
     {
       id: '05',
       title: 'Real Estate',
-      image: '/images/banner-images/Technology-Staffing.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Management.webp',
       description: ''
     },
     {
       id: '06',
       title: 'Technology & Startups',
-      image: '/images/banner-images/Technology-Staffing.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp',
       description: ''
     }
   ]

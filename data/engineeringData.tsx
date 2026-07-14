@@ -228,7 +228,7 @@ export const appliedImplementationsData: EngineeringContent = {
       subtitle: "",
       title: "Predictive Maintenance Systems",
       description: "Reduced downtime through early fault detection.",
-      imageSrc: "/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimization.webp"
+      imageSrc: "/images/Industrial-Automation-&-IoT/Predictive-Maintenance-Systems.webp"
     },
     {
       id: "energy-monitoring",
@@ -236,7 +236,7 @@ export const appliedImplementationsData: EngineeringContent = {
       subtitle: "",
       title: "Energy Monitoring & Optimization",
       description: "Improved efficiency and reduced operational costs.",
-      imageSrc: "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp"
+      imageSrc: "/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimization.webp"
     }
   ]
 };

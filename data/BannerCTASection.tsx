@@ -2,7 +2,7 @@ import React from 'react';
 import { BannerCTAData } from '@/components/sections/BannerCTASection/BannerCTASection';
 
 export const startupProductDevBannerData: BannerCTAData = {
-  iconSrc: '/images/logo.svg',
+  iconSrc: '/images/favicon_new.png',
   title: (
     <>
       Start Your Product <br />
@@ -13,7 +13,7 @@ export const startupProductDevBannerData: BannerCTAData = {
   description: 'Work with a team delivering startup consulting services and product development through disciplined execution, scalable architecture, and long-term product thinking.',
   buttonText: 'Book a Consultation',
   buttonLink: '/contact',
-  bgImageSrc: '/images/Structured-Advisory-Banner.png',
+  bgImageSrc: '/images/Startup-Product-Development-&-Consulting/cta.webp',
 };
 
 export const aiEmergingTechBannerData: BannerCTAData = {

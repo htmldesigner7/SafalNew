@@ -19,7 +19,7 @@ const caseStudies = [
       "The implementation enabled seamless synchronization between operational and financial functions, improving data accuracy and reducing process dependencies. By standardizing workflows and integrating reporting structures, the system strengthened decision-making capabilities across distribution channels.",
       "This structured approach improved coordination between inventory, order processing, and financial tracking, ensuring consistency across operations. As a result, the organization achieved better control over workflows while maintaining scalability for future growth.",
     ],
-    image: "/images/Technology-Staffing/Digitally-Transforming-Enterprises-.webp"
+    image: "/images/Enterprise-Grade-Products-Built-for-Scale/Real-Estate-&-Property-Management.webp"
   },
   {
     id: 2,

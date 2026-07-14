@@ -13,7 +13,7 @@ export default function TechnologyAlignedSection() {
             <p>Our implementation approach focuses on integrating standardized technologies with existing systems to ensure seamless interoperability and long-term reliability. By aligning architecture, protocols, and deployment frameworks, we enable stable system performance, minimize disruptions, and support scalable operations that adapt to evolving industrial and enterprise requirements.</p>
           </div>
           <div className={sysStyles.imageContent}>
-            <Image src="/images/Installation_Shape__The_202603281531-(1) 1.webp" alt="Technology-Aligned Implementation" fill className={sysStyles.image} />
+            <Image src="/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementation.webp" alt="Technology-Aligned Implementation" fill className={sysStyles.image} />
           </div>
         </div>
       </div>
