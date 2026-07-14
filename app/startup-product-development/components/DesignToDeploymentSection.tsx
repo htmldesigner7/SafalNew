@@ -7,7 +7,7 @@ const circles = [
     id: 'uiux',
     title: 'UI/UX Design',
     desc: 'Designs intuitive product interfaces and user journeys aligned with usability and functional clarity.',
-    img: "/images/blogs/blogs.webp",
+    img: "/images/Startup-Product-Development-&-Consulting/ui-ux.webp",
     className: styles.leftCircle,
     nodes: [1, 2, 3, 4]
   },
@@ -15,7 +15,7 @@ const circles = [
     id: 'eng',
     title: 'Engineering',
     desc: 'Delivers scalable product development through structured coding practices and modern frameworks.',
-    img: "/images/blogs/blogs.webp",
+    img: "/images/Startup-Product-Development-&-Consulting/engineerring.webp",
     className: styles.centerCircle,
     nodes: [5, 6]
   },
@@ -31,13 +31,13 @@ const circles = [
 
 // Re-calibrated nodes for perfect 1-to-1 alignment with Figma
 const nodes = [
-  { id: 1, label: '01 / Immersion',   lineX: '0%',  y: '65%', direction: 'right', parent: 'uiux',   lineTop: '40%', lineHeight: '40%', hideLine: true },
-  { id: 2, label: '02 / Research',    lineX: '15%', y: '55%', direction: 'right', parent: 'uiux',   lineTop: '35%', lineHeight: '40%' },
-  { id: 3, label: '03 / Prototype',   lineX: '29%', y: '50%', direction: 'right', parent: 'uiux',   lineTop: '30%', lineHeight: '40%' },
-  { id: 4, label: '04 / Design',      lineX: '44%', y: '45%', direction: 'right', parent: 'uiux',   lineTop: '30%', lineHeight: '40%' },
-  { id: 5, label: '05 / Refinement',  lineX: '56%', y: '50%', direction: 'right', parent: 'eng',    lineTop: '30%', lineHeight: '40%' },
-  { id: 6, label: '06 / Development', lineX: '73%', y: '55%', direction: 'right', parent: 'eng',    lineTop: '35%', lineHeight: '40%' },
-  { id: 7, label: '07 / Launch',      lineX: '90%', y: '65%', direction: 'right', parent: 'devops', lineTop: '40%', lineHeight: '40%' },
+  { id: 1, label: '01 / Immersion', lineX: '0%', y: '65%', direction: 'right', parent: 'uiux', lineTop: '40%', lineHeight: '40%', hideLine: true },
+  { id: 2, label: '02 / Research', lineX: '15%', y: '55%', direction: 'right', parent: 'uiux', lineTop: '35%', lineHeight: '40%' },
+  { id: 3, label: '03 / Prototype', lineX: '29%', y: '50%', direction: 'right', parent: 'uiux', lineTop: '30%', lineHeight: '40%' },
+  { id: 4, label: '04 / Design', lineX: '44%', y: '45%', direction: 'right', parent: 'uiux', lineTop: '30%', lineHeight: '40%' },
+  { id: 5, label: '05 / Refinement', lineX: '56%', y: '50%', direction: 'right', parent: 'eng', lineTop: '30%', lineHeight: '40%' },
+  { id: 6, label: '06 / Development', lineX: '73%', y: '55%', direction: 'right', parent: 'eng', lineTop: '35%', lineHeight: '40%' },
+  { id: 7, label: '07 / Launch', lineX: '90%', y: '65%', direction: 'right', parent: 'devops', lineTop: '40%', lineHeight: '40%' },
 ];
 
 export default function DesignToDeploymentSection() {

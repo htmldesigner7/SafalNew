@@ -14,4 +14,12 @@ export const coExistScale = {
   imageAlt: "Co-exist ecosystem"
 };
 
-export const ArchitectFutureTogether = coExistScale;
+export const ArchitectFutureTogether = {
+  title: "Let's Architect the Future, Together.",
+  description: <>
+    Partnering with Safal Group means plugging into a unified global ecosystem designed for extreme scale and continuous innovation. <br /><br />
+    Whether you are an enterprise seeking digital transformation or a founder building the next category leader—we create a foundation that supports sustainable growth.
+  </>,
+  imageSrc: "/images/Strategic-Partnerships/Strategic-Partnerships.webp",
+  imageAlt: "Strategic Partnerships"
+};

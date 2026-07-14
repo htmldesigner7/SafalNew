@@ -21,7 +21,7 @@ export const endToEndProductData: ImageCardsData = {
       id: "Product Strategy",
       title: "Product Strategy",
       description: "Defines product direction, feature prioritization, and system structure aligned with business goals and market requirements as part of comprehensive product development services for startups.",
-      imageSrc: "/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp", // User will replace with actual images
+      imageSrc: "/images/Startup-Product-Development-&-Consulting/Product-Strategy.webp", // User will replace with actual images
       imageAlt: "Product Strategy"
     },
     {
