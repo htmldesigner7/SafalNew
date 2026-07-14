@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 
 interface InnerPageHeroProps {
   title: ReactNode;
-  description: string;
+  description: ReactNode;
   imageSrc: string;
   imageAlt: string;
 }
