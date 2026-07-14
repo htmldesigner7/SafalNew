@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, ReactNode } from 'react';
 import styles from './ReportsListSection.module.css';
 
 interface ReportItem {
@@ -11,7 +11,7 @@ interface ReportItem {
 
 interface ReportsData {
   title: string;
-  description: string;
+  description: ReactNode;
   tabs: string[];
   items: Record<string, ReportItem[]>;
 }
@@ -72,7 +72,7 @@ export default function ReportsListSection({ data = reportsDataMock }: { data?: 
         
         <div className={styles.header}>
           <h2 className="title_60">{data.title}</h2>
-          <p className={styles.description}>{data.description}</p>
+          <div className={styles.description}>{data.description}</div>
         </div>
 
         <div className={`${styles.controlsWrapper} mt_80`}>
