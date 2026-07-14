@@ -9,13 +9,13 @@ export const manufacturingIndustryData: IndustryDetailData = {
   subIndustriesTitle: 'Sub-Industries / Verticals',
   subIndustries: [
     'Discrete Manufacturing',
-    'Electronics Manufacturing',
-    'Textile & Apparel Manufacturing',
     'Process Manufacturing',
-    'Metal & Heavy Engineering',
-    'Plastics & Polymers',
     'Automotive & Components',
-    'Industrial Equipment'
+    'Industrial Equipment',
+    'Metal & Heavy Engineering',
+    'Textile & Apparel Manufacturing',
+    'Plastics & Polymers',
+    'Electronics Manufacturing'
   ],
   imageSrc: '/images/INDUSTRIES/Manufacturing.webp',
   imageAlt: 'Manufacturing facility',
@@ -23,46 +23,6 @@ export const manufacturingIndustryData: IndustryDetailData = {
 };
 
 export const retailIndustryData: IndustryDetailData = {
-  title: 'Retail',
-  paragraphs: [
-    'Safal provides retail enterprises with scalable digital infrastructure to unify their supply chain, inventory, and customer experience. We develop high-performance platforms that align operational efficiency with dynamic market demands.',
-    'From intelligent inventory systems to seamless multi-channel integrations, our approach empowers retailers with data-driven insights and streamlined processes for sustained growth.'
-  ],
-  subIndustriesTitle: 'Sub-Industries / Verticals',
-  subIndustries: [
-    'E-commerce & Marketplaces',
-    'Fashion & Apparel',
-    'Consumer Electronics',
-    'Food & Beverage Retail',
-    'Home & Furniture',
-    'Specialty Retail'
-  ],
-  imageSrc: '/images/INDUSTRIES/Retail.webp',
-  imageAlt: 'Retail and E-commerce',
-  reverse: true,
-};
-
-export const healthcareIndustryData: IndustryDetailData = {
-  title: 'Healthcare',
-  paragraphs: [
-    'We partner with healthcare organizations to engineer secure, compliant, and interoperable digital ecosystems. Our solutions are designed to bridge the gap between complex medical data and patient-centric care delivery.',
-    'By deploying scalable architectures for data management and clinical workflows, Safal ensures that healthcare providers can operate with precision, security, and enhanced operational visibility.'
-  ],
-  subIndustriesTitle: 'Sub-Industries / Verticals',
-  subIndustries: [
-    'Hospitals & Clinics',
-    'Telehealth Platforms',
-    'Medical Devices & IoT',
-    'Pharmaceuticals',
-    'Health Insurance (Payers)',
-    'Digital Therapeutics'
-  ],
-  imageSrc: '/images/INDUSTRIES/Healthcare.webp',
-  imageAlt: 'Healthcare Technology',
-  reverse: false,
-};
-
-export const hospitalityIndustryData: IndustryDetailData = {
   title: 'Hospitality',
   paragraphs: [
     'Safal supports hospitality businesses in managing operations, guest services, and backend systems through integrated digital solutions. By aligning processes and data, organizations gain better control over service delivery and operational workflows.',
@@ -77,84 +37,131 @@ export const hospitalityIndustryData: IndustryDetailData = {
     'Facility & Property Management',
     'Luxury & Boutique Hospitality'
   ],
-  imageSrc: '/images/INDUSTRIES/Hospitality.webp',
+  imageSrc: '/images/INDUSTRIES/Retail.webp',
   imageAlt: 'Hospitality Management',
   reverse: true,
 };
 
-export const realEstateIndustryData: IndustryDetailData = {
-  title: 'Real Estate',
+export const healthcareIndustryData: IndustryDetailData = {
+  title: 'Startups',
   paragraphs: [
-    'We empower real estate firms with advanced property management platforms and data analytics. Safal’s digital solutions transform complex property portfolios into streamlined, transparent assets.',
-    'From automated tenant management to sophisticated investment analytics, we build the underlying architecture that supports intelligent decision-making and efficient property lifecycles.'
+    'Safal enables startups to build structured operational and digital foundations from the outset. By integrating systems, workflows, and data, we support scalable growth and efficient decision-making in fast-paced business environments.',
+    'Our solutions help startups maintain agility while establishing control, visibility, and process consistency. This ensures that growth is supported by strong digital infrastructure and structured execution frameworks.'
   ],
   subIndustriesTitle: 'Sub-Industries / Verticals',
   subIndustries: [
-    'Commercial Real Estate',
-    'Residential Property',
-    'PropTech Platforms',
-    'Property Management',
-    'Real Estate Investment'
+    'SaaS & Product Startups',
+    'D2C & E-commerce Brands',
+    'Fintech Startups',
+    'Healthtech & Edtech',
+    'Platform-Based Businesses',
+    'AI & Deep Tech Startups',
+    'Marketplace Platforms'
+  ],
+  imageSrc: '/images/INDUSTRIES/Healthcare.webp',
+  imageAlt: 'Startup Ecosystems',
+  reverse: false,
+};
+
+export const hospitalityIndustryData: IndustryDetailData = {
+  title: 'Logistics',
+  paragraphs: [
+    'Safal supports logistics and supply chain organizations in optimizing operations through integrated systems for tracking, inventory, and workflow management. This improves coordination, reduces delays, and enhances operational efficiency.',
+    'By enabling real-time visibility and structured process management, our solutions help logistics businesses streamline operations and improve decision-making across complex supply chain networks.'
+  ],
+  subIndustriesTitle: 'Sub-Industries / Verticals',
+  subIndustries: [
+    'Warehousing & Distribution',
+    'Freight & Transportation',
+    'Supply Chain Management',
+    'Fleet Management',
+    'Third-Party Logistics (3PL)',
+    'Cold Chain Logistics',
+    'Last-Mile Delivery'
+  ],
+  imageSrc: '/images/INDUSTRIES/Hospitality.webp',
+  imageAlt: 'Logistics and Supply Chain',
+  reverse: true,
+};
+
+export const realEstateIndustryData: IndustryDetailData = {
+  title: 'Retail',
+  paragraphs: [
+    'Safal enables retail businesses to unify operations across inventory, billing, and customer engagement systems. This ensures consistency across locations while improving visibility and operational control.',
+    'Our solutions support seamless retail operations, enabling businesses to manage multi-location environments efficiently. By integrating systems, we help retailers enhance performance and deliver consistent customer experiences.'
+  ],
+  subIndustriesTitle: 'Sub-Industries / Verticals',
+  subIndustries: [
+    'Multi-Store Retail Chains',
+    'E-commerce & Omnichannel Retail',
+    'Fashion & Apparel Retail',
+    'Electronics & Consumer Goods',
+    'FMCG Distribution',
+    'Specialty Retail',
+    'Wholesale & Distribution'
   ],
   imageSrc: '/images/INDUSTRIES/Real Estate.webp',
-  imageAlt: 'Real Estate Infrastructure',
+  imageAlt: 'Retail and E-commerce',
   reverse: false,
 };
 
 export const financeIndustryData: IndustryDetailData = {
-  title: 'Finance',
+  title: 'Healthcare',
   paragraphs: [
-    'Safal architects secure and resilient financial systems designed for high-volume transactions and strict regulatory compliance. We help financial institutions modernize their legacy architectures.',
-    'Our engineering focus ensures robust data integrity, advanced risk management, and scalable infrastructure that drives innovation across banking, investment, and fintech operations.'
+    'Safal enables healthcare organizations to improve operational efficiency and system integration through structured digital solutions. By connecting data, processes, and platforms, we support better coordination, visibility, and decision-making across healthcare environments',
+    'Our solutions are designed to enhance system reliability, ensure compliance, and support the delivery of efficient and consistent healthcare services.'
   ],
   subIndustriesTitle: 'Sub-Industries / Verticals',
   subIndustries: [
-    'Banking & Credit Unions',
-    'FinTech & Payments',
-    'Wealth Management',
-    'Insurance (InsurTech)',
-    'Capital Markets'
+    'Hospitals & Clinics',
+    'Diagnostic Centers',
+    'Pharma & Life Sciences',
+    'Healthcare Networks',
+    'Medical Equipment Providers',
+    'Telemedicine Platforms'
   ],
   imageSrc: '/images/INDUSTRIES/Finance.webp',
-  imageAlt: 'Financial Services',
+  imageAlt: 'Healthcare Technology',
   reverse: true,
 };
 
 export const logisticsIndustryData: IndustryDetailData = {
-  title: 'Logistics',
+  title: 'Finance',
   paragraphs: [
-    'We optimize logistics and supply chain networks through intelligent tracking, automated routing, and unified fleet management systems. Safal’s digital solutions bring clarity to complex logistical operations.',
-    'By centralizing data and workflows, we enable logistics companies to execute with precision, reduce operational friction, and scale their capabilities across global supply chains.'
+    'Safal supports financial organizations in managing operations, compliance, and reporting through structured digital systems. By integrating financial data and workflows, we enable improved accuracy, control, and decision-making.',
+    'Our solutions focus on enhancing transparency, ensuring regulatory alignment, and enabling efficient financial operations across institutions and enterprise environments.'
   ],
   subIndustriesTitle: 'Sub-Industries / Verticals',
   subIndustries: [
-    'Freight & Shipping',
-    'Supply Chain Management',
-    'Warehousing & Distribution',
-    'Last-Mile Delivery',
-    'Aviation & Maritime'
+    'NBFCs & Lending Institutions',
+    'Banking & Financial Services',
+    'Investment Firms',
+    'Insurance Companies',
+    'Fintech Platforms',
+    'Wealth Management Firms'
   ],
   imageSrc: '/images/INDUSTRIES/Logistics.webp',
-  imageAlt: 'Logistics and Supply Chain',
+  imageAlt: 'Financial Services',
   reverse: false,
 };
 
 export const startupsIndustryData: IndustryDetailData = {
-  title: 'Startups',
+  title: 'Real Estate',
   paragraphs: [
-    'Safal acts as a strategic technical partner for high-growth startups, providing the scalable architecture and engineering velocity needed to move from concept to market leadership.',
-    'We align our development frameworks with your product vision, ensuring that early-stage agility is matched with enterprise-grade stability, allowing you to scale without technical debt.'
+    'Safal enables real estate organizations to streamline operations across property management, sales processes, and financial workflows through integrated digital systems. This improves coordination, visibility, and control across projects and portfolios.',
+    'Our solutions support structured operations, enhance reporting accuracy, and enable efficient management of real estate assets, ensuring scalability and consistency across business functions.'
   ],
   subIndustriesTitle: 'Sub-Industries / Verticals',
   subIndustries: [
-    'SaaS & Software',
-    'E-commerce Startups',
-    'DeepTech & AI',
-    'Marketplace Platforms',
-    'B2B Enterprise Solutions'
+    'Residential Real Estate',
+    'Commercial Real Estate',
+    'Property Management Firms',
+    'Real Estate Developers',
+    'Construction & Infrastructure',
+    'Co-working & Managed Spaces'
   ],
   imageSrc: '/images/INDUSTRIES/Startups.webp',
-  imageAlt: 'Startup Ecosystems',
+  imageAlt: 'Real Estate Infrastructure',
   reverse: true,
 };
 

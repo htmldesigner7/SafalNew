@@ -142,7 +142,7 @@ export default function Footer() {
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/blogs">Blogs</Link></li>
                   <li className={styles.linkItem}><Link href="/case-studies">Case Studies</Link></li>
-                  <li className={styles.linkItem}><Link href="#">News & Announcements</Link></li>
+                  <li className={styles.linkItem}><Link href="/news-and-announcements">News & Announcements</Link></li>
                   <li className={styles.linkItem}><Link href="/brochures">Brochures</Link></li>
                   <li className={styles.linkItem}><Link href="/webinars">Webinars</Link></li>
                 </ul>
@@ -155,7 +155,7 @@ export default function Footer() {
                 <h4 className={styles.colTitle}>Quick Links</h4>
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/">Home</Link></li>
-                  <li className={styles.linkItem}><Link href="#">Industries</Link></li>
+                  <li className={styles.linkItem}><Link href="/industries-we-serve">Industries</Link></li>
                   <li className={styles.linkItem}><Link href="/contact">Contact Us</Link></li>
                 </ul>
               </div>
@@ -182,7 +182,7 @@ export default function Footer() {
               <div className={styles.colBlock}>
                 <h4 className={styles.colTitle}>Partnerships</h4>
                 <ul className={styles.linkList}>
-                  <li className={styles.linkItem}><Link href="#">Strategic Partnerships</Link></li>
+                  <li className={styles.linkItem}><Link href="/strategic-partnerships">Strategic Partnerships</Link></li>
                   <li className={styles.linkItem}><Link href="/become-a-partner">Become a Partner</Link></li>
                 </ul>
               </div>

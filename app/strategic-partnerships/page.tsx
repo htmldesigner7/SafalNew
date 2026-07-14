@@ -21,11 +21,11 @@ export default function StrategicPartnershipsPage() {
       <InnerPageHero
         title={
           <>
-            Force Multipliers for Global<br />
-            Scale
+            Force Multipliers for Global Scale
           </>
         }
-        description="At the Safal Group, we don't just sign vendor agreements: we forge strategic alliances. Partner with a tier-one matrix of engineers, designers, and venture architects to co-create enterprise solutions, unlock new international markets, and drive compounding mutual growth."
+        description=<>At the Safal Group, partnerships are not transactional, they are strategic accelerators. <br />We collaborate with elite engineers, operators, and visionaries to co-create enterprise solutions, unlock new markets, and drive sustained, compounding growth.
+        </>
         imageSrc="/images/Strategic Partnerships/Strategic Partnerships.webp"
         imageAlt="Strategic Partnerships Interlocking Rings"
       />

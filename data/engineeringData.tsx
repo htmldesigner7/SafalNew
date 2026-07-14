@@ -283,38 +283,38 @@ export const collaborativeEcosystemsData: EngineeringContent = {
 
 
 export const CollaborativeEcosystemsData2: EngineeringContent = {
-  title: 'Applied Industrial Implementations',
+  title: 'Collaborative Ecosystems',
   cards: [
     {
-      id: "production-line",
+      id: "integrations",
       number: "01.",
       subtitle: "",
-      title: "Production Line Automation",
-      description: "Improved production efficiency and process consistency.",
+      title: "Technology Integrations",
+      description: "Integrate your proprietary software or hardware into Safal’s ecosystem, including platforms like DataNote, to deliver high-performance, scalable solutions to global enterprise clients.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "real-time-monitoring",
+      id: "channel",
       number: "02.",
       subtitle: "",
-      title: "Real-Time Monitoring Systems",
-      description: "Visibility into machine performance and operations.",
+      title: "Channel & Go-To-Market",
+      description: "Expand into new geographies with structured market entry strategies, leveraging our presence across the US, UAE, and India to accelerate distribution and adoption.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "predictive-maintenance",
+      id: "co-innovation",
       number: "03.",
       subtitle: "",
-      title: "Predictive Maintenance Systems",
-      description: "Reduced downtime through early fault detection.",
+      title: "Venture & Co-Innovation",
+      description: "Work alongside our Ideaz Ventures division to co-build next-generation products, combining capital, engineering depth, and execution to take ideas from concept to scale.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     },
     {
-      id: "energy-monitoring",
+      id: "implementation-experts",
       number: "04.",
       subtitle: "",
-      title: "Energy Monitoring & Optimization",
-      description: "Improved efficiency and reduced operational costs.",
+      title: "Implementation Experts",
+      description: "Become a certified deployment partner for Safal’s enterprise systems, driving digital transformation across industries through proven frameworks and execution expertise.",
       imageSrc: "/images/Installation_Shape__The_202603281531 (1) 1.webp"
     }
   ]

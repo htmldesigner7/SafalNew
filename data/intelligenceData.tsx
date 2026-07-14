@@ -60,7 +60,8 @@ export const partnershipMatrixData: IntelligenceData = {
 
 
 export const TheSafalPartnershipMatrixData: IntelligenceData = {
-  title: <>The Safal <br/> Partnership Matrix.</>,
-  description: "A partnership with the Safal Group is an integration into a comprehensive digital powerhouse. You aren't just connecting with a single agency; you are plugging directly into an autonomous ecosystem of industrial IoT, creative strategy, financial advisory, and elite software engineering. Together, we engineer an unfair market advantage.",
+  title: <>The Safal Partnership Matrix</>,
+  description: <>A partnership with Safal is not a collaboration, it is an integration into a larger, high-performance system. <br /><br />You don’t engage with a single division; you connect with an ecosystem spanning industrial IoT, enterprise software, creative strategy, and financial intelligence. Together, we engineer outcomes that create a lasting competitive advantage.
+  </>,
   buttonText: "Apply for Partnership"
 };
