@@ -278,6 +278,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>At Safal Group, we don’t hire for static roles, we hire for upward trajectories.<br />You’re not stepping into a job; you’re entering a system designed to accelerate your growth.</p>
         <p>Join a borderless matrix where deep engineering meets creative strategy, and contribute to building the digital backbone of tomorrow.</p>
       </>,
+      imageSrc: "/images/Careers/safal-careers-hero.webp",
       imageAlt: "Open positions Hero",
     }
   }

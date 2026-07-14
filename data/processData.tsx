@@ -1,8 +1,10 @@
-// export interface ProcessItem {
-//   id: number;
-//   title: string;
-//   description: string;
-// }
+import { ReactNode } from 'react';
+
+export interface ProcessItem {
+  id: number;
+  title: string;
+  description: ReactNode;
+}
 
 export const aboutProcessData = [
   {
