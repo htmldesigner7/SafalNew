@@ -4,41 +4,59 @@ import styles from './FiresideChatForm.module.css';
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { webinarSchema } from "@/validation/webinarSchema";
+import toast, { Toaster } from 'react-hot-toast';
+import { z } from "zod";
+
+type WebinarFormData = z.infer<typeof webinarSchema>;
 
 export default function FiresideChatForm() {
   const {
-    register,
-    handleSubmit,
-    reset,
+    register, // Register function to register input fields
+    handleSubmit, // validate and handle form submission
+    reset, // Reset form fields after submission
     formState: {
       errors,
       isSubmitting,
     },
-  } = useForm({
+  } = useForm<WebinarFormData>({
     resolver: zodResolver(webinarSchema),
   });
 
-  const onSubmit = async (data) => {
-    const response = await fetch("/api/webinar", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    const result = await response.json();
-
-    if (result.success) {
-      alert("Form Submitted");
-      reset();
-    } else {
-      alert(result.message);
-    }
+  const onSubmit = async (data: WebinarFormData) => {
+      const loadingToast = toast.loading('Submitting your message...');
+        try {
+            const response = await fetch("/api/webinar", {
+                method: "POST",
+                headers: { "Content-Type": "application/json", },
+                body: JSON.stringify(data),
+            });
+            const responseText = await response.text();
+            const isJsonResponse = response.headers.get("content-type")?.includes("application/json");
+            const result = isJsonResponse && responseText
+              ? JSON.parse(responseText)
+              : { error: responseText || "The server returned an empty response." };
+            
+            if (response.ok) {
+                // alert("Form Submitted");
+                // reset();
+                toast.success(result.message || 'Thank you! Your message has been sent successfully.', { id: loadingToast });
+                reset();
+                //setFormData({ fullName: '', service: '', phone: '', email: '', message: '' }); // Reset form
+            } else {
+                // alert(result.message);
+                toast.error(result.error || 'Failed to submit form. Please try again.', { id: loadingToast });
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            toast.error('An unexpected error occurred. Please try again later.', { id: loadingToast });
+        } finally {
+            //setStatus('idle');
+        }
   };
 
   return (
     <section className="mt_80">
+      <Toaster position="top-center" reverseOrder={false} />
       <div className={styles.wrapper}>
         <div className={styles.layout}>
           
@@ -58,12 +76,12 @@ export default function FiresideChatForm() {
                 <div className={styles.formGroup}>
                   <label>Email ID</label>
                   <input type="email" placeholder="e.g., name@yourcompany.com" {...register("email")}/>
-                  <p className={styles.error}>{errors.email?.message}</p>
+                  <p className="validationError">{errors.email?.message}</p>
                 </div>
                 <div className={styles.formGroup}>
                   <label>Full Name</label>
                   <input type="text" placeholder="e.g., Jane Doe" {...register("fullName")} />
-                  <p className={styles.error}>{errors.fullName?.message}</p>
+                  <p className="validationError">{errors.fullName?.message}</p>
                 </div>
               </div>
 
@@ -75,8 +93,8 @@ export default function FiresideChatForm() {
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                   </select>
-                  <p className={styles.error}>{errors.interested?.message}</p>
                 </div>
+                <p className="validationError">{errors.interested?.message}</p>
               </div>
 
               <div className={styles.privacyText}>
@@ -88,8 +106,9 @@ export default function FiresideChatForm() {
                 <label htmlFor="consent" className={styles.checkboxLabel}>
                   Yes, I will be happy to receive communication on Safal products, services and events
                 </label>
+                <p className="validationError">{errors.consent?.message}</p>
               </div>
-              <p className={styles.error}>{errors.consent?.message}</p>
+              
 
               <button type="submit" className="btn-outline btn-outline-red" disabled={isSubmitting}>
                 {isSubmitting ? "Submitting..." : "Submit"}
