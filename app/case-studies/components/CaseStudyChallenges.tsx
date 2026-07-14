@@ -8,7 +8,7 @@ export default function CaseStudyChallenges() {
         
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/challenges_sketch.png" 
+            src="/images/.png" 
             alt="The Challenges Sketch"
             fill
             className={styles.image}

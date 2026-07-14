@@ -63,7 +63,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     description: 'Why top-tier B2B organizations are investing heavily in cohesive digital design ecosystems to...',
     date: '12/02/2026',
-    imageSrc: '/images/blogs.png',
+    imageSrc: '/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -71,7 +71,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Automating the Supply Chain: A 2026 Perspective.',
     description: 'A technical breakdown of how Industrial IoT and machine learning are eliminating bottlenecks in...',
     date: '12/02/2026',
-    imageSrc: '/images/blogs.png',
+    imageSrc: '/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -79,7 +79,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     description: 'Why top-tier B2B organizations are investing heavily in cohesive digital design ecosystems to...',
     date: '12/02/2026',
-    imageSrc: '/images/blogs.png',
+    imageSrc: '/images/our-story/Our-Story/Decentralized-Security.webp',
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -87,7 +87,7 @@ export const mockPosts: BlogPost[] = [
     title: 'The Future of Decentralized Corporate Banking.',
     description: 'How our business advisory division envisions the next decade of institutional transaction processi...',
     date: '12/02/2026',
-    imageSrc: '/images/blogs.png',
+    imageSrc: '/images/banner-images/Brand,-Digital-&-Creative-Services.webp',
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -95,7 +95,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Transforming Healthcare with Predictive Analytics.',
     description: 'A case study on implementing data-driven patient care models using Safal\'s highly customi...',
     date: '12/02/2026',
-    imageSrc: '/images/blogs.png',
+    imageSrc: '/images/Corporate-Governance/Design-Driven-Innovation..webp',
     tags: ['ERP Solution', 'Blog'],
   },
   {

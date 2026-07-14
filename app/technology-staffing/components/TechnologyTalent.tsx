@@ -10,7 +10,7 @@ const pageData = {
       </>
     ),
     description: "We provide comprehensive technology staffing solutions to help you build high-performing teams.",
-    imageSrc: "/images/blogs-inner.webp",
+    imageSrc: "/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementation.webp",
     imageAlt: "Technology Staffing Hero",
   },
   talent: {

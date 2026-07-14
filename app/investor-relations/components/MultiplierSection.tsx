@@ -17,7 +17,7 @@ export default function MultiplierSection({
   description1 = "At Safal, growth is not incidental, it is architected.",
   description2 = "Our diversified operating model integrates enterprise software, industrial automation, and venture incubation to create multiple, reinforcing revenue streams. This structure reduces exposure to isolated market cycles while amplifying long-term value creation.",
   description3 = "We don’t follow market trends, we build the infrastructure that shapes them, ensuring resilience, scalability, and sustained shareholder returns.",
-  imageSrc = "/images/blogs-inner.webp", // Placeholder
+  imageSrc = "", // Placeholder
   imageAlt = "Capitalizing on the future hourglass",
   reverse = false
 }: MultiplierSectionProps) {

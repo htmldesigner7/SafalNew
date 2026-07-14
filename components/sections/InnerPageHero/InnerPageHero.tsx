@@ -20,10 +20,10 @@ export default function InnerPageHero({ title, description, imageSrc, imageAlt }
 
         <div className={styles.visualContent}>
           <div className={styles.graphicWrapper}>
-            <Image 
-              src={imageSrc} 
-              alt={imageAlt} 
-              width={600} 
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              width={600}
               height={600}
               className={styles.fullImage}
               priority

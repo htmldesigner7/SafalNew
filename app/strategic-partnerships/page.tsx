@@ -26,7 +26,7 @@ export default function StrategicPartnershipsPage() {
         }
         description=<>At the Safal Group, partnerships are not transactional, they are strategic accelerators. <br />We collaborate with elite engineers, operators, and visionaries to co-create enterprise solutions, unlock new markets, and drive sustained, compounding growth.
         </>
-        imageSrc="/images/Strategic Partnerships/Strategic Partnerships.webp"
+        imageSrc="/images/Strategic-Partnerships/Strategic-Partnerships.webp"
         imageAlt="Strategic Partnerships Interlocking Rings"
       />
 

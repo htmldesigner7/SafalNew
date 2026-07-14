@@ -42,7 +42,7 @@ export default function BrandDigitalCreativeServicesPage() {
           "A portfolio of brand identities, digital platforms, and marketing campaigns developed across industries, reflecting structured execution, creative consistency, and measurable impact.",
           "Each engagement demonstrates the integration of creative design services with performance-driven digital strategies."
         ]}
-        imageSrc="/images/container-port.png"
+        imageSrc="/images/case-study/Allmark-IND-LTD-up-.webp"
         imageAlt="Selected Work Illustration"
       />
 

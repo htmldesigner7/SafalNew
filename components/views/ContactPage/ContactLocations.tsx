@@ -8,7 +8,7 @@ export default function ContactLocations() {
         <div className={styles.locationSection}>
           <div className={styles.globeBg}>
             <Image
-              src="/images/contact-locatin.png"
+              src="/images/contact-locatin.webp"
               alt="Globe Background"
               fill
               className={styles.globeImage}

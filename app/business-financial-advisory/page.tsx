@@ -20,7 +20,7 @@ export default function BusinessFinancialAdvisoryPage() {
       <InnerPageHero 
         title={<>Strategic Advisory for<br />Sustainable Growth</>}
         description="Structured business and financial advisory services designed to support decision-making, regulatory compliance, and long-term value creation."
-        imageSrc="/images/hero_3d_book.png"
+        imageSrc="/images/Business-&-Financial-Advisory/Business-&-Financial-Advisory.webp"
         imageAlt="3D Strategic Advisory"
       />
 

@@ -12,7 +12,7 @@ const data = {
   cardDescription: "Partner with Safal for technology staffing solutions, including IT staff augmentation services, and specialized hiring for developers, designers, and QA professionals.",
   buttonText: "Book a Consultation",
   buttonLink: "/contact",
-  imageSrc: "/images/hero_3d_book.png",
+  imageSrc: "/images/blogs/blogs.webp",
   imageAlt: "Team working together"
 };
 

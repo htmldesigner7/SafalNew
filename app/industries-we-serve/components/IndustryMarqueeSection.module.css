@@ -2,17 +2,33 @@
   padding: 30px 0;
   width: 100%;
   overflow: hidden;
+  background-color: #F4F0E3;
+}
+
+.layoutWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.fixedTitleContainer {
+  flex-shrink: 0;
+  z-index: 10;
+  position: relative;
 }
 
 .marqueeContainer {
+  flex-grow: 1;
   display: flex;
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
 }
 
 .marqueeContent {
   display: flex;
+  gap: 110px;
   animation: scrollMarquee 40s linear infinite;
 }
 
@@ -23,21 +39,19 @@
 .marqueeGroup {
   display: flex;
   align-items: center;
-  padding-right: 40px; /* Space before the next group repeats */
+  gap: 110px;
 }
 
 .mainTitle {
   font-size: 24px;
   font-weight: 700;
   color: #1A1A1A;
-  margin-right: 40px;
   font-family: 'Inter', sans-serif; /* Or appropriate font */
 }
 
 .industryItem {
   display: flex;
   align-items: center;
-  margin-right: 40px;
 }
 
 .dot {
@@ -68,15 +82,17 @@
    ========================================================= */
 @media (max-width: 1025px) {
   .marqueeSection { padding: 25px 0; }
-  .mainTitle { font-size: 20px; margin-right: 30px; }
-  .industryItem { margin-right: 30px; }
+  .fixedTitleContainer { margin-right: 30px; }
+  .mainTitle { font-size: 20px; }
+  .marqueeContent, .marqueeGroup { gap: 60px; }
   .industryText { font-size: 18px; }
 }
 
 @media (max-width: 769px) {
   .marqueeSection { padding: 20px 0; }
-  .mainTitle { font-size: 18px; margin-right: 25px; }
-  .industryItem { margin-right: 25px; }
+  .fixedTitleContainer { margin-right: 25px; }
+  .mainTitle { font-size: 18px; }
+  .marqueeContent, .marqueeGroup { gap: 40px; }
   .industryText { font-size: 16px; }
   .dot { width: 6px; height: 6px; margin-right: 10px; }
 }

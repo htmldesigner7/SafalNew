@@ -1,0 +1,2511 @@
+{
+  "AI-&-Emerging-Technology": {
+    "count": 22,
+    "files": [
+      {
+        "name": "Accelerated-Execution.png",
+        "size": 174391
+      },
+      {
+        "name": "Accelerated-Execution.webp",
+        "size": 17562
+      },
+      {
+        "name": "AI-&-Emerging-Technology.png",
+        "size": 172481
+      },
+      {
+        "name": "AI-&-Emerging-Technology.webp",
+        "size": 24038
+      },
+      {
+        "name": "banner.png",
+        "size": 189814
+      },
+      {
+        "name": "banner.webp",
+        "size": 28090
+      },
+      {
+        "name": "cta.png",
+        "size": 722774
+      },
+      {
+        "name": "cta.webp",
+        "size": 26526
+      },
+      {
+        "name": "Data-Intelligence.png",
+        "size": 284489
+      },
+      {
+        "name": "Data-Intelligence.webp",
+        "size": 23602
+      },
+      {
+        "name": "Efficiency-&-Cost-Optimization.png",
+        "size": 167561
+      },
+      {
+        "name": "Efficiency-&-Cost-Optimization.webp",
+        "size": 18968
+      },
+      {
+        "name": "Enterprise-AI.png",
+        "size": 346007
+      },
+      {
+        "name": "Enterprise-AI.webp",
+        "size": 25224
+      },
+      {
+        "name": "Process-Automation.png",
+        "size": 320164
+      },
+      {
+        "name": "Process-Automation.webp",
+        "size": 24178
+      },
+      {
+        "name": "Proprietary-AI-Execution-Platform.png",
+        "size": 195110
+      },
+      {
+        "name": "Proprietary-AI-Execution-Platform.webp",
+        "size": 40716
+      },
+      {
+        "name": "Risk-Optimization.png",
+        "size": 180074
+      },
+      {
+        "name": "Risk-Optimization.webp",
+        "size": 18540
+      },
+      {
+        "name": "Value-Impact.png",
+        "size": 183648
+      },
+      {
+        "name": "Value-Impact.webp",
+        "size": 19634
+      }
+    ]
+  },
+  "banner-images": {
+    "count": 55,
+    "files": [
+      {
+        "name": "AI-&-Emerging-Technology.webp",
+        "size": 27880
+      },
+      {
+        "name": "banner-bg-desktop.png",
+        "size": 132956
+      },
+      {
+        "name": "banner-bg-desktop.webp",
+        "size": 4376
+      },
+      {
+        "name": "banner-bg-mobile.png",
+        "size": 90051
+      },
+      {
+        "name": "banner-bg-mobile.webp",
+        "size": 4384
+      },
+      {
+        "name": "banner.png",
+        "size": 189814
+      },
+      {
+        "name": "banner.webp",
+        "size": 28090
+      },
+      {
+        "name": "Become-a-Partner.png",
+        "size": 270510
+      },
+      {
+        "name": "Become-a-Partner.webp",
+        "size": 28488
+      },
+      {
+        "name": "blogs.png",
+        "size": 361560
+      },
+      {
+        "name": "blogs.webp",
+        "size": 36008
+      },
+      {
+        "name": "Brand,-Digital-&-Creative-Services.png",
+        "size": 314090
+      },
+      {
+        "name": "Brand,-Digital-&-Creative-Services.webp",
+        "size": 26150
+      },
+      {
+        "name": "Business-&-Financial-Advisory.png",
+        "size": 286879
+      },
+      {
+        "name": "Business-&-Financial-Advisory.webp",
+        "size": 37756
+      },
+      {
+        "name": "Case-Studies.png",
+        "size": 250217
+      },
+      {
+        "name": "Case-Studies.webp",
+        "size": 36338
+      },
+      {
+        "name": "contact.png",
+        "size": 338973
+      },
+      {
+        "name": "contact.webp",
+        "size": 27030
+      },
+      {
+        "name": "Corporate-Governance.png",
+        "size": 228339
+      },
+      {
+        "name": "Corporate-Governance.webp",
+        "size": 27852
+      },
+      {
+        "name": "Enterprise-Grade-Products-Built-for-Scale.png",
+        "size": 293417
+      },
+      {
+        "name": "Enterprise-Grade-Products-Built-for-Scale.webp",
+        "size": 39182
+      },
+      {
+        "name": "financial-accounting-solutions.png",
+        "size": 182273
+      },
+      {
+        "name": "financial-accounting-solutions.webp",
+        "size": 22540
+      },
+      {
+        "name": "Financial-Reports-&-Disclosures.png",
+        "size": 227924
+      },
+      {
+        "name": "Financial-Reports-&-Disclosures.webp",
+        "size": 17984
+      },
+      {
+        "name": "Group-Structure.png",
+        "size": 241363
+      },
+      {
+        "name": "Group-Structure.webp",
+        "size": 21882
+      },
+      {
+        "name": "Industrial-Automation-&-IoT.png",
+        "size": 289512
+      },
+      {
+        "name": "Industrial-Automation-&-IoT.webp",
+        "size": 45172
+      },
+      {
+        "name": "Internships-&-Mentorship.png",
+        "size": 252293
+      },
+      {
+        "name": "Internships-&-Mentorship.webp",
+        "size": 23408
+      },
+      {
+        "name": "Investor-Relations.png",
+        "size": 218399
+      },
+      {
+        "name": "Investor-Relations.webp",
+        "size": 28144
+      },
+      {
+        "name": "Leadership-Team.png",
+        "size": 212874
+      },
+      {
+        "name": "Leadership-Team.webp",
+        "size": 20864
+      },
+      {
+        "name": "Life-at-Safal.png",
+        "size": 118408
+      },
+      {
+        "name": "Life-at-Safal.webp",
+        "size": 14372
+      },
+      {
+        "name": "News-&-Announcements.png",
+        "size": 271501
+      },
+      {
+        "name": "News-&-Announcements.webp",
+        "size": 28610
+      },
+      {
+        "name": "Open-Positions.png",
+        "size": 220938
+      },
+      {
+        "name": "Open-Positions.webp",
+        "size": 22610
+      },
+      {
+        "name": "our-story.png",
+        "size": 320270
+      },
+      {
+        "name": "our-story.webp",
+        "size": 30716
+      },
+      {
+        "name": "Startup-Product-Development-&-Consulting.png",
+        "size": 285187
+      },
+      {
+        "name": "Startup-Product-Development-&-Consulting.webp",
+        "size": 37892
+      },
+      {
+        "name": "Strategic-Partnerships.png",
+        "size": 287481
+      },
+      {
+        "name": "Strategic-Partnerships.webp",
+        "size": 35248
+      },
+      {
+        "name": "Sustainability.png",
+        "size": 269063
+      },
+      {
+        "name": "Sustainability.webp",
+        "size": 26250
+      },
+      {
+        "name": "Technology-Staffing.png",
+        "size": 256269
+      },
+      {
+        "name": "Technology-Staffing.webp",
+        "size": 42350
+      },
+      {
+        "name": "Values-&-Culture.png",
+        "size": 218674
+      },
+      {
+        "name": "Values-&-Culture.webp",
+        "size": 19950
+      }
+    ]
+  },
+  "Become-a-Partner": {
+    "count": 20,
+    "files": [
+      {
+        "name": "Become-a-Partner.png",
+        "size": 270510
+      },
+      {
+        "name": "Become-a-Partner.webp",
+        "size": 28920
+      },
+      {
+        "name": "Becomepartner/Channel-&-Go-To-Market.png",
+        "size": 18443
+      },
+      {
+        "name": "Becomepartner/Channel-&-Go-To-Market.webp",
+        "size": 6528
+      },
+      {
+        "name": "Becomepartner/Implementation-Experts.png",
+        "size": 51522
+      },
+      {
+        "name": "Becomepartner/Implementation-Experts.webp",
+        "size": 21438
+      },
+      {
+        "name": "Becomepartner/Technology-Integrations.png",
+        "size": 24188
+      },
+      {
+        "name": "Becomepartner/Technology-Integrations.webp",
+        "size": 7512
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220009-(1)-1.png",
+        "size": 19009
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220009-(1)-1.webp",
+        "size": 5068
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220010-(1)-1.png",
+        "size": 26090
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220010-(1)-1.webp",
+        "size": 4860
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220014-(1)-1.png",
+        "size": 34038
+      },
+      {
+        "name": "Becomepartner/Ultra-clean_glassmorphism,_but_202604220014-(1)-1.webp",
+        "size": 9686
+      },
+      {
+        "name": "Becomepartner/Ultra-premium_glassmorphism_icons._202604220002-(1)-1.png",
+        "size": 12909
+      },
+      {
+        "name": "Becomepartner/Ultra-premium_glassmorphism_icons._202604220002-(1)-1.webp",
+        "size": 3270
+      },
+      {
+        "name": "Becomepartner/Venture-&-Co-Innovation.png",
+        "size": 33170
+      },
+      {
+        "name": "Becomepartner/Venture-&-Co-Innovation.webp",
+        "size": 13968
+      },
+      {
+        "name": "sa.png",
+        "size": 394043
+      },
+      {
+        "name": "sa.webp",
+        "size": 132578
+      }
+    ]
+  },
+  "blogs": {
+    "count": 14,
+    "files": [
+      {
+        "name": "blog-1-up-.png",
+        "size": 1946886
+      },
+      {
+        "name": "blog-1-up-.webp",
+        "size": 159386
+      },
+      {
+        "name": "blog-3-down.png",
+        "size": 805384
+      },
+      {
+        "name": "blog-3-down.webp",
+        "size": 32542
+      },
+      {
+        "name": "blog-3-up.png",
+        "size": 1128954
+      },
+      {
+        "name": "blog-3-up.webp",
+        "size": 45038
+      },
+      {
+        "name": "blog1-down.png",
+        "size": 906747
+      },
+      {
+        "name": "blog1-down.webp",
+        "size": 40178
+      },
+      {
+        "name": "blog2-down.png",
+        "size": 675453
+      },
+      {
+        "name": "blog2-down.webp",
+        "size": 22276
+      },
+      {
+        "name": "blog3-up.png",
+        "size": 1011473
+      },
+      {
+        "name": "blog3-up.webp",
+        "size": 37008
+      },
+      {
+        "name": "blogs.png",
+        "size": 361560
+      },
+      {
+        "name": "blogs.webp",
+        "size": 36676
+      }
+    ]
+  },
+  "Brand,-Digital-&-Creative-Services": {
+    "count": 20,
+    "files": [
+      {
+        "name": "Brand,-Digital-&-Creative-Services.png",
+        "size": 314090
+      },
+      {
+        "name": "Brand,-Digital-&-Creative-Services.webp",
+        "size": 26682
+      },
+      {
+        "name": "brand-transformation-1.png",
+        "size": 194456
+      },
+      {
+        "name": "brand-transformation-1.webp",
+        "size": 27396
+      },
+      {
+        "name": "Digital-Engine-of-Safal.png",
+        "size": 126886
+      },
+      {
+        "name": "Digital-Engine-of-Safal.webp",
+        "size": 20170
+      },
+      {
+        "name": "Financial-Services.png",
+        "size": 307431
+      },
+      {
+        "name": "Financial-Services.webp",
+        "size": 24116
+      },
+      {
+        "name": "Healthcare.png",
+        "size": 268401
+      },
+      {
+        "name": "Healthcare.webp",
+        "size": 19296
+      },
+      {
+        "name": "Highend_3d_render_of_a_polished_gold_key_unlocking_delpmaspu-(1)-2.png",
+        "size": 584834
+      },
+      {
+        "name": "Highend_3d_render_of_a_polished_gold_key_unlocking_delpmaspu-(1)-2.webp",
+        "size": 67734
+      },
+      {
+        "name": "Logistics-&-Supply-Chain.png",
+        "size": 235742
+      },
+      {
+        "name": "Logistics-&-Supply-Chain.webp",
+        "size": 14568
+      },
+      {
+        "name": "Manufacturing.png",
+        "size": 252696
+      },
+      {
+        "name": "Manufacturing.webp",
+        "size": 15286
+      },
+      {
+        "name": "Real-Estate-&-Property-Management.png",
+        "size": 310863
+      },
+      {
+        "name": "Real-Estate-&-Property-Management.webp",
+        "size": 32296
+      },
+      {
+        "name": "Retail-&-Distribution.png",
+        "size": 290397
+      },
+      {
+        "name": "Retail-&-Distribution.webp",
+        "size": 23790
+      }
+    ]
+  },
+  "Business-&-Financial-Advisory": {
+    "count": 38,
+    "files": [
+      {
+        "name": "Advanced-Financial-&-Regulatory-Advisory.png",
+        "size": 774919
+      },
+      {
+        "name": "Advanced-Financial-&-Regulatory-Advisory.webp",
+        "size": 67038
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-1.png",
+        "size": 59544
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-1.webp",
+        "size": 15892
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-2.png",
+        "size": 51773
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-2.webp",
+        "size": 12590
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-3.png",
+        "size": 25636
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-3.webp",
+        "size": 9662
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-4.png",
+        "size": 65349
+      },
+      {
+        "name": "Advisory-Across-Diverse-Scenarios-4.webp",
+        "size": 12098
+      },
+      {
+        "name": "Business-&-Financial-Advisory.png",
+        "size": 286879
+      },
+      {
+        "name": "Business-&-Financial-Advisory.webp",
+        "size": 38326
+      },
+      {
+        "name": "Business-Advisory.png",
+        "size": 81867
+      },
+      {
+        "name": "Business-Advisory.webp",
+        "size": 15892
+      },
+      {
+        "name": "Corporates-2.png",
+        "size": 189126
+      },
+      {
+        "name": "Corporates-2.webp",
+        "size": 17464
+      },
+      {
+        "name": "Corporates.png",
+        "size": 494458
+      },
+      {
+        "name": "Corporates.webp",
+        "size": 20990
+      },
+      {
+        "name": "cta.png",
+        "size": 1475636
+      },
+      {
+        "name": "cta.webp",
+        "size": 60772
+      },
+      {
+        "name": "Data-Driven-and-Compliance-Focused.png",
+        "size": 546173
+      },
+      {
+        "name": "Data-Driven-and-Compliance-Focused.webp",
+        "size": 61654
+      },
+      {
+        "name": "Due-Diligence.png",
+        "size": 67092
+      },
+      {
+        "name": "Due-Diligence.webp",
+        "size": 15682
+      },
+      {
+        "name": "Financial-Modelling.png",
+        "size": 52182
+      },
+      {
+        "name": "Financial-Modelling.webp",
+        "size": 22316
+      },
+      {
+        "name": "Internal-Audits.png",
+        "size": 78068
+      },
+      {
+        "name": "Internal-Audits.webp",
+        "size": 11662
+      },
+      {
+        "name": "Investors-2.png",
+        "size": 233660
+      },
+      {
+        "name": "Investors-2.webp",
+        "size": 17282
+      },
+      {
+        "name": "Investors.png",
+        "size": 641562
+      },
+      {
+        "name": "Investors.webp",
+        "size": 31470
+      },
+      {
+        "name": "Startups-2.png",
+        "size": 198277
+      },
+      {
+        "name": "Startups-2.webp",
+        "size": 13164
+      },
+      {
+        "name": "Startups.png",
+        "size": 586281
+      },
+      {
+        "name": "Startups.webp",
+        "size": 28132
+      },
+      {
+        "name": "Structured,-Independent,-and-Insight-Led.png",
+        "size": 187466
+      },
+      {
+        "name": "Structured,-Independent,-and-Insight-Led.webp",
+        "size": 65094
+      }
+    ]
+  },
+  "case-study": {
+    "count": 22,
+    "files": [
+      {
+        "name": "Allmark-IND-LTD-down.png",
+        "size": 1406506
+      },
+      {
+        "name": "Allmark-IND-LTD-down.webp",
+        "size": 58604
+      },
+      {
+        "name": "Allmark-IND-LTD-up-.png",
+        "size": 1262007
+      },
+      {
+        "name": "Allmark-IND-LTD-up-.webp",
+        "size": 52394
+      },
+      {
+        "name": "american-precoat-down.png",
+        "size": 1364765
+      },
+      {
+        "name": "american-precoat-down.webp",
+        "size": 60974
+      },
+      {
+        "name": "american-precoat-up.png",
+        "size": 1428195
+      },
+      {
+        "name": "american-precoat-up.webp",
+        "size": 75944
+      },
+      {
+        "name": "Case-Studies.png",
+        "size": 250217
+      },
+      {
+        "name": "Case-Studies.webp",
+        "size": 36910
+      },
+      {
+        "name": "Heavy-metal-tubes-down-.png",
+        "size": 1827144
+      },
+      {
+        "name": "Heavy-metal-tubes-down-.webp",
+        "size": 108916
+      },
+      {
+        "name": "Heavy-metal-tubes.png",
+        "size": 1328359
+      },
+      {
+        "name": "Heavy-metal-tubes.webp",
+        "size": 66520
+      },
+      {
+        "name": "Kaabhi-B-down.png",
+        "size": 1466707
+      },
+      {
+        "name": "Kaabhi-B-down.webp",
+        "size": 47840
+      },
+      {
+        "name": "Kaabhi-B-up.png",
+        "size": 1514778
+      },
+      {
+        "name": "Kaabhi-B-up.webp",
+        "size": 107956
+      },
+      {
+        "name": "ykgi-down-.png",
+        "size": 1779683
+      },
+      {
+        "name": "ykgi-down-.webp",
+        "size": 96972
+      },
+      {
+        "name": "ykgi-down.png",
+        "size": 1553645
+      },
+      {
+        "name": "ykgi-down.webp",
+        "size": 106120
+      }
+    ]
+  },
+  "Corporate-Governance": {
+    "count": 28,
+    "files": [
+      {
+        "name": "Absolute-Integrity.png",
+        "size": 70562
+      },
+      {
+        "name": "Absolute-Integrity.webp",
+        "size": 28978
+      },
+      {
+        "name": "cg.png",
+        "size": 3153235
+      },
+      {
+        "name": "cg.webp",
+        "size": 195978
+      },
+      {
+        "name": "Corporate-Governance-2.png",
+        "size": 273691
+      },
+      {
+        "name": "Corporate-Governance-2.webp",
+        "size": 45340
+      },
+      {
+        "name": "Corporate-Governance.png",
+        "size": 283674
+      },
+      {
+        "name": "Corporate-Governance.webp",
+        "size": 42990
+      },
+      {
+        "name": "Design-Driven-Innovation..png",
+        "size": 71548
+      },
+      {
+        "name": "Design-Driven-Innovation..webp",
+        "size": 16150
+      },
+      {
+        "name": "governance/A-Legacy-of-Accountability.png",
+        "size": 137965
+      },
+      {
+        "name": "governance/A-Legacy-of-Accountability.webp",
+        "size": 37220
+      },
+      {
+        "name": "governance/A-Legacy-of-Responsible-Scale.png",
+        "size": 2127236
+      },
+      {
+        "name": "governance/A-Legacy-of-Responsible-Scale.webp",
+        "size": 82174
+      },
+      {
+        "name": "governance/Governing-the-Digital-Frontier.png",
+        "size": 203273
+      },
+      {
+        "name": "governance/Governing-the-Digital-Frontier.webp",
+        "size": 61248
+      },
+      {
+        "name": "governance/Independent-Oversight.png",
+        "size": 40486
+      },
+      {
+        "name": "governance/Independent-Oversight.webp",
+        "size": 10128
+      },
+      {
+        "name": "governance/Risk-Mitigation.png",
+        "size": 40878
+      },
+      {
+        "name": "governance/Risk-Mitigation.webp",
+        "size": 16820
+      },
+      {
+        "name": "governance/Shareholder-Transparency.png",
+        "size": 53051
+      },
+      {
+        "name": "governance/Shareholder-Transparency.webp",
+        "size": 21576
+      },
+      {
+        "name": "governance/Zero-Trust-Compliance.png",
+        "size": 37056
+      },
+      {
+        "name": "governance/Zero-Trust-Compliance.webp",
+        "size": 7186
+      },
+      {
+        "name": "Relentless-Velocity.png",
+        "size": 57701
+      },
+      {
+        "name": "Relentless-Velocity.webp",
+        "size": 16452
+      },
+      {
+        "name": "Systemic-Ownership..png",
+        "size": 81665
+      },
+      {
+        "name": "Systemic-Ownership..webp",
+        "size": 14352
+      }
+    ]
+  },
+  "Enterprise-Grade-Products-Built-for-Scale": {
+    "count": 26,
+    "files": [
+      {
+        "name": "cta.png",
+        "size": 218635
+      },
+      {
+        "name": "cta.webp",
+        "size": 32740
+      },
+      {
+        "name": "datanote.png",
+        "size": 146338
+      },
+      {
+        "name": "datanote.webp",
+        "size": 45208
+      },
+      {
+        "name": "Financial-Services.png",
+        "size": 307431
+      },
+      {
+        "name": "Financial-Services.webp",
+        "size": 24116
+      },
+      {
+        "name": "formezy.png",
+        "size": 117272
+      },
+      {
+        "name": "formezy.webp",
+        "size": 37188
+      },
+      {
+        "name": "Healthcare.png",
+        "size": 268401
+      },
+      {
+        "name": "Healthcare.webp",
+        "size": 19296
+      },
+      {
+        "name": "inventory.jpg",
+        "size": 8799842
+      },
+      {
+        "name": "inventory.webp",
+        "size": 414314
+      },
+      {
+        "name": "Logistics-&-Supply-Chain.png",
+        "size": 235742
+      },
+      {
+        "name": "Logistics-&-Supply-Chain.webp",
+        "size": 14568
+      },
+      {
+        "name": "Manufacturing.png",
+        "size": 252696
+      },
+      {
+        "name": "Manufacturing.webp",
+        "size": 15286
+      },
+      {
+        "name": "Multi-Location-Retail-Operations-Management-System.jpg",
+        "size": 8768273
+      },
+      {
+        "name": "Multi-Location-Retail-Operations-Management-System.webp",
+        "size": 476700
+      },
+      {
+        "name": "Real-Estate-&-Property-Management.png",
+        "size": 310863
+      },
+      {
+        "name": "Real-Estate-&-Property-Management.webp",
+        "size": 32296
+      },
+      {
+        "name": "Retail-&-Distribution.png",
+        "size": 290397
+      },
+      {
+        "name": "Retail-&-Distribution.webp",
+        "size": 23790
+      },
+      {
+        "name": "warehouse-automation-worker-using-tablet-monitor-robotic-arm-modern-facility.jpg",
+        "size": 10365677
+      },
+      {
+        "name": "warehouse-automation-worker-using-tablet-monitor-robotic-arm-modern-facility.webp",
+        "size": 311344
+      },
+      {
+        "name": "workflow.jpg",
+        "size": 13284613
+      },
+      {
+        "name": "workflow.webp",
+        "size": 963924
+      }
+    ]
+  },
+  "financial-accounting-solutions": {
+    "count": 22,
+    "files": [
+      {
+        "name": "Accuracy.png",
+        "size": 204201
+      },
+      {
+        "name": "Accuracy.webp",
+        "size": 10200
+      },
+      {
+        "name": "Automation.png",
+        "size": 251551
+      },
+      {
+        "name": "Automation.webp",
+        "size": 20844
+      },
+      {
+        "name": "Compliance.png",
+        "size": 162768
+      },
+      {
+        "name": "Compliance.webp",
+        "size": 9186
+      },
+      {
+        "name": "Dedicated-Accounting-Teams.png",
+        "size": 211877
+      },
+      {
+        "name": "Dedicated-Accounting-Teams.webp",
+        "size": 19740
+      },
+      {
+        "name": "End-to-End-Financial-Process-Management.png",
+        "size": 225052
+      },
+      {
+        "name": "End-to-End-Financial-Process-Management.webp",
+        "size": 44510
+      },
+      {
+        "name": "financial-accounting-solutions.png",
+        "size": 182273
+      },
+      {
+        "name": "financial-accounting-solutions.webp",
+        "size": 22840
+      },
+      {
+        "name": "Full-Outsourcing-Model.png",
+        "size": 236131
+      },
+      {
+        "name": "Full-Outsourcing-Model.webp",
+        "size": 24882
+      },
+      {
+        "name": "Order-to-Cash-(O2C).png",
+        "size": 200221
+      },
+      {
+        "name": "Order-to-Cash-(O2C).webp",
+        "size": 16328
+      },
+      {
+        "name": "Process-Based-Engagement.png",
+        "size": 214525
+      },
+      {
+        "name": "Process-Based-Engagement.webp",
+        "size": 21116
+      },
+      {
+        "name": "Procure-to-Pay-(P2P).png",
+        "size": 304748
+      },
+      {
+        "name": "Procure-to-Pay-(P2P).webp",
+        "size": 16754
+      },
+      {
+        "name": "Record-to-Report-(R2R).png",
+        "size": 343728
+      },
+      {
+        "name": "Record-to-Report-(R2R).webp",
+        "size": 20864
+      }
+    ]
+  },
+  "Financial-Reports-&-Disclosures": {
+    "count": 2,
+    "files": [
+      {
+        "name": "Financial-Reports-&-Disclosures.png",
+        "size": 227924
+      },
+      {
+        "name": "Financial-Reports-&-Disclosures.webp",
+        "size": 18356
+      }
+    ]
+  },
+  "Group-Structure": {
+    "count": 10,
+    "files": [
+      {
+        "name": "group-structuer.png",
+        "size": 394043
+      },
+      {
+        "name": "group-structuer.webp",
+        "size": 132578
+      },
+      {
+        "name": "Group-Structure.png",
+        "size": 241363
+      },
+      {
+        "name": "Group-Structure.webp",
+        "size": 22502
+      },
+      {
+        "name": "Ideaz-Ventures.webp",
+        "size": 9252
+      },
+      {
+        "name": "Intelliworkz-Business-Solutions-Pvt.-Ltd..webp",
+        "size": 12686
+      },
+      {
+        "name": "Intelliworkz-Infosoft-Technology-LLC.webp",
+        "size": 11730
+      },
+      {
+        "name": "Safal-Automation-Inc..webp",
+        "size": 12500
+      },
+      {
+        "name": "Safal-Infosoft-Inc..webp",
+        "size": 11346
+      },
+      {
+        "name": "Safal-Infosoft-Ltd..webp",
+        "size": 15372
+      }
+    ]
+  },
+  "Homepage": {
+    "count": 45,
+    "files": [
+      {
+        "name": "AI-Emerging-Technology.jpg",
+        "size": 306408
+      },
+      {
+        "name": "AI-Emerging-Technology.webp",
+        "size": 26164
+      },
+      {
+        "name": "Brand-Digital-Creative-Services.jpg",
+        "size": 292998
+      },
+      {
+        "name": "Brand-Digital-Creative-Services.webp",
+        "size": 26950
+      },
+      {
+        "name": "Business-Financial-Advisory.jpg",
+        "size": 288000
+      },
+      {
+        "name": "Business-Financial-Advisory.webp",
+        "size": 23726
+      },
+      {
+        "name": "Datanote.jpg",
+        "size": 678985
+      },
+      {
+        "name": "Datanote.webp",
+        "size": 55136
+      },
+      {
+        "name": "Diversified-Technology.png",
+        "size": 18144
+      },
+      {
+        "name": "Docezy.jpg",
+        "size": 579495
+      },
+      {
+        "name": "Docezy.webp",
+        "size": 30956
+      },
+      {
+        "name": "Enterprise-Products-Platforms.jpg",
+        "size": 314983
+      },
+      {
+        "name": "Enterprise-Products-Platforms.webp",
+        "size": 28724
+      },
+      {
+        "name": "Finance-1.jpg",
+        "size": 163981
+      },
+      {
+        "name": "Finance-1.webp",
+        "size": 12092
+      },
+      {
+        "name": "Finance.jpg",
+        "size": 158903
+      },
+      {
+        "name": "Finance.webp",
+        "size": 14172
+      },
+      {
+        "name": "Financial-Accounting.jpg",
+        "size": 287297
+      },
+      {
+        "name": "Financial-Accounting.webp",
+        "size": 25592
+      },
+      {
+        "name": "Formezy.jpg",
+        "size": 605613
+      },
+      {
+        "name": "Formezy.webp",
+        "size": 33724
+      },
+      {
+        "name": "Healthcare-1.jpg",
+        "size": 190020
+      },
+      {
+        "name": "Healthcare-1.webp",
+        "size": 18070
+      },
+      {
+        "name": "Healthcare.jpg",
+        "size": 114824
+      },
+      {
+        "name": "Healthcare.webp",
+        "size": 10750
+      },
+      {
+        "name": "Industrial-Automation-IoT.jpg",
+        "size": 336446
+      },
+      {
+        "name": "Industril-Automation-IoT.webp",
+        "size": 33988
+      },
+      {
+        "name": "Logistics-1.jpg",
+        "size": 142092
+      },
+      {
+        "name": "Logistics-1.webp",
+        "size": 12868
+      },
+      {
+        "name": "Logistics.jpg",
+        "size": 171193
+      },
+      {
+        "name": "Logistics.webp",
+        "size": 22284
+      },
+      {
+        "name": "Manufacturing-1.jpg",
+        "size": 197147
+      },
+      {
+        "name": "Manufacturing-1.webp",
+        "size": 25684
+      },
+      {
+        "name": "Manufacturing.jpg",
+        "size": 193878
+      },
+      {
+        "name": "Manufacturing.webp",
+        "size": 26412
+      },
+      {
+        "name": "Retail-1.jpg",
+        "size": 221713
+      },
+      {
+        "name": "Retail-1.webp",
+        "size": 34108
+      },
+      {
+        "name": "Retail.jpg",
+        "size": 191196
+      },
+      {
+        "name": "Retail.webp",
+        "size": 31034
+      },
+      {
+        "name": "Startup-Product-Development-Consulting.jpg",
+        "size": 281138
+      },
+      {
+        "name": "Startup-Product-Development-Consulting.webp",
+        "size": 20774
+      },
+      {
+        "name": "Tasknote.jpg",
+        "size": 611033
+      },
+      {
+        "name": "Tasknote.webp",
+        "size": 47120
+      },
+      {
+        "name": "Technology-Staffing.jpg",
+        "size": 388675
+      },
+      {
+        "name": "Technology-Staffing.webp",
+        "size": 45716
+      }
+    ]
+  },
+  "Industrial-Automation-&-IoT": {
+    "count": 28,
+    "files": [
+      {
+        "name": "Airports-&-Infrastructure.png",
+        "size": 283145
+      },
+      {
+        "name": "Airports-&-Infrastructure.webp",
+        "size": 24514
+      },
+      {
+        "name": "Automobile.png",
+        "size": 237532
+      },
+      {
+        "name": "Automobile.webp",
+        "size": 17812
+      },
+      {
+        "name": "cta.png",
+        "size": 1636874
+      },
+      {
+        "name": "cta.webp",
+        "size": 48684
+      },
+      {
+        "name": "End-to-End-Industrial-Automation-Systems.png",
+        "size": 258920
+      },
+      {
+        "name": "End-to-End-Industrial-Automation-Systems.webp",
+        "size": 46000
+      },
+      {
+        "name": "Energy-Monitoring-&-Optimization.png",
+        "size": 45958
+      },
+      {
+        "name": "Energy-Monitoring-&-Optimization.webp",
+        "size": 13536
+      },
+      {
+        "name": "Food-&-Dairy.png",
+        "size": 221376
+      },
+      {
+        "name": "Food-&-Dairy.webp",
+        "size": 14312
+      },
+      {
+        "name": "Industrial-Automation-&-IoT.png",
+        "size": 289512
+      },
+      {
+        "name": "Industrial-Automation-&-IoT.webp",
+        "size": 45938
+      },
+      {
+        "name": "Oil-&-Gas.png",
+        "size": 301221
+      },
+      {
+        "name": "Oil-&-Gas.webp",
+        "size": 21536
+      },
+      {
+        "name": "Pharmaceutical.png",
+        "size": 250754
+      },
+      {
+        "name": "Pharmaceutical.webp",
+        "size": 14556
+      },
+      {
+        "name": "Predictive-Maintenance-Systems.png",
+        "size": 79930
+      },
+      {
+        "name": "Predictive-Maintenance-Systems.webp",
+        "size": 18782
+      },
+      {
+        "name": "Production-Line-Automation.png",
+        "size": 47693
+      },
+      {
+        "name": "Production-Line-Automation.webp",
+        "size": 12564
+      },
+      {
+        "name": "Real-Time-Monitoring-Systems.png",
+        "size": 60656
+      },
+      {
+        "name": "Real-Time-Monitoring-Systems.webp",
+        "size": 14682
+      },
+      {
+        "name": "Technology-Aligned-Implementation.png",
+        "size": 450883
+      },
+      {
+        "name": "Technology-Aligned-Implementation.webp",
+        "size": 110598
+      },
+      {
+        "name": "Textile.png",
+        "size": 331354
+      },
+      {
+        "name": "Textile.webp",
+        "size": 30188
+      }
+    ]
+  },
+  "INDUSTRIES": {
+    "count": 18,
+    "files": [
+      {
+        "name": "Finance.png",
+        "size": 475681
+      },
+      {
+        "name": "Finance.webp",
+        "size": 25534
+      },
+      {
+        "name": "Healthcare.png",
+        "size": 651735
+      },
+      {
+        "name": "Healthcare.webp",
+        "size": 36836
+      },
+      {
+        "name": "Hospitality.png",
+        "size": 689316
+      },
+      {
+        "name": "Hospitality.webp",
+        "size": 54178
+      },
+      {
+        "name": "INDUSTIRES.png",
+        "size": 170226
+      },
+      {
+        "name": "INDUSTIRES.webp",
+        "size": 22376
+      },
+      {
+        "name": "Logistics.png",
+        "size": 684532
+      },
+      {
+        "name": "Logistics.webp",
+        "size": 62064
+      },
+      {
+        "name": "Manufacturing.png",
+        "size": 858054
+      },
+      {
+        "name": "Manufacturing.webp",
+        "size": 83830
+      },
+      {
+        "name": "Real-Estate.png",
+        "size": 615488
+      },
+      {
+        "name": "Real-Estate.webp",
+        "size": 56146
+      },
+      {
+        "name": "Retail.png",
+        "size": 814437
+      },
+      {
+        "name": "Retail.webp",
+        "size": 70202
+      },
+      {
+        "name": "Startups.png",
+        "size": 685716
+      },
+      {
+        "name": "Startups.webp",
+        "size": 53508
+      }
+    ]
+  },
+  "Internships-&-Mentorship": {
+    "count": 22,
+    "files": [
+      {
+        "name": "Internship/Agile-Adaptability.png",
+        "size": 44661
+      },
+      {
+        "name": "Internship/Agile-Adaptability.webp",
+        "size": 17680
+      },
+      {
+        "name": "Internship/Bleeding-Edge-Tech.png",
+        "size": 45292
+      },
+      {
+        "name": "Internship/Bleeding-Edge-Tech.webp",
+        "size": 11754
+      },
+      {
+        "name": "Internship/Collaborative-Ego.png",
+        "size": 30387
+      },
+      {
+        "name": "Internship/Collaborative-Ego.webp",
+        "size": 11600
+      },
+      {
+        "name": "Internship/Fierce-Curiosity.png",
+        "size": 25218
+      },
+      {
+        "name": "Internship/Fierce-Curiosity.webp",
+        "size": 12916
+      },
+      {
+        "name": "Internship/Live-Enterprise-Projects.png",
+        "size": 54231
+      },
+      {
+        "name": "Internship/Live-Enterprise-Projects.webp",
+        "size": 12642
+      },
+      {
+        "name": "Internship/Radical-Accountability.png",
+        "size": 29734
+      },
+      {
+        "name": "Internship/Radical-Accountability.webp",
+        "size": 15036
+      },
+      {
+        "name": "Internship/Strategic-Mentorship.png",
+        "size": 36937
+      },
+      {
+        "name": "Internship/Strategic-Mentorship.webp",
+        "size": 17996
+      },
+      {
+        "name": "Internship/The-Fast-Track.png",
+        "size": 74452
+      },
+      {
+        "name": "Internship/The-Fast-Track.webp",
+        "size": 16548
+      },
+      {
+        "name": "Internships-&-Mentorship-box.png",
+        "size": 283674
+      },
+      {
+        "name": "Internships-&-Mentorship-box.webp",
+        "size": 42990
+      },
+      {
+        "name": "Internships-&-Mentorship-down.png",
+        "size": 271825
+      },
+      {
+        "name": "Internships-&-Mentorship-down.webp",
+        "size": 71798
+      },
+      {
+        "name": "Internships-&-Mentorship-up-.png",
+        "size": 314848
+      },
+      {
+        "name": "Internships-&-Mentorship-up-.webp",
+        "size": 96640
+      }
+    ]
+  },
+  "Investor-Relations": {
+    "count": 30,
+    "files": [
+      {
+        "name": "code-3.png",
+        "size": 209377
+      },
+      {
+        "name": "code-3.webp",
+        "size": 19866
+      },
+      {
+        "name": "invest-relations.png",
+        "size": 273691
+      },
+      {
+        "name": "invest-relations.webp",
+        "size": 45340
+      },
+      {
+        "name": "Investor/Aggressive-Trajectory.png",
+        "size": 79859
+      },
+      {
+        "name": "Investor/Aggressive-Trajectory.webp",
+        "size": 13576
+      },
+      {
+        "name": "Investor/Annual-Reports.png",
+        "size": 84757
+      },
+      {
+        "name": "Investor/Annual-Reports.webp",
+        "size": 16604
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(1)-(1)-1.png",
+        "size": 23510
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(1)-(1)-1.webp",
+        "size": 6278
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(2)-(1)-1.png",
+        "size": 24731
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(2)-(1)-1.webp",
+        "size": 3742
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(3)-(1)-1.png",
+        "size": 26753
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(3)-(1)-1.webp",
+        "size": 5458
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(4)-1.png",
+        "size": 31763
+      },
+      {
+        "name": "Investor/A_hyper-realistic_glassmorphism_202604201947-(4)-1.webp",
+        "size": 5332
+      },
+      {
+        "name": "Investor/Corporate-Governance.png",
+        "size": 62569
+      },
+      {
+        "name": "Investor/Corporate-Governance.webp",
+        "size": 12248
+      },
+      {
+        "name": "Investor/Disciplined-Allocation.png",
+        "size": 23812
+      },
+      {
+        "name": "Investor/Disciplined-Allocation.webp",
+        "size": 6940
+      },
+      {
+        "name": "Investor/ESG-Disclosures.png",
+        "size": 36263
+      },
+      {
+        "name": "Investor/ESG-Disclosures.webp",
+        "size": 15610
+      },
+      {
+        "name": "Investor/Quarterly-Earnings.png",
+        "size": 19869
+      },
+      {
+        "name": "Investor/Quarterly-Earnings.webp",
+        "size": 9648
+      },
+      {
+        "name": "Investor/Strategic-Diversification.png",
+        "size": 50369
+      },
+      {
+        "name": "Investor/Strategic-Diversification.webp",
+        "size": 20446
+      },
+      {
+        "name": "Investor/Transparent-Governance.png",
+        "size": 50914
+      },
+      {
+        "name": "Investor/Transparent-Governance.webp",
+        "size": 21824
+      },
+      {
+        "name": "Investor-Relations.png",
+        "size": 218399
+      },
+      {
+        "name": "Investor-Relations.webp",
+        "size": 28480
+      }
+    ]
+  },
+  "life-at-safal": {
+    "count": 52,
+    "files": [
+      {
+        "name": "1.png",
+        "size": 1221938
+      },
+      {
+        "name": "1.webp",
+        "size": 76518
+      },
+      {
+        "name": "10.png",
+        "size": 135580
+      },
+      {
+        "name": "10.webp",
+        "size": 11764
+      },
+      {
+        "name": "11.png",
+        "size": 67910
+      },
+      {
+        "name": "11.webp",
+        "size": 5124
+      },
+      {
+        "name": "12.png",
+        "size": 74422
+      },
+      {
+        "name": "12.webp",
+        "size": 7278
+      },
+      {
+        "name": "2.png",
+        "size": 470785
+      },
+      {
+        "name": "2.webp",
+        "size": 30576
+      },
+      {
+        "name": "3.png",
+        "size": 564704
+      },
+      {
+        "name": "3.webp",
+        "size": 44098
+      },
+      {
+        "name": "4.png",
+        "size": 538594
+      },
+      {
+        "name": "4.webp",
+        "size": 36008
+      },
+      {
+        "name": "5.png",
+        "size": 513158
+      },
+      {
+        "name": "5.webp",
+        "size": 35162
+      },
+      {
+        "name": "6.png",
+        "size": 353167
+      },
+      {
+        "name": "6.webp",
+        "size": 25046
+      },
+      {
+        "name": "7.png",
+        "size": 77142
+      },
+      {
+        "name": "7.webp",
+        "size": 8270
+      },
+      {
+        "name": "8.png",
+        "size": 84709
+      },
+      {
+        "name": "8.webp",
+        "size": 8704
+      },
+      {
+        "name": "9.png",
+        "size": 143539
+      },
+      {
+        "name": "9.webp",
+        "size": 13786
+      },
+      {
+        "name": "code-3.png",
+        "size": 209377
+      },
+      {
+        "name": "code-3.webp",
+        "size": 19866
+      },
+      {
+        "name": "Life-at-Safal.png",
+        "size": 118408
+      },
+      {
+        "name": "Life-at-Safal.webp",
+        "size": 14614
+      },
+      {
+        "name": "Life@Safal/Absolute-Integrity.png",
+        "size": 34240
+      },
+      {
+        "name": "Life@Safal/Absolute-Integrity.webp",
+        "size": 12616
+      },
+      {
+        "name": "Life@Safal/Aesthetic-Intelligence.png",
+        "size": 69615
+      },
+      {
+        "name": "Life@Safal/Aesthetic-Intelligence.webp",
+        "size": 13782
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171442-(2)-1.png",
+        "size": 12382
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171442-(2)-1.webp",
+        "size": 3890
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171443-(1)-1.png",
+        "size": 27068
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171443-(1)-1.webp",
+        "size": 5022
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171444-(1)-1.png",
+        "size": 22023
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171444-(1)-1.webp",
+        "size": 4088
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171452-(1)-1.png",
+        "size": 27814
+      },
+      {
+        "name": "Life@Safal/A_front-facing_floating_202604171452-(1)-1.webp",
+        "size": 4702
+      },
+      {
+        "name": "Life@Safal/Dynamic-Equilibrium.png",
+        "size": 39625
+      },
+      {
+        "name": "Life@Safal/Dynamic-Equilibrium.webp",
+        "size": 12006
+      },
+      {
+        "name": "Life@Safal/Global-Mobility.png",
+        "size": 42620
+      },
+      {
+        "name": "Life@Safal/Global-Mobility.webp",
+        "size": 19724
+      },
+      {
+        "name": "Life@Safal/Psychological-Safety.png",
+        "size": 70844
+      },
+      {
+        "name": "Life@Safal/Psychological-Safety.webp",
+        "size": 26886
+      },
+      {
+        "name": "Life@Safal/Relentless-Velocity.png",
+        "size": 29137
+      },
+      {
+        "name": "Life@Safal/Relentless-Velocity.webp",
+        "size": 11792
+      },
+      {
+        "name": "Life@Safal/Systemic-Ownership.png",
+        "size": 48698
+      },
+      {
+        "name": "Life@Safal/Systemic-Ownership.webp",
+        "size": 10600
+      },
+      {
+        "name": "Life@Safal/The-Mastery-Fund.png",
+        "size": 102996
+      },
+      {
+        "name": "Life@Safal/The-Mastery-Fund.webp",
+        "size": 25844
+      }
+    ]
+  },
+  "Open-Positions": {
+    "count": 2,
+    "files": [
+      {
+        "name": "Open-Positions.png",
+        "size": 220938
+      },
+      {
+        "name": "Open-Positions.webp",
+        "size": 23010
+      }
+    ]
+  },
+  "our-story": {
+    "count": 30,
+    "files": [
+      {
+        "name": "engineering-a-sustainable-tomorrow.png",
+        "size": 408757
+      },
+      {
+        "name": "engineering-a-sustainable-tomorrow.webp",
+        "size": 77876
+      },
+      {
+        "name": "Our-Story/Absolute-Integrity.png",
+        "size": 76765
+      },
+      {
+        "name": "Our-Story/Absolute-Integrity.webp",
+        "size": 12802
+      },
+      {
+        "name": "Our-Story/Autonomous-Logistics.png",
+        "size": 36533
+      },
+      {
+        "name": "Our-Story/Autonomous-Logistics.webp",
+        "size": 16460
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161808-1.png",
+        "size": 28559
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161808-1.webp",
+        "size": 6932
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-(1)-1.png",
+        "size": 20386
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-(1)-1.webp",
+        "size": 5342
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-(2)-1.png",
+        "size": 29180
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-(2)-1.webp",
+        "size": 6976
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-1.png",
+        "size": 25582
+      },
+      {
+        "name": "Our-Story/A_front-facing_floating_202604161809-1.webp",
+        "size": 4556
+      },
+      {
+        "name": "Our-Story/Decentralized-Security.png",
+        "size": 19735
+      },
+      {
+        "name": "Our-Story/Decentralized-Security.webp",
+        "size": 7784
+      },
+      {
+        "name": "Our-Story/Design-Driven-Innovation.png",
+        "size": 49641
+      },
+      {
+        "name": "Our-Story/Design-Driven-Innovation.webp",
+        "size": 20036
+      },
+      {
+        "name": "Our-Story/Enterprise-Ecosystems.png",
+        "size": 72798
+      },
+      {
+        "name": "Our-Story/Enterprise-Ecosystems.webp",
+        "size": 20312
+      },
+      {
+        "name": "Our-Story/Low-Code-Agility.png",
+        "size": 67837
+      },
+      {
+        "name": "Our-Story/Low-Code-Agility.webp",
+        "size": 7662
+      },
+      {
+        "name": "Our-Story/Relentless-Velocity.png",
+        "size": 73811
+      },
+      {
+        "name": "Our-Story/Relentless-Velocity.webp",
+        "size": 30992
+      },
+      {
+        "name": "Our-Story/Systemic-Ownership.png",
+        "size": 40600
+      },
+      {
+        "name": "Our-Story/Systemic-Ownership.webp",
+        "size": 16974
+      },
+      {
+        "name": "our-story.png",
+        "size": 320270
+      },
+      {
+        "name": "our-story.webp",
+        "size": 31428
+      },
+      {
+        "name": "ourstory.png",
+        "size": 337733
+      },
+      {
+        "name": "ourstory.webp",
+        "size": 105354
+      }
+    ]
+  },
+  "Startup-Product-Development-&-Consulting": {
+    "count": 18,
+    "files": [
+      {
+        "name": "cta.png",
+        "size": 1137858
+      },
+      {
+        "name": "cta.webp",
+        "size": 39370
+      },
+      {
+        "name": "devops.png",
+        "size": 478132
+      },
+      {
+        "name": "devops.webp",
+        "size": 33862
+      },
+      {
+        "name": "engineerring.png",
+        "size": 523676
+      },
+      {
+        "name": "engineerring.webp",
+        "size": 33048
+      },
+      {
+        "name": "MVP-Development.png",
+        "size": 241037
+      },
+      {
+        "name": "MVP-Development.webp",
+        "size": 14244
+      },
+      {
+        "name": "Product-Development-&-Venture-Enablement.png",
+        "size": 396528
+      },
+      {
+        "name": "Product-Development-&-Venture-Enablement.webp",
+        "size": 79072
+      },
+      {
+        "name": "Product-Strategy.png",
+        "size": 224148
+      },
+      {
+        "name": "Product-Strategy.webp",
+        "size": 14924
+      },
+      {
+        "name": "Products-Built-for-Scale-and-Adoption.png",
+        "size": 187466
+      },
+      {
+        "name": "Products-Built-for-Scale-and-Adoption.webp",
+        "size": 65094
+      },
+      {
+        "name": "Scaling-Tech-Teams.png",
+        "size": 303099
+      },
+      {
+        "name": "Scaling-Tech-Teams.webp",
+        "size": 24414
+      },
+      {
+        "name": "ui-ux.png",
+        "size": 547224
+      },
+      {
+        "name": "ui-ux.webp",
+        "size": 36790
+      }
+    ]
+  },
+  "Strategic-Partnerships": {
+    "count": 24,
+    "files": [
+      {
+        "name": "Strategic-Partnerships/A-Borderless-Innovation-Network.png",
+        "size": 71459
+      },
+      {
+        "name": "Strategic-Partnerships/A-Borderless-Innovation-Network.webp",
+        "size": 6824
+      },
+      {
+        "name": "Strategic-Partnerships/Channel-&-Go-To-Market.png",
+        "size": 22955
+      },
+      {
+        "name": "Strategic-Partnerships/Channel-&-Go-To-Market.webp",
+        "size": 9128
+      },
+      {
+        "name": "Strategic-Partnerships/Disruptive-Ambition.png",
+        "size": 51129
+      },
+      {
+        "name": "Strategic-Partnerships/Disruptive-Ambition.webp",
+        "size": 21274
+      },
+      {
+        "name": "Strategic-Partnerships/Enterprise-Grade-Integrity.png",
+        "size": 43316
+      },
+      {
+        "name": "Strategic-Partnerships/Enterprise-Grade-Integrity.webp",
+        "size": 8014
+      },
+      {
+        "name": "Strategic-Partnerships/Frame-2085663230.png",
+        "size": 228092
+      },
+      {
+        "name": "Strategic-Partnerships/Frame-2085663230.webp",
+        "size": 39988
+      },
+      {
+        "name": "Strategic-Partnerships/Implementation-Experts.png",
+        "size": 80360
+      },
+      {
+        "name": "Strategic-Partnerships/Implementation-Experts.webp",
+        "size": 19184
+      },
+      {
+        "name": "Strategic-Partnerships/Lets-Architect-the-FutureTogether.png",
+        "size": 2255520
+      },
+      {
+        "name": "Strategic-Partnerships/Lets-Architect-the-FutureTogether.webp",
+        "size": 58226
+      },
+      {
+        "name": "Strategic-Partnerships/Shared-Accountability.png",
+        "size": 60160
+      },
+      {
+        "name": "Strategic-Partnerships/Shared-Accountability.webp",
+        "size": 16654
+      },
+      {
+        "name": "Strategic-Partnerships/Technology-Integrations.png",
+        "size": 84625
+      },
+      {
+        "name": "Strategic-Partnerships/Technology-Integrations.webp",
+        "size": 32978
+      },
+      {
+        "name": "Strategic-Partnerships/Uncompromising-Velocity.png",
+        "size": 19152
+      },
+      {
+        "name": "Strategic-Partnerships/Uncompromising-Velocity.webp",
+        "size": 9218
+      },
+      {
+        "name": "Strategic-Partnerships/Venture-&-Co-Innovation.png",
+        "size": 61577
+      },
+      {
+        "name": "Strategic-Partnerships/Venture-&-Co-Innovation.webp",
+        "size": 8826
+      },
+      {
+        "name": "Strategic-Partnerships.png",
+        "size": 287481
+      },
+      {
+        "name": "Strategic-Partnerships.webp",
+        "size": 36024
+      }
+    ]
+  },
+  "Sustainability": {
+    "count": 6,
+    "files": [
+      {
+        "name": "background_of_warm_202603281709-(1)-1.png",
+        "size": 932005
+      },
+      {
+        "name": "background_of_warm_202603281709-(1)-1.webp",
+        "size": 208750
+      },
+      {
+        "name": "sustainbility-cta-.png",
+        "size": 3153235
+      },
+      {
+        "name": "sustainbility-cta-.webp",
+        "size": 195978
+      },
+      {
+        "name": "sustainbility-down.png",
+        "size": 189247
+      },
+      {
+        "name": "sustainbility-down.webp",
+        "size": 32656
+      }
+    ]
+  },
+  "Technology-Staffing": {
+    "count": 26,
+    "files": [
+      {
+        "name": "Across-Modern-Technology-Stacks.png",
+        "size": 1997657
+      },
+      {
+        "name": "Across-Modern-Technology-Stacks.webp",
+        "size": 92584
+      },
+      {
+        "name": "Contract-Hiring.png",
+        "size": 211877
+      },
+      {
+        "name": "Contract-Hiring.webp",
+        "size": 19740
+      },
+      {
+        "name": "Contract-to-Hire.png",
+        "size": 214525
+      },
+      {
+        "name": "Contract-to-Hire.webp",
+        "size": 21116
+      },
+      {
+        "name": "cta.png",
+        "size": 618187
+      },
+      {
+        "name": "cta.webp",
+        "size": 58528
+      },
+      {
+        "name": "Digitally-Transforming-Enterprises-.png",
+        "size": 182078
+      },
+      {
+        "name": "Digitally-Transforming-Enterprises-.webp",
+        "size": 11578
+      },
+      {
+        "name": "Full-Time-Hiring.png",
+        "size": 235371
+      },
+      {
+        "name": "Full-Time-Hiring.webp",
+        "size": 23980
+      },
+      {
+        "name": "Product-led-ventures-(2).png",
+        "size": 246750
+      },
+      {
+        "name": "Product-led-ventures-(2).webp",
+        "size": 12344
+      },
+      {
+        "name": "SaaS-companies.png",
+        "size": 244102
+      },
+      {
+        "name": "SaaS-companies.webp",
+        "size": 18512
+      },
+      {
+        "name": "Solution-based-businesses-(2).png",
+        "size": 321013
+      },
+      {
+        "name": "Solution-based-businesses-(2).webp",
+        "size": 24318
+      },
+      {
+        "name": "Startups.png",
+        "size": 224672
+      },
+      {
+        "name": "Startups.webp",
+        "size": 19578
+      },
+      {
+        "name": "tc.png",
+        "size": 228268
+      },
+      {
+        "name": "tc.webp",
+        "size": 35290
+      },
+      {
+        "name": "Tech-ventures.png",
+        "size": 322044
+      },
+      {
+        "name": "Tech-ventures.webp",
+        "size": 30186
+      },
+      {
+        "name": "Technology-Staffing.png",
+        "size": 256269
+      },
+      {
+        "name": "Technology-Staffing.webp",
+        "size": 43156
+      }
+    ]
+  },
+  "Values-&-Culture": {
+    "count": 16,
+    "files": [
+      {
+        "name": "Installation_Shape__The_202603281531-(1)-1.png",
+        "size": 451546
+      },
+      {
+        "name": "Installation_Shape__The_202603281531-(1)-1.webp",
+        "size": 60300
+      },
+      {
+        "name": "value-and-cultuer-down.png",
+        "size": 444068
+      },
+      {
+        "name": "value-and-cultuer-down.webp",
+        "size": 67342
+      },
+      {
+        "name": "value-and-cultuer-up-.png",
+        "size": 349632
+      },
+      {
+        "name": "value-and-cultuer-up-.webp",
+        "size": 75508
+      },
+      {
+        "name": "Values&culture/Aesthetic-Intelligence.png",
+        "size": 39672
+      },
+      {
+        "name": "Values&culture/Aesthetic-Intelligence.webp",
+        "size": 12458
+      },
+      {
+        "name": "Values&culture/Calculated-Urgency.png",
+        "size": 83008
+      },
+      {
+        "name": "Values&culture/Calculated-Urgency.webp",
+        "size": 14084
+      },
+      {
+        "name": "Values&culture/Systemic-Accountability.png",
+        "size": 22924
+      },
+      {
+        "name": "Values&culture/Systemic-Accountability.webp",
+        "size": 7924
+      },
+      {
+        "name": "Values&culture/Trust-Ethics.png",
+        "size": 51756
+      },
+      {
+        "name": "Values&culture/Trust-Ethics.webp",
+        "size": 7718
+      },
+      {
+        "name": "Values-&-Culture.png",
+        "size": 218674
+      },
+      {
+        "name": "Values-&-Culture.webp",
+        "size": 20252
+      }
+    ]
+  }
+}

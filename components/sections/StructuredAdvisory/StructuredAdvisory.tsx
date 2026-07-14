@@ -71,7 +71,7 @@ export default function StructuredAdvisory() {
             <div className={styles.imageWrapper}>
               {/* Note: I&apos;m using a placeholder right now for the hover layers image */}
               <Image 
-                src="/images/hero_3d_book.png" 
+                src="/images/blogs/blogs.webp" 
                 alt="Hover Layers"
                 fill
                 className={styles.image}

@@ -27,7 +27,7 @@ export default function CTASection() {
       <div className={styles.graphicContent}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/gold-key.png" 
+            src="/images/life-at-safal/Life@Safal/Absolute-Integrity.webp" 
             alt="Golden Key in Puzzle" 
             fill 
             className={styles.graphicImage} 

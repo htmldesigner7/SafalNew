@@ -25,7 +25,7 @@ export default function BuildScaleSection() {
           
           <div className={styles.imageCol}>
             <Image
-              src="/images/puzzle-block.png"
+              src="/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountability.webp"
               alt="Brand Clarity"
               width={700}
               height={500}

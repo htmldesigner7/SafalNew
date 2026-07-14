@@ -45,7 +45,7 @@ export default function IndustrialAutomationPage() {
       <section className="mt_80 mb_80">
         <div className="container-1600">
           <img
-            src="/images/manufacturing.jpg"
+            src="/images/INDUSTRIES/INDUSTIRES.webp"
             alt="Process Placeholder"
             style={{ width: '100%', height: 'auto', borderRadius: '16px', objectFit: 'cover', maxHeight: '600px' }}
           />
