@@ -6,11 +6,8 @@ import { prisma } from "@/lib/prisma";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-
-    // Validate request data
     const data = webinarSchema.parse(body);
 
-    // Insert data into Webinar table
     const webinar = await prisma.webinar.create({
       data: {
         name: data.fullName,
@@ -25,13 +22,9 @@ export async function POST(request: Request) {
         message: "Form submitted successfully",
         data: webinar,
       },
-      {
-        status: 201,
-      }
+      { status: 201 }
     );
-
   } catch (err) {
-
     if (err instanceof ZodError) {
       return NextResponse.json(
         {
@@ -39,9 +32,7 @@ export async function POST(request: Request) {
           message: "Please check the form fields and try again.",
           errors: err.flatten(),
         },
-        {
-          status: 400,
-        }
+        { status: 400 }
       );
     }
 
@@ -52,9 +43,7 @@ export async function POST(request: Request) {
         success: false,
         message: "Failed to save data.",
       },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
   }
 }
