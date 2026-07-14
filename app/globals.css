@@ -204,6 +204,14 @@ img {
   line-height: 34px;
 }
 
+.validationError{
+  color: red !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px; /* optional */
+
+}
+
 /* =========================================================
    Responsive Breakpoints
    ========================================================= */
@@ -461,3 +469,4 @@ img {
     font-size: 13px;
   }
 }
+
