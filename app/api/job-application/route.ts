@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { internshipSchema } from "@/validation/internshipSchema";
+import { jobApplicationSchema } from "@/validation/jobApplicationSchema";
 import { ZodError } from "zod";
 import { prisma } from "@/lib/prisma";
 import fs from "fs/promises";
@@ -11,6 +11,7 @@ export async function POST(request: Request) {
     
     // Parse the formData into a regular object for Zod validation
     const data = {
+      jobId: formData.get("jobId"),
       fullName: formData.get("fullName"),
       email: formData.get("email"),
       phoneNumber: formData.get("phoneNumber"),
@@ -20,7 +21,7 @@ export async function POST(request: Request) {
     };
 
     // Validate using Zod
-    const validatedData = internshipSchema.parse(data);
+    const validatedData = jobApplicationSchema.parse(data);
 
     // Save the file to public/uploads
     const file = validatedData.resume as File;
@@ -33,7 +34,7 @@ export async function POST(request: Request) {
     const uploadDir = path.join(process.cwd(), "public", "uploads");
     const filePath = path.join(uploadDir, fileName);
     
-    // Ensure the uploads directory exists (in case it got deleted)
+    // Ensure the uploads directory exists
     await fs.mkdir(uploadDir, { recursive: true });
     
     // Write the file
@@ -41,8 +42,9 @@ export async function POST(request: Request) {
     const resumeUrl = `/uploads/${fileName}`;
 
     // Save to Database
-    const internshipApplication = await prisma.internship_application.create({
+    const jobApplication = await prisma.job_application.create({
       data: {
+        jobId: validatedData.jobId,
         fullName: validatedData.fullName,
         email: validatedData.email,
         phoneNumber: validatedData.phoneNumber,
@@ -56,7 +58,7 @@ export async function POST(request: Request) {
       {
         success: true,
         message: "Application submitted successfully",
-        data: internshipApplication,
+        data: jobApplication,
       },
       { status: 201 }
     );
@@ -72,7 +74,7 @@ export async function POST(request: Request) {
       );
     }
 
-    console.error("Internship API Error:", err);
+    console.error("Job Application API Error:", err);
 
     return NextResponse.json(
       {

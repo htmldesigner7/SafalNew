@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE `InternshipApplication` (
+CREATE TABLE `internship_application` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `fullName` VARCHAR(191) NOT NULL,
     `email` VARCHAR(191) NOT NULL,

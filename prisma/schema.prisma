@@ -17,7 +17,7 @@ model contacts {
   created_at DateTime @default(now()) @db.Timestamp(0)
 }
 
-model Webinar {
+model webinar {
   id        Int      @id @default(autoincrement())
   name      String
   email     String
@@ -25,7 +25,7 @@ model Webinar {
   createdAt DateTime @default(now())
 }
 
-model Partner {
+model become_a_partner {
   id                Int      @id @default(autoincrement())
   fullName          String
   corporateEmail    String
@@ -37,8 +37,20 @@ model Partner {
   createdAt         DateTime @default(now())
 }
 
-model InternshipApplication {
+model internship_application {
   id          Int      @id @default(autoincrement())
+  fullName    String
+  email       String
+  phoneNumber String
+  location    String
+  resumeUrl   String
+  coverLetter String   @db.Text
+  createdAt   DateTime @default(now())
+}
+
+model job_application {
+  id          Int      @id @default(autoincrement())
+  jobId       String
   fullName    String
   email       String
   phoneNumber String

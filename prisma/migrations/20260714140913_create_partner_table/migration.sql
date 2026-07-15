@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE `Partner` (
+CREATE TABLE `become_a_partner` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `fullName` VARCHAR(191) NOT NULL,
     `corporateEmail` VARCHAR(191) NOT NULL,
