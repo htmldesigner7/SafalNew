@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE `Webinar` (
+CREATE TABLE `webinar` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(191) NOT NULL,
     `email` VARCHAR(191) NOT NULL,

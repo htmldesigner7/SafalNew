@@ -8,7 +8,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
 
   return (
     <main>
-      <InnerPageHero 
+      <InnerPageHero
         title={heroData.title}
         description={heroData.description}
         imageSrc={heroData.imageSrc}
