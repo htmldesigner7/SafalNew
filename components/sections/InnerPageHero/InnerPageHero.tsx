@@ -15,7 +15,7 @@ export default function InnerPageHero({ title, description, imageSrc, imageAlt }
       <div className={`${styles.contentContainer} container-1600`}>
         <div className={styles.textContent}>
           <h1 className={styles.title}>{title}</h1>
-          <p className={styles.description}>{description}</p>
+          <div className={styles.description}>{description}</div>
         </div>
 
         <div className={styles.visualContent}>

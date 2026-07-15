@@ -21,7 +21,7 @@ export default function GlobalPresenceSection() {
             By integrating operations across geographies, Safal ensures seamless collaboration, operational continuity, and long-term value creation for organizations operating in global and multi-market environments.
           </p>
 
-          <Link href="#product" className="btn-outline btn-outline-red mt_40">
+          <Link href="/enterprise-products" className="btn-outline btn-outline-red mt_40">
             Explore our Products
           </Link>
         </div>
