@@ -33,7 +33,7 @@
 
 .contactInfo {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   color: var(--grey-ddd);
   margin-bottom: 32px;
 }
