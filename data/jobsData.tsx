@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export interface JobCard {
   id: string;
   title: string;
@@ -6,7 +8,7 @@ export interface JobCard {
   location: string;
   type: string;
   experience?: string;
-  overview?: string;
+  overview?: ReactNode;
   keyResponsibilities?: string[];
   tasksAndResponsibilities?: string[];
   skillsAndExperience?: string[];

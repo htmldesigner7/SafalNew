@@ -14,7 +14,7 @@ const products = [
     <p>DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.</p>
     <p>Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.</p>
     </>,
-    link: '#product'
+    link: '/enterprise-products'
   },
   {
     id: 'Formezy',
@@ -25,7 +25,7 @@ const products = [
     <p>Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.</p>
     <p>Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.</p>
     </>,
-    link: '#product'
+    link: '/enterprise-products'
   },
   {
     id: 'Docezy',
@@ -36,7 +36,7 @@ const products = [
     <p>Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.</p>
     <p>The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.</p>
     </>,
-    link: '#product'
+    link: '/enterprise-products'
   },
   {
     id: 'Tasknote',
@@ -47,7 +47,7 @@ const products = [
     <p>Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.</p>
     <p>With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.</p>
     </>,
-    link: '#product'
+    link: '/enterprise-products'
   },
   {
     id: 'ProPulse',
@@ -58,7 +58,7 @@ const products = [
     <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
     <p>The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.</p>
     </>,
-    link: '#product'
+    link: '/enterprise-products'
   },
 ];
 
@@ -112,9 +112,9 @@ export default function EcosystemSection() {
               </Link>
             </div>
 
-            <p>
+            <div className={styles.descriptionWrapper}>
               {activeProduct.description}
-            </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,17 @@
+import { ReactNode } from 'react';
 
+export interface SectorCard {
+  id: string;
+  title: string;
+  image: string;
+  description: ReactNode;
+}
+
+export interface SectorsContent {
+  title: string;
+  subtitle?: string;
+  cards: SectorCard[];
+}
 
 export const defaultSectorsData = {
   title: 'Transforming Industries Through Scalable Systems.',

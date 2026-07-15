@@ -44,6 +44,7 @@ const solutions = [
     image: '/images/Homepage/Enterprise-Products-Platforms.webp',
     description: 'Safal designs and delivers integrated enterprise platforms that unify business processes, data, and operations. As an enterprise solutions provider, we build scalable systems that support efficiency, control, and long-term growth.',
     description2: 'Our platforms are modular, adaptable, and structured to align with evolving enterprise requirements across industries.',
+    link: '/enterprise-products'
   },
   {
     id: '02',
@@ -52,6 +53,7 @@ const solutions = [
     image: '/images/Homepage/Brand-Digital-Creative-Services.webp',
     description: 'We build structured brand and digital systems that ensure consistency across communication, platforms, and customer touchpoints. Our approach connects design with business objectives and operational clarity.',
     description2: 'As a technology consulting company, we deliver digital solutions that function as integrated extensions of enterprise systems.',
+    link: '/brand-digital-creative-services'
   },
   {
     id: '03',
@@ -60,6 +62,7 @@ const solutions = [
     image: '/images/Homepage/Startup-Product-Development-Consulting.webp',
     description: 'Safal supports startups and growth-stage businesses in building scalable products aligned with market and operational requirements. We provide structured product development with a focus on clarity, performance, and long-term viability.',
     description2: 'From concept to execution, we enable products that are built for scale and sustained growth.',
+    link: '/startup-product-development'
   },
   {
     id: '04',
@@ -68,6 +71,7 @@ const solutions = [
     image: '/images/Homepage/Industril-Automation-IoT.webp',
     description: 'We deliver automation and IoT systems that connect machines, processes, and data across industrial environments. These systems improve visibility, efficiency, and operational control.',
     description2: 'As a digital transformation partner, we help organizations transition to connected and data-driven industrial operations.',
+    link: '/industrial-automation'
   },
   {
     id: '05',
@@ -76,6 +80,7 @@ const solutions = [
     image: '/images/Homepage/AI-Emerging-Technology.webp',
     description: 'Safal integrates AI and emerging technologies into enterprise systems to enhance decision-making and operational intelligence. Our solutions are designed to be practical, scalable, and aligned with real business applications.',
     description2: 'We focus on building systems that improve performance while maintaining stability and control.',
+    link: '/ai-emerging-technology'
   },
   {
     id: '06',
@@ -84,6 +89,7 @@ const solutions = [
     image: '/images/Homepage/Business-Financial-Advisory.webp',
     description: 'We provide structured advisory services that align financial strategy with business objectives. Our approach focuses on clarity, compliance, and sustainable growth.',
     description2: 'Safal supports enterprises in making informed decisions across planning, expansion, and financial structuring.',
+    link: '/business-financial-advisory'
   },
   {
     id: '07',
@@ -92,6 +98,7 @@ const solutions = [
     image: '/images/Homepage/Financial-Accounting.webp',
     description: 'Our financial accounting services ensure accuracy, compliance, and transparency across business operations. We build systems that support reliable reporting and governance.',
     description2: 'These services integrate seamlessly with broader enterprise processes and operational frameworks.',
+    link: '/financial-accounting-solutions'
   },
   {
     id: '08',
@@ -100,6 +107,7 @@ const solutions = [
     image: '/images/Homepage/Technology-Staffing.webp',
     description: 'Safal provides technology staffing solutions that enable organizations to build and scale capable teams. We connect businesses with skilled professionals aligned to specific project and operational needs.',
     description2: 'Our approach ensures continuity, flexibility, and access to specialized expertise across technology functions.',
+    link: '/technology-staffing'
   }
 ];
 
@@ -202,7 +210,7 @@ export default function SolutionsSection() {
                 <p>{activeSolution.description}</p>
                 <p className="mt-4">{activeSolution.description2}</p>
 
-                <Link href="#explore" className="btn-outline btn-outline-red mt_40">
+                <Link href={activeSolution.link} className="btn-outline btn-outline-red mt_40">
                   Explore More
                 </Link>
               </div>

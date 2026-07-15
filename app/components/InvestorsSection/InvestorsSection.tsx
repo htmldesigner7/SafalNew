@@ -28,7 +28,7 @@ export default function InvestorsSection() {
                 <li>Global expansion opportunities</li>
                 <li>Structured risk management</li>
               </ul>
-              <a href="#" className="btn-outline btn-outline-red">Explore More</a>
+              <a href="/investor-relations" className="btn-outline btn-outline-red">Explore More</a>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ export default function InvestorsSection() {
                 <li>Access to multi-industry expertise</li>
                 <li>Ecosystem-driven innovation</li>
               </ul>
-              <a href="#" className="btn-outline btn-outline-red">Explore More</a>
+              <a href="/investor-relations" className="btn-outline btn-outline-red">Explore More</a>
             </div>
           </div>
 

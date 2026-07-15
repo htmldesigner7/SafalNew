@@ -39,7 +39,7 @@ export default function SustainabilitySection() {
         {/* Right Column (Bottom aligned) */}
         <div className={styles.rightColumn}>
           <h2 className='title_60' style={{ color: '#60853A' }}>Enabling responsible growth.</h2>
-          <Link href="#sustainability" className='btn-outline btn-outline-red '>
+          <Link href="/sustainability" className='btn-outline btn-outline-red '>
             Read our Sustainability Commitments
           </Link>
         </div>

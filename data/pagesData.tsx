@@ -17,7 +17,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Safal Infosoft is not adapting to the future of enterprise—we are building the infrastructure that powers it. From industrial automation to AI-led ecosystems, we engineer the systems that move industries forward.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Internal-Audits.webp",
+      imageSrc: "/images/our-story/our-story.webp",
       imageAlt: "About Hero Graphic",
     }
   },
@@ -61,8 +61,8 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>Welcome to Safal Group Investor Relations.<br />We engineer long-term shareholder value through disciplined execution, strategic diversification, and deep-tech innovation across global enterprise markets.</p>
         <p>Our approach combines a strong balance sheet, precise capital allocation, and operational velocity, designed to deliver consistent, compounding growth.</p>
       </>,
-      imageSrc: "/images/Investor-Relations/Investor-Relations.webp",
-      imageAlt: "Investor Relations Graphic",
+      imageSrc: "/images/Values-&-Culture/Values-&-Culture.webp",
+      imageAlt: "Values & Culture",
     }
   },
 
@@ -278,6 +278,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>At Safal Group, we don’t hire for static roles, we hire for upward trajectories.<br />You’re not stepping into a job; you’re entering a system designed to accelerate your growth.</p>
         <p>Join a borderless matrix where deep engineering meets creative strategy, and contribute to building the digital backbone of tomorrow.</p>
       </>,
+      imageSrc: "/images/Careers/safal-careers-hero.webp",
       imageAlt: "Open positions Hero",
     }
   }
