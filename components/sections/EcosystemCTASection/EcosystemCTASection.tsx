@@ -12,7 +12,7 @@ const data = {
   cardDescription: "Wherever your business operates, Safal helps you build the right technology team, fast. Connect with us to start deploying qualified talent aligned with your project and industry needs.",
   buttonText: "Book a Consultation",
   buttonLink: "/contact",
-  imageSrc: "/images/blogs/blogs.webp",
+  imageSrc: "/images/Technology-Staffing/Technology-Talent.webp",
   imageAlt: "Team working together"
 };
 

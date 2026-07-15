@@ -55,12 +55,16 @@ export default function SpeedQualitySection({ data }: SpeedQualitySectionProps) 
           
           <div className={styles.imageBox}>
             <div className={styles.imageWrapper}>
-              <Image
-                src={data.imageSrc}
-                alt={data.imageAlt}
-                fill
-                className={styles.image}
-              />
+              {data.svgCode ? (
+                <div dangerouslySetInnerHTML={{ __html: data.svgCode }} style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }} />
+              ) : data.imageSrc ? (
+                <Image
+                  src={data.imageSrc}
+                  alt={data.imageAlt || ""}
+                  fill
+                  className={styles.image}
+                />
+              ) : null}
             </div>
           </div>
         </div>

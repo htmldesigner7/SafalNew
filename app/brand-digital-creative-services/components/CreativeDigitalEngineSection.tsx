@@ -20,7 +20,7 @@ export default function CreativeDigitalEngineSection({
     "We approach creative execution through a structured blend of design systems, brand strategy, and digital integration. Each solution is developed with a clear understanding of business objectives, ensuring that creative output is not only visually compelling but also aligned with performance and long-term brand consistency.",
     "Our focus extends beyond aesthetics to building scalable digital experiences that adapt across platforms and touchpoints. By combining creative precision with execution discipline, we enable brands to maintain clarity, strengthen engagement, and deliver measurable impact within dynamic and competitive environments."
   ],
-  imageSrc = "/images/Brand,-Digital-&-Creative-Services/pixelcut-export.png",
+  imageSrc = "/images/Brand,-Digital-&-Creative-Services/Digital-Engine-of-Safal.png",
   imageAlt = "Creative & Digital Engine Illustration",
   buttonText,
   buttonLink

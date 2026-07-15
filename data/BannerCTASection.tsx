@@ -17,10 +17,10 @@ export const startupProductDevBannerData: BannerCTAData = {
 };
 
 export const aiEmergingTechBannerData: BannerCTAData = {
-  iconSrc: '/images/logo.svg',
+  iconSrc: '/images/favicon_new.png',
   title: 'Build AI Systems That Drive Business Outcomes',
   description: 'Work with a trusted partner delivering AI consulting services, AI advisory services, and AI business solutions aligned with enterprise requirements. Evaluate how Safal enables structured AI adoption through scalable systems, controlled implementation, and measurable outcomes.',
   buttonText: 'Book a Consultation',
   buttonLink: '/contact',
-  bgImageSrc: '/images/Structured-Advisory-Banner.png',
+  bgImageSrc: '/images/AI-&-Emerging-Technology/cta-banner.webp',
 };

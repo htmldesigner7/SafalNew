@@ -18,7 +18,7 @@ export default function ProprietaryPlatform() {
           </div>
           <div className={styles.imageCol}>
             <Image 
-              src="/images/Enterprise-Grade-Products-Built-for-Scale/inventory.webp" 
+              src="/images/AI-&-Emerging-Technology/Proprietary-A1-Execution.webp" 
               alt="Proprietary AI Execution Platform Diagram" 
               width={700} 
               height={400} 

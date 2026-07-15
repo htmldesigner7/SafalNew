@@ -31,12 +31,11 @@ export default function GlobalPresenceSection() {
           <div className={styles.globeWrapper}>
             {/* Placeholder for the wireframe globe image */}
             <Image
-              src="/images/globe-img.png"
-              alt="Global Presence Globe"
+              src="/images/homepage/globe-img.png"
+              alt="Global Presence Globe" 
               fill
               className={styles.globeImage}
             />
-
 
           </div>
         </div>

@@ -49,8 +49,9 @@ export const defaultSectorsData = {
     {
       id: '06',
       title: 'Real Estate',
-      image: '/images/Homepage/Real Estate.jpg',
-      description: "Safal enables real estate organizations to streamline operations, manage assets, and improve visibility through structured digital solutions. By connecting data, processes, and platforms, we support coordinated, consistent management across property, sales, and financial functions.",
+      image: '/images/Homepage/Real-Estate.jpg',
+      description: <>Safal enables real estate organizations to streamline operations, manage assets, and improve visibility through structured digital solutions. By connecting data, processes, and platforms, we support better coordination across property management, sales, and financial workflows. <br /><br />Our solutions are designed to enhance operational control, improve reporting accuracy, and support scalable growth. This ensures efficient management of real estate portfolios while maintaining consistency across projects and business functions.
+      </>,
     }
   ]
 };

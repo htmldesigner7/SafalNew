@@ -22,32 +22,32 @@ export const cultureData: CultureContent = {
       subtitle: "",
       title: "Relentless Velocity",
       description: "We operate with urgency and precision. Speed to execution, without compromise, defines our competitive edge.",
-      imageSrc: "/images/Corporate-Governance/Absolute-Integrity.webp",
-      bgColor: "#f5f0ce"
+      imageSrc: "/images/our-story/Relentless-Velocity.webp",
+      bgColor: "#F2ECCA"
     },
     {
       id: "integrity",
       subtitle: "",
       title: "Absolute Integrity",
       description: "We build systems designed to scale securely. Governance, transparency, and trust are foundational, not optional.",
-      imageSrc: "/images/Corporate-Governance/Design-Driven-Innovation..webp",
-      bgColor: "#cceaf4"
+      imageSrc: "/images/our-story/Absolute-Integrity.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "innovation",
       subtitle: "",
       title: "Design-Driven Innovation",
       description: "Technology must function seamlessly and feel intuitive. We balance engineering depth with thoughtful design.",
-      imageSrc: "/images/Corporate-Governance/Systemic-Ownership..webp",
-      bgColor: "#fbe0c9"
+      imageSrc: "/images/our-story/Design-Driven Innovation.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "ownership",
       subtitle: "",
       title: "Systemic Ownership",
       description: "We take end-to-end responsibility. From architecture to outcome, accountability is built into everything we deliver.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
-      bgColor: "#d8ead2"
+      imageSrc: "/images/our-story/Systemic-Ownership.webp",
+      bgColor: "#DBE9CB"
     }
   ]
 };
@@ -100,32 +100,32 @@ export const TalentData: CultureContent = {
       subtitle: "",
       title: "Relentless Velocity",
       description: "You thrive in high-momentum environments, prioritizing execution and clarity over unnecessary complexity.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Relentless-Velocity.webp",
-      bgColor: "#f5f0ce"
+      imageSrc: "/images/life-at-safal/Relentless-Velocity.webp",
+      bgColor: "#F2ECCA"
     },
     {
       id: "integrity",
       subtitle: "",
       title: "Absolute Integrity",
       description: "You build with responsibility, ensuring transparency, security, and ethical decision-making in everything you create.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Absolute-Integrity.webp",
-      bgColor: "#cceaf4"
+      imageSrc: "/images/life-at-safal/Absolute-Integrity.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "innovation",
       subtitle: "",
       title: "Aesthetic Intelligence",
       description: "You understand that great technology is not just functionalit is intuitive, elegant, and human-centric.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp",
-      bgColor: "#fbe0c9"
+      imageSrc: "/images/life-at-safal/Aesthetic-Intelligence.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "ownership",
       subtitle: "",
       title: "Systemic Ownership",
       description: "You take end-to-end responsibility. From ideation to deployment, you own the outcome, not just the task.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
-      bgColor: "#d8ead2"
+      imageSrc: "/images/life-at-safal/Systemic-Ownership.webp",
+      bgColor: "#DBE9CB"
     }
   ]
 };
@@ -258,7 +258,7 @@ export const ValueCreationArchitecture: CultureContent = {
       id: "contract-hiring",
       title: "Contract Hiring",
       description: "On-demand talent through tech staffing solutions for short-term or project-based needs.",
-      imageSrc: "/images/blogs/blogs.webp",
+      imageSrc: "/images/Technology-Staffing/Contract-Hiring.webp",
       bgColor: "#FDE0C5",
       subtitle: ""
     },
@@ -409,16 +409,16 @@ export const FlexibleServiceStructures: CultureContent = {
       subtitle: "",
       title: "Dedicated Accounting Teams",
       description: "Aligned teams delivering end-to-end accounting outsourcing services.",
-      imageSrc: "/images/financial-accounting-solutions/Process-Based-Engagement.webp",
-      bgColor: "#F5F0CE"
+      imageSrc: "/images/financial-accounting-solutions/Dedicated-Accounting-Teams.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "structure-2",
       subtitle: "",
       title: "Process-Based Engagement",
       description: "Defined execution of specific accounting functions within structured workflows.",
-      imageSrc: "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
-      bgColor: "#CCEAF4"
+      imageSrc: "/images/financial-accounting-solutions/Process-Based-Engagement.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "structure-3",
@@ -426,7 +426,7 @@ export const FlexibleServiceStructures: CultureContent = {
       title: "Full Outsourcing Model",
       description: "Complete management of accounting operations through scalable service models.",
       imageSrc: "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
-      bgColor: "#FBE0C9"
+      bgColor: "#DBE9CB"
     },
    
   ]
