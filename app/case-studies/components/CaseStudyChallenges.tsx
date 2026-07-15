@@ -20,30 +20,30 @@ export default function CaseStudyChallenges() {
           
           <div className={styles.grid}>
             <div>
-              <h3 className="title_24">Inefficient Route Planning</h3>
+              <h3 className="title_24">Retail & Distribution Complexity</h3>
               <p className={styles.cardDesc}>
-                In an era where global supply chains shift overnight, rigid infrastructure is a fatal liability. A leading international metal processing firm approached Safal Infosoft facing a critical threshold: their legacy
+                Managing inventory, replenishment, and sales across 100+ outlets created coordination gaps, leading to stock inconsistencies and inefficient outlet servicing.
               </p>
             </div>
             
             <div>
-              <h3 className="title_24">Fragmented Data Silos</h3>
+              <h3 className="title_24">Production & Shelf-Life Constraints</h3>
               <p className={styles.cardDesc}>
-                In an era where global supply chains shift overnight, rigid infrastructure is a fatal liability. A leading international metal processing firm approached Safal Infosoft facing a critical threshold: their legacy monolithic.
+                Batch-wise production with expiry sensitivity required precise planning. Lack of system-driven control resulted in overproduction, wastage, and demand mismatch.
               </p>
             </div>
 
             <div>
-              <h3 className="title_24">Scalability Bottlenecks</h3>
+              <h3 className="title_24">Disconnected Operational Systems</h3>
               <p className={styles.cardDesc}>
-                In an era where global supply chains shift overnight, rigid infrastructure is a fatal liability. A leading international metal processing firm approached Safal Infosoft facing a critical threshold: their legacy monolithic.
+               Retail POS, production, finance, and distribution operated in silos, making reporting slow, inaccurate, and difficult to reconcile.
               </p>
             </div>
 
             <div>
-              <h3 className="title_24">Lack of Real-Time Visibility</h3>
+              <h3 className="title_24">Limited Real-Time Visibility</h3>
               <p className={styles.cardDesc}>
-                In an era where global supply chains shift overnight, rigid infrastructure is a fatal liability. A leading international metal processing firm approached Safal Infosoft facing a critical threshold: their legacy monolithic Data.
+                Absence of centralized dashboards restricted decision-making speed across production, logistics, and retail performance.
               </p>
             </div>
           </div>

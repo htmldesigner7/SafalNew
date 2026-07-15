@@ -44,7 +44,7 @@ export default function BrandDigitalCreativeServicesPage() {
           "A portfolio of brand identities, digital platforms, and marketing campaigns developed across industries, reflecting structured execution, creative consistency, and measurable impact.",
           "Each engagement demonstrates the integration of creative design services with performance-driven digital strategies."
         ]}
-        imageSrc="/images/Brand,-Digital-&-Creative-Services/brand-transformation-1.webp"
+        imageSrc="/images/Brand,-Digital-&-Creative-Services/Selected-work.png"
         imageAlt="Selected Work Illustration"
       />
 

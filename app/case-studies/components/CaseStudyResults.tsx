@@ -14,30 +14,30 @@ export default function CaseStudyResults() {
           
           <div className={styles.grid}>
             <div className={styles.gridItem}>
-              <h3 className="title_24">Lorem ipsum .</h3>
+              <h3 className="title_24">Operational Efficiency at Scale</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Production, distribution, and retail operations were fully synchronized, enabling seamless coordination across all business units.
               </p>
             </div>
             
             <div className={styles.gridItem}>
-              <h3 className="title_24">Lorem ipsum dolor sit amet.</h3>
+              <h3 className="title_24">Wastage Reduction & Cost Optimization</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Expiry tracking and demand-driven planning significantly reduced product wastage while improving overall inventory efficiency.
               </p>
             </div>
 
             <div className={styles.gridItem}>
-              <h3 className="title_24">Lorem ipsum dolor .</h3>
+              <h3 className="title_24">Enhanced Traceability & Compliance</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Batch-level tracking ensured higher quality standards, improved food safety compliance, and stronger audit readiness.
               </p>
             </div>
 
             <div className={styles.gridItem}>
-              <h3 className="title_24">Lorem ipsum dolor sit .</h3>
+              <h3 className="title_24">Real-Time Business Visibility</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Centralized dashboards empowered leadership with instant insights into sales, inventory, and operational performance across all locations.
               </p>
             </div>
           </div>
