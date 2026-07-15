@@ -217,7 +217,7 @@ export const advisoryCapabilitiesData: CultureContent = {
       id: "business-advisory",
       title: "Business Advisory",
       description: "Advisory support for structuring operations and decision-making within defined business and financial frameworks.",
-      imageSrc: "/images/blogs/blogs.webp",
+      imageSrc: "/images/Business-&-Financial-Advisory/Business-Advisory.webp",
       bgColor: "#F3EED4",
       subtitle: ""
     },
@@ -225,7 +225,7 @@ export const advisoryCapabilitiesData: CultureContent = {
       id: "financial-modelling",
       title: "Financial Modelling",
       description: "Delivery of structured financial modelling services to support forecasting, planning, and investment evaluation.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Due-Diligence.webp",
+      imageSrc: "/images/Business-&-Financial-Advisory/Financial-Modelling.webp",
       bgColor: "#CBE6F5",
       subtitle: ""
     },
@@ -307,7 +307,7 @@ export const measuredOperationalOutcomesData: CultureContent = {
       subtitle: "",
       title: "Efficiency & Cost Optimization",
       description: "Improved efficiency with optimized cost structures",
-      imageSrc: "/images/AI-&-Emerging-Technology/Enterprise-AI.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/Efficiency-&-Cost-Optimization.webp",
       bgColor: "#BEE4ED"
     },
     {
@@ -315,7 +315,7 @@ export const measuredOperationalOutcomesData: CultureContent = {
       subtitle: "",
       title: "Enterprise Visibility & Value Impact",
       description: "Enhanced visibility across systems with measurable contribution to EBITDA",
-      imageSrc: "/images/banner-images/our-story.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#DBE9CB"
     }
   ]
