@@ -187,7 +187,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
-      imageSrc: "/images/Enterprise-Grade-Products-Built-for-Scale/Enterprise-Grade Products Built for Scale.webp",
+      imageSrc: "/images/Enterprise-Grade-Products-Built-for-Scale/Enterprise-Grade-Products-Built-for-Scale.webp",
       imageAlt: "Enterprise Products Hero",
     }
   },
