@@ -18,24 +18,24 @@ export default function CaseStudyImpact() {
           
           <div className={styles.content}>
             <div className={styles.badge}>Our Impact</div>
-            <h2 className={`${styles.title} title_60`}>300% increase in<br/>operational velocity</h2>
-            <p className={styles.subtitle}>A complete transformation that redefined manufacturing excellence</p>
+            <h2 className={`${styles.title} title_60`}>300% increase in operational velocity</h2>
+            <p className={styles.subtitle}>A complete transformation that redefined manufacturing and retail execution</p>
             
             <div className={styles.statsGrid}>
               <div className={styles.statCard}>
                 <div className={`${styles.statValue} title_60`}>300%</div>
                 <div className={styles.statLabel}>Operational Velocity</div>
-                <div className={styles.statDesc}>3x faster processing</div>
+                <div className={styles.statDesc}>3x faster production-to-retail cycles</div>
               </div>
               <div className={styles.statCard}>
-                <div className={`${styles.statValue} title_60`}>14%</div>
-                <div className={styles.statLabel}>Efficiency Recovery</div>
-                <div className={styles.statDesc}>Eliminated losses</div>
+                <div className={`${styles.statValue} title_60`}>40%+</div>
+                <div className={styles.statLabel}>Inventory Optimization</div>
+                <div className={styles.statDesc}>Reduced wastage and improved stock turnover</div>
               </div>
               <div className={styles.statCard}>
-                <div className={`${styles.statValue} title_60`}>0</div>
-                <div className={styles.statLabel}>Downtime Days</div>
-                <div className={styles.statDesc}>Zero disruption</div>
+                <div className={`${styles.statValue} title_60`}>100%</div>
+                <div className={styles.statLabel}>Batch Traceability</div>
+                <div className={styles.statDesc}> Complete visibility from production to shelf</div>
               </div>
             </div>
           </div>

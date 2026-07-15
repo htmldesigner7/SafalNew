@@ -8,19 +8,19 @@ export default function CaseStudyConclusion() {
         
         <div className={styles.content}>
           <p>
-            The true power of a modern ERP lies in predictive capability. We embed AI directly into the user interface, transforming passive dashboards into active strategic advisors. Whether it is anticipating supply chain bottlenecks in the plastic and rubber industry or forecasting financial trends in trading, the system moves from being a system of record to a system of intelligence.
+            The transformation at Kanhai Foods Ltd. demonstrates how intelligent ERP systems can redefine operational excellence in FMCG manufacturing and retail. By integrating production, distribution, and sales into a single ecosystem, Safal Infosoft enabled the organization to move from reactive operations to predictive, data-driven decision-making.
           </p>
           
           <p>
-            Egestas sed hac suspendisse proin scelerisque pharetra dui adipiscing. Cursus donec et congue enim. In vel et dui non interdum lectus bibendum laoreet. Posuere gravida risus lorem vitae diam lacus mattis. Id diam nulla sapien sapien phasellus ut. Vitae enim ipsum turpis at. Et pretium molestie eu id sed semper suspendisse molestie.
-          </p>
+              What was once a fragmented, multi-layered operation is now a synchronized, scalable engine built for growth, capable of adapting to demand shifts, minimizing wastage, and delivering consistent customer experiences across every outlet.          </p>
 
           <div className={styles.quoteBlock}>
             <p>
-              &quot;Safal Infosoft didn&apos;t just modernize our systems—they fundamentally transformed how we think about manufacturing data. The predictive insights have been game-changing.&quot;
+              "Safal Infosoft didn’t just streamline our operations—they gave us complete control over our business. Today, every decision is backed by real-time data, and every process is aligned for scale."
+
             </p>
             <p className={styles.quoteAuthor}>
-              — Chief Operations Officer, Global Metal Processing
+               — Operations Leadership, Kanhai Foods Ltd.
             </p>
           </div>
         </div>

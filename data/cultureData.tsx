@@ -324,37 +324,37 @@ export const measuredOperationalOutcomesData: CultureContent = {
 
 export const oursolution: CultureContent = {
   title: "Our Solution",
-  subtitle: "lorem",
+  subtitle: "Engineering a Unified Manufacturing-to-Retail Intelligence Layer",
   cards: [
     {
-      id: "accelerated-execution",
+      id: "production-planning",
       subtitle: "",
-      title: "Accelerated Execution",
-      description: "Faster workflows and decision cycles across operations",
+      title: "AI-Driven Demand & Production Planning",
+      description: "Dynamic demand forecasting aligned production schedules with real-time consumption patterns, reducing overproduction and stockouts.",
       imageSrc: "/images/AI-&-Emerging-Technology/Accelerated-Execution.webp",
       bgColor: "#FFDEBD"
     },
     {
-      id: "risk-optimization",
+      id: "Inventory-Control",
       subtitle: "",
-      title: "Risk Optimization",
-      description: "Reduced operational and decision-making risk",
+      title: "Centralized Multi-Outlet Inventory Control",
+      description: "A unified inventory system provided live visibility across all outlets, warehouses, and production units, ensuring optimized stock movement.",
       imageSrc: "/images/AI-&-Emerging-Technology/Risk-Optimization.webp",
       bgColor: "#F3EED4"
     },
     {
-      id: "efficiency-cost-optimization",
+      id: "Quality-Control",
       subtitle: "",
-      title: "Efficiency & Cost Optimization",
-      description: "Improved efficiency with optimized cost structures",
+      title: "Batch-Wise Traceability & Quality Control",
+      description: "End-to-end tracking from production batches to retail shelves improved compliance, quality monitoring, and expiry management.",
       imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#BEE4ED"
     },
     {
-      id: "value-impact",
+      id: "Route-Optimization",
       subtitle: "",
-      title: "Value Impact",
-      description: "Enhanced visibility across systems with measurable contribution to EBITDA",
+      title: "Integrated Distribution & Route Optimization",
+      description: "Automated replenishment planning and route optimization streamlined logistics, ensuring faster and more efficient outlet servicing.",
       imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#DBE9CB"
     }
