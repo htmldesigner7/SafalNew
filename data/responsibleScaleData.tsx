@@ -10,7 +10,7 @@ export const coExistScale = {
   title: "Let’s Architect the Future, Together",
   description:<>The most ambitious outcomes are never built in isolation. <br /><br />Whether you’re scaling into new markets, building next-generation platforms, or transforming legacy systems, Safal aligns its infrastructure, expertise, and global reach with your vision—turning strategic intent into measurable impact.
   </>,
-  imageSrc: "/images/Strategic-Partnerships/Strategic-Partnerships/Lets-Architect-the-FutureTogether.webp",
+  imageSrc: "/images/Sustainability/sustainbility-cta-.webp",
   imageAlt: "Co-exist ecosystem"
 };
 
