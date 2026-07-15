@@ -91,11 +91,11 @@ export default function BecomePartnerForm() {
                 <div className={styles.selectWrapper}>
                   <select defaultValue="" {...register("partnershipType")}>
                     <option value="" disabled>Select</option>
-                    <option value="strategic">Strategic Partner</option>
-                    <option value="technology">Technology Partner</option>
-                    <option value="channel">Channel Partner</option>
-                    <option value="referral">Referral Partner</option>
-                    <option value="other">Other</option>
+                    <option value="Channel Partner">Channel Partner</option>
+                    <option value="Implement Consultants">Implement Consultants </option>
+                    <option value="Functional Consultants">Functional Consultants</option>
+                    {/* <option value="referral">Referral Partner</option>
+                    <option value="other">Other</option> */}
                   </select>
                 </div>
                 {errors.partnershipType && <p className="validationError">{errors.partnershipType.message}</p>}

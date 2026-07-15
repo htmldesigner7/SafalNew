@@ -5,14 +5,14 @@ import styles from './EcosystemCTASection.module.css';
 
 const data = {
   title: "Across Digital and Enterprise Ecosystems",
-  subtitle: "Safal Infosoft Group invites two kinds of partners — those who invest in our growth, and those who grow alongside us. Both relationships are built on transparency, shared ambition, and long-term value creation.",
+  subtitle: "Safal partners with organizations across dynamic digital and enterprise ecosystems, from fast-scaling SaaS companies to digitally transforming enterprises. Every engagement is built on structured delivery, technical precision, and long-term value creation.",
   leftText: ["Ready to", "Scale?"],
   rightText: ["Start Team", "Deployment !"],
-  cardTitle: "Access the Right Talent, When You Need It",
-  cardDescription: "Partner with Safal for technology staffing solutions, including IT staff augmentation services, and specialized hiring for developers, designers, and QA professionals.",
+  cardTitle: "Scale Your Team Across Any Industry",
+  cardDescription: "Wherever your business operates, Safal helps you build the right technology team, fast. Connect with us to start deploying qualified talent aligned with your project and industry needs.",
   buttonText: "Book a Consultation",
   buttonLink: "/contact",
-  imageSrc: "/images/blogs/blogs.webp",
+  imageSrc: "/images/Technology-Staffing/Technology-Talent.webp",
   imageAlt: "Team working together"
 };
 

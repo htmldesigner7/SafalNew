@@ -50,7 +50,7 @@ export const industrialEnvironmentsData: SectorsContent = {
     { id: '01', title: 'Textile', image: '/images/Industrial-Automation-&-IoT/Textile.webp', description: '' },
     { id: '02', title: 'Pharmaceutical', image: '/images/Industrial-Automation-&-IoT/Pharmaceutical.webp', description: '' },
     { id: '03', title: 'Automobile', image: '/images/Industrial-Automation-&-IoT/Automobile.webp', description: '' },
-    { id: '04', title: 'Energy', image: '/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimization.webp', description: '' },
+    { id: '04', title: 'Energy', image: '/images/Industrial-Automation-&-IoT/Energy.webp', description: '' },
     { id: '05', title: 'Food & Dairy', image: '/images/Industrial-Automation-&-IoT/Food-&-Dairy.webp', description: '' },
     { id: '06', title: 'Oil & Gas', image: '/images/Industrial-Automation-&-IoT/Oil-&-Gas.webp', description: '' },
     { id: '07', title: 'Airports & Infrastructure', image: '/images/Industrial-Automation-&-IoT/Airports-&-Infrastructure.webp', description: '' },

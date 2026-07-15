@@ -59,7 +59,7 @@ export const joinTeamData: EngineeringContent = {
       subtitle: "",
       title: "Dynamic Equilibrium",
       description: "Elite performance requires balance. We champion flexible work structures and intentional downtime, ensuring sustained focus without burnout.",
-      imageSrc: "/images/life-at-safal/Life@safal/Dynamic-Equilibrium.webp"
+      imageSrc: "/images/life-at-safal/Dynamic-Equilibrium.webp"
     },
     {
       id: "psychological-safety",
@@ -67,7 +67,7 @@ export const joinTeamData: EngineeringContent = {
       subtitle: "",
       title: "Psychological Safety",
       description: "Innovation requires courage. We foster an environment where ideas are tested openly, and failure is treated as insight—not limitation.",
-      imageSrc: "/images/life-at-safal/Life@safal/Psychological-Safety.webp"
+      imageSrc: "/images/life-at-safal/Psychological-Safety.webp"
     },
     {
       id: "mastery-fund",
@@ -75,7 +75,7 @@ export const joinTeamData: EngineeringContent = {
       subtitle: "",
       title: "The Mastery Fund",
       description: "Growth is engineered. Every team member gets access to dedicated learning resources, certifications, and opportunities to master emerging technologies.",
-      imageSrc: "/images/life-at-safal/Life@safal/The-Mastery-Fund.webp"
+      imageSrc: "/images/life-at-safal/The-Mastery-Fund.webp"
     },
     {
       id: "global-mobility",
@@ -83,7 +83,7 @@ export const joinTeamData: EngineeringContent = {
       subtitle: "",
       title: "Global Mobility",
       description: "Your work travels. Collaborate across geographies, contribute to global projects, and explore opportunities across our international hubs.",
-      imageSrc: "/images/life-at-safal/Life@safal/Global-Mobility.webp"
+      imageSrc: "/images/life-at-safal/Global-Mobility.webp"
     }
   ]
 };

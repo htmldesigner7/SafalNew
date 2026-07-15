@@ -16,7 +16,7 @@ const industrialSystemsData = {
 export default function IndustrialSystemsSection() {
   const data = industrialSystemsData;
   return (
-    <section className={sysStyles.section}>
+    <section className="mt_80">
       <div className="container-1600">
         <div className={sysStyles.contentWrapper}>
           <div className={sysStyles.textContent}>

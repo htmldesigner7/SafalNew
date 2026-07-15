@@ -19,12 +19,13 @@ export default function CaseStudyHero() {
         </div>
 
         <h1 className={`title_60 ${styles.title}`}>
-          Transforming Legacy Manufacturing: A 300% Increase in Operational Velocity
+          Transforming Food Manufacturing & Retail: Scaling 100+ Outlets with Real-Time ERP Intelligence
         </h1>
 
         <p className={styles.description}>
-          In an era where global supply chains shift overnight, rigid infrastructure is a fatal liability. A leading international metal processing firm approached Safal Infosoft facing a critical threshold: their legacy monolithic systems were throttling their production capacity. Data was siloed across three continents, causing a 14% loss in operational efficiency and significant delays in raw material procurement.
+          In a high-velocity FMCG environment where shelf-life, demand fluctuations, and distribution precision define success, fragmented systems become a critical bottleneck. Kanhai Foods Ltd. (Kabhi B) faced increasing complexity across production, inventory, and retail operations spread across 100+ outlets.
         </p>
+        <p>With disconnected data flows and limited real-time visibility, operational inefficiencies began impacting stock availability, wastage control, and decision-making. Safal Infosoft implemented a fully integrated ERP and Distribution Management System, turning a complex retail-manufacturing network into a unified, data-driven ecosystem.</p>
 
         <div className={styles.heroImageWrapper}>
           <Image 

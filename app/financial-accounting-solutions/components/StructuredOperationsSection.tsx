@@ -218,7 +218,7 @@ export default function StructuredOperationsSection() {
         {/* CENTER CONTENT */}
         <div className={styles.content}>
           <Image
-            src="/images/outcome-logo.svg"
+            src="/images/favicon_new.png"
             alt="Safal Logo"
             width={56}
             height={56}

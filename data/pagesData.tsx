@@ -32,7 +32,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>Whether you require robust enterprise infrastructure, strategic innovation, or scalable business solutions, our global teams are built to deliver.</p>
         <p>Connect with Safal to begin.</p>
       </>,
-      imageSrc: "/images/MasterContact.png",
+      imageSrc: "/images/banner-images/contact.webp",
       imageAlt: "Contact Hero Email Graphic",
     }
   },
@@ -61,7 +61,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>Welcome to Safal Group Investor Relations.<br />We engineer long-term shareholder value through disciplined execution, strategic diversification, and deep-tech innovation across global enterprise markets.</p>
         <p>Our approach combines a strong balance sheet, precise capital allocation, and operational velocity, designed to deliver consistent, compounding growth.</p>
       </>,
-      imageSrc: "/images/Values-&-Culture/Values-&-Culture.webp",
+      imageSrc: "/images/Investor-Relations/Investor-Relations.webp",
       imageAlt: "Values & Culture",
     }
   },
@@ -151,7 +151,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Leadership at Safal Infosoft goes beyond managing the present—we design what comes next. Meet the minds driving our global vision across technology, strategy, and execution.",
-      imageSrc: "/images/leadership-team-bg.png",
+      imageSrc: "/images/LeaderShip-Team/Leadership-Team.webp",
       imageAlt: "Blogs Hero Image",
     }
   },
@@ -175,7 +175,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Structured startup product development services and consulting designed to transform ideas into scalable, production-ready digital products.",
-      imageSrc: "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp", // Replace with correct image from the design
+      imageSrc: "/images/Startup-Product-Development-&-Consulting/Startup-Product-Development-Consulting.webp", // Replace with correct image from the design
       imageAlt: "Startup Product Development Hero",
     }
   },
@@ -187,7 +187,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
-      imageSrc: "/images/banner-images/Open-Positions.webp",
+      imageSrc: "/images/Enterprise-Grade-Products-Built-for-Scale/Enterprise-Grade-Products-Built-for-Scale.webp",
       imageAlt: "Enterprise Products Hero",
     }
   },
@@ -212,7 +212,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Enterprise AI systems and machine learning services designed to automate processes, structure decision-making, and deliver measurable business outcomes.",
-      imageSrc: "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/banner.webp",
       imageAlt: "AI Emerging Technology Hero",
     }
   },

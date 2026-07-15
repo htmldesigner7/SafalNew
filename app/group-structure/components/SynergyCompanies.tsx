@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './SynergyCompanies.module.css';
+import { image } from 'framer-motion/client';
 
 export interface SynergyCompany {
   id: string;
@@ -14,10 +15,7 @@ export interface SynergyCompany {
 const synergyCompaniesData = {
   title: "Independent Focus. Infinite Synergy.",
   subtitle: <>
-  <p>Each vertical operates with clarity of purpose and operational independence.</p>
-  <p>Safal Infosoft engineers the technology.<br/>Ideaz Ventures drives innovation.<br/>Intelliworkz enables execution.</p>
-  <p>Individually, they deliver depth.<br/>Collectively, they deliver scale.</p>
-  <p>This interconnected structure allows us to solve holistically, move with speed, and build systems aligned for long-term growth.</p></>,
+  <p>Each vertical operates with clarity of purpose and operational independence. Safal Infosoft engineers the technology. Ideaz Ventures drives innovation. Intelliworkz enables execution. Individually, they deliver depth. Collectively, they deliver scale. This interconnected structure allows us to solve holistically, move with speed, and build systems aligned for long-term growth.</p></>,
   companies: [
     {
       id: "safal-infosoft-ltd",
@@ -27,7 +25,7 @@ const synergyCompaniesData = {
       <p>Safal Infosoft architects scalable digital infrastructure from enterprise platforms to low-code ecosystems, designed for performance, adaptability, and long-term evolution.</p>
       <p>Every system is engineered to deliver clarity, control, and sustained operational efficiency.</p>
       </>,
-      logoSrc: "/images/our-entities-Intelliworkz.png",
+      logoSrc: "/images/Group-Structure/Safal-Infosoft-Ltd..webp",
       logoAlt: "Safal Infosoft Logo"
     },
     {
@@ -38,7 +36,7 @@ const synergyCompaniesData = {
       <p>Ideaz Ventures transforms ideas into scalable, market-ready ventures. Operating at the intersection of strategy, design, and technology, it builds products that are structured for growth from day one.</p>
       <p>Innovation here is not conceptual, it is executable.</p>
       </>,
-      logoSrc: "/images/our-entities-Intelliworkz.png",
+      logoSrc: "/images/Group-Structure/Ideaz-Ventures.webp",
       logoAlt: "Ideaz Ventures Logo"
     },
     {
@@ -49,7 +47,7 @@ const synergyCompaniesData = {
       <p>Intelliworkz enables operational efficiency, talent scalability, and process optimization, bridging strategy with execution.</p>
       <p>It ensures that systems are not only built, but effectively deployed, managed, and scaled across environments.</p>
       </>,
-      logoSrc: "/images/our-entities-Intelliworkz.png",
+      logoSrc: "/images/Group-Structure/Intelliworkz-Infosoft-Technology-LLC.webp",
       logoAlt: "Intelliworkz Logo"
     },
     
@@ -65,7 +63,7 @@ export default function SynergyCompanies() {
           <p className={styles.subtitle}>{synergyCompaniesData.subtitle}</p>
           <div className="my_40 flex justify-center">
             <Image
-              src="/images/independent-header.png"
+              src="/images/Group-Structure/group-structuer.webp"
               alt="Global Network"
               width={1440}
               height={280}

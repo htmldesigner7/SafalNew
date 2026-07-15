@@ -20,7 +20,7 @@ const visionMissionData: VisionMissionItem[] = [
     paragraphs: [
       'To architect intelligent, scalable ecosystems that redefine how global enterprises operate, compete, and grow in a digital-first world.'
     ],
-    imageSrc: '/images/banner-images/our-story.webp' // Target/Arrow
+    imageSrc: '/images/Values-&-Culture/Our-Vision.webp' // Target/Arrow
   },
   {
     id: 'mission',
@@ -29,7 +29,7 @@ const visionMissionData: VisionMissionItem[] = [
     paragraphs: [
       'To build high-performance systems that combine technology, strategy, and design, delivering measurable business outcomes with precision and speed.'
     ],
-    imageSrc: '/images/AI-&-Emerging-Technology/Value-Impact.webp' // Hands holding globe
+    imageSrc: '/images/Values-&-Culture/Our-Mission.webp' // Hands holding globe
   },
   {
     id: 'impact',
@@ -38,7 +38,7 @@ const visionMissionData: VisionMissionItem[] = [
     paragraphs: [
       'We enable organizations to scale efficiently, reduce complexity, and unlock new growth opportunities through integrated, future-ready solutions.'
     ],
-    imageSrc: '/images/banner-images/our-story.webp' // Diamond
+    imageSrc: '/images/Values-&-Culture/Our-Imapcts.webp' // Diamond
   },
   {
     id: 'philosophy',
@@ -47,7 +47,7 @@ const visionMissionData: VisionMissionItem[] = [
     paragraphs: [
       'We believe sustainable success is engineered through alignment of people, systems, and purpose, creating long-term value across every layer of the enterprise.'
     ],
-    imageSrc: '/images/Our-Philosophy.webp' // Compass
+    imageSrc: '/images/Values-&-Culture/Our-Philosophy.webp' // Compass
   }
 ];
 

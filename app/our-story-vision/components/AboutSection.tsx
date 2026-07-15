@@ -20,10 +20,10 @@ export default function AboutSection() {
           </p>
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/ourstory.webp"
+              src="/images/our-story/ourstory-banner.webp"
               alt="Global Network"
-              width={1440}
-              height={280}
+              width={1200}
+              height={250}
             />
           </div>
         </div>

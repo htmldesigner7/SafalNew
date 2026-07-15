@@ -22,38 +22,38 @@ export const cultureData: CultureContent = {
       subtitle: "",
       title: "Relentless Velocity",
       description: "We operate with urgency and precision. Speed to execution, without compromise, defines our competitive edge.",
-      imageSrc: "/images/Corporate-Governance/Absolute-Integrity.webp",
-      bgColor: "#f5f0ce"
+      imageSrc: "/images/our-story/Relentless-Velocity.webp",
+      bgColor: "#F2ECCA"
     },
     {
       id: "integrity",
       subtitle: "",
       title: "Absolute Integrity",
       description: "We build systems designed to scale securely. Governance, transparency, and trust are foundational, not optional.",
-      imageSrc: "/images/Corporate-Governance/Design-Driven-Innovation..webp",
-      bgColor: "#cceaf4"
+      imageSrc: "/images/our-story/Absolute-Integrity.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "innovation",
       subtitle: "",
       title: "Design-Driven Innovation",
       description: "Technology must function seamlessly and feel intuitive. We balance engineering depth with thoughtful design.",
-      imageSrc: "/images/Corporate-Governance/Systemic-Ownership..webp",
-      bgColor: "#fbe0c9"
+      imageSrc: "/images/our-story/Design-Driven Innovation.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "ownership",
       subtitle: "",
       title: "Systemic Ownership",
       description: "We take end-to-end responsibility. From architecture to outcome, accountability is built into everything we deliver.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
-      bgColor: "#d8ead2"
+      imageSrc: "/images/our-story/Systemic-Ownership.webp",
+      bgColor: "#DBE9CB"
     }
   ]
 };
 
 export const investorCultureData: CultureContent = {
-  title: "The DNA of Our Culture.",
+  title: "The DNA of Our Culture",
   subtitle: "Elite systems require disciplined thinking. The behaviors we embed internally define the outcomes we deliver externally.",
   cards: [
     {
@@ -61,7 +61,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Calculated Urgency",
       description: "We do not wait for change—we engineer it. Speed, when executed with precision, becomes a decisive advantage.",
-      imageSrc: "/images/Values-&-Culture/Values&culture/Systemic-Accountability.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Calculated-Urgency.webp",
       bgColor: "#f5f0ce"
     },
     {
@@ -69,7 +69,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Systemic Accountability",
       description: "Ownership is absolute. If we build it, we are accountable for its performance, its impact, and its success.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Systemic-Accountability.webp",
       bgColor: "#cceaf4"
     },
     {
@@ -77,7 +77,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Aesthetic Intelligence",
       description: "Functionality is expected. Experience is engineered. We design systems that are both powerful and intuitive.",
-      imageSrc: "/images/Values-&-Culture/Values&culture/Trust-Ethics.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Aesthetic-Intelligence.webp",
       bgColor: "#fbe0c9"
     },
     {
@@ -85,7 +85,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Trust Ethics",
       description: "Integrity is foundational. Transparency, security, and ethical data practices guide every decision we make.",
-      imageSrc: "/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Trust-Ethics.webp",
       bgColor: "#d8ead2"
     }
   ]
@@ -100,32 +100,32 @@ export const TalentData: CultureContent = {
       subtitle: "",
       title: "Relentless Velocity",
       description: "You thrive in high-momentum environments, prioritizing execution and clarity over unnecessary complexity.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Relentless-Velocity.webp",
-      bgColor: "#f5f0ce"
+      imageSrc: "/images/life-at-safal/Relentless-Velocity.webp",
+      bgColor: "#F2ECCA"
     },
     {
       id: "integrity",
       subtitle: "",
       title: "Absolute Integrity",
       description: "You build with responsibility, ensuring transparency, security, and ethical decision-making in everything you create.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Absolute-Integrity.webp",
-      bgColor: "#cceaf4"
+      imageSrc: "/images/life-at-safal/Absolute-Integrity.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "innovation",
       subtitle: "",
       title: "Aesthetic Intelligence",
       description: "You understand that great technology is not just functionalit is intuitive, elegant, and human-centric.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp",
-      bgColor: "#fbe0c9"
+      imageSrc: "/images/life-at-safal/Aesthetic-Intelligence.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "ownership",
       subtitle: "",
       title: "Systemic Ownership",
       description: "You take end-to-end responsibility. From ideation to deployment, you own the outcome, not just the task.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
-      bgColor: "#d8ead2"
+      imageSrc: "/images/life-at-safal/Systemic-Ownership.webp",
+      bgColor: "#DBE9CB"
     }
   ]
 };
@@ -217,7 +217,7 @@ export const advisoryCapabilitiesData: CultureContent = {
       id: "business-advisory",
       title: "Business Advisory",
       description: "Advisory support for structuring operations and decision-making within defined business and financial frameworks.",
-      imageSrc: "/images/blogs/blogs.webp",
+      imageSrc: "/images/Business-&-Financial-Advisory/Business-Advisory.webp",
       bgColor: "#F3EED4",
       subtitle: ""
     },
@@ -225,7 +225,7 @@ export const advisoryCapabilitiesData: CultureContent = {
       id: "financial-modelling",
       title: "Financial Modelling",
       description: "Delivery of structured financial modelling services to support forecasting, planning, and investment evaluation.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Due-Diligence.webp",
+      imageSrc: "/images/Business-&-Financial-Advisory/Financial-Modelling.webp",
       bgColor: "#CBE6F5",
       subtitle: ""
     },
@@ -258,7 +258,7 @@ export const ValueCreationArchitecture: CultureContent = {
       id: "contract-hiring",
       title: "Contract Hiring",
       description: "On-demand talent through tech staffing solutions for short-term or project-based needs.",
-      imageSrc: "/images/blogs/blogs.webp",
+      imageSrc: "/images/Technology-Staffing/Contract-Hiring.webp",
       bgColor: "#FDE0C5",
       subtitle: ""
     },
@@ -307,7 +307,7 @@ export const measuredOperationalOutcomesData: CultureContent = {
       subtitle: "",
       title: "Efficiency & Cost Optimization",
       description: "Improved efficiency with optimized cost structures",
-      imageSrc: "/images/AI-&-Emerging-Technology/Enterprise-AI.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/Efficiency-&-Cost-Optimization.webp",
       bgColor: "#BEE4ED"
     },
     {
@@ -315,7 +315,7 @@ export const measuredOperationalOutcomesData: CultureContent = {
       subtitle: "",
       title: "Enterprise Visibility & Value Impact",
       description: "Enhanced visibility across systems with measurable contribution to EBITDA",
-      imageSrc: "/images/banner-images/our-story.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#DBE9CB"
     }
   ]
@@ -324,37 +324,37 @@ export const measuredOperationalOutcomesData: CultureContent = {
 
 export const oursolution: CultureContent = {
   title: "Our Solution",
-  subtitle: "lorem",
+  subtitle: "Engineering a Unified Manufacturing-to-Retail Intelligence Layer",
   cards: [
     {
-      id: "accelerated-execution",
+      id: "production-planning",
       subtitle: "",
-      title: "Accelerated Execution",
-      description: "Faster workflows and decision cycles across operations",
+      title: "AI-Driven Demand & Production Planning",
+      description: "Dynamic demand forecasting aligned production schedules with real-time consumption patterns, reducing overproduction and stockouts.",
       imageSrc: "/images/AI-&-Emerging-Technology/Accelerated-Execution.webp",
       bgColor: "#FFDEBD"
     },
     {
-      id: "risk-optimization",
+      id: "Inventory-Control",
       subtitle: "",
-      title: "Risk Optimization",
-      description: "Reduced operational and decision-making risk",
+      title: "Centralized Multi-Outlet Inventory Control",
+      description: "A unified inventory system provided live visibility across all outlets, warehouses, and production units, ensuring optimized stock movement.",
       imageSrc: "/images/AI-&-Emerging-Technology/Risk-Optimization.webp",
       bgColor: "#F3EED4"
     },
     {
-      id: "efficiency-cost-optimization",
+      id: "Quality-Control",
       subtitle: "",
-      title: "Efficiency & Cost Optimization",
-      description: "Improved efficiency with optimized cost structures",
+      title: "Batch-Wise Traceability & Quality Control",
+      description: "End-to-end tracking from production batches to retail shelves improved compliance, quality monitoring, and expiry management.",
       imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#BEE4ED"
     },
     {
-      id: "value-impact",
+      id: "Route-Optimization",
       subtitle: "",
-      title: "Value Impact",
-      description: "Enhanced visibility across systems with measurable contribution to EBITDA",
+      title: "Integrated Distribution & Route Optimization",
+      description: "Automated replenishment planning and route optimization streamlined logistics, ensuring faster and more efficient outlet servicing.",
       imageSrc: "/images/AI-&-Emerging-Technology/Value-Impact.webp",
       bgColor: "#DBE9CB"
     }
@@ -409,16 +409,16 @@ export const FlexibleServiceStructures: CultureContent = {
       subtitle: "",
       title: "Dedicated Accounting Teams",
       description: "Aligned teams delivering end-to-end accounting outsourcing services.",
-      imageSrc: "/images/financial-accounting-solutions/Process-Based-Engagement.webp",
-      bgColor: "#F5F0CE"
+      imageSrc: "/images/financial-accounting-solutions/Dedicated-Accounting-Teams.webp",
+      bgColor: "#FFDEBD"
     },
     {
       id: "structure-2",
       subtitle: "",
       title: "Process-Based Engagement",
       description: "Defined execution of specific accounting functions within structured workflows.",
-      imageSrc: "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
-      bgColor: "#CCEAF4"
+      imageSrc: "/images/financial-accounting-solutions/Process-Based-Engagement.webp",
+      bgColor: "#BEE4ED"
     },
     {
       id: "structure-3",
@@ -426,7 +426,7 @@ export const FlexibleServiceStructures: CultureContent = {
       title: "Full Outsourcing Model",
       description: "Complete management of accounting operations through scalable service models.",
       imageSrc: "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
-      bgColor: "#FBE0C9"
+      bgColor: "#DBE9CB"
     },
    
   ]

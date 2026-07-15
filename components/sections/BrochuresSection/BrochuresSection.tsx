@@ -100,6 +100,29 @@ export default function BrochuresSection() {
             </div>
 
             <div className={styles.accordionSection}>
+              <button className={styles.accordionHeader} onClick={() => setTypeOpen(!typeOpen)}>
+                Content Type
+                <svg className={`${styles.accordionIcon} ${typeOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
+                  <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </button>
+              {typeOpen && (
+                <div className={styles.filterList}>
+                  {contentTypes.map((t) => (
+                    <div 
+                      key={t.id} 
+                      className={`${styles.filterItem} ${activeType === t.id ? styles.active : ''}`}
+                      onClick={() => setActiveType(t.id)}
+                    >
+                      <span>{t.label}</span>
+                      <span>{t.count}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className={styles.accordionSection}>
               <button className={styles.accordionHeader} onClick={() => setTopicOpen(!topicOpen)}>
                 Topic
                 <svg className={`${styles.accordionIcon} ${topicOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
@@ -122,28 +145,7 @@ export default function BrochuresSection() {
               )}
             </div>
 
-            <div className={styles.accordionSection}>
-              <button className={styles.accordionHeader} onClick={() => setTypeOpen(!typeOpen)}>
-                Content Type
-                <svg className={`${styles.accordionIcon} ${typeOpen ? styles.open : ''}`} viewBox="0 0 12 8" fill="none">
-                  <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </button>
-              {typeOpen && (
-                <div className={styles.filterList}>
-                  {contentTypes.map((t) => (
-                    <div 
-                      key={t.id} 
-                      className={`${styles.filterItem} ${activeType === t.id ? styles.active : ''}`}
-                      onClick={() => setActiveType(t.id)}
-                    >
-                      <span>{t.label}</span>
-                      <span>{t.count}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+            
           </aside>
 
           {/* Mobile Filter Toggle */}
