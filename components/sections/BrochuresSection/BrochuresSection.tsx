@@ -205,7 +205,7 @@ export default function BrochuresSection() {
                   <p className={styles.pdfInfo}>
                     PDF | {featuredBrochure.pdfPages} Pages | {featuredBrochure.pdfSize}
                   </p>
-                  <a href="#" className="btn-outline btn-outline-red">
+                  <a href="/brochures" className="btn-outline btn-outline-red">
                     <DownloadIcon />
                     Download Brochure
                   </a>
@@ -240,7 +240,7 @@ export default function BrochuresSection() {
                       PDF | {brochure.pdfPages} Pages | {brochure.pdfSize}
                     </p>
                     <div>
-                      <a href="#" className={styles.downloadBtnTextOnly}>
+                      <a href="/brochures" className={styles.downloadBtnTextOnly}>
                         <DownloadIcon />
                         Download Brochure
                       </a>

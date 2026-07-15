@@ -98,7 +98,7 @@ export default function FiresideChatForm() {
               </div>
 
               <div className={styles.privacyText}>
-                Please read our <a href="#" className={styles.privacyLink}>Privacy Notice</a>
+                Please read our <a href="/privacy-policy" className={styles.privacyLink}>Privacy Notice</a>
               </div>
 
               <div className={styles.checkboxRow}>

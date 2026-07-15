@@ -39,24 +39,28 @@ export default function SectorsSection({ data = defaultSectorsData }: SectorsSec
                   </div>
                   <div className={styles.activeImageWrapper}>
                     {/* Placeholder for actual image */}
-                    <Image
-                      src={sector.image}
-                      alt={sector.title}
-                      fill
-                      className={styles.activeImage}
-                    />
+                    {sector.image && (
+                      <Image
+                        src={sector.image}
+                        alt={sector.title}
+                        fill
+                        className={styles.activeImage}
+                      />
+                    )}
                   </div>
                   <p>{sector.description}</p>
                 </div>
 
                 {/* Inactive Content */}
                 <div className={`${styles.inactiveContent} ${!isActive ? styles.show : styles.hide}`}>
-                  <Image
-                    src={sector.image}
-                    alt={sector.title}
-                    fill
-                    className={styles.inactiveBgImage}
-                  />
+                  {sector.image && (
+                    <Image
+                      src={sector.image}
+                      alt={sector.title}
+                      fill
+                      className={styles.inactiveBgImage}
+                    />
+                  )}
                   <div className={styles.overlay}></div>
                   <div className={styles.inactiveTextWrapper}>
                     <span className={styles.inactiveNumber}>{sector.id}.</span>

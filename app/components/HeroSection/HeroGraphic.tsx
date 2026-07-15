@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import styles from './HeroGraphic.module.css';
 
 export default function HeroGraphic() {
@@ -45,12 +46,18 @@ export default function HeroGraphic() {
             onMouseLeave={() => setFocused(null)}
           >
             <rect x="30" y="115" width="190" height="145" fill="transparent" pointerEvents="all" />
-            <text x="36" y="132">Enterprise Platforms &amp;</text>
-            <text x="36" y="152">Products</text>
+            <Link href="/enterprise-products">
+              <text x="36" y="132" style={{cursor: 'pointer'}}>Enterprise Platforms &amp;</text>
+              <text x="36" y="152" style={{cursor: 'pointer'}}>Products</text>
+            </Link>
             <line x1="36" y1="168" x2="202" y2="168" />
-            <text x="36" y="196">Brand, Digital &amp; Creative</text>
+            <Link href="/brand-digital-creative-services">
+              <text x="36" y="196" style={{cursor: 'pointer'}}>Brand, Digital &amp; Creative</text>
+            </Link>
             <line x1="36" y1="212" x2="202" y2="212" />
-            <text x="36" y="240">Startup Consulting</text>
+            <Link href="/startup-product-development">
+              <text x="36" y="240" style={{cursor: 'pointer'}}>Startup Consulting</text>
+            </Link>
           </g>
 
           {/* Text Group Green */}
@@ -60,10 +67,14 @@ export default function HeroGraphic() {
             onMouseLeave={() => setFocused(null)}
           >
             <rect x="515" y="140" width="180" height="100" fill="transparent" pointerEvents="all" />
-            <text x="525" y="157">Business &amp; Financial</text>
-            <text x="525" y="177">Advisory</text>
+            <Link href="/business-financial-advisory">
+              <text x="525" y="157" style={{cursor: 'pointer'}}>Business &amp; Financial</text>
+              <text x="525" y="177" style={{cursor: 'pointer'}}>Advisory</text>
+            </Link>
             <line x1="525" y1="193" x2="675" y2="193" />
-            <text x="525" y="221">Financial Accounting</text>
+            <Link href="/financial-accounting-solutions">
+              <text x="525" y="221" style={{cursor: 'pointer'}}>Financial Accounting</text>
+            </Link>
           </g>
 
           {/* Text Group Blue */}
@@ -74,11 +85,17 @@ export default function HeroGraphic() {
             onMouseLeave={() => setFocused(null)}
           >
             <rect x="250" y="545" width="192" height="130" fill="transparent" pointerEvents="all" />
-            <text x="346" y="567">Automation &amp; IoT</text>
+            <Link href="/industrial-automation">
+              <text x="346" y="567" style={{cursor: 'pointer'}}>Automation &amp; IoT</text>
+            </Link>
             <line x1="296" y1="583" x2="396" y2="583" />
-            <text x="346" y="611">AI &amp; Emerging Technology</text>
+            <Link href="/ai-emerging-technology">
+              <text x="346" y="611" style={{cursor: 'pointer'}}>AI &amp; Emerging Technology</text>
+            </Link>
             <line x1="271" y1="627" x2="421" y2="627" />
-            <text x="346" y="655">Technology Staffing</text>
+            <Link href="/technology-staffing">
+              <text x="346" y="655" style={{cursor: 'pointer'}}>Technology Staffing</text>
+            </Link>
           </g>
 
           <defs>

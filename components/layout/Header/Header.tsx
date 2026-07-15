@@ -53,7 +53,7 @@ export default function Header() {
       hasDropdown: true,
       dropdownItems: [
         { title: 'Our Story & Vision', href: '/our-story-vision' },
-        { title: 'Our Entities', href: '/our-entities' },
+        { title: 'Our Entities', href: '/group-structure' },
         { title: 'Life at Safal', href: '/life-at-safal' },
         { title: 'Leadership Team', href: '/LeaderShip-Team' },
         { title: 'Sustainability', href: '/sustainability' }
@@ -74,14 +74,14 @@ export default function Header() {
         { title: 'Industrial Automation & IoT', href: '/industrial-automation' }
       ]
     },
-    { title: 'Industries We Serve', href: '#', hasDropdown: false },
+    { title: 'Industries We Serve', href: '/industries-we-serve', hasDropdown: false },
     {
       title: 'Partnerships',
       href: '#',
       hasDropdown: true,
       dropdownItems: [
         { title: 'Become a Partner', href: '/become-a-partner' },
-        { title: 'Strategic Partnerships', href: '/Strategic Partnerships' }
+        { title: 'Strategic Partnerships', href: '/strategic-partnerships' }
       ]
     },
     {
