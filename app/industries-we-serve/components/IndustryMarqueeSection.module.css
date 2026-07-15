@@ -1,0 +1,98 @@
+.marqueeSection {
+  padding: 30px 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #F4F0E3;
+}
+
+.layoutWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.fixedTitleContainer {
+  flex-shrink: 0;
+  z-index: 10;
+  position: relative;
+}
+
+.marqueeContainer {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.marqueeContent {
+  display: flex;
+  gap: 110px;
+  animation: scrollMarquee 40s linear infinite;
+}
+
+.marqueeContent:hover {
+  animation-play-state: paused;
+}
+
+.marqueeGroup {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.mainTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1A1A;
+  font-family: 'Inter', sans-serif; /* Or appropriate font */
+}
+
+.industryItem {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #E74C3C; /* Safal red/orange */
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.industryText {
+  font-size: 20px;
+  color: #666666;
+  font-weight: 400;
+}
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+@media (max-width: 1025px) {
+  .marqueeSection { padding: 25px 0; }
+  .fixedTitleContainer { margin-right: 30px; }
+  .mainTitle { font-size: 20px; }
+  .marqueeContent, .marqueeGroup { gap: 60px; }
+  .industryText { font-size: 18px; }
+}
+
+@media (max-width: 769px) {
+  .marqueeSection { padding: 20px 0; }
+  .fixedTitleContainer { margin-right: 25px; }
+  .mainTitle { font-size: 18px; }
+  .marqueeContent, .marqueeGroup { gap: 40px; }
+  .industryText { font-size: 16px; }
+  .dot { width: 6px; height: 6px; margin-right: 10px; }
+}

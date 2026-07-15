@@ -10,8 +10,10 @@ const products = [
     name: 'DataNote',
     image: '/images/Homepage/Datanote.webp',
     logoimage: '/images/datanote-logo.png',
-    description: 'DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.',
-    description2: 'Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.',
+    description: <>
+    <p>DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.</p>
+    <p>Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.</p>
+    </>,
     link: '#product'
   },
   {
@@ -19,8 +21,10 @@ const products = [
     name: 'Formezy',
     image: '/images/Homepage/Formezy.webp',
     logoimage: '/images/datanote-logo.png',
-    description: 'Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.',
-    description2: 'Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.',
+    description: <>
+    <p>Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.</p>
+    <p>Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.</p>
+    </>,
     link: '#product'
   },
   {
@@ -28,8 +32,10 @@ const products = [
     name: 'Docezy',
     image: '/images/Homepage/Docezy.webp',
     logoimage: '/images/datanote-logo.png',
-    description: 'Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.',
-    description2: 'The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.',
+    description: <>
+    <p>Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.</p>
+    <p>The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.</p>
+    </>,
     link: '#product'
   },
   {
@@ -37,35 +43,23 @@ const products = [
     name: 'Tasknote',
     image: '/images/Homepage/Tasknote.webp',
     logoimage: '/images/datanote-logo.png',
-    description: 'Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.',
-    description2: 'With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.',
+    description: <>
+    <p>Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.</p>
+    <p>With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.</p>
+    </>,
     link: '#product'
   },
   {
     id: 'ProPulse',
     name: 'ProPulse',
-    image: '/images/digital-product.png',
+    image: '',
     logoimage: '/images/datanote-logo.png',
-    description: 'ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.',
-    description2: 'The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.',
+    description: <>
+    <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
+    <p>The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.</p>
+    </>,
     link: '#product'
   },
-  // {
-  //   id: 'erp',
-  //   name: 'ERP',
-  //   image: '/images/digital-product.png',
-  //   logoimage: '/images/datanote-logo.png',
-  //   description: 'Unify your core business processes with our comprehensive Enterprise Resource Planning suite. Manage finance, HR, supply chain, and manufacturing from a single platform.',
-  //   link: '#product'
-  // },
-  // {
-  //   id: 'tasknote',
-  //   name: 'Tasknote',
-  //   image: '/images/digital-product.png',
-  //   logoimage: '/images/datanote-logo.png',
-  //   description: 'Keep your teams aligned and projects on track. Tasknote provides intuitive task management, time tracking, and progress visualization for modern agile teams.',
-  //   link: '#product'
-  // }
 ];
 
 export default function EcosystemSection() {

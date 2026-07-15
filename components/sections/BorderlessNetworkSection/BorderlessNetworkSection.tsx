@@ -8,12 +8,13 @@ export default function BorderlessNetworkSection() {
         <div className={styles.content}>
           <h2 className={"title_60 mb-40"}>A Borderless Innovation Network</h2>
           <p className={styles.description}>
-            Strategic scale requires global reach. Our partnership ecosystem spans across North America, the Middle East, and Asia. By aligning our deep-tech infrastructure with your domain expertise, we create a synchronized, borderless network capable of deploying enterprise-grade solutions anywhere in the world.
+            Strategic scale requires global reach and integrated capability. Our partnership ecosystem spans North America, the Middle East, and Asia, bringing together deep technology infrastructure with domain expertise.
           </p>
+          <p>Together, we build a synchronized network capable of delivering enterprise-grade solutions, anywhere in the world.</p>
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/images/global-presence.png"
+            src="/images/Become-a-Partner/banner-image.webp"
             alt="Global Network Map"
             width={1200}
             height={600}

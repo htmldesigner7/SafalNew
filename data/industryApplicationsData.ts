@@ -7,37 +7,37 @@ export const industryApplicationsData: SectorsContent = {
     {
       id: '01',
       title: 'Manufacturing',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Manufacturing.webp',
       description: ''
     },
     {
       id: '02',
       title: 'Logistics & Supply Chain',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Logistics-&-Supply-Chain.webp',
       description: ''
     },
     {
       id: '03',
       title: 'Retail & Distribution',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Retail-&-Distribution.webp',
       description: ''
     },
     {
       id: '04',
       title: 'Healthcare',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Healthcare.webp',
       description: ''
     },
     {
       id: '05',
       title: 'Financial Services',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Financial-Services.webp',
       description: ''
     },
     {
       id: '06',
       title: 'Real Estate & Property Management',
-      image: '/images/container-port.png',
+      image: '/images/Enterprise-Grade-Products-Built-for-Scale/Real-Estate-&-Property-Management.webp',  
       description: ''
     }
   ]
@@ -47,12 +47,12 @@ export const industrialEnvironmentsData: SectorsContent = {
   title: 'Across Industrial Environments',
   subtitle: 'As an IoT solutions provider, Safal supports industries where system reliability, operational efficiency, and real-time control are critical.',
   cards: [
-    { id: '01', title: 'Textile', image: '/images/manufacturing.jpg', description: '' },
-    { id: '02', title: 'Pharmaceutical', image: '/images/container-port.png', description: '' },
-    { id: '03', title: 'Automobile', image: '/images/industries-section.jpg', description: '' },
-    { id: '04', title: 'Energy', image: '/images/healthcare.jpg', description: '' },
-    { id: '05', title: 'Food & Dairy', image: '/images/services-image.jpg', description: '' },
-    { id: '06', title: 'Oil & Gas', image: '/images/hero-section.jpg', description: '' },
-    { id: '07', title: 'Airports & Infrastructure', image: '/images/hero-section.jpg', description: '' },
+    { id: '01', title: 'Textile', image: '/images/Industrial-Automation-&-IoT/Textile.webp', description: '' },
+    { id: '02', title: 'Pharmaceutical', image: '/images/Industrial-Automation-&-IoT/Pharmaceutical.webp', description: '' },
+    { id: '03', title: 'Automobile', image: '/images/Industrial-Automation-&-IoT/Automobile.webp', description: '' },
+    { id: '04', title: 'Energy', image: '/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimization.webp', description: '' },
+    { id: '05', title: 'Food & Dairy', image: '/images/Industrial-Automation-&-IoT/Food-&-Dairy.webp', description: '' },
+    { id: '06', title: 'Oil & Gas', image: '/images/Industrial-Automation-&-IoT/Oil-&-Gas.webp', description: '' },
+    { id: '07', title: 'Airports & Infrastructure', image: '/images/Industrial-Automation-&-IoT/Airports-&-Infrastructure.webp', description: '' },
   ]
 };

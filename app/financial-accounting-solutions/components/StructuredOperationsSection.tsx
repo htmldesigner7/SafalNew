@@ -229,7 +229,7 @@ export default function StructuredOperationsSection() {
             Delivered with Control
           </h2>
           <p className={styles.description}>
-            Engage with Safal for outsourced accounting services, including bookkeeping services, tax preparation services, and CPA support services.  Evaluate accounting operations through structured execution, compliance alignment, and scalable financial systems.
+            Engage with Safal for <b>outsourced accounting services,</b> including <b>bookkeeping services, tax preparation services,</b> and <b>CPA support services.</b><br /> Evaluate accounting operations through structured execution, compliance alignment, and scalable financial systems.
           </p>
           <Link href="/contact" className={"btn-primary btn-primary-white"}>
             Book a Consultation

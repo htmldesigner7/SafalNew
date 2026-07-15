@@ -18,42 +18,34 @@ const visionMissionData: VisionMissionItem[] = [
     tabTitle: 'Our Vision',
     title: 'Our Vision',
     paragraphs: [
-      'Lorem ipsum dolor sit amet consectetur. Blandit enim tortor donec sit in ut vitae lectus. Amet egestas neque lobortis varius. Tincidunt non vulputate nam in aliquam at mi. Arcu amet neque a ut congue rhoncus massa tortor iaculis. Elementum vitae mauris eget dictumst id tempus feugiat adipiscing. Erat non et aliquam tortor. Pharetra pharetra sit mattis senectus ultrices. Lacus neque in amet aliquam sed habitasse. Nunc commodo consequat eget.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis. Tortor euismod sit consequat magna mauris dolor ut fusce mauris pellentesque. Hendrerit feugiat magna faucibus malesuada. Dapibus netus non lobortis euismod.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis. Tortor euismod sit orci cursus nullam scelerisque venenatis mollis aliquet. Nibh neque volutpat libero at turpis in neque etiam. Tellus.'
+      'To architect intelligent, scalable ecosystems that redefine how global enterprises operate, compete, and grow in a digital-first world.'
     ],
-    imageSrc: '/images/Our-Imapcts.webp' // Target/Arrow
+    imageSrc: '/images/banner-images/our-story.webp' // Target/Arrow
   },
   {
-    id: 'impacts',
-    tabTitle: 'Our Imapcts',
-    title: 'Our Impacts',
-    paragraphs: [
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
-    ],
-    imageSrc: '/images/Our-Vision.webp' // Hands holding globe
-  },
-  {
-    id: 'mission1',
+    id: 'mission',
     tabTitle: 'Our Mission',
     title: 'Our Mission',
     paragraphs: [
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
+      'To build high-performance systems that combine technology, strategy, and design, delivering measurable business outcomes with precision and speed.'
     ],
-    imageSrc: '/images/Our-Mission.webp' // Diamond
+    imageSrc: '/images/AI-&-Emerging-Technology/Value-Impact.webp' // Hands holding globe
   },
   {
-    id: 'mission2',
-    tabTitle: 'Our Mission',
-    title: 'Our Mission',
+    id: 'impact',
+    tabTitle: 'Our Impact',
+    title: 'Our Impact',
     paragraphs: [
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.',
-      'Lorem ipsum dolor sit amet consectetur. Varius elit elit faucibus duis tellus dolor semper facilisis.'
+      'We enable organizations to scale efficiently, reduce complexity, and unlock new growth opportunities through integrated, future-ready solutions.'
+    ],
+    imageSrc: '/images/banner-images/our-story.webp' // Diamond
+  },
+  {
+    id: 'philosophy',
+    tabTitle: 'Our Philosophy',
+    title: 'Our Philosophy',
+    paragraphs: [
+      'We believe sustainable success is engineered through alignment of people, systems, and purpose, creating long-term value across every layer of the enterprise.'
     ],
     imageSrc: '/images/Our-Philosophy.webp' // Compass
   }

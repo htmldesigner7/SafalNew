@@ -1,0 +1,1414 @@
+{
+  "resolvedTypos": [
+    {
+      "original": "/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp",
+      "fixed": "/images/Investor-Relations/Investor/Transparent-Governance.webp",
+      "file": "app/ai-emerging-technology/components/AiLedTransformation.tsx",
+      "line": 21
+    },
+    {
+      "original": "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp",
+      "fixed": "/images/Enterprise-Grade-Products-Built-for-Scale/inventory.webp",
+      "file": "app/ai-emerging-technology/components/ProprietaryPlatform.tsx",
+      "line": 21
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp",
+      "file": "app/blogs/data/mockPosts.ts",
+      "line": 66
+    },
+    {
+      "original": "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng",
+      "fixed": "/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.png",
+      "file": "app/blogs/data/mockPosts.ts",
+      "line": 74
+    },
+    {
+      "original": "/images/public/images/our-story/Our-Story/Decentralized-Securitypng",
+      "fixed": "/images/our-story/Our-Story/Decentralized-Security.png",
+      "file": "app/blogs/data/mockPosts.ts",
+      "line": 82
+    },
+    {
+      "original": "/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng",
+      "fixed": "/images/banner-images/Brand,-Digital-&-Creative-Services.png",
+      "file": "app/blogs/data/mockPosts.ts",
+      "line": 90
+    },
+    {
+      "original": "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png",
+      "fixed": "/images/Corporate-Governance/Design-Driven-Innovation..png",
+      "file": "app/blogs/data/mockPosts.ts",
+      "line": 98
+    },
+    {
+      "original": "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp",
+      "fixed": "/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountability.webp",
+      "file": "app/brand-digital-creative-services/components/BuildScaleSection.tsx",
+      "line": 28
+    },
+    {
+      "original": "/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng",
+      "fixed": "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.png",
+      "file": "app/case-studies/components/CaseStudyHero.tsx",
+      "line": 31
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp",
+      "fixed": "/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp",
+      "file": "app/case-studies/components/CaseStudyImpact.tsx",
+      "line": 11
+    },
+    {
+      "original": "/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp",
+      "fixed": "/images/life-at-safal/Life@Safal/Absolute-Integrity.webp",
+      "file": "app/components/CTASection/CTASection.tsx",
+      "line": 30
+    },
+    {
+      "original": "/images/public/images/Homepage/Enterprise-Products-Platformsjpg",
+      "fixed": "/images/Homepage/Enterprise-Products-Platforms.jpg",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 44
+    },
+    {
+      "original": "/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng",
+      "fixed": "/images/banner-images/Startup-Product-Development-&-Consulting.png",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 60
+    },
+    {
+      "original": "/images/public/images/banner-images/Industrial-Automation-&-IoTpng",
+      "fixed": "/images/banner-images/Industrial-Automation-&-IoT.png",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 68
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng",
+      "fixed": "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.png",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 76
+    },
+    {
+      "original": "/images/public/images/banner-images/Business-&-Financial-Advisorypng",
+      "fixed": "/images/banner-images/Business-&-Financial-Advisory.png",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 84
+    },
+    {
+      "original": "/images/public/images/Homepage/Financial-Accountingjpg",
+      "fixed": "/images/Homepage/Financial-Accounting.jpg",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 92
+    },
+    {
+      "original": "/images/public/images/banner-images/Technology-Staffingpng",
+      "fixed": "/images/banner-images/Technology-Staffing.png",
+      "file": "app/components/SolutionsSection/SolutionsSection.tsx",
+      "line": 100
+    },
+    {
+      "original": "/images/public/images/INDUSTRIES/INDUSTIRESpng",
+      "fixed": "/images/INDUSTRIES/INDUSTIRES.png",
+      "file": "app/industrial-automation/page.tsx",
+      "line": 48
+    },
+    {
+      "original": "/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp",
+      "fixed": "/images/Group-Structure/Safal-Infosoft-Inc..webp",
+      "file": "app/news-and-announcements/components/NewsGrid.tsx",
+      "line": 12
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Fierce-Curiosity.png",
+      "file": "app/sustainability/components/EverylineSection.tsx",
+      "line": 26
+    },
+    {
+      "original": "/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp",
+      "fixed": "/images/Technology-Staffing/Product-led-ventures-(2).webp",
+      "file": "app/sustainability/components/LeafClockSection.tsx",
+      "line": 29
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementation.png",
+      "file": "app/technology-staffing/components/TechnologyTalent.tsx",
+      "line": 13
+    },
+    {
+      "original": "/images/public/images/banner-images/our-storypng",
+      "fixed": "/images/banner-images/our-story.png",
+      "file": "app/values-culture/components/VisionMissionSection.tsx",
+      "line": 23
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng",
+      "fixed": "/images/AI-&-Emerging-Technology/Value-Impact.png",
+      "file": "app/values-culture/components/VisionMissionSection.tsx",
+      "line": 32
+    },
+    {
+      "original": "/images/public/images/Homepage/Manufacturing-1jpg",
+      "fixed": "/images/Homepage/Manufacturing-1.jpg",
+      "file": "components/sections/AdvancedAdvisory/AdvancedAdvisory.tsx",
+      "line": 43
+    },
+    {
+      "original": "/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png",
+      "fixed": "/images/Technology-Staffing/Digitally-Transforming-Enterprises-.png",
+      "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
+      "line": 22
+    },
+    {
+      "original": "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg",
+      "fixed": "/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-System.jpg",
+      "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
+      "line": 33
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp",
+      "fixed": "/images/Business-&-Financial-Advisory/Business-Advisory.webp",
+      "file": "data/advisoryEcosystemsData.tsx",
+      "line": 10
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Startupspng",
+      "fixed": "/images/Business-&-Financial-Advisory/Startups.png",
+      "file": "data/advisoryEcosystemsData.tsx",
+      "line": 17
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Investorspng",
+      "fixed": "/images/Business-&-Financial-Advisory/Investors.png",
+      "file": "data/advisoryEcosystemsData.tsx",
+      "line": 24
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Process-Automationpng",
+      "fixed": "/images/AI-&-Emerging-Technology/Process-Automation.png",
+      "file": "data/appliedAiData.ts",
+      "line": 11
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng",
+      "fixed": "/images/AI-&-Emerging-Technology/Data-Intelligence.png",
+      "file": "data/appliedAiData.ts",
+      "line": 18
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png",
+      "fixed": "/images/financial-accounting-solutions/Procure-to-Pay-(P2P).png",
+      "file": "data/appliedAiData.ts",
+      "line": 39
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png",
+      "fixed": "/images/financial-accounting-solutions/Record-to-Report-(R2R).png",
+      "file": "data/appliedAiData.ts",
+      "line": 46
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Accuracypng",
+      "fixed": "/images/financial-accounting-solutions/Accuracy.png",
+      "file": "data/appliedAiData.ts",
+      "line": 67
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Compliancepng",
+      "fixed": "/images/financial-accounting-solutions/Compliance.png",
+      "file": "data/appliedAiData.ts",
+      "line": 74
+    },
+    {
+      "original": "/images/public/images/Corporate-Governance/Absolute-Integritypng",
+      "fixed": "/images/Corporate-Governance/Absolute-Integrity.png",
+      "file": "data/cultureData.tsx",
+      "line": 25
+    },
+    {
+      "original": "/images/public/images/Corporate-Governance/Systemic-Ownership.png",
+      "fixed": "/images/Corporate-Governance/Systemic-Ownership..png",
+      "file": "data/cultureData.tsx",
+      "line": 41
+    },
+    {
+      "original": "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng",
+      "fixed": "/images/Values-&-Culture/Values&culture/Systemic-Accountability.png",
+      "file": "data/cultureData.tsx",
+      "line": 64
+    },
+    {
+      "original": "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng",
+      "fixed": "/images/Values-&-Culture/Values&culture/Trust-Ethics.png",
+      "file": "data/cultureData.tsx",
+      "line": 80
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/The-Fast-Track.png",
+      "file": "data/cultureData.tsx",
+      "line": 88
+    },
+    {
+      "original": "/images/public/images/banner-images/Become-a-Partnerpng",
+      "fixed": "/images/banner-images/Become-a-Partner.png",
+      "file": "data/cultureData.tsx",
+      "line": 127
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Radical-Accountability.png",
+      "file": "data/cultureData.tsx",
+      "line": 143
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Agile-Adaptability.png",
+      "file": "data/cultureData.tsx",
+      "line": 151
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.png",
+      "file": "data/cultureData.tsx",
+      "line": 159
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng",
+      "fixed": "/images/Business-&-Financial-Advisory/Due-Diligence.png",
+      "file": "data/cultureData.tsx",
+      "line": 228
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng",
+      "fixed": "/images/AI-&-Emerging-Technology/Accelerated-Execution.png",
+      "file": "data/cultureData.tsx",
+      "line": 294
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng",
+      "fixed": "/images/AI-&-Emerging-Technology/Risk-Optimization.png",
+      "file": "data/cultureData.tsx",
+      "line": 302
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng",
+      "fixed": "/images/AI-&-Emerging-Technology/Enterprise-AI.png",
+      "file": "data/cultureData.tsx",
+      "line": 310
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng",
+      "fixed": "/images/financial-accounting-solutions/Process-Based-Engagement.png",
+      "file": "data/cultureData.tsx",
+      "line": 412
+    },
+    {
+      "original": "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng",
+      "fixed": "/images/financial-accounting-solutions/Full-Outsourcing-Model.png",
+      "file": "data/cultureData.tsx",
+      "line": 420
+    },
+    {
+      "original": "/images/public/images/banner-images/Corporate-Governancepng",
+      "fixed": "/images/banner-images/Corporate-Governance.png",
+      "file": "data/cultureData.tsx",
+      "line": 444
+    },
+    {
+      "original": "/images/public/images/banner-images/contactwebp",
+      "fixed": "/images/banner-images/contact.webp",
+      "file": "data/cultureData.tsx",
+      "line": 452
+    },
+    {
+      "original": "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng",
+      "fixed": "/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountability.png",
+      "file": "data/cultureData.tsx",
+      "line": 460
+    },
+    {
+      "original": "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng",
+      "fixed": "/images/life-at-safal/Life@Safal/The-Mastery-Fund.png",
+      "file": "data/engineeringData.tsx",
+      "line": 70
+    },
+    {
+      "original": "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng",
+      "fixed": "/images/life-at-safal/Life@Safal/Global-Mobility.png",
+      "file": "data/engineeringData.tsx",
+      "line": 78
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projects.png",
+      "file": "data/engineeringData.tsx",
+      "line": 100
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Tech.png",
+      "file": "data/engineeringData.tsx",
+      "line": 108
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Financial-Services.png",
+      "file": "data/engineeringData.tsx",
+      "line": 124
+    },
+    {
+      "original": "/images/public/images/Investor-Relations/Investor/Annual-Reportspng",
+      "fixed": "/images/Investor-Relations/Investor/Annual-Reports.png",
+      "file": "data/engineeringData.tsx",
+      "line": 146
+    },
+    {
+      "original": "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng",
+      "fixed": "/images/Investor-Relations/Investor/ESG-Disclosures.png",
+      "file": "data/engineeringData.tsx",
+      "line": 154
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png",
+      "fixed": "/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1.png",
+      "file": "data/engineeringData.tsx",
+      "line": 162
+    },
+    {
+      "original": "/images/public/images/banner-images/Investor-Relationspng",
+      "fixed": "/images/banner-images/Investor-Relations.png",
+      "file": "data/engineeringData.tsx",
+      "line": 185
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng",
+      "fixed": "/images/Business-&-Financial-Advisory/Internal-Audits.png",
+      "file": "data/engineeringData.tsx",
+      "line": 193
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Production-Line-Automation.png",
+      "file": "data/engineeringData.tsx",
+      "line": 215
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systems.png",
+      "file": "data/engineeringData.tsx",
+      "line": 223
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimization.png",
+      "file": "data/engineeringData.tsx",
+      "line": 231
+    },
+    {
+      "original": "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp",
+      "fixed": "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp",
+      "file": "data/engineeringData.tsx",
+      "line": 239
+    },
+    {
+      "original": "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng",
+      "fixed": "/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Market.png",
+      "file": "data/engineeringData.tsx",
+      "line": 254
+    },
+    {
+      "original": "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng",
+      "fixed": "/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovation.png",
+      "file": "data/engineeringData.tsx",
+      "line": 262
+    },
+    {
+      "original": "/images/public/images/Become-a-Partner/sapng",
+      "fixed": "/images/Become-a-Partner/sa.png",
+      "file": "data/featureCardsData.tsx",
+      "line": 8
+    },
+    {
+      "original": "/images/public/images/AI-&-Emerging-Technology/bannerwebp",
+      "fixed": "/images/AI-&-Emerging-Technology/banner.webp",
+      "file": "data/featureCardsData.tsx",
+      "line": 15
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Management.webp",
+      "file": "data/featureCardsData.tsx",
+      "line": 22
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 10
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Retail-&-Distribution.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 16
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Healthcare.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 22
+    },
+    {
+      "original": "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng",
+      "fixed": "/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Management.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 34
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Pharmaceutical.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 50
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Automobilepng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Automobile.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 51
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Food-&-Dairy.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 53
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Oil-&-Gas.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 54
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng",
+      "fixed": "/images/Industrial-Automation-&-IoT/Airports-&-Infrastructure.png",
+      "file": "data/industryApplicationsData.ts",
+      "line": 55
+    },
+    {
+      "original": "/images/public/images/banner-images/Open-Positionspng",
+      "fixed": "/images/banner-images/Open-Positions.png",
+      "file": "data/mockBrochures.ts",
+      "line": 24
+    },
+    {
+      "original": "/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng",
+      "fixed": "/images/Become-a-Partner/Becomepartner/Technology-Integrations.png",
+      "file": "data/mockPosts.ts",
+      "line": 83
+    },
+    {
+      "original": "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp",
+      "fixed": "/images/Business-&-Financial-Advisory/Internal-Audits.webp",
+      "file": "data/pagesData.tsx",
+      "line": 20
+    },
+    {
+      "original": "/images/public/images/life-at-safal/1png",
+      "fixed": "/images/life-at-safal/1.png",
+      "file": "data/responsibleScaleData.ts",
+      "line": 11
+    },
+    {
+      "original": "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng",
+      "fixed": "/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.png",
+      "file": "data/sectorsData.tsx",
+      "line": 9
+    },
+    {
+      "original": "/images/public/images/Homepage/Logisticsjpg",
+      "fixed": "/images/Homepage/Logistics.jpg",
+      "file": "data/sectorsData.tsx",
+      "line": 17
+    },
+    {
+      "original": "/images/public/images/Homepage/Retailjpg",
+      "fixed": "/images/Homepage/Retail.jpg",
+      "file": "data/sectorsData.tsx",
+      "line": 26
+    },
+    {
+      "original": "/images/public/images/Homepage/Financejpg",
+      "fixed": "/images/Homepage/Finance.jpg",
+      "file": "data/sectorsData.tsx",
+      "line": 40
+    },
+    {
+      "original": "/images/public/images/INDUSTRIES/Real-Estatepng",
+      "fixed": "/images/INDUSTRIES/Real-Estate.png",
+      "file": "data/sectorsData.tsx",
+      "line": 47
+    },
+    {
+      "original": "/images/public/images/Homepage/Retail-1webp",
+      "fixed": "/images/Homepage/Retail-1.webp",
+      "file": "data/sectorsData.tsx",
+      "line": 61
+    }
+  ],
+  "unresolved": [
+    {
+      "original": "/images/blogs.png",
+      "fixedAttempt": "/images/blogs..png",
+      "usages": [
+        {
+          "file": "app/blogs/data/mockPosts.ts",
+          "line": 25,
+          "context": "imageSrc: '/images/blogs.png',"
+        },
+        {
+          "file": "app/blogs/data/mockPosts.ts",
+          "line": 106,
+          "context": "imageSrc: '/images/blogs.png',"
+        },
+        {
+          "file": "app/LeaderShip-Team/components/OneVision.tsx",
+          "line": 35,
+          "context": "src=\"/images/blogs.png\""
+        },
+        {
+          "file": "app/LeaderShip-Team/components/OneVision.tsx",
+          "line": 50,
+          "context": "src=\"/images/blogs.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/ContactHandShake.png",
+      "fixedAttempt": "/images/ContactHandShake..png",
+      "usages": [
+        {
+          "file": "app/blogs/data/mockPosts.ts",
+          "line": 50,
+          "context": "imageSrc: '/images/ContactHandShake.png',"
+        }
+      ]
+    },
+    {
+      "original": "/images/Technology-Driven-Execution.png",
+      "fixedAttempt": "/images/Technology-Driven-Execution..png",
+      "usages": [
+        {
+          "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
+          "line": 15,
+          "context": "src=\"/images/Technology-Driven-Execution.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/Technology-Driven-Execution-singale1.png",
+      "fixedAttempt": "/images/Technology-Driven-Execution-singale1..png",
+      "usages": [
+        {
+          "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
+          "line": 25,
+          "context": "<Image src=\"/images/Technology-Driven-Execution-singale1.png\" alt=\"Web Development\" width={120} height={100} className={styles.iconImage} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/Technology-Driven-Execution-singale3.png",
+      "fixedAttempt": "/images/Technology-Driven-Execution-singale3..png",
+      "usages": [
+        {
+          "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
+          "line": 36,
+          "context": "<Image src=\"/images/Technology-Driven-Execution-singale3.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/Technology-Driven-Execution-singale2.png",
+      "fixedAttempt": "/images/Technology-Driven-Execution-singale2..png",
+      "usages": [
+        {
+          "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
+          "line": 47,
+          "context": "<Image src=\"/images/Technology-Driven-Execution-singale2.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/Structured-Advisory-Banner.png",
+      "fixedAttempt": "/images/Structured-Advisory-Banner..png",
+      "usages": [
+        {
+          "file": "app/business-financial-advisory/components/ConsultExpertsCTA.tsx",
+          "line": 11,
+          "context": "imageSrc: \"/images/Structured-Advisory-Banner.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/challenges_sketch.png",
+      "fixedAttempt": "/images/challenges_sketch..png",
+      "usages": [
+        {
+          "file": "app/case-studies/components/CaseStudyChallenges.tsx",
+          "line": 11,
+          "context": "src=\"/images/challenges_sketch.png\""
+        },
+        {
+          "file": "data/cultureData.tsx",
+          "line": 468,
+          "context": "imageSrc: \"/images/challenges_sketch.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/services-image.jpg",
+      "fixedAttempt": "/images/services-image..jpg",
+      "usages": [
+        {
+          "file": "app/case-studies/components/CaseStudyResults.module.css",
+          "line": 42,
+          "context": "background-image: url('/images/services-image.jpg');"
+        }
+      ]
+    },
+    {
+      "original": "https://flagcdn.com/w40/in.png",
+      "fixedAttempt": "https://flagcdn.com/w40/in..png",
+      "usages": [
+        {
+          "file": "app/components/DivisionsSection/DivisionsSection.tsx",
+          "line": 79,
+          "context": "<img src=\"https://flagcdn.com/w40/in.png\" alt=\"India Flag\" className={styles.flag} />"
+        },
+        {
+          "file": "app/components/DivisionsSection/DivisionsSection.tsx",
+          "line": 90,
+          "context": "<img src=\"https://flagcdn.com/w40/in.png\" alt=\"India Flag\" className={styles.flag} />"
+        }
+      ]
+    },
+    {
+      "original": "https://flagcdn.com/w40/ae.png",
+      "fixedAttempt": "https://flagcdn.com/w40/ae..png",
+      "usages": [
+        {
+          "file": "app/components/DivisionsSection/DivisionsSection.tsx",
+          "line": 137,
+          "context": "<img src=\"https://flagcdn.com/w40/ae.png\" alt=\"UAE Flag\" className={styles.flag} />"
+        }
+      ]
+    },
+    {
+      "original": "https://flagcdn.com/w40/us.png",
+      "fixedAttempt": "https://flagcdn.com/w40/us..png",
+      "usages": [
+        {
+          "file": "app/components/DivisionsSection/DivisionsSection.tsx",
+          "line": 148,
+          "context": "<img src=\"https://flagcdn.com/w40/us.png\" alt=\"USA Flag\" className={styles.flag} />"
+        },
+        {
+          "file": "app/components/DivisionsSection/DivisionsSection.tsx",
+          "line": 156,
+          "context": "<img src=\"https://flagcdn.com/w40/us.png\" alt=\"USA Flag\" className={styles.flag} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/datanote-logo.png",
+      "fixedAttempt": "/images/datanote-logo..png",
+      "usages": [
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 12,
+          "context": "logoimage: '/images/datanote-logo.png',"
+        },
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 23,
+          "context": "logoimage: '/images/datanote-logo.png',"
+        },
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 34,
+          "context": "logoimage: '/images/datanote-logo.png',"
+        },
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 45,
+          "context": "logoimage: '/images/datanote-logo.png',"
+        },
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 56,
+          "context": "logoimage: '/images/datanote-logo.png',"
+        },
+        {
+          "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
+          "line": 29,
+          "context": "src=\"/images/datanote-logo.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/digital-product.png",
+      "fixedAttempt": "/images/digital-product..png",
+      "usages": [
+        {
+          "file": "app/components/EcosystemSection/EcosystemSection.tsx",
+          "line": 55,
+          "context": "image: '/images/digital-product.png',"
+        }
+      ]
+    },
+    {
+      "original": "/images/globe-img.png",
+      "fixedAttempt": "/images/globe-img..png",
+      "usages": [
+        {
+          "file": "app/components/GlobalPresenceSection/GlobalPresenceSection.tsx",
+          "line": 34,
+          "context": "src=\"/images/globe-img.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/hero-bg.png",
+      "fixedAttempt": "/images/hero-bg..png",
+      "usages": [
+        {
+          "file": "app/components/HeroSection/HeroSection.module.css",
+          "line": 3,
+          "context": "background-image: url(\"/images/hero-bg.png\");"
+        }
+      ]
+    },
+    {
+      "original": "/images/left-orange.svg",
+      "fixedAttempt": "/images/left-orange.svg",
+      "usages": [
+        {
+          "file": "app/components/InvestorsSection/InvestorsSection.module.css",
+          "line": 30,
+          "context": "background: url('/images/left-orange.svg') no-repeat center;"
+        }
+      ]
+    },
+    {
+      "original": "/images/right-orange.svg",
+      "fixedAttempt": "/images/right-orange.svg",
+      "usages": [
+        {
+          "file": "app/components/InvestorsSection/InvestorsSection.module.css",
+          "line": 44,
+          "context": "background: url('/images/right-orange.svg') no-repeat center;"
+        }
+      ]
+    },
+    {
+      "original": "/images/leaf-veins.png",
+      "fixedAttempt": "/images/leaf-veins..png",
+      "usages": [
+        {
+          "file": "app/components/SustainabilitySection/SustainabilitySection.module.css",
+          "line": 13,
+          "context": "background-image: url('/images/leaf-veins.png');"
+        }
+      ]
+    },
+    {
+      "original": "/images/green-fingerprint.jpg",
+      "fixedAttempt": "/images/green-fingerprint..jpg",
+      "usages": [
+        {
+          "file": "app/components/SustainabilitySection/SustainabilitySection.tsx",
+          "line": 31,
+          "context": "src=\"/images/green-fingerprint.jpg\""
+        }
+      ]
+    },
+    {
+      "original": "/images/hourglass.png",
+      "fixedAttempt": "/images/hourglass..png",
+      "usages": [
+        {
+          "file": "app/corporate-governance/components/LegacyAccountability.tsx",
+          "line": 22,
+          "context": "src=\"/images/hourglass.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/outcome-logo.svg",
+      "fixedAttempt": "/images/outcome-logo.svg",
+      "usages": [
+        {
+          "file": "app/financial-accounting-solutions/components/StructuredOperationsSection.tsx",
+          "line": 221,
+          "context": "src=\"/images/outcome-logo.svg\""
+        }
+      ]
+    },
+    {
+      "original": "/images/our-entities-Intelliworkz.png",
+      "fixedAttempt": "/images/our-entities-Intelliworkz..png",
+      "usages": [
+        {
+          "file": "app/group-structure/components/SynergyCompanies.tsx",
+          "line": 30,
+          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+        },
+        {
+          "file": "app/group-structure/components/SynergyCompanies.tsx",
+          "line": 41,
+          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+        },
+        {
+          "file": "app/group-structure/components/SynergyCompanies.tsx",
+          "line": 52,
+          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/independent-header.png",
+      "fixedAttempt": "/images/independent-header..png",
+      "usages": [
+        {
+          "file": "app/group-structure/components/SynergyCompanies.tsx",
+          "line": 68,
+          "context": "src=\"/images/independent-header.png\""
+        },
+        {
+          "file": "app/internships-mentorship/components/GlobalClassroomSection.tsx",
+          "line": 26,
+          "context": "src=\"/images/independent-header.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/Installation_Shape__The_202603281531-(1) 1.webp",
+      "fixedAttempt": "/images/Installation_Shape__The_202603281531-(1) 1..webp",
+      "usages": [
+        {
+          "file": "app/industrial-automation/components/TechnologyAlignedSection.tsx",
+          "line": 16,
+          "context": "<Image src=\"/images/Installation_Shape__The_202603281531-(1) 1.webp\" alt=\"Technology-Aligned Implementation\" fill className={sysStyles.image} />"
+        },
+        {
+          "file": "data/engineeringData.tsx",
+          "line": 270,
+          "context": "imageSrc: \"/images/Installation_Shape__The_202603281531-(1) 1.webp\""
+        }
+      ]
+    },
+    {
+      "original": "/images/blogs-inner.webp",
+      "fixedAttempt": "/images/blogs-inner..webp",
+      "usages": [
+        {
+          "file": "app/internships-mentorship/components/CodeRealImpact.tsx",
+          "line": 11,
+          "context": "<Image src=\"/images/blogs-inner.webp\""
+        },
+        {
+          "file": "app/life-at-safal/components/BeyondDesksection.tsx",
+          "line": 21,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BeyondDesksection.tsx",
+          "line": 22,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BeyondDesksection.tsx",
+          "line": 26,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BeyondDesksection.tsx",
+          "line": 30,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BeyondDesksection.tsx",
+          "line": 31,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 25,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team meeting\" width={300} height={300} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 30,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 31,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 36,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 41,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 42,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/BrainTrustSection.tsx",
+          "line": 47,
+          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Group\" width={300} height={300} className={styles.img} />"
+        },
+        {
+          "file": "app/life-at-safal/components/EngineerFutureSection.tsx",
+          "line": 24,
+          "context": "src=\"/images/blogs-inner.webp\""
+        },
+        {
+          "file": "app/technology-staffing/components/TechnologyTalent.tsx",
+          "line": 20,
+          "context": "imageSrc: \"/images/blogs-inner.webp\","
+        },
+        {
+          "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
+          "line": 19,
+          "context": "src=\"/images/blogs-inner.webp\" // Placeholder for DataNote Dashboard screenshot"
+        },
+        {
+          "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
+          "line": 50,
+          "context": "src=\"/images/blogs-inner.webp\" // Placeholder for Formezy Dashboard screenshot"
+        },
+        {
+          "file": "data/engineeringData.tsx",
+          "line": 62,
+          "context": "imageSrc: \"/images/blogs-inner.webp\""
+        },
+        {
+          "file": "data/engineeringData.tsx",
+          "line": 138,
+          "context": "imageSrc: \"/images/blogs-inner.webp\""
+        },
+        {
+          "file": "data/engineeringData.tsx",
+          "line": 177,
+          "context": "imageSrc: \"/images/blogs-inner.webp\""
+        },
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 33,
+          "context": "imageSrc: \"/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
+        },
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 44,
+          "context": "imageSrc: \"/images/blogs-inner.webp\","
+        },
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 56,
+          "context": "imageSrc: \"/images/blogs-inner.webp\","
+        },
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 95,
+          "context": "imageSrc: \"/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
+        }
+      ]
+    },
+    {
+      "original": "/images/2.webp",
+      "fixedAttempt": "/images/2..webp",
+      "usages": [
+        {
+          "file": "app/LeaderShip-Team/components/DivisionHeads.tsx",
+          "line": 6,
+          "context": "{ name: \"Aabid Vidha\", role: \"Head of Digital Marketing\", image: \"/images/2.webp\" },"
+        },
+        {
+          "file": "app/webinars/components/MeetSpeakers.tsx",
+          "line": 6,
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },"
+        },
+        {
+          "file": "app/webinars/components/MeetSpeakers.tsx",
+          "line": 8,
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },"
+        }
+      ]
+    },
+    {
+      "original": "/images/leadership-team-bg.png",
+      "fixedAttempt": "/images/leadership-team-bg..png",
+      "usages": [
+        {
+          "file": "app/LeaderShip-Team/components/ExecutiveCommittee.tsx",
+          "line": 11,
+          "context": "src=\"/images/leadership-team-bg.png\""
+        },
+        {
+          "file": "data/pagesData.tsx",
+          "line": 154,
+          "context": "imageSrc: \"/images/leadership-team-bg.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/ourstory.webp",
+      "fixedAttempt": "/images/ourstory..webp",
+      "usages": [
+        {
+          "file": "app/our-story-vision/components/AboutSection.tsx",
+          "line": 23,
+          "context": "src=\"/images/ourstory.webp\""
+        }
+      ]
+    },
+    {
+      "original": "/images/global-presence.png",
+      "fixedAttempt": "/images/global-presence..png",
+      "usages": [
+        {
+          "file": "app/strategic-partnerships/components/BorderlessInnovationSection.tsx",
+          "line": 16,
+          "context": "src=\"/images/global-presence.png\""
+        },
+        {
+          "file": "components/sections/BorderlessNetworkSection/BorderlessNetworkSection.tsx",
+          "line": 17,
+          "context": "src=\"/images/global-presence.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/dark_globe.png",
+      "fixedAttempt": "/images/dark_globe..png",
+      "usages": [
+        {
+          "file": "app/sustainability/components/TimeResourceSection.tsx",
+          "line": 116,
+          "context": "src=\"/images/dark_globe.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/clean_globe.png",
+      "fixedAttempt": "/images/clean_globe..png",
+      "usages": [
+        {
+          "file": "app/sustainability/components/TimeResourceSection.tsx",
+          "line": 125,
+          "context": "src=\"/images/clean_globe.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/Our-Philosophy.webp",
+      "fixedAttempt": "/images/Our-Philosophy..webp",
+      "usages": [
+        {
+          "file": "app/values-culture/components/VisionMissionSection.tsx",
+          "line": 50,
+          "context": "imageSrc: '/images/Our-Philosophy.webp' // Compass"
+        }
+      ]
+    },
+    {
+      "original": "/images/1.webp",
+      "fixedAttempt": "/images/1..webp",
+      "usages": [
+        {
+          "file": "app/webinars/components/MeetSpeakers.tsx",
+          "line": 5,
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },"
+        },
+        {
+          "file": "app/webinars/components/MeetSpeakers.tsx",
+          "line": 7,
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },"
+        }
+      ]
+    },
+    {
+      "original": "/images/logo-white.png",
+      "fixedAttempt": "/images/logo-white..png",
+      "usages": [
+        {
+          "file": "components/layout/Footer/Footer.tsx",
+          "line": 16,
+          "context": "src=\"/images/logo-white.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/logo.svg",
+      "fixedAttempt": "/images/logo.svg",
+      "usages": [
+        {
+          "file": "components/layout/Header/Header.tsx",
+          "line": 126,
+          "context": "src=\"/images/logo.svg\""
+        },
+        {
+          "file": "components/layout/Header/Header.tsx",
+          "line": 140,
+          "context": "src=\"/images/logo.svg\""
+        },
+        {
+          "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
+          "line": 61,
+          "context": "src=\"/images/logo.svg\""
+        },
+        {
+          "file": "components/sections/UnifiedFrameworkSection/UnifiedFrameworkSection.tsx",
+          "line": 36,
+          "context": "src=\"/images/logo.svg\""
+        }
+      ]
+    },
+    {
+      "original": "/images/sustainability-section.jpg",
+      "fixedAttempt": "/images/sustainability-section..jpg",
+      "usages": [
+        {
+          "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
+          "line": 66,
+          "context": "image: \"/images/sustainability-section.jpg\""
+        }
+      ]
+    },
+    {
+      "original": "/images/MasterLayoutBG.png",
+      "fixedAttempt": "/images/MasterLayoutBG..png",
+      "usages": [
+        {
+          "file": "components/sections/InnerPageHero/InnerPageHero.module.css",
+          "line": 3,
+          "context": "background-image: url(\"/images/MasterLayoutBG.png\");"
+        }
+      ]
+    },
+    {
+      "original": "/images/dot-banner-white.png",
+      "fixedAttempt": "/images/dot-banner-white..png",
+      "usages": [
+        {
+          "file": "components/sections/IntelligenceSection/IntelligenceSection.module.css",
+          "line": 4,
+          "context": "background-image: url('/images/dot-banner-white.png');"
+        }
+      ]
+    },
+    {
+      "original": "/images/DI_StarCube.png",
+      "fixedAttempt": "/images/DI_StarCube..png",
+      "usages": [
+        {
+          "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
+          "line": 56,
+          "context": "<Image src=\"/images/DI_StarCube.png\" alt=\"Cube\" width={150} height={150} style={{ width: '100%', height: 'auto' }} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/DI_Compaas.png",
+      "fixedAttempt": "/images/DI_Compaas..png",
+      "usages": [
+        {
+          "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
+          "line": 64,
+          "context": "<Image src=\"/images/DI_Compaas.png\" alt=\"Compass\" width={180} height={180} style={{ width: '100%', height: 'auto' }} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/DI_Orbit.png",
+      "fixedAttempt": "/images/DI_Orbit..png",
+      "usages": [
+        {
+          "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
+          "line": 72,
+          "context": "<Image src=\"/images/DI_Orbit.png\" alt=\"Network\" width={160} height={160} style={{ width: '100%', height: 'auto' }} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/DI_Rocket.png",
+      "fixedAttempt": "/images/DI_Rocket..png",
+      "usages": [
+        {
+          "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
+          "line": 80,
+          "context": "<Image src=\"/images/DI_Rocket.png\" alt=\"Rocket\" width={120} height={120} style={{ width: '100%', height: 'auto' }} />"
+        }
+      ]
+    },
+    {
+      "original": "/images/enterprise-products-platform.png",
+      "fixedAttempt": "/images/enterprise-products-platform..png",
+      "usages": [
+        {
+          "file": "components/sections/PlatformCapabilitiesSection/PlatformCapabilitiesSection.tsx",
+          "line": 46,
+          "context": "src=\"/images/enterprise-products-platform.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/enterprise-products-demo.png",
+      "fixedAttempt": "/images/enterprise-products-demo..png",
+      "usages": [
+        {
+          "file": "components/sections/RequestDemoSection/RequestDemoSection.tsx",
+          "line": 15,
+          "context": "src=\"/images/enterprise-products-demo.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/Structured-End-to-End-Project-Delivery.png",
+      "fixedAttempt": "/images/Structured-End-to-End-Project-Delivery..png",
+      "usages": [
+        {
+          "file": "components/sections/StructuredDeliverySection/StructuredDeliverySection.tsx",
+          "line": 129,
+          "context": "src=\"/images/Structured-End-to-End-Project-Delivery.png\""
+        }
+      ]
+    },
+    {
+      "original": "/images/Systemic-Ownership.webp",
+      "fixedAttempt": "/images/Systemic-Ownership..webp",
+      "usages": [
+        {
+          "file": "components/views/ContactPage/ContactForm.tsx",
+          "line": 122,
+          "context": "src=\"/images/Systemic-Ownership.webp\""
+        }
+      ]
+    },
+    {
+      "original": "/images/contact-locatin.webp",
+      "fixedAttempt": "/images/contact-locatin..webp",
+      "usages": [
+        {
+          "file": "components/views/ContactPage/ContactLocations.tsx",
+          "line": 11,
+          "context": "src=\"/images/contact-locatin.webp\""
+        }
+      ]
+    },
+    {
+      "original": "/images/applied-data-intelligence.png",
+      "fixedAttempt": "/images/applied-data-intelligence..png",
+      "usages": [
+        {
+          "file": "data/appliedAiData.ts",
+          "line": 53,
+          "context": "imageSrc: \"/images/applied-data-intelligence.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/Relentless-Velocity.webp",
+      "fixedAttempt": "/images/Relentless-Velocity..webp",
+      "usages": [
+        {
+          "file": "data/cultureData.tsx",
+          "line": 182,
+          "context": "imageSrc: \"/images/Relentless-Velocity.webp\","
+        },
+        {
+          "file": "data/cultureData.tsx",
+          "line": 373,
+          "context": "imageSrc: \"/images/Relentless-Velocity.webp\","
+        }
+      ]
+    },
+    {
+      "original": "/images/hero-3d.jpg",
+      "fixedAttempt": "/images/hero-3d..jpg",
+      "usages": [
+        {
+          "file": "data/mockPosts.ts",
+          "line": 66,
+          "context": "imageSrc: '/images/hero-3d.jpg',"
+        }
+      ]
+    },
+    {
+      "original": "/images/MasterContact.png",
+      "fixedAttempt": "/images/MasterContact..png",
+      "usages": [
+        {
+          "file": "data/pagesData.tsx",
+          "line": 35,
+          "context": "imageSrc: \"/images/MasterContact.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/Internships-&-Mentorship/Internships-&-Mentorship.png",
+      "fixedAttempt": "/images/Internships-&-Mentorship/Internships-&-Mentorship..png",
+      "usages": [
+        {
+          "file": "data/pagesData.tsx",
+          "line": 113,
+          "context": "imageSrc: \"/images/Internships-&-Mentorship/Internships-&-Mentorship.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/responsible_scale.png",
+      "fixedAttempt": "/images/responsible_scale..png",
+      "usages": [
+        {
+          "file": "data/responsibleScaleData.ts",
+          "line": 19,
+          "context": "imageSrc: \"/images/responsible_scale.png\","
+        },
+        {
+          "file": "data/responsibleScaleData.tsx",
+          "line": 13,
+          "context": "imageSrc: \"/images/responsible_scale.png\","
+        }
+      ]
+    },
+    {
+      "original": "/images/climbing_stones.png",
+      "fixedAttempt": "/images/climbing_stones..png",
+      "usages": [
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 123,
+          "context": "imageSrc: \"/images/climbing_stones.png\","
+        },
+        {
+          "file": "data/sustainableData.tsx",
+          "line": 143,
+          "context": "imageSrc: \"/images/climbing_stones.png\","
+        }
+      ]
+    }
+  ]
+}

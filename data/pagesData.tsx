@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 export interface HeroContent {
   title: ReactNode;
-  description: string;
+  description: ReactNode;
   imageSrc: string;
   imageAlt: string;
 }
@@ -16,8 +16,8 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           Backbone of Tomorrow.
         </>
       ),
-      description: "Safal Infosoft is not just adapting to the future of global enterprise: we are building the infrastructure that powers it. From heavy industry automation to AI-driven ecosystems, we engineer the scale that moves markets.",
-      imageSrc: "/images/ourstory-banner.webp",
+      description: "Safal Infosoft is not adapting to the future of enterprise—we are building the infrastructure that powers it. From industrial automation to AI-led ecosystems, we engineer the systems that move industries forward.",
+      imageSrc: "/images/Business-&-Financial-Advisory/Internal-Audits.webp",
       imageAlt: "About Hero Graphic",
     }
   },
@@ -25,12 +25,14 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Initiate the Next <br />
-           Phase of Growth.</strong>
+          <strong> Initiate the Next Phase of Growth.</strong>
         </>
       ),
-      description: "Whether you require robust enterprise infrastructure, visionary creative strategy, or elite financial advisory, our global team is ready to engineer your solution. Connect with Safal Infosoft to begin.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>Whether you require robust enterprise infrastructure, strategic innovation, or scalable business solutions, our global teams are built to deliver.</p>
+        <p>Connect with Safal to begin.</p>
+      </>,
+      imageSrc: "/images/MasterContact.png",
       imageAlt: "Contact Hero Email Graphic",
     }
   },
@@ -42,8 +44,8 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           <strong>The Architecture of Synergy</strong>
         </>
       ),
-      description: "Six distinct entities. Three global hubs. One unshakeable foundation. We are not just a technology provider; we are a unified matrix of specialized divisions operating across India, the UAE, and the USA.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>Three core verticals. One unified ecosystem.<br /><br />Safal is designed as a structured matrix where technology, innovation, and execution operate in alignment. Each vertical brings deep specialization, together creating a system capable of delivering scalable, high-impact outcomes across industries and geographies.</>,
+      imageSrc: "/images/Group-Structure/Group-Structure.webp",
       imageAlt: "Contact Hero Email Graphic",
     }
   },
@@ -55,8 +57,11 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           <strong>Architecting Exponential Value</strong>
         </>
       ),
-      description: "Welcome to Safal Group Investor Relations. We engineer long-term shareholder value by driving digital transformation across global enterprise markets. We execute with a fortress balance sheet, disciplined capital allocation, and uncompromising operational velocity.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>Welcome to Safal Group Investor Relations.<br />We engineer long-term shareholder value through disciplined execution, strategic diversification, and deep-tech innovation across global enterprise markets.</p>
+        <p>Our approach combines a strong balance sheet, precise capital allocation, and operational velocity, designed to deliver consistent, compounding growth.</p>
+      </>,
+      imageSrc: "/images/Investor-Relations/Investor-Relations.webp",
       imageAlt: "Investor Relations Graphic",
     }
   },
@@ -68,8 +73,12 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           <strong>Operate at the Edge of Possible.</strong>
         </>
       ),
-      description: "Life at the Safal Group is a high-velocity journey. We provide the elite infrastructure; you provide the raw ambition. Join a borderless matrix where deep engineering meets boundless creativity.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>Life at Safal is built for momentum. We create the infrastructure, the ecosystem, and the opportunity…<br />you bring ambition, curiosity, and the drive to build what doesn’t yet exist.
+        </p>
+        <p>This is where deep engineering meets bold thinking.<br />This is where careers accelerate.</p>
+      </>,
+      imageSrc: "/images/life-at-safal/Life-at-Safal.webp",
       imageAlt: "Investor Relations Graphic",
     }
   },
@@ -78,11 +87,14 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Operate at the Edge of Possible.</strong>
+          <strong>Define the Edge. Deliver the Outcome.</strong>
         </>
       ),
-      description: "At the Safal Group, we don&apos;t hire for static roles; we hire for upward trajectories. Join a borderless matrix where deep engineering meets boundless creativity, and help us architect the digital backbone of tomorrow.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>This isn’t a role defined by a job description, it’s defined by the outcomes you create.</p>
+        <p>At Safal Group, you step into high-impact environments where your work directly shapes real systems, real products, and real markets. You operate alongside teams that prioritize execution, ownership, and precision, where every contribution drives measurable impact.</p>
+      </>,
+      imageSrc: "/images/Open-Positions/Open-Positions.webp",
       imageAlt: "Job Opportunities",
     }
   },
@@ -94,8 +106,11 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           <strong>Skip the Sandbox. Build the Enterprise.</strong>
         </>
       ),
-      description: "At the Safal Group, internships aren&apos;t simulations. You will deploy live code, craft global brand ecosystems, and engineer automation systems alongside the industry&apos;s top minds. This is where raw potential transforms into elite execution.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>At Safal Group, internships are not simulations.<br />You will ship real code, contribute to live systems, and work alongside engineers, strategists, and creators shaping global enterprises.</p>
+        <p>This is where raw potential is forged into execution.</p>
+      </>,
+      imageSrc: "/images/Internships-&-Mentorship/Internships-&-Mentorship.png",
       imageAlt: "Internships and Mentorship",
     }
   },
@@ -104,11 +119,13 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Financial Reports & Disclosures</strong>
+          <strong>Radical Transparency. Measurable Scale.</strong>
         </>
       ),
-      description: "Access our latest financial results, annual reports, and strategic disclosures. We operate with radical transparency to ensure our stakeholders have the insights they need to make informed decisions.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: <>
+        <p>Access structured financial disclosures, performance reports, and governance filings across the Safal ecosystem.<br />We operate with complete visibility, enabling stakeholders to track growth, evaluate performance, and understand how capital is deployed across our global operations.</p>
+      </>,
+      imageSrc: "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp",
       imageAlt: "Financial Reports",
     }
   },
@@ -121,7 +138,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Dive into our latest thoughts on technology, enterprise scale, and the future of global engineering. Stay ahead with deep-dives written by our architects and visionaries.",
-      imageSrc: "/images/blogs-inner.webp",
+      imageSrc: "/images/blogs/blogs.webp",
       imageAlt: "Blogs Hero Image",
     }
   },
@@ -133,8 +150,8 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
           <strong>Architecting the Digital Backbone of Tomorrow</strong>
         </>
       ),
-      description: "Leadership at Safal Infosoft goes beyond managing the present; we engineer what comes next. Meet the strategic minds, technologists, and creatives driving our global vision.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: "Leadership at Safal Infosoft goes beyond managing the present—we design what comes next. Meet the minds driving our global vision across technology, strategy, and execution.",
+      imageSrc: "/images/leadership-team-bg.png",
       imageAlt: "Blogs Hero Image",
     }
   },
@@ -142,12 +159,11 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Connecting You with <br />
-            <span>Top Tech Talent</span></strong>
+          <strong>Build High-Performance Tech Teams</strong>
         </>
       ),
-      description: "We provide comprehensive technology staffing solutions to help you build high-performing teams.",
-      imageSrc: "/images/blogs-inner.webp",
+      description: "Flexible technology staffing solutions designed to help you scale teams with speed, precision, and the right technical expertise.",
+      imageSrc: "/images/Technology-Staffing/Technology-Staffing.webp",
       imageAlt: "Technology Staffing Hero",
     }
   },
@@ -159,7 +175,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Structured startup product development services and consulting designed to transform ideas into scalable, production-ready digital products.",
-      imageSrc: "/images/blogs-inner.webp", // Replace with correct image from the design
+      imageSrc: "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp", // Replace with correct image from the design
       imageAlt: "Startup Product Development Hero",
     }
   },
@@ -171,7 +187,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Formezy EAP, DataNote ERP, and tailored enterprise systems designed to streamline operations, integrate processes, and support scalable enterprise environments.",
-      imageSrc: "/images/blogs-inner.webp", // Replace with correct globe/dome image if different
+      imageSrc: "/images/banner-images/Open-Positions.webp",
       imageAlt: "Enterprise Products Hero",
     }
   },
@@ -183,7 +199,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "End-to-end industrial automation solutions and IIoT systems designed to connect machines, optimize operations, and enable data-driven industrial environments.",
-      imageSrc: "/images/blogs-inner.webp",
+      imageSrc: "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
       imageAlt: "Industrial Automation & IoT",
 
     }
@@ -196,7 +212,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Enterprise AI systems and machine learning services designed to automate processes, structure decision-making, and deliver measurable business outcomes.",
-      imageSrc: "/images/blogs-inner.webp",
+      imageSrc: "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp",
       imageAlt: "AI Emerging Technology Hero",
     }
   },
@@ -208,7 +224,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Structured financial accounting solutions and accounting solutions designed to manage financial processes with accuracy, compliance, and operational efficiency.",
-      imageSrc: "/images/financial-accounting-hero.png",
+      imageSrc: "/images/financial-accounting-solutions/financial-accounting-solutions.webp",
       imageAlt: "Financial Accounting Solutions Hero",
     }
   },
@@ -220,7 +236,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "Strategic digital branding services, creative design services, and integrated digital marketing services designed to build, scale, and position brands with clarity and consistency.",
-      imageSrc: "/images/blogs-inner.webp",
+      imageSrc: "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp",
       imageAlt: "Brand Digital Creative Services Hero",
     }
   },
@@ -228,12 +244,13 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Zero-Trust Ethics.<br />
-            Unyielding Discipline.</strong>
+          <strong>Zero-Trust Ethics. Unyielding Discipline.</strong>
         </>
       ),
-      description: "Innovation without structural discipline is a corporate liability. Our Board of Directors ensures that every technological advancement, venture incubation, and market expansion adheres strictly to the highest global standards of ethical compliance, risk management, and corporate responsibility.",
-      imageSrc: "/images/glass_temple.png",
+      description: <>
+        <p>Innovation without discipline creates risk.<br />At Safal, governance is engineered into every layer, ensuring that technological advancement, market expansion, and venture growth operate within uncompromising global standards of compliance, accountability, and responsibility.</p>
+      </>,
+      imageSrc: "/images/Corporate-Governance/Corporate-Governance.webp",
       imageAlt: "Corporate Governance Pillar",
     }
   },
@@ -241,12 +258,28 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Architecting a <br />Sustainable Future.</strong>
+          <strong>Engineering a Carbon-Neutral Future.</strong>
         </>
       ),
-      description: "True innovation cannot come at the expense of our environment. Through our Green-Code initiative and AI-driven resource allocation, we actively optimize software architectures to drastically reduce global energy consumption.",
-      imageSrc: "/images/sustainability-section.jpg",
+      description: "At Safal Group, sustainability is not an initiative; it is embedded into how we architect systems.We design low-friction digital ecosystems and intelligent infrastructure that reduce energy consumption, minimize waste, and enable enterprises to move toward measurable ESG outcomes.",
+      imageSrc: "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp",
       imageAlt: "Sustainability Hero",
+    }
+  },
+
+  openpositions: {
+    hero: {
+      title: (
+        <>
+          <strong>Operate at the Edge of Possible.</strong>
+        </>
+      ),
+      description: <>
+        <p>At Safal Group, we don’t hire for static roles, we hire for upward trajectories.<br />You’re not stepping into a job; you’re entering a system designed to accelerate your growth.</p>
+        <p>Join a borderless matrix where deep engineering meets creative strategy, and contribute to building the digital backbone of tomorrow.</p>
+      </>,
+      imageSrc: "/images/Careers/safal-careers-hero.webp",
+      imageAlt: "Open positions Hero",
     }
   }
 };

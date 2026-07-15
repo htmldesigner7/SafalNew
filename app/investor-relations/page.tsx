@@ -22,10 +22,10 @@ export default function InvestorRelationsPage() {
       <MultiplierSection />
       <CultureSection data={architectureValueData} />
       <MultiplierSection
-        title="Expanding Global Market Share."
-        description1="Our operational matrix is strategically positioned to capture market share across three of the highest-growth sectors in the global economy. This interconnected ecosystem drives cross-sell opportunities, exceptional client retention, and robust recurring revenue models."
-        description2="Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec"
-        description3="Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec. Lorem ipsum dolor sit amet consectetur. Tellus euismod cursus sodales dignissim tortor nullam. Enim dui vel lorem risus pellentesque egestas faucibus sed. Dictum proin urna imperdiet faucibus at euismod eu magna. Mi tellus hac orci sed etiam phasellus. Tortor vivamus in enim donec"
+        title="Expanding Global Market Share"
+        description1="Our operational ecosystem is positioned across high-growth global markets, enabling us to capture demand across multiple sectors simultaneously."
+        description2="By leveraging cross-functional synergies between our divisions, we unlock scalable revenue channels, strengthen client retention, and build long-term enterprise relationships.c"
+        description3="This integrated approach allows us to expand efficiently while maintaining operational control and financial discipline."
         imageAlt="Expanding Global Market Share Graphic"
       />
 

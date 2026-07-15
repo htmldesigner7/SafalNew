@@ -12,7 +12,7 @@ export default function RequestDemoSection() {
           {/* Left Side: Image */}
           <div className={styles.imageColumn}>
             <Image 
-              src="/images/enterprise-products-demo.png"
+              src="/images/Enterprise-Grade-Products-Built-for-Scale/cta.webp"
               alt="Demo Graphic"
               width={800}
               height={500}

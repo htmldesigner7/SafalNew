@@ -6,17 +6,16 @@ export default function OneVision() {
   const sections = [
     {
       title: "One Vision. A Matrix of Possibilities.",
-      text: `Technology is only as powerful as the vision guiding it. We are focused on building intelligent ecosystems that transform industries and create meaningful impact. Our mission is to combine innovation, sustainability, and human-centric design.`,
-      description: `Through innovation and collaboration, we empower organizations to unlock new opportunities and build a future driven by technology.`,
+      text: `Technology is only as powerful as the vision behind it. When Safal Infosoft was founded, the intent was clear—to eliminate operational friction for ambitious enterprises and replace it with scalable, intelligent systems.`,
+      description: <>Today, we operate as a multi-dimensional ecosystem—integrating engineering, design, and strategy into a unified architecture that enables exponential growth.<br/><br/>We believe innovation must be responsible. Through our approach to efficient system design and intelligent resource utilization, we continuously align performance with long-term sustainability outcomes.</>,
       author: "Name",
       role: "Founder & Chief Executive Officer",
       reverse: false,
     },
     {
       title: "Designing for Autonomous Scale.",
-      text: `We don&apos;t believe in fragmented solutions. Our approach focuses on creating scalable systems that operate seamlessly, enabling businesses to grow faster.`,
-      description: `True innovation comes from the balance of technology and environment. We create solutions designed for long-term success.`,
-      author: "Name",
+      text: `We do not build fragmented systems. Our leadership philosophy is grounded in systemic thinking—ensuring that every platform, capability, and solution operates as part of a cohesive whole.`,
+      description: <>From low-code ecosystems to enterprise-grade infrastructure, we design for scale, resilience, and adaptability. The result is not just functional technology—but systems that evolve with business.<br/><br/>We build with intent. We scale with precision.</>,
       role: "Chief Technology Officer",
       reverse: true,
     },

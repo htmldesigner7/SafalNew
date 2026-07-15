@@ -12,9 +12,11 @@ export default function BecomeAPartnerPage() {
   return (
     <main>
       <InnerPageHero
-        title={<>Become A <br /> <span>Partner</span></>}
-        description="Join our ecosystem of strategic, technology, and channel partners to deliver exceptional value to clients worldwide."
-        imageSrc="/images/partner.webp"
+        title={<>Force Multipliers for Global Scale</>}
+        description=<>
+        <p>At Safal, partnerships are engineered, not transactional.<br/>We collaborate with technology leaders, domain experts, and execution specialists to co-create enterprise solutions, unlock new markets, and drive sustained, compounding growth.</p>
+        </>
+        imageSrc="/images/Become-a-Partner/Become-a-Partner.webp"
         imageAlt="Become a Partner"
       />
       <BorderlessNetworkSection />

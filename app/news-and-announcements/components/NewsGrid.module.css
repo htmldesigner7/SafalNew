@@ -1,0 +1,101 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  background: transparent;
+  padding: 0 0 32px 0;
+  width: 100%;
+}
+
+.imageContainer {
+  position: relative;
+  width: 45%;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 55%;
+}
+
+.title {
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+}
+
+.metaData {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.dateWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--red); /* Safal orange */
+}
+
+.calendarIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryWrapper {
+  display: inline-flex;
+}
+
+.categoryText {
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* =========================================================
+   Responsive Breakpoints
+   ========================================================= */
+
+@media (max-width: 1281px) {
+  .gridContainer {
+    gap: 32px 40px;
+  }
+  .card { gap: 16px; }
+}
+
+@media (max-width: 1025px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .imageContainer {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+  .contentContainer {
+    width: 100%;
+  }
+}

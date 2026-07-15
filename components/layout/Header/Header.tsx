@@ -80,7 +80,8 @@ export default function Header() {
       href: '#',
       hasDropdown: true,
       dropdownItems: [
-        { title: 'Become a Partner', href: '/become-a-partner' }
+        { title: 'Become a Partner', href: '/become-a-partner' },
+        { title: 'Strategic Partnerships', href: '/Strategic Partnerships' }
       ]
     },
     {

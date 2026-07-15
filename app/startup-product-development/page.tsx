@@ -36,7 +36,7 @@ export default function StartupProductDevelopmentPage() {
       <ImageCardsSection data={endToEndProductData} />
 
       <ProcessSection
-        title="Startup Support Services"
+        title="Structured Consulting & Product Support"
         data={startupSupportData}
         mainColor="#60853A"
         accentColor="#D2DF70"
