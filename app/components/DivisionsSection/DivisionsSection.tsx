@@ -6,7 +6,7 @@ import styles from './DivisionsSection.module.css';
  
 export default function DivisionsSection() {
   return (
-    <section className={`${styles.section} mt_80`}>
+    <section id="discover" className={`${styles.section} mt_80`}>
       <div className="container-1600">
         <header className="header_sec">
           <h2 className="title_60">A Global Technology Ecosystem.</h2>

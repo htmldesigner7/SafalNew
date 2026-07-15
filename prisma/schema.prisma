@@ -4,6 +4,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
+  url      = env("DATABASE_URL")
 }
 
 model contacts {
@@ -22,4 +23,27 @@ model Webinar {
   email     String
   product_demo     String
   createdAt DateTime @default(now())
+}
+
+model Partner {
+  id                Int      @id @default(autoincrement())
+  fullName          String
+  corporateEmail    String
+  phoneNumber       String
+  companyName       String
+  websiteUrl        String?
+  partnershipType   String
+  executiveSummary  String   @db.Text
+  createdAt         DateTime @default(now())
+}
+
+model InternshipApplication {
+  id          Int      @id @default(autoincrement())
+  fullName    String
+  email       String
+  phoneNumber String
+  location    String
+  resumeUrl   String
+  coverLetter String   @db.Text
+  createdAt   DateTime @default(now())
 }
