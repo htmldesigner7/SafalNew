@@ -53,7 +53,7 @@ export const cultureData: CultureContent = {
 };
 
 export const investorCultureData: CultureContent = {
-  title: "The DNA of Our Culture.",
+  title: "The DNA of Our Culture",
   subtitle: "Elite systems require disciplined thinking. The behaviors we embed internally define the outcomes we deliver externally.",
   cards: [
     {
@@ -61,7 +61,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Calculated Urgency",
       description: "We do not wait for change—we engineer it. Speed, when executed with precision, becomes a decisive advantage.",
-      imageSrc: "/images/Values-&-Culture/Values&culture/Systemic-Accountability.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Calculated-Urgency.webp",
       bgColor: "#f5f0ce"
     },
     {
@@ -69,7 +69,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Systemic Accountability",
       description: "Ownership is absolute. If we build it, we are accountable for its performance, its impact, and its success.",
-      imageSrc: "/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Systemic-Accountability.webp",
       bgColor: "#cceaf4"
     },
     {
@@ -77,7 +77,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Aesthetic Intelligence",
       description: "Functionality is expected. Experience is engineered. We design systems that are both powerful and intuitive.",
-      imageSrc: "/images/Values-&-Culture/Values&culture/Trust-Ethics.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Aesthetic-Intelligence.webp",
       bgColor: "#fbe0c9"
     },
     {
@@ -85,7 +85,7 @@ export const investorCultureData: CultureContent = {
       subtitle: "",
       title: "Trust Ethics",
       description: "Integrity is foundational. Transparency, security, and ethical data practices guide every decision we make.",
-      imageSrc: "/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp",
+      imageSrc: "/images/Values-&-Culture/Values-culture/Trust-Ethics.webp",
       bgColor: "#d8ead2"
     }
   ]

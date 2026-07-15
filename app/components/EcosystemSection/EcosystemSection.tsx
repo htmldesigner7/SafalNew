@@ -52,7 +52,7 @@ const products = [
   {
     id: 'ProPulse',
     name: 'ProPulse',
-    image: '',
+    image: '/images/Homepage/Propluse.jpg',
     logoimage: '/images/datanote-logo.png',
     description: <>
     <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>

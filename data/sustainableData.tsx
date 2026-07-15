@@ -41,7 +41,7 @@ export const SingularData: SustainableContent = {
   <p>We do not believe in isolated brilliance. Modern enterprise challenges demand the convergence of multiple disciplines.</p>
   <p>At Safal, we integrate engineering, data intelligence, design thinking, and strategic insight into a unified execution model. By combining diverse perspectives into a single, cohesive system, we create solutions that are not just effective but exponentially powerful.</p>
   </>,
-  imageSrc: "/images/blogs-inner.webp",
+  imageSrc: "/images/Values-&-Culture/Diverse-Minds.webp",
   imageAlt: "Sustainable Leaves"
 };
 
