@@ -1,11 +1,5 @@
-.openPositionsSection {
-  background-color: var(--color-bg-main);
-  padding: 80px 0;
-}
 
-.header {
-  margin-bottom: 60px;
-}
+
 
 .filterWrapper {
   display: flex;
@@ -140,7 +134,6 @@
    ========================================================= */
 
 @media (max-width: 1776px) {
-  .openPositionsSection { padding: 70px 0; }
   .header { margin-bottom: 50px; }
   .jobsList { gap: 30px; }
 }
@@ -157,7 +150,6 @@
 }
 
 @media (max-width: 1537px) {
-  .openPositionsSection { padding: 60px 0; }
   .header { margin-bottom: 40px; }
   .jobsList { gap: 24px; }
 }
@@ -192,7 +184,6 @@
 }
 
 @media (max-width: 431px) {
-  .openPositionsSection { padding: 40px 0; }
   .jobMeta { gap: 16px; }
   .customDropdownContainer { width: 100%; }
   .filterWrapper { margin-top: 30px; }

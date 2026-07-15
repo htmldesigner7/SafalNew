@@ -17,14 +17,12 @@
   display: flex;
   gap: 12px;
   flex-wrap: nowrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
+  /* overflow-x: scroll; */
+  /* -webkit-overflow-scrolling: touch; */
   padding-bottom: 12px;
   max-width: 100%;
-  
-  /* Firefox support */
-  scrollbar-width: thin;
-  scrollbar-color: var(--red) #f1f1f1;
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: var(--red) #f1f1f1; */
 }
 
 .tabsContainer::-webkit-scrollbar {
@@ -193,6 +191,13 @@
     width: 100%;
     justify-content: center;
   }
+
+  .tabsContainer {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--red) #f1f1f1;
+}
 }
 
 @media (max-width: 431px) {

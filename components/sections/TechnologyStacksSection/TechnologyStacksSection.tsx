@@ -53,9 +53,9 @@ export default function TechnologyStacksSection() {
         <div className={styles.imageContainer}>
           {/* Main network graph image as per the screenshot. Placeholder used. */}
           <Image 
-            src="/images/blogs/blogs.webp" 
+            src="/images/Technology-Staffing/Across-Modern-Technology-Stacks.webp" 
             alt="Technology Network Node" 
-            width={1200} 
+            width={1000} 
             height={600} 
             style={{ width: '100%', height: 'auto', maxWidth: '900px', objectFit: 'contain' }}
           />

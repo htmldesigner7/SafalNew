@@ -18,7 +18,7 @@ export default function AiLedTransformation() {
           </div>
           <div className={styles.imageCol}>
             <Image 
-              src="/images/Investor-Relations/Investor/Transparent-Governance.webp" 
+              src="/images/AI-&-Emerging-Technology/AI-Lead-Execution.webp" 
               alt="AI Process Diagram" 
               width={700} 
               height={400} 
