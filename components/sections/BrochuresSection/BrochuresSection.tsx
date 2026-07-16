@@ -11,21 +11,31 @@ interface FilterItem {
   count: number;
 }
 
-const contentTypes: FilterItem[] = [
-  { id: 'whitepapers', label: 'Whitepapers', count: 45 },
-  { id: 'blog-posts', label: 'Blog Posts', count: 89 },
-  { id: 'webinars', label: 'Webinars', count: 23 },
-  { id: 'case-studies', label: 'Case Studies', count: 34 },
-  { id: 'brochures', label: 'Brochures', count: 12 },
-  { id: 'news', label: 'News', count: 23 },
+const baseContentTypes = [
+  { id: 'whitepapers', label: 'Whitepapers' },
+  { id: 'blog-posts', label: 'Blog Posts' },
+  { id: 'webinars', label: 'Webinars' },
+  { id: 'case-studies', label: 'Case Studies' },
+  { id: 'brochures', label: 'Brochures' },
+  { id: 'news', label: 'News' },
 ];
 
-const topics: FilterItem[] = [
-  { id: 'erp-solutions', label: 'ERP Solutions', count: 24 },
-  { id: 'cloud-migration', label: 'Cloud Migration', count: 18 },
-  { id: 'aviation-tech', label: 'Aviation Tech', count: 12 },
-  { id: 'ai-automation', label: 'AI & Automation', count: 31 },
+export const contentTypes: FilterItem[] = baseContentTypes.map(type => {
+  const count = mockBrochures.filter(b => b.tags.some(tag => tag.toLowerCase() === type.label.toLowerCase())).length;
+  return { ...type, count };
+}).filter(type => type.count > 0);
+
+const baseTopics = [
+  { id: 'erp-solutions', label: 'ERP Solutions' },
+  { id: 'cloud-migration', label: 'Cloud Migration' },
+  { id: 'aviation-tech', label: 'Aviation Tech' },
+  { id: 'ai-automation', label: 'AI & Automation' },
 ];
+
+export const topics: FilterItem[] = baseTopics.map(topic => {
+  const count = mockBrochures.filter(b => b.tags.some(tag => tag.toLowerCase() === topic.label.toLowerCase())).length;
+  return { ...topic, count };
+}).filter(topic => topic.count > 0);
 
 const DownloadIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -122,6 +132,8 @@ export default function BrochuresSection() {
               )}
             </div>
 
+            {/* Topic Accordion (Temporarily Hidden) */}
+            {/*
             <div className={styles.accordionSection}>
               <button className={styles.accordionHeader} onClick={() => setTopicOpen(!topicOpen)}>
                 Topic
@@ -144,6 +156,7 @@ export default function BrochuresSection() {
                 </div>
               )}
             </div>
+            */}
 
             
           </aside>
@@ -207,7 +220,7 @@ export default function BrochuresSection() {
                   <p className={styles.pdfInfo}>
                     PDF | {featuredBrochure.pdfPages} Pages | {featuredBrochure.pdfSize}
                   </p>
-                  <a href="/brochures" className="btn-outline btn-outline-red">
+                  <a href={featuredBrochure.pdfUrl || "#"} download className="btn-outline btn-outline-red">
                     <DownloadIcon />
                     Download Brochure
                   </a>
@@ -242,7 +255,7 @@ export default function BrochuresSection() {
                       PDF | {brochure.pdfPages} Pages | {brochure.pdfSize}
                     </p>
                     <div>
-                      <a href="/brochures" className={styles.downloadBtnTextOnly}>
+                      <a href={brochure.pdfUrl || "#"} download className={styles.downloadBtnTextOnly}>
                         <DownloadIcon />
                         Download Brochure
                       </a>

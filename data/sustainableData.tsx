@@ -92,7 +92,7 @@ export const StructuredIndependent: SustainableContent = {
       text: "Focus on long-term value creation and risk management"
     }
   ],
-  imageSrc: "/images/blogs-inner.webp", // Replace with actual 3-leaves image
+  imageSrc: "/images/Business-&-Financial-Advisory/Structured,-Independent,-and-Insight-Led.webp", // Replace with actual 3-leaves image
   imageAlt: "Sustainable Leaves"
 };
 
@@ -140,7 +140,7 @@ export const GoverningDigitalFrontierData: SustainableContent = {
       <p>We don’t treat governance as a checkpoint, it is embedded into how we design, build, and scale.</p>
     </>
   ),
-  imageSrc: "/images/Corporate-Governance/governance/Governing-the-Digital-Frontier.webp",
+  imageSrc: "/images/Corporate-Governance/Corporate-Governance.webp",
   imageAlt: "Governing the Digital Frontier"
 };
 

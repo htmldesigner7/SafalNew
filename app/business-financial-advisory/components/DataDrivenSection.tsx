@@ -5,7 +5,7 @@ import styles from './DataDrivenSection.module.css';
 const dataDrivenComplianceData = {
   title: <>Data-Driven and<br/>Compliance-Focused</>,
   description: <>Safal’s approach to business and financial advisory services is grounded in financial data, regulatory requirements, and structured analysis.<br/><br/>Each engagement is executed with a focus on accuracy, transparency, and compliance, ensuring that decisions are supported by verifiable data and aligned with applicable frameworks.<br/><br/>Our methodology integrates financial evaluation, risk assessment, and regulatory alignment into a cohesive advisory process. This ensures that every recommendation is backed by structured analysis, enabling organizations to make informed decisions while maintaining consistency across financial, operational, and compliance dimensions.</>,
-  imageSrc: "/images/blogs/blogs.webp", 
+  imageSrc: "/images/Business-&-Financial-Advisory/Data-Driven-and-Compliance-Focused.webp", 
   imageAlt: "Data Driven Steps"
 };
 

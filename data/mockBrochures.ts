@@ -5,6 +5,7 @@ export interface Brochure {
   tags: string[];
   pdfPages: number;
   pdfSize: string;
+  pdfUrl?: string;
   isFeatured?: boolean;
 }
 

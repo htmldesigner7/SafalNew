@@ -7,7 +7,7 @@ export const advisoryEcosystemsData = {
     {
       id: '01',
       title: 'Corporates',
-      image: '/images/Business-&-Financial-Advisory/Business-Advisory.webp', // User will replace with their corporate image
+      image: '/images/Business-&-Financial-Advisory/Corporates-2.webp', // User will replace with their corporate image
       description: "Organizations requiring structured business and financial advisory across operations, governance, and compliance. We help corporates strengthen financial oversight and governance, enabling better decision-making, transparency, and long-term stability. ",
     },
     {
