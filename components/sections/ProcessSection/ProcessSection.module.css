@@ -55,7 +55,7 @@
 .lineToCenter {
   width: 140px;
   height: 1px;
-  background-color: var(--active-color);
+  background-color: #5A8A44;
   position: relative;
 }
 
@@ -67,7 +67,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: var(--active-color);
+  background-color: #5A8A44;
 }
 
 

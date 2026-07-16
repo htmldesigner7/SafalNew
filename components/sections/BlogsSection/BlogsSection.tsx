@@ -13,9 +13,9 @@ interface FilterItem {
 }
 
 const contentTypes: FilterItem[] = [
-  { id: 'blog-posts', label: 'Blog Posts', count: 42 },
-  { id: 'case-studies', label: 'Case Studies', count: 15 },
-  { id: 'white-papers', label: 'White Papers', count: 8 },
+  { id: 'blog-posts', label: 'Blog Posts', count: mockPosts.filter(p => p.tags.includes('Blog Posts')).length },
+  { id: 'case-studies', label: 'Case Studies', count: mockPosts.filter(p => p.tags.includes('Case Studies')).length },
+  // { id: 'white-papers', label: 'White Papers', count: 8 },
 ];
 
 const topics: FilterItem[] = [
@@ -32,7 +32,7 @@ const CalendarIcon = () => (
 );
 
 export default function BlogsSection() {
-  const [activeType, setActiveType] = useState<string>('');
+  const [activeType, setActiveType] = useState<string>('blog-posts');
   const [activeTopic, setActiveTopic] = useState<string>('');
 
   const [typeOpen, setTypeOpen] = useState(true);
@@ -114,7 +114,8 @@ export default function BlogsSection() {
               )}
             </div>
 
-            {/* Topic Accordion */}
+            {/* Topic Accordion (Temporarily Hidden) */}
+            {/* 
             <div className={styles.accordionSection}>
               <button className={styles.accordionHeader} onClick={() => setTopicOpen(!topicOpen)}>
                 Topic
@@ -136,7 +137,8 @@ export default function BlogsSection() {
                   ))}
                 </div>
               )}
-            </div>
+            </div> 
+            */}
           </aside>
 
           {/* Mobile Filter Toggle */}
@@ -186,7 +188,7 @@ export default function BlogsSection() {
                 <div className={styles.featuredContent}>
                   <div className={styles.metaData}>
                     <div className={styles.date}>
-                      <CalendarIcon />
+                      {/* <CalendarIcon /> */}
                       {featuredPost.date}
                     </div>
                     <div className={styles.categoryTags}>
@@ -196,7 +198,7 @@ export default function BlogsSection() {
                   </div>
                   <h2 className="title_40">{featuredPost.title}</h2>
                   <p className={styles.featuredDesc}>{featuredPost.description}</p>
-                  <Link href={`/blogs/${featuredPost.id}`} className="btn-outline btn-outline-red" style={{ display: 'inline-block', textAlign: 'center' }}>Read more</Link>
+                  <Link href={featuredPost.tags.includes('Case Studies') ? '/case-studies' : `/blogs/${featuredPost.id}`} className="btn-outline btn-outline-red">Read more</Link>
                 </div>
               </div>
             )}
@@ -217,7 +219,7 @@ export default function BlogsSection() {
                     <div className={styles.cardContent}>
                       <div className={styles.metaData}>
                         <div className={styles.date}>
-                          <CalendarIcon />
+                          {/* <CalendarIcon /> */}
                           {post.date}
                         </div>
                         <div className={styles.categoryTags}>
@@ -227,7 +229,7 @@ export default function BlogsSection() {
                       </div>
                       <h3 className="title_24">{post.title}</h3>
                       <p className={styles.cardDesc}>{post.description}</p>
-                      <Link href={`/blogs/${post.id}`} className={styles.cardReadMore}>
+                      <Link href={post.tags.includes('Case Studies') ? '/case-studies' : `/blogs/${post.id}`} className={styles.cardReadMore}>
                         Read More
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -242,7 +244,7 @@ export default function BlogsSection() {
               <div style={{ textAlign: 'center', padding: '60px 20px' }}>
                 <h3 className="title_24 mb_20">No matching posts found</h3>
                 <p style={{ color: 'var(--grey-666)', marginBottom: '24px' }}>Try adjusting your filters or search criteria to find what you're looking for.</p>
-                <button className="btn-outline btn-outline-red" onClick={handleClearAll} style={{ display: 'inline-block' }}>Clear All Filters</button>
+                <button className="btn-outline btn-outline-red" onClick={handleClearAll}>Clear All Filters</button>
               </div>
             ) : null}
 

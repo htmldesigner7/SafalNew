@@ -8,7 +8,7 @@ export default function BrochuresPage() {
       <InnerPageHero 
         title={<>Capabilities, Designed for Action</>}
         description="Access curated brochures that bring together our capabilities, solutions, and strategic thinking, crafted to help you understand, evaluate, and move forward with clarity."
-        imageSrc="/images/hero_3d_book.png"
+        imageSrc="/images/banner-images/blogs.webp"
         imageAlt="3D Glass Book"
       />
       <BrochuresSection />

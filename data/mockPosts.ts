@@ -1,6 +1,10 @@
+import React from 'react';
+
 export interface BlogSection {
   heading?: string;
+  subheading?: string;
   paragraphs?: string[];
+  paralist?: React.ReactNode[];
   imageSrc?: string;
   imageAlt?: string;
 }
@@ -9,6 +13,7 @@ export interface BlogPost {
   id: string;
   title: string;
   description: string;
+  paralist?: React.ReactNode[];
   imageSrc: string;
   date: string;
   tags: string[];
@@ -16,81 +21,10 @@ export interface BlogPost {
   content?: BlogSection[];
 }
 
+import { blogsData } from './blogs';
+import { caseStudiesData } from './caseStudies';
+
 export const mockPosts: BlogPost[] = [
-  {
-    id: 'post-1',
-    title: 'Transforming Manufacturing with AI',
-    description: 'Discover how artificial intelligence is revolutionizing the manufacturing sector with predictive maintenance and automated quality control.',
-    imageSrc: "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
-    date: '10-March-2024',
-    tags: ['AI & Automation', 'Manufacturing'],
-    isFeatured: true,
-    content: [
-      {
-        heading: "The Dawn of AI in Manufacturing",
-        paragraphs: [
-          "Artificial intelligence is no longer just a buzzword; it is actively reshaping the global manufacturing landscape. From predictive maintenance that anticipates machine failures before they happen, to advanced computer vision systems that inspect products with flawless precision, AI is driving unprecedented efficiency.",
-          "By implementing smart automation, factories are significantly reducing downtime and minimizing waste. The ability to process massive amounts of operational data in real-time allows managers to make strategic decisions instantly, saving millions of dollars annually."
-        ]
-      },
-      {
-        heading: "Automated Quality Control",
-        paragraphs: [
-          "One of the most immediate benefits of integrating AI into manufacturing is the drastic improvement in quality control. Traditional manual inspections are prone to human error and fatigue. In contrast, AI-powered cameras and sensors can detect microscopic defects on an assembly line moving at high speeds.",
-          "This continuous, automated scrutiny ensures that only products meeting the highest standards reach the consumer, protecting brand reputation and reducing costly recalls."
-        ]
-      }
-    ]
-  },
-  {
-    id: 'post-2',
-    title: 'The Future of Cloud ERP',
-    description: 'Learn why modern enterprises are migrating to cloud-based ERP solutions for better scalability and real-time insights.',
-    imageSrc: "/images/blogs/blogs.webp",
-    date: '05-April-2024',
-    tags: ['ERP Solutions', 'Cloud Migration'],
-    content: [
-      {
-        heading: "Breaking Down Legacy Silos",
-        paragraphs: [
-          "For decades, organizations have struggled with fragmented on-premise systems that isolate data within specific departments. Cloud ERP solutions are breaking down these silos by providing a single, unified source of truth across the entire enterprise.",
-          "This centralization empowers teams with real-time access to critical financial, operational, and supply chain metrics, fostering collaboration and accelerating growth."
-        ]
-      }
-    ]
-  },
-  {
-    id: 'post-3',
-    title: 'Aviation Tech Innovations',
-    description: 'Explore the latest technological advancements in the aviation industry, from predictive analytics to autonomous systems.',
-    imageSrc: '/images/hero-3d.jpg',
-    date: '12-May-2024',
-    tags: ['Aviation Tech', 'Case Studies'],
-    content: [
-      {
-        heading: "Re-imagining the Skies",
-        paragraphs: [
-          "The aviation industry is undergoing a digital renaissance. Airlines and aerospace manufacturers are heavily investing in predictive analytics to optimize flight paths, reduce fuel consumption, and enhance passenger safety.",
-          "Furthermore, autonomous systems and advanced robotics are streamlining ground operations and maintenance protocols, ensuring faster turnarounds and minimizing costly delays."
-        ]
-      }
-    ]
-  },
-  {
-    id: 'post-4',
-    title: 'Streamlining Finance Operations',
-    description: 'How digital transformation is helping financial institutions automate compliance and improve customer experience.',
-    imageSrc: "/images/Become-a-Partner/Becomepartner/Technology-Integrations.webp",
-    date: '20-June-2024',
-    tags: ['Finance', 'AI & Automation'],
-    content: [
-      {
-        heading: "The Digital Financial Ecosystem",
-        paragraphs: [
-          "Financial institutions are under constant pressure to innovate while adhering to strict regulatory frameworks. Digital transformation is enabling these organizations to automate complex compliance reporting, drastically reducing the risk of human error.",
-          "Beyond compliance, AI-driven chatbots and personalized financial algorithms are transforming the customer experience, offering tailored insights and instantaneous support that modern consumers expect."
-        ]
-      }
-    ]
-  }
+  ...blogsData,
+  ...caseStudiesData
 ];

@@ -19,7 +19,7 @@ export default function LegacyAccountability() {
         <div className={styles.rightCol}>
           <div className={styles.imageWrapper}>
             <Image 
-              src="/images/Corporate-Governance/governance/A-Legacy-of-Accountability.webp" 
+              src="/images/Corporate-Governance/Corporate-Governance-2.webp" 
               alt="Legacy of Accountability Hourglass" 
               fill 
               style={{ objectFit: 'contain' }}

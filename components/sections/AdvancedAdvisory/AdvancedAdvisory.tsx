@@ -40,7 +40,7 @@ export default function AdvancedAdvisory() {
           {/* Left Column - Main Graphic */}
           <div className={styles.imageCol}>
             <Image 
-              src="/images/Homepage/Manufacturing-1.webp" 
+              src="/images/Business-&-Financial-Advisory/Advanced-Financial-&-Regulatory-Advisory.webp" 
               alt="Advanced Financial Analytics"
               fill
               className={styles.mainImage}

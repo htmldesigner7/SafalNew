@@ -110,7 +110,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>At Safal Group, internships are not simulations.<br />You will ship real code, contribute to live systems, and work alongside engineers, strategists, and creators shaping global enterprises.</p>
         <p>This is where raw potential is forged into execution.</p>
       </>,
-      imageSrc: "/images/Internships-&-Mentorship/Internships-&-Mentorship.png",
+      imageSrc: "/images/banner-images/Internships-&-Mentorship.webp",
       imageAlt: "Internships and Mentorship",
     }
   },
@@ -134,12 +134,25 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Insights & Innovations</strong>
+          <strong>Insights & Strategic Foresight</strong>
         </>
       ),
-      description: "Dive into our latest thoughts on technology, enterprise scale, and the future of global engineering. Stay ahead with deep-dives written by our architects and visionaries.",
+      description: "Explore deep-dives, industry perspectives, and technology insights from the minds shaping enterprise innovation at Safal.",
       imageSrc: "/images/blogs/blogs.webp",
       imageAlt: "Blogs Hero Image",
+    }
+  },
+
+  caseStudies: {
+    hero: {
+      title: (
+        <>
+          <strong>Execution That Delivers Measurable Impact</strong>
+        </>
+      ),
+      description: "Explore how we partner with enterprises to solve complex challenges, build scalable systems, and deliver outcomes that drive real business growth.",
+      imageSrc: "/images/blogs/blogs.webp",
+      imageAlt: "Case Studies Hero Image",
     }
   },
 
@@ -250,7 +263,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       description: <>
         <p>Innovation without discipline creates risk.<br />At Safal, governance is engineered into every layer, ensuring that technological advancement, market expansion, and venture growth operate within uncompromising global standards of compliance, accountability, and responsibility.</p>
       </>,
-      imageSrc: "/images/Corporate-Governance/Corporate-Governance.webp",
+      imageSrc: "/images/banner-images/Corporate-Governance.webp",
       imageAlt: "Corporate Governance Pillar",
     }
   },

@@ -13,7 +13,7 @@ export default function Header() {
   const pathname = usePathname();
 
   // Determine if we need dark text/links (e.g. for blog details page or webinars)
-  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars') || pathname?.startsWith('/case-studies');
+  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars');
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
