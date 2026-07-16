@@ -7,8 +7,8 @@ export const blogsData: BlogPost[] = [
     title: 'Top ERP Trends Driving the Industry 4.0 Revolution',
     description: 'The ERP landscape is buzzing with innovation, fueled by technologies that align with Industry 4.0’s focus on connectivity and automation. Here are the trends reshaping the future:',
     imageSrc: "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
-    date: '10-July-2024',
-    tags: ['Blog Posts', 'ERP Solutions'],
+    date: '',
+    tags: ['Blog Posts'],
     isFeatured: true,
     content: [
       {
@@ -22,6 +22,9 @@ export const blogsData: BlogPost[] = [
           <><b>SaaS and XaaS ERP:</b> Software-as-a-Service models offer secure, scalable solutions with IoT integration.</>,
           <><b>OpenLogic ERP:</b> This customizable, low-code platform empowers businesses to automate workflows and integrate tools without technical expertise.</>
         ],
+
+      },
+      {
         paragraphs: [
           "These trends position ERP as a catalyst for innovation, helping businesses thrive in a tech-driven world."
         ]
@@ -30,11 +33,11 @@ export const blogsData: BlogPost[] = [
   },
   {
     id: 'post-2',
-    title: 'The Evolution and Benefits of Modern ERP Systems',
+    title: 'How Effective Are ERP Systems for Your Business? Top Benefits and Insights',
     description: 'ERP systems have evolved into powerful tools that transform how businesses operate. From automating tasks to delivering real-time insights, they offer a wealth of benefits:',
     imageSrc: "/images/blogs/blogs.webp",
-    date: '15-July-2024',
-    tags: ['Blog Posts', 'ERP Solutions'],
+    date: '',
+    tags: ['Blog Posts'],
     content: [
       {
         paralist: [
@@ -45,6 +48,9 @@ export const blogsData: BlogPost[] = [
           <><b>Improved Customer Experience:</b> Integrate with eCommerce and IoT for seamless, personalized interactions.</>,
           <><b>Remote Work Support:</b> Cloud ERP enables distributed teams to collaborate effectively, a must in today’s hybrid world.</>
         ],
+
+      },
+      {
         paragraphs: [
           "By integrating advanced technologies like AI and IoT, ERP systems empower businesses to stay agile, efficient, and ready for the future."
         ]
@@ -53,11 +59,11 @@ export const blogsData: BlogPost[] = [
   },
   {
     id: 'post-3',
-    title: 'The Unsung Heroes of Business Operations: MIS, DSS, and EIS',
+    title: 'How Management Information Systems, Decision Support Systems, and Executive Information Systems Work Together',
     description: 'Management Information Systems (MIS), Decision Support Systems (DSS), and Executive Information Systems (EIS) are the unsung heroes of business operations. Together, they enhance connectivity, streamline processes, and empower smarter decisions. Here’s how they collaborate:',
     imageSrc: "/images/banner-images/Open-Positions.webp",
-    date: '20-July-2024',
-    tags: ['Blog Posts', 'Data & Analytics'],
+    date: '',
+    tags: ['Blog Posts'],
     content: [
       {
         paralist: [
@@ -65,6 +71,9 @@ export const blogsData: BlogPost[] = [
           <><b>Decision Support Systems (DSS):</b> DSS equips managers with tools to analyze data, generate reports, and make informed decisions across planning, operations, and sales. It’s your go-to for swift, accurate choices.</>,
           <><b>Executive Information Systems (EIS):</b> Designed for senior leaders, EIS blends MIS and DSS capabilities with advanced analytics and large-scale data storage. It delivers strategic insights for high-stakes decisions.</>
         ],
+
+      },
+      {
         paragraphs: [
           "MIS feeds data to DSS and EIS, enabling both to provide actionable insights. DSS supports operational decisions, while EIS empowers executives with a strategic edge. This interconnected trio creates a seamless ecosystem that drives efficiency and growth."
         ]
@@ -73,11 +82,11 @@ export const blogsData: BlogPost[] = [
   },
   {
     id: 'post-4',
-    title: 'Common ERP Implementation Pitfalls and How to Avoid Them',
+    title: 'Top Reasons Why Enterprise Resource Planning (ERP) Implementations Fail',
     description: 'ERP systems promise streamlined operations, but without the right approach, they can fall short. The road to failure is often paved with misaligned goals, poor planning, or unrealistic expectations. Look at the most common things and how to sidestep them:',
     imageSrc: "/images/banner-images/Industrial-Automation-&-IoT.webp",
-    date: '25-July-2024',
-    tags: ['Blog Posts', 'ERP Implementation'],
+    date: '',
+    tags: ['Blog Posts'],
     content: [
       {
         paralist: [
@@ -91,6 +100,9 @@ export const blogsData: BlogPost[] = [
           <><b>Lack of Ownership:</b> Unclear leadership or accountability creates confusion. Assign clear roles and empower executives to drive the project.</>,
           <><b>Short-Term Thinking:</b> Prioritizing quick wins over long-term success limits impact. Plan strategically for sustained growth.</>
         ],
+
+      },
+      {
         paragraphs: [
           "By addressing these pitfalls with careful planning, stakeholder alignment, and disciplined execution, you can turn ERP challenges into opportunities for success."
         ]
@@ -99,11 +111,11 @@ export const blogsData: BlogPost[] = [
   },
   {
     id: 'post-5',
-    title: 'A Guide to Successful ERP Implementation: Key Approaches and Phases',
+    title: 'Enterprise Resource Planning Implementation Types & Methods',
     description: 'Implementing an ERP system is a transformative journey that integrates critical functions like Finance, Materials Management, Sales, and HR. Success hinges on careful planning and a structured approach. Here’s how to navigate the process effectively.',
     imageSrc: "/images/blogs/blogs.webp",
-    date: '30-July-2024',
-    tags: ['Blog Posts', 'ERP Solutions'],
+    date: '',
+    tags: ['Blog Posts'],
     content: [
       {
         heading: 'Key Implementation Approaches',
@@ -134,10 +146,35 @@ export const blogsData: BlogPost[] = [
           <><b>Deployment:</b> Transfer master data, go live, and address teething issues with post-go-live support.</>,
           <><b>Support & Updates:</b> Listen to user feedback, fix bugs, add features, and provide ongoing training to maximize value.</>
         ],
+
+      },
+      {
         paragraphs: [
           "By following these phases and engaging stakeholders, you'll pave the way for a successful ERP implementation."
         ]
       }
+    ]
+  },
+  {
+    id: 'post-6',
+    title: 'POS FOR RETAIL OUTLETS?',
+    description: <>
+      <p>The revolution of Digital India is transforming the country into a place of digitally empowered businesses and a fast economy. Small and medium sized enterprises have started implementing commercial software to scale their business. The most recommended software for such businesses is the DataNote OpenLogic POS system.</p>
+      <p>DataNote POS (point of sale) helps customers to make purchases, record transactions and sales data, view performance reports, and helps businesses to manage all the aspects of operations, including sales, inventory management, and customer management. DataNote POS generates data from each transaction that gives better insight into the business operation. Analyzed data improves business accuracy and multiplies revenue.</p>
+      <p>Here, see how you can run your business the right way in today’s highly competitive environment through DataNote POS.</p>
+    </>,
+    imageSrc: "/images/blogs/blogs.webp",
+    date: '',
+    tags: ['Blog Posts'],
+    content: [
+      {
+        heading: 'Right ways to run your Business',
+        paragraphs: [
+
+        ],
+       
+      },
+
     ]
   }
 ];
