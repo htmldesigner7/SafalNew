@@ -124,25 +124,21 @@ export const structuredExecutionData = [
   {
     id: 0,
     title: "01. Strategy",
-    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
-    </>,
+    description: "We begin by understanding business objectives, operational challenges, and growth priorities. This foundation shapes a structured roadmap, ensuring every system and solution we build aligns with long-term enterprise outcomes.",
   },
   {
     id: 1,
     title: "02. Design",
-    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
-    </>,
+    description: "We translate strategy into structured system architecture and user experience frameworks, spanning ERP interfaces, digital platforms, and brand touchpoints. This ensures consistency and scalability as the business evolves.",
   },
   {
     id: 2,
     title: "03. Execution",
-    description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
-    </>,
+    description: "We bring strategy and design to life through structured implementation, integrating enterprise systems, automation, and digital platforms. Every deliverable is aligned with defined timelines and technical precision from planning through deployment.",
   },
   {
     id: 3,
     title: "04. Optimization",
-   description: <>Every engagement follows a defined process from understanding business objectives to building design systems, executing campaigns, and continuously optimizing performance. <br /><br />This structured approach ensures alignment between brand, communication, and business outcomes.
-    </>,
+   description: "We continuously monitor system performance, analyze operational data, and refine processes through ongoing optimization. This ensures sustained efficiency, scalability, and alignment between technology and business outcomes over time.",
   }
 ];

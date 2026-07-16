@@ -28,8 +28,8 @@ export const EconomicData: IntelligenceData = {
   title: <>The Safal Economic Moat</>,
   description: <>
   <p>Our competitive advantage is engineered, not assumed.</p>
-  <p>Through proprietary AI engines, low-code frameworks, and integrated infrastructure, we optimize both client outcomes and internal efficiencies. This dual advantage strengthens margins, enhances scalability, and builds long-term resilience.</p>
-  <p>As our ecosystem expands, so does our ability to create defensible market positioning, ensuring sustained performance in evolving global conditions.</p>
+  <p>Through proprietary AI engines, low-code frameworks, and integrated infrastructure, we optimize client outcomes and internal efficiencies, strengthening margins, scalability, and long-term resilience.</p>
+  <p>As our ecosystem expands, so does our ability to build defensible market positioning and sustain performance in evolving global conditions.</p>
   </>,
   buttonText: "Download Q3 Earnings Presentation"
 };
