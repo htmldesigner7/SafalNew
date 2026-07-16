@@ -61,7 +61,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>Welcome to Safal Group Investor Relations.<br />We engineer long-term shareholder value through disciplined execution, strategic diversification, and deep-tech innovation across global enterprise markets.</p>
         <p>Our approach combines a strong balance sheet, precise capital allocation, and operational velocity, designed to deliver consistent, compounding growth.</p>
       </>,
-      imageSrc: "/images/Investor-Relations/Investor-Relations.webp",
+      imageSrc: "/images/Values-&-Culture/Values-&-Culture.webp",
       imageAlt: "Values & Culture",
     }
   },
@@ -262,7 +262,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         </>
       ),
       description: "At Safal Group, sustainability is not an initiative; it is embedded into how we architect systems.We design low-friction digital ecosystems and intelligent infrastructure that reduce energy consumption, minimize waste, and enable enterprises to move toward measurable ESG outcomes.",
-      imageSrc: "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp",
+      imageSrc: "/images/banner-images/Sustainability.webp",
       imageAlt: "Sustainability Hero",
     }
   },
@@ -278,7 +278,7 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
         <p>At Safal Group, we don’t hire for static roles, we hire for upward trajectories.<br />You’re not stepping into a job; you’re entering a system designed to accelerate your growth.</p>
         <p>Join a borderless matrix where deep engineering meets creative strategy, and contribute to building the digital backbone of tomorrow.</p>
       </>,
-      imageSrc: "/images/Careers/safal-careers-hero.webp",
+      imageSrc: "/images/Open-Positions/Open-Positions.webp",
       imageAlt: "Open positions Hero",
     }
   }

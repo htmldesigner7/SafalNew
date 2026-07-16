@@ -245,11 +245,11 @@
   }
 
   .activeNumber {
-    font-size: 50px;
+    font-size: 48px;
   }
 
   .inactiveNumber {
-    font-size: 45px;
+    font-size: 42px;
   }
 
   .inactiveTitle {
@@ -269,12 +269,10 @@
     margin-bottom: 30px;
   }
 
-  .activeNumber {
-    font-size: 55px;
-  }
+
 
   .inactiveNumber {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .inactiveTitle {
@@ -307,9 +305,6 @@
     flex: 6;
   }
 
-  .activeNumber {
-    font-size: 50px;
-  }
 
   .inactiveNumber {
     font-size: 36px;
