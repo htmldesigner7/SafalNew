@@ -17,6 +17,7 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: "Safal App",
   description: "Simple new project setup",
+  
 };
 
 export default function RootLayout({
