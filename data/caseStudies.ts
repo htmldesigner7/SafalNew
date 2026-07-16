@@ -3,18 +3,17 @@ import { BlogPost } from './mockPosts';
 export const caseStudiesData: BlogPost[] = [
   {
     id: 'post-3',
-    title: 'Aviation Tech Innovations',
-    description: 'Explore the latest technological advancements in the aviation industry, from predictive analytics to autonomous systems.',
+    title: 'Kabhi B (Kanhai Foods Ltd.)',
+    description: 'A leading food manufacturing and retail brand, Kabhi B required a unified system to connect production, distribution, and retail operations across 100+ outlets. By implementing an integrated ERP and Distribution Management System, the organization achieved real-time inventory visibility, batch-level traceability, and demand-driven production planning, transforming a fragmented network into a synchronized, data-driven ecosystem.',
     imageSrc: '/images/hero-3d.jpg',
-    date: '12-May-2024',
-    tags: ['Case Studies', 'Aviation Tech'],
+    date: '',
+    tags: ['Case Studies'],
     content: [
       {
-        heading: "Re-imagining the Skies",
-        subheading: "Enhancing Efficiency Through Technology",
+        heading: "Driving Real-Time Control in Continuous Steel Processing",
+        subheading: "Allmark Industries Pvt. Ltd.",
         paragraphs: [
-          "The aviation industry is undergoing a digital renaissance. Airlines and aerospace manufacturers are heavily investing in predictive analytics to optimize flight paths, reduce fuel consumption, and enhance passenger safety.",
-          "Furthermore, autonomous systems and advanced robotics are streamlining ground operations and maintenance protocols, ensuring faster turnarounds and minimizing costly delays."
+          "Operating a high-speed galvanizing line, American Precoat needed precise production visibility and cost accuracy. A fully integrated ERP enabled coil-level traceability, real-time reporting, and reduced zinc wastage by 50%, significantly improving operational and financial efficiency."
         ]
       }
     ]
@@ -24,12 +23,12 @@ export const caseStudiesData: BlogPost[] = [
     title: 'Streamlining Finance Operations',
     description: 'How digital transformation is helping financial institutions automate compliance and improve customer experience.',
     imageSrc: "/images/Become-a-Partner/Becomepartner/Technology-Integrations.webp",
-    date: '20-June-2024',
-    tags: ['Case Studies', 'Finance', 'AI & Automation'],
+    date: '',
+    tags: ['Case Studies',],
     content: [
       {
         heading: "The Digital Financial Ecosystem",
-        subheading: "Enhancing Efficiency Through Technology",
+        subheading: "Enhancing Efficiency Through Technology11",
         paragraphs: [
           "Financial institutions are under constant pressure to innovate while adhering to strict regulatory frameworks. Digital transformation is enabling these organizations to automate complex compliance reporting, drastically reducing the risk of human error.",
           "Beyond compliance, AI-driven chatbots and personalized financial algorithms are transforming the customer experience, offering tailored insights and instantaneous support that modern consumers expect."

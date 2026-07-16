@@ -188,7 +188,7 @@ export default function BlogsSection() {
                 <div className={styles.featuredContent}>
                   <div className={styles.metaData}>
                     <div className={styles.date}>
-                      <CalendarIcon />
+                      {/* <CalendarIcon /> */}
                       {featuredPost.date}
                     </div>
                     <div className={styles.categoryTags}>
@@ -219,7 +219,7 @@ export default function BlogsSection() {
                     <div className={styles.cardContent}>
                       <div className={styles.metaData}>
                         <div className={styles.date}>
-                          <CalendarIcon />
+                          {/* <CalendarIcon /> */}
                           {post.date}
                         </div>
                         <div className={styles.categoryTags}>
