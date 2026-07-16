@@ -10,6 +10,7 @@ export interface BlogPost {
   id: string;
   title: string;
   description: string;
+  paralist?: string[];
   imageSrc: string;
   date: string;
   tags: string[];
