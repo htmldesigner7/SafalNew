@@ -14,7 +14,7 @@ const getJobApplicationUserTemplate = (name: string, jobId: string) => {
     headerColor: "#E33A36",
     contentHtml: `
         <h2>Hi ${name},</h2>
-        <p>Thank you for applying for the position (Job ID: ${jobId}) with us! We have successfully received your application and resume.</p>
+        <p>Thank you for applying for the position of: ${jobId}. We have successfully received your application and resume.</p>
         <p>Our team will review your profile and get back to you if your qualifications match our current openings.</p>
         <p>In the meantime, feel free to explore our website to learn more about our company culture and projects.</p>
         <a href="${process.env.SITE_URL}" class="btn" style="color: #ffffff; text-decoration: none;">View our website</a>
