@@ -92,7 +92,7 @@ export const brandIndustryApplicationsData = {
     {
       id: '06',
       title: 'Technology & Startups',
-      image: '/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp',
+      image: '/images/Brand,-Digital-&-Creative-Services/Technology&Startup.webp',
       description: ''
     }
   ]

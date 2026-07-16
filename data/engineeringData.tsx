@@ -174,7 +174,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
       subtitle: "",
       title: "Business Structuring & Financial Planning",
       description: "Structured advisory across business models, financial planning, and governance frameworks.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Business-Advisory.webp"
+      imageSrc: "/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1.webp"
     },
     {
       id: "corporate-governance",
@@ -182,7 +182,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
       subtitle: "",
       title: "Due Diligence for Investment Decisions",
       description: "Evaluation of financial, operational, and compliance factors to support investment decisions.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Due-Diligence.webp"
+      imageSrc: "/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-2.webp"
     },
     {
       id: "annual-reports",
@@ -190,7 +190,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
       subtitle: "",
       title: "Valuation & Transaction Support",
       description: "Delivery of business valuation and financial advisory services across transaction scenarios and investment processes.",
-      imageSrc: ""
+      imageSrc: "/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-3.webp"
     },
     {
       id: "esg-disclosures",
@@ -198,7 +198,7 @@ export const AdvisoryAcrossDiverse: EngineeringContent = {
       subtitle: "",
       title: "Internal Audit & Compliance Review",
       description: "Assessment of internal systems and controls to strengthen governance and reduce risk exposure.",
-      imageSrc: "/images/Business-&-Financial-Advisory/Internal-Audits.webp"
+      imageSrc: "/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-4.webp"
     }
   ]
 };
