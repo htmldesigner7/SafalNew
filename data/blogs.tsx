@@ -14,22 +14,35 @@ export const blogsData: BlogPost[] = [
     content: [
       {
         heading: "",
-        paragraphs: [
+        paragraphs:[
           ""
         ],
+        
         paralist: [
           <><b>Cloud ERP:</b> With simpler deployment, lower costs, and unmatched agility, cloud ERP is a game-changer. It proved invaluable during the pandemic by supporting remote work.  
           </>,
-          <><b>Cloud ERP:</b> With simpler deployment, lower costs, and unmatched agility, cloud ERP is a game-changer. It proved invaluable during the pandemic by supporting remote work.  
+          <><b>Multi-Tier ERP:</b>  Large organizations use tier-1 ERP at the corporate level and cloud-based tier-2 solutions for subsidiaries, ensuring seamless data exchange.
+          </>,
+          <><b>Digital Transformation:</b> IoT, AI, and analytics enhance visibility, boost revenue, and improve customer service.
+          </>,
+          <><b>Customized ERP:</b> Low-code platforms enable tailored solutions with user-friendly dashboards and AI-driven chatbots.
+          </>,
+          <><b>AI, ML, AR, and VR:</b> These technologies personalize experiences and optimize processes, from predictive analytics to immersive training.
+          </>,
+          <><b>Mobile ERP:</b> Mobile apps provide on-the-go access to critical data, boosting productivity with tasks like approvals and tracking.
+          </>,
+          <><b>SaaS and XaaS ERP:</b> Software-as-a-Service models offer secure, scalable solutions with IoT integration.
+          </>,
+          <><b>OpenLogic ERP:</b> This customizable, low-code platform empowers businesses to automate workflows and integrate tools without technical expertise.
           </>,
 
         ],
+        
       },
       {
-        heading: "Automated Quality Control",
+        heading: "",
         paragraphs: [
-          "One of the most immediate benefits of integrating AI into manufacturing is the drastic improvement in quality control. Traditional manual inspections are prone to human error and fatigue. In contrast, AI-powered cameras and sensors can detect microscopic defects on an assembly line moving at high speeds.",
-          "This continuous, automated scrutiny ensures that only products meeting the highest standards reach the consumer, protecting brand reputation and reducing costly recalls.",
+          "",
 
         ]
       }
