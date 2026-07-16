@@ -7,6 +7,12 @@
   padding-bottom: 60px;
 }
 
+.imageWrapper
+{
+ display: flex;
+ justify-content: center;
+}
+
 
 /* =========================================================
    Responsive Breakpoints

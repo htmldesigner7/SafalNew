@@ -1,112 +1,45 @@
 "use client";
 
-import { useState } from 'react';
 import Image from 'next/image';
 import toast, { Toaster } from 'react-hot-toast';
 import styles from './ContactForm.module.css';
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { contactSchema } from "@/validation/contactSchema";
+import { z } from "zod";
+
+type ContactFormData = z.infer<typeof contactSchema>;
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    fullName: '',
-    service: '',
-    phone: '',
-    email: '',
-    message: ''
-  });
-  
-  const [errors, setErrors] = useState({
-    fullName: '',
-    email: '',
-    phone: '',
-    message: ''
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<ContactFormData>({
+    resolver: zodResolver(contactSchema),
   });
 
-  const [status, setStatus] = useState<'idle' | 'loading'>('idle');
-
-  const validate = () => {
-    let isValid = true;
-    const newErrors = { fullName: '', email: '', phone: '', message: '' };
-
-    if (!formData.fullName.trim()) {
-      newErrors.fullName = 'Full Name is required';
-      isValid = false;
-    } else if (formData.fullName.trim().length < 2) {
-      newErrors.fullName = 'Name must be at least 2 characters';
-      isValid = false;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
-      isValid = false;
-    } else if (!emailRegex.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
-      isValid = false;
-    }
-
-    if (formData.phone && formData.phone.replace(/[^0-9]/g, '').length < 10) {
-      newErrors.phone = 'Please enter a valid 10-digit phone number';
-      isValid = false;
-    }
-
-    if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
-      isValid = false;
-    } else if (formData.message.trim().length < 10) {
-      newErrors.message = 'Message must be at least 10 characters long';
-      isValid = false;
-    }
-
-    setErrors(newErrors);
-    
-    if (!isValid) {
-      toast.error('Please fix the errors in the form.');
-    }
-    
-    return isValid;
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    // Clear error as user types
-    if (errors[name as keyof typeof errors]) {
-      setErrors(prev => ({ ...prev, [name]: '' }));
-    }
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!validate()) {
-      return;
-    }
-
-    setStatus('loading');
+  const onSubmit = async (data: ContactFormData) => {
     const loadingToast = toast.loading('Submitting your message...');
-
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(data)
       });
 
-      console.log(res)
-
-      const data = await res.json();
+      const responseData = await res.json();
 
       if (res.ok) {
-        toast.success(data.message || 'Thank you! Your message has been sent successfully.', { id: loadingToast });
-        setFormData({ fullName: '', service: '', phone: '', email: '', message: '' }); // Reset form
+        toast.success(responseData.message || 'Thank you! Your message has been sent successfully.', { id: loadingToast });
+        reset();
       } else {
-        toast.error(data.error || 'Failed to submit form. Please try again.', { id: loadingToast });
+        toast.error(responseData.error || responseData.message || 'Failed to submit form. Please try again.', { id: loadingToast });
       }
     } catch (error) {
       console.error('Submission error:', error);
       toast.error('An unexpected error occurred. Please try again later.', { id: loadingToast });
-    } finally {
-      setStatus('idle');
     }
   };
 
@@ -129,24 +62,22 @@ export default function ContactForm() {
           </div>
 
           <div className={styles.rightColumn}>
-            <form className={styles.form} onSubmit={handleSubmit} noValidate>
+            <form className={styles.form} onSubmit={handleSubmit(onSubmit)} noValidate>
               <div className={styles.formRow}>
                 <div className={styles.formGroup}>
                   <label>Full Name *</label>
                   <input 
                     type="text" 
-                    name="fullName"
-                    value={formData.fullName}
-                    onChange={handleChange}
                     placeholder="e.g., John Doe" 
+                    {...register("fullName")}
                     style={{ borderColor: errors.fullName ? 'red' : undefined }}
                   />
-                  {errors.fullName && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.fullName}</span>}
+                  {errors.fullName && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.fullName.message}</span>}
                 </div>
                 <div className={styles.formGroup}>
                   <label>Service Interested In</label>
                   <div className={styles.selectWrapper}>
-                    <select name="service" value={formData.service} onChange={handleChange}>
+                    <select {...register("service")}>
                       <option value="">Select a division</option>
                       <option value="Business & Financial Advisory">Business & Financial Advisory</option>
                       <option value="Financial Accounting Solutions">Financial Accounting Solutions</option>
@@ -166,44 +97,38 @@ export default function ContactForm() {
                   <label>Phone Number</label>
                   <input 
                     type="tel" 
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
                     placeholder="e.g., +1 (555) 000-0000" 
+                    {...register("phone")}
                     style={{ borderColor: errors.phone ? 'red' : undefined }}
                   />
-                  {errors.phone && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.phone}</span>}
+                  {errors.phone && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.phone.message}</span>}
                 </div>
                 <div className={styles.formGroup}>
                   <label>Email ID *</label>
                   <input 
                     type="email" 
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
                     placeholder="e.g., name@yourcompany.com" 
+                    {...register("email")}
                     style={{ borderColor: errors.email ? 'red' : undefined }}
                   />
-                  {errors.email && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.email}</span>}
+                  {errors.email && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.email.message}</span>}
                 </div>
               </div>
 
               <div className={styles.formGroup}>
                 <label>Message *</label>
                 <textarea 
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   placeholder="Briefly describe your project or requirements..." 
                   rows={4}
+                  {...register("message")}
                   style={{ borderColor: errors.message ? 'red' : undefined }}
                 ></textarea>
-                {errors.message && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.message}</span>}
+                {errors.message && <span style={{color: 'red', fontSize: '12px', marginTop: '4px', display: 'block'}}>{errors.message.message}</span>}
               </div>
 
               <div>
-                <button type="submit" className="btn-outline btn-outline-red" disabled={status === 'loading'}>
-                  {status === 'loading' ? 'Submitting...' : 'Submit'}
+                <button type="submit" className="btn-outline btn-outline-red" disabled={isSubmitting}>
+                  {isSubmitting ? 'Submitting...' : 'Submit'}
                 </button>
               </div>
 

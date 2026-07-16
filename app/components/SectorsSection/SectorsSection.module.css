@@ -202,6 +202,10 @@
   .inactiveTitle {
     font-size: 36px;
   }
+
+    .activeImageWrapper {
+  min-height: 180px;
+}
 }
 
 @media (max-width: 1537px) {
@@ -210,16 +214,22 @@
   }
 
   .activeNumber {
-    font-size: 65px;
+    font-size: 54px;
   }
 
   .inactiveNumber {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .inactiveTitle {
     font-size: 32px;
   }
+
+    .activeImageWrapper {
+  min-height: 160px;
+}
+
+  
 }
 
 @media (max-width: 1441px) {
@@ -235,11 +245,11 @@
   }
 
   .activeNumber {
-    font-size: 50px;
+    font-size: 48px;
   }
 
   .inactiveNumber {
-    font-size: 45px;
+    font-size: 42px;
   }
 
   .inactiveTitle {
@@ -250,9 +260,7 @@
     padding: 28px;
   }
 
-  .activeImageWrapper {
-  min-height: 180px;
-}
+
 }
 
 @media (max-width: 1281px) {
@@ -261,12 +269,10 @@
     margin-bottom: 30px;
   }
 
-  .activeNumber {
-    font-size: 55px;
-  }
+
 
   .inactiveNumber {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .inactiveTitle {
@@ -299,9 +305,6 @@
     flex: 6;
   }
 
-  .activeNumber {
-    font-size: 50px;
-  }
 
   .inactiveNumber {
     font-size: 36px;
