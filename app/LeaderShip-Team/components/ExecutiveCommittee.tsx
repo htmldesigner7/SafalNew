@@ -16,9 +16,7 @@ const ExecutiveCommittee = () => {
           <div className={styles.overlayWrapper}>
             <div className={styles.glassBox}>
               <p className={styles.text}>
-                A synergy of diverse expertise. Our executive committee unites decades of experience
-                across enterprise architecture, brand strategy, and financial advisory to drive
-                uncompromising results
+                A synergy of diverse expertise. Our leadership unites founders, technologists, and division heads across engineering, AI, and digital strategy to drive one unified vision forward.
               </p>
             </div>
           </div>
