@@ -20,7 +20,7 @@ const products = [
     id: 'Formezy',
     name: 'Formezy',
     image: '/images/Homepage/Formezy.webp',
-    logoimage: '/images/datanote-logo.png',
+    logoimage: '/images/Enterprise-Grade-Products-Built-for-Scale/Formezy-logo.svg',
     description: <>
     <p>Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.</p>
     <p>Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.</p>
@@ -31,7 +31,7 @@ const products = [
     id: 'Docezy',
     name: 'Docezy',
     image: '/images/Homepage/Docezy.webp',
-    logoimage: '/images/datanote-logo.png',
+    logoimage: '/images/docezy_logo.png',
     description: <>
     <p>Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.</p>
     <p>The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.</p>
@@ -42,7 +42,7 @@ const products = [
     id: 'Tasknote',
     name: 'Tasknote',
     image: '/images/Homepage/Tasknote.webp',
-    logoimage: '/images/datanote-logo.png',
+    logoimage: '/images/TaskNote-Final.png',
     description: <>
     <p>Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.</p>
     <p>With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.</p>
@@ -53,7 +53,7 @@ const products = [
     id: 'ProPulse',
     name: 'ProPulse',
     image: '/images/Homepage/Propluse.jpg',
-    logoimage: '/images/datanote-logo.png',
+    logoimage: '/images/propluse.png',
     description: <>
     <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
     <p>The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.</p>
