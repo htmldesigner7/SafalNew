@@ -202,6 +202,10 @@
   .inactiveTitle {
     font-size: 36px;
   }
+
+    .activeImageWrapper {
+  min-height: 180px;
+}
 }
 
 @media (max-width: 1537px) {
@@ -210,16 +214,22 @@
   }
 
   .activeNumber {
-    font-size: 65px;
+    font-size: 54px;
   }
 
   .inactiveNumber {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .inactiveTitle {
     font-size: 32px;
   }
+
+    .activeImageWrapper {
+  min-height: 160px;
+}
+
+  
 }
 
 @media (max-width: 1441px) {
@@ -250,9 +260,7 @@
     padding: 28px;
   }
 
-  .activeImageWrapper {
-  min-height: 180px;
-}
+
 }
 
 @media (max-width: 1281px) {
