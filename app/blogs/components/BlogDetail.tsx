@@ -66,11 +66,13 @@ export default function BlogDetail({ id }: { id?: string }) {
 
                 ))}
 
-                {section.paralist && section.paralist.map((ul, ulIdx) => (
-                    <ul key={ulIdx} className='mt-3'>
-                      <li>{ul}</li>
-                    </ul>
-                ))}
+                {section.paralist && section.paralist.length > 0 && (
+                  <ul className={styles.list}>
+                    {section.paralist.map((ul, ulIdx) => (
+                      <li key={ulIdx} className={styles.listItem}>{ul}</li>
+                    ))}
+                  </ul>
+                )}
 
                 {section.imageSrc && (
                   <div className={styles.imageWrapper} style={{ margin: '40px 0' }}>
