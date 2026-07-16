@@ -134,10 +134,10 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
     hero: {
       title: (
         <>
-          <strong>Insights & Innovations</strong>
+          <strong>Insights & Strategic Foresight</strong>
         </>
       ),
-      description: "Dive into our latest thoughts on technology, enterprise scale, and the future of global engineering. Stay ahead with deep-dives written by our architects and visionaries.",
+      description: "Explore deep-dives, industry perspectives, and technology insights from the minds shaping enterprise innovation at Safal.",
       imageSrc: "/images/blogs/blogs.webp",
       imageAlt: "Blogs Hero Image",
     }

@@ -18,30 +18,7 @@ export default function CaseStudiesPage() {
       />
       <section className="mt_80 bg_f9">
         <div className="container-1600">
-          {enterprisePlatformsData.map((platform, index) => (
-            <div 
-              key={platform.id} 
-              className={`${styles.block} ${index % 2 !== 0 ? styles.reverse : ''}`}
-            >
-              <div className={styles.imageWrapper}>
-                <Image 
-                  src={platform.imageSrc} 
-                  alt={platform.imageAlt} 
-                  fill 
-                  sizes="(max-width: 991px) 100vw, 50vw"
-                />
-              </div>
-              <div className={styles.contentWrapper}>
-                {platform.subtitle && <h4 className="title_24">{platform.subtitle}</h4>}
-                <h2 className="title_40">{platform.title}</h2>
-                {platform.descriptions.map((desc, idx) => (
-                  <p key={idx} className="para_16 mt_15">
-                    {desc}
-                  </p>
-                ))}
-              </div>
-            </div>
-          ))}
+         
 
           {caseStudiesData.map((study, index) => {
             const actualIndex = enterprisePlatformsData.length + index;
