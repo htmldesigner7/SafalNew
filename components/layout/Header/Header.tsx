@@ -91,7 +91,7 @@ export default function Header() {
       dropdownItems: [
         { title: 'Blogs', href: '/blogs' },
         { title: 'Brochures', href: '/brochures' },
-        { title: 'Webinars', href: '/webinars' }
+        // { title: 'Webinars', href: '/webinars' }
       ]
     },
     {
@@ -100,7 +100,7 @@ export default function Header() {
       hasDropdown: true,
       dropdownItems: [
         { title: 'Investor Relations', href: '/investor-relations' },
-        { title: 'Financial Reports & Disclosures', href: '/financial-reports-disclosures' },
+        // { title: 'Financial Reports & Disclosures', href: '/financial-reports-disclosures' },
         { title: 'Corporate Governance', href: '/corporate-governance' }
       ]
     },

@@ -6,7 +6,7 @@ export const blogsData: BlogPost[] = [
     id: 'post-1',
     title: 'Top ERP Trends Driving the Industry 4.0 Revolution',
     description: 'The ERP landscape is buzzing with innovation, fueled by technologies that align with Industry 4.0’s focus on connectivity and automation. Here are the trends reshaping the future:',
-    imageSrc: "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
+    imageSrc: "/images/blogs/blog-1-up-.webp",
     date: '',
     tags: ['Blog Posts'],
     isFeatured: true,
@@ -35,7 +35,7 @@ export const blogsData: BlogPost[] = [
     id: 'post-2',
     title: 'How Effective Are ERP Systems for Your Business? Top Benefits and Insights',
     description: 'ERP systems have evolved into powerful tools that transform how businesses operate. From automating tasks to delivering real-time insights, they offer a wealth of benefits:',
-    imageSrc: "/images/blogs/blogs.webp",
+    imageSrc: "/images/blogs/blog2-down.webp",
     date: '',
     tags: ['Blog Posts'],
     content: [
@@ -61,7 +61,7 @@ export const blogsData: BlogPost[] = [
     id: 'post-3',
     title: 'How Management Information Systems, Decision Support Systems, and Executive Information Systems Work Together',
     description: 'Management Information Systems (MIS), Decision Support Systems (DSS), and Executive Information Systems (EIS) are the unsung heroes of business operations. Together, they enhance connectivity, streamline processes, and empower smarter decisions. Here’s how they collaborate:',
-    imageSrc: "/images/banner-images/Open-Positions.webp",
+    imageSrc: "/images/blogs/blog-3-up.webp",
     date: '',
     tags: ['Blog Posts'],
     content: [
@@ -80,11 +80,12 @@ export const blogsData: BlogPost[] = [
       }
     ]
   },
+  /*
   {
     id: 'post-4',
     title: 'Top Reasons Why Enterprise Resource Planning (ERP) Implementations Fail',
     description: 'ERP systems promise streamlined operations, but without the right approach, they can fall short. The road to failure is often paved with misaligned goals, poor planning, or unrealistic expectations. Look at the most common things and how to sidestep them:',
-    imageSrc: "/images/banner-images/Industrial-Automation-&-IoT.webp",
+    imageSrc: "/images/blogs/blog-3-down.webp",
     date: '',
     tags: ['Blog Posts'],
     content: [
@@ -113,7 +114,7 @@ export const blogsData: BlogPost[] = [
     id: 'post-5',
     title: 'Enterprise Resource Planning Implementation Types & Methods',
     description: 'Implementing an ERP system is a transformative journey that integrates critical functions like Finance, Materials Management, Sales, and HR. Success hinges on careful planning and a structured approach. Here’s how to navigate the process effectively.',
-    imageSrc: "/images/blogs/blogs.webp",
+    imageSrc: "/images/blogs/blog1-down.webp",
     date: '',
     tags: ['Blog Posts'],
     content: [
@@ -163,7 +164,7 @@ export const blogsData: BlogPost[] = [
       <p>DataNote POS (point of sale) helps customers to make purchases, record transactions and sales data, view performance reports, and helps businesses to manage all the aspects of operations, including sales, inventory management, and customer management. DataNote POS generates data from each transaction that gives better insight into the business operation. Analyzed data improves business accuracy and multiplies revenue.</p>
       <p>Here, see how you can run your business the right way in today’s highly competitive environment through DataNote POS.</p>
     </>,
-    imageSrc: "/images/blogs/blogs.webp",
+    imageSrc: "/images/blogs/blog3-up.webp",
     date: '',
     tags: ['Blog Posts'],
     content: [
@@ -177,4 +178,5 @@ export const blogsData: BlogPost[] = [
 
     ]
   }
+  */
 ];

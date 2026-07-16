@@ -154,6 +154,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-color: #95959565;
 }
 
 
@@ -234,6 +235,7 @@
   margin-bottom: 24px;
   overflow: hidden;
   height: 236px;
+  background-color: #959595b8;
 }
 
 /* =========================================================

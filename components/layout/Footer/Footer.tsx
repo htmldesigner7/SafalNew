@@ -125,9 +125,9 @@ export default function Footer() {
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/blogs">Blogs</Link></li>
                   <li className={styles.linkItem}><Link href="/case-studies">Case Studies</Link></li>
-                  <li className={styles.linkItem}><Link href="/news-and-announcements">News & Announcements</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/news-and-announcements">News & Announcements</Link></li> */}
                   <li className={styles.linkItem}><Link href="/brochures">Brochures</Link></li>
-                  <li className={styles.linkItem}><Link href="/webinars">Webinars</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/webinars">Webinars</Link></li> */}
                 </ul>
               </div>
             </div>
@@ -146,7 +146,7 @@ export default function Footer() {
                 <h4 className={styles.colTitle}>Careers</h4>
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/life-at-safal">Life at Safal</Link></li>
-                  <li className={styles.linkItem}><Link href="/open-positions">Open Positions</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/open-positions">Open Positions</Link></li> */}
                   <li className={styles.linkItem}><Link href="/internships-mentorship">Internships & Mentorship</Link></li>
                 </ul>
               </div>
@@ -158,7 +158,7 @@ export default function Footer() {
                 <h4 className={styles.colTitle}>Investors</h4>
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/investor-relations">Investor Relations</Link></li>
-                  <li className={styles.linkItem}><Link href="/financial-reports-disclosures">Financial Reports & Disclosures</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/financial-reports-disclosures">Financial Reports & Disclosures</Link></li> */}
                   <li className={styles.linkItem}><Link href="/corporate-governance">Corporate Governance</Link></li>
                 </ul>
               </div>
