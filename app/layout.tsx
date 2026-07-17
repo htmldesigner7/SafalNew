@@ -15,9 +15,8 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Safal App",
-  description: "Simple new project setup",
-  
+  title: "IT Consulting Services Company | Digital Transformation Partner | Safal",
+  description: "Safal is an IT consulting services company and digital transformation partner delivering technology consulting and enterprise solutions for modern businesses.",
 };
 
 export default function RootLayout({
