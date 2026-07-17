@@ -13,7 +13,7 @@ export default function Footer() {
             <div className={styles.logo}>
               <Link href="/">
                 <Image
-                  src="/images/logo-white.png"
+                  src="/safal/images/logo-white.png"
                   alt="Safal Infosoft Limited"
                   width={200}
                   height={50}

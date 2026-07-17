@@ -18,7 +18,7 @@ export default function ProprietaryPlatform() {
           </div>
           <div className={styles.imageCol}>
             <Image 
-              src="/images/AI-&-Emerging-Technology/Proprietary-A1-Execution.webp" 
+              src="/safal/images/AI-&-Emerging-Technology/Proprietary-A1-Execution.webp" 
               alt="Proprietary AI Execution Platform Diagram" 
               width={700} 
               height={400} 

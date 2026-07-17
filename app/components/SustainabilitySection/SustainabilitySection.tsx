@@ -28,7 +28,7 @@ export default function SustainabilitySection() {
         <div className={styles.centerColumn}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/green-fingerprint.jpg"
+              src="/safal/images/green-fingerprint.jpg"
               alt="Green Thumbprint"
               fill
               className={styles.fingerprintImage}

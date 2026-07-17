@@ -14,7 +14,7 @@ export default function IndustrialCtaSection() {
 
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/Industrial-Automation-&-IoT/cta.png"
+              src="/safal/images/Industrial-Automation-&-IoT/cta.png"
               alt="Connected Industrial Systems"
               width={1000}
               height={200}

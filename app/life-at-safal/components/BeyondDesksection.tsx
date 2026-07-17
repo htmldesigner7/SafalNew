@@ -18,17 +18,17 @@ export default function BeyondDesksection() {
         <div className={styles.galleryGrid}>
           
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/2.webp" alt="Team working" width={300} height={200} className={styles.img} />
-            <Image src="/images/life-at-safal/3.webp" alt="Office space" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/2.webp" alt="Team working" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/3.webp" alt="Office space" width={300} height={200} className={styles.img} />
           </div>
           
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/1.webp" alt="Discussion" width={500} height={500} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/1.webp" alt="Discussion" width={500} height={500} className={styles.img} />
           </div>
           
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/4.webp" alt="Collaboration" width={300} height={200} className={styles.img} />
-            <Image src="/images/life-at-safal/5.webp" alt="Walking" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/4.webp" alt="Collaboration" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/5.webp" alt="Walking" width={300} height={200} className={styles.img} />
           </div>
         
         </div>

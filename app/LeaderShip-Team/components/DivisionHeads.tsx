@@ -3,7 +3,7 @@ import styles from './DivisionHeads.module.css';
 
 const headsData = [
   { name: "Ahmed Vidha", role: "COO", image: "" },
-  { name: "Aabid Vidha", role: "Head of Digital Marketing", image: "/images/2.webp" },
+  { name: "Aabid Vidha", role: "Head of Digital Marketing", image: "/safal/images/2.webp" },
   { name: "Kashyap Parikh", role: "R&D Head", image: "" },
   { name: "Kushal Gohel", role: "AI Developer", image: "" },
   // { name: "Mital Gandhi", role: "Head of UI/UX", image: "" },

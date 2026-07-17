@@ -23,7 +23,7 @@ export default function GlobalClassroomSection() {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="/images/Internships-&-Mentorship/Internships-&-Mentorship-up-.webp"
+            src="/safal/images/Internships-&-Mentorship/Internships-&-Mentorship-up-.webp"
             alt="Global Classroom Network"
             width={1200}
             height={500}

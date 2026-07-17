@@ -1,0 +1,305 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "/safal",
+  "redirects": [
+    {
+      "source": "/safal/",
+      "destination": "/safal",
+      "basePath": false,
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^/safal/$"
+    },
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blogs/[id]",
+      "regex": "^/blogs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/blogs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/open-positions/[id]",
+      "regex": "^/open\\-positions/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/open\\-positions/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/ai-emerging-technology",
+      "regex": "^/ai\\-emerging\\-technology(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ai\\-emerging\\-technology(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
+    },
+    {
+      "page": "/api/internship",
+      "regex": "^/api/internship(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/internship(?:/)?$"
+    },
+    {
+      "page": "/api/job-application",
+      "regex": "^/api/job\\-application(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/job\\-application(?:/)?$"
+    },
+    {
+      "page": "/api/partner",
+      "regex": "^/api/partner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/partner(?:/)?$"
+    },
+    {
+      "page": "/api/webinar",
+      "regex": "^/api/webinar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/webinar(?:/)?$"
+    },
+    {
+      "page": "/become-a-partner",
+      "regex": "^/become\\-a\\-partner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/become\\-a\\-partner(?:/)?$"
+    },
+    {
+      "page": "/blogs",
+      "regex": "^/blogs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blogs(?:/)?$"
+    },
+    {
+      "page": "/brand-digital-creative-services",
+      "regex": "^/brand\\-digital\\-creative\\-services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/brand\\-digital\\-creative\\-services(?:/)?$"
+    },
+    {
+      "page": "/brochures",
+      "regex": "^/brochures(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/brochures(?:/)?$"
+    },
+    {
+      "page": "/business-financial-advisory",
+      "regex": "^/business\\-financial\\-advisory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-financial\\-advisory(?:/)?$"
+    },
+    {
+      "page": "/case-studies",
+      "regex": "^/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/corporate-governance",
+      "regex": "^/corporate\\-governance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/corporate\\-governance(?:/)?$"
+    },
+    {
+      "page": "/enterprise-products",
+      "regex": "^/enterprise\\-products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/enterprise\\-products(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/financial-accounting-solutions",
+      "regex": "^/financial\\-accounting\\-solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/financial\\-accounting\\-solutions(?:/)?$"
+    },
+    {
+      "page": "/financial-reports-disclosures",
+      "regex": "^/financial\\-reports\\-disclosures(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/financial\\-reports\\-disclosures(?:/)?$"
+    },
+    {
+      "page": "/group-structure",
+      "regex": "^/group\\-structure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/group\\-structure(?:/)?$"
+    },
+    {
+      "page": "/industrial-automation",
+      "regex": "^/industrial\\-automation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industrial\\-automation(?:/)?$"
+    },
+    {
+      "page": "/industries-we-serve",
+      "regex": "^/industries\\-we\\-serve(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries\\-we\\-serve(?:/)?$"
+    },
+    {
+      "page": "/internships-mentorship",
+      "regex": "^/internships\\-mentorship(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/internships\\-mentorship(?:/)?$"
+    },
+    {
+      "page": "/investor-relations",
+      "regex": "^/investor\\-relations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/investor\\-relations(?:/)?$"
+    },
+    {
+      "page": "/LeaderShip-Team",
+      "regex": "^/LeaderShip\\-Team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/LeaderShip\\-Team(?:/)?$"
+    },
+    {
+      "page": "/life-at-safal",
+      "regex": "^/life\\-at\\-safal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/life\\-at\\-safal(?:/)?$"
+    },
+    {
+      "page": "/news-and-announcements",
+      "regex": "^/news\\-and\\-announcements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news\\-and\\-announcements(?:/)?$"
+    },
+    {
+      "page": "/open-positions",
+      "regex": "^/open\\-positions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/open\\-positions(?:/)?$"
+    },
+    {
+      "page": "/our-story-vision",
+      "regex": "^/our\\-story\\-vision(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/our\\-story\\-vision(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/startup-product-development",
+      "regex": "^/startup\\-product\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/startup\\-product\\-development(?:/)?$"
+    },
+    {
+      "page": "/strategic-partnerships",
+      "regex": "^/strategic\\-partnerships(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/strategic\\-partnerships(?:/)?$"
+    },
+    {
+      "page": "/sustainability",
+      "regex": "^/sustainability(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sustainability(?:/)?$"
+    },
+    {
+      "page": "/technology-staffing",
+      "regex": "^/technology\\-staffing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/technology\\-staffing(?:/)?$"
+    },
+    {
+      "page": "/terms-conditions",
+      "regex": "^/terms\\-conditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-conditions(?:/)?$"
+    },
+    {
+      "page": "/values-culture",
+      "regex": "^/values\\-culture(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/values\\-culture(?:/)?$"
+    },
+    {
+      "page": "/webinars",
+      "regex": "^/webinars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/webinars(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

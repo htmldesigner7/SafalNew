@@ -15,7 +15,7 @@ export default function IndustriesWeServePage() {
       <InnerPageHero
         title="Industry-Aligned Digital Systems"
         description="Designed to align operations, data, and workflows with industry-specific requirements, enabling greater control, visibility, and scalable execution across complex business environments."
-        imageSrc="/images/INDUSTRIES/INDUSTIRES.webp"
+        imageSrc="/safal/images/INDUSTRIES/INDUSTIRES.webp"
         imageAlt="Industry-Aligned Digital Systems"
       />
       

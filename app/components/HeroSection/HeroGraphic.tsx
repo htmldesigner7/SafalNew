@@ -108,9 +108,9 @@ export default function HeroGraphic() {
             <pattern id="pattern2_82_132" patternContentUnits="objectBoundingBox" width="1" height="1">
               <use href="#image2_82_132" transform="scale(0.000432713 0.000463607)" />
             </pattern>
-            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/orange.png" />
-            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/green.png" />
-            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/images/blue.png" />
+            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/safal/images/orange.png" />
+            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/safal/images/green.png" />
+            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href="/safal/images/blue.png" />
           </defs>
         </svg>
       </div>

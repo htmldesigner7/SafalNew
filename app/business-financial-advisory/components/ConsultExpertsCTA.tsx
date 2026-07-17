@@ -8,7 +8,7 @@ const consultData = {
   description: "Engage with Safal for business and financial advisory services including valuation, modelling, and transaction support. Evaluate decisions through structured analysis, compliance alignment, and financial clarity.",
   buttonText: "Book a Consultation",
   buttonLink: "/contact", 
-  imageSrc: "/images/Structured-Advisory-Banner.png", 
+  imageSrc: "/safal/images/Structured-Advisory-Banner.png", 
   imageAlt: "Consult Our Experts Dashboard"
 };
 

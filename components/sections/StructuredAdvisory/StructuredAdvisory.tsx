@@ -71,7 +71,7 @@ export default function StructuredAdvisory() {
             <div className={styles.imageWrapper}>
               {/* Note: I&apos;m using a placeholder right now for the hover layers image */}
               <Image 
-                src="/images/Business-&-Financial-Advisory/hero-right.svg" 
+                src="/safal/images/Business-&-Financial-Advisory/hero-right.svg" 
                 alt="Hover Layers"
                 fill
                 className={styles.image}

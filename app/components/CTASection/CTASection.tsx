@@ -27,7 +27,7 @@ export default function CTASection() {
       <div className={styles.graphicContent}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/homepage/gold-key.png" 
+            src="/safal/images/homepage/gold-key.png" 
             alt="Golden Key in Puzzle" 
             fill 
             className={styles.graphicImage} 

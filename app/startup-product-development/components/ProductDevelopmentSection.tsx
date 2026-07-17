@@ -8,7 +8,7 @@ const data = {
     "Ideaz Ventures is Safal’s dedicated startup product development company focused on building and scaling digital products. It operates as a structured startup consulting company, working with founders, startups, and product teams to translate ideas into executable product systems.",
     "The focus is on clarity in product direction, disciplined execution, and building technology foundations that support long-term scale."
   ],
-  imageSrc: "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp",
+  imageSrc: "/safal/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp",
   imageAlt: "Product Development Layers Architecture"
 };
 

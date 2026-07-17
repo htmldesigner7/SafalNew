@@ -32,7 +32,7 @@ export default function OneVision() {
             <div className={styles.visionImage}>
               <div className={styles.imageBox}>
                 <Image
-                  src="/images/blogs.png"
+                  src="/safal/images/blogs.png"
                   alt="images"
                   width={700}
                   height={600}
@@ -47,7 +47,7 @@ export default function OneVision() {
               <p>{item.description}</p>
               <div className="mt_40">
                 <Image
-                  src="/images/blogs.png"
+                  src="/safal/images/blogs.png"
                   alt="images"
                   width={100}
                   height={100}

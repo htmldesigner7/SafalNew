@@ -14,7 +14,7 @@ export default function BorderlessNetworkSection() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/images/Become-a-Partner/banner-image.webp"
+            src="/safal/images/Become-a-Partner/banner-image.webp"
             alt="Global Network Map"
             width={1200}
             height={600}

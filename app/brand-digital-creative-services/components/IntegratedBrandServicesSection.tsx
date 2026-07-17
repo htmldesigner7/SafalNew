@@ -14,37 +14,37 @@ const servicesData = [
     id: 1,
     title: 'Branding & Identity',
     text: 'Structured brand development, including identity systems, positioning, and visual frameworks aligned with long-term business strategy. Delivered as part of comprehensive digital branding services.Ensures consistent brand perception across all channels, strengthening recognition and long-term market positioning.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/Branding-Identity.svg" alt="Branding & Identity" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/Branding-Identity.svg" alt="Branding & Identity" width={120} height={120} />
   },
   {
     id: 2,
     title: 'Creative Design',
     text: 'Design systems across digital and print, including communication assets, campaigns, and brand visuals—ensuring consistency across all touchpoints through high-quality creative design services.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/Creative-Design.svg" alt="Creative Design" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/Creative-Design.svg" alt="Creative Design" width={120} height={120} />
   },
   {
     id: 3,
     title: 'Digital Marketing',
     text: 'Performance-driven digital marketing services focused on visibility, engagement, and measurable outcomes across platforms and channels.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/Digital-Marketing.svg" alt="Digital Marketing" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/Digital-Marketing.svg" alt="Digital Marketing" width={120} height={120} />
   },
   {
     id: 4,
     title: 'Advertising',
     text: 'Strategic campaign planning and execution across digital and offline channels, aligned with brand positioning and audience targeting.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/Advertising.svg" alt="images" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/Advertising.svg" alt="images" width={120} height={120} />
   },
   {
     id: 5,
     title: 'IT / ITES',
     text: 'Support services, including digital asset management, backend operations, and execution support for ongoing marketing and brand activities.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/ITES.svg" alt="images" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/ITES.svg" alt="images" width={120} height={120} />
   },
   {
     id: 6,
     title: 'Content & Communication Strategy',
     text: 'Development of structured content frameworks, messaging systems, and communication strategies that ensure consistent brand voice across platforms, campaigns, and customer touchpoints.',
-    iconSrc: <Image src="/images/Brand,-Digital-&-Creative-Services/Content-Communication-Strategy.svg" alt="images" width={120} height={120} />
+    iconSrc: <Image src="/safal/images/Brand,-Digital-&-Creative-Services/Content-Communication-Strategy.svg" alt="images" width={120} height={120} />
   }
 ];
 

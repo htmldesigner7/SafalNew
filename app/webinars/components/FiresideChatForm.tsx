@@ -25,7 +25,7 @@ export default function FiresideChatForm() {
   const onSubmit = async (data: WebinarFormData) => {
       const loadingToast = toast.loading('Submitting your message...');
         try {
-            const response = await fetch("/api/webinar", {
+            const response = await fetch("/safal/api/webinar", {
                 method: "POST",
                 headers: { "Content-Type": "application/json", },
                 body: JSON.stringify(data),

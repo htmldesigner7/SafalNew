@@ -4,889 +4,889 @@
   "missingCount": 148,
   "existing": [
     {
-      "path": "/images/blogs/blogs.webp",
+      "path": "/safal/images/blogs/blogs.webp",
       "usages": [
         {
           "file": "app/business-financial-advisory/components/DataDrivenSection.tsx",
           "line": 8,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 52,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\""
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\""
         },
         {
           "file": "app/startup-product-development/components/DesignToDeploymentSection.tsx",
           "line": 10,
-          "context": "img: \"/images/blogs/blogs.webp\","
+          "context": "img: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "app/startup-product-development/components/DesignToDeploymentSection.tsx",
           "line": 18,
-          "context": "img: \"/images/blogs/blogs.webp\","
+          "context": "img: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "app/startup-product-development/components/ProductDevelopmentSection.tsx",
           "line": 11,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "components/sections/EcosystemCTASection/EcosystemCTASection.tsx",
           "line": 15,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "components/sections/StructuredAdvisory/StructuredAdvisory.tsx",
           "line": 74,
-          "context": "src=\"/images/blogs/blogs.webp\""
+          "context": "src=\"/safal/images/blogs/blogs.webp\""
         },
         {
           "file": "components/sections/TechnologyStacksSection/TechnologyStacksSection.tsx",
           "line": 56,
-          "context": "src=\"/images/blogs/blogs.webp\""
+          "context": "src=\"/safal/images/blogs/blogs.webp\""
         },
         {
           "file": "data/cultureData.tsx",
           "line": 220,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 261,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "data/featureCardsData.tsx",
           "line": 49,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "data/mockPosts.ts",
           "line": 49,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "data/pagesData.tsx",
           "line": 141,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         },
         {
           "file": "data/speedQualityData.ts",
           "line": 48,
-          "context": "imageSrc: \"/images/blogs/blogs.webp\","
+          "context": "imageSrc: \"/safal/images/blogs/blogs.webp\","
         }
       ]
     },
     {
-      "path": "/images/HomePage/Diversified-Technology.png",
+      "path": "/safal/images/HomePage/Diversified-Technology.png",
       "usages": [
         {
           "file": "app/components/DivisionsSection/DivisionsSection.tsx",
           "line": 100,
-          "context": "src=\"/images/HomePage/Diversified-Technology.png\""
+          "context": "src=\"/safal/images/HomePage/Diversified-Technology.png\""
         }
       ]
     },
     {
-      "path": "/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp",
+      "path": "/safal/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 11,
-          "context": "image: '/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp',"
+          "context": "image: '/safal/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp',"
         },
         {
           "file": "data/pagesData.tsx",
           "line": 190,
-          "context": "imageSrc: \"/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp\", // Replace with correct globe/dome image if different"
+          "context": "imageSrc: \"/safal/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp\", // Replace with correct globe/dome image if different"
         }
       ]
     },
     {
-      "path": "/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp",
+      "path": "/safal/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 22,
-          "context": "image: '/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp',"
+          "context": "image: '/safal/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp',"
         }
       ]
     },
     {
-      "path": "/images/Homepage/Docezy.webp",
+      "path": "/safal/images/Homepage/Docezy.webp",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 33,
-          "context": "image: '/images/Homepage/Docezy.webp',"
+          "context": "image: '/safal/images/Homepage/Docezy.webp',"
         }
       ]
     },
     {
-      "path": "/images/Homepage/Tasknote.webp",
+      "path": "/safal/images/Homepage/Tasknote.webp",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 44,
-          "context": "image: '/images/Homepage/Tasknote.webp',"
+          "context": "image: '/safal/images/Homepage/Tasknote.webp',"
         }
       ]
     },
     {
-      "path": "/images/financial-accounting-solutions/End-to-End-Financial-Process-Management.webp",
+      "path": "/safal/images/financial-accounting-solutions/End-to-End-Financial-Process-Management.webp",
       "usages": [
         {
           "file": "app/financial-accounting-solutions/components/FinancialProcessSection.tsx",
           "line": 12,
-          "context": "imageSrc: \"/images/financial-accounting-solutions/End-to-End-Financial-Process-Management.webp\","
+          "context": "imageSrc: \"/safal/images/financial-accounting-solutions/End-to-End-Financial-Process-Management.webp\","
         }
       ]
     },
     {
-      "path": "/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp",
+      "path": "/safal/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp",
       "usages": [
         {
           "file": "app/industrial-automation/components/IndustrialSystemsSection.tsx",
           "line": 12,
-          "context": "imageSrc: \"/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp\","
+          "context": "imageSrc: \"/safal/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp\","
         }
       ]
     },
     {
-      "path": "/images/Startup-Product-Development-&-Consulting/devops.webp",
+      "path": "/safal/images/Startup-Product-Development-&-Consulting/devops.webp",
       "usages": [
         {
           "file": "app/startup-product-development/components/DesignToDeploymentSection.tsx",
           "line": 26,
-          "context": "img: '/images/Startup-Product-Development-&-Consulting/devops.webp',"
+          "context": "img: '/safal/images/Startup-Product-Development-&-Consulting/devops.webp',"
         }
       ]
     },
     {
-      "path": "/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp",
+      "path": "/safal/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp",
       "usages": [
         {
           "file": "app/webinars/components/WhyAttend.tsx",
           "line": 41,
-          "context": "src=\"/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp\" // A placeholder image fitting the aspect ratio"
+          "context": "src=\"/safal/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp\" // A placeholder image fitting the aspect ratio"
         },
         {
           "file": "data/pagesData.tsx",
           "line": 239,
-          "context": "imageSrc: \"/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp\","
+          "context": "imageSrc: \"/safal/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp\","
         }
       ]
     },
     {
-      "path": "/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
+      "path": "/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
       "usages": [
         {
           "file": "app/webinars/page.tsx",
           "line": 37,
-          "context": "src=\"/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\""
+          "context": "src=\"/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\""
         },
         {
           "file": "app/webinars/page.tsx",
           "line": 51,
-          "context": "src=\"/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\""
+          "context": "src=\"/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\""
         },
         {
           "file": "data/mockPosts.ts",
           "line": 24,
-          "context": "imageSrc: \"/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\","
+          "context": "imageSrc: \"/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\","
         },
         {
           "file": "data/pagesData.tsx",
           "line": 202,
-          "context": "imageSrc: \"/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\","
+          "context": "imageSrc: \"/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp\","
         }
       ]
     },
     {
-      "path": "/images/AI-&-Emerging-Technology/Data-Intelligence.webp",
+      "path": "/safal/images/AI-&-Emerging-Technology/Data-Intelligence.webp",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 25,
-          "context": "imageSrc: \"/images/AI-&-Emerging-Technology/Data-Intelligence.webp\","
+          "context": "imageSrc: \"/safal/images/AI-&-Emerging-Technology/Data-Intelligence.webp\","
         }
       ]
     },
     {
-      "path": "/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
+      "path": "/safal/images/life-at-safal/Life@Safal/Systemic-Ownership.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 49,
-          "context": "imageSrc: \"/images/life-at-safal/Life@Safal/Systemic-Ownership.webp\","
+          "context": "imageSrc: \"/safal/images/life-at-safal/Life@Safal/Systemic-Ownership.webp\","
         }
       ]
     },
     {
-      "path": "/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp",
+      "path": "/safal/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 167,
-          "context": "imageSrc: \"/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp\","
+          "context": "imageSrc: \"/safal/images/Internships-&-Mentorship/Internship/Collaborative-Ego.webp\","
         }
       ]
     },
     {
-      "path": "/images/Investor-Relations/Investor/Disciplined-Allocation.webp",
+      "path": "/safal/images/Investor-Relations/Investor/Disciplined-Allocation.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 190,
-          "context": "imageSrc: \"/images/Investor-Relations/Investor/Disciplined-Allocation.webp\","
+          "context": "imageSrc: \"/safal/images/Investor-Relations/Investor/Disciplined-Allocation.webp\","
         }
       ]
     },
     {
-      "path": "/images/Investor-Relations/Investor/Strategic-Diversification.webp",
+      "path": "/safal/images/Investor-Relations/Investor/Strategic-Diversification.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 198,
-          "context": "imageSrc: \"/images/Investor-Relations/Investor/Strategic-Diversification.webp\","
+          "context": "imageSrc: \"/safal/images/Investor-Relations/Investor/Strategic-Diversification.webp\","
         }
       ]
     },
     {
-      "path": "/images/Investor-Relations/Investor/Transparent-Governance.webp",
+      "path": "/safal/images/Investor-Relations/Investor/Transparent-Governance.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 206,
-          "context": "imageSrc: \"/images/Investor-Relations/Investor/Transparent-Governance.webp\","
+          "context": "imageSrc: \"/safal/images/Investor-Relations/Investor/Transparent-Governance.webp\","
         }
       ]
     },
     {
-      "path": "/images/Business-&-Financial-Advisory/Due-Diligence.webp",
+      "path": "/safal/images/Business-&-Financial-Advisory/Due-Diligence.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 236,
-          "context": "imageSrc: \"/images/Business-&-Financial-Advisory/Due-Diligence.webp\","
+          "context": "imageSrc: \"/safal/images/Business-&-Financial-Advisory/Due-Diligence.webp\","
         }
       ]
     },
     {
-      "path": "/images/Business-&-Financial-Advisory/Internal-Audits.webp",
+      "path": "/safal/images/Business-&-Financial-Advisory/Internal-Audits.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 244,
-          "context": "imageSrc: \"/images/Business-&-Financial-Advisory/Internal-Audits.webp\","
+          "context": "imageSrc: \"/safal/images/Business-&-Financial-Advisory/Internal-Audits.webp\","
         }
       ]
     },
     {
-      "path": "/images/Technology-Staffing/Contract-to-Hire.webp",
+      "path": "/safal/images/Technology-Staffing/Contract-to-Hire.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 269,
-          "context": "imageSrc: \"/images/Technology-Staffing/Contract-to-Hire.webp\","
+          "context": "imageSrc: \"/safal/images/Technology-Staffing/Contract-to-Hire.webp\","
         }
       ]
     },
     {
-      "path": "/images/Technology-Staffing/Full-Time-Hiring.webp",
+      "path": "/safal/images/Technology-Staffing/Full-Time-Hiring.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 277,
-          "context": "imageSrc: \"/images/Technology-Staffing/Full-Time-Hiring.webp\","
+          "context": "imageSrc: \"/safal/images/Technology-Staffing/Full-Time-Hiring.webp\","
         }
       ]
     },
     {
-      "path": "/images/AI-&-Emerging-Technology/Value-Impact.webp",
+      "path": "/safal/images/AI-&-Emerging-Technology/Value-Impact.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 358,
-          "context": "imageSrc: \"/images/AI-&-Emerging-Technology/Value-Impact.webp\","
+          "context": "imageSrc: \"/safal/images/AI-&-Emerging-Technology/Value-Impact.webp\","
         }
       ]
     },
     {
-      "path": "/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp",
+      "path": "/safal/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 381,
-          "context": "imageSrc: \"/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp\","
+          "context": "imageSrc: \"/safal/images/Corporate-Governance/governance/Zero-Trust-Compliance.webp\","
         }
       ]
     },
     {
-      "path": "/images/Corporate-Governance/governance/Risk-Mitigation.webp",
+      "path": "/safal/images/Corporate-Governance/governance/Risk-Mitigation.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 389,
-          "context": "imageSrc: \"/images/Corporate-Governance/governance/Risk-Mitigation.webp\","
+          "context": "imageSrc: \"/safal/images/Corporate-Governance/governance/Risk-Mitigation.webp\","
         }
       ]
     },
     {
-      "path": "/images/Corporate-Governance/governance/Shareholder-Transparency.webp",
+      "path": "/safal/images/Corporate-Governance/governance/Shareholder-Transparency.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 397,
-          "context": "imageSrc: \"/images/Corporate-Governance/governance/Shareholder-Transparency.webp\","
+          "context": "imageSrc: \"/safal/images/Corporate-Governance/governance/Shareholder-Transparency.webp\","
         }
       ]
     },
     {
-      "path": "/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
+      "path": "/safal/images/financial-accounting-solutions/Full-Outsourcing-Model.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 428,
-          "context": "imageSrc: \"/images/financial-accounting-solutions/Full-Outsourcing-Model.webp\","
+          "context": "imageSrc: \"/safal/images/financial-accounting-solutions/Full-Outsourcing-Model.webp\","
         }
       ]
     },
     {
-      "path": "/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp",
+      "path": "/safal/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp",
       "usages": [
         {
           "file": "data/endToEndProductData.ts",
           "line": 24,
-          "context": "imageSrc: \"/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp\", // User will replace with actual images"
+          "context": "imageSrc: \"/safal/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp\", // User will replace with actual images"
         },
         {
           "file": "data/endToEndProductData.ts",
           "line": 38,
-          "context": "imageSrc: \"/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp\", // User will replace with actual images"
+          "context": "imageSrc: \"/safal/images/Startup-Product-Development-&-Consulting/Scaling-Tech-Teams.webp\", // User will replace with actual images"
         }
       ]
     },
     {
-      "path": "/images/Startup-Product-Development-&-Consulting/MVP-Development.webp",
+      "path": "/safal/images/Startup-Product-Development-&-Consulting/MVP-Development.webp",
       "usages": [
         {
           "file": "data/endToEndProductData.ts",
           "line": 31,
-          "context": "imageSrc: \"/images/Startup-Product-Development-&-Consulting/MVP-Development.webp\", // User will replace with actual images"
+          "context": "imageSrc: \"/safal/images/Startup-Product-Development-&-Consulting/MVP-Development.webp\", // User will replace with actual images"
         }
       ]
     },
     {
-      "path": "/images/our-story/Our-Story/Decentralized-Security.webp",
+      "path": "/safal/images/our-story/Our-Story/Decentralized-Security.webp",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 32,
-          "context": "imageSrc: \"/images/our-story/Our-Story/Decentralized-Security.webp\" // Placeholder icon, replace with actual security icon"
+          "context": "imageSrc: \"/safal/images/our-story/Our-Story/Decentralized-Security.webp\" // Placeholder icon, replace with actual security icon"
         }
       ]
     },
     {
-      "path": "/images/our-story/Our-Story/Enterprise-Ecosystems.webp",
+      "path": "/safal/images/our-story/Our-Story/Enterprise-Ecosystems.webp",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 40,
-          "context": "imageSrc: \"/images/our-story/Our-Story/Enterprise-Ecosystems.webp\" // Placeholder icon, replace with actual ecosystem icon"
+          "context": "imageSrc: \"/safal/images/our-story/Our-Story/Enterprise-Ecosystems.webp\" // Placeholder icon, replace with actual ecosystem icon"
         }
       ]
     },
     {
-      "path": "/images/our-story/Our-Story/Low-Code-Agility.webp",
+      "path": "/safal/images/our-story/Our-Story/Low-Code-Agility.webp",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 48,
-          "context": "imageSrc: \"/images/our-story/Our-Story/Low-Code-Agility.webp\" // Placeholder icon, replace with actual agility icon"
+          "context": "imageSrc: \"/safal/images/our-story/Our-Story/Low-Code-Agility.webp\" // Placeholder icon, replace with actual agility icon"
         }
       ]
     },
     {
-      "path": "/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp",
+      "path": "/safal/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 20,
-          "context": "imageSrc: '/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp',"
+          "context": "imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Manufacturing.webp',"
         }
       ]
     },
     {
-      "path": "/images/Homepage/Retail.webp",
+      "path": "/safal/images/Homepage/Retail.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 40,
-          "context": "imageSrc: '/images/Homepage/Retail.webp',"
+          "context": "imageSrc: '/safal/images/Homepage/Retail.webp',"
         }
       ]
     },
     {
-      "path": "/images/Brand,-Digital-&-Creative-Services/Healthcare.webp",
+      "path": "/safal/images/Brand,-Digital-&-Creative-Services/Healthcare.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 60,
-          "context": "imageSrc: '/images/Brand,-Digital-&-Creative-Services/Healthcare.webp',"
+          "context": "imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Healthcare.webp',"
         }
       ]
     },
     {
-      "path": "/images/INDUSTRIES/Hospitality.webp",
+      "path": "/safal/images/INDUSTRIES/Hospitality.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 80,
-          "context": "imageSrc: '/images/INDUSTRIES/Hospitality.webp',"
+          "context": "imageSrc: '/safal/images/INDUSTRIES/Hospitality.webp',"
         }
       ]
     },
     {
-      "path": "/images/INDUSTRIES/Real-Estate.webp",
+      "path": "/safal/images/INDUSTRIES/Real-Estate.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 99,
-          "context": "imageSrc: '/images/INDUSTRIES/Real-Estate.webp',"
+          "context": "imageSrc: '/safal/images/INDUSTRIES/Real-Estate.webp',"
         }
       ]
     },
     {
-      "path": "/images/Homepage/Finance.webp",
+      "path": "/safal/images/Homepage/Finance.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 118,
-          "context": "imageSrc: '/images/Homepage/Finance.webp',"
+          "context": "imageSrc: '/safal/images/Homepage/Finance.webp',"
         }
       ]
     },
     {
-      "path": "/images/Homepage/Logistics.webp",
+      "path": "/safal/images/Homepage/Logistics.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 137,
-          "context": "imageSrc: '/images/Homepage/Logistics.webp',"
+          "context": "imageSrc: '/safal/images/Homepage/Logistics.webp',"
         }
       ]
     },
     {
-      "path": "/images/Business-&-Financial-Advisory/Startups.webp",
+      "path": "/safal/images/Business-&-Financial-Advisory/Startups.webp",
       "usages": [
         {
           "file": "data/industriesData.tsx",
           "line": 156,
-          "context": "imageSrc: '/images/Business-&-Financial-Advisory/Startups.webp',"
+          "context": "imageSrc: '/safal/images/Business-&-Financial-Advisory/Startups.webp',"
         }
       ]
     },
     {
-      "path": "/images/Group-Structure/Group-Structure.webp",
+      "path": "/safal/images/Group-Structure/Group-Structure.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 48,
-          "context": "imageSrc: \"/images/Group-Structure/Group-Structure.webp\","
+          "context": "imageSrc: \"/safal/images/Group-Structure/Group-Structure.webp\","
         }
       ]
     },
     {
-      "path": "/images/Investor-Relations/Investor-Relations.webp",
+      "path": "/safal/images/Investor-Relations/Investor-Relations.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 64,
-          "context": "imageSrc: \"/images/Investor-Relations/Investor-Relations.webp\","
+          "context": "imageSrc: \"/safal/images/Investor-Relations/Investor-Relations.webp\","
         }
       ]
     },
     {
-      "path": "/images/life-at-safal/life-at-safal.webp",
+      "path": "/safal/images/life-at-safal/life-at-safal.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 81,
-          "context": "imageSrc: \"/images/life-at-safal/life-at-safal.webp\","
+          "context": "imageSrc: \"/safal/images/life-at-safal/life-at-safal.webp\","
         }
       ]
     },
     {
-      "path": "/images/Open-Positions/Open-Positions.webp",
+      "path": "/safal/images/Open-Positions/Open-Positions.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 97,
-          "context": "imageSrc: \"/images/Open-Positions/Open-Positions.webp\","
+          "context": "imageSrc: \"/safal/images/Open-Positions/Open-Positions.webp\","
         }
       ]
     },
     {
-      "path": "/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp",
+      "path": "/safal/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 128,
-          "context": "imageSrc: \"/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp\","
+          "context": "imageSrc: \"/safal/images/Financial-Reports-&-Disclosures/Financial-Reports-&-Disclosures.webp\","
         }
       ]
     },
     {
-      "path": "/images/Technology-Staffing/Technology-Staffing.webp",
+      "path": "/safal/images/Technology-Staffing/Technology-Staffing.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 166,
-          "context": "imageSrc: \"/images/Technology-Staffing/Technology-Staffing.webp\","
+          "context": "imageSrc: \"/safal/images/Technology-Staffing/Technology-Staffing.webp\","
         }
       ]
     },
     {
-      "path": "/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp",
+      "path": "/safal/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 178,
-          "context": "imageSrc: \"/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp\", // Replace with correct image from the design"
+          "context": "imageSrc: \"/safal/images/Startup-Product-Development-&-Consulting/Product-Development-&-Venture-Enablement.webp\", // Replace with correct image from the design"
         }
       ]
     },
     {
-      "path": "/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp",
+      "path": "/safal/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 215,
-          "context": "imageSrc: \"/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp\","
+          "context": "imageSrc: \"/safal/images/AI-&-Emerging-Technology/AI-&-Emerging-Technology.webp\","
         }
       ]
     },
     {
-      "path": "/images/financial-accounting-solutions/financial-accounting-solutions.webp",
+      "path": "/safal/images/financial-accounting-solutions/financial-accounting-solutions.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 227,
-          "context": "imageSrc: \"/images/financial-accounting-solutions/financial-accounting-solutions.webp\","
+          "context": "imageSrc: \"/safal/images/financial-accounting-solutions/financial-accounting-solutions.webp\","
         }
       ]
     },
     {
-      "path": "/images/Corporate-Governance/Corporate-Governance.webp",
+      "path": "/safal/images/Corporate-Governance/Corporate-Governance.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 253,
-          "context": "imageSrc: \"/images/Corporate-Governance/Corporate-Governance.webp\","
+          "context": "imageSrc: \"/safal/images/Corporate-Governance/Corporate-Governance.webp\","
         }
       ]
     },
     {
-      "path": "/images/Sustainability/background_of_warm_202603281709-(1)-1.webp",
+      "path": "/safal/images/Sustainability/background_of_warm_202603281709-(1)-1.webp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 265,
-          "context": "imageSrc: \"/images/Sustainability/background_of_warm_202603281709-(1)-1.webp\","
+          "context": "imageSrc: \"/safal/images/Sustainability/background_of_warm_202603281709-(1)-1.webp\","
         }
       ]
     },
     {
-      "path": "/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp",
+      "path": "/safal/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp",
       "usages": [
         {
           "file": "data/sustainableData.tsx",
           "line": 107,
-          "context": "imageSrc: \"/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp\", // Fallback sketch image, user can replace"
+          "context": "imageSrc: \"/safal/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.webp\", // Fallback sketch image, user can replace"
         }
       ]
     }
   ],
   "missing": [
     {
-      "path": "/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp",
+      "path": "/safal/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp",
       "usages": [
         {
           "file": "app/ai-emerging-technology/components/AiLedTransformation.tsx",
           "line": 21,
-          "context": "src=\"/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp\""
+          "context": "src=\"/safal/images/public/images/Investor-Relations/Investor/Transparent-Governancewebp\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp",
+      "path": "/safal/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp",
       "usages": [
         {
           "file": "app/ai-emerging-technology/components/ProprietaryPlatform.tsx",
           "line": 21,
-          "context": "src=\"/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp\""
+          "context": "src=\"/safal/images/public/images/Enterprise-Grade-Products-Built-for-Scale/inventorywebp\""
         }
       ]
     },
     {
-      "path": "/images/blogs.png",
+      "path": "/safal/images/blogs.png",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 25,
-          "context": "imageSrc: '/images/blogs.png',"
+          "context": "imageSrc: '/safal/images/blogs.png',"
         },
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 106,
-          "context": "imageSrc: '/images/blogs.png',"
+          "context": "imageSrc: '/safal/images/blogs.png',"
         },
         {
           "file": "app/LeaderShip-Team/components/OneVision.tsx",
           "line": 35,
-          "context": "src=\"/images/blogs.png\""
+          "context": "src=\"/safal/images/blogs.png\""
         },
         {
           "file": "app/LeaderShip-Team/components/OneVision.tsx",
           "line": 50,
-          "context": "src=\"/images/blogs.png\""
+          "context": "src=\"/safal/images/blogs.png\""
         }
       ]
     },
     {
-      "path": "/images/ContactHandShake.png",
+      "path": "/safal/images/ContactHandShake.png",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 50,
-          "context": "imageSrc: '/images/ContactHandShake.png',"
+          "context": "imageSrc: '/safal/images/ContactHandShake.png',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 66,
-          "context": "imageSrc: '/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
+          "context": "imageSrc: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 26,
-          "context": "imageSrc: '/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
+          "context": "imageSrc: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 58,
-          "context": "imageSrc: '/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
+          "context": "imageSrc: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 66,
-          "context": "imageSrc: '/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
+          "context": "imageSrc: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainwebp',"
         }
       ]
     },
     {
-      "path": "/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng",
+      "path": "/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 74,
-          "context": "imageSrc: '/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
+          "context": "imageSrc: '/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 17,
-          "context": "imageSrc: '/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
+          "context": "imageSrc: '/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 34,
-          "context": "imageSrc: '/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
+          "context": "imageSrc: '/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 42,
-          "context": "imageSrc: '/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
+          "context": "imageSrc: '/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
         },
         {
           "file": "app/brochures/data/mockBrochures.ts",
           "line": 50,
-          "context": "imageSrc: '/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
+          "context": "imageSrc: '/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng',"
         },
         {
           "file": "data/cultureData.tsx",
           "line": 72,
-          "context": "imageSrc: \"/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng\","
+          "context": "imageSrc: \"/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 111,
-          "context": "imageSrc: \"/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng\","
+          "context": "imageSrc: \"/safal/images/public/images/life-at-safal/Life@Safal/Aesthetic-Intelligencepng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/our-story/Our-Story/Decentralized-Securitypng",
+      "path": "/safal/images/public/images/our-story/Our-Story/Decentralized-Securitypng",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 82,
-          "context": "imageSrc: '/images/public/images/our-story/Our-Story/Decentralized-Securitypng',"
+          "context": "imageSrc: '/safal/images/public/images/our-story/Our-Story/Decentralized-Securitypng',"
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 24,
-          "context": "imageSrc: \"/images/public/images/our-story/Our-Story/Decentralized-Securitypng\""
+          "context": "imageSrc: \"/safal/images/public/images/our-story/Our-Story/Decentralized-Securitypng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng",
+      "path": "/safal/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 90,
-          "context": "imageSrc: '/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng',"
+          "context": "imageSrc: '/safal/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng',"
         },
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 52,
-          "context": "image: '/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng',"
+          "context": "image: '/safal/images/public/images/banner-images/Brand,-Digital-&-Creative-Servicespng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Corporate-Governance/Design-Driven-Innovation.png",
+      "path": "/safal/images/public/images/Corporate-Governance/Design-Driven-Innovation.png",
       "usages": [
         {
           "file": "app/blogs/data/mockPosts.ts",
           "line": 98,
-          "context": "imageSrc: '/images/public/images/Corporate-Governance/Design-Driven-Innovation.png',"
+          "context": "imageSrc: '/safal/images/public/images/Corporate-Governance/Design-Driven-Innovation.png',"
         },
         {
           "file": "data/cultureData.tsx",
           "line": 33,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Design-Driven-Innovation.png\","
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Design-Driven-Innovation.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp",
+      "path": "/safal/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp",
       "usages": [
         {
           "file": "app/brand-digital-creative-services/components/BuildScaleSection.tsx",
           "line": 28,
-          "context": "src=\"/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp\""
+          "context": "src=\"/safal/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitywebp\""
         }
       ]
     },
     {
-      "path": "/images/Technology-Driven-Execution.png",
+      "path": "/safal/images/Technology-Driven-Execution.png",
       "usages": [
         {
           "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
           "line": 15,
-          "context": "src=\"/images/Technology-Driven-Execution.png\""
+          "context": "src=\"/safal/images/Technology-Driven-Execution.png\""
         }
       ]
     },
     {
-      "path": "/images/Technology-Driven-Execution-singale1.png",
+      "path": "/safal/images/Technology-Driven-Execution-singale1.png",
       "usages": [
         {
           "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
           "line": 25,
-          "context": "<Image src=\"/images/Technology-Driven-Execution-singale1.png\" alt=\"Web Development\" width={120} height={100} className={styles.iconImage} />"
+          "context": "<Image src=\"/safal/images/Technology-Driven-Execution-singale1.png\" alt=\"Web Development\" width={120} height={100} className={styles.iconImage} />"
         }
       ]
     },
     {
-      "path": "/images/Technology-Driven-Execution-singale3.png",
+      "path": "/safal/images/Technology-Driven-Execution-singale3.png",
       "usages": [
         {
           "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
           "line": 36,
-          "context": "<Image src=\"/images/Technology-Driven-Execution-singale3.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
+          "context": "<Image src=\"/safal/images/Technology-Driven-Execution-singale3.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
         }
       ]
     },
     {
-      "path": "/images/Technology-Driven-Execution-singale2.png",
+      "path": "/safal/images/Technology-Driven-Execution-singale2.png",
       "usages": [
         {
           "file": "app/brand-digital-creative-services/components/TechnologyDrivenExecutionSection.tsx",
           "line": 47,
-          "context": "<Image src=\"/images/Technology-Driven-Execution-singale2.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
+          "context": "<Image src=\"/safal/images/Technology-Driven-Execution-singale2.png\" alt=\"Web Development\" width={120} height={120} className={styles.iconImage} />"
         }
       ]
     },
     {
-      "path": "/images/Structured-Advisory-Banner.png",
+      "path": "/safal/images/Structured-Advisory-Banner.png",
       "usages": [
         {
           "file": "app/business-financial-advisory/components/ConsultExpertsCTA.tsx",
           "line": 11,
-          "context": "imageSrc: \"/images/Structured-Advisory-Banner.png\","
+          "context": "imageSrc: \"/safal/images/Structured-Advisory-Banner.png\","
         }
       ]
     },
     {
-      "path": "/images/challenges_sketch.png",
+      "path": "/safal/images/challenges_sketch.png",
       "usages": [
         {
           "file": "app/case-studies/components/CaseStudyChallenges.tsx",
           "line": 11,
-          "context": "src=\"/images/challenges_sketch.png\""
+          "context": "src=\"/safal/images/challenges_sketch.png\""
         },
         {
           "file": "data/cultureData.tsx",
           "line": 468,
-          "context": "imageSrc: \"/images/challenges_sketch.png\","
+          "context": "imageSrc: \"/safal/images/challenges_sketch.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng",
+      "path": "/safal/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng",
       "usages": [
         {
           "file": "app/case-studies/components/CaseStudyHero.tsx",
           "line": 31,
-          "context": "src=\"/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng\""
+          "context": "src=\"/safal/images/public/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoptionpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp",
       "usages": [
         {
           "file": "app/case-studies/components/CaseStudyImpact.tsx",
           "line": 11,
-          "context": "src=\"/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp\""
+          "context": "src=\"/safal/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackwebp\""
         }
       ]
     },
     {
-      "path": "/images/services-image.jpg",
+      "path": "/safal/images/services-image.jpg",
       "usages": [
         {
           "file": "app/case-studies/components/CaseStudyResults.module.css",
           "line": 42,
-          "context": "background-image: url('/images/services-image.jpg');"
+          "context": "background-image: url('/safal/images/services-image.jpg');"
         }
       ]
     },
     {
-      "path": "/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp",
+      "path": "/safal/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp",
       "usages": [
         {
           "file": "app/components/CTASection/CTASection.tsx",
           "line": 30,
-          "context": "src=\"/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp\""
+          "context": "src=\"/safal/images/public/images/life-at-safal/Life@Safal/Absolute-Integritywebp\""
         }
       ]
     },
@@ -931,1657 +931,1657 @@
       ]
     },
     {
-      "path": "/images/datanote-logo.png",
+      "path": "/safal/images/datanote-logo.png",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 12,
-          "context": "logoimage: '/images/datanote-logo.png',"
+          "context": "logoimage: '/safal/images/datanote-logo.png',"
         },
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 23,
-          "context": "logoimage: '/images/datanote-logo.png',"
+          "context": "logoimage: '/safal/images/datanote-logo.png',"
         },
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 34,
-          "context": "logoimage: '/images/datanote-logo.png',"
+          "context": "logoimage: '/safal/images/datanote-logo.png',"
         },
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 45,
-          "context": "logoimage: '/images/datanote-logo.png',"
+          "context": "logoimage: '/safal/images/datanote-logo.png',"
         },
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 56,
-          "context": "logoimage: '/images/datanote-logo.png',"
+          "context": "logoimage: '/safal/images/datanote-logo.png',"
         },
         {
           "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
           "line": 29,
-          "context": "src=\"/images/datanote-logo.png\""
+          "context": "src=\"/safal/images/datanote-logo.png\""
         }
       ]
     },
     {
-      "path": "/images/digital-product.png",
+      "path": "/safal/images/digital-product.png",
       "usages": [
         {
           "file": "app/components/EcosystemSection/EcosystemSection.tsx",
           "line": 55,
-          "context": "image: '/images/digital-product.png',"
+          "context": "image: '/safal/images/digital-product.png',"
         }
       ]
     },
     {
-      "path": "/images/globe-img.png",
+      "path": "/safal/images/globe-img.png",
       "usages": [
         {
           "file": "app/components/GlobalPresenceSection/GlobalPresenceSection.tsx",
           "line": 34,
-          "context": "src=\"/images/globe-img.png\""
+          "context": "src=\"/safal/images/globe-img.png\""
         }
       ]
     },
     {
-      "path": "/images/hero-bg.png",
+      "path": "/safal/images/hero-bg.png",
       "usages": [
         {
           "file": "app/components/HeroSection/HeroSection.module.css",
           "line": 3,
-          "context": "background-image: url(\"/images/hero-bg.png\");"
+          "context": "background-image: url(\"/safal/images/hero-bg.png\");"
         }
       ]
     },
     {
-      "path": "/images/left-orange.svg",
+      "path": "/safal/images/left-orange.svg",
       "usages": [
         {
           "file": "app/components/InvestorsSection/InvestorsSection.module.css",
           "line": 30,
-          "context": "background: url('/images/left-orange.svg') no-repeat center;"
+          "context": "background: url('/safal/images/left-orange.svg') no-repeat center;"
         }
       ]
     },
     {
-      "path": "/images/right-orange.svg",
+      "path": "/safal/images/right-orange.svg",
       "usages": [
         {
           "file": "app/components/InvestorsSection/InvestorsSection.module.css",
           "line": 44,
-          "context": "background: url('/images/right-orange.svg') no-repeat center;"
+          "context": "background: url('/safal/images/right-orange.svg') no-repeat center;"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Enterprise-Products-Platformsjpg",
+      "path": "/safal/images/public/images/Homepage/Enterprise-Products-Platformsjpg",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 44,
-          "context": "image: '/images/public/images/Homepage/Enterprise-Products-Platformsjpg',"
+          "context": "image: '/safal/images/public/images/Homepage/Enterprise-Products-Platformsjpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng",
+      "path": "/safal/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 60,
-          "context": "image: '/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng',"
+          "context": "image: '/safal/images/public/images/banner-images/Startup-Product-Development-&-Consultingpng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Industrial-Automation-&-IoTpng",
+      "path": "/safal/images/public/images/banner-images/Industrial-Automation-&-IoTpng",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 68,
-          "context": "image: '/images/public/images/banner-images/Industrial-Automation-&-IoTpng',"
+          "context": "image: '/safal/images/public/images/banner-images/Industrial-Automation-&-IoTpng',"
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 201,
-          "context": "imageSrc: \"/images/public/images/banner-images/Industrial-Automation-&-IoTpng\""
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Industrial-Automation-&-IoTpng\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 278,
-          "context": "imageSrc: \"/images/public/images/banner-images/Industrial-Automation-&-IoTpng\""
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Industrial-Automation-&-IoTpng\""
         },
         {
           "file": "data/mockBrochures.ts",
           "line": 32,
-          "context": "imageSrc: \"/images/public/images/banner-images/Industrial-Automation-&-IoTpng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Industrial-Automation-&-IoTpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 76,
-          "context": "image: '/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng',"
+          "context": "image: '/safal/images/public/images/AI-&-Emerging-Technology/AI-&-Emerging-Technologypng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Business-&-Financial-Advisorypng",
+      "path": "/safal/images/public/images/banner-images/Business-&-Financial-Advisorypng",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 84,
-          "context": "image: '/images/public/images/banner-images/Business-&-Financial-Advisorypng',"
+          "context": "image: '/safal/images/public/images/banner-images/Business-&-Financial-Advisorypng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Financial-Accountingjpg",
+      "path": "/safal/images/public/images/Homepage/Financial-Accountingjpg",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 92,
-          "context": "image: '/images/public/images/Homepage/Financial-Accountingjpg',"
+          "context": "image: '/safal/images/public/images/Homepage/Financial-Accountingjpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Technology-Staffingpng",
+      "path": "/safal/images/public/images/banner-images/Technology-Staffingpng",
       "usages": [
         {
           "file": "app/components/SolutionsSection/SolutionsSection.tsx",
           "line": 100,
-          "context": "image: '/images/public/images/banner-images/Technology-Staffingpng',"
+          "context": "image: '/safal/images/public/images/banner-images/Technology-Staffingpng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 85,
-          "context": "image: '/images/public/images/banner-images/Technology-Staffingpng',"
+          "context": "image: '/safal/images/public/images/banner-images/Technology-Staffingpng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 91,
-          "context": "image: '/images/public/images/banner-images/Technology-Staffingpng',"
+          "context": "image: '/safal/images/public/images/banner-images/Technology-Staffingpng',"
         }
       ]
     },
     {
-      "path": "/images/leaf-veins.png",
+      "path": "/safal/images/leaf-veins.png",
       "usages": [
         {
           "file": "app/components/SustainabilitySection/SustainabilitySection.module.css",
           "line": 13,
-          "context": "background-image: url('/images/leaf-veins.png');"
+          "context": "background-image: url('/safal/images/leaf-veins.png');"
         }
       ]
     },
     {
-      "path": "/images/green-fingerprint.jpg",
+      "path": "/safal/images/green-fingerprint.jpg",
       "usages": [
         {
           "file": "app/components/SustainabilitySection/SustainabilitySection.tsx",
           "line": 31,
-          "context": "src=\"/images/green-fingerprint.jpg\""
+          "context": "src=\"/safal/images/green-fingerprint.jpg\""
         }
       ]
     },
     {
-      "path": "/images/hourglass.png",
+      "path": "/safal/images/hourglass.png",
       "usages": [
         {
           "file": "app/corporate-governance/components/LegacyAccountability.tsx",
           "line": 22,
-          "context": "src=\"/images/hourglass.png\""
+          "context": "src=\"/safal/images/hourglass.png\""
         }
       ]
     },
     {
-      "path": "/images/outcome-logo.svg",
+      "path": "/safal/images/outcome-logo.svg",
       "usages": [
         {
           "file": "app/financial-accounting-solutions/components/StructuredOperationsSection.tsx",
           "line": 221,
-          "context": "src=\"/images/outcome-logo.svg\""
+          "context": "src=\"/safal/images/outcome-logo.svg\""
         }
       ]
     },
     {
-      "path": "/images/our-entities-Intelliworkz.png",
+      "path": "/safal/images/our-entities-Intelliworkz.png",
       "usages": [
         {
           "file": "app/group-structure/components/SynergyCompanies.tsx",
           "line": 30,
-          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+          "context": "logoSrc: \"/safal/images/our-entities-Intelliworkz.png\","
         },
         {
           "file": "app/group-structure/components/SynergyCompanies.tsx",
           "line": 41,
-          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+          "context": "logoSrc: \"/safal/images/our-entities-Intelliworkz.png\","
         },
         {
           "file": "app/group-structure/components/SynergyCompanies.tsx",
           "line": 52,
-          "context": "logoSrc: \"/images/our-entities-Intelliworkz.png\","
+          "context": "logoSrc: \"/safal/images/our-entities-Intelliworkz.png\","
         }
       ]
     },
     {
-      "path": "/images/independent-header.png",
+      "path": "/safal/images/independent-header.png",
       "usages": [
         {
           "file": "app/group-structure/components/SynergyCompanies.tsx",
           "line": 68,
-          "context": "src=\"/images/independent-header.png\""
+          "context": "src=\"/safal/images/independent-header.png\""
         },
         {
           "file": "app/internships-mentorship/components/GlobalClassroomSection.tsx",
           "line": 26,
-          "context": "src=\"/images/independent-header.png\""
+          "context": "src=\"/safal/images/independent-header.png\""
         }
       ]
     },
     {
-      "path": "/images/Installation_Shape__The_202603281531-(1) 1.webp",
+      "path": "/safal/images/Installation_Shape__The_202603281531-(1) 1.webp",
       "usages": [
         {
           "file": "app/industrial-automation/components/TechnologyAlignedSection.tsx",
           "line": 16,
-          "context": "<Image src=\"/images/Installation_Shape__The_202603281531-(1) 1.webp\" alt=\"Technology-Aligned Implementation\" fill className={sysStyles.image} />"
+          "context": "<Image src=\"/safal/images/Installation_Shape__The_202603281531-(1) 1.webp\" alt=\"Technology-Aligned Implementation\" fill className={sysStyles.image} />"
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 270,
-          "context": "imageSrc: \"/images/Installation_Shape__The_202603281531-(1) 1.webp\""
+          "context": "imageSrc: \"/safal/images/Installation_Shape__The_202603281531-(1) 1.webp\""
         }
       ]
     },
     {
-      "path": "/images/public/images/INDUSTRIES/INDUSTIRESpng",
+      "path": "/safal/images/public/images/INDUSTRIES/INDUSTIRESpng",
       "usages": [
         {
           "file": "app/industrial-automation/page.tsx",
           "line": 48,
-          "context": "src=\"/images/public/images/INDUSTRIES/INDUSTIRESpng\""
+          "context": "src=\"/safal/images/public/images/INDUSTRIES/INDUSTIRESpng\""
         }
       ]
     },
     {
-      "path": "/images/blogs-inner.webp",
+      "path": "/safal/images/blogs-inner.webp",
       "usages": [
         {
           "file": "app/internships-mentorship/components/CodeRealImpact.tsx",
           "line": 11,
-          "context": "<Image src=\"/images/blogs-inner.webp\""
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\""
         },
         {
           "file": "app/life-at-safal/components/BeyondDesksection.tsx",
           "line": 21,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BeyondDesksection.tsx",
           "line": 22,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BeyondDesksection.tsx",
           "line": 26,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BeyondDesksection.tsx",
           "line": 30,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BeyondDesksection.tsx",
           "line": 31,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 25,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team meeting\" width={300} height={300} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Team meeting\" width={300} height={300} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 30,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Team working\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 31,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Office space\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 36,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Discussion\" width={500} height={500} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 41,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Collaboration\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 42,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Walking\" width={300} height={200} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/BrainTrustSection.tsx",
           "line": 47,
-          "context": "<Image src=\"/images/blogs-inner.webp\" alt=\"Group\" width={300} height={300} className={styles.img} />"
+          "context": "<Image src=\"/safal/images/blogs-inner.webp\" alt=\"Group\" width={300} height={300} className={styles.img} />"
         },
         {
           "file": "app/life-at-safal/components/EngineerFutureSection.tsx",
           "line": 24,
-          "context": "src=\"/images/blogs-inner.webp\""
+          "context": "src=\"/safal/images/blogs-inner.webp\""
         },
         {
           "file": "app/technology-staffing/components/TechnologyTalent.tsx",
           "line": 20,
-          "context": "imageSrc: \"/images/blogs-inner.webp\","
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\","
         },
         {
           "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
           "line": 19,
-          "context": "src=\"/images/blogs-inner.webp\" // Placeholder for DataNote Dashboard screenshot"
+          "context": "src=\"/safal/images/blogs-inner.webp\" // Placeholder for DataNote Dashboard screenshot"
         },
         {
           "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
           "line": 50,
-          "context": "src=\"/images/blogs-inner.webp\" // Placeholder for Formezy Dashboard screenshot"
+          "context": "src=\"/safal/images/blogs-inner.webp\" // Placeholder for Formezy Dashboard screenshot"
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 62,
-          "context": "imageSrc: \"/images/blogs-inner.webp\""
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 138,
-          "context": "imageSrc: \"/images/blogs-inner.webp\""
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 177,
-          "context": "imageSrc: \"/images/blogs-inner.webp\""
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\""
         },
         {
           "file": "data/sustainableData.tsx",
           "line": 33,
-          "context": "imageSrc: \"/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
         },
         {
           "file": "data/sustainableData.tsx",
           "line": 44,
-          "context": "imageSrc: \"/images/blogs-inner.webp\","
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\","
         },
         {
           "file": "data/sustainableData.tsx",
           "line": 56,
-          "context": "imageSrc: \"/images/blogs-inner.webp\","
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\","
         },
         {
           "file": "data/sustainableData.tsx",
           "line": 95,
-          "context": "imageSrc: \"/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
+          "context": "imageSrc: \"/safal/images/blogs-inner.webp\", // Replace with actual 3-leaves image"
         }
       ]
     },
     {
-      "path": "/images/2.webp",
+      "path": "/safal/images/2.webp",
       "usages": [
         {
           "file": "app/LeaderShip-Team/components/DivisionHeads.tsx",
           "line": 6,
-          "context": "{ name: \"Aabid Vidha\", role: \"Head of Digital Marketing\", image: \"/images/2.webp\" },"
+          "context": "{ name: \"Aabid Vidha\", role: \"Head of Digital Marketing\", image: \"/safal/images/2.webp\" },"
         },
         {
           "file": "app/webinars/components/MeetSpeakers.tsx",
           "line": 6,
-          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },"
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/2.webp' },"
         },
         {
           "file": "app/webinars/components/MeetSpeakers.tsx",
           "line": 8,
-          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },"
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/2.webp' },"
         }
       ]
     },
     {
-      "path": "/images/leadership-team-bg.png",
+      "path": "/safal/images/leadership-team-bg.png",
       "usages": [
         {
           "file": "app/LeaderShip-Team/components/ExecutiveCommittee.tsx",
           "line": 11,
-          "context": "src=\"/images/leadership-team-bg.png\""
+          "context": "src=\"/safal/images/leadership-team-bg.png\""
         },
         {
           "file": "data/pagesData.tsx",
           "line": 154,
-          "context": "imageSrc: \"/images/leadership-team-bg.png\","
+          "context": "imageSrc: \"/safal/images/leadership-team-bg.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp",
+      "path": "/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp",
       "usages": [
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 12,
-          "context": "imageSrc: \"/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
+          "context": "imageSrc: \"/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
         },
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 20,
-          "context": "imageSrc: \"/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
+          "context": "imageSrc: \"/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
         },
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 28,
-          "context": "imageSrc: \"/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
+          "context": "imageSrc: \"/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
         },
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 36,
-          "context": "imageSrc: \"/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
+          "context": "imageSrc: \"/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
         },
         {
           "file": "app/news-and-announcements/components/NewsGrid.tsx",
           "line": 44,
-          "context": "imageSrc: \"/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
+          "context": "imageSrc: \"/safal/images/public/images/Group-Structure/Safal-Infosoft-Inc.webp\""
         }
       ]
     },
     {
-      "path": "/images/ourstory.webp",
+      "path": "/safal/images/ourstory.webp",
       "usages": [
         {
           "file": "app/our-story-vision/components/AboutSection.tsx",
           "line": 23,
-          "context": "src=\"/images/ourstory.webp\""
+          "context": "src=\"/safal/images/ourstory.webp\""
         }
       ]
     },
     {
-      "path": "/images/global-presence.png",
+      "path": "/safal/images/global-presence.png",
       "usages": [
         {
           "file": "app/strategic-partnerships/components/BorderlessInnovationSection.tsx",
           "line": 16,
-          "context": "src=\"/images/global-presence.png\""
+          "context": "src=\"/safal/images/global-presence.png\""
         },
         {
           "file": "components/sections/BorderlessNetworkSection/BorderlessNetworkSection.tsx",
           "line": 17,
-          "context": "src=\"/images/global-presence.png\""
+          "context": "src=\"/safal/images/global-presence.png\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng",
       "usages": [
         {
           "file": "app/sustainability/components/EverylineSection.tsx",
           "line": 26,
-          "context": "src=\"/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng\""
+          "context": "src=\"/safal/images/public/images/Internships-&-Mentorship/Internship/Fierce-Curiositypng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp",
+      "path": "/safal/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp",
       "usages": [
         {
           "file": "app/sustainability/components/LeafClockSection.tsx",
           "line": 29,
-          "context": "src=\"/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp\""
+          "context": "src=\"/safal/images/public/images/Technology-Staffing/Product-led-ventures-(2)webp\""
         }
       ]
     },
     {
-      "path": "/images/dark_globe.png",
+      "path": "/safal/images/dark_globe.png",
       "usages": [
         {
           "file": "app/sustainability/components/TimeResourceSection.tsx",
           "line": 116,
-          "context": "src=\"/images/dark_globe.png\""
+          "context": "src=\"/safal/images/dark_globe.png\""
         }
       ]
     },
     {
-      "path": "/images/clean_globe.png",
+      "path": "/safal/images/clean_globe.png",
       "usages": [
         {
           "file": "app/sustainability/components/TimeResourceSection.tsx",
           "line": 125,
-          "context": "src=\"/images/clean_globe.png\""
+          "context": "src=\"/safal/images/clean_globe.png\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng",
       "usages": [
         {
           "file": "app/technology-staffing/components/TechnologyTalent.tsx",
           "line": 13,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng\","
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementationpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/our-storypng",
+      "path": "/safal/images/public/images/banner-images/our-storypng",
       "usages": [
         {
           "file": "app/values-culture/components/VisionMissionSection.tsx",
           "line": 23,
-          "context": "imageSrc: '/images/public/images/banner-images/our-storypng' // Target/Arrow"
+          "context": "imageSrc: '/safal/images/public/images/banner-images/our-storypng' // Target/Arrow"
         },
         {
           "file": "app/values-culture/components/VisionMissionSection.tsx",
           "line": 41,
-          "context": "imageSrc: '/images/public/images/banner-images/our-storypng' // Diamond"
+          "context": "imageSrc: '/safal/images/public/images/banner-images/our-storypng' // Diamond"
         },
         {
           "file": "data/cultureData.tsx",
           "line": 318,
-          "context": "imageSrc: \"/images/public/images/banner-images/our-storypng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/our-storypng\","
         },
         {
           "file": "data/featureCardsData.tsx",
           "line": 35,
-          "context": "imageSrc: \"/images/public/images/banner-images/our-storypng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/our-storypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Value-Impactpng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Value-Impactpng",
       "usages": [
         {
           "file": "app/values-culture/components/VisionMissionSection.tsx",
           "line": 32,
-          "context": "imageSrc: '/images/public/images/AI-&-Emerging-Technology/Value-Impactpng' // Hands holding globe"
+          "context": "imageSrc: '/safal/images/public/images/AI-&-Emerging-Technology/Value-Impactpng' // Hands holding globe"
         },
         {
           "file": "data/cultureData.tsx",
           "line": 350,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Value-Impactpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Value-Impactpng\","
         }
       ]
     },
     {
-      "path": "/images/Our-Philosophy.webp",
+      "path": "/safal/images/Our-Philosophy.webp",
       "usages": [
         {
           "file": "app/values-culture/components/VisionMissionSection.tsx",
           "line": 50,
-          "context": "imageSrc: '/images/Our-Philosophy.webp' // Compass"
+          "context": "imageSrc: '/safal/images/Our-Philosophy.webp' // Compass"
         }
       ]
     },
     {
-      "path": "/images/1.webp",
+      "path": "/safal/images/1.webp",
       "usages": [
         {
           "file": "app/webinars/components/MeetSpeakers.tsx",
           "line": 5,
-          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },"
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/1.webp' },"
         },
         {
           "file": "app/webinars/components/MeetSpeakers.tsx",
           "line": 7,
-          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },"
+          "context": "{ name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/1.webp' },"
         }
       ]
     },
     {
-      "path": "/images/logo-white.png",
+      "path": "/safal/images/logo-white.png",
       "usages": [
         {
           "file": "components/layout/Footer/Footer.tsx",
           "line": 16,
-          "context": "src=\"/images/logo-white.png\""
+          "context": "src=\"/safal/images/logo-white.png\""
         }
       ]
     },
     {
-      "path": "/images/logo.svg",
+      "path": "/safal/images/logo.svg",
       "usages": [
         {
           "file": "components/layout/Header/Header.tsx",
           "line": 126,
-          "context": "src=\"/images/logo.svg\""
+          "context": "src=\"/safal/images/logo.svg\""
         },
         {
           "file": "components/layout/Header/Header.tsx",
           "line": 140,
-          "context": "src=\"/images/logo.svg\""
+          "context": "src=\"/safal/images/logo.svg\""
         },
         {
           "file": "components/sections/EnterprisePlatformsSection/EnterprisePlatformsSection.tsx",
           "line": 61,
-          "context": "src=\"/images/logo.svg\""
+          "context": "src=\"/safal/images/logo.svg\""
         },
         {
           "file": "components/sections/UnifiedFrameworkSection/UnifiedFrameworkSection.tsx",
           "line": 36,
-          "context": "src=\"/images/logo.svg\""
+          "context": "src=\"/safal/images/logo.svg\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Manufacturing-1jpg",
+      "path": "/safal/images/public/images/Homepage/Manufacturing-1jpg",
       "usages": [
         {
           "file": "components/sections/AdvancedAdvisory/AdvancedAdvisory.tsx",
           "line": 43,
-          "context": "src=\"/images/public/images/Homepage/Manufacturing-1jpg\""
+          "context": "src=\"/safal/images/public/images/Homepage/Manufacturing-1jpg\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png",
+      "path": "/safal/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png",
       "usages": [
         {
           "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
           "line": 22,
-          "context": "image: \"/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png\""
+          "context": "image: \"/safal/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png\""
         },
         {
           "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
           "line": 55,
-          "context": "image: \"/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png\""
+          "context": "image: \"/safal/images/public/images/Technology-Staffing/Digitally-Transforming-Enterprises-png\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg",
+      "path": "/safal/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg",
       "usages": [
         {
           "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
           "line": 33,
-          "context": "image: \"/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg\""
+          "context": "image: \"/safal/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg\""
         },
         {
           "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
           "line": 44,
-          "context": "image: \"/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg\""
+          "context": "image: \"/safal/images/public/images/Enterprise-Grade-Products-Built-for-Scale/Multi-Location-Retail-Operations-Management-Systemjpg\""
         }
       ]
     },
     {
-      "path": "/images/sustainability-section.jpg",
+      "path": "/safal/images/sustainability-section.jpg",
       "usages": [
         {
           "file": "components/sections/ImplementationCaseStudiesSection/ImplementationCaseStudiesSection.tsx",
           "line": 66,
-          "context": "image: \"/images/sustainability-section.jpg\""
+          "context": "image: \"/safal/images/sustainability-section.jpg\""
         }
       ]
     },
     {
-      "path": "/images/MasterLayoutBG.png",
+      "path": "/safal/images/MasterLayoutBG.png",
       "usages": [
         {
           "file": "components/sections/InnerPageHero/InnerPageHero.module.css",
           "line": 3,
-          "context": "background-image: url(\"/images/MasterLayoutBG.png\");"
+          "context": "background-image: url(\"/safal/images/MasterLayoutBG.png\");"
         }
       ]
     },
     {
-      "path": "/images/dot-banner-white.png",
+      "path": "/safal/images/dot-banner-white.png",
       "usages": [
         {
           "file": "components/sections/IntelligenceSection/IntelligenceSection.module.css",
           "line": 4,
-          "context": "background-image: url('/images/dot-banner-white.png');"
+          "context": "background-image: url('/safal/images/dot-banner-white.png');"
         }
       ]
     },
     {
-      "path": "/images/DI_StarCube.png",
+      "path": "/safal/images/DI_StarCube.png",
       "usages": [
         {
           "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
           "line": 56,
-          "context": "<Image src=\"/images/DI_StarCube.png\" alt=\"Cube\" width={150} height={150} style={{ width: '100%', height: 'auto' }} />"
+          "context": "<Image src=\"/safal/images/DI_StarCube.png\" alt=\"Cube\" width={150} height={150} style={{ width: '100%', height: 'auto' }} />"
         }
       ]
     },
     {
-      "path": "/images/DI_Compaas.png",
+      "path": "/safal/images/DI_Compaas.png",
       "usages": [
         {
           "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
           "line": 64,
-          "context": "<Image src=\"/images/DI_Compaas.png\" alt=\"Compass\" width={180} height={180} style={{ width: '100%', height: 'auto' }} />"
+          "context": "<Image src=\"/safal/images/DI_Compaas.png\" alt=\"Compass\" width={180} height={180} style={{ width: '100%', height: 'auto' }} />"
         }
       ]
     },
     {
-      "path": "/images/DI_Orbit.png",
+      "path": "/safal/images/DI_Orbit.png",
       "usages": [
         {
           "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
           "line": 72,
-          "context": "<Image src=\"/images/DI_Orbit.png\" alt=\"Network\" width={160} height={160} style={{ width: '100%', height: 'auto' }} />"
+          "context": "<Image src=\"/safal/images/DI_Orbit.png\" alt=\"Network\" width={160} height={160} style={{ width: '100%', height: 'auto' }} />"
         }
       ]
     },
     {
-      "path": "/images/DI_Rocket.png",
+      "path": "/safal/images/DI_Rocket.png",
       "usages": [
         {
           "file": "components/sections/IntelligenceSection/IntelligenceSection.tsx",
           "line": 80,
-          "context": "<Image src=\"/images/DI_Rocket.png\" alt=\"Rocket\" width={120} height={120} style={{ width: '100%', height: 'auto' }} />"
+          "context": "<Image src=\"/safal/images/DI_Rocket.png\" alt=\"Rocket\" width={120} height={120} style={{ width: '100%', height: 'auto' }} />"
         }
       ]
     },
     {
-      "path": "/images/enterprise-products-platform.png",
+      "path": "/safal/images/enterprise-products-platform.png",
       "usages": [
         {
           "file": "components/sections/PlatformCapabilitiesSection/PlatformCapabilitiesSection.tsx",
           "line": 46,
-          "context": "src=\"/images/enterprise-products-platform.png\""
+          "context": "src=\"/safal/images/enterprise-products-platform.png\""
         }
       ]
     },
     {
-      "path": "/images/enterprise-products-demo.png",
+      "path": "/safal/images/enterprise-products-demo.png",
       "usages": [
         {
           "file": "components/sections/RequestDemoSection/RequestDemoSection.tsx",
           "line": 15,
-          "context": "src=\"/images/enterprise-products-demo.png\""
+          "context": "src=\"/safal/images/enterprise-products-demo.png\""
         }
       ]
     },
     {
-      "path": "/images/Structured-End-to-End-Project-Delivery.png",
+      "path": "/safal/images/Structured-End-to-End-Project-Delivery.png",
       "usages": [
         {
           "file": "components/sections/StructuredDeliverySection/StructuredDeliverySection.tsx",
           "line": 129,
-          "context": "src=\"/images/Structured-End-to-End-Project-Delivery.png\""
+          "context": "src=\"/safal/images/Structured-End-to-End-Project-Delivery.png\""
         }
       ]
     },
     {
-      "path": "/images/Systemic-Ownership.webp",
+      "path": "/safal/images/Systemic-Ownership.webp",
       "usages": [
         {
           "file": "components/views/ContactPage/ContactForm.tsx",
           "line": 122,
-          "context": "src=\"/images/Systemic-Ownership.webp\""
+          "context": "src=\"/safal/images/Systemic-Ownership.webp\""
         }
       ]
     },
     {
-      "path": "/images/contact-locatin.webp",
+      "path": "/safal/images/contact-locatin.webp",
       "usages": [
         {
           "file": "components/views/ContactPage/ContactLocations.tsx",
           "line": 11,
-          "context": "src=\"/images/contact-locatin.webp\""
+          "context": "src=\"/safal/images/contact-locatin.webp\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp",
       "usages": [
         {
           "file": "data/advisoryEcosystemsData.tsx",
           "line": 10,
-          "context": "image: '/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp', // User will replace with their corporate image"
+          "context": "image: '/safal/images/public/images/Business-&-Financial-Advisory/Business-Advisorywebp', // User will replace with their corporate image"
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Startupspng",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Startupspng",
       "usages": [
         {
           "file": "data/advisoryEcosystemsData.tsx",
           "line": 17,
-          "context": "image: '/images/public/images/Business-&-Financial-Advisory/Startupspng', // User will replace with startup rocket image"
+          "context": "image: '/safal/images/public/images/Business-&-Financial-Advisory/Startupspng', // User will replace with startup rocket image"
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Investorspng",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Investorspng",
       "usages": [
         {
           "file": "data/advisoryEcosystemsData.tsx",
           "line": 24,
-          "context": "image: '/images/public/images/Business-&-Financial-Advisory/Investorspng', // User will replace with handshake image"
+          "context": "image: '/safal/images/public/images/Business-&-Financial-Advisory/Investorspng', // User will replace with handshake image"
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Process-Automationpng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Process-Automationpng",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 11,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Process-Automationpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Process-Automationpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 18,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Data-Intelligencepng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 39,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Procure-to-Pay-(P2P)png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 46,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Record-to-Report-(R2R)png\","
         }
       ]
     },
     {
-      "path": "/images/applied-data-intelligence.png",
+      "path": "/safal/images/applied-data-intelligence.png",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 53,
-          "context": "imageSrc: \"/images/applied-data-intelligence.png\","
+          "context": "imageSrc: \"/safal/images/applied-data-intelligence.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Accuracypng",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Accuracypng",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 67,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Accuracypng\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Accuracypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Compliancepng",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Compliancepng",
       "usages": [
         {
           "file": "data/appliedAiData.ts",
           "line": 74,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Compliancepng\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Compliancepng\","
         },
         {
           "file": "data/appliedAiData.ts",
           "line": 81,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Compliancepng\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Compliancepng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Corporate-Governance/Absolute-Integritypng",
+      "path": "/safal/images/public/images/Corporate-Governance/Absolute-Integritypng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 25,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Absolute-Integritypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Absolute-Integritypng\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 103,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Absolute-Integritypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Absolute-Integritypng\","
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 86,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Absolute-Integritypng\""
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Absolute-Integritypng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Corporate-Governance/Systemic-Ownership.png",
+      "path": "/safal/images/public/images/Corporate-Governance/Systemic-Ownership.png",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 41,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Systemic-Ownership.png\","
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Systemic-Ownership.png\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 119,
-          "context": "imageSrc: \"/images/public/images/Corporate-Governance/Systemic-Ownership.png\","
+          "context": "imageSrc: \"/safal/images/public/images/Corporate-Governance/Systemic-Ownership.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng",
+      "path": "/safal/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 64,
-          "context": "imageSrc: \"/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Values-&-Culture/Values&culture/Systemic-Accountabilitypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng",
+      "path": "/safal/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 80,
-          "context": "imageSrc: \"/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng\","
+          "context": "imageSrc: \"/safal/images/public/images/Values-&-Culture/Values&culture/Trust-Ethicspng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 88,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng\","
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng\","
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 116,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/The-Fast-Trackpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Become-a-Partnerpng",
+      "path": "/safal/images/public/images/banner-images/Become-a-Partnerpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 127,
-          "context": "imageSrc: \"/images/public/images/banner-images/Become-a-Partnerpng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Become-a-Partnerpng\","
         },
         {
           "file": "data/responsibleScaleData.ts",
           "line": 4,
-          "context": "imageSrc: \"/images/public/images/banner-images/Become-a-Partnerpng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Become-a-Partnerpng\","
         },
         {
           "file": "data/responsibleScaleData.tsx",
           "line": 5,
-          "context": "imageSrc: \"/images/public/images/banner-images/Become-a-Partnerpng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Become-a-Partnerpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 143,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Radical-Accountabilitypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 151,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Agile-Adaptabilitypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 159,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng\","
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egopng\","
         }
       ]
     },
     {
-      "path": "/images/Relentless-Velocity.webp",
+      "path": "/safal/images/Relentless-Velocity.webp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 182,
-          "context": "imageSrc: \"/images/Relentless-Velocity.webp\","
+          "context": "imageSrc: \"/safal/images/Relentless-Velocity.webp\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 373,
-          "context": "imageSrc: \"/images/Relentless-Velocity.webp\","
+          "context": "imageSrc: \"/safal/images/Relentless-Velocity.webp\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 228,
-          "context": "imageSrc: \"/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng\","
+          "context": "imageSrc: \"/safal/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng\","
         },
         {
           "file": "data/featureCardsData.tsx",
           "line": 42,
-          "context": "imageSrc: \"/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng\","
+          "context": "imageSrc: \"/safal/images/public/images/Business-&-Financial-Advisory/Due-Diligencepng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 294,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 334,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Accelerated-Executionpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 302,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng\","
         },
         {
           "file": "data/cultureData.tsx",
           "line": 342,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Risk-Optimizationpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 310,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng\","
         },
         {
           "file": "data/mockBrochures.ts",
           "line": 15,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/Enterprise-AIpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 412,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Process-Based-Engagementpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng",
+      "path": "/safal/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 420,
-          "context": "imageSrc: \"/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng\","
+          "context": "imageSrc: \"/safal/images/public/images/financial-accounting-solutions/Full-Outsourcing-Modelpng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Corporate-Governancepng",
+      "path": "/safal/images/public/images/banner-images/Corporate-Governancepng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 444,
-          "context": "imageSrc: \"/images/public/images/banner-images/Corporate-Governancepng\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Corporate-Governancepng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/contactwebp",
+      "path": "/safal/images/public/images/banner-images/contactwebp",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 452,
-          "context": "imageSrc: \"/images/public/images/banner-images/contactwebp\","
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/contactwebp\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng",
+      "path": "/safal/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng",
       "usages": [
         {
           "file": "data/cultureData.tsx",
           "line": 460,
-          "context": "imageSrc: \"/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng\","
+          "context": "imageSrc: \"/safal/images/public/images/Strategic-Partnerships/Strategic-Partnerships/Shared-Accountabilitypng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng",
+      "path": "/safal/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 70,
-          "context": "imageSrc: \"/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng\""
+          "context": "imageSrc: \"/safal/images/public/images/life-at-safal/Life@Safal/The-Mastery-Fundpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng",
+      "path": "/safal/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 78,
-          "context": "imageSrc: \"/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng\""
+          "context": "imageSrc: \"/safal/images/public/images/life-at-safal/Life@Safal/Global-Mobilitypng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 100,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng\""
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Live-Enterprise-Projectspng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 108,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Bleeding-Edge-Techpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 124,
-          "context": "imageSrc: \"/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng\""
+          "context": "imageSrc: \"/safal/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng\""
         },
         {
           "file": "data/industryApplicationsData.ts",
           "line": 28,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 73,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Financial-Servicespng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Investor-Relations/Investor/Annual-Reportspng",
+      "path": "/safal/images/public/images/Investor-Relations/Investor/Annual-Reportspng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 146,
-          "context": "imageSrc: \"/images/public/images/Investor-Relations/Investor/Annual-Reportspng\""
+          "context": "imageSrc: \"/safal/images/public/images/Investor-Relations/Investor/Annual-Reportspng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng",
+      "path": "/safal/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 154,
-          "context": "imageSrc: \"/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng\""
+          "context": "imageSrc: \"/safal/images/public/images/Investor-Relations/Investor/ESG-Disclosurespng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 162,
-          "context": "imageSrc: \"/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png\""
+          "context": "imageSrc: \"/safal/images/public/images/Business-&-Financial-Advisory/Advisory-Across-Diverse-Scenarios-1png\""
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Investor-Relationspng",
+      "path": "/safal/images/public/images/banner-images/Investor-Relationspng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 185,
-          "context": "imageSrc: \"/images/public/images/banner-images/Investor-Relationspng\""
+          "context": "imageSrc: \"/safal/images/public/images/banner-images/Investor-Relationspng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 193,
-          "context": "imageSrc: \"/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng\""
+          "context": "imageSrc: \"/safal/images/public/images/Business-&-Financial-Advisory/Internal-Auditspng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 215,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 294,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Production-Line-Automationpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 223,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 302,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Real-Time-Monitoring-Systemspng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 231,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 310,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
         },
         {
           "file": "data/engineeringData.tsx",
           "line": 318,
-          "context": "imageSrc: \"/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Industrial-Automation-&-IoT/Energy-Monitoring-&-Optimizationpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp",
+      "path": "/safal/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 239,
-          "context": "imageSrc: \"/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp\""
+          "context": "imageSrc: \"/safal/images/public/images/Internships-&-Mentorship/Internship/Collaborative-Egowebp\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng",
+      "path": "/safal/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 254,
-          "context": "imageSrc: \"/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Become-a-Partner/Becomepartner/Channel-&-Go-To-Marketpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng",
+      "path": "/safal/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng",
       "usages": [
         {
           "file": "data/engineeringData.tsx",
           "line": 262,
-          "context": "imageSrc: \"/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng\""
+          "context": "imageSrc: \"/safal/images/public/images/Become-a-Partner/Becomepartner/Venture-&-Co-Innovationpng\""
         }
       ]
     },
     {
-      "path": "/images/public/images/Become-a-Partner/sapng",
+      "path": "/safal/images/public/images/Become-a-Partner/sapng",
       "usages": [
         {
           "file": "data/featureCardsData.tsx",
           "line": 8,
-          "context": "imageSrc: \"/images/public/images/Become-a-Partner/sapng\","
+          "context": "imageSrc: \"/safal/images/public/images/Become-a-Partner/sapng\","
         },
         {
           "file": "data/industryApplicationsData.ts",
           "line": 52,
-          "context": "{ id: '03', title: 'Automobile', image: '/images/public/images/Become-a-Partner/sapng', description: '' },"
+          "context": "{ id: '03', title: 'Automobile', image: '/safal/images/public/images/Become-a-Partner/sapng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/AI-&-Emerging-Technology/bannerwebp",
+      "path": "/safal/images/public/images/AI-&-Emerging-Technology/bannerwebp",
       "usages": [
         {
           "file": "data/featureCardsData.tsx",
           "line": 15,
-          "context": "imageSrc: \"/images/public/images/AI-&-Emerging-Technology/bannerwebp\","
+          "context": "imageSrc: \"/safal/images/public/images/AI-&-Emerging-Technology/bannerwebp\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp",
       "usages": [
         {
           "file": "data/featureCardsData.tsx",
           "line": 22,
-          "context": "imageSrc: \"/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp\","
+          "context": "imageSrc: \"/safal/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementwebp\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 10,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chainpng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 16,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Retail-&-Distributionpng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 22,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 33,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 67,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Healthcarepng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng",
+      "path": "/safal/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 34,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng',"
         },
         {
           "file": "data/industryApplicationsData.ts",
           "line": 40,
-          "context": "image: '/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng',"
+          "context": "image: '/safal/images/public/images/Brand,-Digital-&-Creative-Services/Real-Estate-&-Property-Managementpng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 50,
-          "context": "{ id: '01', title: 'Textile', image: '/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng', description: '' },"
+          "context": "{ id: '01', title: 'Textile', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Pharmaceuticalpng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Automobilepng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Automobilepng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 51,
-          "context": "{ id: '02', title: 'Pharmaceutical', image: '/images/public/images/Industrial-Automation-&-IoT/Automobilepng', description: '' },"
+          "context": "{ id: '02', title: 'Pharmaceutical', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Automobilepng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 53,
-          "context": "{ id: '04', title: 'Energy', image: '/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng', description: '' },"
+          "context": "{ id: '04', title: 'Energy', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Food-&-Dairypng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 54,
-          "context": "{ id: '05', title: 'Food & Dairy', image: '/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng', description: '' },"
+          "context": "{ id: '05', title: 'Food & Dairy', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Oil-&-Gaspng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng",
       "usages": [
         {
           "file": "data/industryApplicationsData.ts",
           "line": 55,
-          "context": "{ id: '06', title: 'Oil & Gas', image: '/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng', description: '' },"
+          "context": "{ id: '06', title: 'Oil & Gas', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng', description: '' },"
         },
         {
           "file": "data/industryApplicationsData.ts",
           "line": 56,
-          "context": "{ id: '07', title: 'Airports & Infrastructure', image: '/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng', description: '' },"
+          "context": "{ id: '07', title: 'Airports & Infrastructure', image: '/safal/images/public/images/Industrial-Automation-&-IoT/Airports-&-Infrastructurepng', description: '' },"
         }
       ]
     },
     {
-      "path": "/images/public/images/banner-images/Open-Positionspng",
+      "path": "/safal/images/public/images/banner-images/Open-Positionspng",
       "usages": [
         {
           "file": "data/mockBrochures.ts",
           "line": 24,
-          "context": "imageSrc: '/images/public/images/banner-images/Open-Positionspng',"
+          "context": "imageSrc: '/safal/images/public/images/banner-images/Open-Positionspng',"
         }
       ]
     },
     {
-      "path": "/images/hero-3d.jpg",
+      "path": "/safal/images/hero-3d.jpg",
       "usages": [
         {
           "file": "data/mockPosts.ts",
           "line": 66,
-          "context": "imageSrc: '/images/hero-3d.jpg',"
+          "context": "imageSrc: '/safal/images/hero-3d.jpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng",
+      "path": "/safal/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng",
       "usages": [
         {
           "file": "data/mockPosts.ts",
           "line": 83,
-          "context": "imageSrc: \"/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng\","
+          "context": "imageSrc: \"/safal/images/public/images/Become-a-Partner/Becomepartner/Technology-Integrationspng\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp",
+      "path": "/safal/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 20,
-          "context": "imageSrc: \"/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp\","
+          "context": "imageSrc: \"/safal/images/public/images/Business-&-Financial-Advisory/Internal-Auditswebp\","
         }
       ]
     },
     {
-      "path": "/images/MasterContact.png",
+      "path": "/safal/images/MasterContact.png",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 35,
-          "context": "imageSrc: \"/images/MasterContact.png\","
+          "context": "imageSrc: \"/safal/images/MasterContact.png\","
         }
       ]
     },
     {
-      "path": "/images/Internships-&-Mentorship/Internships-&-Mentorship.png",
+      "path": "/safal/images/Internships-&-Mentorship/Internships-&-Mentorship.png",
       "usages": [
         {
           "file": "data/pagesData.tsx",
           "line": 113,
-          "context": "imageSrc: \"/images/Internships-&-Mentorship/Internships-&-Mentorship.png\","
+          "context": "imageSrc: \"/safal/images/Internships-&-Mentorship/Internships-&-Mentorship.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/life-at-safal/1png",
+      "path": "/safal/images/public/images/life-at-safal/1png",
       "usages": [
         {
           "file": "data/responsibleScaleData.ts",
           "line": 11,
-          "context": "imageSrc: \"/images/public/images/life-at-safal/1png\","
+          "context": "imageSrc: \"/safal/images/public/images/life-at-safal/1png\","
         }
       ]
     },
     {
-      "path": "/images/responsible_scale.png",
+      "path": "/safal/images/responsible_scale.png",
       "usages": [
         {
           "file": "data/responsibleScaleData.ts",
           "line": 19,
-          "context": "imageSrc: \"/images/responsible_scale.png\","
+          "context": "imageSrc: \"/safal/images/responsible_scale.png\","
         },
         {
           "file": "data/responsibleScaleData.tsx",
           "line": 13,
-          "context": "imageSrc: \"/images/responsible_scale.png\","
+          "context": "imageSrc: \"/safal/images/responsible_scale.png\","
         }
       ]
     },
     {
-      "path": "/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng",
+      "path": "/safal/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 9,
-          "context": "image: '/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng',"
+          "context": "image: '/safal/images/public/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systemspng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Logisticsjpg",
+      "path": "/safal/images/public/images/Homepage/Logisticsjpg",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 17,
-          "context": "image: '/images/public/images/Homepage/Logisticsjpg',"
+          "context": "image: '/safal/images/public/images/Homepage/Logisticsjpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Retailjpg",
+      "path": "/safal/images/public/images/Homepage/Retailjpg",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 26,
-          "context": "image: '/images/public/images/Homepage/Retailjpg',"
+          "context": "image: '/safal/images/public/images/Homepage/Retailjpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Financejpg",
+      "path": "/safal/images/public/images/Homepage/Financejpg",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 40,
-          "context": "image: '/images/public/images/Homepage/Financejpg',"
+          "context": "image: '/safal/images/public/images/Homepage/Financejpg',"
         }
       ]
     },
     {
-      "path": "/images/public/images/INDUSTRIES/Real-Estatepng",
+      "path": "/safal/images/public/images/INDUSTRIES/Real-Estatepng",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 47,
-          "context": "image: '/images/public/images/INDUSTRIES/Real-Estatepng',"
+          "context": "image: '/safal/images/public/images/INDUSTRIES/Real-Estatepng',"
         },
         {
           "file": "data/sectorsData.tsx",
           "line": 79,
-          "context": "image: '/images/public/images/INDUSTRIES/Real-Estatepng',"
+          "context": "image: '/safal/images/public/images/INDUSTRIES/Real-Estatepng',"
         }
       ]
     },
     {
-      "path": "/images/public/images/Homepage/Retail-1webp",
+      "path": "/safal/images/public/images/Homepage/Retail-1webp",
       "usages": [
         {
           "file": "data/sectorsData.tsx",
           "line": 61,
-          "context": "image: '/images/public/images/Homepage/Retail-1webp',"
+          "context": "image: '/safal/images/public/images/Homepage/Retail-1webp',"
         }
       ]
     },
     {
-      "path": "/images/climbing_stones.png",
+      "path": "/safal/images/climbing_stones.png",
       "usages": [
         {
           "file": "data/sustainableData.tsx",
           "line": 123,
-          "context": "imageSrc: \"/images/climbing_stones.png\","
+          "context": "imageSrc: \"/safal/images/climbing_stones.png\","
         },
         {
           "file": "data/sustainableData.tsx",
           "line": 143,
-          "context": "imageSrc: \"/images/climbing_stones.png\","
+          "context": "imageSrc: \"/safal/images/climbing_stones.png\","
         }
       ]
     }

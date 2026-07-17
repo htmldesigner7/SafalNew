@@ -38,7 +38,7 @@ export default function WhyAttend() {
 
         <div className={styles.rightCol}>
           <Image 
-            src="/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp" // A placeholder image fitting the aspect ratio
+            src="/safal/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp" // A placeholder image fitting the aspect ratio
             alt="Colleagues discussing"
             fill
             className={styles.image}

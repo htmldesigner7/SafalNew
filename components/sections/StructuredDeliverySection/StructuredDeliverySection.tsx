@@ -126,7 +126,7 @@ export default function StructuredDeliverySection() {
           {/* Right Image */}
           <div className={styles.imageContent}>
             <Image
-              src="/images/Structured-End-to-End-Project-Delivery.png"
+              src="/safal/images/Structured-End-to-End-Project-Delivery.png"
               alt="Project Delivery Stages"
               fill
               className={styles.image}

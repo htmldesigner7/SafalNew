@@ -113,7 +113,7 @@ export default function TimeResourceSection() {
               >
                  {/* Dark Globe (Fades out as we drag right) */}
                  <Image 
-                   src="/images/Sustainability/The-Cost-of-Bloated-Code.png" 
+                   src="/safal/images/Sustainability/The-Cost-of-Bloated-Code.png" 
                    alt="Cost of Bloated Code" 
                    fill 
                    className={styles.globeImage} 
@@ -122,7 +122,7 @@ export default function TimeResourceSection() {
                  />
                  {/* Clean Globe (Fades in as we drag right) */}
                  <Image 
-                   src="/images/Sustainability/Frictionless-Decarbonized-Scaling.png" 
+                   src="/safal/images/Sustainability/Frictionless-Decarbonized-Scaling.png" 
                    alt="Frictionless Decarbonized Scaling" 
                    fill 
                    className={styles.globeImage} 

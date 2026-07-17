@@ -43,7 +43,7 @@ export default function PlatformCapabilitiesSection() {
           <div className={styles.graphicCenter}>
             {/* Placeholder for the central graphic */}
             <Image 
-              src="/images/Enterprise-Grade-Products-Built-for-Scale/enterprise-products-platform.png" 
+              src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/enterprise-products-platform.png" 
               alt="Platform Capabilities Graphic" 
               width={300} 
               height={300} 

@@ -22,29 +22,29 @@ export default function BrainTrustSection() {
         <div className={styles.galleryGrid}>
           {/* Col 1 */}
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/6.webp" alt="Team meeting" width={300} height={300} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/6.webp" alt="Team meeting" width={300} height={300} className={styles.img} />
           </div>
           
           {/* Col 2 */}
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/7.webp" alt="Team working" width={300} height={200} className={styles.img} />
-            <Image src="/images/life-at-safal/8.webp" alt="Office space" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/7.webp" alt="Team working" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/8.webp" alt="Office space" width={300} height={200} className={styles.img} />
           </div>
           
           {/* Col 3 */}
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/9.webp" alt="Discussion" width={500} height={500} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/9.webp" alt="Discussion" width={500} height={500} className={styles.img} />
           </div>
           
           {/* Col 4 */}
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/10.webp" alt="Collaboration" width={300} height={200} className={styles.img} />
-            <Image src="/images/life-at-safal/11.webp" alt="Walking" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/10.webp" alt="Collaboration" width={300} height={200} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/11.webp" alt="Walking" width={300} height={200} className={styles.img} />
           </div>
           
           {/* Col 5 */}
           <div className={styles.col}>
-            <Image src="/images/life-at-safal/12.webp" alt="Group" width={300} height={300} className={styles.img} />
+            <Image src="/safal/images/life-at-safal/12.webp" alt="Group" width={300} height={300} className={styles.img} />
           </div>
         </div>
       </div>
