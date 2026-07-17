@@ -12,6 +12,13 @@ import TechnologyDrivenExecutionSection from './components/TechnologyDrivenExecu
 import { structuredExecutionData } from '@/data/processData';
 import { brandIndustryApplicationsData } from '@/data/sectorsData';
 import { StructuredCreativityScalableExecution } from '@/data/platformAdvantagesData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Creative Design, Branding & Digital Marketing Services | Safal",
+  description:
+    "Safal Infosoft offers digital marketing services, creative design services, and digital branding solutions to help businesses build a stronger online presence.",
+};
 
 export default function BrandDigitalCreativeServicesPage() {
   const hero = pagesData.brandDigitalCreativeServices.hero;

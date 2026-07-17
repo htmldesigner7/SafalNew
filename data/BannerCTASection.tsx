@@ -5,9 +5,8 @@ export const startupProductDevBannerData: BannerCTAData = {
   iconSrc: '/images/favicon_new.png',
   title: (
     <>
-      Start Your Product <br />
-      Journey with <br />
-      Structured Execution
+      Start Your Product Journey<br />
+       with Structured Execution
     </>
   ),
   description: 'Work with a team delivering startup consulting services and product development through disciplined execution, scalable architecture, and long-term product thinking.',

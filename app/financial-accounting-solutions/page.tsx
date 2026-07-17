@@ -12,6 +12,13 @@ import CultureSection from '@/components/sections/CultureSection/CultureSection'
 import PlatformAdvantagesSection from '@/components/sections/PlatformAdvantagesSection/PlatformAdvantagesSection';
 import { WhysafalAccounting } from '@/data/platformAdvantagesData';
 import StructuredOperationsSection from './components/StructuredOperationsSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Financial Accounting Solutions & Outsourced Accounting | Safal",
+  description:
+    "Safal Infosoft provides financial accounting solutions including outsourced accounting services, bookkeeping, tax preparation and CPA support services.",
+};
 
 export default function FinancialAccountingSolutionsPage() {
   const hero = pagesData.financialAccountingSolutions.hero;

@@ -11,6 +11,13 @@ import { specializedSystemsData } from '@/data/processData';
 import { industryApplicationsData } from '@/data/industryApplicationsData';
 import { enterprisePlatformAdvantagesData } from '@/data/platformAdvantagesData';
 import RequestDemoSection from '@/components/sections/RequestDemoSection/RequestDemoSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Enterprise Software Development Company | Safal",
+  description:
+    "Build scalable enterprise platforms with Safal Infosoft. We provide enterprise product development services, ERP software, and custom software solutions.",
+};
 
 export default function EnterpriseProductsPage() {
   const { hero } = pagesData.enterpriseProducts;
