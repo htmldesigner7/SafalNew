@@ -60,7 +60,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: `${siteUrl}/images/HomePage/Diversified-Technology.png`,
+          url: `${siteUrl}/images/HomePage/Enterprise-Products-Platforms.webpg`,
           width: 1200,
           height: 630,
           alt: "safalinfosoft",
@@ -73,7 +73,7 @@ export async function generateMetadata(): Promise<Metadata> {
         "IT Consulting Services Company | Digital Transformation Partner | Safal",
       description:
         "Safal is an IT consulting services company and digital transformation partner delivering technology consulting and enterprise solutions for modern businesses",
-      images: [`${siteUrl}/images/HomePage/Diversified-Technology.png`],
+      images: [`${siteUrl}/images/HomePage/Enterprise-Products-Platforms.webpg`],
     },
 
   };
