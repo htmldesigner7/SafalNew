@@ -37,7 +37,7 @@ export default function TermsConditionsPage() {
               <li className="mb_10">Attempt to gain unauthorized access to any part of the website, servers, or connected systems.</li>
               <li className="mb_10">Introduce malicious software, viruses, or harmful code.</li>
               <li className="mb_10">Copy, distribute, reproduce, or commercially exploit any content without prior written permission.</li>
-              <li className="mb_10">Interfere with the website's security, functionality, or availability.</li>
+              <li className="mb_10">Interfere with the website&apos;s security, functionality, or availability.</li>
             </ul>
             <p className="para_16 mb_30">Safal reserves the right to suspend or terminate access if any misuse is identified.</p>
 

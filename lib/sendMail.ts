@@ -5,6 +5,7 @@ interface MailOptions {
   to: string | string[];
   subject: string;
   html: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   attachments?: any[];
 }
 
