@@ -9,6 +9,13 @@ import { joinTeamData } from '@/data/engineeringData';
 import { sandboxData } from '@/data/intelligenceData';
 import { TalentData } from '@/data/cultureData';
 import BeyondDesksection from './components/BeyondDesksection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Life at Safal | Careers at Safal Infosoft",
+  description:
+    "Discover life at Safal Infosoft, our collaborative work culture, employee growth opportunities, innovation, and career development.",
+};
 
 export default function LifeAtSafalPage() {
   const heroData = pagesData.lifeAtSafal.hero;

@@ -7,6 +7,13 @@ import EngineeringSection from '@/components/sections/EngineeringSection/Enginee
 import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
 import ArchitectureSection from '@/components/sections/ArchitectureSection/ArchitectureSection';
 import { aboutProcessData } from '@/data/processData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Safal Infosoft | Our Story, Mission & Vision",
+  description:
+    "Explore Safal Infosoft's journey, mission, and vision. We empower startups and enterprises through innovative software development and digital solutions.",
+};
 
 export default function AboutPage() {
   return (

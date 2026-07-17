@@ -2,10 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './EcosystemCTASection.module.css';
+import { AlignCenter } from 'lucide-react';
 
 const data = {
   title: "Across Digital and Enterprise Ecosystems",
-  subtitle: "Safal partners with organizations across dynamic digital and enterprise ecosystems, from fast-scaling SaaS companies to digitally transforming enterprises. Every engagement is built on structured delivery, technical precision, and long-term value creation.",
+  subtitle: <>
+  <p>Safal partners with organizations across dynamic digital and enterprise ecosystems, from fast-scaling SaaS companies to digitally transforming enterprises. Every engagement is built on structured delivery, technical precision, and long-term value creation.</p>
+ 
+  </>,
   leftText: ["Ready to", "Scale?"],
   rightText: ["Start Team", "Deployment !"],
   cardTitle: "Scale Your Team Across Any Industry",
@@ -24,7 +28,17 @@ export default function EcosystemCTASection() {
         <div className="header_sec mb_40" >
           <h2 className="title_60">{data.title}</h2>
           <p>{data.subtitle}</p>
+          
         </div>
+    
+         <ul className={styles.disc}>
+    <li>SaaS companies</li>
+    <li>Startups</li>
+    <li>Product-led ventures</li>
+    <li>Digitally Transforming Enterprises</li>
+    <li>Solution-based businesses</li>
+    <li>Tech ventures</li>
+  </ul>
 
         <div className={styles.layoutWrapper}>
           

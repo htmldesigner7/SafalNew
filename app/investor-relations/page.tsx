@@ -7,6 +7,13 @@ import IntelligenceSection from '@/components/sections/IntelligenceSection/Intel
 import { EconomicData } from '@/data/intelligenceData';
 import EngineeringSection from '@/components/sections/EngineeringSection/EngineeringSection';
 import { financialReportData } from '@/data/engineeringData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Investor Relations | Safal Infosoft",
+  description:
+    "Explore Safal Infosoft's investor relations, corporate governance, financial updates, business performance, and strategic growth initiatives.",
+};
 
 export default function InvestorRelationsPage() {
   const heroData = pagesData.investorRelations.hero;

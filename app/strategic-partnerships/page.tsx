@@ -9,10 +9,12 @@ import CultureSection from '@/components/sections/CultureSection/CultureSection'
 import { strategicAllyData } from '@/data/cultureData';
 import ResponsibleScaleSection from '../corporate-governance/components/ResponsibleScaleSection';
 import { ArchitectFutureTogether } from '@/data/responsibleScaleData';
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: 'Strategic Partnerships - Safal Infosoft Limited',
-  description: 'At the Safal Group, we don\'t just sign vendor agreements: we forge strategic alliances.',
+export const metadata: Metadata = {
+  title: "Strategic Partnerships | Safal Infosoft",
+  description:
+    "Safal Infosoft builds strategic partnerships to deliver enterprise software, digital transformation, and advanced technology solutions.",
 };
 
 export default function StrategicPartnershipsPage() {

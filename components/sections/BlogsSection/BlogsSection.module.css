@@ -244,6 +244,13 @@
     overflow: hidden;
 }
 
+.blogCardTitle{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
 .cardReadMore {
   font-size: 14px;
   color: var(--red);

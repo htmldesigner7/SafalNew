@@ -4,6 +4,13 @@ import { pagesData } from '@/data/pagesData';
 import { enterprisePlatformsData } from '@/data/enterprisePlatforms';
 import { caseStudiesData } from '@/data/caseStudies';
 import styles from './CaseStudies.module.css';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case Studies | Safal Infosoft Success Stories",
+  description:
+    "Discover real-world case studies highlighting custom software, ERP solutions, product development, and digital innovation delivered by Safal Infosoft.",
+};
 
 export default function CaseStudiesPage() {
   const heroData = pagesData.caseStudies.hero;

@@ -7,6 +7,13 @@ import { architectureOversightData } from '@/data/cultureData';
 import { legacyScaleData } from '@/data/responsibleScaleData';
 import { GoverningDigitalFrontierData } from '@/data/sustainableData';
 import SustainableSection from '@/components/sections/SustainableSection/SustainableSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Corporate Governance | Safal Infosoft",
+  description:
+    "Learn about Safal Infosoft's corporate governance framework, leadership, ethics, compliance, transparency, and accountability practices.",
+};
 
 export default function CorporateGovernancePage() {
   const heroData = pagesData.corporateGovernance?.hero;

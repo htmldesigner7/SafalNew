@@ -3,10 +3,12 @@ import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import IndustryMarqueeSection from './components/IndustryMarqueeSection';
 import IndustryDetailSection from '@/components/sections/IndustryDetailSection/IndustryDetailSection';
 import { allIndustriesData } from '@/data/industriesData';
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: 'Industries We Serve - Safal Infosoft Limited',
-  description: 'Designed to align operations, data, and workflows with industry-specific requirements, enabling greater control, visibility, and scalable execution across complex business environments.',
+export const metadata: Metadata = {
+  title: "Industries We Serve | Safal Infosoft",
+  description:
+    "Explore Safal Infosoft's expertise in delivering scalable software development, product engineering, and digital solutions for various industries.",
 };
 
 export default function IndustriesWeServePage() {

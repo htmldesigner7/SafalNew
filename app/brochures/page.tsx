@@ -1,6 +1,13 @@
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import BrochuresSection from '@/components/sections/BrochuresSection/BrochuresSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Software & IT Services Brochures | Safal Infosoft",
+  description:
+    "Browse and download brochures covering Safal Infosoft's software development, technology consulting, staffing, and digital solutions.",
+};
 
 export default function BrochuresPage() {
   return (

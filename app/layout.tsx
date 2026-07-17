@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: {
       default:
         "IT Consulting Services Company | Digital Transformation Partner | Safal",
-      template: "%s | Safal",
+      template: "%s",
     },
     description:
       "Safal is an IT consulting services company and digital transformation partner delivering technology consulting and enterprise solutions for modern businesses.",

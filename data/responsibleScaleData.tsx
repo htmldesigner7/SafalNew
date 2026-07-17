@@ -7,8 +7,8 @@ export const legacyScaleData = {
 };
 
 export const coExistScale = {
-  title: "Let’s Architect the Future, Together",
-  description:<>The most ambitious outcomes are never built in isolation. <br /><br />Whether you’re scaling into new markets, building next-generation platforms, or transforming legacy systems, Safal aligns its infrastructure, expertise, and global reach with your vision—turning strategic intent into measurable impact.
+  title: "We Can Do More Than Co-Exist.",
+  description:<>Safal Group is not just focused on reducing digital impact—we are building systems that actively contribute to a regenerative future. <br /><br />We design intelligent ecosystems where technology, business, and environmental responsibility align, enabling enterprises to grow without compromise.
   </>,
   imageSrc: "/images/Sustainability/sustainbility-cta-.webp",
   imageAlt: "Co-exist ecosystem"

@@ -5,6 +5,13 @@ import LeafClockSection from './components/LeafClockSection';
 import { pagesData } from '@/data/pagesData';
 import { coExistScale } from '@/data/responsibleScaleData';
 import EverylineSection from './components/EverylineSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Sustainability Commitment | Safal Infosoft",
+  description:
+    "Learn about Safal Infosoft's sustainability vision, environmental responsibility, and commitment to building a better future through innovation.",
+};
 
 export default function SustainabilityPage() {
   const heroData = pagesData.sustainability?.hero;

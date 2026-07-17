@@ -14,7 +14,7 @@ const pageData = {
     imageAlt: "Technology Staffing Hero",
   },
   talent: {
-    title: "Technology Talent, Delivered with Structure 11",
+    title: "Technology Talent, Delivered with Structure",
     description1: "Safal is an IT staffing company delivering technology staffing services aligned with business requirements, project timelines, and technical environments.",
     description2: "Through structured technology recruitment services and IT staff augmentation services, organizations can access qualified talent without compromising on quality or speed.",
     imageSrc: "/images/Technology-Staffing/Technology-Talent.webp",

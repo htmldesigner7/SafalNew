@@ -51,6 +51,16 @@ background: linear-gradient(117deg, #EEE 34.54%, #F3EFE2 100%), #D54B26;
   align-items: flex-start;
 }
 
+.disc
+{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
 /* =========================================================
    Responsive Breakpoints
    ========================================================= */
@@ -90,7 +100,12 @@ background: linear-gradient(117deg, #EEE 34.54%, #F3EFE2 100%), #D54B26;
 
 @media (max-width: 769px) {
   .greyTextBlock { font-size: 22px; }
+.disc
+{
+  gap: 20px;
 }
+}
+
 
 @media (max-width: 431px) {
   .sideText {gap: 8px; }

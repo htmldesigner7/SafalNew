@@ -9,6 +9,13 @@ import CultureSection from '@/components/sections/CultureSection/CultureSection'
 import { MaterialtData } from '@/data/cultureData';
 import CodeRealImpact from './components/CodeRealImpact';
 import ApplyNowSection from './components/ApplyNowSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Internships & Mentorship | Safal Infosoft",
+  description:
+    "Kickstart your career with internships and mentorship at Safal Infosoft. Gain hands-on experience in software development and technology.",
+};
 
 export default function InternshipsMentorshipPage() {
   const heroData = pagesData.internshipsMentorship.hero;

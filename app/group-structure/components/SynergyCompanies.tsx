@@ -15,7 +15,10 @@ export interface SynergyCompany {
 const synergyCompaniesData = {
   title: "Independent Focus. Infinite Synergy.",
   subtitle: <>
-  <p>Each vertical operates with clarity of purpose and operational independence. Safal Infosoft engineers the technology. Ideaz Ventures drives innovation. Intelliworkz enables execution. Individually, they deliver depth. Collectively, they deliver scale. This interconnected structure allows us to solve holistically, move with speed, and build systems aligned for long-term growth.</p></>,
+  <p>Each vertical operates with clarity of purpose and operational independence. </p>
+  <p>Safal Infosoft engineers the technology. <br />Ideaz Ventures drives innovation. <br />Intelliworkz enables execution. </p>
+  <p>Individually, they deliver depth. <br />Collectively, they deliver scale.</p>
+  <p> This interconnected structure allows us to solve holistically, move with speed, and build systems aligned for long-term growth.</p></>,
   companies: [
     {
       id: "safal-infosoft-ltd",
