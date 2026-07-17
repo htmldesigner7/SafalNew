@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
             <p className="para_16 mb_15">As Safal works with organizations across multiple industries and regions, information may be processed or accessed by authorized personnel or service providers operating in different jurisdictions, where permitted by applicable law.</p>
             <p className="para_16 mb_30">Appropriate safeguards will be implemented to protect personal information during such processing.</p>
 
-            <h2 className="title_40 mt_40 mb_20">Children's Privacy</h2>
+            <h2 className="title_40 mt_40 mb_20">Children&apos;s Privacy</h2>
             <p className="para_16 mb_15">Our website and professional services are intended for business users and individuals over the age required by applicable law.</p>
             <p className="para_16 mb_30">We do not knowingly collect personal information from children. If such information is inadvertently collected, appropriate steps will be taken to remove it promptly.</p>
 

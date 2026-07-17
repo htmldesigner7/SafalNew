@@ -243,7 +243,7 @@ export default function BlogsSection() {
             ) : !featuredPost ? (
               <div style={{ textAlign: 'center', padding: '60px 20px' }}>
                 <h3 className="title_24 mb_20">No matching posts found</h3>
-                <p style={{ color: 'var(--grey-666)', marginBottom: '24px' }}>Try adjusting your filters or search criteria to find what you're looking for.</p>
+                <p style={{ color: 'var(--grey-666)', marginBottom: '24px' }}>Try adjusting your filters or search criteria to find what you&apos;re looking for.</p>
                 <button className="btn-outline btn-outline-red" onClick={handleClearAll}>Clear All Filters</button>
               </div>
             ) : null}

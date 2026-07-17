@@ -55,7 +55,9 @@ export default function BrochuresSection() {
 
   useEffect(() => {
     if (window.innerWidth <= 1025) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTypeOpen(false);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTopicOpen(false);
     }
   }, []);
