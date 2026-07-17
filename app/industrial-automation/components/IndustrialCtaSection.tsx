@@ -24,7 +24,7 @@ export default function IndustrialCtaSection() {
           </div>
 
           <p className={styles.description}>
-            Work with an experienced IoT solutions provider delivering smart manufacturing solutions aligned with your operational environment. Drive Industry 4.0 transformation through structured automation, real-time visibility, and scalable system integration.
+            Work with an experienced IoT solutions provider delivering smart manufacturing solutions aligned with your operational environment. <br /> Drive Industry 4.0 transformation through structured automation, real-time visibility, and scalable system integration.
           </p>
 
           <Link href="/contact" className="btn-primary">

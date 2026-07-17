@@ -18,6 +18,13 @@ import { startupProductDevBannerData } from '@/data/BannerCTASection';
 
 import ProductDevelopmentSection from './components/ProductDevelopmentSection';
 import DesignToDeploymentSection from './components/DesignToDeploymentSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Startup Product Development Company & Consulting Services | Safal",
+  description:
+    "Safal Infosoft is a startup product development company offering end-to-end product development & consulting services for startups, from idea to launch.",
+};
 
 export default function StartupProductDevelopmentPage() {
   const { hero } = pagesData.startupProductDevelopment;

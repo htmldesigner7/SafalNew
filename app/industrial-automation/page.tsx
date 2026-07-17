@@ -15,6 +15,13 @@ import StructuredDeliverySection from '@/components/sections/StructuredDeliveryS
 import IndustrialSystemsSection from './components/IndustrialSystemsSection';
 import TechnologyAlignedSection from './components/TechnologyAlignedSection';
 import IndustrialCtaSection from './components/IndustrialCtaSection';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Industrial Automation Company | Smart Manufacturing Solutions | Safal",
+  description:
+    "Safal Infosoft is an industrial automation company delivering industrial automation solutions that improve efficiency across manufacturing operations.",
+};
 
 export default function IndustrialAutomationPage() {
   const heroData = pagesData.industrialAutomation.hero;
