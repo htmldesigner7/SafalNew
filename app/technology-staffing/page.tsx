@@ -14,6 +14,13 @@ import { speedQualityData } from '@/data/speedQualityData';
 import EcosystemCTASection from '@/components/sections/EcosystemCTASection/EcosystemCTASection';
 
 import TechnologyTalent from './components/TechnologyTalent';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Technology Staffing Solutions & IT Staffing Company | Safal",
+  description:
+    "Safal Infosoft provides technology staffing services, IT staff augmentation, technology recruitment, and skilled developers, designers, and QA testers.",
+};
 
 export default function TechnologyStaffingPage() {
   const { hero } = pagesData.technologyStaffing;

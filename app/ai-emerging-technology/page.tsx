@@ -14,6 +14,13 @@ import { measuredOperationalOutcomesData } from '@/data/cultureData';
 import { aiEmergingTechBannerData } from '@/data/BannerCTASection';
 import PlatformAdvantagesSection from '@/components/sections/PlatformAdvantagesSection/PlatformAdvantagesSection';
 import { StructuredAIImplementation } from '@/data/platformAdvantagesData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI Development Company | Enterprise AI Solutions | Safal Infosoft",
+  description:
+    "Safal Infosoft is an AI development company delivering enterprise AI solutions, machine learning services, and AI consulting for businesses.",
+};
 
 export default function AiEmergingTechnologyPage() {
   const { hero } = pagesData.aiEmergingTechnology;

@@ -168,6 +168,20 @@ export const pagesData: Record<string, { hero: HeroContent }> = {
       imageAlt: "Blogs Hero Image",
     }
   },
+  Valuesandculture: {
+    hero: {
+      title: (
+        <>
+          <strong>Culture is Our Operating System</strong>
+        </>
+      ),
+      description: <>
+      At Safal Group, our infrastructure is built on code, but our momentum is driven by people. <br />We cultivate an environment defined by precision, ownership, and uncompromising integrity across global teams.
+      </>,
+      imageSrc: "/images/Values-&-Culture/Values-&-Culture.webp",
+      imageAlt: "Blogs Hero Image",
+    }
+  },
   technologyStaffing: {
     hero: {
       title: (

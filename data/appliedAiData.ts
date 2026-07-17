@@ -64,7 +64,7 @@ export const StandardizedControlledExecution: ImageCardsData = {
       id: "automation",
       title: "Automation",
       description: "Reduced manual intervention through structured systems.",
-      imageSrc: "/safal/images/financial-accounting-solutions/Compliance.webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Automation.webp",
       imageAlt: "Automation"
     },
     {

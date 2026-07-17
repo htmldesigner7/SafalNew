@@ -5,9 +5,8 @@ export const startupProductDevBannerData: BannerCTAData = {
   iconSrc: '/safal/images/favicon_new.png',
   title: (
     <>
-      Start Your Product <br />
-      Journey with <br />
-      Structured Execution
+      Start Your Product Journey<br />
+       with Structured Execution
     </>
   ),
   description: 'Work with a team delivering startup consulting services and product development through disciplined execution, scalable architecture, and long-term product thinking.',
@@ -19,7 +18,9 @@ export const startupProductDevBannerData: BannerCTAData = {
 export const aiEmergingTechBannerData: BannerCTAData = {
   iconSrc: '/safal/images/favicon_new.png',
   title: 'Build AI Systems That Drive Business Outcomes',
-  description: 'Work with a trusted partner delivering AI consulting services, AI advisory services, and AI business solutions aligned with enterprise requirements. Evaluate how Safal enables structured AI adoption through scalable systems, controlled implementation, and measurable outcomes.',
+  description: <>
+  Work with a trusted partner delivering AI consulting services, AI advisory services, and AI business solutions aligned with enterprise requirements. <br />Evaluate how Safal enables structured AI adoption through scalable systems, controlled implementation, and measurable outcomes.
+  </>,
   buttonText: 'Book a Consultation',
   buttonLink: '/contact',
   bgImageSrc: '/safal/images/AI-&-Emerging-Technology/cta-banner.webp',

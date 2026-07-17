@@ -43,6 +43,7 @@
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 32px;
   line-height: 1.6;
+  max-width: 350px;
 }
 
 .btnWhite {
@@ -112,6 +113,7 @@
 
 @media (max-width: 769px) {
   .bannerContainer { padding: 40px 20px; }
+  .description{width: 100%;}
 }
 
 @media (max-width: 431px) {

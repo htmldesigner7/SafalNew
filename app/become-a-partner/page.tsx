@@ -7,6 +7,13 @@ import IntelligenceSection from '@/components/sections/IntelligenceSection/Intel
 import { partnershipMatrixData } from '@/data/intelligenceData';
 import ArchitectureSection from '@/components/sections/ArchitectureSection/ArchitectureSection';
 import { alignmentBlueprintData } from '@/data/architectureData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Become a Partner | Safal Infosoft",
+  description:
+    "Become a Safal Infosoft partner and collaborate on custom software, digital transformation, staffing, and technology consulting projects.",
+};
 
 export default function BecomeAPartnerPage() {
   return (

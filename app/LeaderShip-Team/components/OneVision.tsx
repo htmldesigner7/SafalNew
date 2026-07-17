@@ -16,6 +16,7 @@ export default function OneVision() {
       title: "Designing for Autonomous Scale.",
       text: `We do not build fragmented systems. Our leadership philosophy is grounded in systemic thinking—ensuring that every platform, capability, and solution operates as part of a cohesive whole.`,
       description: <>From low-code ecosystems to enterprise-grade infrastructure, we design for scale, resilience, and adaptability. The result is not just functional technology—but systems that evolve with business.<br/><br/>We build with intent. We scale with precision.</>,
+      author: "Name",
       role: "Chief Technology Officer",
       reverse: true,
     },

@@ -14,11 +14,11 @@ export interface MultiplierSectionProps {
 
 export default function MultiplierSection(
   {
-  title = "Capitalizing on the Future1111",
-  description1 = "At Safal, growth is not incidental, it is architected.",
-  description2 = "Our diversified operating model integrates enterprise software, industrial automation, and venture incubation to create multiple, reinforcing revenue streams. This structure reduces exposure to isolated market cycles while amplifying long-term value creation.",
-  description3 = "We don’t follow market trends, we build the infrastructure that shapes them, ensuring resilience, scalability, and sustained shareholder returns.",
-  imageSrc = "/safal/images/Investor-Relations/invest-relations.webp", 
+  title = "The Multiplier Effect",
+  description1 = "In our ecosystem, collective strength always exceeds individual capability. Safal is built on the belief that aligned teams outperform isolated brilliance.",
+  description2 = "When expertise across functions, geographies, and disciplines converges, the outcome is not incremental; it is exponential. We prioritize collaboration over silos, ensuring every initiative benefits from the shared intelligence of the entire organization.",
+  description3 = "This approach allows us to scale not just faster, but smarter, delivering outcomes backed by depth, not dependency.",
+  imageSrc = "/images/Values-&-Culture/Multipiler effect.webp", 
   imageAlt = "Capitalizing on the future hourglass",
   reverse = false
 }: MultiplierSectionProps

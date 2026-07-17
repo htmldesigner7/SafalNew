@@ -5,7 +5,10 @@ import styles from './ConsultExpertsCTA.module.css';
 
 const consultData = {
   title: "Structured Advisory for Critical Decisions",
-  description: "Engage with Safal for business and financial advisory services including valuation, modelling, and transaction support. Evaluate decisions through structured analysis, compliance alignment, and financial clarity.",
+  description: <>
+  Engage with Safal for business and financial advisory services including valuation, modelling, and transaction support. <br />Evaluate decisions through structured analysis, compliance alignment, and financial clarity.
+
+  </>,
   buttonText: "Book a Consultation",
   buttonLink: "/contact", 
   imageSrc: "/safal/images/Structured-Advisory-Banner.png", 

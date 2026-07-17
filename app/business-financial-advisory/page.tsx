@@ -13,6 +13,13 @@ import { StructuredIndependent } from '@/data/sustainableData';
 
 import DataDrivenSection from './components/DataDrivenSection';
 import ConsultExpertsCTA from './components/ConsultExpertsCTA';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Business and Financial Advisory Services | Safal Infosoft",
+  description:
+    "Safal Infosoft delivers business and financial advisory services covering valuation, tax planning, financial modelling, and transactions.",
+};
 
 export default function BusinessFinancialAdvisoryPage() {
   return (

@@ -227,7 +227,7 @@ export default function BlogsSection() {
                           {post.tags[1] && <span className={`${styles.categoryTag} ${styles.red}`}>{post.tags[1]}</span>}
                         </div>
                       </div>
-                      <h3 className="title_24">{post.title}</h3>
+                      <h3 className={`title_24 ${styles.blogCardTitle}`}>{post.title}</h3>
                       <p className={styles.cardDesc}>{post.description}</p>
                       <Link href={post.tags.includes('Case Studies') ? '/case-studies' : `/blogs/${post.id}`} className={styles.cardReadMore}>
                         Read More
