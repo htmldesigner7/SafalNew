@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './PlatformCapabilitiesSection.module.css';
 import { div } from 'framer-motion/client';
+import { text } from 'stream/consumers';
+import { AlignCenter } from 'lucide-react';
 
 export default function PlatformCapabilitiesSection() {
   const graphicData = [
@@ -30,8 +32,7 @@ export default function PlatformCapabilitiesSection() {
     "Secure, governed system environments",
     "Multi-user, multi-location operational capability",
   ];
-
-
+    
   return (
     <section className={"mt_80"}>
       <div className="container-1600">
@@ -39,6 +40,7 @@ export default function PlatformCapabilitiesSection() {
       
       <div className={styles.contentWrapper}>
         {/* Graphic Column */}
+        
         <div className={styles.graphicColumn}>
           <div className={styles.graphicCenter}>
             {/* Placeholder for the central graphic */}
@@ -73,6 +75,8 @@ export default function PlatformCapabilitiesSection() {
         {/* List Column */}
         <div className={styles.listColumn}>
           <div className={styles.listCard}>
+
+            
             {capabilitiesList.map((capability, index) => (
               <div key={index} className={styles.listItem}>
                 <p className={styles.listText}>{capability}</p>
@@ -82,6 +86,10 @@ export default function PlatformCapabilitiesSection() {
         </div>
       </div>
       </div>
+
+            <p className='text-center'>
+              As an <b>enterprise solutions provider,</b> Safal ensures these capabilities are aligned with real-world operational requirements and system environments.
+            </p>
     </section>
   );
 }
