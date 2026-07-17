@@ -16,7 +16,7 @@ export default function EngineerFutureSection() {
           <p>
            We don’t hire for static roles, we invest in trajectories.
           </p>
-          <p>Whether you're building scalable enterprise systems, contributing to emerging ventures, or optimizing global platforms, your work directly shapes digital ecosystems at scale.</p>
+          <p>Whether you&apos;re building scalable enterprise systems, contributing to emerging ventures, or optimizing global platforms, your work directly shapes digital ecosystems at scale.</p>
           <p>You are not here to execute tasks.<br/>You are here to architect impact.</p>
         </div>
         <div className={styles.imageContent}>

@@ -16,7 +16,7 @@ export default function CaseStudyConclusion() {
 
           <div className={styles.quoteBlock}>
             <p>
-              "Safal Infosoft didn’t just streamline our operations—they gave us complete control over our business. Today, every decision is backed by real-time data, and every process is aligned for scale."
+              &quot;Safal Infosoft didn’t just streamline our operations—they gave us complete control over our business. Today, every decision is backed by real-time data, and every process is aligned for scale.&quot;
 
             </p>
             <p className={styles.quoteAuthor}>

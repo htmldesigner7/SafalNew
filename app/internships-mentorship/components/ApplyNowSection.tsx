@@ -82,6 +82,7 @@ export default function ApplyNowSection() {
         <div className={styles.container}>
           <h2 className={`${styles.title} title_40`}>Apply Now</h2>
           
+          {/* eslint-disable-next-line react-hooks/refs */}
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className={styles.formGrid}>
               
