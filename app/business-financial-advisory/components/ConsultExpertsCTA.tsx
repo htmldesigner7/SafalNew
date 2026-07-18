@@ -11,7 +11,7 @@ const consultData = {
   </>,
   buttonText: "Book a Consultation",
   buttonLink: "/contact", 
-  imageSrc: "/images/Structured-Advisory-Banner.png", 
+  imageSrc: "/safal/images/Structured-Advisory-Banner.png", 
   imageAlt: "Consult Our Experts Dashboard"
 };
 

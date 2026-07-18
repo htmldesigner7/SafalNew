@@ -22,7 +22,7 @@ export default function BecomePartnerForm() {
   const onSubmit = async (data: PartnerFormData) => {
     const loadingToast = toast.loading('Submitting your details...');
     try {
-      const response = await fetch("/api/partner", {
+      const response = await fetch("/safal/api/partner", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

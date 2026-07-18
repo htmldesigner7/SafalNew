@@ -21,7 +21,7 @@ const visionMissionData: VisionMissionItem[] = [
       'To architect intelligent, scalable ecosystems that redefine how global enterprises operate, compete, and grow in a digital-first world.',
       'Our vision extends beyond delivering technology, we strive to shape resilient, future-ready enterprises that thrive through innovation, operational excellence, and intelligent digital ecosystems. Every solution we create is designed to support sustainable growth, long-term adaptability, and measurable business impact.'
     ],
-    imageSrc: '/images/Values-&-Culture/Our-Vision.webp' // Target/Arrow
+    imageSrc: '/safal/images/Values-&-Culture/Our-Vision.webp' // Target/Arrow
   },
   {
     id: 'mission',
@@ -31,7 +31,7 @@ const visionMissionData: VisionMissionItem[] = [
       'To build high-performance systems that combine technology, strategy, and design, delivering measurable business outcomes with precision and speed.',
       'Our mission is to transform complex business challenges into structured, scalable digital solutions that deliver measurable value. By combining engineering expertise, strategic thinking, and disciplined execution, we help organizations innovate with confidence, improve operational performance, and achieve sustainable business growth.'
     ],
-    imageSrc: '/images/Values-&-Culture/Our-Mission.webp' // Hands holding globe
+    imageSrc: '/safal/images/Values-&-Culture/Our-Mission.webp' // Hands holding globe
   },
   {
     id: 'impact',
@@ -41,7 +41,7 @@ const visionMissionData: VisionMissionItem[] = [
       'We enable organizations to scale efficiently, reduce complexity, and unlock new growth opportunities through integrated, future-ready solutions.',
       'Our impact is reflected in stronger operations, faster decision-making, and measurable business outcomes across every engagement. By aligning technology with business objectives, we help organizations improve efficiency, accelerate growth, and build resilient enterprises prepared for long-term success.'
     ],
-    imageSrc: '/images/Values-&-Culture/Our-Imapcts.webp' // Diamond
+    imageSrc: '/safal/images/Values-&-Culture/Our-Imapcts.webp' // Diamond
   },
   {
     id: 'philosophy',
@@ -51,7 +51,7 @@ const visionMissionData: VisionMissionItem[] = [
       'We believe sustainable success is engineered through alignment of people, systems, and purpose, creating long-term value across every layer of the enterprise.',
       'Our philosophy is rooted in building with purpose, executing with discipline, and innovating with responsibility. We believe that lasting business value comes from combining strategic thinking, technical excellence, and meaningful collaboration to create solutions that stand the test of time.'
     ],
-    imageSrc: '/images/Values-&-Culture/Our-Philosophy.webp' // Compass
+    imageSrc: '/safal/images/Values-&-Culture/Our-Philosophy.webp' // Compass
   }
 ];
 

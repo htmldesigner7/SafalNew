@@ -1,0 +1,18 @@
+# ----------------------------------------------------------------------
+# Safal Infosoft Apache Rewrite & Proxy rules for WHM/cPanel VPS
+# ----------------------------------------------------------------------
+Options -MultiViews
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Match Zar Jewels pattern exactly
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^safal/(.*)$ http://127.0.0.1:5003/safal/$1 [P,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ http://127.0.0.1:5003/safal/$1 [P,L]
+</IfModule>
+
+# Adjust upload limits if needed
+LimitRequestBody 10485760

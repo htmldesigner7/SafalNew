@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/internships-mentorship/layout,_N_T_/internships-mentorship/page,_N_T_/internships-mentorship"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/internships-mentorship/__PAGE__",
+    "/internships-mentorship",
+    "/_index",
+    "/_head"
+  ]
+}

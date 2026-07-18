@@ -7,7 +7,7 @@ const circles = [
     id: 'uiux',
     title: 'UI/UX Design',
     desc: 'Designs intuitive product interfaces and user journeys aligned with usability and functional clarity.',
-    img: "/images/Startup-Product-Development-&-Consulting/ui-ux.webp",
+    img: "/safal/images/Startup-Product-Development-&-Consulting/ui-ux.webp",
     className: styles.leftCircle,
     nodes: [1, 2, 3, 4]
   },
@@ -15,7 +15,7 @@ const circles = [
     id: 'eng',
     title: 'Engineering',
     desc: 'Delivers scalable product development through structured coding practices and modern frameworks.',
-    img: "/images/Startup-Product-Development-&-Consulting/engineerring.webp",
+    img: "/safal/images/Startup-Product-Development-&-Consulting/engineerring.webp",
     className: styles.centerCircle,
     nodes: [5, 6]
   },
@@ -23,7 +23,7 @@ const circles = [
     id: 'devops',
     title: 'DevOps',
     desc: 'Implements infrastructure, deployment pipelines, and monitoring systems to ensure stability and scalability.',
-    img: '/images/Startup-Product-Development-&-Consulting/devops.webp',
+    img: '/safal/images/Startup-Product-Development-&-Consulting/devops.webp',
     className: styles.rightCircle,
     nodes: [7]
   },

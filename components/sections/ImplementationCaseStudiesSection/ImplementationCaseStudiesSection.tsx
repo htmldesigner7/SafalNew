@@ -19,7 +19,7 @@ const caseStudies = [
       "The implementation enabled seamless synchronization between operational and financial functions, improving data accuracy and reducing process dependencies. By standardizing workflows and integrating reporting structures, the system strengthened decision-making capabilities across distribution channels.",
       "This structured approach improved coordination between inventory, order processing, and financial tracking, ensuring consistency across operations. As a result, the organization achieved better control over workflows while maintaining scalability for future growth.",
     ],
-    image: "/images/Enterprise-Grade-Products-Built-for-Scale/EE.webp"
+    image: "/safal/images/Enterprise-Grade-Products-Built-for-Scale/EE.webp"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const caseStudies = [
       "The integrated system streamlined production planning and inventory coordination, reducing inefficiencies across workflows. With improved data visibility and process standardization, the organization gained better control over manufacturing cycles and operational execution.",
       "By aligning production, inventory, and reporting within a unified framework, the system enabled consistent tracking and improved responsiveness to changing demands. This resulted in enhanced efficiency and more reliable process outcomes across manufacturing operations."
     ],
-    image: "/images/Enterprise-Grade-Products-Built-for-Scale/Topsun.webp"
+    image: "/safal/images/Enterprise-Grade-Products-Built-for-Scale/Topsun.webp"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const caseStudies = [
       "The centralized system enabled real-time coordination across locations, improving inventory accuracy and operational consistency. Standardized workflows ensured uniform execution across all outlets, reducing manual intervention and process gaps.",
       "With integrated reporting and centralized control, management gained better visibility into performance across locations. This allowed for faster decision-making, improved operational alignment, and the ability to scale retail operations efficiently."
     ],
-    image: "/images/Enterprise-Grade-Products-Built-for-Scale/KabhiB.webp"
+    image: "/safal/images/Enterprise-Grade-Products-Built-for-Scale/KabhiB.webp"
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const caseStudies = [
       "The system enhanced visibility across inventory and order lifecycles, enabling better coordination between operational teams. Structured workflows reduced inconsistencies and improved execution across critical processes.",
       "By integrating operational functions within a unified framework, the organization achieved improved tracking, reduced delays, and better process reliability. This ensured smoother coordination and more efficient handling of business operations."
     ],
-    image: "/images/Enterprise-Grade-Products-Built-for-Scale/POA-TANK.webp"
+    image: "/safal/images/Enterprise-Grade-Products-Built-for-Scale/POA-TANK.webp"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const caseStudies = [
       "The unified system brought together multiple operational functions into a single framework, improving coordination and data flow. Enhanced reporting capabilities enabled better tracking and more informed decision-making across departments.",
       "With structured execution and integrated workflows, the organization achieved greater control over operations while reducing inefficiencies. This strengthened overall process reliability and supported long-term operational scalability."
     ],
-    image: "/images/Enterprise-Grade-Products-Built-for-Scale/Air-Control-Chemical-Engineering-Ltd..webp"
+    image: "/safal/images/Enterprise-Grade-Products-Built-for-Scale/Air-Control-Chemical-Engineering-Ltd..webp"
   }
 ];
 

@@ -2,10 +2,10 @@ import Image from 'next/image';
 import styles from './MeetSpeakers.module.css';
 
 const speakers = [
-  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },
-  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },
-  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/1.webp' },
-  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/images/2.webp' },
+  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/1.webp' },
+  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/2.webp' },
+  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/1.webp' },
+  { name: 'Joy Mehta', role: 'CEO of Intect Solution', image: '/safal/images/2.webp' },
 ];
 
 export default function MeetSpeakers() {

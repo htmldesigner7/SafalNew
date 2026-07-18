@@ -23,7 +23,7 @@ export default function BecomeAPartnerPage() {
         description=<>
         <p>At Safal, partnerships are engineered, not transactional.<br/>We collaborate with technology leaders, domain experts, and execution specialists to co-create enterprise solutions, unlock new markets, and drive sustained, compounding growth.</p>
         </>
-        imageSrc="/images/Become-a-Partner/Become-a-Partner.webp"
+        imageSrc="/safal/images/Become-a-Partner/Become-a-Partner.webp"
         imageAlt="Become a Partner"
       />
       <BorderlessNetworkSection />

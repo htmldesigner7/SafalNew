@@ -8,21 +8,21 @@ export const appliedAiData: ImageCardsData = {
       id: "enterprise-ai",
       title: "Enterprise AI",
       description: "Deployment of enterprise AI solutions across systems, workflows, and operational environments.",
-      imageSrc: "/images/AI-&-Emerging-Technology/Enterprise-AI.webp",
+      imageSrc: "/safal/images/AI-&-Emerging-Technology/Enterprise-AI.webp",
       imageAlt: "Enterprise AI"
     },
     {
       id: "process-automation",
       title: "Process Automation",
       description: "Automation of repetitive processes using AI and machine learning services to improve efficiency and consistency.",
-      imageSrc: "/images/AI-&-Emerging-Technology/Process-Automation.webp",
+      imageSrc: "/safal/images/AI-&-Emerging-Technology/Process-Automation.webp",
       imageAlt: "Process Automation"
     },
     {
       id: "data-intelligence",
       title: "Data Intelligence",
       description: "Extraction of actionable insights from enterprise data to support decision-making and performance optimization.",
-      imageSrc: "/images/AI-&-Emerging-Technology/Data-Intelligence.webp",
+      imageSrc: "/safal/images/AI-&-Emerging-Technology/Data-Intelligence.webp",
       imageAlt: "Data Intelligence"
     }
   ]
@@ -36,21 +36,21 @@ export const StructuredFinancialWorkflows: ImageCardsData = {
       id: "order-to-cash",
       title: "Order to Cash (O2C)",
       description: "Delivery of structured O2C services including invoicing, receivables management, collections, and cash application with defined process control.",
-      imageSrc: "/images/financial-accounting-solutions/Order-to-Cash-(O2C).webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Order-to-Cash-(O2C).webp",
       imageAlt: "Order to Cash"
     },
     {
       id: "procure-to-pay",
       title: "Procure to Pay (P2P)",
       description: "Management of procurement, vendor payments, and expense workflows within controlled accounting systems.",
-      imageSrc: "/images/financial-accounting-solutions/Procure-to-Pay-(P2P).webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Procure-to-Pay-(P2P).webp",
       imageAlt: "Procure to Pay"
     },
     {
       id: "record-to-report",
       title: "Record to Report (R2R)",
       description: " Financial reporting, reconciliation, and closing processes aligned with accounting standards and compliance frameworks.",
-      imageSrc: "/images/financial-accounting-solutions/Record-to-Report-(R2R).webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Record-to-Report-(R2R).webp",
       imageAlt: "Record to Report"
     }
   ]
@@ -64,21 +64,21 @@ export const StandardizedControlledExecution: ImageCardsData = {
       id: "automation",
       title: "Automation",
       description: "Reduced manual intervention through structured systems.",
-      imageSrc: "/images/financial-accounting-solutions/Automation.webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Automation.webp",
       imageAlt: "Automation"
     },
     {
       id: "accuracy",
       title: "Accuracy",
       description: "Controlled processes ensuring financial data integrity.",
-      imageSrc: "/images/financial-accounting-solutions/Accuracy.webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Accuracy.webp",
       imageAlt: "Accuracy"
     },
     {
       id: "compliance",
       title: "Compliance",
       description: "Alignment with regulatory and reporting requirements.",
-      imageSrc: "/images/financial-accounting-solutions/Compliance.webp",
+      imageSrc: "/safal/images/financial-accounting-solutions/Compliance.webp",
       imageAlt: "Compliance"
     }
   ]

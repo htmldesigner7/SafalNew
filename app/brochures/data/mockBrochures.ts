@@ -14,7 +14,7 @@ export const mockBrochures: Brochure[] = [
     title: 'The Future of Distributed Enterprise - Full Brochure',
     pdfPages: 18,
     pdfSize: '4.3 MB',
-    imageSrc: '/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
+    imageSrc: '/safal/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
     tags: ['Brochure', 'ERP Solution'],
     isFeatured: true,
   },
@@ -23,7 +23,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     pdfPages: 12,
     pdfSize: '3.2 MB',
-    imageSrc: '/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
+    imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
     tags: ['Brochure', 'ERP Solution'],
   },
   {
@@ -31,7 +31,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Automating the Supply Chain: A 2026 Perspective.',
     pdfPages: 7,
     pdfSize: '2.5 MB',
-    imageSrc: '/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
+    imageSrc: '/safal/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
     tags: ['Brochure', 'ERP Solution'],
   },
   {
@@ -39,7 +39,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     pdfPages: 5,
     pdfSize: '1.8 MB',
-    imageSrc: '/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
+    imageSrc: '/safal/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
     tags: ['Brochure', 'ERP Solution'],
   },
   {
@@ -47,7 +47,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     pdfPages: 6,
     pdfSize: '1.9 MB',
-    imageSrc: '/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
+    imageSrc: '/safal/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
     tags: ['Brochure', 'ERP Solution'],
   },
   {
@@ -55,7 +55,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     pdfPages: 12,
     pdfSize: '3.2 MB',
-    imageSrc: '/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
+    imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
     tags: ['Brochure', 'ERP Solution'],
   },
   {
@@ -63,7 +63,7 @@ export const mockBrochures: Brochure[] = [
     title: 'Automating the Supply Chain: A 2026 Perspective.',
     pdfPages: 7,
     pdfSize: '2.5 MB',
-    imageSrc: '/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
+    imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
     tags: ['Brochure', 'ERP Solution'],
   }
 ];

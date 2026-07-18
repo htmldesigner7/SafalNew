@@ -8,7 +8,7 @@ const ExecutiveCommittee = () => {
         <div className={styles.imageWrapper}>
           <div className={styles.fallbackGradient}></div>
           <Image
-            src="/images/LeaderShip-Team/Executive.webp" 
+            src="/safal/images/LeaderShip-Team/Executive.webp" 
             alt="Executive Committee"
             fill
             className={styles.image}

@@ -28,7 +28,7 @@ const synergyCompaniesData = {
       <p>Safal Infosoft architects scalable digital infrastructure from enterprise platforms to low-code ecosystems, designed for performance, adaptability, and long-term evolution.</p>
       <p>Every system is engineered to deliver clarity, control, and sustained operational efficiency.</p>
       </>,
-      logoSrc: "/images/Group-Structure/Safal-Infosoft-Ltd..webp",
+      logoSrc: "/safal/images/Group-Structure/Safal-Infosoft-Ltd..webp",
       logoAlt: "Safal Infosoft Logo"
     },
     {
@@ -39,7 +39,7 @@ const synergyCompaniesData = {
       <p>Ideaz Ventures transforms ideas into scalable, market-ready ventures. Operating at the intersection of strategy, design, and technology, it builds products that are structured for growth from day one.</p>
       <p>Innovation here is not conceptual, it is executable.</p>
       </>,
-      logoSrc: "/images/Group-Structure/Ideaz-Ventures.webp",
+      logoSrc: "/safal/images/Group-Structure/Ideaz-Ventures.webp",
       logoAlt: "Ideaz Ventures Logo"
     },
     {
@@ -50,7 +50,7 @@ const synergyCompaniesData = {
       <p>Intelliworkz enables operational efficiency, talent scalability, and process optimization, bridging strategy with execution.</p>
       <p>It ensures that systems are not only built, but effectively deployed, managed, and scaled across environments.</p>
       </>,
-      logoSrc: "/images/Group-Structure/Intelliworkz-Infosoft-Technology-LLC.webp",
+      logoSrc: "/safal/images/Group-Structure/Intelliworkz-Infosoft-Technology-LLC.webp",
       logoAlt: "Intelliworkz Logo"
     },
     
@@ -66,7 +66,7 @@ export default function SynergyCompanies() {
           <p className={styles.subtitle}>{synergyCompaniesData.subtitle}</p>
           <div className="my_40 flex justify-center">
             <Image
-              src="/images/Group-Structure/group-structuer.webp"
+              src="/safal/images/Group-Structure/group-structuer.webp"
               alt="Global Network"
               width={1440}
               height={280}

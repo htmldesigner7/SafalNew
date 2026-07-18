@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/LeaderShip-Team/layout,_N_T_/LeaderShip-Team/page,_N_T_/LeaderShip-Team"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/LeaderShip-Team/__PAGE__",
+    "/LeaderShip-Team",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -9,7 +9,7 @@ function CodeRealImpact() {
       <div className="container-1600">
         <div className={styles.main}>
           <div className={styles.left}>
-              <Image src="/images/Internships-&-Mentorship/Internships-&-Mentorship-down.webp" 
+              <Image src="/safal/images/Internships-&-Mentorship/Internships-&-Mentorship-down.webp" 
               width={500} height={500} alt="image"/>
           </div>
           <div className={styles.right}>

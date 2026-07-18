@@ -10,14 +10,14 @@ const pageData = {
       </>
     ),
     description: "We provide comprehensive technology staffing solutions to help you build high-performing teams.",
-    imageSrc: "/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementation.webp",
+    imageSrc: "/safal/images/Industrial-Automation-&-IoT/Technology-Aligned-Implementation.webp",
     imageAlt: "Technology Staffing Hero",
   },
   talent: {
     title: "Technology Talent, Delivered with Structure",
     description1: "Safal is an IT staffing company delivering technology staffing services aligned with business requirements, project timelines, and technical environments.",
     description2: "Through structured technology recruitment services and IT staff augmentation services, organizations can access qualified talent without compromising on quality or speed.",
-    imageSrc: "/images/Technology-Staffing/Technology-Talent.webp",
+    imageSrc: "/safal/images/Technology-Staffing/Technology-Talent.webp",
     imageAlt: "Tech Talent Graphic",
   }
 };

@@ -100,7 +100,7 @@ export async function POST(request: Request) {
     
     // Write the file
     await fs.writeFile(filePath, buffer);
-    const resumeUrl = `/uploads/${fileName}`;
+    const resumeUrl = `/safal/uploads/${fileName}`;
 
     // Save to Database
     const internshipApplication = await prisma.internship_application.create({

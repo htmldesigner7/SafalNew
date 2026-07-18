@@ -5,7 +5,7 @@ export default function TermsConditionsPage() {
   const heroData = {
     title: <strong>Terms & Conditions</strong>,
     description: "Welcome to Safal. By accessing or using this website, you agree to comply with and be bound by the following Terms & Conditions. Please read these terms carefully before using our website or engaging with any of our services. If you do not agree with these terms, please refrain from using this website.",
-    imageSrc: "/images/banner-images/Corporate-Governance.webp",
+    imageSrc: "/safal/images/banner-images/Corporate-Governance.webp",
     imageAlt: "Terms & Conditions Hero Graphic",
   };
 

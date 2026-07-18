@@ -34,7 +34,7 @@ export default function WebinarsPage() {
 
         <div className={styles.heroImageWrapper}>
           <Image 
-            src="/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
+            src="/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
             alt="Webinar Hero"
             fill
             className={styles.image}
@@ -48,7 +48,7 @@ export default function WebinarsPage() {
 
         <div className={styles.bannerWrapper}>
           <Image 
-            src="/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
+            src="/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
             alt="Handshake Banner"
             fill
             className={styles.image}

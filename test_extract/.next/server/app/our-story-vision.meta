@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/our-story-vision/layout,_N_T_/our-story-vision/page,_N_T_/our-story-vision"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/our-story-vision/__PAGE__",
+    "/our-story-vision",
+    "/_index",
+    "/_head"
+  ]
+}
