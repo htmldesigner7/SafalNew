@@ -46,7 +46,7 @@ export default function BecomePartnerForm() {
   };
 
   return (
-    <section className="mt_80">
+    <section className="mt_80" id="becomePartnerForm">
       <Toaster position="top-center" reverseOrder={false} />
       <div className="container-1600">
         <div className={styles.formContainer}>

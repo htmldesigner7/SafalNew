@@ -11,7 +11,7 @@ export const aboutIntelligenceData: IntelligenceData = {
   title: <>Driven by<br/>Intelligence.</>,
   description: <>Safal Infosoft operates as an interconnected system of capabilities. Every solution, platform, and strategy is designed to work in alignment, creating continuity across execution.<br/>We don’t build in silos.<br/>We engineer systems that think, adapt, and scale.</>,
   buttonText: "Explore Our Divisions",
-  buttonLink: "#"
+  buttonLink: "#footerScroll",
 };
 
 export const sandboxData: IntelligenceData = {
@@ -20,7 +20,7 @@ export const sandboxData: IntelligenceData = {
   <p>We dedicate a significant portion of our bandwidth to exploration and innovation. From next-generation AI to emerging computing paradigms, we empower our teams to experiment, iterate, and build what’s next.</p>
   <p>This is where ideas are tested.<br/>This is where breakthroughs begin.</p>
   </>,
-  buttonText: "View Open Roles"
+  // buttonText: "View Open Roles"
 };
 
 
@@ -30,7 +30,8 @@ export const EconomicData: IntelligenceData = {
   <p>Through proprietary AI engines, low-code frameworks, and integrated infrastructure, we optimize client outcomes and internal efficiencies.</p>
   <p> Our ability has expanded to build defensible market positioning and sustain performance in evolving global conditions.</p>
   </>,
-  buttonText: "Download"
+  buttonText: "Download",
+  buttonLink: "/brochures"
 };
 
 export const whoWeWorkWithData: IntelligenceData = {
@@ -52,7 +53,8 @@ export const partnershipMatrixData: IntelligenceData = {
   description: <>
   A partnership with Safal is not a single engagement, it’s integration into a unified, multi-disciplinary ecosystem. <br />From enterprise software and industrial automation to creative strategy and financial advisory, our integrated model enables you to operate with expanded capability, reach, and execution strength. <br />Together, we don’t just collaborate, we build sustained competitive advantage.
   </>,
-  buttonText: "Apply for Partnership"
+  buttonText: "Apply for Partnership",
+  buttonLink: "#becomePartnerForm",
 };
 
 
