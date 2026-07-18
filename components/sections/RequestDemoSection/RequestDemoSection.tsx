@@ -33,7 +33,7 @@ export default function RequestDemoSection() {
               Assess how Safal’s platforms support system integration, scalability, and long-term operational structure as a trusted <b>digital transformation partner.</b>
             </p>
 
-            <Link href="/contact-us" className="btn-primary btn-primary-white">
+            <Link href="/contact" className="btn-primary btn-primary-white">
               Book a Consultation
             </Link>
           </div>

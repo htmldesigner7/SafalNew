@@ -108,7 +108,7 @@ export const realEstateIndustryData: IndustryDetailData = {
 export const financeIndustryData: IndustryDetailData = {
   title: 'Healthcare',
   paragraphs: [
-    'Safal enables healthcare organizations to improve operational efficiency and system integration through structured digital solutions. By connecting data, processes, and platforms, we support better coordination, visibility, and decision-making across healthcare environments',
+    'Safal enables healthcare organizations to improve operational efficiency and system integration through structured digital solutions. By connecting data, processes, and platforms, we support better coordination, visibility, and decision-making across healthcare environments.',
     'Our solutions are designed to enhance system reliability, ensure compliance, and support the delivery of efficient and consistent healthcare services.'
   ],
   subIndustriesTitle: 'Sub-Industries / Verticals',

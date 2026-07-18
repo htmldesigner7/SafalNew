@@ -8,14 +8,7 @@ export default function BrainTrustSection() {
         <div className={styles.header}>
           <h2 className="title_60" style={{ textAlign: "center" }}>A Borderless Brain-Trust</h2>
           <p style={{ textAlign: "center" }}>
-            Talent is not limited by geography. Our ecosystem connects engineers, designers, and strategists across continents into one synchronized system.
-          </p>
-          <p style={{ textAlign: "center" }}>
-            You could be collaborating with a systems architect in New York, a design lead in Dubai, and an engineering team in Ahmedabad, all in real time.
-          </p>
-          <p style={{ textAlign: "center" }}>
-            We don’t operate as distributed teams.<br/>We operate as one unified intelligence.
-
+            Talent is not limited by geography. Our ecosystem connects engineers, designers, and strategists across continents into one synchronized system. <br />You could be collaborating with a systems architect in New York, a design lead in Dubai, and an engineering team in Ahmedabad, all in real time. <br /> We don’t operate as distributed teams.<br/>We operate as one unified intelligence.
           </p>
         </div>
 

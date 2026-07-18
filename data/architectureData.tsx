@@ -102,7 +102,7 @@ export const alignmentBlueprintData = {
       number: "01",
       phase: "",
       title: "Initiation",
-      description: <>Share your organizational profile and capabilities. <br /><br />We assess alignment across technology, market positioning, and potential synergies.
+      description: <>Share your organizational profile and capabilities. <br />We assess alignment across technology, market positioning, and potential synergies.
       </>,
       isActive: true
     },
@@ -111,7 +111,7 @@ export const alignmentBlueprintData = {
       number: "02",
       phase: "",
       title: "Architecture",
-      description: <>Define integration models, collaboration structures, and go-to-market alignment. <br /><br />Every partnership is built with a clear execution blueprint.
+      description: <>Define integration models, collaboration structures, and go-to-market alignment. <br />Every partnership is built with a clear execution blueprint.
       </>,
       isActive: false
     },
@@ -120,7 +120,7 @@ export const alignmentBlueprintData = {
       number: "03",
       phase: "",
       title: "Integration",
-      description: <>Gain access to Safal’s engineering, product, and market infrastructure. <br /><br />Activate collaboration across global teams and capabilities.
+      description: <>Gain access to Safal’s engineering, product, and market infrastructure. <br />Activate collaboration across global teams and capabilities.
       </>,
       isActive: false
     },

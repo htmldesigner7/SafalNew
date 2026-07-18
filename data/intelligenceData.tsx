@@ -50,9 +50,7 @@ export const whoWeWorkWithData: IntelligenceData = {
 export const partnershipMatrixData: IntelligenceData = {
   title: <>The Safal<br />Partnership Matrix</>,
   description: <>
-  <p>A partnership with Safal is not a single engagement, it’s integration into a unified, multi-disciplinary ecosystem.</p>
-  <p>From enterprise software and industrial automation to creative strategy and financial advisory, our integrated model enables you to operate with expanded capability, reach, and execution strength.</p>
-  <p>Together, we don’t just collaborate, we build sustained competitive advantage.</p>
+  A partnership with Safal is not a single engagement, it’s integration into a unified, multi-disciplinary ecosystem. <br />From enterprise software and industrial automation to creative strategy and financial advisory, our integrated model enables you to operate with expanded capability, reach, and execution strength. <br />Together, we don’t just collaborate, we build sustained competitive advantage.
   </>,
   buttonText: "Apply for Partnership"
 };
@@ -62,5 +60,7 @@ export const TheSafalPartnershipMatrixData: IntelligenceData = {
   title: <>The Safal Partnership Matrix</>,
   description: <>A partnership with Safal is not a collaboration, it is an integration into a larger, high-performance system. <br /><br />You don’t engage with a single division; you connect with an ecosystem spanning industrial IoT, enterprise software, creative strategy, and financial intelligence. Together, we engineer outcomes that create a lasting competitive advantage.
   </>,
-  buttonText: "Apply for Partnership"
+  buttonText: "Apply for Partnership",
+  buttonLink: "/become-a-partner",
+  
 };

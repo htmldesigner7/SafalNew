@@ -21,6 +21,7 @@
 
 .subtitle {
   margin-bottom: 40px;
+
 }
 
 .imageWrapper {
@@ -39,7 +40,7 @@
 .textContent {
   font-family: var(--font-body);
   color: var(--black-111);
-  max-width: 1000px;
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
