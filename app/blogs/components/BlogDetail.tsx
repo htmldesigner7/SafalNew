@@ -32,11 +32,11 @@ export default function BlogDetail({ id }: { id?: string }) {
           </div>
         </div>
 
-        <h1 className="title_60" style={{ maxWidth: '1000px', marginBottom: '24px' }}>
+        <h1 className="title_60" >
           {post.title}
         </h1>
 
-        <p className={`title_24_para ${styles.subtitle}`} style={{ maxWidth: '1000px', opacity: 0.8 }}>
+        <p className={`title_24_para ${styles.subtitle}`}>
           {post.description}
         </p>
 

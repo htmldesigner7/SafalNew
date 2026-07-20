@@ -13,7 +13,7 @@ export const mockBrochures: Brochure[] = [
   {
     id: 'brochure-1',
     title: 'Safal - Company Profile 2026',
-    imageSrc: '/safal/files/1.webp',
+    imageSrc: '/safal/files/Frame-2085662964.webp',
     tags: ['Brochures', 'Company Profile'],
     pdfPages: 24,
     pdfSize: '3.8 MB',
@@ -32,7 +32,7 @@ export const mockBrochures: Brochure[] = [
   {
     id: 'brochure-3',
     title: 'Formezy - Platform Brochure 2025',
-    imageSrc: '/safal/files/Frame-2085662964.webp',
+    imageSrc: '/safal/files/Formezy-Brochure-2.webp',
     tags: ['Brochures', 'Platform'],
     pdfPages: 42,
     pdfSize: '30.1 MB',
