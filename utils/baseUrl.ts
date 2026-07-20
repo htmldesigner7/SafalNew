@@ -1,1 +1,1 @@
-export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "/safal";
+export const baseUrl = process.env.SITE_URL;

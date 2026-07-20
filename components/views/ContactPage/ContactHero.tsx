@@ -4,6 +4,8 @@ import { pagesData } from '@/data/pagesData';
 export default function ContactHero() {
   const { title, description, imageSrc, imageAlt } = pagesData.contact.hero;
 
+  console.log("text" + pagesData.contact.hero.imageSrc)
+
   return (
     <InnerPageHero
       title={title}
