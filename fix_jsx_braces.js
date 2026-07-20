@@ -33,7 +33,7 @@ sourceFiles.forEach(file => {
   // Match example: src=`${baseUrl}/images/foo.png`
   // Replace with: src={`${baseUrl}/images/foo.png`}
   
-  const regex = /([a-zA-Z0-9_-]+)\s*=\s*`(\$\{baseUrl\}\/images\/.*?)`/g;
+  const regex = /([a-zA-Z0-9_-]+)\s*=\s*`(\$\{baseUrl\}(?:\/images\/|\/files\/).*?)`/g;
   
   if (content.match(regex)) {
     content = content.replace(regex, '$1={`$2`}');

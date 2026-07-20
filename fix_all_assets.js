@@ -67,7 +67,7 @@ sourceFiles.forEach(file => {
 
   // Also replace any generic /files/, /images/ etc that might have been dynamically constructed
   // but let's avoid replacing if it already has /safal/
-  const genericFolders = [`${baseUrl}/images/`, '/files/', '/uploads/'];
+  const genericFolders = [`${baseUrl}/images/`, `${baseUrl}/files/`, '/uploads/'];
   genericFolders.forEach(folder => {
      // match `${baseUrl}/images/` but not `${baseUrl}/images/`
      // negative lookbehind is (?<!...)

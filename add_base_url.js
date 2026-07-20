@@ -29,13 +29,13 @@ sourceFiles.forEach(file => {
   let content = fs.readFileSync(file, 'utf8');
   let originalContent = content;
 
-  // Pattern to find standard strings starting with /images/
-  // Matches: "/images/..." or '/images/...' 
-  const regex = /(["'])\/images\/(.*?)\1/g;
+  // Pattern to find standard strings starting with /images/ or /files/
+  // Matches: "/images/..." or '/images/...' or "/files/..." or '/files/...'
+  const regex = /(["'])(\/images\/|\/files\/)(.*?)\1/g;
 
   if (content.match(regex)) {
     // Replace with template literal using baseUrl
-    content = content.replace(regex, '`${baseUrl}/images/$2`');
+    content = content.replace(regex, '`${baseUrl}$2$3`');
     
     // Add import statement at the top of the file if not already there
     if (!content.includes('import { baseUrl }')) {
