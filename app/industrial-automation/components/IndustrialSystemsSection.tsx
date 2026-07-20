@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import sysStyles from './IndustrialSystems.module.css';
@@ -9,7 +10,7 @@ const industrialSystemsData = {
     "By aligning operational technology with digital systems, Safal enables structured and scalable Industry 4.0 transformation.",
     "Our approach integrates advanced automation frameworks with real-time data processing to enhance operational efficiency and system reliability. By aligning industrial workflows with intelligent control systems, we enable seamless coordination across processes, reduce manual dependencies, and support scalable production environments with consistent performance outcomes."
   ],
-  imageSrc: "/safal/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp",
+  imageSrc: `${baseUrl}/images/Industrial-Automation-&-IoT/End-to-End-Industrial-Automation-Systems.webp`,
   imageAlt: "Industrial Automation Systems",
 };
 

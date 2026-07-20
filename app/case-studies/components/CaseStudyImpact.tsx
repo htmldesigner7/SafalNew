@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './CaseStudyImpact.module.css';
 
@@ -8,7 +9,7 @@ export default function CaseStudyImpact() {
         <div className={styles.impactCard}>
           <div className={styles.bgWrapper}>
             <Image 
-              src="/safal/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp" 
+              src={`${baseUrl}/images/Internships-&-Mentorship/Internship/The-Fast-Track.webp`} 
               alt="Impact Background" 
               fill 
               className={styles.bgImage} 

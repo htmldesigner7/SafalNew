@@ -1,4 +1,6 @@
 'use client';
+import { baseUrl } from '@/utils/baseUrl';
+
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,8 +10,8 @@ const products = [
   {
     id: 'DataNote',
     name: 'DataNote',
-    image: '/safal/images/Homepage/Datanote.webp',
-    logoimage: '/safal/images/datanote-logo.png',
+    image: `${baseUrl}/images/Homepage/Datanote.webp`,
+    logoimage: `${baseUrl}/images/datanote-logo.png`,
     description: <>
     <p>DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.</p>
     <p>Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.</p>
@@ -19,8 +21,8 @@ const products = [
   {
     id: 'Formezy',
     name: 'Formezy',
-    image: '/safal/images/Homepage/Formezy.webp',
-    logoimage: '/safal/images/Enterprise-Grade-Products-Built-for-Scale/Formezy-logo.svg',
+    image: `${baseUrl}/images/Homepage/Formezy.webp`,
+    logoimage: `${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/Formezy-logo.svg`,
     description: <>
     <p>Formezy simplifies data collection and workflow execution through structured digital forms and process automation. It enables organizations to standardize inputs, reduce manual dependency, and improve operational efficiency.</p>
     <p>Designed for flexibility, Formezy integrates seamlessly with enterprise systems to support consistent and reliable data flow.</p>
@@ -30,8 +32,8 @@ const products = [
   {
     id: 'Docezy',
     name: 'Docezy',
-    image: '/safal/images/Homepage/Docezy.webp',
-    logoimage: '/safal/images/docezy_logo.png',
+    image: `${baseUrl}/images/Homepage/Docezy.webp`,
+    logoimage: `${baseUrl}/images/docezy_logo.png`,
     description: <>
     <p>Docezy provides a centralized system for managing documents, workflows, and business-critical information. It ensures structured storage, controlled access, and seamless collaboration across teams.</p>
     <p>The platform is designed to improve compliance, reduce process inefficiencies, and maintain operational clarity.</p>
@@ -41,8 +43,8 @@ const products = [
   {
     id: 'Tasknote',
     name: 'Tasknote',
-    image: '/safal/images/Homepage/Tasknote.webp',
-    logoimage: '/safal/images/TaskNote-Final.png',
+    image: `${baseUrl}/images/Homepage/Tasknote.webp`,
+    logoimage: `${baseUrl}/images/TaskNote-Final.png`,
     description: <>
     <p>Tasknote enables structured task management and operational tracking across teams and workflows. It helps organizations assign, monitor, and manage activities with clarity and accountability.</p>
     <p>With a focus on execution efficiency, Tasknote ensures better coordination and visibility across ongoing operations.</p>
@@ -52,8 +54,8 @@ const products = [
   {
     id: 'ProPulse',
     name: 'ProPulse',
-    image: '/safal/images/Homepage/Propluse.jpg',
-    logoimage: '/safal/images/propluse.png',
+    image: `${baseUrl}/images/Homepage/Propluse.jpg`,
+    logoimage: `${baseUrl}/images/propluse.png`,
     description: <>
     <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
     <p>The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.</p>

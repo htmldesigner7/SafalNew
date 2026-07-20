@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './NewsGrid.module.css';
@@ -9,7 +10,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/Group-Structure/Safal-Infosoft-Inc..webp"
+    imageSrc: `${baseUrl}/images/Group-Structure/Safal-Infosoft-Inc..webp`
   },
   {
     id: 2,
@@ -17,7 +18,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/Group-Structure/Safal-Infosoft-Inc..webp"
+    imageSrc: `${baseUrl}/images/Group-Structure/Safal-Infosoft-Inc..webp`
   },
   {
     id: 3,
@@ -25,7 +26,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/Group-Structure/Safal-Infosoft-Inc..webp"
+    imageSrc: `${baseUrl}/images/Group-Structure/Safal-Infosoft-Inc..webp`
   },
   {
     id: 4,
@@ -33,7 +34,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/Group-Structure/Safal-Infosoft-Inc..webp"
+    imageSrc: `${baseUrl}/images/Group-Structure/Safal-Infosoft-Inc..webp`
   },
   {
     id: 5,
@@ -41,7 +42,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/Group-Structure/Safal-Infosoft-Inc..webp"
+    imageSrc: `${baseUrl}/images/Group-Structure/Safal-Infosoft-Inc..webp`
   },
   {
     id: 6,
@@ -49,7 +50,7 @@ const dummyNewsData = [
     description: 'Safal Infosoft announces "Future Leaders" Global Internship program across three continents.',
     date: '12/02/2026',
     category: 'Careers News',
-    imageSrc: "/safal/images/blogs/blogs.webp"
+    imageSrc: `${baseUrl}/images/blogs/blogs.webp`
   }
 ];
 

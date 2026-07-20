@@ -26,7 +26,7 @@ export default function ContactPage() {
       />
 
       <OneVision/>
-      <ExecutiveCommittee/>
+      <ExecutiveCommittee  />
       <DivisionHeads/>
     </main>
   );

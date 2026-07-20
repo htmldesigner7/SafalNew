@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './WhyAttend.module.css';
 
@@ -38,7 +39,7 @@ export default function WhyAttend() {
 
         <div className={styles.rightCol}>
           <Image 
-            src="/safal/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp" // A placeholder image fitting the aspect ratio
+            src={`${baseUrl}/images/Brand,-Digital-&-Creative-Services/Brand,-Digital-&-Creative-Services.webp`} // A placeholder image fitting the aspect ratio
             alt="Colleagues discussing"
             fill
             className={styles.image}

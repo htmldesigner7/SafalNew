@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './GlobalPresenceSection.module.css';
@@ -31,7 +32,7 @@ export default function GlobalPresenceSection() {
           <div className={styles.globeWrapper}>
             {/* Placeholder for the wireframe globe image */}
             <Image
-              src="/safal/images/homepage/globe-img.png"
+              src={`${baseUrl}/images/homepage/globe-img.png`}
               alt="Global Presence Globe" 
               fill
               className={styles.globeImage}

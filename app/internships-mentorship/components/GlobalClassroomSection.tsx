@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './GlobalClassroomSection.module.css';
@@ -23,7 +24,7 @@ export default function GlobalClassroomSection() {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="/safal/images/Internships-&-Mentorship/Internships-&-Mentorship-up-.webp"
+            src={`${baseUrl}/images/Internships-&-Mentorship/Internships-&-Mentorship-up-.webp`}
             alt="Global Classroom Network"
             width={1200}
             height={500}

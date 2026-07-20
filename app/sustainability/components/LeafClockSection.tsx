@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './LeafClockSection.module.css';
@@ -26,7 +27,7 @@ export default function LeafClockSection() {
           {/* Right Image */}
           <div className={styles.rightCol}>
             <Image
-              src="/safal/images/Sustainability/sustainbility-section-3.webp"
+              src={`${baseUrl}/images/Sustainability/sustainbility-section-3.webp`}
               alt="Leaf Clock showing transition from dry to green"
               fill
               className={styles.image}

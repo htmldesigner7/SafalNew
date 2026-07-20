@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './BorderlessInnovationSection.module.css';
@@ -13,7 +14,7 @@ export default function BorderlessInnovationSection() {
          
         <div className={styles.imageContainer}>
           <Image 
-            src="/safal/images/Strategic-Partnerships/Strategic-Partnerships/A-Borderless-Innovation-Network.webp" 
+            src={`${baseUrl}/images/Strategic-Partnerships/Strategic-Partnerships/A-Borderless-Innovation-Network.webp`} 
             alt="Global Network Map" 
             width={1200} 
             height={600} 

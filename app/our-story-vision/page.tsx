@@ -21,7 +21,10 @@ export default function AboutPage() {
       <AboutHero />
       <AboutSection />
       <AboutCulture />
-      <ProcessSection title="The Value-Creation Architecture." data={aboutProcessData} />
+      <ProcessSection 
+      title="The Value-Creation Architecture." 
+      description= "Growth is engineered through structured execution, not chance."
+      data={aboutProcessData} />
       <AboutIntelligence />
       <EngineeringSection />
       <SustainableSection />

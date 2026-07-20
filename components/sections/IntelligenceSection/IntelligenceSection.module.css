@@ -1,7 +1,7 @@
 .intelligenceSection {
   position: relative;
   overflow: hidden;
-  background-image: url('/safal/images/dot-banner-white.png');
+  background-image: url('/images/dot-banner-white.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 50px;
@@ -111,7 +111,7 @@
 }
 
 @media (max-width: 1441px) {
-  .circularWrapper { width: 500px; height: 500px; }
+  /* .circularWrapper { width: 500px; height: 500px; } */
   .iconCube { width: 100px; }
   .iconCompass { width: 120px; }
   .iconNetwork { width: 100px; }
@@ -119,7 +119,7 @@
 }
 
 @media (max-width: 1281px) {
-  .circularWrapper { width: 450px; height: 450px; }
+  /* .circularWrapper { width: 450px; height: 450px; } */
   .iconCube { width: 90px; }
   .iconCompass { width: 110px; }
   .iconNetwork { width: 90px; }

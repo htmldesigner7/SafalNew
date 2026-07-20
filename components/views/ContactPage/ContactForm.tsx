@@ -1,4 +1,6 @@
 "use client";
+import { baseUrl } from '@/utils/baseUrl';
+
 
 import Image from 'next/image';
 import toast, { Toaster } from 'react-hot-toast';
@@ -23,7 +25,7 @@ export default function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     const loadingToast = toast.loading('Submitting your message...');
     try {
-      const res = await fetch('/safal/api/contact', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
@@ -52,7 +54,7 @@ export default function ContactForm() {
             <h2 className="title_60">Reach Out To Our Global Team.</h2>
             <div className={styles.imageWrapper}>
               <Image
-                src="/safal/images/Systemic-Ownership.webp"
+                src={`${baseUrl}/images/Systemic-Ownership.webp`}
                 alt="Handshake"
                 width={400}
                 height={300}

@@ -1,4 +1,6 @@
 'use client';
+import { baseUrl } from '@/utils/baseUrl';
+
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './TimeResourceSection.module.css';
@@ -113,7 +115,7 @@ export default function TimeResourceSection() {
               >
                  {/* Dark Globe (Fades out as we drag right) */}
                  <Image 
-                   src="/safal/images/Sustainability/The-Cost-of-Bloated-Code.png" 
+                   src={`${baseUrl}/images/Sustainability/The-Cost-of-Bloated-Code.png`} 
                    alt="Cost of Bloated Code" 
                    fill 
                    className={styles.globeImage} 
@@ -122,7 +124,7 @@ export default function TimeResourceSection() {
                  />
                  {/* Clean Globe (Fades in as we drag right) */}
                  <Image 
-                   src="/safal/images/Sustainability/Frictionless-Decarbonized-Scaling.png" 
+                   src={`${baseUrl}/images/Sustainability/Frictionless-Decarbonized-Scaling.png`} 
                    alt="Frictionless Decarbonized Scaling" 
                    fill 
                    className={styles.globeImage} 

@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 
 
 import Image from 'next/image';
@@ -34,7 +35,7 @@ export default function WebinarsPage() {
 
         <div className={styles.heroImageWrapper}>
           <Image 
-            src="/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
+            src={`${baseUrl}/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp`} 
             alt="Webinar Hero"
             fill
             className={styles.image}
@@ -48,7 +49,7 @@ export default function WebinarsPage() {
 
         <div className={styles.bannerWrapper}>
           <Image 
-            src="/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp" 
+            src={`${baseUrl}/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp`} 
             alt="Handshake Banner"
             fill
             className={styles.image}

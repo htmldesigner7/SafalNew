@@ -1,10 +1,11 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './DivisionHeads.module.css';
 
 const headsData = [
   { name: "Ahmed Vidha", role: "COO", image: "" },
-  { name: "Aabid Vidha", role: "Head of Digital Marketing", image: "/images/LeaderShip-Team/Aabid-Vidha.webp" },
-  { name: "Mayur Makwana", role: "-", image: "/images/LeaderShip-Team/Mayur-Makwana.webp" },
+  { name: "Aabid Vidha", role: "Head of Digital Marketing", image: `${baseUrl}/images/LeaderShip-Team/Aabid-Vidha.webp` },
+  { name: "Mayur Makwana", role: "-", image: `${baseUrl}/images/LeaderShip-Team/Mayur-Makwana.webp` },
   { name: "Kushal Gohel", role: "AI Developer", image: "" },
   // { name: "Mital Gandhi", role: "Head of UI/UX", image: "" },
   // { name: "Payal Dave", role: "HR", image: "" },

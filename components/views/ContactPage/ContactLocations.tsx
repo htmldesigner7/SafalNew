@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import styles from './ContactLocations.module.css';
 import Image from 'next/image';
 
@@ -8,7 +9,7 @@ export default function ContactLocations() {
         <div className={styles.locationSection}>
           <div className={styles.globeBg}>
             <Image
-              src="/safal/images/contact-locatin.png"
+              src={`${baseUrl}/images/contact-locatin.png`}
               alt="Globe Background"
               fill
               className={styles.globeImage}

@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './ProprietaryPlatform.module.css';
@@ -18,7 +19,7 @@ export default function ProprietaryPlatform() {
           </div>
           <div className={styles.imageCol}>
             <Image 
-              src="/safal/images/AI-&-Emerging-Technology/Proprietary-A1-Execution.webp" 
+              src={`${baseUrl}/images/AI-&-Emerging-Technology/Proprietary-A1-Execution.webp`} 
               alt="Proprietary AI Execution Platform Diagram" 
               width={700} 
               height={400} 

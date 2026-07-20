@@ -5,6 +5,7 @@ import { ProcessItem } from '@/data/processData';
 
 interface ProcessSectionProps {
   title: string;
+  description?: string;
   data: ProcessItem[];
   mainColor?: string;
   accentColor?: string;
@@ -14,6 +15,7 @@ interface ProcessSectionProps {
 
 export default function ProcessSection({ 
   title, 
+  description,
   data, 
   mainColor = "#D54B26", 
   accentColor = "#D2DF70",
@@ -32,6 +34,12 @@ export default function ProcessSection({
     >
       <div className="container-1600">
         <h2 className="title_60 text-center">{title}</h2>
+
+    {description && (
+            <p className="mt_20 text-center">
+          {description}
+          </p>
+      )}
 
         <div className={styles.gridContainer}>
           {/* Left Tabs */}
