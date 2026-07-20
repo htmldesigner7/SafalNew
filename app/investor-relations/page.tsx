@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import MultiplierSection from './components/MultiplierSection';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
@@ -33,7 +34,7 @@ export default function InvestorRelationsPage() {
         description1="Our operational ecosystem is positioned across high-growth global markets, enabling us to capture demand across multiple sectors simultaneously."
         description2="By leveraging cross-functional synergies between our divisions, we unlock scalable revenue channels, strengthen client retention, and build long-term enterprise relationships.c"
         description3="This integrated approach allows us to expand efficiently while maintaining operational control and financial discipline."
-         imageSrc = "/safal/images/Investor-Relations/code-3.webp"
+         imageSrc={`${baseUrl}/images/Investor-Relations/code-3.webp`}
         imageAlt="Expanding Global Market Share Graphic"
       />
 

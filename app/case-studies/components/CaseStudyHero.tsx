@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './CaseStudyHero.module.css';
 
@@ -29,7 +30,7 @@ export default function CaseStudyHero() {
 
         <div className={styles.heroImageWrapper}>
           <Image 
-            src="/safal/images/.webp" 
+            src={`${baseUrl}/images/.webp`} 
             alt="Manufacturing Case Study Hero"
             fill
             className={styles.image}

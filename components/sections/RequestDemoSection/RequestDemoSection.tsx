@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './RequestDemoSection.module.css';
@@ -12,7 +13,7 @@ export default function RequestDemoSection() {
           {/* Left Side: Image */}
           <div className={styles.imageColumn}>
             <Image 
-              src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/cta.webp"
+              src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/cta.webp`}
               alt="Demo Graphic"
               width={800}
               height={500}

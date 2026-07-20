@@ -1,4 +1,6 @@
 "use client";
+import { baseUrl } from '@/utils/baseUrl';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,7 +15,7 @@ export default function Header() {
   const pathname = usePathname();
 
   // Determine if we need dark text/links (e.g. for blog details page or webinars)
-  const isLightHeader = (pathname?.startsWith('/blogs/') && pathname !== '/blogs') || pathname?.startsWith('/webinars');
+  const isLightHeader =  pathname?.startsWith('/webinars');
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -124,7 +126,7 @@ export default function Header() {
             {/* Show black logo if it&apos;s blog detail page, else white logo. We can use CSS filter if black logo is not available, but let&apos;s check what image we have. 
                 We have logo.svg, and header-logo.png. But Safal usually has a black logo version. Let&apos;s use filter invert on the white logo if needed, or if there is a black logo we&apos;ll use it. For now let&apos;s apply a CSS class to invert logo */}
             <Image
-              src="/safal/images/logo.svg"
+              src={`${baseUrl}/images/logo.svg`}
               alt="Safal Logo"
               height={80}
               width={200}
@@ -138,7 +140,7 @@ export default function Header() {
           <div className={styles.mobileNavLogo}>
             <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
               <Image
-                src="/safal/images/logo.svg"
+                src={`${baseUrl}/images/logo.svg`}
                 alt="Safal Logo"
                 height={60}
                 width={150}

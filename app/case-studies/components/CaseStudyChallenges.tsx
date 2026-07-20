@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './CaseStudyChallenges.module.css';
 
@@ -8,7 +9,7 @@ export default function CaseStudyChallenges() {
         
         <div className={styles.imageWrapper}>
           <Image 
-            src="/safal/images/.png" 
+            src={`${baseUrl}/images/.png`} 
             alt="The Challenges Sketch"
             fill
             className={styles.image}

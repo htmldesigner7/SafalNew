@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import StructuredAdvisory from '@/components/sections/StructuredAdvisory/StructuredAdvisory';
 import CultureSection from '@/components/sections/CultureSection/CultureSection';
@@ -27,7 +28,7 @@ export default function BusinessFinancialAdvisoryPage() {
       <InnerPageHero 
         title={<>Strategic Advisory for<br />Sustainable Growth</>}
         description="Structured business and financial advisory services designed to support decision-making, regulatory compliance, and long-term value creation."
-        imageSrc="/safal/images/Business-&-Financial-Advisory/Business-&-Financial-Advisory.webp"
+        imageSrc={`${baseUrl}/images/Business-&-Financial-Advisory/Business-&-Financial-Advisory.webp`}
         imageAlt="3D Strategic Advisory"
       />
 

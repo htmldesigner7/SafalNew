@@ -1,4 +1,6 @@
 'use client';
+import { baseUrl } from '@/utils/baseUrl';
+
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -88,7 +90,7 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
             animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
-            <Image src="/safal/images/DI_StarCube.png" alt="Cube" width={150} height={150} style={{ width: '100%', height: 'auto' }} />
+            <Image src={`${baseUrl}/images/DI_StarCube.png`} alt="Cube" width={150} height={150} style={{ width: '100%', height: 'auto' }} />
           </motion.div>
 
           <motion.div 
@@ -96,7 +98,7 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
             animate={{ y: [0, 15, 0], rotate: [0, -5, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
           >
-            <Image src="/safal/images/DI_Compaas.png" alt="Compass" width={180} height={180} style={{ width: '100%', height: 'auto' }} />
+            <Image src={`${baseUrl}/images/DI_Compaas.png`} alt="Compass" width={180} height={180} style={{ width: '100%', height: 'auto' }} />
           </motion.div>
 
           <motion.div 
@@ -104,7 +106,7 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
             animate={{ y: [0, -10, 0], rotate: [0, 3, 0] }}
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
           >
-            <Image src="/safal/images/DI_Orbit.png" alt="Network" width={160} height={160} style={{ width: '100%', height: 'auto' }} />
+            <Image src={`${baseUrl}/images/DI_Orbit.png`} alt="Network" width={160} height={160} style={{ width: '100%', height: 'auto' }} />
           </motion.div>
 
           <motion.div 
@@ -112,7 +114,7 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
             animate={{ y: [0, 20, 0], rotate: [0, -8, 0] }}
             transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
           >
-            <Image src="/safal/images/DI_Rocket.png" alt="Rocket" width={120} height={120} style={{ width: '100%', height: 'auto' }} />
+            <Image src={`${baseUrl}/images/DI_Rocket.png`} alt="Rocket" width={120} height={120} style={{ width: '100%', height: 'auto' }} />
           </motion.div>
 
         </motion.div>

@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './SustainabilitySection.module.css';
@@ -28,7 +29,7 @@ export default function SustainabilitySection() {
         <div className={styles.centerColumn}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/safal/images/green-fingerprint.jpg"
+              src={`${baseUrl}/images/green-fingerprint.jpg`}
               alt="Green Thumbprint"
               fill
               className={styles.fingerprintImage}

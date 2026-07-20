@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './FinancialProcessSection.module.css';
@@ -9,7 +10,7 @@ const data = {
     "Through standardized workflows and system-led execution, Safal ensures financial processes are aligned with regulatory requirements and operational accuracy.",
     "Our approach ensures financial processes are executed through structured workflows, standardized controls, and consistent validation mechanisms. By integrating data accuracy, process discipline, and compliance requirements, we enable seamless financial operations that improve reporting reliability, reduce errors, and support efficient decision-making across the organization."
   ],
-  imageSrc: "/safal/images/financial-accounting-solutions/endtoend.webp",
+  imageSrc: `${baseUrl}/images/financial-accounting-solutions/endtoend.webp`,
   imageAlt: "End-to-End Financial Process Management Flow"
 };
 

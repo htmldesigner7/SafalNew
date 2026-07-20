@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './EnterprisePlatformsSection.module.css';
@@ -16,7 +17,7 @@ export default function EnterprisePlatformsSection() {
         <div className={styles.platformBlock}>
           <div className={styles.imageCol}>
             <Image
-              src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp" // Placeholder for DataNote Dashboard screenshot
+              src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/datanote.webp`} // Placeholder for DataNote Dashboard screenshot
               alt="DataNote ERP Dashboard"
               width={800}
               height={500}
@@ -26,7 +27,7 @@ export default function EnterprisePlatformsSection() {
           <div className={styles.textCol}>
             <div className={styles.logoWrapper}>
               <Image
-                src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/Datanote-logo.svg"
+                src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/Datanote-logo.svg`}
                 alt="DataNote Logo"
                 width={150}
                 height={40}
@@ -49,7 +50,7 @@ export default function EnterprisePlatformsSection() {
         <div className={styles.platformBlock}>
           <div className={styles.imageCol}>
             <Image
-              src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp" // Placeholder for Formezy Dashboard screenshot
+              src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/formezy.webp`} // Placeholder for Formezy Dashboard screenshot
               alt="Formezy EAP Dashboard"
               width={800}
               height={500}
@@ -60,7 +61,7 @@ export default function EnterprisePlatformsSection() {
             <div className={styles.logoWrapper}>
               {/* If Formezy logo isn&apos;t available, fallback to Safal logo for now */}
               <Image
-                src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/Formezy-logo.svg"
+                src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/Formezy-logo.svg`}
                 alt="Formezy Logo"
                 width={120}
                 height={40}

@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './ExecutiveCommittee.module.css';
 
@@ -8,7 +9,7 @@ const ExecutiveCommittee = () => {
         <div className={styles.imageWrapper}>
           <div className={styles.fallbackGradient}></div>
           <Image
-            src="/safal/images/LeaderShip-Team/Executive.webp" 
+            src={`${baseUrl}/images/LeaderShip-Team/Executive.webp`} 
             alt="Executive Committee"
             fill
             className={styles.image}

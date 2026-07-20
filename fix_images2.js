@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 const fs = require('fs');
 const path = require('path');
 
@@ -23,7 +24,7 @@ function walk(dir) {
 const files = walk('./');
 files.forEach(file => {
   let content = fs.readFileSync(file, 'utf8');
-  if (content.includes('"/safal/images/') || content.includes("'/safal/images/")) {
+  if (content.includes('`${baseUrl}/images/') || content.includes(`'/images/")) {
     content = content.replace(/(["'])\/images\//g, '$1/safal/images/');
     fs.writeFileSync(file, content);
     console.log('Updated ' + file);

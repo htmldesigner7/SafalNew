@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,7 +12,7 @@ const consultData = {
   </>,
   buttonText: "Book a Consultation",
   buttonLink: "/contact", 
-  imageSrc: "/safal/images/Structured-Advisory-Banner.png", 
+  imageSrc: `${baseUrl}/images/Structured-Advisory-Banner.png`, 
   imageAlt: "Consult Our Experts Dashboard"
 };
 

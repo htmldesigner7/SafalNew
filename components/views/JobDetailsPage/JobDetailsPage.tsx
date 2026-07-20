@@ -37,7 +37,7 @@ export default function JobDetailsPage({ jobId }: { jobId: string }) {
       formData.append("coverLetter", data.coverLetter);
       formData.append("resume", data.resume);
 
-      const response = await fetch("/safal/api/job-application", {
+      const response = await fetch("/api/job-application", {
         method: "POST",
         body: formData,
       });

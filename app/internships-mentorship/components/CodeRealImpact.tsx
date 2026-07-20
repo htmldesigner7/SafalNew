@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import React from 'react'
 import Link from 'next/link';
@@ -9,7 +10,7 @@ function CodeRealImpact() {
       <div className="container-1600">
         <div className={styles.main}>
           <div className={styles.left}>
-              <Image src="/safal/images/Internships-&-Mentorship/Internships-&-Mentorship-down.webp" 
+              <Image src={`${baseUrl}/images/Internships-&-Mentorship/Internships-&-Mentorship-down.webp`} 
               width={500} height={500} alt="image"/>
           </div>
           <div className={styles.right}>

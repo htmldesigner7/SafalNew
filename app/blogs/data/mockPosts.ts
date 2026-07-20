@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 export interface BlogSection {
   heading?: string;
   paragraphs?: string[];
@@ -22,7 +23,7 @@ export const mockPosts: BlogPost[] = [
     title: 'The AI-Driven Enterprise: Scaling Low-Code ERP Across Global Markets.',
     description: 'Discover how legacy manufacturing hubs are leveraging autonomous data nodes and low-code infrastructure to achieve unprecedented operational velocity and eliminate system friction.',
     date: '12/02/2026',
-    imageSrc: '/safal/images/blogs.png',
+    imageSrc: `${baseUrl}/images/blogs.png`,
     tags: ['Blog', 'ERP Solution'],
     isFeatured: true,
     content: [
@@ -47,7 +48,7 @@ export const mockPosts: BlogPost[] = [
         ]
       },
       {
-        imageSrc: '/safal/images/ContactHandShake.png',
+        imageSrc: `${baseUrl}/images/ContactHandShake.png`,
         imageAlt: 'Handshake'
       },
       {
@@ -63,7 +64,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     description: 'Why top-tier B2B organizations are investing heavily in cohesive digital design ecosystems to...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp',
+    imageSrc: `${baseUrl}/images/Brand,-Digital-&-Creative-Services/Logistics-&-Supply-Chain.webp`,
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -71,7 +72,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Automating the Supply Chain: A 2026 Perspective.',
     description: 'A technical breakdown of how Industrial IoT and machine learning are eliminating bottlenecks in...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp',
+    imageSrc: `${baseUrl}/images/life-at-safal/Life@Safal/Aesthetic-Intelligence.webp`,
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -79,7 +80,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Beyond Aesthetics: The ROI of Enterprise Brand Strategy.',
     description: 'Why top-tier B2B organizations are investing heavily in cohesive digital design ecosystems to...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/our-story/Our-Story/Decentralized-Security.webp',
+    imageSrc: `${baseUrl}/images/our-story/Our-Story/Decentralized-Security.webp`,
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -87,7 +88,7 @@ export const mockPosts: BlogPost[] = [
     title: 'The Future of Decentralized Corporate Banking.',
     description: 'How our business advisory division envisions the next decade of institutional transaction processi...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/banner-images/Brand,-Digital-&-Creative-Services.webp',
+    imageSrc: `${baseUrl}/images/banner-images/Brand,-Digital-&-Creative-Services.webp`,
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -95,7 +96,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Transforming Healthcare with Predictive Analytics.',
     description: 'A case study on implementing data-driven patient care models using Safal\'s highly customi...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/Corporate-Governance/Design-Driven-Innovation..webp',
+    imageSrc: `${baseUrl}/images/Corporate-Governance/Design-Driven-Innovation..webp`,
     tags: ['ERP Solution', 'Blog'],
   },
   {
@@ -103,7 +104,7 @@ export const mockPosts: BlogPost[] = [
     title: 'Designing for Data Density in Complex SaaS.',
     description: 'Our Creative Head shares a framework for ensuring accessible, user-friendly interfaces wit...',
     date: '12/02/2026',
-    imageSrc: '/safal/images/blogs.png',
+    imageSrc: `${baseUrl}/images/blogs.png`,
     tags: ['ERP Solution', 'Blog'],
   }
 ];

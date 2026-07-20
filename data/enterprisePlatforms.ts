@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 export interface EnterprisePlatform {
   id: string;
   imageSrc: string;
@@ -10,7 +11,7 @@ export interface EnterprisePlatform {
 export const enterprisePlatformsData: EnterprisePlatform[] = [
   {
     id: "platform-1",
-    imageSrc: "/safal/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp",
+    imageSrc: `${baseUrl}/images/Industrial-Automation-&-IoT/Industrial-Automation-&-IoT.webp`,
     imageAlt: "Manufacturing Factory Floor",
     subtitle: "Kabhi B (Kanhai Foods Ltd.)",
     title: "Scaling a 100+ Outlet Food Network with Integrated ERP & Distribution Intelligence",
@@ -20,7 +21,7 @@ export const enterprisePlatformsData: EnterprisePlatform[] = [
   },
   {
     id: "platform-2",
-    imageSrc: "/safal/images/blogs/blogs.webp",
+    imageSrc: `${baseUrl}/images/blogs/blogs.webp`,
     imageAlt: "ERP Dashboard Interface",
     subtitle: "Allmark Industries Pvt. Ltd.",
     title: "Engineering Precision Through Project-Driven ERP Transformation",
@@ -30,7 +31,7 @@ export const enterprisePlatformsData: EnterprisePlatform[] = [
   },
   {
     id: "platform-3",
-    imageSrc: "/safal/images/blogs/blogs.webp",
+    imageSrc: `${baseUrl}/images/blogs/blogs.webp`,
     imageAlt: "ERP Dashboard Interface",
     subtitle: "American Precoat Pvt. Ltd.",
     title: "Driving Real-Time Control in Continuous Steel Processing",
@@ -40,7 +41,7 @@ export const enterprisePlatformsData: EnterprisePlatform[] = [
   },
   {
     id: "platform-4",
-    imageSrc: "/safal/images/blogs/blogs.webp",
+    imageSrc: `${baseUrl}/images/blogs/blogs.webp`,
     imageAlt: "ERP Dashboard Interface",
     subtitle: "YKGI Holdings Berhad",
     title: "Optimizing Coil Coating Operations with Data-Driven ERP",
@@ -50,7 +51,7 @@ export const enterprisePlatformsData: EnterprisePlatform[] = [
   },
   {
     id: "platform-5",
-    imageSrc: "/safal/images/blogs/blogs.webp",
+    imageSrc: `${baseUrl}/images/blogs/blogs.webp`,
     imageAlt: "ERP Dashboard Interface",
     subtitle: "Heavy Metal & Tubes India Pvt. Ltd.",
     title: "Unifying Multi-Plant Manufacturing into a Single Digital Backbone",
