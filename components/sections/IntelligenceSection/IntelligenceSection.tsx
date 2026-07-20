@@ -4,12 +4,14 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { IntelligenceData, aboutIntelligenceData } from '@/data/intelligenceData';
 import styles from './IntelligenceSection.module.css';
+import { useRouter } from "next/navigation";
 
 interface IntelligenceSectionProps {
   data?: IntelligenceData;
 }
 
 export default function IntelligenceSection({ data = aboutIntelligenceData }: IntelligenceSectionProps) {
+  const router = useRouter();
   return (
     <section className={`${styles.intelligenceSection} mt_80`}>
       <div className="container-1600">
@@ -43,7 +45,40 @@ export default function IntelligenceSection({ data = aboutIntelligenceData }: In
             <h2 className="title_60">{data.title}</h2>
             <div className="description">{data.description}</div>
             {data.buttonText && (
-              <button className="btn-primary mt_40">{data.buttonText}</button>
+            //   <button className="btn-primary mt_40" 
+            //   onClick={() => {
+            //         if (data.buttonLink?.startsWith("#")) {
+            //           const id = data.buttonLink.replace("#", "");
+            //           document.getElementById(id)?.scrollIntoView({
+            //             behavior: "smooth",
+            //             block: "start",
+            //           });
+            //         }
+            //       }}
+            //   >{data.buttonText}</button>
+            <button
+                className="btn-primary mt_40"
+                onClick={() => {
+                    if (!data.buttonLink) return;
+
+                    // Scroll to section
+                    if (data.buttonLink.startsWith("#")) {
+                    const id = data.buttonLink.slice(1);
+
+                    document.getElementById(id)?.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+
+                    return;
+                    }
+
+                    // Navigate to another page
+                    router.push(data.buttonLink);
+                }}
+                >
+                {data.buttonText}
+                </button>
             )}
           </motion.div>
 

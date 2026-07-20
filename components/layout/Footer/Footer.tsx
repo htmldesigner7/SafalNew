@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer id="footerScroll" className={styles.footer}>
       <div className="container-1800">
         <div className={styles.topSection}>
 
