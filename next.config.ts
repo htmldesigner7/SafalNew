@@ -1,13 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: '/safal',
+  // output: 'export',
   trailingSlash: true,
   images: {
     remotePatterns: [
       {
         protocol: 'http',
         hostname: 'localhost',
+        port: '',
       },
       {
         protocol: 'https',
