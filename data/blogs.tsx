@@ -2,6 +2,16 @@ import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import { BlogPost } from './mockPosts';
 
+export interface BlogPost {
+  id: string;
+  title: string;
+  description: string;
+  imageSrc: string;
+  date: string;
+  tags: string[];
+  className?: string; 
+}
+
 export const blogsData: BlogPost[] = [
   {
     id: 'post-1',
