@@ -1,4 +1,6 @@
 'use client';
+import { baseUrl } from '@/utils/baseUrl';
+
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -126,7 +128,7 @@ export default function StructuredDeliverySection() {
           {/* Right Image */}
           <div className={styles.imageContent}>
             <Image
-              src="/safal/images/Structured-End-to-End-Project-Delivery.png"
+              src={`${baseUrl}/images/Structured-End-to-End-Project-Delivery.png`}
               alt="Project Delivery Stages"
               fill
               className={styles.image}

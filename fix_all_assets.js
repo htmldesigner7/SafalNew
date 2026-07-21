@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 const fs = require('fs');
 const path = require('path');
 
@@ -66,16 +67,16 @@ sourceFiles.forEach(file => {
 
   // Also replace any generic /files/, /images/ etc that might have been dynamically constructed
   // but let's avoid replacing if it already has /safal/
-  const genericFolders = ['/safal/images/', '/safal/files/', '/safal/uploads/'];
+  const genericFolders = [`${baseUrl}/images/`, `${baseUrl}/files/`, '/uploads/'];
   genericFolders.forEach(folder => {
-     // match "/safal/images/" but not "/safal/images/"
+     // match `${baseUrl}/images/` but not `${baseUrl}/images/`
      // negative lookbehind is (?<!...)
      const regex = new RegExp(`(?<!/safal)(["'\`])(${folder}[a-zA-Z0-9_\\-\\./]*)`, 'g');
      content = content.replace(regex, `$1/safal$2`);
   });
   
   // Specific root files
-  const rootFiles = ['/safal/contact-hero.png', '/safal/file.svg', '/safal/globe-bg.png', '/safal/globe.svg', '/safal/handshake.png', '/safal/hero-glass-shapes.png', '/safal/next.svg', '/safal/vercel.svg', '/safal/window.svg'];
+  const rootFiles = ['/contact-hero.png', '/file.svg', '/globe-bg.png', '/globe.svg', '/handshake.png', '/hero-glass-shapes.png', '/next.svg', '/vercel.svg', '/window.svg'];
   rootFiles.forEach(rf => {
      const regex = new RegExp(`(?<!/safal)(["'\`])(${rf})(["'\`])`, 'g');
      content = content.replace(regex, `$1/safal$2$3`);

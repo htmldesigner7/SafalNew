@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import IndustryMarqueeSection from './components/IndustryMarqueeSection';
@@ -17,7 +18,7 @@ export default function IndustriesWeServePage() {
       <InnerPageHero
         title="Industry-Aligned Digital Systems"
         description="Designed to align operations, data, and workflows with industry-specific requirements, enabling greater control, visibility, and scalable execution across complex business environments."
-        imageSrc="/safal/images/INDUSTRIES/INDUSTIRES.webp"
+        imageSrc={`${baseUrl}/images/INDUSTRIES/INDUSTIRES.webp`}
         imageAlt="Industry-Aligned Digital Systems"
       />
       

@@ -1,4 +1,6 @@
 "use client";
+import { baseUrl } from '@/utils/baseUrl';
+
 
 import { useState } from 'react';
 import Image from 'next/image';
@@ -71,7 +73,7 @@ export default function StructuredAdvisory() {
             <div className={styles.imageWrapper}>
               {/* Note: I&apos;m using a placeholder right now for the hover layers image */}
               <Image 
-                src="/safal/images/Business-&-Financial-Advisory/hero-right.svg" 
+                src={`${baseUrl}/images/Business-&-Financial-Advisory/hero-right.svg`} 
                 alt="Hover Layers"
                 fill
                 className={styles.image}

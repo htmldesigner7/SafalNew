@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './CTASection.module.css';
@@ -27,7 +28,7 @@ export default function CTASection() {
       <div className={styles.graphicContent}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/safal/images/homepage/gold-key.png" 
+            src={`${baseUrl}/images/homepage/gold-key.png`} 
             alt="Golden Key in Puzzle" 
             fill 
             className={styles.graphicImage} 

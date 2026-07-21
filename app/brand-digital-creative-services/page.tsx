@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
@@ -51,7 +52,7 @@ export default function BrandDigitalCreativeServicesPage() {
           "A portfolio of brand identities, digital platforms, and marketing campaigns developed across industries, reflecting structured execution, creative consistency, and measurable impact.",
           "Each engagement demonstrates the integration of creative design services with performance-driven digital strategies."
         ]}
-        imageSrc="/safal/images/Brand,-Digital-&-Creative-Services/brand-transformation-1.png"
+        imageSrc={`${baseUrl}/images/Brand,-Digital-&-Creative-Services/brand-transformation-1.png`}
         imageAlt="Selected Work Illustration"
       />
 

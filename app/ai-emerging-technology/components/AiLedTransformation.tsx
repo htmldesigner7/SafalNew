@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './AiLedTransformation.module.css';
@@ -18,7 +19,7 @@ export default function AiLedTransformation() {
           </div>
           <div className={styles.imageCol}>
             <Image 
-              src="/safal/images/AI-&-Emerging-Technology/AI-Lead-Execution.webp" 
+              src={`${baseUrl}/images/AI-&-Emerging-Technology/AI-Lead-Execution.webp`} 
               alt="AI Process Diagram" 
               width={700} 
               height={400} 

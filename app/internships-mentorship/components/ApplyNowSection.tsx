@@ -50,7 +50,7 @@ export default function ApplyNowSection() {
       formData.append("coverLetter", data.coverLetter);
       formData.append("resume", data.resume as File);
 
-      const response = await fetch("/safal/api/internship", {
+      const response = await fetch("/api/internship", {
         method: "POST",
         body: formData,
       });

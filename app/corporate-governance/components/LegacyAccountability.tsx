@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './LegacyAccountability.module.css';
 
@@ -19,7 +20,7 @@ export default function LegacyAccountability() {
         <div className={styles.rightCol}>
           <div className={styles.imageWrapper}>
             <Image 
-              src="/safal/images/Corporate-Governance/Corporate-Governance-2.webp" 
+              src={`${baseUrl}/images/Corporate-Governance/Corporate-Governance-2.webp`} 
               alt="Legacy of Accountability Hourglass" 
               fill 
               style={{ objectFit: 'contain' }}

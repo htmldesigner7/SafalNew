@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './TechnologyDrivenExecutionSection.module.css';
@@ -12,7 +13,7 @@ export default function TechnologyDrivenExecutionSection() {
           {/* The central graphic as one image (lines and center logo) */}
           <div className={styles.imageWrapper}>
             <Image 
-              src="/safal/images/Technology-Driven-Execution.png" 
+              src={`${baseUrl}/images/Technology-Driven-Execution.png`} 
               alt="Technology Driven Execution Center" 
               fill
               className={styles.diagramImage} 
@@ -22,7 +23,7 @@ export default function TechnologyDrivenExecutionSection() {
           {/* Top Text Block */}
           <div className={`${styles.textBlock} ${styles.topBlock}`}>
             <div className={styles.iconWrapper}>
-              <Image src="/safal/images/Technology-Driven-Execution-singale1.png" alt="Web Development" width={120} height={100} className={styles.iconImage} />
+              <Image src={`${baseUrl}/images/Technology-Driven-Execution-singale1.png`} alt="Web Development" width={120} height={100} className={styles.iconImage} />
             </div>
             <div className={styles.textContent}>
               <h3 className="title_24 mb_10">Web Development</h3>
@@ -33,7 +34,7 @@ export default function TechnologyDrivenExecutionSection() {
           {/* Left Text Block */}
           <div className={`${styles.textBlock} ${styles.leftBlock}`}>
             <div className={styles.iconWrapper}>
-              <Image src="/safal/images/Technology-Driven-Execution-singale3.png" alt="Web Development" width={120} height={120} className={styles.iconImage} />
+              <Image src={`${baseUrl}/images/Technology-Driven-Execution-singale3.png`} alt="Web Development" width={120} height={120} className={styles.iconImage} />
             </div>
             <div className={styles.textContent}>
               <h3 className="title_24 mb_10">Mobile Applications</h3>
@@ -44,7 +45,7 @@ export default function TechnologyDrivenExecutionSection() {
           {/* Right Text Block */}
           <div className={`${styles.textBlock} ${styles.rightBlock}`}>
             <div className={styles.iconWrapper}>
-              <Image src="/safal/images/Technology-Driven-Execution-singale2.png" alt="Web Development" width={120} height={120} className={styles.iconImage} />
+              <Image src={`${baseUrl}/images/Technology-Driven-Execution-singale2.png`} alt="Web Development" width={120} height={120} className={styles.iconImage} />
             </div>
             <div className={styles.textContent}>
               <h3 className="title_24 mb_10">E-commerce Solutions</h3>

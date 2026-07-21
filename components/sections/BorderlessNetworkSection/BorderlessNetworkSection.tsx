@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import Image from 'next/image';
 import styles from './BorderlessNetworkSection.module.css';
 
@@ -14,7 +15,7 @@ export default function BorderlessNetworkSection() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/safal/images/Become-a-Partner/banner-image.webp"
+            src={`${baseUrl}/images/Become-a-Partner/banner-image.webp`}
             alt="Global Network Map"
             width={1200}
             height={600}

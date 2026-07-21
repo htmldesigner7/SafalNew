@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import styles from './OneVision.module.css';
 import Image from 'next/image';
@@ -36,7 +37,7 @@ export default function OneVision() {
             <div className={styles.visionImage}>
               <div className={styles.imageBox}>
                 <img
-                  src={item.img}
+                  src={`${baseUrl}/images/${item.img}`}
                   alt={item.text}
                   width={700}
                   height={600}
@@ -51,7 +52,7 @@ export default function OneVision() {
               <p>{item.description}</p>
               <div className="mt_40">
                 <Image
-                  src="/safal/images/blogs.png"
+                  src={`${baseUrl}/images/blogs.png`}
                   alt="images"
                   width={100}
                   height={100}

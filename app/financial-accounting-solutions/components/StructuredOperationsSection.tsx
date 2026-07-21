@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -218,7 +219,7 @@ export default function StructuredOperationsSection() {
         {/* CENTER CONTENT */}
         <div className={styles.content}>
           <Image
-            src="/safal/images/favicon_new.png"
+            src={`${baseUrl}/images/favicon_new.png`}
             alt="Safal Logo"
             width={56}
             height={56}

@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './LeafClockSection.module.css';
@@ -23,7 +24,7 @@ export default function EverylineSection() {
           {/* Right Image */}
           <div className={styles.rightCol}>
             <Image
-              src="/safal/images/Sustainability/Every-Line-of-Code.webp"
+              src={`${baseUrl}/images/Sustainability/Every-Line-of-Code.webp`}
               alt="Leaf Clock showing transition from dry to green"
               fill
               className={styles.image}

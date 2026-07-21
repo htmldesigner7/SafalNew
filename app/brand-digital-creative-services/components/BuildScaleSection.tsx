@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -25,7 +26,7 @@ export default function BuildScaleSection() {
           
           <div className={styles.imageCol}>
             <Image
-              src="/safal/images/Brand,-Digital-&-Creative-Services/Highend_3d_render_of_a_polished_gold_key_unlocking_delpmaspu-(1)-2.webp"
+              src={`${baseUrl}/images/Brand,-Digital-&-Creative-Services/Highend_3d_render_of_a_polished_gold_key_unlocking_delpmaspu-(1)-2.webp`}
               alt="Brand Clarity"
               width={700}
               height={500}

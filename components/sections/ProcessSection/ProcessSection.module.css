@@ -55,7 +55,7 @@
 .lineToCenter {
   width: 140px;
   height: 1px;
-  background-color: #5A8A44;
+  background-color: var(--active-color);
   position: relative;
 }
 
@@ -67,7 +67,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #5A8A44;
+  background-color: var(--active-color);
 }
 
 
@@ -76,10 +76,11 @@
    ========================================================= */
 
 @media (max-width: 1776px) {
+
   /* Add your styles here */
   .tabsCol {
     gap: 40px;
-}
+  }
 }
 
 @media (max-width: 1661px) {
@@ -89,8 +90,7 @@
 @media (max-width: 1537px) {
   /* Add your styles here */
 
-  .svgPlaceholder svg
-  {
+  .svgPlaceholder svg {
     width: 300px;
   }
 }
@@ -98,18 +98,17 @@
 @media (max-width: 1441px) {
   /* Add your styles here */
 
-  .svgPlaceholder svg
-  {
+  .svgPlaceholder svg {
     width: 280px;
   }
 
-    .tabsCol {
+  .tabsCol {
     gap: 30px;
-}
+  }
 
-.tabItem {
+  .tabItem {
     padding: 18px;
-}
+  }
 
 }
 
@@ -122,6 +121,7 @@
     grid-template-columns: 280px 1fr 320px;
     gap: 30px;
   }
+
   .lineToCenter {
     width: 80px;
   }
@@ -134,7 +134,8 @@
 @media (max-width: 1024px) {
   .gridContainer {
     grid-template-columns: 1fr;
-    gap: 40px; /* Reduced from 60px */
+    gap: 40px;
+    /* Reduced from 60px */
   }
 
   .descLineWrapper {
@@ -153,32 +154,33 @@
 
   .descCol {
     margin-top: 0;
-    transform: none !important; /* Disable translateY so text doesn't slide into empty space */
+    transform: none !important;
+    /* Disable translateY so text doesn't slide into empty space */
     text-align: center;
     align-items: center;
     justify-content: center;
   }
-  
+
   .tabsCol {
     flex-direction: row;
     overflow-x: auto;
     gap: 12px;
     padding-bottom: 8px;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
-  
+
   .tabsCol::-webkit-scrollbar {
-    display: none; 
+    display: none;
   }
-  
+
   .tabItem {
     padding: 12px 24px;
     border-bottom: 2px solid var(--grey-ddd);
     white-space: nowrap;
     border-radius: 4px 4px 0 0;
   }
-  
+
   .activeTab {
     border-bottom-color: var(--active-color);
   }
@@ -188,6 +190,7 @@
   .gridContainer {
     gap: 30px;
   }
+
   .svgPlaceholder svg {
     max-height: 350px;
   }
@@ -197,9 +200,11 @@
   .gridContainer {
     gap: 24px;
   }
+
   .svgPlaceholder svg {
     max-height: 300px;
   }
+
   .tabItem {
     padding: 16px;
   }
@@ -209,6 +214,7 @@
   .gridContainer {
     gap: 20px;
   }
+
   .svgPlaceholder svg {
     max-height: 250px;
   }

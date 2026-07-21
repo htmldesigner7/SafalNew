@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import { ReactNode } from 'react';
 
 export interface SustainableListItem {
@@ -30,7 +31,7 @@ export const sustainableData: SustainableContent = {
       text: "Scalable infrastructure built for long-term sustainability"
     }
   ],
-  imageSrc: "/safal/images/our-story/engineering-a-sustainable-tomorrow.webp", // Replace with actual 3-leaves image
+  imageSrc: `${baseUrl}/images/our-story/engineering-a-sustainable-tomorrow.webp`, // Replace with actual 3-leaves image
   imageAlt: "Sustainable Leaves"
 };
 
@@ -41,7 +42,7 @@ export const SingularData: SustainableContent = {
   <p>We do not believe in isolated brilliance. Modern enterprise challenges demand the convergence of multiple disciplines.</p>
   <p>At Safal, we integrate engineering, data intelligence, design thinking, and strategic insight into a unified execution model. By combining diverse perspectives into a single, cohesive system, we create solutions that are not just effective but exponentially powerful.</p>
   </>,
-  imageSrc: "/safal/images/Values-&-Culture/Diverse-Minds.webp",
+  imageSrc: `${baseUrl}/images/Values-&-Culture/Diverse-Minds.webp`,
   imageAlt: "Sustainable Leaves"
 };
 
@@ -53,7 +54,7 @@ export const internshipsMentorshipData: SustainableContent = {
   <p>Our mentorship model places you alongside experienced operators, where you learn how decisions are made, how systems are built, and how global-scale execution happens daily.</p>
   <p>You don’t just understand theory—you internalize the frameworks that drive enterprise outcomes.</p>
   </>,
-  imageSrc: "/safal/images/Internships-&-Mentorship/Internships-&-Mentorship-box.webp",
+  imageSrc: `${baseUrl}/images/Internships-&-Mentorship/Internships-&-Mentorship-box.webp`,
   imageAlt: "Sustainable Leaves"
 };
 
@@ -92,7 +93,7 @@ export const StructuredIndependent: SustainableContent = {
       text: "Focus on long-term value creation and risk management"
     }
   ],
-  imageSrc: "/safal/images/Business-&-Financial-Advisory/Structured,-Independent,-and-Insight-Led.webp", // Replace with actual 3-leaves image
+  imageSrc: `${baseUrl}/images/Business-&-Financial-Advisory/Structured,-Independent,-and-Insight-Led.webp`, // Replace with actual 3-leaves image
   imageAlt: "Sustainable Leaves"
 };
 
@@ -104,7 +105,7 @@ export const productsBuiltForScaleData: SustainableContent = {
       <p>Each product reflects structured execution, scalable architecture, and alignment between product vision and technology systems.</p>
     </>
   ),
-  imageSrc: "/safal/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.png", // Fallback sketch image, user can replace
+  imageSrc: `${baseUrl}/images/Startup-Product-Development-&-Consulting/Products-Built-for-Scale-and-Adoption.png`, // Fallback sketch image, user can replace
   imageAlt: "Products Built for Scale"
 };
 
@@ -120,7 +121,7 @@ export const governingDigitalFrontierData: SustainableContent = {
       </p>
     </>
   ),
-  imageSrc: "/safal/images/climbing_stones.png",
+  imageSrc: `${baseUrl}/images/climbing_stones.png`,
   imageAlt: "Governing the Digital Frontier"
 };
 
@@ -140,7 +141,7 @@ export const GoverningDigitalFrontierData: SustainableContent = {
       <p>We don’t treat governance as a checkpoint, it is embedded into how we design, build, and scale.</p>
     </>
   ),
-  imageSrc: "/safal/images/Corporate-Governance/Corporate-Governance.webp",
+  imageSrc: `${baseUrl}/images/Corporate-Governance/Corporate-Governance.webp`,
   imageAlt: "Governing the Digital Frontier"
 };
 

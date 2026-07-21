@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './PlatformCapabilitiesSection.module.css';
@@ -45,7 +46,7 @@ export default function PlatformCapabilitiesSection() {
           <div className={styles.graphicCenter}>
             {/* Placeholder for the central graphic */}
             <Image 
-              src="/safal/images/Enterprise-Grade-Products-Built-for-Scale/enterprise-products-platform.png" 
+              src={`${baseUrl}/images/Enterprise-Grade-Products-Built-for-Scale/enterprise-products-platform.png`} 
               alt="Platform Capabilities Graphic" 
               width={300} 
               height={300} 

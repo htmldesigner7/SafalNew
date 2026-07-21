@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 import BorderlessInnovationSection from './components/BorderlessInnovationSection';
@@ -28,7 +29,7 @@ export default function StrategicPartnershipsPage() {
         }
         description=<>At the Safal Group, partnerships are not transactional, they are strategic accelerators. <br />We collaborate with elite engineers, operators, and visionaries to co-create enterprise solutions, unlock new markets, and drive sustained, compounding growth.
         </>
-        imageSrc="/safal/images/Strategic-Partnerships/Strategic-Partnerships.webp"
+        imageSrc={`${baseUrl}/images/Strategic-Partnerships/Strategic-Partnerships.webp`}
         imageAlt="Strategic Partnerships Interlocking Rings"
       />
 

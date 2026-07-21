@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -14,7 +15,7 @@ export default function IndustrialCtaSection() {
 
           <div className={styles.imageWrapper}>
             <Image
-              src="/safal/images/Industrial-Automation-&-IoT/cta.png"
+              src={`${baseUrl}/images/Industrial-Automation-&-IoT/cta.png`}
               alt="Connected Industrial Systems"
               width={1000}
               height={200}

@@ -27,7 +27,7 @@
   left: -109px;
   /* Scaled proportionally: -50px gap - 59px curve offset */
   width: 444px;
-  background: url('/safal/images/homepage/left-orange.svg') no-repeat center;
+  background: url('/images/homepage/left-orange.svg') no-repeat center;
   background-size: 100% 100%;
 }
 
@@ -41,7 +41,7 @@
   right: -111px;
   /* Scaled proportionally: -50px gap - 61px curve offset */
   width: 444px;
-  background: url('/safal/images/homepage/right-orange.svg') no-repeat center;
+  background: url('/images/homepage/right-orange.svg') no-repeat center;
   background-size: 100% 100%;
 }
 

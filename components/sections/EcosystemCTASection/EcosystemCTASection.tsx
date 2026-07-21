@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,7 +17,7 @@ const data = {
   cardDescription: "Wherever your business operates, Safal helps you build the right technology team, fast. Connect with us to start deploying qualified talent aligned with your project and industry needs.",
   buttonText: "Book a Consultation",
   buttonLink: "/contact",
-  imageSrc: "/safal/images/Technology-Staffing/cta.webp",
+  imageSrc: `${baseUrl}/images/Technology-Staffing/cta.webp`,
   imageAlt: "Team working together"
 };
 

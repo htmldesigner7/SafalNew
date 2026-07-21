@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './AboutSection.module.css';
@@ -20,7 +21,7 @@ export default function AboutSection() {
           </p>
           <div className={styles.imageWrapper}>
             <Image
-              src="/safal/images/our-story/ourstory-banner.webp"
+              src={`${baseUrl}/images/our-story/ourstory-banner.webp`}
               alt="Global Network"
               width={1200}
               height={250}

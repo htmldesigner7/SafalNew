@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './TechnologyStacksSection.module.css';
@@ -53,7 +54,7 @@ export default function TechnologyStacksSection() {
         <div className={styles.imageContainer}>
           {/* Main network graph image as per the screenshot. Placeholder used. */}
           <Image 
-            src="/safal/images/Technology-Staffing/Across-Modern-Technology-Stacks.webp" 
+            src={`${baseUrl}/images/Technology-Staffing/Across-Modern-Technology-Stacks.webp`} 
             alt="Technology Network Node" 
             width={1000} 
             height={600} 

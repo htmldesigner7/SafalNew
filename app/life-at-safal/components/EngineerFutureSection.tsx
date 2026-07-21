@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import Image from 'next/image';
 import styles from './EngineerFutureSection.module.css';
@@ -21,7 +22,7 @@ export default function EngineerFutureSection() {
         </div>
         <div className={styles.imageContent}>
           <Image
-            src="/safal/images/life-at-safal/Don’t-Just-Write- Code.webp"
+            src={`${baseUrl}/images/life-at-safal/Don’t-Just-Write- Code.webp`}
             alt="Engineer the Future"
             width={600}
             height={500}

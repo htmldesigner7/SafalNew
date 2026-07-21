@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import { IndustryDetailData } from '@/components/sections/IndustryDetailSection/IndustryDetailSection';
 
 export const manufacturingIndustryData: IndustryDetailData = {
@@ -17,7 +18,7 @@ export const manufacturingIndustryData: IndustryDetailData = {
     'Plastics & Polymers',
     'Electronics Manufacturing'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Manufacturing.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Manufacturing.webp`,
   imageAlt: 'Manufacturing facility',
   reverse: false,
 };
@@ -37,7 +38,7 @@ export const retailIndustryData: IndustryDetailData = {
     'Facility & Property Management',
     'Luxury & Boutique Hospitality'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Hospitality.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Hospitality.webp`,
   imageAlt: 'Hospitality Management',
   reverse: true,
 };
@@ -58,7 +59,7 @@ export const healthcareIndustryData: IndustryDetailData = {
     'AI & Deep Tech Startups',
     'Marketplace Platforms'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Startups.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Startups.webp`,
   imageAlt: 'Startup Ecosystems',
   reverse: false,
 };
@@ -79,7 +80,7 @@ export const hospitalityIndustryData: IndustryDetailData = {
     'Cold Chain Logistics',
     'Last-Mile Delivery'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Logistics.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Logistics.webp`,
   imageAlt: 'Logistics and Supply Chain',
   reverse: true,
 };
@@ -100,7 +101,7 @@ export const realEstateIndustryData: IndustryDetailData = {
     'Specialty Retail',
     'Wholesale & Distribution'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Retail.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Retail.webp`,
   imageAlt: 'Retail and E-commerce',
   reverse: false,
 };
@@ -120,7 +121,7 @@ export const financeIndustryData: IndustryDetailData = {
     'Medical Equipment Providers',
     'Telemedicine Platforms'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Healthcare.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Healthcare.webp`,
   imageAlt: 'Healthcare Technology',
   reverse: true,
 };
@@ -140,7 +141,7 @@ export const logisticsIndustryData: IndustryDetailData = {
     'Fintech Platforms',
     'Wealth Management Firms'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Finance.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Finance.webp`,
   imageAlt: 'Financial Services',
   reverse: false,
 };
@@ -160,7 +161,7 @@ export const startupsIndustryData: IndustryDetailData = {
     'Construction & Infrastructure',
     'Co-working & Managed Spaces'
   ],
-  imageSrc: '/safal/images/INDUSTRIES/Real-Estate.webp',
+  imageSrc: `${baseUrl}/images/INDUSTRIES/Real-Estate.webp`,
   imageAlt: 'Real Estate Infrastructure',
   reverse: true,
 };

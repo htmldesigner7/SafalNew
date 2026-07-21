@@ -1,3 +1,4 @@
+import { baseUrl } from '@/utils/baseUrl';
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
 
@@ -5,7 +6,7 @@ export default function PrivacyPolicyPage() {
   const heroData = {
     title: <strong>Privacy Policy</strong>,
     description: "Safal (\"Safal,\" \"we,\" \"our,\" or \"us\") is committed to protecting your privacy and maintaining the confidentiality of the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, store, and protect your information when you visit our website, engage with our services, submit inquiries, apply for careers, or otherwise interact with us.",
-    imageSrc: "/safal/images/banner-images/Corporate-Governance.webp",
+    imageSrc: `${baseUrl}/images/banner-images/Corporate-Governance.webp`,
     imageAlt: "Privacy Policy Hero Graphic",
   };
 
