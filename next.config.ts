@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 
 loadEnvConfig(process.cwd());
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/$/, "");
 
 const nextConfig: NextConfig = {
   basePath,
@@ -12,6 +12,8 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
   trailingSlash: true,
+  // Prevent Next from redirecting to //safal_staging/ behind Apache proxy
+  skipTrailingSlashRedirect: true,
   images: {
     loader: "custom",
     loaderFile: "./src/utils/imageLoader.ts",

@@ -1,22 +1,18 @@
-# ----------------------------------------------------------------------
-# Safal Infosoft Apache Rewrite & Proxy rules for WHM/cPanel VPS
-# ----------------------------------------------------------------------
-Options -MultiViews
+# Place this file in: public_html/safal_staging/.htaccess
+# Requires Next.js built with NEXT_PUBLIC_BASE_PATH=/safal_staging
+
+Options -MultiViews -Indexes
+DirectoryIndex disabled
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /
+  RewriteBase /safal_staging/
 
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^safal_staging/(.*)$ http://127.0.0.1:5003/safal_staging/$1 [P,L]
+  # Home (empty remainder after /safal_staging/)
+  RewriteRule ^$ http://127.0.0.1:3000/safal_staging/ [P,L]
 
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(images|files)/(.*)$ http://127.0.0.1:5003/safal_staging/$1/$2 [P,L]
-
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^api/(.*)$ http://127.0.0.1:5003/safal_staging/api/$1 [P,L]
-
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^favicon\.ico$ http://127.0.0.1:5003/safal_staging/favicon.ico [P,L]
+  # Everything else — do not create // in the proxied path
+  RewriteRule ^(.+)$ http://127.0.0.1:3000/safal_staging/$1 [P,L]
 </IfModule>
 
 LimitRequestBody 10485760
