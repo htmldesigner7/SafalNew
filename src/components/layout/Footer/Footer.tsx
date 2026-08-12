@@ -114,7 +114,7 @@ export default function Footer() {
                 <h4 className={styles.colTitle}>About</h4>
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/our-story-vision">Our Story & Vision</Link></li>
-                  <li className={styles.linkItem}><Link href="/LeaderShip-Team">Leadership Team</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/LeaderShip-Team">Leadership Team</Link></li> */}
                   <li className={styles.linkItem}><Link href="/group-structure">Group Structure</Link></li>
                   <li className={styles.linkItem}><Link href="/values-culture">Values & Culture</Link></li>
                   <li className={styles.linkItem}><Link href="/sustainability">Sustainability</Link></li>

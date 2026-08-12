@@ -56,7 +56,7 @@ export default function Header() {
         { title: 'Our Story & Vision', href: '/our-story-vision' },
         { title: 'Our Entities', href: '/group-structure' },
         { title: 'Life at Safal', href: '/life-at-safal' },
-        { title: 'Leadership Team', href: '/LeaderShip-Team' },
+        // { title: 'Leadership Team', href: '/LeaderShip-Team' },
         { title: 'Sustainability', href: '/sustainability' }
       ]
     },

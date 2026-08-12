@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import styles from './DesignToDeploymentSection.module.css';
+import { withBasePath } from '@/utils/withBasePath';
 
 const circles = [
   {
@@ -61,7 +62,7 @@ export default function DesignToDeploymentSection() {
             >
               <div
                 className={styles.bgImage}
-                style={{ backgroundImage: `url('${circle.img}')`, opacity: active === circle.id ? 1 : 0 }}
+                style={{ backgroundImage: `url('${withBasePath(circle.img)}')`, opacity: active === circle.id ? 1 : 0 }}
               />
               <div className={styles.overlay} style={{ opacity: active === circle.id ? 1 : 0 }} />
 

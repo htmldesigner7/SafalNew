@@ -1,4 +1,6 @@
 
+
+import Link from 'next/link';
 import styles from './InvestorsSection.module.css';
 
 export default function InvestorsSection() {
@@ -28,7 +30,7 @@ export default function InvestorsSection() {
                 <li>Global expansion opportunities</li>
                 <li>Structured risk management</li>
               </ul>
-              <a href="/investor-relations" className="btn-outline btn-outline-red">Explore More</a>
+              <Link href="/investor-relations" className="btn-outline btn-outline-red">Explore More</Link>
             </div>
           </div>
 

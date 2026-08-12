@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './BannerCTASection.module.css';
+import { withBasePath } from '@/utils/withBasePath';
 
 export interface BannerCTAData {
   iconSrc?: string;
@@ -17,12 +18,14 @@ interface BannerCTASectionProps {
 }
 
 export default function BannerCTASection({ data }: BannerCTASectionProps) {
+  const bgUrl = withBasePath(data.bgImageSrc);
+
   return (
     <section className={`${styles.section} mt_80`}>
       <div className="container-1600">
         <div
           className={styles.bannerContainer}
-          style={{ backgroundImage: `url(${data.bgImageSrc})` }}
+          style={{ backgroundImage: `url('${bgUrl}')` }}
         >
           {/* Optional Overlay to ensure text readability if needed */}
           {/* <div className={styles.overlay}></div> */}
