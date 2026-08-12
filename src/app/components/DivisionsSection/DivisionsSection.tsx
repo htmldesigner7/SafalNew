@@ -57,7 +57,7 @@ export default function DivisionsSection() {
                 {/* Center Image (Static) */}
                 <div className={styles.centerImageWrapper}>
                   <Image
-                    src={`/images/HomePage/Diversified-Technology.png`}
+                    src={`/images/Homepage/Diversified-Technology.png`}
                     alt="Team assembling puzzle"
                     width={120}
                     height={120}

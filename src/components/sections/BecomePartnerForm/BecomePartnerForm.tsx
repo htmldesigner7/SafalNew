@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { partnerSchema } from "@/validation/partnerSchema";
 import toast, { Toaster } from 'react-hot-toast';
+import { withBasePath } from "@/utils/withBasePath";
 import { z } from "zod";
 
 type PartnerFormData = z.infer<typeof partnerSchema>;
@@ -22,7 +23,7 @@ export default function BecomePartnerForm() {
   const onSubmit = async (data: PartnerFormData) => {
     const loadingToast = toast.loading('Submitting your details...');
     try {
-      const response = await fetch("/api/partner", {
+      const response = await fetch(withBasePath("/api/partner"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

@@ -1,6 +1,6 @@
 .heroSection {
   background-color: var(--black-111);
-  background-image: url("/images/MasterLayoutBG.png");
+  background-image: url("../../../../public/images/MasterLayoutBG.png");
   /* background-position: center center; */
   background-size: cover;
   background-repeat: no-repeat;

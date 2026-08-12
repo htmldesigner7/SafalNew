@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { jobApplicationSchema } from "@/validation/jobApplicationSchema";
 import toast, { Toaster } from 'react-hot-toast';
+import { withBasePath } from "@/utils/withBasePath";
 import { z } from "zod";
 
 type JobFormData = z.infer<typeof jobApplicationSchema>;
@@ -37,7 +38,7 @@ export default function JobDetailsPage({ jobId }: { jobId: string }) {
       formData.append("coverLetter", data.coverLetter);
       formData.append("resume", data.resume);
 
-      const response = await fetch("/api/job-application", {
+      const response = await fetch(withBasePath("/api/job-application"), {
         method: "POST",
         body: formData,
       });
