@@ -7,6 +7,7 @@ import styles from './ContactForm.module.css';
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema } from "@/validation/contactSchema";
+import { withBasePath } from "@/utils/withBasePath";
 import { z } from "zod";
 
 type ContactFormData = z.infer<typeof contactSchema>;
@@ -24,7 +25,7 @@ export default function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     const loadingToast = toast.loading('Submitting your message...');
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch(withBasePath('/api/contact'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)

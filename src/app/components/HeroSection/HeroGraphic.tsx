@@ -3,6 +3,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import imageLoader from '@/utils/imageLoader';
 import styles from './HeroGraphic.module.css';
 
 export default function HeroGraphic() {
@@ -109,9 +110,9 @@ export default function HeroGraphic() {
             <pattern id="pattern2_82_132" patternContentUnits="objectBoundingBox" width="1" height="1">
               <use href="#image2_82_132" transform="scale(0.000432713 0.000463607)" />
             </pattern>
-            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href={`/images/orange.png`} />
-            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href={`/images/green.png`} />
-            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href={`/images/blue.png`} />
+            <image id="image0_82_132" width="2311" height="2157" preserveAspectRatio="none" href={imageLoader({ src: "/images/orange.png", width: 2311 })} />
+            <image id="image1_82_132" width="2311" height="2157" preserveAspectRatio="none" href={imageLoader({ src: "/images/green.png", width: 2311 })} />
+            <image id="image2_82_132" width="2311" height="2157" preserveAspectRatio="none" href={imageLoader({ src: "/images/blue.png", width: 2311 })} />
           </defs>
         </svg>
       </div>

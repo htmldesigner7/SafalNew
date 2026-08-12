@@ -1,7 +1,7 @@
 .intelligenceSection {
   position: relative;
   overflow: hidden;
-  background-image: url('/images/dot-banner-white.png');
+  background-image: url('../../../../public/images/dot-banner-white.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 50px;

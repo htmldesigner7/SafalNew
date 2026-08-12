@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { webinarSchema } from "@/validation/webinarSchema";
 import toast, { Toaster } from 'react-hot-toast';
+import { withBasePath } from "@/utils/withBasePath";
 import { z } from "zod";
 
 type WebinarFormData = z.infer<typeof webinarSchema>;
@@ -25,7 +26,7 @@ export default function FiresideChatForm() {
   const onSubmit = async (data: WebinarFormData) => {
       const loadingToast = toast.loading('Submitting your message...');
         try {
-            const response = await fetch("/api/webinar", {
+            const response = await fetch(withBasePath("/api/webinar"), {
                 method: "POST",
                 headers: { "Content-Type": "application/json", },
                 body: JSON.stringify(data),

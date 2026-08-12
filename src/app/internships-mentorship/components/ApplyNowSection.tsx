@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { internshipSchema } from "@/validation/internshipSchema";
 import toast, { Toaster } from 'react-hot-toast';
+import { withBasePath } from "@/utils/withBasePath";
 import { z } from "zod";
 
 type InternshipFormData = z.infer<typeof internshipSchema>;
@@ -50,7 +51,7 @@ export default function ApplyNowSection() {
       formData.append("coverLetter", data.coverLetter);
       formData.append("resume", data.resume as File);
 
-      const response = await fetch("/api/internship", {
+      const response = await fetch(withBasePath("/api/internship"), {
         method: "POST",
         body: formData,
       });

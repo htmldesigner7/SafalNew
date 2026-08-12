@@ -6,13 +6,17 @@ Options -MultiViews
   RewriteEngine On
   RewriteBase /
 
-  # Match Zar Jewels pattern exactly
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^safal/(.*)$ http://127.0.0.1:5003/safal/$1 [P,L]
+  RewriteRule ^safal_staging/(.*)$ http://127.0.0.1:5003/safal_staging/$1 [P,L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)$ http://127.0.0.1:5003/safal/$1 [P,L]
+  RewriteRule ^(images|files)/(.*)$ http://127.0.0.1:5003/safal_staging/$1/$2 [P,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^api/(.*)$ http://127.0.0.1:5003/safal_staging/api/$1 [P,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^favicon\.ico$ http://127.0.0.1:5003/safal_staging/favicon.ico [P,L]
 </IfModule>
 
-# Adjust upload limits if needed
 LimitRequestBody 10485760
