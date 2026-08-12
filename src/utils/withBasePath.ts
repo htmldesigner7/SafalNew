@@ -1,4 +1,3 @@
-
 export function withBasePath(path: string): string {
   if (path.startsWith("http://") || path.startsWith("https://")) return path;
 
@@ -6,8 +5,8 @@ export function withBasePath(path: string): string {
   const normalized = path.startsWith("/") ? path : `/${path}`;
 
   if (!prefix || normalized === prefix || normalized.startsWith(`${prefix}/`)) {
-    return normalized;
+    return normalized.replace(/\/{2,}/g, "/");
   }
 
-  return `${prefix}${normalized}`;
+  return `${prefix}${normalized}`.replace(/\/{2,}/g, "/");
 }

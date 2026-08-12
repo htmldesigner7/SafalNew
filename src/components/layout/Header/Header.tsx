@@ -151,7 +151,7 @@ export default function Header() {
           {navLinks.map((link, index) => (
             <div key={index} className={styles.navItem}>
               {link.hasDropdown && link.dropdownItems ? (
-                <button onClick={(e) => handleDropdownClick(link.title, e)} className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}>
+                <button type="button" onClick={(e) => handleDropdownClick(link.title, e)} className={`${styles.navLink} ${isLightHeader ? styles.darkText : ''}`}>
                   {link.title}
                   <svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transform: openDropdown === link.title ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s ease' }}>
                     <path d="M15.75 0.75L8.25 8.25L0.75 0.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

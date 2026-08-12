@@ -1,1 +1,0 @@
-import dotenv from 'dotenv'; dotenv.config(); import { sendMail } from './lib/sendMail.js'; (async () => { const res = await sendMail({to: 'test@example.com', subject: 'Test', html: '<p>Test</p>'}); console.log('Result:', res); process.exit(0); })();

@@ -23,8 +23,11 @@ const figtree = Figtree({
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
   const pathname = headersList.get("x-current-path") || "/";
-  const siteUrl = process.env.SITE_URL || "https://www.safalinfosoft.com";
-  const currentUrl = `${siteUrl}${pathname}`;
+  const siteUrl = (process.env.SITE_URL || "https://www.safalinfosoft.com").replace(
+    /\/$/,
+    ""
+  );
+  const currentUrl = `${siteUrl}${pathname.startsWith("/") ? pathname : `/${pathname}`}`;
 
   return {
     metadataBase: new URL(siteUrl),

@@ -1,1 +1,0 @@
-import nodemailer from 'nodemailer'; const transporter = nodemailer.createTransport({ host: 'smtppro.zoho.com', port: 465, secure: true, auth: { user: 'inquiry@safalinfosoft.com', pass: 'R2a;9*sC5$++bTG?' } }); transporter.verify((error, success) => { if (error) { console.error('Error:', error); } else { console.log('Server is ready to take our messages'); } process.exit(0); });
