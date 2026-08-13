@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './MultiplierSection.module.css';
 
+// const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+
 export interface MultiplierSectionProps {
   title?: string;
   description1?: string;
@@ -14,11 +16,11 @@ export interface MultiplierSectionProps {
 
 export default function MultiplierSection(
   {
-  title = "The Multiplier Effect",
+  title = "The Multiplier Effect11",
   description1 = "In our ecosystem, collective strength always exceeds individual capability. Safal is built on the belief that aligned teams outperform isolated brilliance.",
   description2 = "When expertise across functions, geographies, and disciplines converges, the outcome is not incremental; it is exponential. We prioritize collaboration over silos, ensuring every initiative benefits from the shared intelligence of the entire organization.",
   description3 = "This approach allows us to scale not just faster, but smarter, delivering outcomes backed by depth, not dependency.",
-  imageSrc = `/images/Values-&-Culture/Multipiler effect.webp`, 
+  imageSrc = `/images/Values-&-Culture/Multipiler-effect.webp`, 
   imageAlt = "Capitalizing on the future hourglass",
   reverse = false
 }: MultiplierSectionProps

@@ -147,7 +147,7 @@ export default function Footer() {
                 <ul className={styles.linkList}>
                   <li className={styles.linkItem}><Link href="/life-at-safal">Life at Safal</Link></li>
                   {/* <li className={styles.linkItem}><Link href="/open-positions">Open Positions</Link></li> */}
-                  <li className={styles.linkItem}><Link href="/internships-mentorship">Internships & Mentorship</Link></li>
+                  {/* <li className={styles.linkItem}><Link href="/internships-mentorship">Internships & Mentorship</Link></li> */}
                 </ul>
               </div>
             </div>

@@ -159,10 +159,10 @@ export default function PrivacyPolicyPage() {
 
             <h2 className="title_40 mt_40 mb_20">Contact Us</h2>
             <p className="para_16 mb_15">If you have any questions regarding this Privacy Policy, your personal information, or our privacy practices, please contact us:</p>
-            <p className="para_16 mb_15">
+           <p className="para_16 mb_15">
               <strong>Safal</strong><br />
-              Email: <a href="mailto:info@safal.com" style={{ color: 'var(--red)', textDecoration: 'underline' }}>[Insert Email Here]</a><br />
-              Website: <a href="#" style={{ color: 'var(--red)', textDecoration: 'underline' }}>[Insert Website URL Here]</a>
+              Email: <a href="mailto:hello@safalinfosoft.com" style={{ color: 'var(--red)', textDecoration: 'underline' }} target='_blank'>hello@safalinfosoft.com</a><br />
+              Website: <a href="https://safalinfosoft.com/" style={{ color: 'var(--red)', textDecoration: 'underline' }} target='_blank'>https://safalinfosoft.com</a>
             </p>
 
           </div>
