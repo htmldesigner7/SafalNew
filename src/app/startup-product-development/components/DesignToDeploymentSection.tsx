@@ -4,34 +4,7 @@ import React, { useState } from 'react';
 import styles from './DesignToDeploymentSection.module.css';
 import { withBasePath } from '@/utils/withBasePath';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
 
-const circles = [
-  {
-    id: 'uiux',
-    title: 'UI/UX Design',
-    desc: 'Designs intuitive product interfaces and user journeys aligned with usability and functional clarity.',
-    img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/ui-ux.webp`,
-    className: styles.leftCircle,
-    nodes: [1, 2, 3, 4]
-  },
-  {
-    id: 'eng',
-    title: 'Engineering',
-    desc: 'Delivers scalable product development through structured coding practices and modern frameworks.',
-    img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/engineerring.webp`,
-    className: styles.centerCircle,
-    nodes: [5, 6]
-  },
-  {
-    id: 'devops',
-    title: 'DevOps',
-    desc: 'Implements infrastructure, deployment pipelines, and monitoring systems to ensure stability and scalability.',
-    img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/devops.webp`,
-    className: styles.rightCircle,
-    nodes: [7]
-  },
-];
 
 // Re-calibrated nodes for perfect 1-to-1 alignment with Figma
 const nodes = [
@@ -45,6 +18,35 @@ const nodes = [
 ];
 
 export default function DesignToDeploymentSection() {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+
+  const circles = [
+    {
+      id: 'uiux',
+      title: 'UI/UX Design',
+      desc: 'Designs intuitive product interfaces and user journeys aligned with usability and functional clarity.',
+      img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/ui-ux.webp`,
+      className: styles.leftCircle,
+      nodes: [1, 2, 3, 4]
+    },
+    {
+      id: 'eng',
+      title: 'Engineering',
+      desc: 'Delivers scalable product development through structured coding practices and modern frameworks.',
+      img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/engineerring.webp`,
+      className: styles.centerCircle,
+      nodes: [5, 6]
+    },
+    {
+      id: 'devops',
+      title: 'DevOps',
+      desc: 'Implements infrastructure, deployment pipelines, and monitoring systems to ensure stability and scalability.',
+      img: `${siteUrl}/images/Startup-Product-Development-&-Consulting/devops.webp`,
+      className: styles.rightCircle,
+      nodes: [7]
+    },
+  ];
+
   const [active, setActive] = useState('eng');
 
   return (
