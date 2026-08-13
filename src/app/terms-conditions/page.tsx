@@ -1,5 +1,6 @@
 import React from 'react';
 import InnerPageHero from '@/components/sections/InnerPageHero/InnerPageHero';
+import { Link } from 'lucide-react';
 
 export default function TermsConditionsPage() {
   const heroData = {
@@ -126,8 +127,8 @@ export default function TermsConditionsPage() {
             <p className="para_16 mb_15">For any questions regarding these Terms & Conditions or the use of this website, please contact:</p>
             <p className="para_16 mb_15">
               <strong>Safal</strong><br />
-              Email: <a href="mailto:info@safal.com" style={{ color: 'var(--red)', textDecoration: 'underline' }}>[Insert Email Here]</a><br />
-              Website: <a href="#" style={{ color: 'var(--red)', textDecoration: 'underline' }}>[Insert Website URL Here]</a>
+              Email: <a href="mailto:hello@safalinfosoft.com" style={{ color: 'var(--red)', textDecoration: 'underline' }} target='_blank'>hello@safalinfosoft.com</a><br />
+              Website: <a href="https://safalinfosoft.com/" style={{ color: 'var(--red)', textDecoration: 'underline' }} target='_blank'>https://safalinfosoft.com</a>
             </p>
 
           </div>

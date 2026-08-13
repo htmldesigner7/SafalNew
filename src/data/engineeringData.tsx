@@ -21,7 +21,7 @@ export const engineeringData: EngineeringContent = {
       subtitle: "",
       title: "Autonomous Logistics",
       description: "Optimizing movement through intelligent systems and predictive operations.",
-      imageSrc: `/images/our-story/Our-Story/Decentralized-Security.webp` 
+      imageSrc: `/images/our-story/Our-Story/Autonomous-Logistics.webp` 
     },
     {
       id: "finance",
