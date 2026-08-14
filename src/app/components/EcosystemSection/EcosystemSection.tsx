@@ -10,7 +10,7 @@ const products = [
     id: 'DataNote',
     name: 'DataNote',
     image: `/images/Homepage/Datanote.webp`,
-    logoimage: `/images/datanote-logo.png`,
+    logoimage: `/images/Homepage/datanote-logo.svg`,
     description: <>
     <p>DataNote is Safal’s enterprise platform designed to unify business operations, data, and decision-making within a single system. It enables organizations to manage processes, improve visibility, and maintain operational control across functions.</p>
     <p>Built for scalability and adaptability, DataNote supports structured growth across diverse enterprise environments.</p>
