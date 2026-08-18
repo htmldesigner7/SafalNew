@@ -21,20 +21,32 @@ const transporter = nodemailer.createTransport({
     greetingTimeout: 5000,
     socketTimeout: 5000,
     tls: {
-        rejectUnauthorized: false
-    }
+        rejectUnauthorized: false,
+    },
 });
+
+const stripHtml = (value: string) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
 export const sendMail = async ({ to, subject, html, attachments }: MailOptions) => {
     try {
+        const senderEmail = process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER;
+        const replyToEmail = process.env.REPLY_TO_EMAIL || process.env.ADMIN_MAIL_TO || senderEmail;
+
         const info = await transporter.sendMail({
-            from: `"Safal" <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
+            from: `"Safal" <${senderEmail}>`,
+            replyTo: replyToEmail,
             to,
             subject,
+            text: stripHtml(html),
             html,
             attachments,
-            });
-            console.log("Message sent: %s", info.messageId);
+            headers: {
+                "X-Mailer": "Safal Web App",
+                "X-Entity-Ref-ID": Date.now().toString(),
+            },
+        });
+
+        console.log("Message sent: %s", info.messageId);
         return { success: true, messageId: info.messageId };
     } catch (error) {
         console.error("Error sending email: ", error);

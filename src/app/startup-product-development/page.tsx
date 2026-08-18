@@ -51,7 +51,7 @@ export default function StartupProductDevelopmentPage() {
         activeColor="#60853A"
       />
 
-      <DesignToDeploymentSection />
+      {/* <DesignToDeploymentSection /> */}
 
       <FeatureCards data={flexibleEngagementData} />
 
