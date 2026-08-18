@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import styles from './DesignToDeploymentSection.module.css';
-import { withBasePath } from '@/utils/withBasePath';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
 
@@ -59,7 +58,8 @@ export default function DesignToDeploymentSection() {
             <div
               key={circle.id}
               className={`${styles.circle} ${circle.className} ${active === circle.id ? styles.activeCircle : ''}`}
-             style={{ backgroundImage: `url('${withBasePath(circle.img)}')`, opacity: active === circle.id ? 1 : 0 }}
+              style={{ zIndex: active === circle.id ? 10 : 1 }}
+              onMouseEnter={() => setActive(circle.id)}
             >
               <div
                 className={styles.bgImage}
