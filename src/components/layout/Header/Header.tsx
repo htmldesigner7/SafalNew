@@ -65,14 +65,14 @@ export default function Header() {
       href: '#',
       hasDropdown: true,
       dropdownItems: [
-        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
-        { title: 'Financial Accounting Solutions', href: '/financial-accounting-solutions' },
-        { title: 'Technology Staffing', href: '/technology-staffing' },
+        { title: 'Enterprise Products & Platforms', href: '/enterprise-products' },
         { title: 'Brand, Digital & Creative Services', href: '/brand-digital-creative-services' },
+        { title: 'Startup Product Development & Consulting', href: '/startup-product-development' },
+        { title: 'Industrial Automation & IoT', href: '/industrial-automation' },
         { title: 'AI & Emerging Technology', href: '/ai-emerging-technology' },
-        { title: 'Startup Product Development', href: '/startup-product-development' },
-        { title: 'Enterprise Products', href: '/enterprise-products' },
-        { title: 'Industrial Automation & IoT', href: '/industrial-automation' }
+        { title: 'Business & Financial Advisory', href: '/business-financial-advisory' },
+        { title: 'Financial Accounting', href: '/financial-accounting-solutions' },
+        { title: 'Technology Staffing', href: '/technology-staffing' },
       ]
     },
     { title: 'Industries We Serve', href: '/industries-we-serve', hasDropdown: false },

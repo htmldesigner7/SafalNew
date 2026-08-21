@@ -33,7 +33,7 @@ export default function ContactLocations() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <p>Titan Business Towers, S.G. Highway,<br />Thaltej, Ahmedabad, Gujarat 380054</p>
+                    <p>Shivalik Corporate Park, B Wing, Second Floor, 202-202A, 205-205A, Opp. Ashwamedh Bunglows Part, Behind Sainik Petrol Pump, Nr Shymal Cross Roads, Satellite, Ahmedabad 380015</p>
                   </div>
 
                   <div className={styles.contactItems}>
@@ -67,7 +67,7 @@ export default function ContactLocations() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <p>Business Bay, PO Box 3345,<br />Dubai, United Arab Emirates</p>
+                    <p>1141, 11th Floor, Tamani Arts Building, Business Bay, Dubai - United Arab Emirates</p>
                   </div>
                   <div className={styles.contactItemsStacked}>
                     <div className={styles.contactItem}>
@@ -95,7 +95,7 @@ export default function ContactLocations() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <p>285 W 23rd St, New York,<br />NY 10011, United States</p>
+                    <p>5511 Mercier Street, Lewis Center, Ohio 43035 United States</p>
                   </div>
                   <div className={styles.contactItemsStacked}>
                     {/* <div className={styles.contactItem}>
