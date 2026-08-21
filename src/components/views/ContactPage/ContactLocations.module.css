@@ -38,16 +38,17 @@
 }
 
 .indiaOfficeContent {
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 24px;
 }
 
 .indiaOfficeContent .addressItem:first-child {
-  border-right: 1px solid var(--grey-ddd);
+  /* border-right: 1px solid var(--grey-ddd); */
   padding-right: 16px;
   margin-right: 16px;
+  margin-bottom: 16px;
 }
 
 .addressItem {

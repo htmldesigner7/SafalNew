@@ -33,7 +33,7 @@ export default function ContactLocations() {
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <p>Shivalik Corporate Park, B Wing, Second Floor, 202-202A, 205-205A, Opp. Ashwamedh Bunglows Part, Behind Sainik Petrol Pump, Nr Shymal Cross Roads, Satellite, Ahmedabad 380015</p>
+                    <p>Shivalik Corporate Park, B Wing, 2nd Floor, 202-202A, 205-205A, Opp. Ashwamedh Bunglows Part, Behind Sainik Petrol Pump, Nr Shymal Cross Roads, Satellite, Ahmedabad 380015</p>
                   </div>
 
                   <div className={styles.contactItems}>
