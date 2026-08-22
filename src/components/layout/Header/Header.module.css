@@ -384,6 +384,7 @@ button.navLink {
   }
   .navigation {
     padding: 0px 5% 40px 5%;
+    gap: 20px;
   }
   .navLink, button.navLink {
     font-size: 18px;
