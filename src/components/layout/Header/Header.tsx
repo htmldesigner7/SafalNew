@@ -172,7 +172,7 @@ export default function Header() {
                 </Link>
               )}
               {link.hasDropdown && link.dropdownItems && openDropdown === link.title && (
-                <div className={styles.dropdownMenu}>
+                <div className={`${styles.dropdownMenu} ${link.title === 'Our Division' ? styles.wideDropdown : ''}`}>
                   {link.dropdownItems.map((item, i) => (
                     <Link 
                       key={i} 
