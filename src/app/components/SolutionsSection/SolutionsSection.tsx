@@ -137,10 +137,10 @@ export default function SolutionsSection() {
           <div className={styles.statsRow}>
             <div className={styles.statCard}>
               <div className={styles.statValue}>
-                <AnimatedCounter value={174} prefix="₹" suffix=" Crore" />
+                <AnimatedCounter value={20} prefix="" suffix="+ Years" />
               </div>
               <div className={styles.statDivider}></div>
-              <p>Strategic Exit Delivered</p>
+              <p>Technology & Business Experience</p>
             </div>
             <div className={styles.statCard}>
               <div className={styles.statValue}>
@@ -158,10 +158,10 @@ export default function SolutionsSection() {
             </div>
             <div className={styles.statCard}>
               <div className={styles.statValue}>
-                <AnimatedCounter value={500000} suffix="+" />
+                <AnimatedCounter value={2500} suffix="+" />
               </div>
               <div className={styles.statDivider}></div>
-              <p>Industrial Assets Managed</p>
+              <p>Projects & Implementations Delivered</p>
             </div>
           </div>
 

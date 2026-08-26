@@ -30,6 +30,7 @@ export default function DivisionsSection() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <h3 className={styles.cardTitle}>Safal Infosoft Ltd.</h3>
+                <img src="https://flagcdn.com/w40/in.png" alt="India Flag" className={styles.flag} />
               </div>
             </div>
  
@@ -46,7 +47,7 @@ export default function DivisionsSection() {
               </div>
               <div className={`${styles.card} ${styles.cardLeftTree}`}>
                 <div className={styles.animatedCardLineLeft} />
-                <h3 className={styles.cardTitle}>Ideoz Ventures</h3>
+                <h3 className={styles.cardTitle}>Ideaz Ventures India Pvt. Ltd.</h3>
                 <img src="https://flagcdn.com/w40/in.png" alt="India Flag" className={styles.flag} />
               </div>
             </div>

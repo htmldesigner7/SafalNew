@@ -52,11 +52,11 @@ const products = [
   },
   {
     id: 'ProPulse',
-    name: 'ProPulse',
+    name: 'PropPulse',
     image: `/images/Homepage/Propluse.jpg`,
     logoimage: `/images/propluse.png`,
     description: <>
-    <p>ProPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
+    <p>PropPulse is designed to provide real-time insights into business performance through structured data monitoring and analytics. It enables organizations to track key metrics, identify trends, and support informed decision-making.</p>
     <p>The platform strengthens operational intelligence while maintaining consistency across reporting and analysis.</p>
     </>,
     link: '/enterprise-products'
