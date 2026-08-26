@@ -91,6 +91,7 @@ export default function Header() {
       hasDropdown: true,
       dropdownItems: [
         { title: 'Blogs', href: '/blogs' },
+        { title: 'Case Studies', href: '/case-studies' },
         { title: 'Brochures', href: '/brochures' },
         // { title: 'Webinars', href: '/webinars' }
       ]

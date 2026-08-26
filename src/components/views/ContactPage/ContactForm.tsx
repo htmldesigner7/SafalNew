@@ -81,14 +81,14 @@ export default function ContactForm() {
                   <div className={styles.selectWrapper}>
                     <select {...register("service")}>
                       <option value="">Select a division</option>
-                      <option value="Business & Financial Advisory">Business & Financial Advisory</option>
-                      <option value="Financial Accounting Solutions">Financial Accounting Solutions</option>
-                      <option value="Technology Staffing">Technology Staffing</option>
+                      <option value="Enterprise Products & Platforms">Enterprise Products & Platforms</option>
                       <option value="Brand, Digital & Creative Services">Brand, Digital & Creative Services</option>
-                      <option value="AI & Emerging Technology">AI & Emerging Technology</option>
-                      <option value="Startup Product Development">Startup Product Development</option>
-                      <option value="Enterprise Products">Enterprise Products</option>
+                      <option value="Startup Product Development & Consulting">Startup Product Development & Consulting</option>
                       <option value="Industrial Automation & IoT">Industrial Automation & IoT</option>
+                      <option value="AI & Emerging Technology">AI & Emerging Technology</option>
+                      <option value="Business & Financial Advisory">Business & Financial Advisory</option>
+                      <option value="Financial Accounting">Financial Accounting</option>
+                      <option value="Technology Staffing">Technology Staffing</option>
                     </select>
                   </div>
                 </div>
