@@ -22,7 +22,7 @@ export default function GlobalPresenceSection() {
           </p>
 
          
-            <Link href="/enterprise-products" className={`btn-outline btn-outline-red mt_40 ${styles.exploreBtn}`}>
+            <Link href="/enterprise-products" className={`btn-outline btn-outline-red mt_40 `}>
               Explore our Products
             </Link>
         </div>
