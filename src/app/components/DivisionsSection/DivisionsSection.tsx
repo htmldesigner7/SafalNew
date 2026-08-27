@@ -26,13 +26,7 @@ export default function DivisionsSection() {
               <div className={styles.animatedLineRight} />
             </div>
  
-            {/* Column 1 */}
-            <div className={styles.column}>
-              <div className={styles.card}>
-                <h3 className={styles.cardTitle}>Safal Infosoft Ltd.</h3>
-                <img src="https://flagcdn.com/w40/in.png" alt="India Flag" className={styles.flag} />
-              </div>
-            </div>
+
  
             {/* Column 2 (Split Left) */}
             <div className={styles.columnSplitLeft}>
@@ -55,15 +49,9 @@ export default function DivisionsSection() {
             {/* Column 3 (Center) */}
             <div className={styles.columnCenter}>
               <div className={styles.cardCenter}>
-                {/* Center Image (Static) */}
                 <div className={styles.centerImageWrapper}>
-                  <Image
-                    src={`/images/Homepage/Diversified-Technology.png`}
-                    alt="Team assembling puzzle"
-                    width={120}
-                    height={120}
-                    className={styles.centerImage}
-                  />
+                  <h3 className={styles.cardTitle} style={{ marginBottom: '4px' }}>Safal Infosoft Ltd.</h3>
+                  <img src="https://flagcdn.com/w40/in.png" alt="India Flag" className={styles.flag} style={{ marginTop: '4px' }} />
                 </div>
               </div>
             </div>
@@ -81,18 +69,11 @@ export default function DivisionsSection() {
               </div>
               <div className={`${styles.card} ${styles.cardRightTree}`}>
                 <div className={styles.animatedCardLineRight} />
-                <h3 className={styles.cardTitle}>Safal Automation<br />Inc.</h3>
+                <h3 className={styles.cardTitle}>Safal Infosoft<br />Inc.</h3>
                 <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" className={styles.flag} />
               </div>
             </div>
  
-            {/* Column 5 */}
-            <div className={styles.column}>
-              <div className={styles.card}>
-                <h3 className={styles.cardTitle}>Safal Infosoft Inc.</h3>
-                <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" className={styles.flag} />
-              </div>
-            </div>
  
           </div>
         </div>
